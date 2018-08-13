@@ -17,12 +17,24 @@
       </file>
     </filemarks>
     <jumps />
-    <registers />
+    <registers>
+      <register name=":" type="4">
+        <text>42</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
-    <history />
+    <history>
+      <history-search />
+      <history-cmd>
+        <entry>42</entry>
+        <entry>%s/a//ng</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed W</text>
