@@ -9,12 +9,14 @@
         <mark key="^" line="10" column="42" />
         <mark key="." line="10" column="42" />
       </file>
+      <file name="C:/Develop/photoBank/api-trends/hayarundesu/src/main/java/com/ff/trendtracker/hayarundesu/controller/TrendsController.java" timestamp="1534141930185" />
       <file name="C:/Develop/PlayGround/app.js" timestamp="1517969073259">
         <mark key="[" line="8" column="33" />
         <mark key="]" line="9" column="0" />
         <mark key="^" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
+      <file name="C:/Develop/photoBank/api-recommender/recommender/src/main/java/com/ff/trendtracker/recommender/controller/RecommenderController.java" timestamp="1534141792974" />
     </filemarks>
     <jumps />
     <registers>
@@ -41,6 +43,15 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
