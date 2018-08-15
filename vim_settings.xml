@@ -21,6 +21,12 @@
         <mark key="^" line="29" column="0" />
         <mark key="." line="29" column="0" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.yml" timestamp="1534316063608">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="2" column="4" />
+        <mark key="^" line="2" column="4" />
+        <mark key="." line="2" column="4" />
+      </file>
       <file name="C:/Develop/photoBank/api-trends/hayarundesu/src/main/java/com/ff/trendtracker/hayarundesu/controller/TrendsController.java" timestamp="1534214076272">
         <mark key="'" line="92" column="0" />
         <mark key="[" line="24" column="0" />
@@ -35,6 +41,9 @@
         <mark key="." line="9" column="0" />
       </file>
       <file name="C:/Develop/photoBank/api-trends/.gitignore" timestamp="1534215218524">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="C:/Develop/photoBank/scratch.yml" timestamp="1534316126214">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="C:/Develop/photoBank/photobank-master/src/app/view/upload-view/upload-view.component.ts" timestamp="1534143123219">
