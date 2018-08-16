@@ -15,6 +15,12 @@
         <mark key="^" line="58" column="23" />
         <mark key="." line="58" column="23" />
       </file>
+      <file name="C:/Develop/ConcurrentInPractice/src/Main.java" timestamp="1534401705720">
+        <mark key="[" line="8" column="25" />
+        <mark key="]" line="8" column="25" />
+        <mark key="^" line="8" column="25" />
+        <mark key="." line="8" column="25" />
+      </file>
       <file name="C:/Develop/photoBank/api-photo/infra/db.js" timestamp="1534144308190">
         <mark key="[" line="9" column="15" />
         <mark key="]" line="29" column="0" />
@@ -58,11 +64,11 @@
       <jump line="92" column="0" filename="C:/Develop/photoBank/api-trends/hayarundesu/src/main/java/com/ff/trendtracker/hayarundesu/controller/TrendsController.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>yes</text>
