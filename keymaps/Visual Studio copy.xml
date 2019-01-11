@@ -1,0 +1,59 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="AddToFavoritesPopup" />
+  <action id="Arrangement.Rule.Edit" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="EditorDuplicate" />
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="JumpToLastChange" />
+  <action id="MethodHierarchy.OverrideMethodAction" />
+  <action id="MoveLineUp" />
+  <action id="NextTab" />
+  <action id="OverrideMethods" />
+  <action id="PreviousTab" />
+  <action id="Print" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="RerunTests" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+  </action>
+  <action id="VimReformatVisual">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="VimWindowSplitHorizontal">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+  </action>
+  <action id="VimWindowSplitVertical">
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
+</keymap>
