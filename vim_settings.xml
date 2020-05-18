@@ -162,9 +162,9 @@
         <mark key="]" line="35" column="28" />
         <mark key="n" line="9" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589765839198">
-        <mark key="[" line="143" column="82" />
-        <mark key="]" line="143" column="119" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589767569555">
+        <mark key="[" line="139" column="16" />
+        <mark key="]" line="139" column="33" />
         <mark key="." line="143" column="118" />
         <mark key="^" line="143" column="119" />
       </file>
@@ -172,10 +172,9 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1589552439460">
         <mark key="'" line="374" column="42" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-task/aletheia-task-dao/src/main/java/com/rakuten/fpg/aletheia/task/dao/repository/JudgementInfoRepository.java" timestamp="1589511125679">
-        <mark key="[" line="30" column="24" />
-        <mark key="]" line="30" column="24" />
-        <mark key="." line="30" column="24" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589767555017">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="474" column="5" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1589550480255">
         <mark key="'" line="580" column="51" />
@@ -186,7 +185,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="336" column="46" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="337" column="29" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="339" column="84" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="344" column="72" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -286,6 +284,7 @@
       <jump line="112" column="44" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="107" column="40" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="251" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -294,7 +293,7 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>getProfileId()</text>
+        <text>copyRulesToProfile</text>
       </register>
       <register name="-" type="4">
         <text>getProfileId()</text>
@@ -303,7 +302,7 @@
         <text>copy</text>
       </register>
       <register name="0" type="4">
-        <text>BillingAddressLine1</text>
+        <text>copyRulesToProfile</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CUZpZWxkVHlwZSBzdHJpbmcK</text>
