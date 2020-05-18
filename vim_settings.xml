@@ -116,7 +116,7 @@
         <mark key="^" line="581" column="17" />
         <mark key="." line="581" column="16" />
       </file>
-      <file name="/GraphQL.result.json" timestamp="1589719800750">
+      <file name="/GraphQL.result.json" timestamp="1589808014135">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1589553561503">
@@ -133,6 +133,12 @@
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" timestamp="1589550310281">
         <mark key="'" line="7" column="5" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1589808514637">
+        <mark key="[" line="72" column="3" />
+        <mark key="]" line="71" column="3" />
+        <mark key="^" line="71" column="3" />
+        <mark key="." line="71" column="2" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1589552274021">
         <mark key="'" line="5" column="7" />
@@ -176,9 +182,6 @@
         <mark key="[" line="30" column="24" />
         <mark key="]" line="30" column="24" />
         <mark key="." line="30" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/case/CaseDetail.jsx" timestamp="1589510451167">
-        <mark key="'" line="568" column="67" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/validator/CaseValidator.java" timestamp="1589510866175">
         <mark key="'" line="175" column="11" />
