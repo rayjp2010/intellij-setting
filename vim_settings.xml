@@ -114,6 +114,12 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-web/src/main/resources/static/app/components/search/searchProperties.js" timestamp="1589533860695">
         <mark key="'" line="5" column="22" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/Rule.java" timestamp="1589791095177">
+        <mark key="[" line="119" column="28" />
+        <mark key="]" line="119" column="41" />
+        <mark key="." line="119" column="40" />
+        <mark key="^" line="119" column="41" />
+      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1589783726457">
         <mark key="'" line="5" column="7" />
         <mark key="[" line="80" column="0" />
@@ -149,13 +155,6 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="73" column="28" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1589531022996">
-        <mark key="'" line="96" column="23" />
-        <mark key="[" line="99" column="23" />
-        <mark key="]" line="101" column="10" />
-        <mark key="." line="101" column="9" />
-        <mark key="^" line="101" column="10" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1589553486791">
         <mark key="'" line="107" column="40" />
         <mark key="[" line="107" column="46" />
@@ -163,12 +162,12 @@
         <mark key="^" line="107" column="53" />
         <mark key="." line="107" column="55" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589777524142">
-        <mark key="'" line="152" column="45" />
-        <mark key="[" line="28" column="58" />
-        <mark key="]" line="28" column="107" />
-        <mark key="." line="143" column="118" />
-        <mark key="^" line="143" column="119" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589791194484">
+        <mark key="'" line="157" column="45" />
+        <mark key="[" line="204" column="46" />
+        <mark key="]" line="205" column="25" />
+        <mark key="." line="205" column="24" />
+        <mark key="^" line="205" column="25" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" timestamp="1589787636141">
         <mark key="'" line="15" column="13" />
@@ -298,49 +297,45 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="4">
-        <text>compare(
-                current.getOrganization().getOrganizationName(),
-                previous == null ? StringUtils.EMPTY : previous.getOrganization().getOrganizationName(),
-                actionType
-            )</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbW9kZWwuZ2V0T3JnYW5pemF0aW9uKCkuZ2V0T3JnYW5pemF0aW9uSWQoKSwK</text>
       </register>
       <register name="-" type="4">
-        <text>setProfileName(&quot;asd&quot;);</text>
+        <text>OrganizationService</text>
       </register>
       <register name="/" type="4">
         <text>ref</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIE9yZGVySUQoIlJlcXVlc3QiKSwKICAgIFJlcXVlc3REYXRlKCJSZXF1ZXN0IiksCiAgICBNZXJjaGFudElEKCJSZXF1ZXN0IiksCiAgICBFYXN5SUQoIlNob3BwZXIiKSwKICAgIEVtYWlsKCJTaG9wcGVyIiksCiAgICBNZW1iZXJSYW5rKCJTaG9wcGVyIiksCiAgICBJUEFkZHJlc3MoIkdlb0RhdGEiKSwKICAgIFNlc3Npb25JZCgiU2hvcHBlciIpLAogICAgUnBDb29raWUoIlNob3BwZXIiKSwKICAgIElQQ291bnRyeSgiU2hpcHBpbmciKSwKICAgIFBob25lKCJTaGlwcGluZyIpLAogICAgT3JkZXJBbW91bnQoIlBheW1lbnQiKSwKICAgIFBheW1lbnRNZXRob2QoIlBheW1lbnQiKSwKICAgIENhcmRGaW5nZXJwcmludCgiQ3JlZGl0Q2FyZCIpLAogICAgUmVkZWVtZWRQb2ludHMoIlBheW1lbnQiKSwKICAgIENvdXBvbkRpc2NvdW50KCJQYXltZW50IiksCiAgICBTaGlwcGluZ0NvdXBvbkRpc2NvdW50KCJQYXltZW50IiksCiAgICBQb3N0YWxDb2RlKCJTaGlwcGluZyIpLAogICAgU2hpcHBpbmdBZGRyZXNzKCJTaGlwcGluZyIpLAogICAgTUxTY29yZSgiQ2FzZSIpLAogICAgTUxUaHJlc2hvbGQoIkNhc2UiKSwKICAgIE1MUmVzdWx0KCJDYXNlIiksCiAgICBSdWxlSGl0KCJDYXNlIiksCiAgICBMaXN0SGl0KCJDYXNlIiksCiAgICBMaXN0VHlwZSgiQ2FzZSIpLAogICAgUmV2aWV3ZXJOYW1lKCJDYXNlIiksCiAgICBFdmFsdWF0aW9uTWVzc2FnZSgiQ2FzZSIpLAogICAgQ29tbWVudCgiQ2FzZSIpLAogICAgQ2FyZFRva2VuKCJDcmVkaXRDYXJkIiksCiAgICBDYXJkRnJhZ21lbnQoIkNyZWRpdENhcmQiKSwKICAgIEl0ZW1OYW1lKCJJdGVtIiksCiAgICBDYXRlZ29yeSgiSXRlbSIpLAogICAgU3ViRXZhbHVhdGlvbk1lc3NhZ2UoIkNhc2UiKSwKICAgIFNoaXBwaW5nTmFtZSgiU2hpcHBpbmciKSwKICAgIERlbGl2ZXJ5RGF0ZSgiU2hpcHBpbmciKSwKICAgIENhcmRIb2xkZXIoIkNyZWRpdENhcmQiKSwKICAgIENhcmRCaW5Db3VudHJ5KCJDcmVkaXRDYXJkIiksCiAgICBPcHAoIlJlcXVlc3QiKSwKICAgIEFzdXJha3UoIlJlcXVlc3QiKSwKICAgIENhcmRIYXNoKCJDcmVkaXRDYXJkIiksCiAgICBDYXJkQ291bnRyeUNvZGVzKCJDcmVkaXRDYXJkIiksCiAgICBQcm9jZXNzVGltZSgiQ2FzZSIpLAogICAgLypNYXhNaW5kIFByb2plY3QqLwogICAgTU1JUENvdW50cnkoIlNob3BwZXIiKSwKICAgIE1NQ2l0eSgiR2VvRGF0YSIpLAogICAgTU1MYXRpdHVkZSgiTG9jYXRpb24iKSwKICAgIE1NTG9uZ2l0dWRlKCJMb2NhdGlvbiIpLAogICAgTU1Jc3BOYW1lKCJJc3BJbmZvIiksCiAgICBNTUlzcE9yZ2FuaXphdGlvbigiSXNwSW5mbyIpLAogICAgTU1Eb21haW5OYW1lKCJHZW9EYXRhIiksCiAgICBNTUNvbm5lY3Rpb25UeXBlKCJHZW9EYXRhIiksCiAgICBNTUFub255bW91cygiQW5vbnltb3VzSXAiKSwKICAgIE1NQW5vbnltb3VzVlBOKCJBbm9ueW1vdXNJcCIpLAogICAgTU1Ub3JFeGl0Tm9kZXMoIkFub255bW91c0lwIiksCiAgICBNTUhvc3RpbmdQcm92aWRlckRhdGFDZW50ZXIoIkFub255bW91c0lwIiksCiAgICBNTVB1YmxpY1Byb3h5KCJBbm9ueW1vdXNJcCIpLAogICAgVHJhY2tpbmdJZCgiUmVxdWVzdCIpLAogICAgU2FsZXNUYXhBbW91bnQoIkFkZGl0aW9uYWxJdGVtSW5mbyIpLAogICAgRGVsaXZlcnlDb2RlKCJBZGRpdGlvbmFsSXRlbUluZm8iKSwKICAgIEl0ZW1Dc3RBbW91bnQoIkFkZGl0aW9uYWxJdGVtSW5mbyIpLAogICAgSXRlbVBhcnRpdGlvblR5cGUoIkFkZGl0aW9uYWxJdGVtSW5mbyIpLAogICAgUHJvZHVjdFNrdSgiQWRkaXRpb25hbEl0ZW1JbmZvIiksCiAgICBJdGVtTWFuUGFydE5vKCJBZGRpdGlvbmFsSXRlbUluZm8iKSwKICAgIENhdGVnb3J5SWQoIkFkZGl0aW9uYWxJdGVtSW5mbyIpLAogICAgQmlsbGluZ0FkZHJlc3NMaW5lMSgiQmlsbGluZyIpLAogICAgQmlsbGluZ0FkZHJlc3NMaW5lMigiQmlsbGluZyIpLAogICAgQmlsbGluZ0NpdHkoIkJpbGxpbmciKSwKICAgIEJpbGxpbmdDb3VudHJ5KCJCaWxsaW5nIiksCiAgICBCaWxsaW5nUG9zdENvZGUoIkJpbGxpbmciKSwKICAgIEF2c1Jlc3BvbnNlQ29kZSgiQ3JlZGl0Q2FyZCIpLAogICAgU2hpcHBpbmdDaXR5KCJTaGlwcGluZyIpCg==</text>
+      <register name="0" type="4">
+        <text>OrganizationService</text>
       </register>
-      <register name="1" type="4">
-        <text>compare(
-                current.getOrganization().getOrganizationName(),
-                previous == null ? StringUtils.EMPTY : previous.getOrganization().getOrganizationName(),
-                actionType
-            )</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbW9kZWwuZ2V0T3JnYW5pemF0aW9uKCkuZ2V0T3JnYW5pemF0aW9uSWQoKSwK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFNlYXJjaFRyUHJvcGVydHlOYW1lKFN0cmluZyB0eXBlUHJvcGVydHkpewogICAgICAgIHRoaXMudHlwZVByb3BlcnR5ID0gdHlwZVByb3BlcnR5OwogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbmFsIExvbmcgb3JnYW5pemF0aW9uSWQsCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZUluZm9Nb2RlbCkK</text>
+      <register name="3" type="4">
+        <text>compare(
+                current.getOrganization().getOrganizationName(),
+                previous == null ? StringUtils.EMPTY : previous.getOrganization().getOrganizationName(),
+                actionType
+            )</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZSkK</text>
+        <text encoding="base64">ICAgIFNlYXJjaFRyUHJvcGVydHlOYW1lKFN0cmluZyB0eXBlUHJvcGVydHkpewogICAgICAgIHRoaXMudHlwZVByb3BlcnR5ID0gdHlwZVByb3BlcnR5OwogICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBvdGhlclByb2ZpbGVJbmZvTW9kZWwuZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZUluZm9Nb2RlbCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9maWxlSW5mb01vZGVsLlByb2ZpbGVJbmZvTW9kZWxCdWlsZGVyKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9maWxlSW5mb01vZGVsLlByb2ZpbGVJbmZvTW9kZWxCdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICBvdGhlclByb2ZpbGVJbmZvTW9kZWwuZAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -742,10 +737,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0RXF1YWxzKGUuZ2V0TWVzc2FnZSgpLCAiUnVsZSBuYW1lIHNob3VsZCBiZSB1bmlxdWUgaW4gc2FtZSBvcmdhbml6YXRpb24uIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBQcm9maWxlSW5mb01vZGVsLlByb2ZpbGVJbmZvTW9kZWxCdWlsZGVyKCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBQcm9maWxlSW5mb01vZGVsLlByb2ZpbGVJbmZvTW9kZWxCdWlsZGVyCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
