@@ -111,9 +111,6 @@
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1589553561503">
         <mark key="'" line="251" column="25" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-web/src/main/resources/static/app/components/search/searchProperties.js" timestamp="1589533860695">
-        <mark key="'" line="5" column="22" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/Rule.java" timestamp="1589791095177">
         <mark key="[" line="119" column="28" />
         <mark key="]" line="119" column="41" />
@@ -130,9 +127,9 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" timestamp="1589782551687">
         <mark key="'" line="51" column="71" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589779260398">
-        <mark key="'" line="177" column="46" />
-        <mark key="[" line="155" column="99" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589792750744">
+        <mark key="'" line="186" column="27" />
+        <mark key="[" line="57" column="91" />
         <mark key="]" line="159" column="52" />
         <mark key="." line="159" column="51" />
         <mark key="^" line="159" column="52" />
@@ -162,6 +159,10 @@
         <mark key="^" line="107" column="53" />
         <mark key="." line="107" column="55" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/RuleManagementController.java" timestamp="1589792360469">
+        <mark key="[" line="63" column="58" />
+        <mark key="]" line="63" column="78" />
+      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589791194484">
         <mark key="'" line="157" column="45" />
         <mark key="[" line="204" column="46" />
@@ -190,7 +191,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="138" column="45" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="167" column="25" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="168" column="14" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="37" column="23" filename="$USER_HOME$/go/src/niffler/main.go" />
@@ -290,6 +290,7 @@
       <jump line="196" column="20" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="51" column="71" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" />
       <jump line="15" column="13" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" />
+      <jump line="186" column="27" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -297,8 +298,8 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbW9kZWwuZ2V0T3JnYW5pemF0aW9uKCkuZ2V0T3JnYW5pemF0aW9uSWQoKSwK</text>
+      <register name="*" type="4">
+        <text>/rules/updatepriority</text>
       </register>
       <register name="-" type="4">
         <text>OrganizationService</text>
@@ -307,7 +308,7 @@
         <text>ref</text>
       </register>
       <register name="0" type="4">
-        <text>OrganizationService</text>
+        <text>/rules/updatepriority</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbW9kZWwuZ2V0T3JnYW5pemF0aW9uKCkuZ2V0T3JnYW5pemF0aW9uSWQoKSwK</text>
