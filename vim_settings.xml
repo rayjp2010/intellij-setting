@@ -134,11 +134,16 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" timestamp="1589550310281">
         <mark key="'" line="7" column="5" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1589808514637">
-        <mark key="[" line="72" column="3" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1589813036338">
+        <mark key="[" line="26" column="21" />
         <mark key="]" line="71" column="3" />
         <mark key="^" line="71" column="3" />
         <mark key="." line="71" column="2" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/.editorconfig" timestamp="1589812875186">
+        <mark key="[" line="4" column="15" />
+        <mark key="]" line="4" column="15" />
+        <mark key="." line="4" column="15" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1589552274021">
         <mark key="'" line="5" column="7" />
@@ -182,9 +187,6 @@
         <mark key="[" line="30" column="24" />
         <mark key="]" line="30" column="24" />
         <mark key="." line="30" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/validator/CaseValidator.java" timestamp="1589510866175">
-        <mark key="'" line="175" column="11" />
       </file>
     </filemarks>
     <jumps>
@@ -293,13 +295,13 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
+        <text>space</text>
       </register>
       <register name="*" type="4">
         <text>,</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>space</text>
       </register>
       <register name="/" type="4">
         <text>merchantId</text>
