@@ -127,12 +127,12 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" timestamp="1589782551687">
         <mark key="'" line="51" column="71" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589792750744">
-        <mark key="'" line="186" column="27" />
-        <mark key="[" line="57" column="91" />
-        <mark key="]" line="159" column="52" />
-        <mark key="." line="159" column="51" />
-        <mark key="^" line="159" column="52" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589793324242">
+        <mark key="'" line="155" column="19" />
+        <mark key="[" line="67" column="52" />
+        <mark key="]" line="69" column="34" />
+        <mark key="^" line="69" column="34" />
+        <mark key="." line="69" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1589550480255">
         <mark key="'" line="580" column="51" />
@@ -191,8 +191,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="167" column="25" filename="$USER_HOME$/go/src/niffler/main.go" />
-      <jump line="168" column="14" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="37" column="23" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="20" column="4" filename="$USER_HOME$/go/src/niffler/infra/transport.go" />
       <jump line="204" column="0" filename="$USER_HOME$/go/src/niffler/main.go" />
@@ -291,6 +289,8 @@
       <jump line="51" column="71" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" />
       <jump line="15" column="13" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" />
       <jump line="186" column="27" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
+      <jump line="220" column="27" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
+      <jump line="152" column="19" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -299,10 +299,10 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>/rules/updatepriority</text>
+        <text>ruleInfoModel.getOrganization(),</text>
       </register>
       <register name="-" type="4">
-        <text>OrganizationService</text>
+        <text>ruleInfoModel.getOrganization(),</text>
       </register>
       <register name="/" type="4">
         <text>ref</text>
@@ -311,32 +311,32 @@
         <text>/rules/updatepriority</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbW9kZWwuZ2V0T3JnYW5pemF0aW9uKCkuZ2V0T3JnYW5pemF0aW9uSWQoKSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbW9kZWwuZ2V0T3JnYW5pemF0aW9uKCkuZ2V0T3JnYW5pemF0aW9uSWQoKSwK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbmFsIExvbmcgb3JnYW5pemF0aW9uSWQsCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>compare(
                 current.getOrganization().getOrganizationName(),
                 previous == null ? StringUtils.EMPTY : previous.getOrganization().getOrganizationName(),
                 actionType
             )</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIFNlYXJjaFRyUHJvcGVydHlOYW1lKFN0cmluZyB0eXBlUHJvcGVydHkpewogICAgICAgIHRoaXMudHlwZVByb3BlcnR5ID0gdHlwZVByb3BlcnR5OwogICAgfQo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZUluZm9Nb2RlbCkK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZSkK</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBvdGhlclByb2ZpbGVJbmZvTW9kZWwuZAo=</text>
+        <text encoding="base64">ICAgIFNlYXJjaFRyUHJvcGVydHlOYW1lKFN0cmluZyB0eXBlUHJvcGVydHkpewogICAgICAgIHRoaXMudHlwZVByb3BlcnR5ID0gdHlwZVByb3BlcnR5OwogICAgfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -738,10 +738,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9maWxlSW5mb01vZGVsLlByb2ZpbGVJbmZvTW9kZWxCdWlsZGVyKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZUluZm9Nb2RlbCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9maWxlSW5mb01vZGVsLlByb2ZpbGVJbmZvTW9kZWxCdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wcm9maWxlKG90aGVyUHJvZmlsZSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
