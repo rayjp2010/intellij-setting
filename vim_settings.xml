@@ -142,9 +142,6 @@
         <mark key="." line="300" column="10" />
         <mark key="^" line="295" column="49" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/case/CaseDetail.jsx" timestamp="1589510451167">
-        <mark key="'" line="568" column="67" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1589531022996">
         <mark key="'" line="96" column="23" />
         <mark key="[" line="99" column="23" />
@@ -165,9 +162,13 @@
         <mark key="]" line="35" column="28" />
         <mark key="n" line="9" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/validator/CaseValidator.java" timestamp="1589510866175">
-        <mark key="'" line="175" column="11" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589765839198">
+        <mark key="[" line="143" column="82" />
+        <mark key="]" line="143" column="119" />
+        <mark key="." line="143" column="118" />
+        <mark key="^" line="143" column="119" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/ProfileLogic.java" timestamp="1589765970518" />
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1589552439460">
         <mark key="'" line="374" column="42" />
       </file>
@@ -293,10 +294,10 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>,</text>
+        <text>getProfileId()</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>getProfileId()</text>
       </register>
       <register name="/" type="4">
         <text>copy</text>
