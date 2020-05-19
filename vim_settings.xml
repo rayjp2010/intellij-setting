@@ -131,11 +131,12 @@
         <mark key="." line="1197" column="73" />
         <mark key="^" line="1197" column="74" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589863298130">
-        <mark key="[" line="497" column="5" />
-        <mark key="]" line="499" column="9" />
-        <mark key="^" line="499" column="9" />
-        <mark key="." line="499" column="8" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589865343876">
+        <mark key="'" line="509" column="7" />
+        <mark key="[" line="508" column="103" />
+        <mark key="]" line="508" column="113" />
+        <mark key="." line="508" column="112" />
+        <mark key="^" line="508" column="113" />
       </file>
       <file name="/GraphQL.result.json" timestamp="1589719800750">
         <mark key="[" line="0" column="0" />
@@ -155,11 +156,11 @@
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589858646015">
-        <mark key="[" line="118" column="16" />
-        <mark key="]" line="118" column="32" />
-        <mark key="." line="120" column="0" />
-        <mark key="^" line="120" column="34" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589864653273">
+        <mark key="[" line="126" column="12" />
+        <mark key="]" line="126" column="28" />
+        <mark key="." line="126" column="17" />
+        <mark key="^" line="126" column="18" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" timestamp="1589787636141">
         <mark key="'" line="15" column="13" />
@@ -186,7 +187,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="195" column="35" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="88" column="15" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="200" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="99" column="41" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
@@ -286,6 +286,7 @@
       <jump line="215" column="24" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="33" column="43" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/test/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceTest.java" />
       <jump line="1428" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/test/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceTest.java" />
+      <jump line="504" column="7" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -294,40 +295,40 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>organizations</text>
+        <text>Long</text>
       </register>
       <register name="-" type="4">
-        <text>deletedRules.isNoEmpty()</text>
+        <text>Long</text>
       </register>
       <register name="/" type="4">
         <text>ref</text>
       </register>
       <register name="0" type="4">
-        <text>organizations</text>
+        <text>spyRuleService</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBMaXN0PFJ1bGU+IGRlbGV0ZVRhcmdldCA9IHJ1bGVTZXJ2aWNlLmZpbmRBbGxCeVByb2ZpbGVJZChwcm9maWxlSWQpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBMb25nIG9yZ2FuaXphdGlvbklkID0gZGVsZXRlZFJ1bGVzLmdldCgwKS5nZXRPcmdhbml6YXRpb24oKS5nZXRPcmdhbml6YXRpb25JZCgpOwogICAgICAgIHJlcHJpb3JpdGl6ZUxpc3RzKCk7IAo=</text>
+        <text encoding="base64">ICAgICAgICBzcHkoKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB3aGVuKHJ1bGVTZXJ2aWNlLCAiTW9ja2l0b0pVbml0UnVubmVyIiwgYW55TG9uZygpLCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgKFJ1bGUgcjogZGVsZXRlZFJ1bGVzKSB7CiAgICAgICAgICAgIHJ1bGVFdmVudExvZ2ljLmRlbGV0ZShyKTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICB2ZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9maWxlIHByb2ZpbGUgPSBwcm9maWxlUwo=</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PFJ1bGU+IGRlbGV0ZVRhcmdldCA9IHJ1bGVTZXJ2aWNlLmZpbmRBbGxCeVByb2ZpbGVJZChwcm9maWxlSWQpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVsZXRlKHIuZ2V0UnVsZUlkKCksIHVzZXIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBMb25nIG9yZ2FuaXphdGlvbklkID0gZGVsZXRlZFJ1bGVzLmdldCgwKS5nZXRPcmdhbml6YXRpb24oKS5nZXRPcmdhbml6YXRpb25JZCgpOwogICAgICAgIHJlcHJpb3JpdGl6ZUxpc3RzKCk7IAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBydWxlRXZlbnRMb2dpYy5kZWxldGUocik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -729,10 +730,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVsZUV2ZW50TG9naWMuZGVsZXRlKHIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKFJ1bGUgcjogZGVsZXRlZFJ1bGVzKSB7CiAgICAgICAgICAgIHJ1bGVFdmVudExvZ2ljLmRlbGV0ZShyKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVsZUV2ZW50TG9naWMuZGVsZXRlKHIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBQcm9maWxlIHByb2ZpbGUgPSBwcm9maWxlUwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
