@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>categoryId</entry>
-        <entry>orderId</entry>
         <entry>merchantId</entry>
         <entry>copy</entry>
         <entry>profileGenerator</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">IFwvXC8gYWN0</entry>
         <entry>expectEvent</entry>
         <entry>eventExpec</entry>
+        <entry>findDescendantsRecursive</entry>
+        <entry>findDescendants_hasDescendants</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -101,18 +101,11 @@
         <mark key="]" line="318" column="2" />
         <mark key="." line="178" column="5" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/OrganizationService.java" timestamp="1589870883219">
-        <mark key="[" line="49" column="39" />
-        <mark key="]" line="49" column="39" />
-        <mark key="^" line="49" column="101" />
-        <mark key="." line="49" column="39" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/test/java/com/rakuten/fpg/aletheia/dao/testhelper/RuleGenerator.java" timestamp="1589777386986">
-        <mark key="'" line="26" column="30" />
-        <mark key="[" line="30" column="22" />
-        <mark key="]" line="30" column="36" />
-        <mark key="^" line="46" column="80" />
-        <mark key="." line="46" column="79" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/OrganizationService.java" timestamp="1589873609032">
+        <mark key="[" line="52" column="24" />
+        <mark key="]" line="55" column="44" />
+        <mark key="." line="55" column="43" />
+        <mark key="^" line="55" column="44" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/Rule.java" timestamp="1589791095177">
         <mark key="[" line="119" column="28" />
@@ -191,13 +184,14 @@
         <mark key="[" line="49" column="30" />
         <mark key="]" line="49" column="42" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" timestamp="1589874010401">
+        <mark key="'" line="629" column="29" />
+        <mark key="[" line="622" column="93" />
+        <mark key="]" line="622" column="94" />
+        <mark key="." line="622" column="94" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="3" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
-      <jump line="170" column="17" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
-      <jump line="175" column="17" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
-      <jump line="7" column="5" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" />
-      <jump line="125" column="2" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="232" column="8" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="233" column="8" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="234" column="8" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -293,6 +287,11 @@
       <jump line="573" column="58" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="574" column="38" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="575" column="5" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
+      <jump line="57" column="26" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/OrganizationService.java" />
+      <jump line="565" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
+      <jump line="568" column="16" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
+      <jump line="571" column="65" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
+      <jump line="629" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -301,40 +300,40 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>, findDescendantsRecursive(root.getOrganizationId()).toArray()</text>
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text>, findDescendantsRecursive(root.getOrganizationId()).toArray()</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>eventExpec</text>
+        <text>findDescendants_hasDescendants</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAub3JFbHNlKEltbXV0YWJsZUxpc3Qub2YoKSk7Cg==</text>
+      <register name="0" type="4">
+        <text>findDescendantsRecursive</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLm9yCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBTdHJlYW0ub2YoQXJyYXlzLnJvb3QsIGZpbmREZXNjZW5kYW50c1JlY3Vyc2l2ZSgpKQogICAgICAgICAgICAgICAgICAgIC5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvcmdMaXN0Lgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLm9yRWxzZShJbW11dGFibGVMaXN0Lm9mKCkpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zb3J0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLm9yRWxzZShDb2xsZWN0aW9ucy5lbXB0eUxpc3QoKSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zb3J0KENvbXBhcmF0b3IuY29tcGFyaW5nTG9uZyhPcmdhbml6YXRpb246OmdldE9yZ2FuaXphdGlvbklkKSkK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gT3B0aW9uYWwub2ZOdWxsYWJsZShmaW5kKG9yZ2FuaXphdGlvbklkKSkKICAgICAgICAgICAgLm9yRWxzZShDb2xsZWN0aW9ucy5lbXB0eUxpc3QoKSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5gIGAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLm9yRWxzZShDb2xsZWN0aW9ucy5lbXB0eUxpc3QoKSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLm1hcChyb290IC0+IHt9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN0cmVhbTxPcmdhbml6YXRpb24+Lm9mKHJvb3QsIGZpbmREZXNjZW5kYW50c1JlY3Vyc2l2ZShyb290LmdldE9yZ2FuaXphdGlvbklkKCkpLnRvQXJyYXkoKSkKICAgICAgICAgICAgICAgICAgICAuc29ydGVkKChvMSwgbzIpIC0+IG8xLikKICAgICAgICAgICAgICAgICAgICAuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKSkK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -736,10 +735,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnNvcnQoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuc29ydGVkKChvMSwgbzIpIC0+IG8xLikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgLm9yCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -748,9 +747,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>eventExpec</last-search>
+      <last-search>findDescendants_hasDescendants</last-search>
       <last-offset />
-      <last-pattern>eventExpec</last-pattern>
+      <last-pattern>findDescendants_hasDescendants</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
