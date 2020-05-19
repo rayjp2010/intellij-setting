@@ -134,6 +134,9 @@
         <mark key="." line="1197" column="73" />
         <mark key="^" line="1197" column="74" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589858632304">
+        <mark key="[" line="497" column="5" />
+      </file>
       <file name="/GraphQL.result.json" timestamp="1589719800750">
         <mark key="[" line="0" column="0" />
       </file>
@@ -142,20 +145,19 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="73" column="28" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1589553486791">
-        <mark key="'" line="107" column="40" />
-        <mark key="[" line="107" column="46" />
-        <mark key="]" line="107" column="53" />
-        <mark key="^" line="107" column="53" />
-        <mark key="." line="107" column="55" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/OrganizationLogic.java" timestamp="1589858846515">
+        <mark key="[" line="44" column="16" />
+        <mark key="]" line="44" column="47" />
+        <mark key="^" line="44" column="47" />
+        <mark key="." line="44" column="46" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/RuleManagementController.java" timestamp="1589792360469">
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589858107973">
-        <mark key="[" line="120" column="0" />
-        <mark key="]" line="120" column="0" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589858646015">
+        <mark key="[" line="118" column="16" />
+        <mark key="]" line="118" column="32" />
         <mark key="." line="120" column="0" />
         <mark key="^" line="120" column="34" />
       </file>
@@ -287,8 +289,8 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBMaXN0PFJ1bGU+IGRlbGV0ZVRhcmdldCA9IHJ1bGVTZXJ2aWNlLmZpbmRBbGxCeVByb2ZpbGVJZChwcm9maWxlSWQpCg==</text>
+      <register name="*" type="4">
+        <text>deleteByProfileId</text>
       </register>
       <register name="-" type="4">
         <text>deletedRules.isNoEmpty()</text>
@@ -297,7 +299,7 @@
         <text>ref</text>
       </register>
       <register name="0" type="4">
-        <text>deletedRules</text>
+        <text>deleteByProfileId</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBMaXN0PFJ1bGU+IGRlbGV0ZVRhcmdldCA9IHJ1bGVTZXJ2aWNlLmZpbmRBbGxCeVByb2ZpbGVJZChwcm9maWxlSWQpCg==</text>
