@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>opp</entry>
-        <entry>CardCountryCodes</entry>
-        <entry>processTime</entry>
-        <entry>process</entry>
         <entry>mmIP</entry>
         <entry>mmIp</entry>
         <entry>mmip</entry>
@@ -27,6 +23,10 @@
         <entry>パスワード再設定</entry>
         <entry>error</entry>
         <entry>disabled</entry>
+        <entry>b28d582db7dde5fe00c931243a7fd9a0f1ddf5e7</entry>
+        <entry>再送信</entry>
+        <entry>forgot</entry>
+        <entry>forgotPassword</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -135,23 +135,11 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" timestamp="1589550310281">
         <mark key="'" line="7" column="5" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1589891774957">
-        <mark key="[" line="110" column="4" />
-        <mark key="]" line="108" column="31" />
-        <mark key="^" line="108" column="31" />
-        <mark key="." line="108" column="30" />
-      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.editorconfig" timestamp="1589813604679">
         <mark key="[" line="4" column="15" />
         <mark key="]" line="4" column="15" />
         <mark key="." line="4" column="15" />
         <mark key="^" line="4" column="20" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnButton.vue" timestamp="1589895552092">
-        <mark key="[" line="27" column="25" />
-        <mark key="]" line="27" column="25" />
-        <mark key="." line="27" column="25" />
-        <mark key="^" line="27" column="2" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1589552274021">
         <mark key="'" line="5" column="7" />
@@ -180,13 +168,6 @@
         <mark key="[" line="195" column="35" />
         <mark key="]" line="195" column="63" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" timestamp="1589895930619">
-        <mark key="'" line="130" column="46" />
-        <mark key="[" line="39" column="27" />
-        <mark key="]" line="39" column="33" />
-        <mark key="." line="39" column="32" />
-        <mark key="^" line="39" column="33" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1589530383733">
         <mark key="[" line="41" column="0" />
         <mark key="]" line="41" column="48" />
@@ -195,13 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="136" column="0" filename="$USER_HOME$/Workspace/metis/src/graphql/models/List/listSchema.js" />
-      <jump line="10" column="43" filename="$USER_HOME$/Workspace/metis/src/graphql/models/List/listSchema.js" />
-      <jump line="20" column="18" filename="$USER_HOME$/Workspace/metis/src/graphql/models/Store/storeSchema.js" />
-      <jump line="3" column="43" filename="$USER_HOME$/Workspace/metis/src/graphql/models/Store/storeSchema.js" />
-      <jump line="22" column="0" filename="$USER_HOME$/go/src/odin/core/audit_log_service.go" />
-      <jump line="85" column="24" filename="$USER_HOME$/Workspace/ares/config/send_eventhub_config.py" />
-      <jump line="30" column="33" filename="$USER_HOME$/Workspace/ares/tests/system_test/peitho/PEITHO_GEG.py" />
       <jump line="8" column="16" filename="$USER_HOME$/Workspace/ares/config/eventhub_messages.py" />
       <jump line="6" column="31" filename="$USER_HOME$/Workspace/ares/config/eventhub_messages.py" />
       <jump line="78" column="46" filename="$USER_HOME$/Workspace/ares/config/eventhub_messages.py" />
@@ -295,48 +269,55 @@
       <jump line="159" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
       <jump line="135" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
       <jump line="130" column="46" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="42" column="25" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="67" column="76" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="107" column="41" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="132" column="4" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="142" column="46" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="144" column="4" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="154" column="34" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>config.buttonsMain</text>
+        <text>w { label: 'コード再送', method: 'forgotPassword' }</text>
       </register>
       <register name="*" type="4">
         <text>,</text>
       </register>
       <register name="-" type="4">
-        <text>config.buttonsMain</text>
+        <text>w { label: 'コード再送', method: 'forgotPassword' }</text>
       </register>
       <register name="/" type="4">
-        <text>disabled</text>
+        <text>forgotPassword</text>
       </register>
       <register name="0" type="4">
-        <text>buttonsMain</text>
+        <text>{ label: 'コード再送', method: 'forgotPassword', disabledTimeout: 60 }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICA6ZGlzYWJsZWQtdGltZW91dD0iY29uZmlnLmJ1dHRvbnNNYWluLmRpc2FibGVkVGltZW91dCIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICA6ZGlzYWJsZWQtdGltZW91dD0iYnV0dG9uLmRpc2FibGVkVGltZW91dCIK</text>
+        <text encoding="base64">ICAgICAgY29uc3QgaWQ6IE5vZGVKUy5UaW1lciA9IHNldEludGVydmFsKCgpID0+IHsKICAgICAgICB0aGlzLmN1cnJlbnREaXNhYmxlZFRpbWVPdXQtLQogICAgICAgIGlmICh0aGlzLmN1cnJlbnREaXNhYmxlZFRpbWVPdXQgPD0gMCkgewogICAgICAgICAgY2xlYXJJbnRlcnZhbChpZCkKICAgICAgICB9CiAgICAgIH0sIDEwMDApCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICA6ZGlzYWJsZWQtdGltZW91dD0iYnV0dG9uLmRpc2FibGVkVGltZW91dCIK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICA6ZGlzYWJsZWQtdGltZW91dD0iYnV0dG9uLmRpc2FibGVkVGltZW91dCIK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygnZ29nb2dvJykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGlmICgpCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAodGhpcy5jdXJyZW50RGlzYWJsZWRUaW1lT3V0IDw9IDApIHsKICAgICAgICAgIGNsZWFySW50ZXJ2YWwoaWQpCiAgICAgICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBkaXNhYmxlZFRpbWVvdXQ6IG51bWJlciA9IDAK</text>
+        <text encoding="base64">CgogICAgICAgICAgdmFyaWFudD0ib3V0bGluZS1zZWNvbmRhcnkiCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -738,10 +719,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBkaXNhYmxlZFRpbWVvdXQ6IG51bWJlciA9IDAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBAUHJvcCh7IHR5cGU6IE51bWJlciwgZGVmYXVsdDogMCB9KQo=</text>
+        <text encoding="base64">ICAgICAgPGFjbi1idXR0b24KICAgICAgICB2LWZvcj0iYnV0dG9uIGluIGNvbmZpZy5idXR0b25zU3ViIgogICAgICAgIDprZXk9IidzdWItJyArIGJ1dHRvbi5tZXRob2QiCiAgICAgICAgdmFyaWFudD0ib3V0bGluZS1zZWNvbmRhcnkiCiAgICAgICAgYWxsb3ctbXVsdGkKICAgICAgICBAY2xpY2s9InN1Ym1pdChidXR0b24ubWV0aG9kKSIKICAgICAgICA6ZGlzYWJsZWQtdGltZW91dD1idXR0b24uZGlzYWJsZWRUaW1lb3V0CiAgICAgID4KICAgICAgICB7eyBidXR0b24ubGFiZWwgfX0KICAgICAgPC9hY24tYnV0dG9uPgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -750,9 +731,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>disabled</last-search>
+      <last-search>forgotPassword</last-search>
       <last-offset />
-      <last-pattern>disabled</last-pattern>
+      <last-pattern>forgotPassword</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
