@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cardFrag</entry>
-        <entry>CardFragment</entry>
-        <entry>category</entry>
-        <entry>shippingName</entry>
         <entry>cardBinC</entry>
         <entry>opp</entry>
         <entry>CardCountryCodes</entry>
@@ -27,6 +23,10 @@
         <entry>categoryId</entry>
         <entry>orderId</entry>
         <entry>merchantId</entry>
+        <entry>move</entry>
+        <entry>viewType</entry>
+        <entry>パスワード再設定</entry>
+        <entry>error</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -135,10 +135,10 @@
         <mark key="'" line="7" column="5" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1589891774957">
-        <mark key="[" line="112" column="4" />
-        <mark key="]" line="110" column="31" />
-        <mark key="^" line="110" column="31" />
-        <mark key="." line="110" column="30" />
+        <mark key="[" line="110" column="4" />
+        <mark key="]" line="108" column="31" />
+        <mark key="^" line="108" column="31" />
+        <mark key="." line="108" column="30" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.editorconfig" timestamp="1589813604679">
         <mark key="[" line="4" column="15" />
@@ -178,6 +178,13 @@
         <mark key="[" line="195" column="35" />
         <mark key="]" line="195" column="63" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" timestamp="1589893155526">
+        <mark key="'" line="135" column="10" />
+        <mark key="[" line="165" column="19" />
+        <mark key="]" line="165" column="19" />
+        <mark key="." line="165" column="19" />
+        <mark key="^" line="165" column="24" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1589530383733">
         <mark key="[" line="41" column="0" />
         <mark key="]" line="41" column="48" />
@@ -191,17 +198,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="336" column="46" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="337" column="29" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="339" column="84" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="344" column="72" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="346" column="30" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="348" column="45" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="349" column="27" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="360" column="22" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="366" column="22" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="371" column="43" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="373" column="22" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/validator/CaseValidator.java" />
       <jump line="136" column="0" filename="$USER_HOME$/Workspace/metis/src/graphql/models/List/listSchema.js" />
       <jump line="10" column="43" filename="$USER_HOME$/Workspace/metis/src/graphql/models/List/listSchema.js" />
@@ -291,38 +287,55 @@
       <jump line="112" column="44" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="107" column="40" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="251" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="271" column="41" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="105" column="8" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="165" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="195" column="9" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="196" column="11" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="202" column="11" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="5" column="18" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="27" column="29" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="29" column="16" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="159" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="135" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBDb21wb25lbnQoewogICAgICAgIG5hbWU6ICdJbmRleCcsCiAgICAgICAgY29tcG9uZW50czoge0FjbkJ1dHRvbiwgQWNuU2lnbkJhcn0sCiAgICB9KQo=</text>
+      <register name="&quot;" type="4">
+        <text>yabai</text>
       </register>
       <register name="*" type="4">
         <text>,</text>
       </register>
       <register name="-" type="4">
-        <text>space</text>
+        <text>yabai</text>
       </register>
       <register name="/" type="4">
-        <text>merchantId</text>
+        <text>error</text>
       </register>
       <register name="0" type="4">
-        <text>BillingAddressLine1</text>
+        <text>viewType</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBDb21wb25lbnQoewogICAgICAgIG5hbWU6ICdJbmRleCcsCiAgICAgICAgY29tcG9uZW50czoge0FjbkJ1dHRvbiwgQWNuU2lnbkJhcn0sCiAgICB9KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CUZpZWxkVHlwZSBzdHJpbmcK</text>
+        <text encoding="base64">ICBtb3ZlICh2aWV3VHlwZTogVmlld1R5cGUpIHsKICAgIHRoaXMudmlld1R5cGUgPSB2aWV3VHlwZQogICAgdGhpcy5jbGVhckVycm9yKCkKICB9Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgIEBDb21wb25lbnQoewogICAgICAgIG5hbWU6ICdJbmRleCcsCiAgICAgICAgY29tcG9uZW50czoge0FjbkJ1dHRvbiwgQWNuU2lnbkJhcn0sCiAgICB9KQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CUZpZWxkVHlwZSBzdHJpbmcK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">CS8vIGRpc2FibGVkIGluIFVJIGFuZCBkb2VzIG5vdCBleGlzdCBpbiBvbGQgYWxldGhlaWEK</text>
       </register>
-      <register name="4" type="8">
+      <register name="6" type="8">
         <text>&quot;order.orderAmount&quot;}, 
 &quot;order.paymentMethod&quot;},
 &quot;order.cardFingerprint&quot;},
@@ -383,14 +396,8 @@
 &quot;order.avsResponseCode&quot;},
 &quot;order.shippingCity&quot;},</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">CQlqc29uLk1hcnNoYWwoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -795,7 +802,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CS8vIAksIHJ1bGVtYW5hZ2VkIDogIntcImFjdGlvblwiOlwiRGVsZXRlXCIsXCJ1c2VyXCI6XCJ0ZXN0QHJha3V0ZW4uY29tXCIsXCJhY3Rpb25UaW1lXCI6XCJbVElNRVNUQU1QXVwiLFwiZXZlbnRJZFwiOlwiNDdjYmViMzYtZWMwYi00ZmE4LTgxYzctMWIxNzVjYmFkZmQyXCIsXCJyZW1vdGVSdWxlXCI6e1wicnVsZUlkXCI6OTY2OTY5NjksXCJzZXJ2aWNlSWRcIjoxMDIwMSxcImNoZWNrVHlwZVwiOlwiUHJlQ2hlY2tcIixcInBheW1lbnRUeXBlXCI6XCJDcmVkaXRDYXJkXCIsXCJwcmlvcml0eVwiOjEyLFwicnVsZU5hbWVcIjpcIk5FV05BTUUxXCIsXCJydWxlQ29uZGl0aW9uXCI6XCJyZXF1ZXN0LmVhc3lJZCAgPSAgXFxcIjEyM1xcXCJcIixcImV2YWx1YXRpb25NZXNzYWdlXCI6XCJEZW55XCIsXCJzY29yZVwiOjAsXCJhY3RpdmVNb2RlXCI6dHJ1ZSxcInRlc3RNb2RlXCI6ZmFsc2UsXCJ0aHJlZWRzU3ViTWVzc2FnZVwiOlwiXCIsXCJ0aHJlZWRzU2NvcmVcIjowLFwidGhyZWVkc0NoZWNrSXRlbVwiOjB9fSIsCgkvLwoJLy8gCWV2ZW50c3luYzogInsiCgkvLyAJCSsgIiAgXCJvcmdhbml6YXRpb25JZFwiOiAxMDIwMTIsIgoJLy8gCQkrICIgIFwicmVzcG9uc2libGVVc2VyRW1haWxcIjogXCJha2lAbWFpbC5jb21cIiwiCgkvLyAJCSsgIiAgXCJhY3Rpb25UeXBlXCI6IFwiQ3JlYXRlXCIsIgoJLy8gCQkrICIgIFwiYWN0aW9uVGltZVwiOiBcIjIwMTktMTAtMjVUMTE6MjI6MzMuNDU2Kzc4OTFcIiwiCgkvLyAJCSsgIiAgXCJyZW1vdGVPcmdhbml6YXRpb25cIjogeyIKCS8vIAkJKyAiICAgIFwib3JnYW5pemF0aW9uTmFtZVwiOiBcIk5vIENoYW5nZVwiLCIKCS8vIAkJKyAiICAgIFwicGFyZW50XCI6IFwiTm8gQ2hhbmdlXCIsIgoJLy8gCQkrICIgICAgXCJjb3VudHJ5XCI6IFwiTm8gQ2hhbmdlXCIsIgoJLy8gCQkrICIgICAgXCJ0aW1lWm9uZVwiOiBcIk5vIENoYW5nZVwiLCIKCS8vIAkJKyAiICAgIFwiY3VycmVuY3lcIjogXCJKUFkgdG8gVVNEIGNoYW5nZVwiLCIKCS8vIAkJKyAiICAgIFwibGFuZ3VhZ2VcIjogXCJObyBDaGFuZ2VcIiwiCgkvLyAJCSsgIiAgICBcImJ1c2luZXNzVHlwZVwiOiBcIk5vIENoYW5nZVwiLCIKCS8vIAkJKyAiICAgIFwiY2hlY2tUeXBlXCI6IFwiTm8gQ2hhbmdlXCIsIgoJLy8gCQkrICIgICAgXCJvcmdhbml6YXRpb25Nb2RlXCI6IFwiTm8gQ2hhbmdlXCIiCgkvLyAJCSsgIiAgfSIKCS8vIAkJKyAifSIK</text>
+        <text encoding="base64">CQlqc29uLk1hcnNoYWwoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -804,9 +811,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>merchantId</last-search>
+      <last-search>error</last-search>
       <last-offset />
-      <last-pattern>merchantId</last-pattern>
+      <last-pattern>error</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
