@@ -153,11 +153,11 @@
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589856289921">
-        <mark key="[" line="119" column="47" />
-        <mark key="]" line="119" column="82" />
-        <mark key="^" line="119" column="82" />
-        <mark key="." line="119" column="81" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589856906585">
+        <mark key="[" line="126" column="30" />
+        <mark key="]" line="126" column="60" />
+        <mark key="." line="126" column="59" />
+        <mark key="^" line="126" column="60" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" timestamp="1589787636141">
         <mark key="'" line="15" column="13" />
@@ -287,41 +287,41 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="4">
-        <text>findAllByProfileId(profileId);</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBMb25nIG9yZ2FuaXphdGlvbklkID0gZGVsZXRlZFJ1bGVzLmdldCgwKS5nZXRPcmdhbml6YXRpb24oKS5nZXRPcmdhbml6YXRpb25JZCgpOwogICAgICAgIHJlcHJpb3JpdGl6ZUxpc3RzKCk7IAo=</text>
       </register>
       <register name="-" type="4">
-        <text>findAllByProfileId(profileId);</text>
+        <text>deletedRules.isNoEmpty()</text>
       </register>
       <register name="/" type="4">
         <text>ref</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuKHJ1bGVNYXBwZXIudG9SdWxlSW5mb01vZGVsTGlzdChhbnkoKSkpLnRoZW5DYWxsUmVhbE1ldGhvZCgpOwo=</text>
+      <register name="0" type="4">
+        <text>deletedRules</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBydWxlU2VydmljZS5kZWxldGUoKQo=</text>
+        <text encoding="base64">ICAgICAgICBMb25nIG9yZ2FuaXphdGlvbklkID0gZGVsZXRlZFJ1bGVzLmdldCgwKS5nZXRPcmdhbml6YXRpb24oKS5nZXRPcmdhbml6YXRpb25JZCgpOwogICAgICAgIHJlcHJpb3JpdGl6ZUxpc3RzKCk7IAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLm9yZ2FuaXphdGlvbihPcmdhbml6YXRpb25JbmZvTW9kZWwuYnVpbGRlcigpLm9yZ2FuaXphdGlvbklkKDEwTCkub3JnYW5pemF0aW9uTmFtZSgiMTB0aG9yZyIpLmJ1aWxkKCkpCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuKG9yZ2FuaXphdGlvblNlcnZpY2UuZmluZChPUkdfSUQpKS50aGVuUmV0dXJuKE9yZ2FuaXphdGlvbkdlbmVyYXRvci5kZWZhdWx0VmFsdWVXaXRoSWQoKS5vcmdhbml6YXRpb25JZChPUkdfSUQpLmJ1aWxkKCkpOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuKHJ1bGVNYXBwZXIudG9SdWxlSW5mb01vZGVsTGlzdChhbnkoKSkpLnRoZW5DYWxsUmVhbE1ldGhvZCgpOwogICAgICAgIHdoZW4ocnVsZU1hcHBlci50b1J1bGVJbmZvTW9kZWxMaXN0KGFueSgpKSkudGhlbkNhbGxSZWFsTWV0aG9kKCk7Cg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBmb3IgKFJ1bGUgcjogZGVsZXRlZFJ1bGVzKSB7CiAgICAgICAgICAgIHJ1bGVFdmVudExvZ2ljLmRlbGV0ZShyKTsKICAgICAgICB9Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBQcm9maWxlIHByb2ZpbGUgPSBwcm9maWxlUwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZGVsZXRlKHIuZ2V0UnVsZUlkKCksIHVzZXIpOwo=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBydWxlRXZlbnRMb2dpYy5kZWxldGUocik7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcnVsZUV2ZW50TG9naWMuZGVsZXRlKHIpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -723,10 +723,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbW9kZWwuZ2V0T3JnYW5pemF0aW9uKCkuZ2V0T3JnYW5pemF0aW9uSWQoKSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcnVsZUV2ZW50TG9naWMuZGVsZXRlKHIpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbmFsIExvbmcgb3JnYW5pemF0aW9uSWQsCg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
