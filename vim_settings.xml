@@ -128,18 +128,10 @@
         <mark key="'" line="51" column="71" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/test/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceTest.java" timestamp="1589794824349">
-        <mark key="'" line="1428" column="0" />
-        <mark key="[" line="1430" column="31" />
-        <mark key="]" line="1430" column="74" />
-        <mark key="." line="1430" column="73" />
-        <mark key="^" line="1430" column="74" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589794642776">
-        <mark key="'" line="215" column="24" />
-        <mark key="[" line="209" column="112" />
-        <mark key="]" line="209" column="114" />
-        <mark key="." line="209" column="113" />
-        <mark key="^" line="209" column="114" />
+        <mark key="[" line="1197" column="31" />
+        <mark key="]" line="1197" column="74" />
+        <mark key="." line="1197" column="73" />
+        <mark key="^" line="1197" column="74" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1589550480255">
         <mark key="'" line="580" column="51" />
@@ -168,11 +160,9 @@
         <mark key="]" line="63" column="78" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589791194484">
-        <mark key="'" line="157" column="45" />
-        <mark key="[" line="204" column="46" />
-        <mark key="]" line="205" column="25" />
-        <mark key="." line="205" column="24" />
-        <mark key="^" line="205" column="25" />
+        <mark key="]" line="2" column="25" />
+        <mark key="." line="2" column="24" />
+        <mark key="^" line="2" column="25" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" timestamp="1589787636141">
         <mark key="'" line="15" column="13" />
