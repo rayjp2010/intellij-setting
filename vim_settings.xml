@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>organizationGenerator</entry>
         <entry>name</entry>
         <entry>RuleName</entry>
         <entry>should be</entry>
@@ -27,6 +26,7 @@
         <entry>dispatch</entry>
         <entry>delete</entry>
         <entry>sql</entry>
+        <entry>entityManager</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -123,9 +123,10 @@
       <file name="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" timestamp="1589955952270">
         <mark key="'" line="822" column="102" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1589965160202">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1589965204071">
+        <mark key="'" line="21" column="26" />
+        <mark key="[" line="21" column="26" />
+        <mark key="]" line="21" column="38" />
         <mark key="^" line="44" column="21" />
         <mark key="." line="20" column="0" />
       </file>
@@ -165,7 +166,7 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/index.html" timestamp="1589955082357">
         <mark key="'" line="8" column="11" />
       </file>
-      <file name="/fragment.java" timestamp="1589959036704">
+      <file name="/fragment.java" timestamp="1589965688878">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/OrganizationManagementController.java" timestamp="1589863531877">
@@ -184,9 +185,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="134" column="39" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
-      <jump line="13" column="24" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" />
-      <jump line="125" column="26" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="333" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="233" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="262" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -284,6 +282,9 @@
       <jump line="1" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
       <jump line="11" column="64" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
       <jump line="0" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
+      <jump line="58" column="39" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" />
+      <jump line="13" column="25" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" />
+      <jump line="21" column="26" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -291,17 +292,17 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>entityManager</text>
       </register>
       <register name="-" type="4">
         <text>repository.save(rule);</text>
       </register>
       <register name="/" type="4">
-        <text>sql</text>
+        <text>entityManager</text>
       </register>
       <register name="0" type="4">
-        <text>@PersistenceContext</text>
+        <text>entityManager</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -739,9 +740,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>sql</last-search>
+      <last-search>entityManager</last-search>
       <last-offset />
-      <last-pattern>sql</last-pattern>
+      <last-pattern>entityManager</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
