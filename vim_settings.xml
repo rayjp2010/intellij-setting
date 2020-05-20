@@ -107,11 +107,6 @@
         <mark key="." line="55" column="43" />
         <mark key="^" line="55" column="44" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/SearchTrPropertyName.java" timestamp="1589782350021">
-        <mark key="'" line="45" column="6" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="73" column="28" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" timestamp="1589944549711">
         <mark key="'" line="63" column="31" />
         <mark key="[" line="69" column="0" />
@@ -153,6 +148,12 @@
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" timestamp="1589787636141">
         <mark key="'" line="15" column="13" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1589950822181">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="1" column="15" />
+        <mark key="^" line="1" column="15" />
+        <mark key="." line="1" column="14" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceImpl.java" timestamp="1589790116888">
         <mark key="[" line="260" column="30" />
