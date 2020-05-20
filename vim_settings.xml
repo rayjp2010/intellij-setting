@@ -118,10 +118,7 @@
         <mark key="'" line="822" column="102" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1589971987028">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="^" line="57" column="20" />
-        <mark key="." line="15" column="0" />
+        <mark key="^" line="2" column="20" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/test/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceTest.java" timestamp="1589794824349">
         <mark key="[" line="1197" column="31" />
