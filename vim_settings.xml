@@ -95,11 +95,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" timestamp="1589782360805">
-        <mark key="'" line="196" column="20" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="318" column="2" />
-        <mark key="." line="178" column="5" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/index.jsx" timestamp="1589954993981">
+        <mark key="'" line="70" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/OrganizationService.java" timestamp="1589873609032">
         <mark key="[" line="52" column="24" />
@@ -138,9 +135,6 @@
         <mark key="n" line="9" column="14" />
         <mark key="." line="80" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" timestamp="1589782551687">
-        <mark key="'" line="51" column="71" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589940867834">
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="0" />
@@ -161,8 +155,8 @@
         <mark key="." line="260" column="73" />
         <mark key="^" line="260" column="74" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1589783615481">
-        <mark key="'" line="374" column="42" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/index.html" timestamp="1589955082357">
+        <mark key="'" line="8" column="11" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/test/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceTest.java" timestamp="1589794824349">
         <mark key="[" line="1197" column="31" />
@@ -190,10 +184,12 @@
         <mark key="]" line="622" column="94" />
         <mark key="." line="622" column="94" />
       </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/actions/homeAction.js" timestamp="1589954751209">
+        <mark key="[" line="28" column="18" />
+        <mark key="]" line="28" column="29" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="16" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="244" column="27" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="580" column="51" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="15" column="27" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="6" column="16" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" />
@@ -292,6 +288,8 @@
       <jump line="140" column="43" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="156" column="41" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="63" column="31" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
+      <jump line="70" column="32" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/index.jsx" />
+      <jump line="8" column="11" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/index.html" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -300,7 +298,7 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>olapapi.url</text>
+        <text>HOME_CONTROL</text>
       </register>
       <register name="-" type="4">
         <text>Mock</text>
@@ -309,7 +307,7 @@
         <text>Before</text>
       </register>
       <register name="0" type="4">
-        <text>olapapi.url</text>
+        <text>HOME_CONTROL</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IG9yaWdpbi9tYXN0ZXIK</text>
