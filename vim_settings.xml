@@ -107,6 +107,11 @@
         <mark key="." line="55" column="43" />
         <mark key="^" line="55" column="44" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" timestamp="1589880590722">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="71" column="34" />
+      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/Rule.java" timestamp="1589791095177">
         <mark key="[" line="119" column="28" />
         <mark key="]" line="119" column="41" />
@@ -177,9 +182,6 @@
       <file name="/fragment.java" timestamp="1589794408595">
         <mark key="[" line="0" column="22" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/testhelper/ProfileInfoModelGenerator.java" timestamp="1589779005866">
-        <mark key="[" line="1" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/OrganizationManagementController.java" timestamp="1589863531877">
         <mark key="[" line="49" column="30" />
         <mark key="]" line="49" column="42" />
@@ -192,7 +194,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="232" column="8" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="233" column="8" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="234" column="8" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="235" column="8" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -292,6 +293,7 @@
       <jump line="568" column="16" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
       <jump line="571" column="65" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
       <jump line="629" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -299,8 +301,8 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="4">
-        <text>.</text>
+      <register name="*" type="2">
+        <text encoding="base64">b2xhcGFwaS51cmw9aHR0cDovL2xvY2FsaG9zdDo4MDgxCm9sYXBhcGkucmVhZC50aW1lb3V0Lm1zPTIwMDAKb2xhcGFwaS5jb25uZWN0aW9uLnRpbWVvdXQubXM9MjAwMAo=</text>
       </register>
       <register name="-" type="4">
         <text>.</text>
@@ -308,8 +310,8 @@
       <register name="/" type="4">
         <text>findDescendants_hasDescendants</text>
       </register>
-      <register name="0" type="4">
-        <text>findDescendantsRecursive</text>
+      <register name="0" type="2">
+        <text encoding="base64">b2xhcGFwaS51cmw9aHR0cDovL2xvY2FsaG9zdDo4MDgxCm9sYXBhcGkucmVhZC50aW1lb3V0Lm1zPTIwMDAKb2xhcGFwaS5jb25uZWN0aW9uLnRpbWVvdXQubXM9MjAwMAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBTdHJlYW0ub2YoQXJyYXlzLnJvb3QsIGZpbmREZXNjZW5kYW50c1JlY3Vyc2l2ZSgpKQogICAgICAgICAgICAgICAgICAgIC5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwo=</text>
