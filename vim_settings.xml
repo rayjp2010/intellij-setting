@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>profileGenerator</entry>
         <entry>defaultValueWithId</entry>
         <entry>organizationGenerator</entry>
         <entry>name</entry>
@@ -27,6 +26,7 @@
         <entry>findDescendants_hasDescendants</entry>
         <entry>Before</entry>
         <entry>dispatch</entry>
+        <entry>delete</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -115,6 +115,9 @@
         <mark key="." line="119" column="40" />
         <mark key="^" line="119" column="41" />
       </file>
+      <file name="/RuleLogic.java" timestamp="1589960474051">
+        <mark key="'" line="138" column="0" />
+      </file>
       <file name="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" timestamp="1589955952270">
         <mark key="'" line="822" column="102" />
       </file>
@@ -144,13 +147,11 @@
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589940867834">
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="0" />
-        <mark key="." line="16" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/model/RemoteRuleModel.java" timestamp="1589787636141">
-        <mark key="'" line="15" column="13" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589959632231">
+        <mark key="[" line="177" column="37" />
+        <mark key="]" line="177" column="39" />
+        <mark key="." line="177" column="38" />
+        <mark key="^" line="177" column="39" />
       </file>
       <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1589950822181">
         <mark key="[" line="0" column="0" />
@@ -186,7 +187,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="16" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" />
       <jump line="242" column="5" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="116" column="24" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="135" column="19" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
@@ -286,6 +286,7 @@
       <jump line="811" column="59" filename="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" />
       <jump line="817" column="37" filename="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" />
       <jump line="822" column="102" filename="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" />
+      <jump line="138" column="0" filename="/RuleLogic.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -294,13 +295,13 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>HOME_CONTROL</text>
+        <text>save</text>
       </register>
       <register name="-" type="4">
-        <text>Mock</text>
+        <text>save</text>
       </register>
       <register name="/" type="4">
-        <text>dispatch</text>
+        <text>delete</text>
       </register>
       <register name="0" type="4">
         <text>HOME_CONTROL</text>
@@ -741,9 +742,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>dispatch</last-search>
+      <last-search>delete</last-search>
       <last-offset />
-      <last-pattern>dispatch</last-pattern>
+      <last-pattern>delete</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
