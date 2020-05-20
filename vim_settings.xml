@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>defaultValueWithId</entry>
         <entry>organizationGenerator</entry>
         <entry>name</entry>
         <entry>RuleName</entry>
@@ -27,6 +26,7 @@
         <entry>Before</entry>
         <entry>dispatch</entry>
         <entry>delete</entry>
+        <entry>sql</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -104,10 +104,12 @@
         <mark key="." line="55" column="43" />
         <mark key="^" line="55" column="44" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" timestamp="1589944549711">
-        <mark key="'" line="63" column="31" />
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="69" column="10" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" timestamp="1589963307565">
+        <mark key="'" line="0" column="29" />
+        <mark key="[" line="15" column="18" />
+        <mark key="]" line="15" column="24" />
+        <mark key="^" line="15" column="24" />
+        <mark key="." line="15" column="23" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/Rule.java" timestamp="1589791095177">
         <mark key="[" line="119" column="28" />
@@ -147,12 +149,6 @@
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589959632231">
-        <mark key="[" line="177" column="37" />
-        <mark key="]" line="177" column="39" />
-        <mark key="." line="177" column="38" />
-        <mark key="^" line="177" column="39" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1589950822181">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="1" column="15" />
@@ -187,9 +183,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="242" column="5" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
-      <jump line="116" column="24" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
-      <jump line="135" column="19" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="134" column="39" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="13" column="24" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" />
       <jump line="125" column="26" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
@@ -266,7 +259,6 @@
       <jump line="568" column="16" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
       <jump line="571" column="65" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
       <jump line="629" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
       <jump line="21" column="50" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="146" column="12" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="44" column="23" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
@@ -287,6 +279,10 @@
       <jump line="817" column="37" filename="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" />
       <jump line="822" column="102" filename="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" />
       <jump line="138" column="0" filename="/RuleLogic.java" />
+      <jump line="16" column="18" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
+      <jump line="1" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
+      <jump line="11" column="64" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
+      <jump line="0" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -295,40 +291,40 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>save</text>
+        <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>save</text>
+        <text>=</text>
       </register>
       <register name="/" type="4">
-        <text>delete</text>
+        <text>sql</text>
       </register>
       <register name="0" type="4">
-        <text>HOME_CONTROL</text>
+        <text encoding="base64">KHIpIC0+IHsKICAgICAgICAgICAgICAgICAgICByLnNldFByaW9yaXR5KG5ld1ByaW9yaXR5KTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gcjsKICAgICAgICAgICAgICAgIH0=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IG9yaWdpbi9tYXN0ZXIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">QFByZXBhcmVGb3JUZXN0KFJ1bGVMb2dpYy5jbGFzcykK</text>
+        <text encoding="base64">ICAgICAgICBmaW5hbCBSdWxlIG9yaWdpbmFsQ29weSA9IHJ1bGVFdmVudExvZ2ljLmRlZXBDbG9uZShvcmlnaW5hbCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5CZWZvcmU7Cg==</text>
+        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IG9yaWdpbi9tYXN0ZXIK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLnJ1bm5lcnMuTW9ja2l0b0pVbml0UnVubmVyOwo=</text>
+        <text encoding="base64">QFByZXBhcmVGb3JUZXN0KFJ1bGVMb2dpYy5jbGFzcykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLnJ1bm5lcnMuTW9ja2l0b0pVbml0UnVubmVyOwo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5CZWZvcmU7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLnJ1bm5lcnMuTW9ja2l0b0pVbml0UnVubmVyOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLnJ1bm5lcnMuTW9ja2l0b0pVbml0UnVubmVyOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -730,10 +726,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IG9yaWdpbi9tYXN0ZXIK</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -742,9 +738,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>delete</last-search>
+      <last-search>sql</last-search>
       <last-offset />
-      <last-pattern>delete</last-pattern>
+      <last-pattern>sql</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
