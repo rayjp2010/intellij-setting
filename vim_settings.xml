@@ -123,6 +123,12 @@
       <file name="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" timestamp="1589955952270">
         <mark key="'" line="822" column="102" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1589964002007">
+        <mark key="[" line="44" column="15" />
+        <mark key="]" line="44" column="21" />
+        <mark key="^" line="44" column="21" />
+        <mark key="." line="44" column="20" />
+      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/test/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceTest.java" timestamp="1589794824349">
         <mark key="[" line="1197" column="31" />
         <mark key="]" line="1197" column="74" />
@@ -149,17 +155,12 @@
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589963838913" />
       <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1589950822181">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="1" column="15" />
         <mark key="^" line="1" column="15" />
         <mark key="." line="1" column="14" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/main/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceImpl.java" timestamp="1589790116888">
-        <mark key="[" line="260" column="30" />
-        <mark key="]" line="260" column="74" />
-        <mark key="." line="260" column="73" />
-        <mark key="^" line="260" column="74" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/index.html" timestamp="1589955082357">
         <mark key="'" line="8" column="11" />
@@ -291,10 +292,10 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>=</text>
+        <text>repository.save(rule);</text>
       </register>
       <register name="-" type="4">
-        <text>=</text>
+        <text>repository.save(rule);</text>
       </register>
       <register name="/" type="4">
         <text>sql</text>
