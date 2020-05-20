@@ -150,11 +150,11 @@
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589970043705">
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589971019115">
         <mark key="[" line="105" column="4" />
-        <mark key="]" line="105" column="10" />
-        <mark key="." line="105" column="9" />
-        <mark key="^" line="105" column="10" />
+        <mark key="]" line="105" column="11" />
+        <mark key="." line="105" column="10" />
+        <mark key="^" line="105" column="11" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/repository/RuleRepository.java" timestamp="1589969849377">
         <mark key="[" line="34" column="15" />
@@ -296,10 +296,10 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>private</text>
+        <text>public</text>
       </register>
       <register name="-" type="4">
-        <text>private</text>
+        <text>public</text>
       </register>
       <register name="/" type="4">
         <text>entityManager</text>
