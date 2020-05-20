@@ -123,12 +123,12 @@
       <file name="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" timestamp="1589955952270">
         <mark key="'" line="822" column="102" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1589965204071">
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1589967517596">
         <mark key="'" line="21" column="26" />
-        <mark key="[" line="21" column="26" />
-        <mark key="]" line="21" column="38" />
-        <mark key="^" line="44" column="21" />
-        <mark key="." line="20" column="0" />
+        <mark key="[" line="45" column="5" />
+        <mark key="]" line="49" column="5" />
+        <mark key="^" line="49" column="5" />
+        <mark key="." line="49" column="4" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-clients/src/test/java/com/rakuten/fpg/aletheia/clients/event/service/MsgParserServiceTest.java" timestamp="1589794824349">
         <mark key="[" line="1197" column="31" />
@@ -156,7 +156,12 @@
         <mark key="[" line="63" column="58" />
         <mark key="]" line="63" column="78" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589963838913" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1589968558063">
+        <mark key="[" line="114" column="50" />
+        <mark key="]" line="114" column="46" />
+        <mark key="." line="114" column="45" />
+        <mark key="^" line="114" column="46" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1589950822181">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="1" column="15" />
@@ -292,41 +297,41 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="4">
-        <text>entityManager</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpb3JpdHlDb3VudCArKzsK</text>
       </register>
       <register name="-" type="4">
-        <text>repository.save(rule);</text>
+        <text>{</text>
       </register>
       <register name="/" type="4">
         <text>entityManager</text>
       </register>
-      <register name="0" type="4">
-        <text>entityManager</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJ1bGUuc2V0VXBkYXRlVGltZShkYXRlKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpb3JpdHlDb3VudCArKzsK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBQZXJzaXN0ZW5jZUNvbnRleHQKICAgIHByaXZhdGUgRW50aXR5TWFuYWdlciBlbnRpdHlNYW5hZ2VyOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpb3JpdHlDb3VudCArPSAxOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbmFsIGludCBuZXdQcmlvcml0eSA9IHByaW9yaXR5Q291bnQ7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmaW5hbCBSdWxlIG9yaWdpbmFsQ29weSA9IHJ1bGVFdmVudExvZ2ljLmRlZXBDbG9uZShvcmlnaW5hbCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IG9yaWdpbi9tYXN0ZXIK</text>
+        <text encoding="base64">ICAgIEBQZXJzaXN0ZW5jZUNvbnRleHQKICAgIHByaXZhdGUgRW50aXR5TWFuYWdlciBlbnRpdHlNYW5hZ2VyOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">QFByZXBhcmVGb3JUZXN0KFJ1bGVMb2dpYy5jbGFzcykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5CZWZvcmU7Cg==</text>
+        <text encoding="base64">ICAgICAgICBmaW5hbCBSdWxlIG9yaWdpbmFsQ29weSA9IHJ1bGVFdmVudExvZ2ljLmRlZXBDbG9uZShvcmlnaW5hbCk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -728,10 +733,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLnJ1bm5lcnMuTW9ja2l0b0pVbml0UnVubmVyOwo=</text>
+        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IG9yaWdpbi9tYXN0ZXIK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLnJ1bm5lcnMuTW9ja2l0b0pVbml0UnVubmVyOwo=</text>
+        <text encoding="base64">QFByZXBhcmVGb3JUZXN0KFJ1bGVMb2dpYy5jbGFzcykK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
