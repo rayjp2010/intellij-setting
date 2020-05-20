@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>mmcity</entry>
         <entry>mmCity</entry>
         <entry>latitude</entry>
         <entry>MMLatitude</entry>
@@ -27,6 +26,7 @@
         <entry>feature</entry>
         <entry>dataList</entry>
         <entry>shownData</entry>
+        <entry>status</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -95,6 +95,26 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1589553561503">
+        <mark key="'" line="251" column="25" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1589978945551">
+        <mark key="'" line="25" column="17" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" timestamp="1589550310281">
+        <mark key="'" line="7" column="5" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1589978454587">
+        <mark key="'" line="77" column="22" />
+        <mark key="[" line="158" column="6" />
+        <mark key="]" line="158" column="14" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" timestamp="1589552680289">
+        <mark key="'" line="280" column="16" />
+        <mark key="[" line="178" column="4" />
+        <mark key="]" line="170" column="25" />
+        <mark key="." line="178" column="5" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1589553486791">
         <mark key="'" line="107" column="40" />
         <mark key="[" line="107" column="46" />
@@ -124,20 +144,9 @@
       <file name="/GraphQL.result.json" timestamp="1589813101558">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1589553561503">
-        <mark key="'" line="251" column="25" />
-      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1589894154698" />
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1589552439460">
         <mark key="'" line="374" column="42" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" timestamp="1589550310281">
-        <mark key="'" line="7" column="5" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1589978454587">
-        <mark key="'" line="77" column="22" />
-        <mark key="[" line="158" column="6" />
-        <mark key="]" line="158" column="14" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.editorconfig" timestamp="1589813604679">
         <mark key="[" line="4" column="15" />
@@ -151,21 +160,8 @@
         <mark key="]" line="35" column="28" />
         <mark key="n" line="9" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" timestamp="1589552680289">
-        <mark key="'" line="280" column="16" />
-        <mark key="[" line="178" column="4" />
-        <mark key="]" line="170" column="25" />
-        <mark key="." line="178" column="5" />
-      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-web/src/main/resources/static/app/components/search/searchProperties.js" timestamp="1589533860695">
         <mark key="'" line="5" column="22" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1589528978283">
-        <mark key="'" line="76" column="39" />
-        <mark key="[" line="98" column="18" />
-        <mark key="]" line="98" column="24" />
-        <mark key="." line="98" column="23" />
-        <mark key="^" line="98" column="24" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1589530383733">
         <mark key="[" line="41" column="0" />
@@ -175,7 +171,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="151" column="4" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="138" column="45" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="167" column="25" filename="$USER_HOME$/go/src/niffler/main.go" />
       <jump line="168" column="14" filename="$USER_HOME$/go/src/niffler/main.go" />
@@ -275,6 +270,7 @@
       <jump line="158" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="115" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="77" column="22" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="25" column="17" filename="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -289,7 +285,7 @@
         <text>w { label: 'コード再送', method: 'forgotPassword' }</text>
       </register>
       <register name="/" type="4">
-        <text>shownData</text>
+        <text>status</text>
       </register>
       <register name="0" type="4">
         <text>shownData</text>
@@ -730,9 +726,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>shownData</last-search>
+      <last-search>status</last-search>
       <last-offset />
-      <last-pattern>shownData</last-pattern>
+      <last-pattern>status</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
