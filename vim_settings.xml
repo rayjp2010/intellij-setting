@@ -147,12 +147,12 @@
         <mark key="^" line="530" column="13" />
         <mark key="." line="530" column="12" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1590052910126">
-        <mark key="'" line="65" column="0" />
-        <mark key="[" line="63" column="11" />
-        <mark key="]" line="4" column="14" />
-        <mark key="." line="4" column="13" />
-        <mark key="^" line="4" column="14" />
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1590054164428">
+        <mark key="'" line="73" column="0" />
+        <mark key="[" line="69" column="26" />
+        <mark key="]" line="69" column="45" />
+        <mark key="." line="69" column="26" />
+        <mark key="^" line="69" column="29" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590030004019">
         <mark key="[" line="39" column="0" />
@@ -303,17 +303,17 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">dHlwZSBKc29uTWFwID0gbWFwW3N0cmluZ11pbnRlcmZhY2V7fQo=</text>
+      <register name="*" type="4">
+        <text>GetSearchSubEvalMsg</text>
       </register>
       <register name="-" type="4">
-        <text>a.evaluation.EvalMsg</text>
+        <text>GetSearchDecision</text>
       </register>
       <register name="/" type="4">
         <text>jsonMap</text>
       </register>
       <register name="0" type="4">
-        <text>JsonMap</text>
+        <text>GetSearchSubEvalMsg</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">dHlwZSBKc29uTWFwID0gbWFwW3N0cmluZ11pbnRlcmZhY2V7fQo=</text>
