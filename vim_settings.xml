@@ -95,9 +95,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/index.jsx" timestamp="1589954993981">
-        <mark key="'" line="70" column="32" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1590022502879">
         <mark key="'" line="131" column="25" />
       </file>
@@ -157,11 +154,10 @@
         <mark key="^" line="101" column="14" />
         <mark key="." line="104" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590035594408">
-        <mark key="[" line="106" column="0" />
-        <mark key="]" line="106" column="0" />
-        <mark key="." line="106" column="0" />
-        <mark key="^" line="105" column="12" />
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590038388482">
+        <mark key="[" line="100" column="0" />
+        <mark key="]" line="100" column="0" />
+        <mark key="." line="100" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1590034786983">
         <mark key="[" line="104" column="0" />
@@ -300,10 +296,10 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">CS8vcmV0dXJuIG1vZGVsLkpzb25NYXB7CgkvLwlTb3J0OiBbXW1vZGVsLkpzb25NYXB7Z2V0RmllbGRTb3J0T3JkZXIoQWN0aW9uVGltZUZpZWxkTmFtZSwgQXNjZW5kaW5nT3JkZXIpfSwKCS8vCVF1ZXJ5OiBtb2RlbC5Kc29uTWFwewoJLy8JCUJvb2w6IG1vZGVsLkpzb25NYXB7CgkvLwkJCUZpbHRlcjogYXVkaXRMb2dTZWFyY2hDb25kaXRpb24ocmVxdWVzdCksCgkvLwkJfSwKCS8vCX0sCgkvL30K</text>
+        <text encoding="base64">CXNlYXJjaENvCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">CXV0aWwuU29ydGVkRmlsdGVyUXVlcnkoQWN0aW9uVGltZUZpZWxkTmFtZSwgdXRpbC5Bc2NlbmRpbmdPcmRlcik=</text>
+        <text>util.AppendOptionalConditions</text>
       </register>
       <register name="/" type="4">
         <text>wildcardKeyTemplate</text>
@@ -312,28 +308,35 @@
         <text encoding="base64">CUFzY2VuZGluZ09yZGVyICAgICAgPSAiYXNjIgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CS8vcmV0dXJuIG1vZGVsLkpzb25NYXB7CgkvLwlTb3J0OiBbXW1vZGVsLkpzb25NYXB7Z2V0RmllbGRTb3J0T3JkZXIoQWN0aW9uVGltZUZpZWxkTmFtZSwgQXNjZW5kaW5nT3JkZXIpfSwKCS8vCVF1ZXJ5OiBtb2RlbC5Kc29uTWFwewoJLy8JCUJvb2w6IG1vZGVsLkpzb25NYXB7CgkvLwkJCUZpbHRlcjogYXVkaXRMb2dTZWFyY2hDb25kaXRpb24ocmVxdWVzdCksCgkvLwkJfSwKCS8vCX0sCgkvL30K</text>
+        <text encoding="base64">CXNlYXJjaENvCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ZnVuYyBTb3J0ZWRGaWx0ZXJRdWVyeShjb25kaXRpb25zIFtdbW9kZWwuSnNvbk1hcCwgYXNjZW5kaW5nIGJvb2xlYW4pIG1vZGVsLkpzb25NYXAgewo=</text>
+      <register name="2" type="4">
+        <text>model.JsonMap{
+		Sort: []model.JsonMap{getFieldSortOrder(requestDateFieldName, AscendingOrder)},
+		Query: model.JsonMap{
+			Bool: model.JsonMap{
+				Filter: transactionSearchCondition(req),
+			},
+		},
+	}</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CVNvcnQgICAgICAgICAgICAgICAgICAgICAgICAgID0gInNvcnQiCglBc2NlbmRpbmdPcmRlciAgICAgICAgICAgICAgICA9ICJhc2MiCglRdWVyeSAgICAgICAgICAgICAgICAgICAgICAgICA9ICJxdWVyeSIKCUZpbHRlciAgICAgICAgICAgICAgICAgICAgICAgID0gImZpbHRlciIKCUJvb2wgICAgICAgICAgICAgICAgICAgICAgICAgID0gImJvb2wiCg==</text>
+        <text encoding="base64">CS8vcmV0dXJuIG1vZGVsLkpzb25NYXB7CgkvLwlTb3J0OiBbXW1vZGVsLkpzb25NYXB7Z2V0RmllbGRTb3J0T3JkZXIoQWN0aW9uVGltZUZpZWxkTmFtZSwgQXNjZW5kaW5nT3JkZXIpfSwKCS8vCVF1ZXJ5OiBtb2RlbC5Kc29uTWFwewoJLy8JCUJvb2w6IG1vZGVsLkpzb25NYXB7CgkvLwkJCUZpbHRlcjogYXVkaXRMb2dTZWFyY2hDb25kaXRpb24ocmVxdWVzdCksCgkvLwkJfSwKCS8vCX0sCgkvL30K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyBTb3J0ZWRGaWx0ZXJRdWVyeShjb25kaXRpb25zIFtdbW9kZWwuSnNvbk1hcCwgYXNjZW5kaW5nIGJvb2xlYW4pIG1vZGVsLkpzb25NYXAgewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cmV0dXJuIG1vZGVsLkpzb25NYXB7ClNvcnQ6IFtdbW9kZWwuSnNvbk1hcHtnZXRGaWVsZFNvcnRPcmRlcihBY3Rpb25UaW1lRmllbGROYW1lLCBBc2NlbmRpbmdPcmRlcil9LApRdWVyeTogbW9kZWwuSnNvbk1hcHsKQm9vbDogbW9kZWwuSnNvbk1hcHsKRmlsdGVyOiBhdWRpdExvZ1NlYXJjaENvbmRpdGlvbihyZXF1ZXN0KSwKfSwKfSwKfQo=</text>
+        <text encoding="base64">CVNvcnQgICAgICAgICAgICAgICAgICAgICAgICAgID0gInNvcnQiCglBc2NlbmRpbmdPcmRlciAgICAgICAgICAgICAgICA9ICJhc2MiCglRdWVyeSAgICAgICAgICAgICAgICAgICAgICAgICA9ICJxdWVyeSIKCUZpbHRlciAgICAgICAgICAgICAgICAgICAgICAgID0gImZpbHRlciIKCUJvb2wgICAgICAgICAgICAgICAgICAgICAgICAgID0gImJvb2wiCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CU9yZGVyICAgICAgICAgICAgICAgICAgICAgICAgID0gIm9yZGVyIgo=</text>
+        <text encoding="base64">cmV0dXJuIG1vZGVsLkpzb25NYXB7ClNvcnQ6IFtdbW9kZWwuSnNvbk1hcHtnZXRGaWVsZFNvcnRPcmRlcihBY3Rpb25UaW1lRmllbGROYW1lLCBBc2NlbmRpbmdPcmRlcil9LApRdWVyeTogbW9kZWwuSnNvbk1hcHsKQm9vbDogbW9kZWwuSnNvbk1hcHsKRmlsdGVyOiBhdWRpdExvZ1NlYXJjaENvbmRpdGlvbihyZXF1ZXN0KSwKfSwKfSwKfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -354,10 +357,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnVuYyBnZXRGaWVsZFNvcnRPcmRlcihmaWVsZE5hbWUsIHNvcnRPcmRlciBzdHJpbmcpIG1vZGVsLkpzb25NYXAgewoJcmV0dXJuIG1vZGVsLkpzb25NYXB7CgkJZmllbGROYW1lOiBtb2RlbC5Kc29uTWFwewoJCQlPcmRlcjogc29ydE9yZGVyLAoJCX0sCgl9Cn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CU9yZGVyICAgICAgICAgICAgICAgICAgICAgICAgID0gIm9yZGVyIgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
