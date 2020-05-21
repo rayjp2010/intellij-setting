@@ -108,12 +108,12 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1590022502879">
         <mark key="'" line="131" column="25" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590062593265">
-        <mark key="'" line="34" column="20" />
-        <mark key="[" line="6" column="37" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
-        <mark key="^" line="7" column="0" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590063549419">
+        <mark key="'" line="28" column="34" />
+        <mark key="[" line="140" column="25" />
+        <mark key="]" line="140" column="31" />
+        <mark key="." line="140" column="30" />
+        <mark key="^" line="140" column="31" />
       </file>
       <file name="/a.dummy" timestamp="1590052705285">
         <mark key="[" line="0" column="1" />
@@ -153,11 +153,11 @@
         <mark key="^" line="101" column="14" />
         <mark key="." line="104" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590062354014">
-        <mark key="[" line="111" column="50" />
-        <mark key="]" line="111" column="50" />
-        <mark key="." line="111" column="50" />
-        <mark key="^" line="111" column="14" />
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590063305814">
+        <mark key="[" line="114" column="5" />
+        <mark key="]" line="113" column="41" />
+        <mark key="." line="113" column="40" />
+        <mark key="^" line="113" column="41" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1590041144225">
         <mark key="'" line="20" column="0" />
@@ -202,7 +202,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="629" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" />
       <jump line="21" column="50" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="146" column="12" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="44" column="23" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
@@ -302,6 +301,7 @@
       <jump line="56" column="18" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/Case.java" />
       <jump line="62" column="20" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/Case.java" />
       <jump line="34" column="20" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="28" column="34" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -310,10 +310,10 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">ICE9IG5pbA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">ICE9IG5pbA==</text>
       </register>
       <register name="/" type="4">
         <text>sorted</text>
