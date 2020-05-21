@@ -105,9 +105,6 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/generated/com/rakuten/fpg/ui/admintool/dao/entity/QCase.java" timestamp="1590061735692">
         <mark key="'" line="46" column="46" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1590022502879">
-        <mark key="'" line="131" column="25" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590072108322">
         <mark key="'" line="28" column="34" />
         <mark key="[" line="143" column="8" />
@@ -117,6 +114,12 @@
       </file>
       <file name="/a.dummy" timestamp="1590052705285">
         <mark key="[" line="0" column="1" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/pointer.go" timestamp="1590073106979">
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="23" column="12" />
+        <mark key="^" line="23" column="12" />
+        <mark key="." line="23" column="11" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590052787302">
         <mark key="'" line="18" column="64" />
@@ -153,12 +156,12 @@
         <mark key="^" line="101" column="14" />
         <mark key="." line="104" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590072887990">
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590073519473">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="113" column="20" />
-        <mark key="]" line="113" column="20" />
-        <mark key="." line="113" column="20" />
-        <mark key="^" line="121" column="56" />
+        <mark key="[" line="106" column="83" />
+        <mark key="]" line="106" column="122" />
+        <mark key="^" line="106" column="122" />
+        <mark key="." line="106" column="121" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1590041144225">
         <mark key="'" line="20" column="0" />
@@ -311,16 +314,16 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text>*</text>
+        <text>getDecisionCondition</text>
       </register>
       <register name="-" type="4">
-        <text>*</text>
+        <text>getDecisionCondition</text>
       </register>
       <register name="/" type="4">
         <text>sorted</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CWlmIGV2YWwuSXNOdWxsRGVjaXNpb24oKSB7CgkJY29uZGl0aW9ucyA9IGFwcGVuZChjb25kaXRpb25zLCB1dGlsLk11c3ROb3RDb25kaXRpb24odXRpbC5GaWVsZEV4aXN0Q29uZGl0aW9uKGRlY2lzaW9uRmllbGROYW1lKSkpCgl9IGVsc2UgaWYgZGVjaXNpb24gOj0gZXZhbC5HZXREZWNpc2lvbigpOyBkZWNpc2lvbiAhPSBuaWwgewoJCWNvbmRpdGlvbnMgPSBhcHBlbmQoY29uZGl0aW9ucywgKnV0aWwuVGVybVN0cmluZ0NvbmRpdGlvbihkZWNpc2lvbkZpZWxkTmFtZSwgZGVjaXNpb24pKQoJfQo=</text>
+        <text encoding="base64">CWRlY2lzaW9uQ29uZGl0aW9uIDo9IGdldERlY2lzaW9uQ29uZGl0aW9uKHJlcXVlc3QuUGF5Z3VhcmRFdmFsdWF0aW9uLkV2YWx1YXRpb24oKSkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -329,22 +332,22 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWNvbmRpdGlvbnMgPSBhcHBlbmQoY29uZGl0aW9ucykK</text>
+        <text encoding="base64">ZnVuYyBnZXRQYXlndWFyZEV2YWx1YXRpb25Db25kaXRpb25zKGV2YWx1YXRpb24gbW9kZWwuUGF5Z3VhcmRFdmFsdWF0aW9uKSAoY29uZGl0aW9ucyBbXXV0aWwuSnNvbk1hcCkgewoJZXZhbCA6PSBldmFsdWF0aW9uLkV2YWx1YXRpb24oKQoJaWYgZXZhbC5Jc051bGxEZWNpc2lvbigpIHsKCQljb25kaXRpb25zID0gYXBwZW5kKGNvbmRpdGlvbnMsIHV0aWwuTXVzdE5vdENvbmRpdGlvbih1dGlsLkZpZWxkRXhpc3RDb25kaXRpb24oZGVjaXNpb25GaWVsZE5hbWUpKSkKCX0gZWxzZSBpZiBkZWNpc2lvbiA6PSBldmFsLkdldERlY2lzaW9uKCk7IGRlY2lzaW9uICE9IG5pbCB7CgkJY29uZGl0aW9ucyA9IGFwcGVuZChjb25kaXRpb25zLCAqdXRpbC5UZXJtU3RyaW5nQ29uZGl0aW9uKGRlY2lzaW9uRmllbGROYW1lLCBkZWNpc2lvbikpCgl9CglpZiBzdWJFdmFsTXNnIDo9IGV2YWwuR2V0U3ViRXZhbE1zZygpOyBzdWJFdmFsTXNnICE9IG5pbCB7CgkJc3ViRXZhbE1zZ0NvbmRpdGlvbiA6PSAqdXRpbC5UZXJtU3RyaW5nQ29uZGl0aW9uKHN1YkV2YWxNc2dGaWVsZE5hbWUsIHN1YkV2YWxNc2cpCgkJaWYgZXZhbC5Jc051bGxTdWJFdmFsTXNnQWxsb3dlZCgpIHsKCQkJY29uZGl0aW9ucyA9IGFwcGVuZChjb25kaXRpb25zLCB1dGlsLlNob3VsZENvbmRpdGlvbnMoW111dGlsLkpzb25NYXB7c3ViRXZhbE1zZ0NvbmRpdGlvbiwgdXRpbC5NdXN0Tm90Q29uZGl0aW9uKHV0aWwuRmllbGRFeGlzdENvbmRpdGlvbihzdWJFdmFsTXNnRmllbGROYW1lKSl9KSkKCQl9IGVsc2UgewoJCQljb25kaXRpb25zID0gYXBwZW5kKGNvbmRpdGlvbnMsIHN1YkV2YWxNc2dDb25kaXRpb24pCgkJfQoJfQoJcmV0dXJuCn0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWlmIHAgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CWlmIHAgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWlmIHAgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9Cg==</text>
+        <text encoding="base64">CWNvbmRpdGlvbnMgPSBhcHBlbmQoY29uZGl0aW9ucykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWUuCg==</text>
+        <text encoding="base64">CWlmIHAgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWlmIHAgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -365,10 +368,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnVuYyAoKSAgewoJCn0K</text>
+        <text encoding="base64">CWlmIHAgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnVuYyAoKSAgewoJCn0K</text>
+        <text encoding="base64">CWUuCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
