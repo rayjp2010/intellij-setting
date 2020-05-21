@@ -108,12 +108,12 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1590022502879">
         <mark key="'" line="131" column="25" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590063549419">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590072108322">
         <mark key="'" line="28" column="34" />
-        <mark key="[" line="140" column="25" />
-        <mark key="]" line="140" column="31" />
-        <mark key="." line="140" column="30" />
-        <mark key="^" line="140" column="31" />
+        <mark key="[" line="143" column="8" />
+        <mark key="]" line="141" column="31" />
+        <mark key="." line="141" column="30" />
+        <mark key="^" line="141" column="31" />
       </file>
       <file name="/a.dummy" timestamp="1590052705285">
         <mark key="[" line="0" column="1" />
@@ -153,11 +153,11 @@
         <mark key="^" line="101" column="14" />
         <mark key="." line="104" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590063305814">
-        <mark key="[" line="114" column="5" />
-        <mark key="]" line="113" column="41" />
-        <mark key="." line="113" column="40" />
-        <mark key="^" line="113" column="41" />
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590072218474">
+        <mark key="[" line="13" column="55" />
+        <mark key="]" line="13" column="4" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="13" column="4" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1590041144225">
         <mark key="'" line="20" column="0" />
@@ -310,10 +310,10 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">ICE9IG5pbA==</text>
+        <text>S</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICE9IG5pbA==</text>
+        <text>S</text>
       </register>
       <register name="/" type="4">
         <text>sorted</text>
