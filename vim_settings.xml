@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>expectEvent</entry>
         <entry>eventExpec</entry>
         <entry>findDescendantsRecursive</entry>
         <entry>findDescendants_hasDescendants</entry>
@@ -27,6 +26,7 @@
         <entry>mmipc</entry>
         <entry>date</entry>
         <entry>time</entry>
+        <entry>keywordKeyTemplate</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -101,11 +101,19 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1590022502879">
         <mark key="'" line="131" column="25" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/OrganizationService.java" timestamp="1589873609032">
-        <mark key="[" line="52" column="24" />
-        <mark key="]" line="55" column="44" />
-        <mark key="." line="55" column="43" />
-        <mark key="^" line="55" column="44" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590030565493">
+        <mark key="'" line="47" column="0" />
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
+        <mark key="^" line="47" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590030559575">
+        <mark key="'" line="15" column="4" />
+        <mark key="[" line="167" column="0" />
+        <mark key="]" line="167" column="0" />
+        <mark key="." line="167" column="0" />
+        <mark key="^" line="147" column="38" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/EventUtil.java" timestamp="1590021666442">
         <mark key="[" line="5" column="0" />
@@ -118,24 +126,41 @@
         <mark key="^" line="15" column="23" />
         <mark key="." line="72" column="0" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/org/mockito/Matchers.java" timestamp="1589865478886">
-        <mark key="'" line="289" column="24" />
-      </file>
       <file name="/RuleLogic.java" timestamp="1589960474051">
         <mark key="'" line="138" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1590030463609">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="0" />
+        <mark key="." line="29" column="0" />
       </file>
       <file name="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" timestamp="1589955952270">
         <mark key="'" line="822" column="102" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590028915278">
-        <mark key="'" line="48" column="65" />
-        <mark key="[" line="102" column="22" />
-        <mark key="]" line="102" column="22" />
-        <mark key="^" line="102" column="27" />
-        <mark key="." line="102" column="22" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" timestamp="1589971987028">
         <mark key="^" line="2" column="20" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/service_util.go" timestamp="1590029768014">
+        <mark key="[" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590030004019">
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="39" column="0" />
+        <mark key="^" line="39" column="0" />
+        <mark key="." line="39" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590029007756">
+        <mark key="'" line="48" column="65" />
+        <mark key="[" line="104" column="0" />
+        <mark key="]" line="104" column="0" />
+        <mark key="^" line="101" column="14" />
+        <mark key="." line="104" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590029837871">
+        <mark key="[" line="113" column="5" />
+        <mark key="]" line="105" column="12" />
+        <mark key="." line="105" column="11" />
+        <mark key="^" line="105" column="12" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1590021388920">
         <mark key="[" line="101" column="30" />
@@ -158,42 +183,14 @@
         <mark key="^" line="13" column="43" />
         <mark key="." line="13" column="42" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1589950822181">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="1" column="15" />
-        <mark key="^" line="1" column="15" />
-        <mark key="." line="1" column="14" />
-      </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/index.html" timestamp="1589955082357">
         <mark key="'" line="8" column="11" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" timestamp="1589940900700">
-        <mark key="'" line="156" column="41" />
-        <mark key="[" line="68" column="5" />
-        <mark key="]" line="69" column="52" />
-        <mark key="." line="69" column="51" />
-        <mark key="^" line="69" column="52" />
       </file>
       <file name="/fragment.java" timestamp="1589969485988">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dbtest/src/main/java/com/rakuten/fpg/aletheia/tests/integration/dataaccess/OrganizationServiceTest.java" timestamp="1589874010401">
-        <mark key="'" line="629" column="29" />
-        <mark key="[" line="622" column="93" />
-        <mark key="]" line="622" column="94" />
-        <mark key="." line="622" column="94" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/actions/homeAction.js" timestamp="1589954751209">
-        <mark key="[" line="28" column="18" />
-        <mark key="]" line="28" column="29" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="129" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="112" column="44" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="107" column="40" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="251" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="480" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="8" column="47" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="492" column="87" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
@@ -289,6 +286,11 @@
       <jump line="103" column="31" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="134" column="12" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="48" column="65" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="40" column="13" filename="$USER_HOME$/go/src/odin/util/util.go" />
+      <jump line="15" column="4" filename="$USER_HOME$/go/src/odin/core/audit_log_service.go" />
+      <jump line="27" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="24" column="5" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="47" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -296,41 +298,41 @@
       <register name="&quot;" type="4">
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
-      <register name="*" type="4">
-        <text>.Name</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>.Name</text>
+        <text>=</text>
       </register>
       <register name="/" type="4">
-        <text>time</text>
+        <text>keywordKeyTemplate</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAodCAqVHJhbnNhY3Rpb25Qcm9wZXJ0eSkgTmFtZSgpIHN0cmluZyB7CglpZiB0ID09IG5pbCB7CgkJcmV0dXJuIFVua25vd24KCX0KCXJldHVybiBmbXQuU3ByaW50ZigiJXMiLCAqdCkKfQo=</text>
+      <register name="0" type="4">
+        <text>keywordKeyTemplate</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWlmIHQgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWlmIHQgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
+        <text encoding="base64">ZnVuYyB3aWxkY2FyZFN0cmluZ0NvbmRpdGlvbihrZXkgc3RyaW5nLCB2YWx1ZSAqc3RyaW5nKSAqbW9kZWwuSnNvbk1hcCB7CglpZiBsZW4oa2V5KSA9PSAwIHx8IHZhbHVlID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJd2lsZGNhcmRLZXkgOj0gZm10LlNwcmludGYod2lsZGNhcmRLZXlUZW1wbGF0ZSwga2V5KQoJd2lsZGNhcmQgOj0gZm10LlNwcmludGYod2lsZGNhcmRUZW1wbGF0ZSwgKnZhbHVlKQoJcmV0dXJuICZtb2RlbC5Kc29uTWFwewoJCVdpbGRjYXJkOiBtb2RlbC5Kc29uTWFwewoJCQl3aWxkY2FyZEtleTogd2lsZGNhcmQsCgkJfSwKCX0KfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CS8vIG5vdCBhdmFpbGFibGUgaW4gVUkgYW5kIGRvZXMgbm90IGV4aXN0IGluIG9sZCBhbGV0aGUsIEtleXdvcmRpYQoJLy9Qcm9jZXNzVGltZTogICAgICAgICAgICAgICAgIHsiIktleXdvcmR9LAoJLy9NTUlQQ291bnRyeTogICAgICAgICAgICAgICAgIHt9LCBLZXl3b3JkLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CS8vIGRpc2FibGVkIGluIFVJIGFuZCBkb2VzIG5vdCBleGlzdCBpbiBvbGQgYWxldGhlLCBLZXl3b3JkaWEK</text>
+        <text encoding="base64">CVRlcm1zICAgICAgICAgICAgICAgICAgICAgICAgID0gInRlcm1zIgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CS8vQ2FyZEZyYWdtZW50OiAgICAgICAgICAgICAgICB7fSwgS2V5d29yZCwK</text>
+        <text encoding="base64">ZnVuYyBtdWx0aXBsZU1hdGNoSW50Q29uZGl0aW9uKGtleSBzdHJpbmcsIHZhbHVlcyBbXWludDY0KSAqbW9kZWwuSnNvbk1hcCB7CglpZiBsZW4oa2V5KSA9PSAwIHx8IGxlbih2YWx1ZXMpID09IDAgewoJCXJldHVybiBuaWwKCX0KCXJldHVybiAmbW9kZWwuSnNvbk1hcHsKCQlUZXJtczogbW9kZWwuSnNvbk1hcHsKCQkJa2V5OiB2YWx1ZXMsCgkJfSwKCX0KfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CUV2YWx1YXRpb25NZXNzYWdlOiAgICAgIHsiZGVjaXNpb24uZXZhbHVhdGlvbk1lc3NhZ2UiLCBLZXl3b3JkfSwK</text>
+        <text encoding="base64">CWtleXdvcmRLZXlUZW1wbGF0ZSAgID0gIiVzLmtleXdvcmQiCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CUxpc3RUeXBlOiAgICAgICAgICAgICAgIHsiZGVjaXNpb24uY2hlY2tJbmZvLmhpdExpc3RzLmxpc3RUeXBlIiwgS2V5d29yZH0sCg==</text>
+        <text encoding="base64">CVRlcm0gICAgICAgICAgICAgICAgICAgICAgICAgID0gInRlcm0iCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -351,10 +353,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CUxpc3RUeXBlOiAgICAgICAgICAgICAgIHsiZGVjaXNpb24uY2hlY2tJbmZvLmhpdExpc3RzLmxpc3RUeXBlIiwgS2V5d29yZH0sCglSZXZpZXdlck5hbWU6ICAgICAgICAgICB7ImRlY2lzaW9uLnJldmlld2VyIiwgS2V5d29yZH0sCg==</text>
+        <text encoding="base64">ZnVuYyBBcHBlbmRPcHRpb25hbENvbmRpdGlvbnMoY29uZGl0aW9ucyBbXW1vZGVsLkpzb25NYXAsIG9wdGlvbmFsQ29uZGl0aW9ucyAuLi4qbW9kZWwuSnNvbk1hcCkgKHJlc3VsdENvbmRpdGlvbnMgW11tb2RlbC5Kc29uTWFwKSB7CglyZXN1bHRDb25kaXRpb25zID0gYXBwZW5kKHJlc3VsdENvbmRpdGlvbnMsIGNvbmRpdGlvbnMuLi4pCglmb3IgXywgb3B0aW9uYWxDb25kaXRpb24gOj0gcmFuZ2Ugb3B0aW9uYWxDb25kaXRpb25zIHsKCQlpZiBvcHRpb25hbENvbmRpdGlvbiAhPSBuaWwgewoJCQlyZXN1bHRDb25kaXRpb25zID0gYXBwZW5kKHJlc3VsdENvbmRpdGlvbnMsICpvcHRpb25hbENvbmRpdGlvbikKCQl9Cgl9CglyZXR1cm4KfQoKZnVuYyBUZXJtU3RyaW5nQ29uZGl0aW9uKGtleSBzdHJpbmcsIHZhbHVlICpzdHJpbmcpICptb2RlbC5Kc29uTWFwIHsKCWlmIGxlbihrZXkpID09IDAgfHwgdmFsdWUgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CgoJa2V5d29yZEtleSA6PSBmbXQuU3ByaW50ZihrZXl3b3JkS2V5VGVtcGxhdGUsIGtleSkKCXJldHVybiAmbW9kZWwuSnNvbk1hcHsKCQlUZXJtOiBtb2RlbC5Kc29uTWFwewoJCQlrZXl3b3JkS2V5OiAqdmFsdWUsCgkJfSwKCX0KfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CU1MU2NvcmU6ICAgICAgICAgICAgICAgIHsiZGVjaXNpb24uY2hlY2tJbmZvLm1sQ2hlY2tSZXN1bHQuc2NvcmUiLCBLZXl3b3JkfSwKCU1MVGhyZXNob2xkOiAgICAgICAgICAgIHsiZGVjaXNpb24uY2hlY2tJbmZvLm1sQ2hlY2tSZXN1bHQuc2NvcmUudGhyZXNob2xkIiwgS2V5d29yZH0sCglNTFJlc3VsdDogICAgICAgICAgICAgICB7ImRlY2lzaW9uLmNoZWNrSW5mby5tbENoZWNrUmVzdWx0LnNjb3JlLnRocmVzaG9sZC5yZXN1bHQiLCBLZXl3b3JkfSwK</text>
+        <text encoding="base64">ZnVuYyB0ZXJtU3RyaW5nQ29uZGl0aW9uKGtleSBzdHJpbmcsIHZhbHVlICpzdHJpbmcpICptb2RlbC5Kc29uTWFwIHsKCWlmIGxlbihrZXkpID09IDAgfHwgdmFsdWUgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CgoJa2V5d29yZEtleSA6PSBmbXQuU3ByaW50ZihrZXl3b3JkS2V5VGVtcGxhdGUsIGtleSkKCXJldHVybiAmbW9kZWwuSnNvbk1hcHsKCQlUZXJtOiBtb2RlbC5Kc29uTWFwewoJCQlrZXl3b3JkS2V5OiAqdmFsdWUsCgkJfSwKCX0KfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -363,9 +365,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>time</last-search>
+      <last-search>keywordKeyTemplate</last-search>
       <last-offset />
-      <last-pattern>time</last-pattern>
+      <last-pattern>keywordKeyTemplate</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
