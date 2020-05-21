@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>should be</entry>
-        <entry>maxMind</entry>
         <entry>transaction</entry>
         <entry encoding="base64">cGFja2FnZSBjb20ucmFrdXRlbi5mcGcudWkuYWRtaW50b29sLmRvbWFpbi5kYXRhYWNjZXNzOyAgaW1wb3J0IGNvbS5teXNlbWEucXVlcnkuanBhLmltcGwuSlBBUXVlcnk7IGltcG9ydCBjb20ubXlzZW1hLnF1ZXJ5LnN1cHBvcnQuRXhwcmVzc2lvbnM7IGltcG9ydCBjb20ubXlzZW1hLnF1ZXJ5LnR5cGVzLkNvbnN0YW50SW1wbDsgaW1wb3J0IGNvbS5teXNlbWEucXVlcnkudHlwZXMuQ29uc3RydWN0b3JFeHByZXNzaW9uOyBpbXBvcnQgY29tLm15c2VtYS5xdWVyeS50eXBlcy5leHByLlN0cmluZ0V4cHJlc3Npb247IGltcG9ydCBjb20ucmFrdXRlbi5mcGcudWkuYWRtaW50b29sLmRhby5lbnRpdHkuUXVldWU7IGltcG9ydCBjb20ucmFrdXRlbi5mcGcudWkuYWRtaW50b29sLmRhby5lbnRpdHkuKjsgaW1wb3J0IGNvbS5yYWt1dGVuLmZwZy51aS5hZG1pbnRvb2wuZGFvLmVudGl0eS5lbnVtcy5DYXNlU3RhdHVzOyBpbXBvcnQgY29tLnJha3V0ZW4uZnBnLnVpLmFkbWludG9vbC5kYW8uZW50aXR5LmVudW1zLlBheUd1YXJkRXZhbHVhdGlvbjsgaW1wb3J0IGNvbS5yYWt1dGVuLmZwZy51aS5hZG1pbnRvb2wuZGFvLmVudGl0eS5lbnVtcy5TZWFyY2hUclByb3BlcnR5TmFtZTsgaW1wb3J0IGNvbS5yYWt1dGVuLmZwZy51aS5hZG1pbnRvb2wuZGFvLnJlcG9zaXRvcnkuQ2FzZVJlcG9zaXRvcnk7IGltcG9ydCBjb20ucmFrdXRlbi5mcGcudWkuYWRtaW50b29sLmRhby5yZXBvc2l0b3J5LkNsZWFudXBDaGVja1JlcG9zaXRvcnk7IGltcG9ydCBjb20ucmFrdXRlbi5mcGcudWkuYWRtaW50b29sLmRhby5yZXBvc2l0b3J5LlJlcXVlc3RSZXBvc2l0b3J5OyBpbXBvcnQgY29tLnJha3V0ZW4uZnBnLnVpLmFkbWludG9vbC5kYW8ucmVwb3NpdG9yeS5Vc2VyUmVwb3NpdG9yeTsgaW1wb3J0IGNvbS5yYWt1dGVuLmZwZy51aS5hZG1pbnRvb2wuZG9tYWluLm1hcHBpbmcuQ2FzZU1vZGVsTWFwcGluZ1NlcnZpY2U7IGltcG9ydCBjb20ucmFrdXRlbi5mcGcudWkuYWRtaW50b29sLmRvbWFpbi5tb2RlbC5DYXNlSm9pblJlcXVlc3RFbnRpdHlNb2RlbDsgaW1wb3J0IGNvbS5yYWt1dGVuLmZwZy51aS5hZG1pbnRvb2wuZG9tYWluLm1vZGVsLkNhc2VzSW5RdWV1ZUVudGl0eU1vZGVsOyBpbXBvcnQgY29tLnJha3V0ZW4uZnBnLnVpLmFkbWludG9vbC5kb21haW4ubW9kZWwuQ2FzZXNJblF1ZXVlc0VudGl0eU1vZGVsOyBpbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5iZWFucy5mYWN0b3J5LmFubm90YXRpb24uVmFsdWU7IGltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnN0ZXJlb3R5cGUuU2VydmljZTsgIGltcG9ydCBqYXZheC5pbmplY3QuSW5qZWN0OyBpbXBvcnQgamF2YXgucGVyc2lzdGVuY2UuRW50aXR5TWFuYWdlcjsgaW1wb3J0IGphdmF4LnBlcnNpc3RlbmNlLlBlcnNpc3RlbmNlQ29udGV4dDsgaW1wb3J0IGphdmF4LnBlcnNpc3RlbmNlLlF1ZXJ5OyBpbXBvcnQgamF2YXgudHJhbnNhY3Rpb24uVHJhbnNhY3Rpb25hbDsgaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0OyBpbXBvcnQgamF2YS51dGlsLio7IGltcG9ydCBqYXZhLnV0aWwuc3RyZWFtLkNvbGxlY3RvcnM7ICBAU2VydmljZSBAVHJhbnNhY3Rpb25hbCBwdWJsaWMgY2xhc3MgQ2FzZVNlcnZpY2VJbXBsIGltcGxlbWVudHMgQ2FzZVNlcnZpY2UgeyAgICAgIEBQZXJzaXN0ZW5jZUNvbnRleHQgICAgIHByaXZhdGUgRW50aXR5TWFuYWdlciBlbnRpdHlNYW5hZ2VyOyAgICAgIEBJbmplY3QgICAgIHByaXZhdGUgQ2FzZVJlcG9zaXRvcnkgY2FzZVJlcG9zaXRvcnk7ICAgICAgQEluamVjdCAgICAgcHJpdmF0ZSBSZXF1ZXN0UmVwb3NpdG9yeSByZXF1ZXN0UmVwb3NpdG9yeTsgICAgICBASW5qZWN0ICAgICBwcml2YXRlIFVzZXJSZXBvc2l0b3J5IHVzZXJSZXBvc2l0b3J5OyAgICAgIEBJbmplY3QgICAgIHByaXZhdGUgT3JnYW5pemF0aW9uU2VydmljZSBvcmdhbml6YXRpb25TZXJ2aWNlOyAgICAgIEBJbmplY3QgICAgIHByaXZhdGUgIFVzZXJTZXJ2aWNlIHVzZXJTZXJ2aWNlOyAgICAgIEBJbmplY3QgICAgIHByaXZhdGUgQ2xlYW51cENoZWNrUmVwb3NpdG9yeSBjYXNlQ2xlYW51cENoZWNrUmVwb3NpdG9yeTsgICAgICBASW5qZWN0ICAgICBwcml2YXRlIENhc2VNb2RlbE1hcHBpbmdTZXJ2aWNlIGNhc2VNb2RlbE1hcHBpbmdTZXJ2aWNlOyAgICAgIEBWYWx1ZSgiJHtjYXNlLnNvcnQubGltaXQ6NTAwMH0iKSAgICAgcHJpdmF0ZSBJbnRlZ2VyIExJTUlUX0NBU0U7ICAgICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgSW50ZWdlciBMSU1JVF9TRUFSQ0ggPSA1MTsgICAgICBAT3ZlcnJpZGUgICAgIHB1YmxpYyBDYXNlIGZpbmRCeVJlcXVlc3RJZChmaW5hbCBTdHJpbmcgcmVxdWVzdElkKSB7ICAgICAgICAgcmV0dXJuIGNhc2VSZXBvc2l0b3J5LmZpbmRCeVJlcXVlc3RJZChyZXF1ZXN0SWQpOyAgICAgfSAgICAgIEBPdmVycmlkZSAgICAgcHVibGljIENhc2UgZmluZChmaW5hbCBJbnRlZ2VyIGNhc2VJZCkgeyAgICAgICAgIHJldHVybiBjYXNlUmVwb3NpdG9yeS5maW5kT25lKGNhc2VJZCk7ICAgICB9ICAgICAgQE92ZXJyaWRlICAgICBwdWJsaWMgYm9vbGVhbiBmb3VuZENhc2VJbk9yZ2FuaXphdGlvbihmaW5hbCBJbnRlZ2VyIG9yZ2FuaXphdGlvbklkKSB7ICAgICAgICAgUUNhc2UgY2FzZSQgPSBRQ2FzZS5jYXNlJDsgICAgICAgICBRUmVxdWVzdCByZXF1ZXN0ID0gUVJlcXVlc3QucmVxdWVzdDsgICAgICAgICByZXR1cm4gIWdldENhc2VKb2luUmVxdWVzdChjYXNlJCwgcmVxdWVzdCwgMSkgICAgICAgICAgICAgICAgIC53aGVyZShjYXNlJC5vcmdhbml6YXRpb24ub3JnYW5pemF0aW9uSWQuZXEob3JnYW5pemF0aW9uSWQpICAgICAgICAgICAgICAgICAgICAgICAgIC5hbmQoY2FzZSQuc3RhdHVzLmluKEFycmF5cy5hc0xpc3QoQ2FzZVN0YXR1cy5BY3RpdmUuZ2V0U3RhdHVzKCksICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FzZVN0YXR1cy5BY2NlcnRpZnlSZXZpZXcuZ2V0U3RhdHVzKCksICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FzZVN0YXR1cy5JblByb2dyZXNzQWN0aXZlLmdldFN0YXR1cygpLCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENhc2VTdGF0dXMuSW5Qcm9ncmVzc0V4cGlyZWQuZ2V0U3RhdHVzKCksICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FzZVN0YXR1cy5FeHBpcmVkLmdldFN0YXR1cygpKSkpKSAgICAgICAgICAgICAgICAgLmxpc3QoQ29uc3RydWN0b3JFeHByZXNzaW9uLmNyZWF0ZShDYXNlSm9pblJlcXVlc3RFbnRpdHlNb2RlbC5jbGFzcywgICAgICAgICAgICAgICAgICAgICAgICAgY2FzZSQsICAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVlc3QpICAgICAgICAgICAgICAgICApLmlzRW1wdHkoKTsgICAgIH0gICAgICBAT3ZlcnJpZGUgICAgIHB1YmxpYyBMaXN0PENhc2VKb2luUmVxdWVzdEVudGl0eU1vZGVsPiBmaW5kQWxsQnlRdWV1ZShmaW5hbCBRdWV1ZSBxdWV1ZSkgeyAgICAgICAgIFFDYXNlIGNhc2UkID0gUUNhc2UuY2FzZSQ7ICAgICAgICAgUVJlcXVlc3QgcmVxdWVzdCA9IFFSZXF1ZXN0LnJlcXVlc3Q7ICAgICAgICAgcmV0dXJuIGdldENhc2VKb2luUmVxdWVzdChjYXNlJCwgcmVxdWVzdCwgTElNSVRfU0VBUkNIKSAgICAgICAgICAgICAgICAgLndoZXJlKHJlcXVlc3QucXVldWUuaXNOb3ROdWxsKCkgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZChyZXF1ZXN0LnF1ZXVlLmVxKHF1ZXVlKSkgICAgICAgICAgICAgICAgICAgICAgICAgLmFuZChjYXNlJC5zdGF0dXMuaW4oQXJyYXlzLmFzTGlzdChDYXNlU3RhdHVzLkFjdGl2ZS5nZXRTdGF0dXMoKSwgQ2FzZVN0YXR1cy5BY2NlcnRpZnlSZXZpZXcuZ2V0U3RhdHVzKCksIENhc2VTdGF0dXMuSW5Qcm9ncmVzc0FjdGl2ZS5nZXRTdGF0dXMoKSwgQ2FzZVN0YXR1cy5JblByb2dyZXNzRXhwaXJlZC5nZXRTdGF0dXMoKSwgQ2FzZVN0YXR1cy5FeHBpcmVkLmdldFN0YXR1cygpKSkpICAgICAgICAgICAgICAgICApICAgICAgICAgICAgICAgICAubGlzdChDb25zdHJ1Y3RvckV4cHJlc3Npb24uY3JlYXRlKENhc2VKb2luUmVxdWVzdEVudGl0eU1vZGVsLmNsYXNzLCAgICAgICAgICAgICAgICAgICAgICAgICBjYXNlJCwgICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWVzdCkgICAgICAgICAgICAgICAgICk7ICAgICB9ICAgICAgQE92ZXJyaWRlICAgICBwdWJsaWMgTG9uZyByZW1vdmVOb25DYXNlc0Zyb21RdWV1ZShmaW5hbCBMb25nIGZyb21JZCwgZmluYWwgTG9uZyB0b0lkKXsgICAgICAgICBRQ2FzZSBjYXNlJCA9IFFDYXNlLmNhc2UkOyAgICAgICAgIGZpbmFsIEpQQVF1ZXJ5IGpxdWVyeSA9IG5ldyBKUEFRdWVyeShlbnRpdHlNYW5hZ2VyKTsgICAgICAgICBmaW5hbCBMaXN0PENhc2U+IGNhc2VzID0ganF1ZXJ5LmZyb20oY2FzZSQpICAgICAgICAgICAgICAgICAud2hlcmUoY2FzZSQuY2FzZUlkLmJldHdlZW4oZnJvbUlkLCB0b0lkKSAgICAgICAgICAgICAgICAgLmFuZChjYXNlJC5zdGF0dXMuaW4oICAgICAgICAgICAgICAgICAgICAgICAgIEFycmF5cy5hc0xpc3QoICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FzZVN0YXR1cy5Eb25lLmdldFN0YXR1cygpLCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENhc2VTdGF0dXMuUGF5Z3VhcmRBY2NlcHQuZ2V0U3RhdHVzKCksICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FzZVN0YXR1cy5QYXlndWFyZERlbnkuZ2V0U3RhdHVzKCksICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FzZVN0YXR1cy5BY2NlcnRpZnlBY2NlcHQuZ2V0U3RhdHVzKCksICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FzZVN0YXR1cy5BY2NlcnRpZnlEZW55LmdldFN0YXR1cygpKSAgICAgICAgICAgICAgICAgKSkpLmxpc3QoY2FzZSQpOyAgICAgICAgICA=</entry>
         <entry>ref</entry>
@@ -27,6 +25,8 @@
         <entry>entityManager</entry>
         <entry>datetime</entry>
         <entry>date</entry>
+        <entry>casedetail</entry>
+        <entry>case detail</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -98,6 +98,9 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/index.jsx" timestamp="1589954993981">
         <mark key="'" line="70" column="32" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1590022502879">
+        <mark key="'" line="131" column="25" />
+      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/OrganizationService.java" timestamp="1589873609032">
         <mark key="[" line="52" column="24" />
         <mark key="]" line="55" column="44" />
@@ -133,12 +136,6 @@
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/org/mockito/Matchers.java" timestamp="1589865478886">
         <mark key="'" line="289" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/OrganizationLogic.java" timestamp="1589858846515">
-        <mark key="[" line="44" column="16" />
-        <mark key="]" line="44" column="47" />
-        <mark key="^" line="44" column="47" />
-        <mark key="." line="44" column="46" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1590021388920">
         <mark key="[" line="101" column="30" />
@@ -189,7 +186,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="262" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="284" column="45" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="150" column="31" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
       <jump line="144" column="34" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchProperties.js" />
@@ -289,6 +285,7 @@
       <jump line="21" column="26" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/dataaccess/RuleService.java" />
       <jump line="15" column="22" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
       <jump line="73" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
+      <jump line="131" column="25" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -303,7 +300,7 @@
         <text>originalRule</text>
       </register>
       <register name="/" type="4">
-        <text>date</text>
+        <text>case detail</text>
       </register>
       <register name="0" type="4">
         <text>clearAutomatically</text>
@@ -363,9 +360,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>date</last-search>
+      <last-search>case detail</last-search>
       <last-offset />
-      <last-pattern>date</last-pattern>
+      <last-pattern>case detail</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
