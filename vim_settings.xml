@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>name</entry>
-        <entry>RuleName</entry>
         <entry>should be</entry>
         <entry>maxMind</entry>
         <entry>transaction</entry>
@@ -27,6 +25,8 @@
         <entry>delete</entry>
         <entry>sql</entry>
         <entry>entityManager</entry>
+        <entry>datetime</entry>
+        <entry>date</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -105,9 +105,9 @@
         <mark key="^" line="55" column="44" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/EventUtil.java" timestamp="1590021666442">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="." line="13" column="0" />
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" timestamp="1590020532838">
         <mark key="[" line="72" column="0" />
@@ -154,6 +154,12 @@
         <mark key="[" line="94" column="0" />
         <mark key="]" line="94" column="0" />
         <mark key="." line="94" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/EventUtilOrganizationImpl.java" timestamp="1590021708798">
+        <mark key="[" line="13" column="43" />
+        <mark key="]" line="13" column="43" />
+        <mark key="^" line="13" column="43" />
+        <mark key="." line="13" column="42" />
       </file>
       <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1589950822181">
         <mark key="[" line="0" column="0" />
@@ -297,7 +303,7 @@
         <text>originalRule</text>
       </register>
       <register name="/" type="4">
-        <text>entityManager</text>
+        <text>date</text>
       </register>
       <register name="0" type="4">
         <text>clearAutomatically</text>
@@ -357,9 +363,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>entityManager</last-search>
+      <last-search>date</last-search>
       <last-offset />
-      <last-pattern>entityManager</last-pattern>
+      <last-pattern>date</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
