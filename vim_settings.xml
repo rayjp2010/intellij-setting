@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>eventExpec</entry>
         <entry>findDescendantsRecursive</entry>
         <entry>findDescendants_hasDescendants</entry>
         <entry>Before</entry>
@@ -27,6 +26,7 @@
         <entry>date</entry>
         <entry>time</entry>
         <entry>keywordKeyTemplate</entry>
+        <entry>wildcardKeyTemplate</entry>
       </history-search>
       <history-cmd>
         <entry>%s/digest.*\n//ng</entry>
@@ -101,18 +101,18 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1590022502879">
         <mark key="'" line="131" column="25" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590030565493">
-        <mark key="'" line="47" column="0" />
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="47" column="0" />
-        <mark key="." line="47" column="0" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590030659046">
+        <mark key="'" line="11" column="4" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="46" />
+        <mark key="." line="13" column="0" />
         <mark key="^" line="47" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590030559575">
+      <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590030620078">
         <mark key="'" line="15" column="4" />
-        <mark key="[" line="167" column="0" />
-        <mark key="]" line="167" column="0" />
-        <mark key="." line="167" column="0" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
         <mark key="^" line="147" column="38" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/EventUtil.java" timestamp="1590021666442">
@@ -129,10 +129,10 @@
       <file name="/RuleLogic.java" timestamp="1589960474051">
         <mark key="'" line="138" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1590030463609">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1590030655631">
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
       </file>
       <file name="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts" timestamp="1589955952270">
         <mark key="'" line="822" column="102" />
@@ -162,8 +162,8 @@
         <mark key="." line="105" column="11" />
         <mark key="^" line="105" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1590021388920">
-        <mark key="[" line="101" column="30" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1590033736328">
+        <mark key="[" line="104" column="0" />
         <mark key="]" line="101" column="34" />
         <mark key="." line="101" column="33" />
         <mark key="^" line="101" column="34" />
@@ -191,9 +191,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="480" column="29" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
-      <jump line="8" column="47" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
-      <jump line="492" column="87" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="9" column="47" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogicTest.java" />
       <jump line="26" column="30" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/test/java/com/rakuten/fpg/aletheia/dao/testhelper/RuleGenerator.java" />
       <jump line="149" column="37" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" />
@@ -290,7 +287,10 @@
       <jump line="15" column="4" filename="$USER_HOME$/go/src/odin/core/audit_log_service.go" />
       <jump line="27" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="24" column="5" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
-      <jump line="47" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="47" column="33" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="8" column="30" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="51" column="31" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="11" column="4" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -299,40 +299,40 @@
         <text>order.OrderDetails[0].ShippingInfo.DeliveryDate.Value</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CVdpbGRjYXJkICAgICAgICAgICAgICAgICAgICAgID0gIndpbGRjYXJkIgo=</text>
       </register>
       <register name="-" type="4">
         <text>=</text>
       </register>
       <register name="/" type="4">
-        <text>keywordKeyTemplate</text>
+        <text>wildcardKeyTemplate</text>
       </register>
       <register name="0" type="4">
-        <text>keywordKeyTemplate</text>
+        <text>wildcardKeyTemplate</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CVdpbGRjYXJkICAgICAgICAgICAgICAgICAgICAgID0gIndpbGRjYXJkIgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnVuYyB3aWxkY2FyZFN0cmluZ0NvbmRpdGlvbihrZXkgc3RyaW5nLCB2YWx1ZSAqc3RyaW5nKSAqbW9kZWwuSnNvbk1hcCB7CglpZiBsZW4oa2V5KSA9PSAwIHx8IHZhbHVlID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJd2lsZGNhcmRLZXkgOj0gZm10LlNwcmludGYod2lsZGNhcmRLZXlUZW1wbGF0ZSwga2V5KQoJd2lsZGNhcmQgOj0gZm10LlNwcmludGYod2lsZGNhcmRUZW1wbGF0ZSwgKnZhbHVlKQoJcmV0dXJuICZtb2RlbC5Kc29uTWFwewoJCVdpbGRjYXJkOiBtb2RlbC5Kc29uTWFwewoJCQl3aWxkY2FyZEtleTogd2lsZGNhcmQsCgkJfSwKCX0KfQo=</text>
+        <text encoding="base64">CXdpbGRjYXJkS2V5VGVtcGxhdGUgID0gIiVzLmtleXdvcmQiCgl3aWxkY2FyZFRlbXBsYXRlICAgICA9ICIqJXMqIgo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CVRlcm1zICAgICAgICAgICAgICAgICAgICAgICAgID0gInRlcm1zIgo=</text>
+        <text encoding="base64">ZnVuYyB3aWxkY2FyZFN0cmluZ0NvbmRpdGlvbihrZXkgc3RyaW5nLCB2YWx1ZSAqc3RyaW5nKSAqbW9kZWwuSnNvbk1hcCB7CglpZiBsZW4oa2V5KSA9PSAwIHx8IHZhbHVlID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJd2lsZGNhcmRLZXkgOj0gZm10LlNwcmludGYod2lsZGNhcmRLZXlUZW1wbGF0ZSwga2V5KQoJd2lsZGNhcmQgOj0gZm10LlNwcmludGYod2lsZGNhcmRUZW1wbGF0ZSwgKnZhbHVlKQoJcmV0dXJuICZtb2RlbC5Kc29uTWFwewoJCVdpbGRjYXJkOiBtb2RlbC5Kc29uTWFwewoJCQl3aWxkY2FyZEtleTogd2lsZGNhcmQsCgkJfSwKCX0KfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuYyBtdWx0aXBsZU1hdGNoSW50Q29uZGl0aW9uKGtleSBzdHJpbmcsIHZhbHVlcyBbXWludDY0KSAqbW9kZWwuSnNvbk1hcCB7CglpZiBsZW4oa2V5KSA9PSAwIHx8IGxlbih2YWx1ZXMpID09IDAgewoJCXJldHVybiBuaWwKCX0KCXJldHVybiAmbW9kZWwuSnNvbk1hcHsKCQlUZXJtczogbW9kZWwuSnNvbk1hcHsKCQkJa2V5OiB2YWx1ZXMsCgkJfSwKCX0KfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWtleXdvcmRLZXlUZW1wbGF0ZSAgID0gIiVzLmtleXdvcmQiCg==</text>
+        <text encoding="base64">CVRlcm1zICAgICAgICAgICAgICAgICAgICAgICAgID0gInRlcm1zIgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CVRlcm0gICAgICAgICAgICAgICAgICAgICAgICAgID0gInRlcm0iCg==</text>
+        <text encoding="base64">ZnVuYyBtdWx0aXBsZU1hdGNoSW50Q29uZGl0aW9uKGtleSBzdHJpbmcsIHZhbHVlcyBbXWludDY0KSAqbW9kZWwuSnNvbk1hcCB7CglpZiBsZW4oa2V5KSA9PSAwIHx8IGxlbih2YWx1ZXMpID09IDAgewoJCXJldHVybiBuaWwKCX0KCXJldHVybiAmbW9kZWwuSnNvbk1hcHsKCQlUZXJtczogbW9kZWwuSnNvbk1hcHsKCQkJa2V5OiB2YWx1ZXMsCgkJfSwKCX0KfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -353,10 +353,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnVuYyBBcHBlbmRPcHRpb25hbENvbmRpdGlvbnMoY29uZGl0aW9ucyBbXW1vZGVsLkpzb25NYXAsIG9wdGlvbmFsQ29uZGl0aW9ucyAuLi4qbW9kZWwuSnNvbk1hcCkgKHJlc3VsdENvbmRpdGlvbnMgW11tb2RlbC5Kc29uTWFwKSB7CglyZXN1bHRDb25kaXRpb25zID0gYXBwZW5kKHJlc3VsdENvbmRpdGlvbnMsIGNvbmRpdGlvbnMuLi4pCglmb3IgXywgb3B0aW9uYWxDb25kaXRpb24gOj0gcmFuZ2Ugb3B0aW9uYWxDb25kaXRpb25zIHsKCQlpZiBvcHRpb25hbENvbmRpdGlvbiAhPSBuaWwgewoJCQlyZXN1bHRDb25kaXRpb25zID0gYXBwZW5kKHJlc3VsdENvbmRpdGlvbnMsICpvcHRpb25hbENvbmRpdGlvbikKCQl9Cgl9CglyZXR1cm4KfQoKZnVuYyBUZXJtU3RyaW5nQ29uZGl0aW9uKGtleSBzdHJpbmcsIHZhbHVlICpzdHJpbmcpICptb2RlbC5Kc29uTWFwIHsKCWlmIGxlbihrZXkpID09IDAgfHwgdmFsdWUgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CgoJa2V5d29yZEtleSA6PSBmbXQuU3ByaW50ZihrZXl3b3JkS2V5VGVtcGxhdGUsIGtleSkKCXJldHVybiAmbW9kZWwuSnNvbk1hcHsKCQlUZXJtOiBtb2RlbC5Kc29uTWFwewoJCQlrZXl3b3JkS2V5OiAqdmFsdWUsCgkJfSwKCX0KfQo=</text>
+        <text encoding="base64">CWtleXdvcmRLZXlUZW1wbGF0ZSAgID0gIiVzLmtleXdvcmQiCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnVuYyB0ZXJtU3RyaW5nQ29uZGl0aW9uKGtleSBzdHJpbmcsIHZhbHVlICpzdHJpbmcpICptb2RlbC5Kc29uTWFwIHsKCWlmIGxlbihrZXkpID09IDAgfHwgdmFsdWUgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CgoJa2V5d29yZEtleSA6PSBmbXQuU3ByaW50ZihrZXl3b3JkS2V5VGVtcGxhdGUsIGtleSkKCXJldHVybiAmbW9kZWwuSnNvbk1hcHsKCQlUZXJtOiBtb2RlbC5Kc29uTWFwewoJCQlrZXl3b3JkS2V5OiAqdmFsdWUsCgkJfSwKCX0KfQo=</text>
+        <text encoding="base64">CVRlcm0gICAgICAgICAgICAgICAgICAgICAgICAgID0gInRlcm0iCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -365,9 +365,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>keywordKeyTemplate</last-search>
+      <last-search>wildcardKeyTemplate</last-search>
       <last-offset />
-      <last-pattern>keywordKeyTemplate</last-pattern>
+      <last-pattern>wildcardKeyTemplate</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>log</last-substitute>
       <last-dir>1</last-dir>
