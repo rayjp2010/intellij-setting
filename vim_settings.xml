@@ -2,12 +2,22 @@
   <component name="VimEditorSettings">
     <editor />
   </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>ユーザ</entry>
+      </history-search>
+    </history>
+  </component>
   <component name="VimKeySettings">
     <shortcut-conflicts />
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590303876320">
+        <mark key="[" line="20" column="52" />
+      </file>
       <file name="/GraphQL.result.json" timestamp="1590300661889">
         <mark key="[" line="0" column="0" />
       </file>
@@ -15,11 +25,18 @@
     <jumps />
   </component>
   <component name="VimRegisterSettings">
-    <registers />
+    <registers>
+      <register name="/" type="4">
+        <text>ユーザ</text>
+      </register>
+    </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-dir>0</last-dir>
+      <last-search>ユーザ</last-search>
+      <last-offset />
+      <last-pattern>ユーザ</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
   </component>
