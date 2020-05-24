@@ -7,6 +7,10 @@
       <history-search>
         <entry>ユーザ</entry>
         <entry>现在</entry>
+        <entry>新規追加</entry>
+        <entry>recipient</entry>
+        <entry>として</entry>
+        <entry>onRowSelect</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -19,47 +23,95 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590310026467">
+        <mark key="'" line="23" column="24" />
+        <mark key="[" line="264" column="0" />
+        <mark key="]" line="264" column="0" />
+        <mark key="." line="264" column="0" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
         <mark key="]" line="15" column="26" />
         <mark key="^" line="15" column="26" />
         <mark key="." line="15" column="25" />
       </file>
-      <file name="/GraphQL.result.json" timestamp="1590306942409">
+      <file name="/GraphQL.result.json" timestamp="1590307243883">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="/GraphQL.variables.json" timestamp="1590308225173">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignBar.vue" timestamp="1590307329094" />
       <file name="$USER_HOME$/Develop/workspace/face-shield/README.md" timestamp="1590304879173">
         <mark key="'" line="15" column="0" />
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1590309131666">
+        <mark key="[" line="24" column="34" />
+        <mark key="]" line="24" column="23" />
+        <mark key="^" line="24" column="23" />
+        <mark key="." line="24" column="22" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/admin/authSuppliers.vue" timestamp="1590308735556">
+        <mark key="[" line="50" column="85" />
+        <mark key="]" line="50" column="85" />
+        <mark key="." line="50" column="84" />
+        <mark key="^" line="50" column="85" />
+      </file>
+      <file name="/" timestamp="1590309939652">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="15" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/README.md" />
+      <jump line="198" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="23" column="24" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHRoaXMubWF0Y2hDb3VudCA9IHRoaXMuc2VsZWN0ZWRTdXBwbHkgPyB0aGlzLnNlbGVjdGVkU3VwcGx5LmNvdW50IDogMAo=</text>
+      </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGNvbm8K</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHNvbWUpCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgQHJvdy1zZWxlY3RlZD0ib25Sb3dTZWxlY3RlZCIK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">aHR0cDovL2ZhY2VzaGllbGQtMjAyMDA1MDIxNTA5MDYtaG9zdGluZ2J1Y2tldC1kZXYuczMtd2Vic2l0ZS1hcC1ub3J0aGVhc3QtMS5hbWF6b25hd3MuY29tCg==</text>
       </register>
+      <register name="-" type="4">
+        <text>some: any</text>
+      </register>
       <register name="/" type="4">
-        <text>现在</text>
+        <text>onRowSelect</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>现在</last-search>
+      <last-search>onRowSelect</last-search>
       <last-offset />
-      <last-pattern>现在</last-pattern>
+      <last-pattern>onRowSelect</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
