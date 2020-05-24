@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ユーザ</entry>
         <entry>现在</entry>
         <entry>新規追加</entry>
         <entry>recipient</entry>
@@ -23,6 +22,9 @@
         <entry>seeMore</entry>
         <entry>tabs</entry>
         <entry>tabChange</entry>
+        <entry>as</entry>
+        <entry encoding="base64">YXMg</entry>
+        <entry>this.selectedDemand</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -35,10 +37,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590323296755">
-        <mark key="[" line="253" column="0" />
-        <mark key="]" line="253" column="0" />
-        <mark key="." line="253" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590324383265">
+        <mark key="'" line="272" column="38" />
+        <mark key="[" line="218" column="64" />
+        <mark key="]" line="218" column="64" />
+        <mark key="." line="218" column="64" />
+        <mark key="^" line="218" column="67" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -99,56 +103,70 @@
       <jump line="222" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="300" column="19" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="256" column="15" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="217" column="47" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="243" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="247" column="7" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="5" column="12" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="15" column="24" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="32" column="46" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="34" column="62" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="65" column="28" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="76" column="63" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="80" column="33" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="117" column="3" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="218" column="64" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="280" column="4" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="272" column="38" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>?</text>
       </register>
       <register name="-" type="4">
-        <text>option.value</text>
+        <text>?</text>
       </register>
       <register name="/" type="4">
-        <text>tabChange</text>
+        <text>this.selectedDemand</text>
       </register>
       <register name="0" type="4">
         <text>this.selectedSupply ? this.selectedSupply.count : 0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBvbkFjdGl2ZVRhYkNoYW5nZWQgKG5ld1RhYkluZGV4OiBudW1iZXIpIHsKICAgIGxldCBvcHRpb246IFNob3duRGF0YSA9IHRoaXMuc2hvd25EYXRhT3B0aW9uc1tuZXdUYWJJbmRleF0KCiAgICB0aGlzLl9zZWxlY3RUYWJsZVJvdygpCiAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgQGFjdGl2YXRlLXRhYj0ib25BY3RpdmVUYWJDaGFuZ2VkIgo=</text>
+        <text encoding="base64">ICAgIGxldCBkYXRhTGlzdCA9IHRoaXMuc2hvd25EYXRhLmRhdGFMaXN0Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGlmIChvcHRpb24udmFsdWUgPT09ICdERU1BTkQnKSB7CiAgICAgIHRoaXMuX3NlbGUKICAgIH0K</text>
+        <text encoding="base64">ICAgIGxldCBkYXRhTGlzdCA9IHRoaXMuc2hvd25EYXRhLmRhdGFMaXN0Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5yZWZzLnN1cHBseURlbWFuZFRhYmxlLnNlbGVjdFJvdwo=</text>
+        <text encoding="base64">ICAgICAgdGhpcy5zZWxlY3RlZERlbWFuZC5pZAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5yZWZzLnN1cHBseURlbWFuZFRhYgo=</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG9wdGlvbi4K</text>
+        <text encoding="base64">ICAgIHRoaXMuaXNEZW1hbmQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKGEsIGIpCg==</text>
+        <text encoding="base64">ICAgIHRoaXMuaXMK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkOiAK</text>
+        <text encoding="base64">ICAgIHRoaXMuc2hvd25UYWJsZUluZGV4Cg==</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>tabChange</last-search>
+      <last-search>this.selectedDemand</last-search>
       <last-offset />
-      <last-pattern>tabChange</last-pattern>
+      <last-pattern>this.selectedDemand</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
