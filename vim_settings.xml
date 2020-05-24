@@ -6,7 +6,11 @@
     <history>
       <history-search>
         <entry>ユーザ</entry>
+        <entry>现在</entry>
       </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
     </history>
   </component>
   <component name="VimKeySettings">
@@ -15,13 +19,13 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590303899336">
-        <mark key="[" line="20" column="52" />
-        <mark key="]" line="19" column="23" />
-        <mark key="^" line="19" column="23" />
-        <mark key="." line="19" column="22" />
+      <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304136222">
+        <mark key="[" line="15" column="26" />
+        <mark key="]" line="15" column="26" />
+        <mark key="^" line="15" column="26" />
+        <mark key="." line="15" column="25" />
       </file>
-      <file name="/GraphQL.result.json" timestamp="1590300661889">
+      <file name="/GraphQL.result.json" timestamp="1590303970647">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -30,15 +34,15 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="/" type="4">
-        <text>ユーザ</text>
+        <text>现在</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>ユーザ</last-search>
+      <last-search>现在</last-search>
       <last-offset />
-      <last-pattern>ユーザ</last-pattern>
+      <last-pattern>现在</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
