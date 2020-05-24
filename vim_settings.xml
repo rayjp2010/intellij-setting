@@ -33,11 +33,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590320108886">
-        <mark key="'" line="116" column="2" />
-        <mark key="[" line="155" column="23" />
-        <mark key="]" line="155" column="23" />
-        <mark key="." line="155" column="23" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590321607164">
+        <mark key="'" line="117" column="2" />
+        <mark key="[" line="70" column="0" />
+        <mark key="]" line="70" column="0" />
+        <mark key="." line="70" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -99,44 +99,44 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>selectedDemand</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgOnNlbGUK</text>
       </register>
       <register name="-" type="4">
-        <text>selectedDemand</text>
+        <text>primary</text>
       </register>
       <register name="/" type="4">
         <text>seeMore</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5zZWxlY3RlZERlbWFuZCkK</text>
+      <register name="0" type="4">
+        <text>this.selectedSupply ? this.selectedSupply.count : 0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgOnNlbGUK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5zZWxlY3RlZERlbWFuZCkK</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICBnZXQgc2VsZWN0ZWQgKGlkOiBudW1iZXIpOiBudW1iZXIgewogICAgcmV0dXJuIGlkCiAgfQo=</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHNlbGVjdGVkOiAoKSA9PiB7CiAgICAgIGNvbnNvbGUubG9nKHRoaXMuc2VsZWN0ZWRTdXBwbHkpCiAgICAgIHJldHVybiB0aGlzLnNlbGVjdGVkU3VwcGx5ID8gdGhpcy5zZWxlY3RlZFN1cHBseS5zdXBwbHlOYW1lIDogbnVsbAogICAgfSwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICA6dGl0bGU9InRhYi50ZXh0Igo=</text>
+        <text encoding="base64">ICAgIHNlbGVjdGVkOiAoKSA9PiB7CiAgICAgIGNvbnNvbGUubG9nKHRoaXMuc2VsZWN0ZWREZW1hbmQpCiAgICAgIHJldHVybiB0aGlzLnNlbGVjdGVkRGVtYW5kID8gdGhpcy5zZWxlY3RlZERlbWFuZC5kZW1hbmROYW1lIDogbnVsbAogICAgfSwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgPGItdGFiCiAgICAgID4K</text>
+        <text encoding="base64">ICBzZWxlY3RlZDogKCkgPT4gc3RyaW5nIHwgbnVsbAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2LWZvcj0idGFiIGluIHNob3duRGF0YU9wdGlvbnMiCiAgICAgICAgOmtleT0idGFiLnZhbHVlIgogICAgICAgIG5vLWJvZHkKICAgICAgICA6dGl0bGU9InRhYi50ZXh0Igo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5zZWxlY3RlZERlbWFuZCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2LWZvcj0idGFiIGluIHNob3duRGF0YU9wdGlvbnMiCiAgICAgICAgOmtleT0idGFiLnZhbHVlIgogICAgICAgIG5vLWJvZHkKICAgICAgICA6dGl0bGU9InRhYi50ZXh0Igo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
     </registers>
   </component>
