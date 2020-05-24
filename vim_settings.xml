@@ -15,8 +15,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590303876320">
+      <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590303899336">
         <mark key="[" line="20" column="52" />
+        <mark key="]" line="19" column="23" />
+        <mark key="^" line="19" column="23" />
+        <mark key="." line="19" column="22" />
       </file>
       <file name="/GraphQL.result.json" timestamp="1590300661889">
         <mark key="[" line="0" column="0" />
