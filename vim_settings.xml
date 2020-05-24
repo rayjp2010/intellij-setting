@@ -20,6 +20,7 @@
         <entry>b-tab</entry>
         <entry>ShownData</entry>
         <entry>shownDataOptions</entry>
+        <entry>seeMore</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -32,12 +33,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590318174120">
-        <mark key="'" line="125" column="2" />
-        <mark key="[" line="125" column="2" />
-        <mark key="]" line="125" column="17" />
-        <mark key="^" line="263" column="73" />
-        <mark key="." line="274" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590320108886">
+        <mark key="'" line="116" column="2" />
+        <mark key="[" line="155" column="23" />
+        <mark key="]" line="155" column="23" />
+        <mark key="." line="155" column="23" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -93,56 +93,58 @@
       <jump line="204" column="16" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="169" column="14" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="125" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="112" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="116" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>shownDataOptions</text>
+        <text>selectedDemand</text>
       </register>
       <register name="-" type="4">
-        <text>_selectDemandRow</text>
+        <text>selectedDemand</text>
       </register>
       <register name="/" type="4">
-        <text>shownDataOptions</text>
+        <text>seeMore</text>
       </register>
-      <register name="0" type="4">
-        <text>shownDataOptions</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5zZWxlY3RlZERlbWFuZCkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBvblJvd1NlbGVjdGVkIChpdGVtczogRGVtYW5kRW50aXR5W10gfCBTdXBwbHlFbnRpdHlbXSkgewogICAgY29uc29sZS5sb2coJz09PT09JywgaXRlbXMpCiAgICBpZiAoaXRlbXNbMF0pIHsKICAgICAgaWYgKGl0ZW1zWzBdIGluc3RhbmNlb2YgRGVtYW5kRW50aXR5KSB7CiAgICAgICAgdGhpcy5zZWxlY3RlZERlbWFuZCA9IGl0ZW1zWzBdCiAgICAgIH0gZWxzZSB7CiAgICAgICAgdGhpcy5zZWxlY3RlZFN1cHBseSA9IGl0ZW1zWzBdCiAgICAgICAgdGhpcy5tYXRjaENvdW50ID0gdGhpcy5zZWxlY3RlZFN1cHBseS5jb3VudAogICAgICB9CiAgICB9IGVsc2UgaWYgKHRoaXMuaXNEZW1hbmQpIHsKICAgICAgdGhpcy5zZWxlY3RlZERlbWFuZCA9IG51bGwKICAgIH0gZWxzZSB7CiAgICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSBudWxsCiAgICAgIHRoaXMubWF0Y2hDb3VudCA9IDAKICAgIH0KICB9Cg==</text>
+        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5zZWxlY3RlZERlbWFuZCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGlmICh0aGlzLnNlbGVjdGVkU3VwcGx5ICE9IG51bGwpIHsKICAgICAgCiAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGlmICh0aGlzLnNlbGUpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5tYXRjaENvdW50ID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICA6dGl0bGU9InRhYi50ZXh0Igo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5tYXRjaENvdW50IAo=</text>
+        <text encoding="base64">ICAgICAgPGItdGFiCiAgICAgID4K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkK</text>
+        <text encoding="base64">ICAgICAgICB2LWZvcj0idGFiIGluIHNob3duRGF0YU9wdGlvbnMiCiAgICAgICAgOmtleT0idGFiLnZhbHVlIgogICAgICAgIG5vLWJvZHkKICAgICAgICA6dGl0bGU9InRhYi50ZXh0Igo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHRoaXMuc2VsZWN0ZWREZW1hbmQgPSBpdGVtCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmIChpdGVtKSB7CiAgICAgIHRoaXMucmVmcy5zdXBwbHlEZW1hbmRUYWJsZS5zZWxlY3RSb3cocm93SW5kZXgpCiAgICB9IGVsc2UgewogICAgICB0aGlzLnJlZnMuc3VwcGx5RGVtYW5kVGFibGUudW5zZWxlY3RSb3cocm93SW5kZXgpCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICB2LWZvcj0idGFiIGluIHNob3duRGF0YU9wdGlvbnMiCiAgICAgICAgOmtleT0idGFiLnZhbHVlIgogICAgICAgIG5vLWJvZHkKICAgICAgICA6dGl0bGU9InRhYi50ZXh0Igo=</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>shownDataOptions</last-search>
+      <last-search>seeMore</last-search>
       <last-offset />
-      <last-pattern>shownDataOptions</last-pattern>
+      <last-pattern>seeMore</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
