@@ -21,6 +21,8 @@
         <entry>ShownData</entry>
         <entry>shownDataOptions</entry>
         <entry>seeMore</entry>
+        <entry>tabs</entry>
+        <entry>tabChange</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -33,11 +35,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590321607164">
-        <mark key="'" line="117" column="2" />
-        <mark key="[" line="70" column="0" />
-        <mark key="]" line="70" column="0" />
-        <mark key="." line="70" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590323296755">
+        <mark key="[" line="253" column="0" />
+        <mark key="]" line="253" column="0" />
+        <mark key="." line="253" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -95,56 +96,59 @@
       <jump line="125" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="112" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="116" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="222" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="300" column="19" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="256" column="15" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgOnNlbGUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>primary</text>
+        <text>option.value</text>
       </register>
       <register name="/" type="4">
-        <text>seeMore</text>
+        <text>tabChange</text>
       </register>
       <register name="0" type="4">
         <text>this.selectedSupply ? this.selectedSupply.count : 0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgOnNlbGUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBvbkFjdGl2ZVRhYkNoYW5nZWQgKG5ld1RhYkluZGV4OiBudW1iZXIpIHsKICAgIGxldCBvcHRpb246IFNob3duRGF0YSA9IHRoaXMuc2hvd25EYXRhT3B0aW9uc1tuZXdUYWJJbmRleF0KCiAgICB0aGlzLl9zZWxlY3RUYWJsZVJvdygpCiAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBnZXQgc2VsZWN0ZWQgKGlkOiBudW1iZXIpOiBudW1iZXIgewogICAgcmV0dXJuIGlkCiAgfQo=</text>
+        <text encoding="base64">ICAgICAgQGFjdGl2YXRlLXRhYj0ib25BY3RpdmVUYWJDaGFuZ2VkIgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHNlbGVjdGVkOiAoKSA9PiB7CiAgICAgIGNvbnNvbGUubG9nKHRoaXMuc2VsZWN0ZWRTdXBwbHkpCiAgICAgIHJldHVybiB0aGlzLnNlbGVjdGVkU3VwcGx5ID8gdGhpcy5zZWxlY3RlZFN1cHBseS5zdXBwbHlOYW1lIDogbnVsbAogICAgfSwK</text>
+        <text encoding="base64">ICAgIGlmIChvcHRpb24udmFsdWUgPT09ICdERU1BTkQnKSB7CiAgICAgIHRoaXMuX3NlbGUKICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHNlbGVjdGVkOiAoKSA9PiB7CiAgICAgIGNvbnNvbGUubG9nKHRoaXMuc2VsZWN0ZWREZW1hbmQpCiAgICAgIHJldHVybiB0aGlzLnNlbGVjdGVkRGVtYW5kID8gdGhpcy5zZWxlY3RlZERlbWFuZC5kZW1hbmROYW1lIDogbnVsbAogICAgfSwK</text>
+        <text encoding="base64">ICAgICAgdGhpcy5yZWZzLnN1cHBseURlbWFuZFRhYmxlLnNlbGVjdFJvdwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBzZWxlY3RlZDogKCkgPT4gc3RyaW5nIHwgbnVsbAo=</text>
+        <text encoding="base64">ICAgICAgdGhpcy5yZWZzLnN1cHBseURlbWFuZFRhYgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG9wdGlvbi4K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5zZWxlY3RlZERlbWFuZCkK</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKGEsIGIpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkOiAK</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>seeMore</last-search>
+      <last-search>tabChange</last-search>
       <last-offset />
-      <last-pattern>seeMore</last-pattern>
+      <last-pattern>tabChange</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
