@@ -19,20 +19,34 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304136222">
+      <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
         <mark key="]" line="15" column="26" />
         <mark key="^" line="15" column="26" />
         <mark key="." line="15" column="25" />
       </file>
-      <file name="/GraphQL.result.json" timestamp="1590303970647">
+      <file name="/GraphQL.result.json" timestamp="1590304211441">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/README.md" timestamp="1590304872958">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
     </filemarks>
     <jumps />
   </component>
   <component name="VimRegisterSettings">
     <registers>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">aHR0cDovL2ZhY2VzaGllbGQtMjAyMDA1MDIxNTA5MDYtaG9zdGluZ2J1Y2tldC1kZXYuczMtd2Vic2l0ZS1hcC1ub3J0aGVhc3QtMS5hbWF6b25hd3MuY29tCg==</text>
+      </register>
       <register name="/" type="4">
         <text>现在</text>
       </register>
