@@ -25,16 +25,19 @@
         <mark key="^" line="15" column="26" />
         <mark key="." line="15" column="25" />
       </file>
-      <file name="/GraphQL.result.json" timestamp="1590304211441">
+      <file name="/GraphQL.result.json" timestamp="1590306942409">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/README.md" timestamp="1590304872958">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/README.md" timestamp="1590304879173">
+        <mark key="'" line="15" column="0" />
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="15" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/README.md" />
+    </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
