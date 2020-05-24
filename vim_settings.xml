@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>现在</entry>
-        <entry>新規追加</entry>
-        <entry>recipient</entry>
-        <entry>として</entry>
         <entry>onRowSelect</entry>
         <entry>ref</entry>
         <entry encoding="base64">IiB5YW5rID0+IGNsaXBib2FyZCBzZXQgY2xpcGJvYXJkPXVubmFtZWQsYXV0b3NlbGVjdCBtYXAgWSB5JCAgIiB2cCBkb2Vzbid0IHJlcGxhY2UgcGFzdGUgYnVmZmVyIHhub3JlbWFwIHAgIl9kUCAgIiBpZ25vcmUgY2FzZSB3aGVuIHNlYXJjaGluZyBzZXQgaWdub3JlY2FzZQ==</entry>
@@ -25,6 +21,10 @@
         <entry>as</entry>
         <entry encoding="base64">YXMg</entry>
         <entry>this.selectedDemand</entry>
+        <entry>viewType</entry>
+        <entry>watch</entry>
+        <entry>マッチ</entry>
+        <entry>modal</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -37,12 +37,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590324383265">
-        <mark key="'" line="272" column="38" />
-        <mark key="[" line="218" column="64" />
-        <mark key="]" line="218" column="64" />
-        <mark key="." line="218" column="64" />
-        <mark key="^" line="218" column="67" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590329856845">
+        <mark key="'" line="39" column="16" />
+        <mark key="[" line="301" column="0" />
+        <mark key="]" line="301" column="0" />
+        <mark key="^" line="301" column="26" />
+        <mark key="." line="301" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -73,6 +73,11 @@
         <mark key="]" line="50" column="85" />
         <mark key="." line="50" column="84" />
         <mark key="^" line="50" column="85" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" timestamp="1590326613938">
+        <mark key="'" line="170" column="31" />
+        <mark key="[" line="177" column="10" />
+        <mark key="]" line="177" column="17" />
       </file>
       <file name="/" timestamp="1590309939652">
         <mark key="[" line="0" column="0" />
@@ -115,58 +120,65 @@
       <jump line="80" column="33" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="117" column="3" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="218" column="64" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
-      <jump line="280" column="4" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="272" column="38" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="280" column="36" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="177" column="7" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="170" column="31" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignCard.vue" />
+      <jump line="262" column="67" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="301" column="27" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="6" column="28" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="38" column="18" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="39" column="16" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>?</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSAK</text>
       </register>
       <register name="-" type="4">
-        <text>?</text>
+        <text>('+++++',</text>
       </register>
       <register name="/" type="4">
-        <text>this.selectedDemand</text>
+        <text>modal</text>
       </register>
-      <register name="0" type="4">
-        <text>this.selectedSupply ? this.selectedSupply.count : 0</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCd0YWJsZSByZWZyZXNoZWQnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICkK</text>
+        <text encoding="base64">ICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdzZWxlY3RlZCcgKyByb3dJbmRleCArIHNob3VsZFNlbGVjdCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGxldCBkYXRhTGlzdCA9IHRoaXMuc2hvd25EYXRhLmRhdGFMaXN0Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCc9PT09PScsIGl0ZW0sIGNsaWNrZWRSb3dJbmRleCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBkYXRhTGlzdCA9IHRoaXMuc2hvd25EYXRhLmRhdGFMaXN0Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdjYWxjOicgKyBzZWxlY3RlZFJvd0luZGV4KQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5zZWxlY3RlZERlbWFuZC5pZAo=</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCd0YWJsZSByZWZyZXNoZWQnKQogICAgY29uc29sZS5sb2codGhpcy5zaG93bkRhdGEudmFsdWUpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuIAo=</text>
+        <text encoding="base64">ICAgICAgQGlucHV0LmNhcHR1cmU9IiIK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHRoaXMuaXNEZW1hbmQK</text>
+        <text encoding="base64">ICBAVXBkYXRlZAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHRoaXMuaXMK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHRoaXMuc2hvd25UYWJsZUluZGV4Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHRoaXMuc2hvd25EYXRhLnZhbHVlKQo=</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>this.selectedDemand</last-search>
+      <last-search>modal</last-search>
       <last-offset />
-      <last-pattern>this.selectedDemand</last-pattern>
+      <last-pattern>modal</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
