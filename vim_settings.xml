@@ -11,6 +11,9 @@
         <entry>recipient</entry>
         <entry>として</entry>
         <entry>onRowSelect</entry>
+        <entry>ref</entry>
+        <entry encoding="base64">IiB5YW5rID0+IGNsaXBib2FyZCBzZXQgY2xpcGJvYXJkPXVubmFtZWQsYXV0b3NlbGVjdCBtYXAgWSB5JCAgIiB2cCBkb2Vzbid0IHJlcGxhY2UgcGFzdGUgYnVmZmVyIHhub3JlbWFwIHAgIl9kUCAgIiBpZ25vcmUgY2FzZSB3aGVuIHNlYXJjaGluZyBzZXQgaWdub3JlY2FzZQ==</entry>
+        <entry>supplies</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -23,11 +26,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590310026467">
-        <mark key="'" line="23" column="24" />
-        <mark key="[" line="264" column="0" />
-        <mark key="]" line="264" column="0" />
-        <mark key="." line="264" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590312678168">
+        <mark key="[" line="252" column="30" />
+        <mark key="]" line="252" column="30" />
+        <mark key="." line="252" column="30" />
+        <mark key="^" line="260" column="34" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -35,13 +38,12 @@
         <mark key="^" line="15" column="26" />
         <mark key="." line="15" column="25" />
       </file>
-      <file name="/GraphQL.result.json" timestamp="1590307243883">
+      <file name="/GraphQL.result.json" timestamp="1590310067270">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/GraphQL.variables.json" timestamp="1590308225173">
+      <file name="/GraphQL.variables.json" timestamp="1590310066025">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnSignBar.vue" timestamp="1590307329094" />
       <file name="$USER_HOME$/Develop/workspace/face-shield/README.md" timestamp="1590304879173">
         <mark key="'" line="15" column="0" />
         <mark key="[" line="8" column="0" />
@@ -68,50 +70,62 @@
       <jump line="15" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/README.md" />
       <jump line="198" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="23" column="24" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="254" column="30" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="79" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="119" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="56" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="81" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="244" column="15" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
+      <register name="&quot;" type="4">
+        <text>item</text>
+      </register>
+      <register name="-" type="4">
+        <text>item</text>
+      </register>
+      <register name="/" type="4">
+        <text>supplies</text>
+      </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHRoaXMubWF0Y2hDb3VudCA9IHRoaXMuc2VsZWN0ZWRTdXBwbHkgPyB0aGlzLnNlbGVjdGVkU3VwcGx5LmNvdW50IDogMAo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkRGVtYW5kID0gaXRlbQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGNvbm8K</text>
+        <text encoding="base64">ICBfaXNBbHJlYWR5U2VsZWN0ZWQgKCkgewogICAgCiAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHNvbWUpCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgQHJvdy1zZWxlY3RlZD0ib25Sb3dTZWxlY3RlZCIK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHRoaXMucmVmcy5zdXBwbGllcy5zZWxlY3RSb3cocm93SW5kZXgpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgaWYgKHRoaXMuc2VsZWMpCg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">aHR0cDovL2ZhY2VzaGllbGQtMjAyMDA1MDIxNTA5MDYtaG9zdGluZ2J1Y2tldC1kZXYuczMtd2Vic2l0ZS1hcC1ub3J0aGVhc3QtMS5hbWF6b25hd3MuY29tCg==</text>
+        <text encoding="base64">ICAgICAgaWYgCg==</text>
       </register>
-      <register name="-" type="4">
-        <text>some: any</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIC8vIH0K</text>
       </register>
-      <register name="/" type="4">
-        <text>onRowSelect</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIC8vIGlmIChpdGVtKSB7CiAgICAvLyAgIGlmIChpdGVtIGluc3RhbmNlb2YgRGVtYW5kRW50aXR5KSB7CiAgICAvLyAgICAgdGhpcy5zZWxlY3RlZERlbWFuZCA9IGl0ZW0KICAgIC8vICAgfSBlbHNlIHsKICAgIC8vICAgICBpZiAoKQogICAgLy8gICB9Cg==</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>onRowSelect</last-search>
+      <last-search>supplies</last-search>
       <last-offset />
-      <last-pattern>onRowSelect</last-pattern>
+      <last-pattern>supplies</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -120,7 +134,7 @@
     <state version="6" enabled="true" />
     <notifications>
       <idea-join enabled="false" />
-      <idea-put enabled="false" />
+      <idea-put enabled="true" />
     </notifications>
   </component>
 </application>
