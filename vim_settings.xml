@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ShownData</entry>
-        <entry>shownDataOptions</entry>
-        <entry>seeMore</entry>
         <entry>tabs</entry>
         <entry>tabChange</entry>
         <entry>as</entry>
@@ -25,6 +22,9 @@
         <entry>table</entry>
         <entry>tabValue</entry>
         <entry>selectable</entry>
+        <entry>createMatch</entry>
+        <entry>matchCount</entry>
+        <entry>max</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -41,12 +41,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590416498346">
-        <mark key="'" line="240" column="33" />
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="^" line="64" column="0" />
-        <mark key="." line="64" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590420450589">
+        <mark key="'" line="27" column="27" />
+        <mark key="[" line="233" column="0" />
+        <mark key="]" line="233" column="0" />
+        <mark key="." line="233" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -71,6 +70,11 @@
         <mark key="]" line="22" column="0" />
         <mark key="." line="22" column="0" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1590420438059">
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="39" column="0" />
+        <mark key="." line="39" column="0" />
+      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/admin/authSuppliers.vue" timestamp="1590308735556">
         <mark key="[" line="50" column="85" />
         <mark key="]" line="50" column="85" />
@@ -81,6 +85,12 @@
         <mark key="'" line="170" column="31" />
         <mark key="[" line="177" column="10" />
         <mark key="]" line="177" column="17" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1590420339761">
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="40" column="85" />
+        <mark key="." line="40" column="29" />
+        <mark key="^" line="40" column="11" />
       </file>
       <file name="/" timestamp="1590309939652">
         <mark key="[" line="0" column="0" />
@@ -133,63 +143,65 @@
       <jump line="39" column="16" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="214" column="41" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="248" column="31" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
-      <jump line="276" column="11" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="225" column="8" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="175" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="267" column="28" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="246" column="9" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="61" column="26" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="243" column="33" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="70" column="16" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="276" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="27" column="27" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>Demand</text>
       </register>
       <register name="/" type="4">
-        <text>selectable</text>
+        <text>max</text>
       </register>
-      <register name="0" type="4">
-        <text>shownData.selectedName</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHJldHVybiB0aGlzLmNvdW50IC0gdGhpcy5tYXRjaGVzLm1hcChtID0+IG0uY291bnQpLnJlZHVjZSgoYzEsIGMyKSA9PiBjMSArIGMyLCAwKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgc2VsZWN0ZWQtdmFyaWFudD0id2FybmluZyIK</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgc2VsZWN0LW1vZGU9InNpbmdsZSIK</text>
+        <text encoding="base64">ICBnZXQgbWF4TWF0Y2hDb3VudCgpOiBudW1iZXJ7CiAgICBpZiAoKQogIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgOnNlbGVjdGFibGU9Im1hdGNoQ3JlYXRhYmxlIgo=</text>
+        <text encoding="base64">ICBnZXQgbGVmdENvdW50ICgpIHsKICAgIHJldHVybiB0aGlzLmNvdW50IC0gdGhpcy5tYXRjaGVzLm1hcChtID0+IG0uY291bnQpLnJlZHVjZSgoYzEsIGMyKSA9PiBjMSArIGMyLCAwKQogIH0KCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBnZXQgbWF4TWF0Y2hDb3VudCgpOiBudW1iZXJ7CiAgICBpZiAoKQogIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICB0YWJMYWJlbCAodGFiVmFsdWU6IFNob3duVGFibGUpOiBzdHJpbmcgfCBudWxsIHsKICAgIHJldHVybiB0YWJWYWx1ZSA9PT0gJ1NVUFBMWScKICAgICAgPyAodGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuc3VwcGx5TmFtZSA6IG51bGwpCiAgICAgIDogKHRoaXMuc2VsZWN0ZWREZW1hbmQgPyB0aGlzLnNlbGVjdGVkRGVtYW5kLmRlbWFuZE5hbWUgOiBudWxsKQogIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkTmFtZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICBnZXQgbWF4TWF0Y2hDb3VudCAoKTogbnVtYmVyIHsKICAgIHJldHVybiB0aGlzLnNlbGVjdGVkU3VwcGx5ICYmIHRoaXMuc2VsZWN0ZWREZW1hbmQKICAgICAgPyB0aGlzLnNlbGVjdGVkU3VwcGx5LmNvdW50IC0gdGhpcy5zZWxlY3RlZFN1cHBseS5tYXRjaGVzLm1hcChtID0+IG0uY291bnQpLnJlZHVjZSgoYzEsIGMyKSA9PiBjMSArIGMyLCAwKQogICAgICA6IDAKICB9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5tYXRjaENvdW50ID0gdGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuY291bnQgOiAwCg==</text>
+        <text encoding="base64">ICAgICAgOiAwCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkTmFtZTogdGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuc3VwcGx5TmFtZSA6IG51bGwsCg==</text>
+        <text encoding="base64">ICAvLyBjb3VudCAK</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>selectable</last-search>
+      <last-search>max</last-search>
       <last-offset />
-      <last-pattern>selectable</last-pattern>
+      <last-pattern>max</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
