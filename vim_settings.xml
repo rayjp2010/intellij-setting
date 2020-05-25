@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>shippingCountry</entry>
         <entry>shipping</entry>
         <entry>ip country</entry>
         <entry>redeem</entry>
@@ -25,6 +24,7 @@
         <entry>shippingName</entry>
         <entry>ipCon</entry>
         <entry>ipCo</entry>
+        <entry>term</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -48,9 +48,15 @@
         <mark key="[" line="100" column="16" />
         <mark key="]" line="100" column="30" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590383588464">
-        <mark key="[" line="28" column="5" />
-        <mark key="]" line="28" column="29" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590392303257">
+        <mark key="'" line="53" column="60" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590391717963">
+        <mark key="'" line="96" column="31" />
+        <mark key="[" line="22" column="30" />
+        <mark key="]" line="22" column="36" />
+        <mark key="^" line="22" column="36" />
+        <mark key="." line="22" column="35" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1590388720721">
         <mark key="'" line="125" column="13" />
@@ -62,12 +68,18 @@
       <file name="/" timestamp="1590382406287">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590383715455">
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590390741765">
         <mark key="'" line="49" column="60" />
-        <mark key="[" line="141" column="80" />
-        <mark key="]" line="142" column="46" />
+        <mark key="[" line="18" column="32" />
+        <mark key="]" line="18" column="50" />
         <mark key="." line="142" column="45" />
         <mark key="^" line="142" column="46" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590392382794">
+        <mark key="[" line="114" column="15" />
+        <mark key="]" line="114" column="89" />
+        <mark key="." line="114" column="76" />
+        <mark key="^" line="114" column="76" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1590367076777">
         <mark key="'" line="5" column="12" />
@@ -136,29 +148,34 @@
       <jump line="171" column="12" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="16" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="49" column="60" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="96" column="31" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="53" column="60" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="0" type="4">
-        <text>TransactionSearchResponse</text>
+        <text>`valid:&quot;required~startDate is required&quot;`</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">CXNlYXJjaFByb3BlcnR5Q29uZGl0aW9uIDo9IGdldFNlYXJjaFByb3BlcnR5Q29uZGl0aW9uKCpyZXF1ZXN0LlRyYW5zYWN0aW9uUHJvcGVydHksICpyZXF1ZXN0LlRyYW5zYWN0aW9uUHJvcGVydHlWYWx1ZSkK</text>
       </register>
       <register name="*" type="4">
-        <text>order.shopperInfo.geoData.ipCountry</text>
+        <text>propertyValue</text>
       </register>
       <register name="-" type="4">
-        <text>order.shopperInfo.geoData.ipCountry</text>
+        <text>propertyValue</text>
       </register>
       <register name="/" type="4">
-        <text>ipCo</text>
+        <text>term</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>ipCo</last-search>
+      <last-search>term</last-search>
       <last-offset />
-      <last-pattern>ipCo</last-pattern>
+      <last-pattern>term</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -167,7 +184,7 @@
     <state version="6" enabled="true" />
     <notifications>
       <idea-join enabled="false" />
-      <idea-put enabled="false" />
+      <idea-put enabled="true" />
     </notifications>
   </component>
 </application>
