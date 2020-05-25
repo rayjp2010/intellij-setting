@@ -69,6 +69,9 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1590377522076">
         <mark key="'" line="524" column="89" />
       </file>
+      <file name="/" timestamp="1590382025475">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="5" column="12" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" />
