@@ -17,7 +17,6 @@
         <entry>watch</entry>
         <entry>マッチ</entry>
         <entry>modal</entry>
-        <entry>selectable</entry>
         <entry>updated</entry>
         <entry>ref</entry>
         <entry>選択中</entry>
@@ -25,6 +24,7 @@
         <entry>supplier</entry>
         <entry>table</entry>
         <entry>tabValue</entry>
+        <entry>selectable</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -41,12 +41,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590414907222">
-        <mark key="'" line="61" column="26" />
-        <mark key="[" line="242" column="0" />
-        <mark key="]" line="242" column="0" />
-        <mark key="^" line="177" column="31" />
-        <mark key="." line="242" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590416498346">
+        <mark key="'" line="240" column="33" />
+        <mark key="[" line="64" column="0" />
+        <mark key="]" line="64" column="0" />
+        <mark key="^" line="64" column="0" />
+        <mark key="." line="64" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -112,7 +112,6 @@
       <jump line="300" column="19" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="256" column="15" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="217" column="47" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
-      <jump line="243" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="247" column="7" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="5" column="12" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="15" column="24" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
@@ -140,56 +139,57 @@
       <jump line="267" column="28" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="246" column="9" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="61" column="26" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="243" column="33" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>tabValue</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>tabValue</text>
+        <text>selectable</text>
       </register>
       <register name="0" type="4">
         <text>shownData.selectedName</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgc2VsZWN0ZWQtdmFyaWFudD0id2FybmluZyIK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICB0YWJMYWJlbCAodGFiVmFsdWU6IFNob3duVGFibGUpOiBzdHJpbmcgfCBudWxsIHsKICAgIHJldHVybiB0YWJWYWx1ZSA9PT0gJ1NVUFBMWScKICAgICAgPyAodGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuc3VwcGx5TmFtZSA6IG51bGwpCiAgICAgIDogKHRoaXMuc2VsZWN0ZWREZW1hbmQgPyB0aGlzLnNlbGVjdGVkRGVtYW5kLmRlbWFuZE5hbWUgOiBudWxsKQogIH0K</text>
+        <text encoding="base64">ICAgICAgc2VsZWN0LW1vZGU9InNpbmdsZSIK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkTmFtZQo=</text>
+        <text encoding="base64">ICAgICAgOnNlbGVjdGFibGU9Im1hdGNoQ3JlYXRhYmxlIgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5tYXRjaENvdW50ID0gdGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuY291bnQgOiAwCg==</text>
+        <text encoding="base64">ICB0YWJMYWJlbCAodGFiVmFsdWU6IFNob3duVGFibGUpOiBzdHJpbmcgfCBudWxsIHsKICAgIHJldHVybiB0YWJWYWx1ZSA9PT0gJ1NVUFBMWScKICAgICAgPyAodGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuc3VwcGx5TmFtZSA6IG51bGwpCiAgICAgIDogKHRoaXMuc2VsZWN0ZWREZW1hbmQgPyB0aGlzLnNlbGVjdGVkRGVtYW5kLmRlbWFuZE5hbWUgOiBudWxsKQogIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkTmFtZTogdGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuc3VwcGx5TmFtZSA6IG51bGwsCg==</text>
+        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkTmFtZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHNlbGVjdGVkTmFtZTogdGhpcy5zZWxlY3RlZERlbWFuZCA/IHRoaXMuc2VsZWN0ZWREZW1hbmQuZGVtYW5kTmFtZSA6IG51bGwsCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHNlbGVjdGVkTmFtZTogbnVsbCwK</text>
+        <text encoding="base64">ICAgICAgdGhpcy5tYXRjaENvdW50ID0gdGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuY291bnQgOiAwCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBzZWxlY3RlZE5hbWU6IHN0cmluZyB8IG51bGwK</text>
+        <text encoding="base64">ICAgICAgICAgIHNlbGVjdGVkTmFtZTogdGhpcy5zZWxlY3RlZFN1cHBseSA/IHRoaXMuc2VsZWN0ZWRTdXBwbHkuc3VwcGx5TmFtZSA6IG51bGwsCg==</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>tabValue</last-search>
+      <last-search>selectable</last-search>
       <last-offset />
-      <last-pattern>tabValue</last-pattern>
+      <last-pattern>selectable</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
