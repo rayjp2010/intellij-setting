@@ -37,10 +37,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590331836167">
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="69" column="0" />
-        <mark key="." line="69" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590409224112">
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="0" />
+        <mark key="." line="75" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -60,11 +60,10 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1590309131666">
-        <mark key="[" line="24" column="34" />
-        <mark key="]" line="24" column="23" />
-        <mark key="^" line="24" column="23" />
-        <mark key="." line="24" column="22" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1590409215913">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/admin/authSuppliers.vue" timestamp="1590308735556">
         <mark key="[" line="50" column="85" />
@@ -133,10 +132,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgZGlzYWJsZWQ9Im1hdGNoQ3JlYXRhYmxlIgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>matchCreatable</text>
+        <text>payload.isAdmin</text>
       </register>
       <register name="/" type="4">
         <text>selectable</text>
@@ -145,31 +144,31 @@
         <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCd0YWJsZSByZWZyZXNoZWQnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgZGlzYWJsZWQ9Im1hdGNoQ3JlYXRhYmxlIgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgY2xpYwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZGlzYWJsZWQ9Im1hdGNoQ3JlYXRiZWwiCg==</text>
+        <text encoding="base64">ICAgICAgZGlzYWJsZWQ9Im1hdGNoQ3JlYXRhYmxlIgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSAK</text>
+        <text encoding="base64">ICAgICAgY2xpYwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdzZWxlY3RlZCcgKyByb3dJbmRleCArIHNob3VsZFNlbGVjdCkK</text>
+        <text encoding="base64">ICAgICAgZGlzYWJsZWQ9Im1hdGNoQ3JlYXRiZWwiCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCc9PT09PScsIGl0ZW0sIGNsaWNrZWRSb3dJbmRleCkK</text>
+        <text encoding="base64">ICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdjYWxjOicgKyBzZWxlY3RlZFJvd0luZGV4KQo=</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdzZWxlY3RlZCcgKyByb3dJbmRleCArIHNob3VsZFNlbGVjdCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCd0YWJsZSByZWZyZXNoZWQnKQogICAgY29uc29sZS5sb2codGhpcy5zaG93bkRhdGEudmFsdWUpCg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCc9PT09PScsIGl0ZW0sIGNsaWNrZWRSb3dJbmRleCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgQGlucHV0LmNhcHR1cmU9IiIK</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdjYWxjOicgKyBzZWxlY3RlZFJvd0luZGV4KQo=</text>
       </register>
     </registers>
   </component>
