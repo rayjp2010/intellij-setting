@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ip</entry>
         <entry>session</entry>
         <entry>rp</entry>
         <entry>cookie</entry>
@@ -25,6 +24,7 @@
         <entry>HOME_CONTROL</entry>
         <entry>current</entry>
         <entry>Organization</entry>
+        <entry>accertify</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -66,8 +66,8 @@
         <mark key="[" line="28" column="18" />
         <mark key="]" line="28" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1590376676238">
-        <mark key="'" line="501" column="139" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1590377522076">
+        <mark key="'" line="524" column="89" />
       </file>
     </filemarks>
     <jumps>
@@ -108,6 +108,7 @@
       <jump line="360" column="32" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="486" column="71" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="510" column="139" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="524" column="89" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -119,15 +120,15 @@
         <text>FIND_USER_TYPES</text>
       </register>
       <register name="/" type="4">
-        <text>Organization</text>
+        <text>accertify</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Organization</last-search>
+      <last-search>accertify</last-search>
       <last-offset />
-      <last-pattern>Organization</last-pattern>
+      <last-pattern>accertify</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
