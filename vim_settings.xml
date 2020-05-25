@@ -52,7 +52,7 @@
         <mark key="[" line="28" column="5" />
         <mark key="]" line="28" column="29" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1590385534736">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1590386871667">
         <mark key="'" line="125" column="13" />
         <mark key="[" line="2" column="5" />
         <mark key="]" line="2" column="9" />
