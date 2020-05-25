@@ -1,12 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="order1" type="Go" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="xml_type" type="PLAIN_TEXT" />
       <mapping pattern="AletheiaTaskApplication" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
+      <mapping pattern="order1" type="Go" />
     </extensionMap>
   </component>
 </application>
