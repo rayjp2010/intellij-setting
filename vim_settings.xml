@@ -2,17 +2,45 @@
   <component name="VimEditorSettings">
     <editor />
   </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>MerchantID</entry>
+      </history-search>
+    </history>
+  </component>
   <component name="VimKeySettings">
     <shortcut-conflicts />
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
-    <filemarks />
-    <jumps />
+    <filemarks>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1590367076777">
+        <mark key="'" line="5" column="12" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" timestamp="1590367201901">
+        <mark key="'" line="20" column="12" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="5" column="12" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" />
+      <jump line="3" column="2" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" />
+      <jump line="20" column="12" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="/" type="4">
+        <text>MerchantID</text>
+      </register>
+    </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-dir>0</last-dir>
+      <last-search>MerchantID</last-search>
+      <last-offset />
+      <last-pattern>MerchantID</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
   </component>
