@@ -5,15 +5,9 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>session</entry>
-        <entry>rp</entry>
-        <entry>cookie</entry>
-        <entry>category</entry>
-        <entry>itemName</entry>
         <entry>shippingCountry</entry>
         <entry>shipping</entry>
         <entry>ip country</entry>
-        <entry>ipCountry</entry>
         <entry>redeem</entry>
         <entry>reviewer</entry>
         <entry>ispName</entry>
@@ -25,6 +19,12 @@
         <entry>current</entry>
         <entry>Organization</entry>
         <entry>accertify</entry>
+        <entry>ipCountry</entry>
+        <entry>cardBin</entry>
+        <entry>paymentMethod</entry>
+        <entry>shippingName</entry>
+        <entry>ipCon</entry>
+        <entry>ipCo</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -41,9 +41,6 @@
         <mark key="[" line="28" column="16" />
         <mark key="]" line="28" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1590367076777">
-        <mark key="'" line="5" column="12" />
-      </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/searchTxnTableValues.js" timestamp="1590367201901">
         <mark key="'" line="20" column="12" />
       </file>
@@ -51,11 +48,31 @@
         <mark key="[" line="100" column="16" />
         <mark key="]" line="100" column="30" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590383588464">
+        <mark key="[" line="28" column="5" />
+        <mark key="]" line="28" column="29" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1590383426110">
+        <mark key="'" line="125" column="13" />
+      </file>
+      <file name="/" timestamp="1590382406287">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590383703328">
+        <mark key="'" line="49" column="60" />
+        <mark key="[" line="141" column="80" />
+        <mark key="]" line="126" column="78" />
+        <mark key="." line="126" column="77" />
+        <mark key="^" line="126" column="78" />
+      </file>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchTrPropertyName.java" timestamp="1590367076777">
+        <mark key="'" line="5" column="12" />
+      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/SearchTransactionServiceImpl.java" timestamp="1590373705695">
         <mark key="'" line="62" column="45" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1590374884352">
-        <mark key="'" line="451" column="53" />
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1590383525961">
+        <mark key="'" line="587" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/reducers/homeReducer.js" timestamp="1590375987760">
         <mark key="[" line="12" column="13" />
@@ -68,9 +85,6 @@
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1590377522076">
         <mark key="'" line="524" column="89" />
-      </file>
-      <file name="/" timestamp="1590382406287">
-        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -95,7 +109,6 @@
       <jump line="470" column="39" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
       <jump line="474" column="91" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
       <jump line="480" column="44" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
-      <jump line="483" column="44" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
       <jump line="485" column="17" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
       <jump line="486" column="44" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
       <jump line="488" column="17" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
@@ -112,26 +125,36 @@
       <jump line="486" column="71" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="510" column="139" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="524" column="89" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="613" column="21" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
+      <jump line="125" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="483" column="69" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
+      <jump line="587" column="31" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
+      <jump line="171" column="12" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="16" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="49" column="60" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="0" type="4">
-        <text>FIND_USER_TYPES</text>
+        <text>TransactionSearchResponse</text>
       </register>
       <register name="*" type="4">
-        <text>FIND_USER_TYPES</text>
+        <text>order.shopperInfo.geoData.ipCountry</text>
+      </register>
+      <register name="-" type="4">
+        <text>order.shopperInfo.geoData.ipCountry</text>
       </register>
       <register name="/" type="4">
-        <text>accertify</text>
+        <text>ipCo</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>accertify</last-search>
+      <last-search>ipCo</last-search>
       <last-offset />
-      <last-pattern>accertify</last-pattern>
+      <last-pattern>ipCo</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
