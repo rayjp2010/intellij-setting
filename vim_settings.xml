@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>redeem</entry>
-        <entry>reviewer</entry>
         <entry>ispName</entry>
         <entry>domain</entry>
         <entry>domainName</entry>
@@ -25,6 +23,8 @@
         <entry>term</entry>
         <entry>couponDiscount</entry>
         <entry>interval</entry>
+        <entry>delivery</entry>
+        <entry>deliveryDate</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -68,8 +68,8 @@
         <mark key="^" line="22" column="36" />
         <mark key="." line="22" column="35" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1590393870646">
-        <mark key="'" line="24" column="39" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1590398541473">
+        <mark key="'" line="347" column="21" />
         <mark key="[" line="2" column="5" />
         <mark key="]" line="2" column="9" />
         <mark key="^" line="2" column="9" />
@@ -167,6 +167,9 @@
       <jump line="53" column="60" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="24" column="39" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="478" column="26" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" />
+      <jump line="442" column="30" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="236" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="347" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -178,7 +181,7 @@
         <text>convertedValue</text>
       </register>
       <register name="/" type="4">
-        <text>interval</text>
+        <text>deliveryDate</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZnVuYyBHZXRKc29uTWFwUHRyKGpzb25NYXAgSnNvbk1hcCkgKkpzb25NYXAgewoJcmV0dXJuICZqc29uTWFwCn0=</text>
@@ -223,9 +226,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>interval</last-search>
+      <last-search>deliveryDate</last-search>
       <last-offset />
-      <last-pattern>interval</last-pattern>
+      <last-pattern>deliveryDate</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
