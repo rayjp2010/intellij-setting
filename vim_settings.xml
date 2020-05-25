@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ispName</entry>
         <entry>domain</entry>
         <entry>domainName</entry>
         <entry>vpn</entry>
@@ -25,6 +24,7 @@
         <entry>interval</entry>
         <entry>delivery</entry>
         <entry>deliveryDate</entry>
+        <entry>range</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -48,8 +48,8 @@
         <mark key="[" line="100" column="16" />
         <mark key="]" line="100" column="30" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590394066854">
-        <mark key="'" line="53" column="60" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590399889663">
+        <mark key="'" line="66" column="5" />
         <mark key="[" line="73" column="12" />
         <mark key="]" line="73" column="15" />
         <mark key="." line="73" column="14" />
@@ -170,6 +170,7 @@
       <jump line="442" column="30" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="236" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="347" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="66" column="5" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -181,7 +182,7 @@
         <text>convertedValue</text>
       </register>
       <register name="/" type="4">
-        <text>deliveryDate</text>
+        <text>range</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZnVuYyBHZXRKc29uTWFwUHRyKGpzb25NYXAgSnNvbk1hcCkgKkpzb25NYXAgewoJcmV0dXJuICZqc29uTWFwCn0=</text>
@@ -226,9 +227,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>deliveryDate</last-search>
+      <last-search>range</last-search>
       <last-offset />
-      <last-pattern>deliveryDate</last-pattern>
+      <last-pattern>range</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
