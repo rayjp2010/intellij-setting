@@ -5,16 +5,12 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ref</entry>
-        <entry>選択中</entry>
-        <entry>table-warning</entry>
         <entry>supplier</entry>
         <entry>table</entry>
         <entry>tabValue</entry>
         <entry>selectable</entry>
         <entry>createMatch</entry>
         <entry>matchCount</entry>
-        <entry>max</entry>
         <entry>is</entry>
         <entry>isVali</entry>
         <entry>click</entry>
@@ -25,6 +21,10 @@
         <entry>rowClass</entry>
         <entry>https:</entry>
         <entry>selected-row</entry>
+        <entry>state</entry>
+        <entry>max</entry>
+        <entry>新規作成</entry>
+        <entry>対応</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -44,8 +44,15 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590450912139">
-        <mark key="'" line="20" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590497215053">
+        <mark key="'" line="45" column="29" />
+        <mark key="[" line="12" column="19" />
+        <mark key="]" line="33" column="13" />
+        <mark key="^" line="33" column="13" />
+        <mark key="." line="33" column="12" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" timestamp="1590496610005">
+        <mark key="'" line="73" column="48" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -74,7 +81,8 @@
         <mark key="." line="50" column="84" />
         <mark key="^" line="50" column="85" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590449714466">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590497218368">
+        <mark key="'" line="19" column="13" />
         <mark key="[" line="40" column="17" />
         <mark key="]" line="40" column="24" />
         <mark key="." line="40" column="23" />
@@ -82,6 +90,13 @@
       </file>
       <file name="/" timestamp="1590309939652">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" timestamp="1590497424476">
+        <mark key="'" line="63" column="15" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="^" line="14" column="69" />
+        <mark key="." line="9" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590455930748">
         <mark key="'" line="254" column="14" />
@@ -167,56 +182,65 @@
       <jump line="217" column="12" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="45" column="14" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="254" column="14" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="37" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" />
+      <jump line="77" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" />
+      <jump line="56" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" />
+      <jump line="23" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" />
+      <jump line="73" column="48" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" />
+      <jump line="72" column="9" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" />
+      <jump line="63" column="15" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" />
+      <jump line="45" column="29" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" />
+      <jump line="19" column="13" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IGlzRGVtYW5kU2VsZWN0ZWQgfHwgaXNTdXBwbHlTZWxlY3RlZCws</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgOm1heD0ibWF4RGVtYW5kQ291bnQiCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGlzRGVtYW5kU2VsZWN0ZWQgfHwgaXNTdXBwbHlTZWxlY3RlZCws</text>
+        <text>this.demand.count</text>
       </register>
       <register name="/" type="4">
-        <text>selected-row</text>
+        <text>対応</text>
       </register>
       <register name="0" type="4">
         <text>isDemandSelected || isSupplySelected,</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgOm1heD0ibWF4RGVtYW5kQ291bnQiCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgOm1pbj0iMSIK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgIGNvbnN0IGlzU2VsZWN0ZWQ6IGJvb2xlYW4gPSAhISggfHwKICAgICAgKCF0aGlzLmlzRGVtYW5kICYmIHRoaXMuc2VsZWN0ZWRTdXBwbHkgJiYgdGhpcy5zZWxlY3RlZFN1cHBseS5pZCA9PT0gZGF0YS5pZCkpCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text encoding="base64">KHRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZERlbWFuZCAmJiB0aGlzLnNlbGVjdGVkRGVtYW5kLmlkID09PSBkYXRhLmlkKSB8fAogICAgICAgICghdGhpcy5pc0RlbWFuZCAmJiB0aGlzLnNlbGVjdGVkU3VwcGx5ICYmIHRoaXMuc2VsZWN0ZWRTdXBwbHkuaWQgPT09IGRhdGEuaWQp</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text encoding="base64">KHRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZERlbWFuZCAmJiB0aGlzLnNlbGVjdGVkRGVtYW5kLmlkID09PSBkYXRhLmlkKSB8fAogICAgICAgICghdGhpcy5pc0RlbWFuZCAmJiB0aGlzLnNlbGVjdGVkU3VwcGx5ICYmIHRoaXMuc2VsZWN0ZWRTdXBwbHkuaWQgPT09IGRhdGEuaWQp</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIGNvbnN0IHJvd0NsYXNzOiBzdHJpbmdbXSA9IFtdCiAgICBpZiAoKSB7CiAgICAgIHJvd0NsYXNzLnB1c2goJ2ItdGFibGUtcm93LXNlbGVjdGVkJywgJ3RhYmxlLXdhcm5pbmcnKQogICAgfQogICAgaWYgKGRhdGEuaXNNaW5lKHRoaXMudXNlcikpIHsKICAgICAgcm93Q2xhc3MucHVzaCgndGFibGUtc3VjY2VzcycpCiAgICB9CiAgICByZXR1cm4gcm93Q2xhc3MK</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgJ3RhYmxlLXN1Y2Nlc3MnCg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text encoding="base64">KHRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZERlbWFuZCAmJiB0aGlzLnNlbGVjdGVkRGVtYW5kLmlkID09PSBkYXRhLmlkKSB8fAogICAgICAoIXRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZFN1cHBseSAmJiB0aGlzLnNlbGVjdGVkU3VwcGx5LmlkID09PSBkYXRhLmlkKQ==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmICB7CiAgICAgIHJldHVybiAnc2VsZWN0ZWQtcm93JwogICAgfQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuICdzZWxlY3RlZC1yb3cnCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmICB7CiAgICAgIHJldHVybiAnc2VsZWN0ZWQtcm93JwogICAgfQo=</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>selected-row</last-search>
+      <last-search>対応</last-search>
       <last-offset />
-      <last-pattern>selected-row</last-pattern>
+      <last-pattern>対応</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
