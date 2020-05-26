@@ -5,14 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>as</entry>
-        <entry encoding="base64">YXMg</entry>
-        <entry>this.selectedDemand</entry>
-        <entry>viewType</entry>
-        <entry>watch</entry>
-        <entry>マッチ</entry>
-        <entry>modal</entry>
-        <entry>updated</entry>
         <entry>ref</entry>
         <entry>選択中</entry>
         <entry>table-warning</entry>
@@ -25,6 +17,14 @@
         <entry>max</entry>
         <entry>is</entry>
         <entry>isVali</entry>
+        <entry>click</entry>
+        <entry>clicked</entry>
+        <entry>tab</entry>
+        <entry>rowClicked</entry>
+        <entry>selectedName</entry>
+        <entry>rowClass</entry>
+        <entry>https:</entry>
+        <entry>selected-row</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -36,11 +36,17 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590450912139">
+        <mark key="'" line="20" column="0" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
         <mark key="]" line="15" column="26" />
@@ -56,10 +62,11 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1590409215913">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1590452250579">
+        <mark key="[" line="23" column="19" />
+        <mark key="]" line="23" column="23" />
+        <mark key="." line="23" column="22" />
+        <mark key="^" line="23" column="23" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/admin/authSuppliers.vue" timestamp="1590308735556">
         <mark key="[" line="50" column="85" />
@@ -68,13 +75,20 @@
         <mark key="^" line="50" column="85" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590449714466">
-        <mark key="[" line="49" column="17" />
-        <mark key="]" line="49" column="24" />
-        <mark key="." line="49" column="23" />
-        <mark key="^" line="49" column="24" />
+        <mark key="[" line="40" column="17" />
+        <mark key="]" line="40" column="24" />
+        <mark key="." line="40" column="23" />
+        <mark key="^" line="40" column="24" />
       </file>
       <file name="/" timestamp="1590309939652">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590453061845">
+        <mark key="'" line="254" column="14" />
+        <mark key="[" line="260" column="5" />
+        <mark key="]" line="261" column="17" />
+        <mark key="." line="261" column="16" />
+        <mark key="^" line="261" column="17" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnButton.vue" timestamp="1590423506158">
         <mark key="[" line="36" column="11" />
@@ -95,7 +109,6 @@
       <jump line="15" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/README.md" />
       <jump line="198" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="23" column="24" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
-      <jump line="254" column="30" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="79" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="119" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="56" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
@@ -104,7 +117,6 @@
       <jump line="139" column="30" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="86" column="12" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="102" column="14" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
-      <jump line="107" column="14" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="167" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="106" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="75" column="22" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
@@ -115,7 +127,6 @@
       <jump line="116" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="222" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="300" column="19" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
-      <jump line="217" column="47" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="247" column="7" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="5" column="12" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="15" column="24" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
@@ -150,61 +161,62 @@
       <jump line="251" column="44" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="256" column="13" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="72" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" />
+      <jump line="20" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" />
+      <jump line="223" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="107" column="47" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="217" column="12" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="45" column="14" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="254" column="14" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>supply.leftCount</text>
+        <text>return</text>
       </register>
       <register name="-" type="4">
-        <text>supply.leftCount</text>
+        <text>return</text>
       </register>
       <register name="/" type="4">
-        <text>isVali</text>
+        <text>selected-row</text>
       </register>
       <register name="0" type="4">
-        <text>maxMatchCount</text>
+        <text>selected</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIGlmICB7CiAgICAgIHJldHVybiAnc2VsZWN0ZWQtcm93JwogICAgfQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHJldHVybiAgPyB0aGlzLm1hdGNoQ291bnQgPiAwICYmIHRoaXMubWF0Y2hDb3VudCA8PSB0aGlzLnNlbGVjdGVkU3VwcGx5LmxlZnRDb3VudCA6IGZhbHNlCg==</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuICdzZWxlY3RlZC1yb3cnCg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>@Prop({ type: Boolean, default: 0 })
-  max!: number
-  
-  get _value (): string | number {
-    return this.value
-  }</text>
+      <register name="4" type="2">
+        <text encoding="base64">LnNlbGVjdGVkLXJvdyB7CiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZGY3ZSAhaW1wb3J0YW50Owp9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBzZWxlY3RlZE5hbWUgKHNob3duVGFibGU6IFNob3duVGFibGUpOiBzdHJpbmcgfCBudWxsIHsKICAgIHJldHVybiBzaG93blRhYmxlID09PSAnU1VQUExZJwogICAgICA/ICh0aGlzLnNlbGVjdGVkU3VwcGx5ID8gdGhpcy5zZWxlY3RlZFN1cHBseS5zdXBwbHlOYW1lIDogbnVsbCkKICAgICAgOiAodGhpcy5zZWxlY3RlZERlbWFuZCA/IHRoaXMuc2VsZWN0ZWREZW1hbmQuZGVtYW5kTmFtZSA6IG51bGwpCiAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICA+CiAgICAgICAgPHRlbXBsYXRlIHYtc2xvdDp0aXRsZT4KICAgICAgICAgIHt7dGFiLnRleHR9fQogICAgICAgICAgPGItYmFkZ2UgcGlsbCB2YXJpYW50PSJzdWNjZXNzIiB2LWlmPSJzaG93bkRhdGEuc2VsZWN0ZWROYW1lKHRhYi52YWx1ZSkiPgogICAgICAgICAgICB7e3Nob3duRGF0YS5zZWxlY3RlZE5hbWUodGFiLnZhbHVlKX1944KS6YG45oqe5LitCiAgICAgICAgICA8L2ItYmFkZ2U+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9iLXRhYj4KPj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
+        <text encoding="base64">aW1wb3J0IHsgY3JlYXRlTWF0Y2ggfSBmcm9tICJ+L3NyYy9ncmFwaHFsL211dGF0aW9ucyI7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgIGlmIChjZGRyZWF0ZU1hdGNoKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">ICAgICAgICA+Cg==</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>isVali</last-search>
+      <last-search>selected-row</last-search>
       <last-offset />
-      <last-pattern>isVali</last-pattern>
+      <last-pattern>selected-row</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
