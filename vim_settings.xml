@@ -81,22 +81,20 @@
         <mark key="." line="50" column="84" />
         <mark key="^" line="50" column="85" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590497218368">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590498900927">
         <mark key="'" line="19" column="13" />
-        <mark key="[" line="40" column="17" />
-        <mark key="]" line="40" column="24" />
-        <mark key="." line="40" column="23" />
-        <mark key="^" line="40" column="24" />
+        <mark key="[" line="9" column="14" />
+        <mark key="]" line="7" column="16" />
+        <mark key="." line="7" column="15" />
+        <mark key="^" line="7" column="16" />
       </file>
       <file name="/" timestamp="1590309939652">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" timestamp="1590497424476">
-        <mark key="'" line="63" column="15" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="^" line="14" column="69" />
-        <mark key="." line="9" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" timestamp="1590498920855">
+        <mark key="[" line="63" column="0" />
+        <mark key="]" line="63" column="0" />
+        <mark key="." line="63" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590455930748">
         <mark key="'" line="254" column="14" />
@@ -196,43 +194,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgOm1heD0ibWF4RGVtYW5kQ291bnQiCg==</text>
+        <text encoding="base64">ICBnZXQgaXNWYWxpZERlbWFuZCAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy5jb3VudCA8IDEKICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>this.demand.count</text>
+        <text>state</text>
       </register>
       <register name="/" type="4">
         <text>対応</text>
       </register>
-      <register name="0" type="4">
-        <text>isDemandSelected || isSupplySelected,</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGNvbnN0IGlzQWJvdmVNaW46IGJvb2xlYW4gPSB0aGlzLm1pbiA/IHRoaXMuX3ZhbHVlID49IHRoaXMubWluIDogdHJ1ZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgOm1heD0ibWF4RGVtYW5kQ291bnQiCg==</text>
+        <text encoding="base64">ICBnZXQgaXNWYWxpZERlbWFuZCAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy5jb3VudCA8IDEKICB9Cgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgOm1pbj0iMSIK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5zdGF0ZQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IGlzU2VsZWN0ZWQ6IGJvb2xlYW4gPSAhISggfHwKICAgICAgKCF0aGlzLmlzRGVtYW5kICYmIHRoaXMuc2VsZWN0ZWRTdXBwbHkgJiYgdGhpcy5zZWxlY3RlZFN1cHBseS5pZCA9PT0gZGF0YS5pZCkpCg==</text>
+        <text encoding="base64">ICAgICAgaXNBYm92ZU1pbiAmJiBpc0JlbG93TWF4KSB7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">KHRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZERlbWFuZCAmJiB0aGlzLnNlbGVjdGVkRGVtYW5kLmlkID09PSBkYXRhLmlkKSB8fAogICAgICAgICghdGhpcy5pc0RlbWFuZCAmJiB0aGlzLnNlbGVjdGVkU3VwcGx5ICYmIHRoaXMuc2VsZWN0ZWRTdXBwbHkuaWQgPT09IGRhdGEuaWQp</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">KHRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZERlbWFuZCAmJiB0aGlzLnNlbGVjdGVkRGVtYW5kLmlkID09PSBkYXRhLmlkKSB8fAogICAgICAgICghdGhpcy5pc0RlbWFuZCAmJiB0aGlzLnNlbGVjdGVkU3VwcGx5ICYmIHRoaXMuc2VsZWN0ZWRTdXBwbHkuaWQgPT09IGRhdGEuaWQp</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgcmV0dXJuIGZhbHNlCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IHJvd0NsYXNzOiBzdHJpbmdbXSA9IFtdCiAgICBpZiAoKSB7CiAgICAgIHJvd0NsYXNzLnB1c2goJ2ItdGFibGUtcm93LXNlbGVjdGVkJywgJ3RhYmxlLXdhcm5pbmcnKQogICAgfQogICAgaWYgKGRhdGEuaXNNaW5lKHRoaXMudXNlcikpIHsKICAgICAgcm93Q2xhc3MucHVzaCgndGFibGUtc3VjY2VzcycpCiAgICB9CiAgICByZXR1cm4gcm93Q2xhc3MK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgJ3RhYmxlLXN1Y2Nlc3MnCg==</text>
+        <text encoding="base64">ICAgIHJldHVybgo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">KHRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZERlbWFuZCAmJiB0aGlzLnNlbGVjdGVkRGVtYW5kLmlkID09PSBkYXRhLmlkKSB8fAogICAgICAoIXRoaXMuaXNEZW1hbmQgJiYgdGhpcy5zZWxlY3RlZFN1cHBseSAmJiB0aGlzLnNlbGVjdGVkU3VwcGx5LmlkID09PSBkYXRhLmlkKQ==</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmICB7CiAgICAgIHJldHVybiAnc2VsZWN0ZWQtcm93JwogICAgfQo=</text>
+        <text encoding="base64">ICAgIGNvbnN0IGlzQWJvdmVNaW46IGJvb2xlYW4gPSB0aGlzLm1pbiA/IHRoaXMuX3ZhbHVlID49IHRoaXMubWluIDogdHJ1ZQogICAgY29uc3QgaXNCZWxvd01heDogYm9vbGVhbiA9IHRoaXMubWF4ID8gdGhpcy5fdmFsdWUgPD0gdGhpcy5tYXggOiB0cnVlCg==</text>
       </register>
     </registers>
   </component>
