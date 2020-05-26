@@ -44,15 +44,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590497215053">
-        <mark key="'" line="45" column="29" />
-        <mark key="[" line="12" column="19" />
-        <mark key="]" line="33" column="13" />
-        <mark key="^" line="33" column="13" />
-        <mark key="." line="33" column="12" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590500026363">
+        <mark key="'" line="52" column="29" />
+        <mark key="[" line="22" column="8" />
+        <mark key="]" line="22" column="121" />
+        <mark key="^" line="22" column="121" />
+        <mark key="." line="22" column="120" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" timestamp="1590496610005">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" timestamp="1590500707003">
         <mark key="'" line="73" column="48" />
+        <mark key="[" line="72" column="36" />
+        <mark key="]" line="72" column="36" />
+        <mark key="." line="72" column="36" />
+        <mark key="^" line="73" column="26" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/idea.vmoptions" timestamp="1590304226171">
         <mark key="[" line="15" column="26" />
@@ -75,6 +79,13 @@
         <mark key="." line="23" column="22" />
         <mark key="^" line="23" column="23" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1590500307387">
+        <mark key="'" line="43" column="6" />
+        <mark key="[" line="61" column="15" />
+        <mark key="]" line="61" column="14" />
+        <mark key="^" line="61" column="14" />
+        <mark key="." line="61" column="13" />
+      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/admin/authSuppliers.vue" timestamp="1590308735556">
         <mark key="[" line="50" column="85" />
         <mark key="]" line="50" column="85" />
@@ -82,19 +93,25 @@
         <mark key="^" line="50" column="85" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590498900927">
-        <mark key="'" line="19" column="13" />
         <mark key="[" line="9" column="14" />
         <mark key="]" line="7" column="16" />
         <mark key="." line="7" column="15" />
         <mark key="^" line="7" column="16" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1590500296561">
+        <mark key="[" line="57" column="13" />
+        <mark key="]" line="57" column="14" />
+        <mark key="." line="57" column="14" />
+      </file>
       <file name="/" timestamp="1590309939652">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" timestamp="1590498920855">
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="63" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" timestamp="1590500100845">
+        <mark key="'" line="61" column="25" />
+        <mark key="[" line="23" column="47" />
+        <mark key="]" line="23" column="48" />
+        <mark key="." line="23" column="47" />
+        <mark key="^" line="23" column="48" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1590455930748">
         <mark key="'" line="254" column="14" />
@@ -189,15 +206,18 @@
       <jump line="63" column="15" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" />
       <jump line="45" column="29" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" />
       <jump line="19" column="13" filename="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" />
+      <jump line="62" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" />
+      <jump line="58" column="25" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" />
+      <jump line="43" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBnZXQgaXNWYWxpZERlbWFuZCAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy5jb3VudCA8IDEKICB9Cgo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>state</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>対応</text>
@@ -206,31 +226,31 @@
         <text encoding="base64">ICAgIGNvbnN0IGlzQWJvdmVNaW46IGJvb2xlYW4gPSB0aGlzLm1pbiA/IHRoaXMuX3ZhbHVlID49IHRoaXMubWluIDogdHJ1ZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBnZXQgaXNWYWxpZERlbWFuZCAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy5jb3VudCA8IDEKICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgPyBudWxsCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5zdGF0ZQo=</text>
+        <text encoding="base64">ICAgIC8vIHJldHVybiB0aGlzLmlzUmVhZE9ubHkKICAgIC8vICAgPyBudWxsCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgaXNBYm92ZU1pbiAmJiBpc0JlbG93TWF4KSB7Cg==</text>
+        <text encoding="base64">ICAgIHJldHVybiAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">ICAgIGlmICh0aGlzLmlzUmVhZE9ubHkpewogICAgICAKICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuIGZhbHNlCg==</text>
+        <text encoding="base64">ICAgICAgOnN0YXRlPSJpc1ZhbGlkRGVtYW5kIgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBnZXQgaXNWYWxpZERlbWFuZCAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy5jb3VudCA8IDEKICB9Cgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJldHVybgo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5zdGF0ZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaXNBYm92ZU1pbiAmJiBpc0JlbG93TWF4KSB7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IGlzQWJvdmVNaW46IGJvb2xlYW4gPSB0aGlzLm1pbiA/IHRoaXMuX3ZhbHVlID49IHRoaXMubWluIDogdHJ1ZQogICAgY29uc3QgaXNCZWxvd01heDogYm9vbGVhbiA9IHRoaXMubWF4ID8gdGhpcy5fdmFsdWUgPD0gdGhpcy5tYXggOiB0cnVlCg==</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
     </registers>
   </component>
