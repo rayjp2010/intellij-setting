@@ -111,12 +111,12 @@
         <mark key="^" line="129" column="27" />
         <mark key="." line="165" column="54" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590479716605">
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590480998098">
         <mark key="'" line="13" column="27" />
-        <mark key="[" line="157" column="60" />
-        <mark key="]" line="157" column="64" />
-        <mark key="^" line="157" column="64" />
-        <mark key="." line="157" column="63" />
+        <mark key="[" line="168" column="14" />
+        <mark key="]" line="168" column="14" />
+        <mark key="^" line="168" column="14" />
+        <mark key="." line="168" column="13" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590477044208">
         <mark key="'" line="175" column="66" />
@@ -233,10 +233,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>transaction</text>
+        <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>request *model.TransactionSearchRequest,</text>
+        <text>=</text>
       </register>
       <register name="/" type="4">
         <text>mapst</text>
