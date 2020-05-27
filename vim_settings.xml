@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>rpCoo</entry>
-        <entry>rpCookie</entry>
         <entry>connectionType</entry>
         <entry>shopperInfo</entry>
         <entry>shippingDiscount</entry>
@@ -25,6 +23,8 @@
         <entry>cardFrag</entry>
         <entry>salesTaxAmount</entry>
         <entry>AdditionalMap</entry>
+        <entry>rwa</entry>
+        <entry>raw</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -85,12 +85,12 @@
         <mark key="^" line="71" column="19" />
         <mark key="." line="71" column="18" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590562877407">
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590565673244">
         <mark key="'" line="116" column="9" />
-        <mark key="[" line="198" column="35" />
-        <mark key="]" line="212" column="59" />
-        <mark key="." line="212" column="58" />
-        <mark key="^" line="212" column="59" />
+        <mark key="[" line="471" column="5" />
+        <mark key="]" line="470" column="26" />
+        <mark key="." line="470" column="25" />
+        <mark key="^" line="470" column="26" />
       </file>
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
@@ -130,21 +130,14 @@
         <mark key="]" line="320" column="32" />
         <mark key="." line="40" column="72" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590477044208">
-        <mark key="'" line="175" column="66" />
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590564724873">
+        <mark key="'" line="70" column="24" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1590559091880">
         <mark key="'" line="314" column="37" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="133" column="26" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="289" column="7" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="288" column="39" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="51" column="57" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="285" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="447" column="12" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="52" column="61" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="171" column="51" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="42" column="11" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="52" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
@@ -238,48 +231,63 @@
       <jump line="405" column="23" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="114" column="5" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="116" column="9" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="18" column="59" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
+      <jump line="33" column="30" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
+      <jump line="30" column="30" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
+      <jump line="172" column="32" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
+      <jump line="151" column="29" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
+      <jump line="99" column="29" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
+      <jump line="70" column="24" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">CQlpZiBzaGlwcGluZ0FkZHJlc3MgOj0gc2hpcHBpbmdJbmY7IHNoaXBwaW5nQWRkcmVzcyAhPSBuaWwgewoJCQlzaGlwcGluZ0FkZHJlc3NlcyA9IGFwcGVuZChzaGlwcGluZ0FkZHJlc3Nlcywgc2hpcHBpbmdBZGRyZXNzKQoJCX0K</text>
+      <register name="*" type="4">
+        <text>s</text>
       </register>
       <register name="-" type="4">
-        <text>GetRawAddress</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>AdditionalMap</text>
+        <text>raw</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQlpZiBzaGlwcGluZ0FkZHJlc3MgOj0gc2hpcHBpbmdJbmZvLkdldFJhd0FkZHJlc3MoKTsgc2hpcHBpbmdBZGRyZXNzICE9IG5pbCB7CgkJCXNoaXBwaW5nQWRkcmVzc2VzID0gYXBwZW5kKHNoaXBwaW5nQWRkcmVzc2VzLCBzaGlwcGluZ0FkZHJlc3MpCgkJfQo=</text>
+        <text encoding="base64">CWxldmVsMSA6PSBpLkNhdGVnb3J5LkxldmVsMQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQlpZiBzaGlwcGluZ0FkZHJlc3MgOj0gc2hpcHBpbmdJbmY7IHNoaXBwaW5nQWRkcmVzcyAhPSBuaWwgewoJCQlzaGlwcGluZ0FkZHJlc3NlcyA9IGFwcGVuZChzaGlwcGluZ0FkZHJlc3Nlcywgc2hpcHBpbmdBZGRyZXNzKQoJCX0K</text>
+        <text encoding="base64">CWlmICB7CgkJCgl9Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXJldHVybiBvLkFkZGl0aW9uYWxPcmRlckluZm8K</text>
+        <text encoding="base64">CXMuCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CSB7CgkJCgl9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuYyAocyAqU2hpcHBpbmdJbmZvKSBHZXRJdGVtTmFtZXMoKSBbXSpzdHJpbmcgewoJaWYgcyA9PSBuaWwgfHwgcy57CgkJcmV0dXJuIG5pbAoJfQoJZm9yICB7CgkJCgl9Cn0K</text>
+        <text encoding="base64">CQkK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">CXJldHVybiBzLlJhd0FkZHJlc3MK</text>
+      <register name="5" type="8">
+        <text>e
+e
+e
+e
+e</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">CQlwb3N0YWxDb2RlcyA9IGFwcGVuZChwb3N0YWxDb2Rlcywgc2hpcHBpbmdJbmZvLkdldCkK</text>
+      <register name="6" type="8">
+        <text>e
+e
+e
+e
+e</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXZhciBjYXRlZ29yaWVzIDoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQlwaG9uZXMgPSBhcHBlbmQocGhvbmVzLCBzaGlwcGluZ0luZm8uR2V0UGhvbmUoKSkK</text>
+        <text encoding="base64">CWlmIHsKCQkKCX0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CXNoaXBwaW5nSW5mbyA6PSAK</text>
+        <text encoding="base64">CWNhdGVnb3JpZXMgPSBhcHBlbmQoY2F0ZWdvcmllcywgKQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -288,9 +296,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>AdditionalMap</last-search>
+      <last-search>raw</last-search>
       <last-offset />
-      <last-pattern>AdditionalMap</last-pattern>
+      <last-pattern>raw</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
