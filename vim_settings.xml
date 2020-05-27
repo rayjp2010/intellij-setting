@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>additionalItemInfo</entry>
         <entry>sales</entry>
         <entry>float64</entry>
         <entry>float</entry>
@@ -25,6 +24,7 @@
         <entry>MmIpCountry</entry>
         <entry>MmConnectionType</entry>
         <entry>category</entry>
+        <entry>host</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -69,11 +69,6 @@
         <mark key="[" line="351" column="73" />
         <mark key="]" line="351" column="111" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/PerformanceReportServiceImpl.java" timestamp="1590476565681">
-        <mark key="'" line="51" column="30" />
-        <mark key="[" line="51" column="30" />
-        <mark key="]" line="51" column="46" />
-      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-events-scheduler/src/main/java/com/rakuten/fpg/ui/admintool/scheduler/model/ListEventJson.java" timestamp="1590476793663">
         <mark key="'" line="35" column="26" />
       </file>
@@ -88,12 +83,12 @@
         <mark key="^" line="94" column="28" />
         <mark key="." line="94" column="27" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590578072779">
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590579063142">
         <mark key="'" line="1044" column="43" />
-        <mark key="[" line="1066" column="96" />
-        <mark key="]" line="1067" column="97" />
-        <mark key="." line="1067" column="96" />
-        <mark key="^" line="1067" column="97" />
+        <mark key="[" line="617" column="4" />
+        <mark key="]" line="617" column="5" />
+        <mark key="." line="617" column="4" />
+        <mark key="^" line="617" column="5" />
       </file>
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
@@ -120,12 +115,12 @@
         <mark key="^" line="129" column="27" />
         <mark key="." line="165" column="54" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590577577280">
-        <mark key="'" line="44" column="18" />
-        <mark key="[" line="167" column="0" />
-        <mark key="]" line="167" column="0" />
-        <mark key="^" line="167" column="12" />
-        <mark key="." line="167" column="0" />
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590578658917">
+        <mark key="'" line="165" column="25" />
+        <mark key="[" line="154" column="0" />
+        <mark key="]" line="154" column="0" />
+        <mark key="^" line="156" column="20" />
+        <mark key="." line="154" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/SearchTransactionLogicImpl.java" timestamp="1590577174747">
         <mark key="'" line="158" column="20" />
@@ -136,18 +131,18 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590564724873">
         <mark key="'" line="70" column="24" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1590578685132">
+        <mark key="'" line="142" column="28" />
+        <mark key="[" line="177" column="75" />
+        <mark key="]" line="177" column="76" />
+        <mark key="." line="177" column="75" />
+        <mark key="^" line="177" column="76" />
+      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1590559091880">
         <mark key="'" line="314" column="37" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="439" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="536" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="68" column="59" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="419" column="17" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="544" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="69" column="59" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="37" column="4" filename="$USER_HOME$/go/src/odin/util/util.go" />
       <jump line="359" column="14" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="364" column="41" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="365" column="28" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -241,48 +236,55 @@
       <jump line="44" column="18" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
       <jump line="890" column="17" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="1044" column="43" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="169" column="0" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
+      <jump line="165" column="25" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
+      <jump line="74" column="44" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="90" column="119" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="94" column="95" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="96" column="123" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="142" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="4">
-        <text>util.GetStringSafe(</text>
+      <register name="*" type="2">
+        <text encoding="base64">CWlmIGpvaW50IDo9IGNhdGVnb3J5SWRzLkpvaW5XaXRoU2VtaWNvbG9uKCk7IGxlbihqb2ludCkgPT0gMCB7CgkJcmV0dXJuIG5pbAoJfSBlbHNlIHsKCQlyZXR1cm4gdXRpbC5HZXRTdHJpbmdQdHIoam9pbnQpCgl9Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>GetStringSafe</text>
+        <text>var</text>
       </register>
       <register name="/" type="4">
-        <text>category</text>
+        <text>host</text>
       </register>
-      <register name="0" type="4">
-        <text>util.GetStringSafe(</text>
+      <register name="0" type="2">
+        <text encoding="base64">CWlmIGpvaW50IDo9IGNhdGVnb3J5SWRzLkpvaW5XaXRoU2VtaWNvbG9uKCk7IGxlbihqb2ludCkgPT0gMCB7CgkJcmV0dXJuIG5pbAoJfSBlbHNlIHsKCQlyZXR1cm4gdXRpbC5HZXRTdHJpbmdQdHIoam9pbnQpCgl9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWRvY3VtZW50CQo=</text>
+        <text encoding="base64">CWRhdGEgPSBtYWtlKFtdbW9kZWwuVHJhbnNhY3Rpb25TZWFyY2hSZXNwb25zZSwgMCkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CW9yZGVyIDo9IGRvY3VtZW50Lk9yZGVyCg==</text>
+        <text encoding="base64">CQlyZXNwb25zZSA6PSAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWlmIGVyciA9IGRlZXBjb3BpZXIuQ29weShvcmRlcikuVG8ocmVzcG9uc2UpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0K</text>
+        <text encoding="base64">CQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCwgZXJyCgkJfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
+        <text encoding="base64">ZnVuYyB0b1RyYW5zYWN0aW9uU2VhcmNoUmVzcG9uc2UoZG9jdW1lbnQgbW9kZWwuVHJhbnNhY3Rpb25Eb2N1bWVudCkgKHJlc3BvbnNlICptb2RlbC5UcmFuc2FjdGlvblNlYXJjaFJlc3BvbnNlLCBlcnIgZXJyb3IpIHsKCWRvY3VtZW50LlRvUmVzcG9uc2UoKQoJcmVzcG9uc2UgPSAmbW9kZWwuVHJhbnNhY3Rpb25TZWFyY2hSZXNwb25zZXt9CglyZXR1cm4KfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWRvY3VtZW50CQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CW9yZGVyIDo9IGRvY3VtZW50Lk9yZGVyCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
+        <text encoding="base64">CWlmIGVyciA9IGRlZXBjb3BpZXIuQ29weShvcmRlcikuVG8ocmVzcG9uc2UpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0K</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -291,9 +293,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>category</last-search>
+      <last-search>host</last-search>
       <last-offset />
-      <last-pattern>category</last-pattern>
+      <last-pattern>host</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
