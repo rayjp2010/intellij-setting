@@ -14,6 +14,9 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
+  <action id="GoGenerateGetterAction">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>

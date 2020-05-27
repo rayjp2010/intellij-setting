@@ -41,25 +41,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/util/pointer.go" timestamp="1590471117523">
-        <mark key="[" line="28" column="1" />
-        <mark key="]" line="26" column="5" />
-        <mark key="^" line="26" column="5" />
-        <mark key="." line="26" column="4" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590479457985">
         <mark key="'" line="59" column="0" />
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
         <mark key="^" line="47" column="28" />
         <mark key="." line="59" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1590471788748">
-        <mark key="'" line="35" column="22" />
-        <mark key="[" line="335" column="0" />
-        <mark key="]" line="335" column="0" />
-        <mark key="." line="335" column="0" />
-        <mark key="^" line="334" column="8" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/ListService.java" timestamp="1590477431965" />
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/ListInfo.java" timestamp="1590474434575">
@@ -92,14 +79,20 @@
         <mark key="^" line="46" column="27" />
         <mark key="." line="46" column="27" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590489421993">
-        <mark key="'" line="52" column="61" />
-        <mark key="[" line="292" column="0" />
-        <mark key="]" line="292" column="0" />
-        <mark key="." line="292" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590539743953">
+        <mark key="'" line="283" column="0" />
+        <mark key="[" line="257" column="0" />
+        <mark key="]" line="257" column="0" />
+        <mark key="." line="257" column="0" />
+      </file>
+      <file name="/Dummy.go" timestamp="1590539913444">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" timestamp="1590477074267">
         <mark key="'" line="30" column="64" />
+      </file>
+      <file name="/" timestamp="1590538828461">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/ListHit.java" timestamp="1590474324457">
         <mark key="'" line="22" column="4" />
@@ -133,7 +126,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="5" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="32" column="0" filename="$USER_HOME$/go/src/odin/util/util.go" />
       <jump line="137" column="25" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="94" column="45" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
@@ -233,12 +225,13 @@
       <jump line="171" column="51" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="42" column="11" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="52" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="283" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CW5hbWUgKnN0cmluZ2RkCg==</text>
       </register>
       <register name="-" type="4">
         <text>RawCardHolderName</text>
@@ -250,31 +243,31 @@
         <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy5SYXdDYXJkSG9sZGVyTmFtZQp9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CW5hbWUgKnN0cmluZ2RkCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy4KfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy5DYXJkQmluCn0K</text>
+        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy4KfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy5DYXJkQmluCn0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0Q2FyZFRva2VuKCkgKnN0cmluZyB7CglpZiBjID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIGMKfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0Q2FyZFRva2VuKCkgKnN0cmluZyB7CglpZiBjID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIGMKfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CX0KCXJldHVybiBwLlJlZGVlbWVkUG9pbnQK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">CX0KCXJldHVybiBwLlJlZGVlbWVkUG9pbnQK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnVuYyAobSAqTWVyY2hhbnRJbmZvKSBHZXRNZXJjaGFudElkKCkgKnN0cmluZyB7CglpZiBtID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIG0uTWVyY2hhbnRJZAp9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
     </registers>
   </component>
