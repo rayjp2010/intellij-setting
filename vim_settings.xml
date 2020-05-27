@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>easyId</entry>
-        <entry>ipAddress</entry>
-        <entry>IpCountry</entry>
         <entry>GeoData</entry>
         <entry>phone</entry>
         <entry>OrderAmount</entry>
@@ -25,6 +22,9 @@
         <entry>CardHash</entry>
         <entry>opp</entry>
         <entry>CardCountryCodes</entry>
+        <entry>mmIp</entry>
+        <entry>mmip</entry>
+        <entry>MMCity</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -86,12 +86,12 @@
         <mark key="^" line="46" column="27" />
         <mark key="." line="46" column="27" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590543742749">
-        <mark key="'" line="29" column="57" />
-        <mark key="[" line="29" column="57" />
-        <mark key="]" line="29" column="58" />
-        <mark key="." line="29" column="58" />
-        <mark key="^" line="478" column="32" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590545735699">
+        <mark key="'" line="62" column="57" />
+        <mark key="[" line="403" column="36" />
+        <mark key="]" line="407" column="24" />
+        <mark key="." line="407" column="23" />
+        <mark key="^" line="407" column="24" />
       </file>
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
@@ -108,10 +108,10 @@
         <mark key="]" line="29" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/SaveOrderCheck.java" timestamp="1590477309842" />
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590543586667">
-        <mark key="'" line="202" column="4" />
-        <mark key="[" line="165" column="53" />
-        <mark key="]" line="165" column="54" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590545075511">
+        <mark key="'" line="56" column="55" />
+        <mark key="[" line="56" column="4" />
+        <mark key="]" line="56" column="9" />
         <mark key="^" line="129" column="27" />
         <mark key="." line="165" column="54" />
       </file>
@@ -134,12 +134,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="0" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
-      <jump line="109" column="30" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="183" column="21" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="89" column="119" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="9" column="0" filename="$USER_HOME$/go/src/odin/infra/endpoints.go" />
-      <jump line="141" column="58" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="35" column="22" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="79" column="21" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="277" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
@@ -181,7 +175,6 @@
       <jump line="341" column="54" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="190" column="24" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="350" column="39" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="62" column="59" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="365" column="8" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="392" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="35" column="12" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
@@ -234,48 +227,55 @@
       <jump line="177" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="202" column="4" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="29" column="57" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="276" column="5" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="203" column="4" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="55" column="58" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="485" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="480" column="8" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="62" column="57" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="56" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
+      <register name="*" type="4">
+        <text>string</text>
       </register>
       <register name="-" type="4">
-        <text>t.Order.PaymentInfo.GetCreditCard(),</text>
+        <text>string</text>
       </register>
       <register name="/" type="4">
-        <text>CardCountryCodes</text>
+        <text>MMCity</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
+        <text encoding="base64">ZnVuYyAoZyAqR2VvRGF0YSkgR2V0Q2l0eSgpICpzdHJpbmcgewoJaWYgZyA9PSBuaWwgewoJCXJldHVybiBuaWwKCX0KCXJldHVybiBnLkNpdHkKfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQlDYXJkQ291bnRyeUNvZGVzOiAgICAgICAgICAgIHQuT3JkZXIuUGF5bWVudEluZm8uR2V0Q3JlZGl0Q2FyZCgpLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQlQcm9jZXNzVGltZTogICAgICAgICAgICAgICAgIHQuT3JkZXIuU2hvcHBlckluZm8uR2V0R2VvRGF0YSgpLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQlDYXJkQ291bnRyeUNvZGVzOiAgICAgICAgICAgIHQuT3JkZXIuUGF5bWVudEluZm8uR2V0Q3JlZGl0Q2FyZCgpLAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuYyAobSAqTWVyY2hhbnRJbmZvKSBHZXRNZXJjaGFudElkKCkgKnN0cmluZyB7CglpZiBtID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIG0uTWVyY2hhbnRJZAp9Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">CXJldHVybiBuaWwK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CWEuCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">CW5hbWUgKnN0cmluZ2RkCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ZnVuYyAobSAqTWVyY2hhbnRJbmZvKSBHZXRNZXJjaGFudElkKCkgKnN0cmluZyB7CglpZiBtID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIG0uTWVyY2hhbnRJZAp9Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CXJldHVybiBuaWwK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CWEuCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy4KfQo=</text>
+        <text encoding="base64">CW5hbWUgKnN0cmluZ2RkCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -284,9 +284,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>CardCountryCodes</last-search>
+      <last-search>MMCity</last-search>
       <last-offset />
-      <last-pattern>CardCountryCodes</last-pattern>
+      <last-pattern>MMCity</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
