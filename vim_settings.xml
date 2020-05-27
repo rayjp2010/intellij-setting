@@ -85,12 +85,12 @@
         <mark key="^" line="71" column="19" />
         <mark key="." line="71" column="18" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590561714438">
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590562877407">
         <mark key="'" line="116" column="9" />
-        <mark key="[" line="512" column="1" />
-        <mark key="]" line="513" column="0" />
-        <mark key="." line="513" column="0" />
-        <mark key="^" line="513" column="0" />
+        <mark key="[" line="198" column="35" />
+        <mark key="]" line="212" column="59" />
+        <mark key="." line="212" column="58" />
+        <mark key="^" line="212" column="59" />
       </file>
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
@@ -243,43 +243,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="2">
-        <text encoding="base64">ZnVuYyAocyAqU2hpcHBpbmdJbmZvKSBHZXRQaG9uZSgpICpzdHJpbmcgewoJaWYgcyA9PSBuaWwgewoJCXJldHVybiBuaWwKCX0KCXJldHVybiBzLlBob25lCn0K</text>
+        <text encoding="base64">CQlpZiBzaGlwcGluZ0FkZHJlc3MgOj0gc2hpcHBpbmdJbmY7IHNoaXBwaW5nQWRkcmVzcyAhPSBuaWwgewoJCQlzaGlwcGluZ0FkZHJlc3NlcyA9IGFwcGVuZChzaGlwcGluZ0FkZHJlc3Nlcywgc2hpcHBpbmdBZGRyZXNzKQoJCX0K</text>
       </register>
       <register name="-" type="4">
-        <text>detail.</text>
+        <text>GetRawAddress</text>
       </register>
       <register name="/" type="4">
         <text>AdditionalMap</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAocyAqU2hpcHBpbmdJbmZvKSBHZXRQaG9uZSgpICpzdHJpbmcgewoJaWYgcyA9PSBuaWwgewoJCXJldHVybiBuaWwKCX0KCXJldHVybiBzLlBob25lCn0K</text>
+        <text encoding="base64">CQlpZiBzaGlwcGluZ0FkZHJlc3MgOj0gc2hpcHBpbmdJbmZvLkdldFJhd0FkZHJlc3MoKTsgc2hpcHBpbmdBZGRyZXNzICE9IG5pbCB7CgkJCXNoaXBwaW5nQWRkcmVzc2VzID0gYXBwZW5kKHNoaXBwaW5nQWRkcmVzc2VzLCBzaGlwcGluZ0FkZHJlc3MpCgkJfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CXNoaXBwaW5nSW5mbyA6PSAK</text>
+        <text encoding="base64">CQlpZiBzaGlwcGluZ0FkZHJlc3MgOj0gc2hpcHBpbmdJbmY7IHNoaXBwaW5nQWRkcmVzcyAhPSBuaWwgewoJCQlzaGlwcGluZ0FkZHJlc3NlcyA9IGFwcGVuZChzaGlwcGluZ0FkZHJlc3Nlcywgc2hpcHBpbmdBZGRyZXNzKQoJCX0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQlkZXRhaWwuCg==</text>
+        <text encoding="base64">CXJldHVybiBvLkFkZGl0aW9uYWxPcmRlckluZm8K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CXJlc3VsdCA9IAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
+        <text encoding="base64">ZnVuYyAocyAqU2hpcHBpbmdJbmZvKSBHZXRJdGVtTmFtZXMoKSBbXSpzdHJpbmcgewoJaWYgcyA9PSBuaWwgfHwgcy57CgkJcmV0dXJuIG5pbAoJfQoJZm9yICB7CgkJCgl9Cn0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyBzaG91bGQgd2UgZ2V0IGZyb20gbXVsdGlwbGUgZGV0YWlscwo=</text>
+        <text encoding="base64">CXJldHVybiBzLlJhd0FkZHJlc3MK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyBzaG91bGQgd2UgZ2V0IGZyb20gbXVsdGlwbGUgZGV0YWlscwo=</text>
+        <text encoding="base64">CQlwb3N0YWxDb2RlcyA9IGFwcGVuZChwb3N0YWxDb2Rlcywgc2hpcHBpbmdJbmZvLkdldCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyBzaG91bGQgd2UgZ2V0IHBob25lIGZyb20gbXVsdGlwbGUgZGV0YWlscwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CW8uT3JkZXJEZXRhaWxzCg==</text>
+        <text encoding="base64">CQlwaG9uZXMgPSBhcHBlbmQocGhvbmVzLCBzaGlwcGluZ0luZm8uR2V0UGhvbmUoKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXNoaXBwaW5nSW5mbyA6PSAK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
