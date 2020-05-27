@@ -5,13 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>OrderAmount</entry>
-        <entry>orderAmount</entry>
-        <entry>postal</entry>
-        <entry>shippingAddress</entry>
-        <entry>address</entry>
-        <entry>reviewer</entry>
-        <entry>transaction</entry>
         <entry>itemName</entry>
         <entry>cardToken</entry>
         <entry>fragment</entry>
@@ -25,6 +18,13 @@
         <entry>list</entry>
         <entry>listInfo</entry>
         <entry>redeem</entry>
+        <entry>latitude</entry>
+        <entry>lat</entry>
+        <entry>geo</entry>
+        <entry>lati</entry>
+        <entry>ISP</entry>
+        <entry>domainName</entry>
+        <entry>connect</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -79,8 +79,8 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-events-scheduler/src/main/java/com/rakuten/fpg/ui/admintool/scheduler/model/ListEventJson.java" timestamp="1590476793663">
         <mark key="'" line="35" column="26" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1590553653235">
-        <mark key="'" line="462" column="24" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1590553706344">
+        <mark key="'" line="466" column="57" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1590489207725">
         <mark key="'" line="64" column="0" />
@@ -89,12 +89,12 @@
         <mark key="^" line="46" column="27" />
         <mark key="." line="46" column="27" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590552934758">
-        <mark key="'" line="485" column="8" />
-        <mark key="[" line="64" column="33" />
-        <mark key="]" line="76" column="66" />
-        <mark key="." line="76" column="65" />
-        <mark key="^" line="76" column="66" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590554302153">
+        <mark key="'" line="69" column="59" />
+        <mark key="[" line="435" column="13" />
+        <mark key="]" line="435" column="13" />
+        <mark key="." line="435" column="13" />
+        <mark key="^" line="437" column="0" />
       </file>
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
@@ -136,14 +136,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="63" column="30" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" />
-      <jump line="373" column="15" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" />
-      <jump line="506" column="25" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" />
-      <jump line="643" column="25" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" />
-      <jump line="644" column="8" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" />
-      <jump line="35" column="26" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-events-scheduler/src/main/java/com/rakuten/fpg/ui/admintool/scheduler/model/ListEventJson.java" />
-      <jump line="48" column="27" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
-      <jump line="77" column="26" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
       <jump line="175" column="66" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
       <jump line="28" column="22" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" />
       <jump line="30" column="64" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" />
@@ -197,7 +189,6 @@
       <jump line="133" column="26" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="289" column="7" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="288" column="39" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="439" column="8" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="51" column="57" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="285" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="447" column="12" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
@@ -236,21 +227,30 @@
       <jump line="327" column="62" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="344" column="37" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="462" column="24" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="150" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="466" column="57" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="417" column="17" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="439" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="536" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="68" column="59" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="419" column="17" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="544" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="69" column="59" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>ConnectionType</text>
       </register>
       <register name="-" type="4">
-        <text>string</text>
+        <text>ConnectionType</text>
       </register>
       <register name="/" type="4">
-        <text>redeem</text>
+        <text>connect</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAoZyAqR2VvbG9jYXRpb24pIEdldExhdGl0dWRlKCkgKmZsb2F0NjQgewoJaWYgZyA9PSBuaWwgewoJCXJldHVybiBuaWwKCX0KCXJldHVybiBnLkxhdGl0dWRlCn0K</text>
+        <text encoding="base64">ZnVuYyAoZyAqR2VvRGF0YSkgR2V0Q29ubmVjdGlvblR5cGUoKSAqc3RyaW5nIHsKCWlmIGcgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gZy5Db25uZWN0aW9uVHlwZQp9Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -286,9 +286,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>redeem</last-search>
+      <last-search>connect</last-search>
       <last-offset />
-      <last-pattern>redeem</last-pattern>
+      <last-pattern>connect</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
