@@ -96,6 +96,7 @@
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/generated/com/rakuten/fpg/ui/admintool/dao/entity/QShipping.java" timestamp="1590547939443" />
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" timestamp="1590477074267">
         <mark key="'" line="30" column="64" />
       </file>
@@ -134,10 +135,6 @@
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1590487357543">
         <mark key="'" line="731" column="4" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/model/RuleHitModel.java" timestamp="1590474171991">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="24" column="33" />
       </file>
     </filemarks>
     <jumps>
