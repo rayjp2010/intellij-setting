@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>remote</entry>
-        <entry>mapst</entry>
-        <entry>email</entry>
         <entry>easyId</entry>
         <entry>ipAddress</entry>
         <entry>IpCountry</entry>
@@ -25,8 +22,18 @@
         <entry>cardToken</entry>
         <entry>fragment</entry>
         <entry>cardHash</entry>
+        <entry>CardHash</entry>
+        <entry>opp</entry>
+        <entry>CardCountryCodes</entry>
       </history-search>
-      <history-cmd />
+      <history-cmd>
+        <entry>vsplit</entry>
+        <entry>unsplit</entry>
+        <entry>c</entry>
+        <entry>close</entry>
+        <entry>on</entry>
+        <entry>only</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
@@ -79,11 +86,12 @@
         <mark key="^" line="46" column="27" />
         <mark key="." line="46" column="27" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590539743953">
-        <mark key="'" line="283" column="0" />
-        <mark key="[" line="257" column="0" />
-        <mark key="]" line="257" column="0" />
-        <mark key="." line="257" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590543742749">
+        <mark key="'" line="29" column="57" />
+        <mark key="[" line="29" column="57" />
+        <mark key="]" line="29" column="58" />
+        <mark key="." line="29" column="58" />
+        <mark key="^" line="478" column="32" />
       </file>
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
@@ -100,19 +108,19 @@
         <mark key="]" line="29" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/SaveOrderCheck.java" timestamp="1590477309842" />
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590489414563">
-        <mark key="'" line="52" column="55" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590543586667">
+        <mark key="'" line="202" column="4" />
         <mark key="[" line="165" column="53" />
         <mark key="]" line="165" column="54" />
         <mark key="^" line="129" column="27" />
         <mark key="." line="165" column="54" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590480998098">
-        <mark key="'" line="13" column="27" />
-        <mark key="[" line="168" column="14" />
-        <mark key="]" line="168" column="14" />
-        <mark key="^" line="168" column="14" />
-        <mark key="." line="168" column="13" />
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590543619843">
+        <mark key="'" line="166" column="20" />
+        <mark key="[" line="166" column="21" />
+        <mark key="]" line="166" column="21" />
+        <mark key="^" line="166" column="21" />
+        <mark key="." line="166" column="20" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590477044208">
         <mark key="'" line="175" column="66" />
@@ -126,14 +134,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="0" filename="$USER_HOME$/go/src/odin/util/util.go" />
-      <jump line="137" column="25" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="94" column="45" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="98" column="7" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="99" column="16" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="104" column="5" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="118" column="57" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="124" column="29" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="17" column="0" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
       <jump line="109" column="30" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="183" column="21" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -165,7 +165,6 @@
       <jump line="175" column="66" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" />
       <jump line="28" column="22" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" />
       <jump line="30" column="64" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" />
-      <jump line="29" column="6" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="191" column="23" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="354" column="39" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="59" column="0" filename="$USER_HOME$/go/src/odin/core/audit_log_service.go" />
@@ -226,56 +225,68 @@
       <jump line="42" column="11" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="52" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="283" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="469" column="40" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="506" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="425" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="166" column="20" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
+      <jump line="140" column="5" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="200" column="70" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="177" column="0" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="202" column="4" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="29" column="57" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="2">
-        <text encoding="base64">CW5hbWUgKnN0cmluZ2RkCg==</text>
+        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
       </register>
       <register name="-" type="4">
-        <text>RawCardHolderName</text>
+        <text>t.Order.PaymentInfo.GetCreditCard(),</text>
       </register>
       <register name="/" type="4">
-        <text>cardHash</text>
+        <text>CardCountryCodes</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy5SYXdDYXJkSG9sZGVyTmFtZQp9Cg==</text>
+        <text encoding="base64">CQkvLyBUT0RPIGNoZWNrIGhvdyB0byBnZXQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CW5hbWUgKnN0cmluZ2RkCg==</text>
+        <text encoding="base64">CQlDYXJkQ291bnRyeUNvZGVzOiAgICAgICAgICAgIHQuT3JkZXIuUGF5bWVudEluZm8uR2V0Q3JlZGl0Q2FyZCgpLAo=</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy4KfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy5DYXJkQmluCn0K</text>
+        <text encoding="base64">ZnVuYyAobSAqTWVyY2hhbnRJbmZvKSBHZXRNZXJjaGFudElkKCkgKnN0cmluZyB7CglpZiBtID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIG0uTWVyY2hhbnRJZAp9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXJldHVybiBuaWwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0Q2FyZFRva2VuKCkgKnN0cmluZyB7CglpZiBjID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIGMKfQo=</text>
+        <text encoding="base64">CWEuCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CW5hbWUgKnN0cmluZ2RkCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CX0KCXJldHVybiBwLlJlZGVlbWVkUG9pbnQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyAoYyAqQ3JlZGl0Q2FyZCkgR2V0UmF3Q2FyZEhvbGRlck5hbWUoKSAqc3RyaW5nIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gYy4KfQo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>only</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>cardHash</last-search>
+      <last-search>CardCountryCodes</last-search>
       <last-offset />
-      <last-pattern>cardHash</last-pattern>
+      <last-pattern>CardCountryCodes</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>

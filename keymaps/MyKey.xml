@@ -17,9 +17,16 @@
   <action id="GoGenerateGetterAction">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
+  <action id="ShowRecentTests" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift ctrl meta f" />
   </action>
@@ -29,6 +36,26 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
+  <action id="TabShiftActions.MoveFocusDown">
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
+  </action>
+  <action id="TabShiftActions.MoveFocusLeft">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
+  <action id="TabShiftActions.MoveFocusRight">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="TabShiftActions.MoveFocusUp">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="TabShiftActions.StretchDown" />
+  <action id="TabShiftActions.StretchLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
+  <action id="TabShiftActions.StretchRight">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id="TabShiftActions.StretchUp" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift ctrl meta back_slash" />
   </action>
