@@ -85,11 +85,12 @@
         <mark key="^" line="71" column="19" />
         <mark key="." line="71" column="18" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590560187006">
-        <mark key="'" line="649" column="8" />
-        <mark key="[" line="177" column="5" />
-        <mark key="]" line="179" column="0" />
-        <mark key="." line="179" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590560887765">
+        <mark key="'" line="660" column="8" />
+        <mark key="[" line="178" column="29" />
+        <mark key="]" line="178" column="21" />
+        <mark key="." line="178" column="20" />
+        <mark key="^" line="178" column="21" />
       </file>
       <file name="/Dummy.go" timestamp="1590539913444">
         <mark key="[" line="0" column="0" />
@@ -241,11 +242,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">CW8uT3JkZXJEZXRhaWxzCg==</text>
+      <register name="*" type="4">
+        <text>of</text>
       </register>
       <register name="-" type="4">
-        <text>OrderDetail</text>
+        <text>of</text>
       </register>
       <register name="/" type="4">
         <text>phone</text>
