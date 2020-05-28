@@ -62,11 +62,12 @@
         <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/PayGuardEvaluation.java" timestamp="1590628894843" />
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1590632009534">
-        <mark key="'" line="181" column="51" />
-        <mark key="[" line="174" column="0" />
-        <mark key="]" line="174" column="0" />
-        <mark key="." line="174" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1590633306321">
+        <mark key="'" line="186" column="51" />
+        <mark key="[" line="85" column="20" />
+        <mark key="]" line="85" column="35" />
+        <mark key="." line="85" column="20" />
+        <mark key="^" line="86" column="25" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590587793637">
         <mark key="'" line="1029" column="77" />
@@ -82,15 +83,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="29" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590578658917">
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590633493873">
         <mark key="'" line="165" column="25" />
-        <mark key="[" line="154" column="0" />
-        <mark key="]" line="154" column="0" />
-        <mark key="^" line="156" column="20" />
-        <mark key="." line="154" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590564724873">
-        <mark key="'" line="70" column="24" />
+        <mark key="[" line="120" column="50" />
+        <mark key="]" line="120" column="60" />
+        <mark key="^" line="120" column="60" />
+        <mark key="." line="120" column="59" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1590578685132">
         <mark key="'" line="142" column="28" />
@@ -98,6 +96,13 @@
         <mark key="]" line="177" column="76" />
         <mark key="." line="177" column="75" />
         <mark key="^" line="177" column="76" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590633379424">
+        <mark key="'" line="78" column="5" />
+        <mark key="[" line="42" column="53" />
+        <mark key="]" line="47" column="4" />
+        <mark key="^" line="47" column="4" />
+        <mark key="." line="47" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/CaseStatus.java" timestamp="1590630839270">
         <mark key="[" line="15" column="0" />
@@ -246,17 +251,17 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">CUdldEV2YWxUeXBlKCkgc3RyaW5nCg==</text>
+      <register name="*" type="4">
+        <text>request.PayguardEvaluation.Evaluation()</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text>request.PayguardEvaluation.Evaluation()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">Pj4+</text>
       </register>
       <register name="0" type="4">
-        <text>AccertifyAccept, AccertifyDeny, AccertifyReview, DoneAccertifyAccept, DoneAccertifyDeny</text>
+        <text>getCaseStatusCondition</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CUdldEV2YWxUeXBlKCkgc3RyaW5nCg==</text>
