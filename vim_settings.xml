@@ -97,12 +97,12 @@
         <mark key="." line="177" column="75" />
         <mark key="^" line="177" column="76" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590633379424">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590636559115">
         <mark key="'" line="78" column="5" />
-        <mark key="[" line="42" column="53" />
-        <mark key="]" line="47" column="4" />
-        <mark key="^" line="47" column="4" />
-        <mark key="." line="47" column="0" />
+        <mark key="[" line="90" column="45" />
+        <mark key="]" line="97" column="23" />
+        <mark key="^" line="97" column="23" />
+        <mark key="." line="97" column="22" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/CaseStatus.java" timestamp="1590630839270">
         <mark key="[" line="15" column="0" />
@@ -125,19 +125,19 @@
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1590587130078">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590582504678">
-        <mark key="'" line="86" column="22" />
-        <mark key="[" line="107" column="29" />
-        <mark key="]" line="107" column="34" />
-        <mark key="." line="107" column="33" />
-        <mark key="^" line="107" column="34" />
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590636660076">
+        <mark key="'" line="103" column="14" />
+        <mark key="[" line="70" column="14" />
+        <mark key="]" line="70" column="15" />
+        <mark key="." line="70" column="14" />
+        <mark key="^" line="70" column="15" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590634787126">
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590636785138">
         <mark key="'" line="79" column="54" />
-        <mark key="[" line="187" column="4" />
-        <mark key="]" line="187" column="11" />
-        <mark key="^" line="129" column="27" />
-        <mark key="." line="165" column="54" />
+        <mark key="[" line="151" column="15" />
+        <mark key="]" line="151" column="16" />
+        <mark key="." line="151" column="15" />
+        <mark key="^" line="151" column="16" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/SearchTransactionLogicImpl.java" timestamp="1590628910110">
         <mark key="'" line="158" column="20" />
@@ -147,7 +147,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="177" column="34" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/SearchTransactionLogicImpl.java" />
       <jump line="185" column="4" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="53" column="33" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="214" column="40" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
@@ -247,24 +246,25 @@
       <jump line="205" column="258" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
       <jump line="182" column="54" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
       <jump line="181" column="51" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
+      <jump line="93" column="14" filename="$USER_HOME$/go/src/odin/util/util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>Category</text>
+        <text>util.GetStringPtr(propertyValue)</text>
       </register>
       <register name="-" type="4">
-        <text>MultipleMatchIntCondition</text>
+        <text>*</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">Pj4+</text>
       </register>
       <register name="0" type="4">
-        <text>Category</text>
+        <text>util.GetStringPtr(propertyValue)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CUdldEV2YWxUeXBlKCkgc3RyaW5nCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -337,28 +337,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQlFdmFsVHlwZTogICAgIGV2YWxUeXBlLAo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">CQlFdmFsVHlwZTogICAgIGV2YWxUeXBlLAo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">CQlFdmFsVHlwZTogICAgIGV2YWxUeXBlLAo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">CQlFdmFsVHlwZTogICAgIGV2YWxUeXBlLAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CQlFdmFsVHlwZTogICAgIGV2YWxUeXBlLAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">CQlyZXR1cm4gbmlsLCBlcnJvcnMuTmV3KCJpbnZhbGlkIHNlYXJjaEZpZWxkIHR5cGUiKQoK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CQlyZXR1cm4gbmlsLCBlcnJvcnMuTmV3KCJpbnZhbGlkIHNlYXJjaEZpZWxkIHR5cGUiKQoK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CXJldHVybiBuaWwsIGVycm9ycy5OZXcoImludmFsaWQgc2VhcmNoRmllbGQgdHlwZSIpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CX0K</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnVuYyAoZSBldmFsdWF0aW9uKSBHZXRFdmFsVHlwZSgpIHN0cmluZyB7CglyZXR1cm4gZS5FdmFsVHlwZQp9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CUV2YWxUeXBlICAgICBzdHJpbmcK</text>
+        <text encoding="base64">CQluYW1lcyA6PSBzdHJpbmdzLlNwbGl0KHMuTmFtZSwgIjsiKQoJCW5hbWVDb25kaXRpb25zIDo9IG1ha2UoW111dGlsLkpzb25NYXAsIDApCgkJZm9yIF8sIG5hbWUgOj0gcmFuZ2UgbmFtZXMgewoJCQluYW1lQ29uZGl0aW9ucyA9IGFwcGVuZChuYW1lQ29uZGl0aW9ucywgKnV0aWwuVGVybVN0cmluZ0NvbmRpdGlvbihuYW1lLCB1dGlsLkdldFN0cmluZ1B0cihwcm9wZXJ0eVZhbHVlKSkpCgkJfQoJCXJldHVybiB1dGlsLlNob3VsZENvbmRpdGlvbnMobmFtZUNvbmRpdGlvbnMpLCBuaWwK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
