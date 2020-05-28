@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>detail</entry>
         <entry>payment</entry>
         <entry>raw</entry>
         <entry>listHit</entry>
@@ -25,6 +24,7 @@
         <entry>convert</entry>
         <entry>delivery</entry>
         <entry>deliveryDate</entry>
+        <entry>validateStruct</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -84,19 +84,15 @@
       <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1590653716438">
         <mark key="'" line="27" column="19" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/http_response.go" timestamp="1590653547060">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="9" column="55" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/http_response.go" timestamp="1590653892142">
+        <mark key="'" line="8" column="4" />
+        <mark key="[" line="5" column="11" />
+        <mark key="]" line="5" column="11" />
+        <mark key="." line="5" column="10" />
+        <mark key="^" line="5" column="11" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/audit_rule_template.json" timestamp="1590651150317">
         <mark key="'" line="111" column="1" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/audit_case_template.json" timestamp="1590651054298">
-        <mark key="'" line="84" column="1" />
-        <mark key="[" line="2" column="16" />
-        <mark key="]" line="2" column="16" />
-        <mark key="." line="2" column="16" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590653242762">
         <mark key="'" line="287" column="29" />
@@ -105,16 +101,19 @@
         <mark key="^" line="1150" column="67" />
         <mark key="." line="1150" column="42" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1590653733022">
-        <mark key="[" line="9" column="4" />
-        <mark key="]" line="9" column="5" />
+      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1590654376260">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
         <mark key="^" line="9" column="5" />
-        <mark key="." line="9" column="4" />
+        <mark key="." line="12" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590653460934">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
         <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1590653831166">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590653722939">
         <mark key="'" line="76" column="35" />
@@ -168,10 +167,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="630" column="27" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="651" column="9" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="278" column="22" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="279" column="27" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="280" column="33" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="1061" column="14" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="1100" column="15" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
@@ -268,24 +263,28 @@
       <jump line="84" column="21" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="27" column="19" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="76" column="35" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
+      <jump line="34" column="17" filename="$USER_HOME$/go/src/odin/core/validator.go" />
+      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
+      <jump line="8" column="4" filename="$USER_HOME$/go/src/odin/model/http_response.go" />
+      <jump line="29" column="0" filename="$USER_HOME$/go/src/odin/core/validator.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="4">
-        <text>util</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>util</text>
       </register>
       <register name="/" type="4">
-        <text>deliveryDate</text>
+        <text>validateStruct</text>
       </register>
       <register name="0" type="4">
         <text>ShippingCity</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CVJlc3BvbnNlTWVzc2FnZSAgICAgICAgICAgICAgID0gIiIKCUVtcHR5UmVzcG9uc2VNZXNzYWdlICAgICAgICAgID0gIk5vIHJlc3VsdHMgZm91bmQuIgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1075,31 +1074,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CVJlc3BvbnNlTWVzc2FnZSAgICAgID0gIiIKCUVtcHR5UmVzcG9uc2VNZXNzYWdlID0gIk5vIHJlc3VsdHMgZm91bmQuIgo=</text>
+        <text encoding="base64">Ly8gVmFsaWRhdGlvbkVycm9yIHJlcHJlc2VudHMgYW4gdmFsaWRhdGlvbiBlcnJvci4KdHlwZSBWYWxpZGF0aW9uRXJyb3Igc3RydWN0IHsKCVJlYXNvbiBzdHJpbmcKfQoKLy8gU3RhdHVzQ29kZSBpcyBhbiBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgU3RhdHVzQ29kZXIgaW50ZXJmYWNlIGluIGdvLWtpdC9odHRwLgpmdW5jIChlcnIgVmFsaWRhdGlvbkVycm9yKSBTdGF0dXNDb2RlKCkgaW50IHsKCXJldHVybiBodHRwLlN0YXR1c0JhZFJlcXVlc3QKfQoKLy8gRXJyb3IgaXMgYW4gaW1wbGVtZW50YXRpb24gb2YgdGhlIEVycm9yIGludGVyZmFjZS4KZnVuYyAoZXJyIFZhbGlkYXRpb25FcnJvcikgRXJyb3IoKSBzdHJpbmcgewoJcmV0dXJuIGVyci5SZWFzb24KfQoKLy8gSGVhZGVycyBpcyBhbiBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgSGVhZGVyZXIgaW50ZXJmYWNlIGluIGdvLWtpdC9odHRwLgpmdW5jIChlcnIgVmFsaWRhdGlvbkVycm9yKSBIZWFkZXJzKCkgaHR0cC5IZWFkZXIgewoJcmV0dXJuIGh0dHAuSGVhZGVye30KfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y29uc3QgKAo=</text>
+        <text encoding="base64">Ly8gVmFsaWRhdGlvbkVycm9yIHJlcHJlc2VudHMgYW4gdmFsaWRhdGlvbiBlcnJvci4KdHlwZSBWYWxpZGF0aW9uRXJyb3Igc3RydWN0IHsKCVJlYXNvbiBzdHJpbmcKfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3QgKAoJUmVzcG9uc2VNZXNzYWdlICAgICAgPSAiIgoJRW1wdHlSZXNwb25zZU1lc3NhZ2UgPSAiTm8gcmVzdWx0cyBmb3VuZC4iCikK</text>
+        <text encoding="base64">Ly8gVmFsaWRhdGlvbkVycm9yIHJlcHJlc2VudHMgYW4gdmFsaWRhdGlvbiBlcnJvci4KdHlwZSBWYWxpZGF0aW9uRXJyb3Igc3RydWN0IHsKCVJlYXNvbiBzdHJpbmcKfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CUNhcmRCaW5Db3VudHJ5OiAgICAgICAgICAgICAgeyJvcmRlci5wYXltZW50SW5mby5jcmVkaXRDYXJkLmNhcmRCaW4iLCBLZXl3b3JkfSwKCU9wcDogICAgICAgICAgICAgICAgICAgICAgICAgeyJvcmRlci5hZGRpdGlvbmFsSW5mby5vcHBGbGFnIiwgS2V5d29yZH0sCg==</text>
+        <text encoding="base64">CVJlc3BvbnNlTWVzc2FnZSAgICAgICAgICAgICAgID0gIiIKCUVtcHR5UmVzcG9uc2VNZXNzYWdlICAgICAgICAgID0gIk5vIHJlc3VsdHMgZm91bmQuIgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICJudW1iZXJfb2ZfcmVwbGljYXMiOiAxCg==</text>
+        <text encoding="base64">CVJlc3BvbnNlTWVzc2FnZSAgICAgID0gIiIKCUVtcHR5UmVzcG9uc2VNZXNzYWdlID0gIk5vIHJlc3VsdHMgZm91bmQuIgo=</text>
       </register>
-      <register name="8" type="8">
-        <text>GetStringSafely
-GetStringSafely
-GetStringSafely
-GetStringSafely</text>
+      <register name="8" type="2">
+        <text encoding="base64">KQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uc3QgKAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1108,9 +1104,9 @@ GetStringSafely</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>deliveryDate</last-search>
+      <last-search>validateStruct</last-search>
       <last-offset />
-      <last-pattern>deliveryDate</last-pattern>
+      <last-pattern>validateStruct</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
