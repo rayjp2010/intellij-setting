@@ -73,12 +73,12 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590737131987">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590739673277">
         <mark key="'" line="31" column="0" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="32" column="44" />
-        <mark key="^" line="32" column="44" />
-        <mark key="." line="32" column="43" />
+        <mark key="[" line="95" column="54" />
+        <mark key="]" line="108" column="65" />
+        <mark key="^" line="108" column="65" />
+        <mark key="." line="108" column="64" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1590661596273">
         <mark key="'" line="0" column="0" />
@@ -124,11 +124,11 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="38" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590737515128">
-        <mark key="[" line="35" column="26" />
-        <mark key="]" line="35" column="32" />
-        <mark key="." line="35" column="31" />
-        <mark key="^" line="35" column="32" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590739887630">
+        <mark key="[" line="152" column="22" />
+        <mark key="]" line="152" column="22" />
+        <mark key="." line="152" column="22" />
+        <mark key="^" line="146" column="58" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
         <mark key="'" line="68" column="24" />
@@ -283,19 +283,19 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>[]JsonMap</text>
+        <text>TermStringCondition</text>
       </register>
       <register name="-" type="4">
-        <text>[]JsonMap</text>
+        <text>TermStringCondition</text>
       </register>
       <register name="/" type="4">
         <text>shippingMethod</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CQl7ImFsbCBvcHRpb25zIGFyZSBuaWwiLCBqTWFwcygqbTEsICptMiksIGpNYXBQdHJzKG5pbCwgbmlsKSwgak1hcHMoKm0xLCAqbTIpfSwK</text>
+      <register name="0" type="4">
+        <text>jMapPtr(&quot;wildcard&quot;, *jMapPtr(&quot;key.keyword&quot;, &quot;*value*&quot;))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQl7Im5vIG9wdGlvbmFsIGNvbmRpdGlvbnMiLCBqTWFwcygqbTEsICptMiksIGpNYXBQdHJzKCksIGpNYXBzKCptMSwgKm0yKX0sCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1085,28 +1085,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyBUZXN0V2lsZGNhcmRTdHJpbmdDb25kaXRpb24odCAqdGVzdGluZy5UKSB7Cgl0eXBlIHRlc3RDYXNlIHN0cnVjdCB7CgkJbmFtZSAgICAgICAgICAgICAgc3RyaW5nCgkJaW5wdXRLZXkgICAgICAgICAgc3RyaW5nCgkJaW5wdXRWYWx1ZSAgICAgICAgKmJvb2wKCQlleHBlY3RlZENvbmRpdGlvbiAqSnNvbk1hcAoJfQoJdGNzIDo9IFtddGVzdENhc2V7CgkJeyJzdWNjZWVkIHdpdGggdHJ1ZSIsICJrZXkiLCBHZXRCb29sUHRyKHRydWUpLCBqTWFwUHRyKCJ0ZXJtIiwgKmpNYXBQdHIoImtleSIsIHRydWUpKX0sCgkJeyJzdWNjZWVkIHdpdGggdHJ1ZSIsICJrZXkiLCBHZXRCb29sUHRyKGZhbHNlKSwgak1hcFB0cigidGVybSIsICpqTWFwUHRyKCJrZXkiLCBmYWxzZSkpfSwKCQl7ImVtcHR5IGtleSAtPiBnZXQgbmlsIiwgIiIsIEdldEJvb2xQdHIodHJ1ZSksIG5pbH0sCgkJeyJuaWwgdmFsdWUgLT4gZ2V0IG5pbCIsICJrZXkiLCBuaWwsIG5pbH0sCgl9Cglmb3IgXywgdGMgOj0gcmFuZ2UgdGNzIHsKCQl0LlJ1bih0Yy5uYW1lLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCQlhY3R1YWwgOj0gVGVybUJvb2xlYW5Db25kaXRpb24odGMuaW5wdXRLZXksIHRjLmlucHV0VmFsdWUpCgkJCWFzc2VydC5FcXVhbCh0LCB0Yy5leHBlY3RlZENvbmRpdGlvbiwgYWN0dWFsKQoJCX0pCgl9Cn0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnVuYyBqTWFwUHRycyhqcyAuLi4qSnNvbk1hcCkgW10qSnNvbk1hcCB7CglyZXR1cm4ganMKfQo=</text>
+        <text encoding="base64">CQl7InN1Y2NlZWQgd2l0aCB6ZXJvIHZhbHVlIiwgImtleSIsIEdldEJvb2xQdHIoMC4wKSwgak1hcFB0cigidGVybSIsICpqTWFwUHRyKCJrZXkiLCAwLjApKX0sCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CUdldEpzb25NYXBQdHIoSnNvbk1hcHsia2V5IjogInZhbHVlIn0pCg==</text>
+        <text encoding="base64">CQl7ImVtcHR5IHZhbHVlIiwgImtleSIsICBuaWwsIG5pbH0sCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CXRlc3RKc29uTWFwcyA6PSBbXSpKc29uTWFwe3t9LCB7fX0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CQl7InN1Y2NlZWQiLCAia2V5IiwgW11pbnQ2NHsxLCAyLCAzfSwgak1hcFB0cigidGVybXMiLCAqak1hcFB0cigia2V5IiwgW11pbnQ2NHsxLCAyLCAzfSkpfSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CWZ1bmMgZ2V0KCkgc3RyaW5newoJCXJldHVybiAiYSIKCX0K</text>
+        <text encoding="base64">CWpNYXBzKCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWZ1bmMgZ2V0SnNvbk1hcEFycmF5KGogSnNvbk1hcCkgW10qSnNvbk1hcHsKCQlyZXR1cm4gW10qSgoJfQo=</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
