@@ -73,12 +73,12 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590735174951">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590737131987">
         <mark key="'" line="31" column="0" />
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="^" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="32" column="44" />
+        <mark key="^" line="32" column="44" />
+        <mark key="." line="32" column="43" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1590661596273">
         <mark key="'" line="0" column="0" />
@@ -124,11 +124,11 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="38" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590736918785">
-        <mark key="[" line="17" column="28" />
-        <mark key="]" line="17" column="29" />
-        <mark key="." line="17" column="29" />
-        <mark key="^" line="20" column="73" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590737515128">
+        <mark key="[" line="35" column="26" />
+        <mark key="]" line="35" column="32" />
+        <mark key="." line="35" column="31" />
+        <mark key="^" line="35" column="32" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
         <mark key="'" line="68" column="24" />
@@ -282,20 +282,20 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">CW1hcDIgOj0gak1hcFB0cigiazIiLCAidjIiKQo=</text>
+      <register name="*" type="4">
+        <text>[]JsonMap</text>
       </register>
       <register name="-" type="4">
-        <text>make([]JsonMap, 0)</text>
+        <text>[]JsonMap</text>
       </register>
       <register name="/" type="4">
         <text>shippingMethod</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CW1hcDIgOj0gak1hcFB0cigiazIiLCAidjIiKQo=</text>
+        <text encoding="base64">CQl7ImFsbCBvcHRpb25zIGFyZSBuaWwiLCBqTWFwcygqbTEsICptMiksIGpNYXBQdHJzKG5pbCwgbmlsKSwgak1hcHMoKm0xLCAqbTIpfSwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnVuYyBqTWFwUHRycyhqcyAuLi4qSnNvbk1hcCkgW10qSnNvbk1hcCB7CglyZXR1cm4ganMKfQo=</text>
+        <text encoding="base64">CQl7Im5vIG9wdGlvbmFsIGNvbmRpdGlvbnMiLCBqTWFwcygqbTEsICptMiksIGpNYXBQdHJzKCksIGpNYXBzKCptMSwgKm0yKX0sCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1085,28 +1085,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CUdldEpzb25NYXBQdHIoSnNvbk1hcHsia2V5IjogInZhbHVlIn0pCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">CXRlc3RKc29uTWFwcyA6PSBbXSpKc29uTWFwe3t9LCB7fX0K</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ZnVuYyBqTWFwUHRycyhqcyAuLi4qSnNvbk1hcCkgW10qSnNvbk1hcCB7CglyZXR1cm4ganMKfQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CUdldEpzb25NYXBQdHIoSnNvbk1hcHsia2V5IjogInZhbHVlIn0pCg==</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CXRlc3RKc29uTWFwcyA6PSBbXSpKc29uTWFwe3t9LCB7fX0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWZ1bmMgZ2V0KCkgc3RyaW5newoJCXJldHVybiAiYSIKCX0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CWZ1bmMgZ2V0SnNvbk1hcEFycmF5KGogSnNvbk1hcCkgW10qSnNvbk1hcHsKCQlyZXR1cm4gW10qSgoJfQo=</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CUdldEpzb25NYXBQdHIoKQo=</text>
+        <text encoding="base64">CWZ1bmMgZ2V0KCkgc3RyaW5newoJCXJldHVybiAiYSIKCX0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CXR5cGUgaW5wdXQgc3RydWN0IHsKCX0KCXR5cGUgd2FudCBzdHJ1Y3QgewoJfQo=</text>
+        <text encoding="base64">CWZ1bmMgZ2V0SnNvbk1hcEFycmF5KGogSnNvbk1hcCkgW10qSnNvbk1hcHsKCQlyZXR1cm4gW10qSgoJfQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
