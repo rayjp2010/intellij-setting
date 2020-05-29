@@ -103,8 +103,8 @@
       <file name="$USER_HOME$/go/src/odin/model/audit_log_test.go" timestamp="1590662444288">
         <mark key="'" line="61" column="19" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590662580103">
-        <mark key="'" line="132" column="4" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590728010649">
+        <mark key="'" line="73" column="70" />
         <mark key="[" line="135" column="0" />
         <mark key="]" line="135" column="0" />
         <mark key="." line="135" column="0" />
@@ -177,7 +177,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="19" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="76" column="35" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
       <jump line="34" column="17" filename="$USER_HOME$/go/src/odin/core/validator.go" />
       <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
@@ -277,6 +276,7 @@
       <jump line="95" column="0" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
       <jump line="112" column="9" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
       <jump line="3" column="6" filename="$USER_HOME$/go/src/odin/model/search_response.go" />
+      <jump line="73" column="70" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -288,7 +288,7 @@
         <text>Active</text>
       </register>
       <register name="/" type="4">
-        <text>acceptWith</text>
+        <text>ipCountry</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CU9yZGVySWQgICAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoib3JkZXJJZCJgCglSZXF1ZXN0RGF0ZSAgICAgICAgICAgICAgICAgaW50NjQgICAgICAgICAgICAgYGpzb246InJlcXVlc3REYXRlImAKCU1lcmNoYW50SWQgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoibWVyY2hhbnRJZCJgCglFYXN5SWQgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImVhc3lJZCJgCglFbWFpbCAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImVtYWlsImAKCUlwQWRkcmVzcyAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiaXBBZGRyZXNzImAKCUlwQ291bnRyeSAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiaXBDb3VudHJ5ImAKCVBob25lICAgICAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoicGhvbmUiYAoJT3JkZXJBbW91bnQgICAgICAgICAgICAgICAgIGZsb2F0NjQgICAgICAgICAgIGBqc29uOiJvcmRlckFtb3VudCJgCglQYXltZW50TWV0aG9kICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246InBheW1lbnRNZXRob2QiYAoJQ2FyZEZpbmdlcnByaW50ICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJjYXJkRmluZ2VycHJpbnQiYAoJUmVkZWVtZWRQb2ludHMgICAgICAgICAgICAgIGZsb2F0NjQgICAgICAgICAgIGBqc29uOiJyZWRlZW1lZFBvaW50cyJgCglDb3Vwb25EaXNjb3VudCAgICAgICAgICAgICAgZmxvYXQ2NCAgICAgICAgICAgYGpzb246ImNvdXBvbkRpc2NvdW50ImAKCVBvc3RhbENvZGUgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoicG9zdGFsQ29kZSJgCglTaGlwcGluZ0FkZHJlc3MgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246InNoaXBwaW5nQWRkcmVzcyJgCglSdWxlSGl0cyAgICAgICAgICAgICAgICAgICAgW11SdWxlSGl0UmVzcG9uc2UgYGpzb246InJ1bGVIaXRzImAKCUxpc3RIaXRzICAgICAgICAgICAgICAgICAgICBbXUxpc3RIaXRSZXNwb25zZSBganNvbjoibGlzdEhpdHMiYAoJUmV2aWV3ZXJOYW1lICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJyZXZpZXdlck5hbWUiYAoJRXZhbHVhdGlvbk1lc3NhZ2UgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJldmFsdWF0aW9uTWVzc2FnZSJgCglDb21tZW50ICAgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImNvbW1lbnQiYAoJSXRlbU5hbWUgICAgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJpdGVtTmFtZSJgCglDYXRlZ29yeSAgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImNhdGVnb3J5ImAKCUNhcmRUb2tlbiAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiY2FyZFRva2VuImAKCUNhcmRGcmFnbWVudCAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiY2FyZEZyYWdtZW50ImAKCVN1YkV2YWx1YXRpb25NZXNzYWdlICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoic3ViRXZhbHVhdGlvbk1lc3NhZ2UiYAoJU2hpcHBpbmdOYW1lICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJzaGlwcGluZ05hbWUiYAoJQ2FyZEhvbGRlciAgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJjYXJkSG9sZGVyImAKCUNhcmRCaW5Db3VudHJ5ICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiY2FyZEJpbkNvdW50cnkiYAoJQ2FyZEhhc2ggICAgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJjYXJkSGFzaCJgCglPcHAgICAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Im9wcCJgCglBc3VyYWt1ICAgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImFzdXJha3UiYAoJQ2FyZENvdW50cnlDb2RlcyAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJjYXJkQ291bnRyeUNvZGVzImAKCVByb2Nlc3NUaW1lICAgICAgICAgICAgICAgICBpbnQ2NCAgICAgICAgICAgICBganNvbjoicHJvY2Vzc1RpbWUiYAoJTW1JcENvdW50cnkgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJtbUlwQ291bnRyeSJgCglNbUNpdHkgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Im1tQ2l0eSJgCglNbUxhdGl0dWRlICAgICAgICAgICAgICAgICAgZmxvYXQ2NCAgICAgICAgICAgYGpzb246Im1tTGF0aXR1ZGUiYAoJTW1Mb25naXR1ZGUgICAgICAgICAgICAgICAgIGZsb2F0NjQgICAgICAgICAgIGBqc29uOiJtbUxvbmdpdHVkZSJgCglNbUlzcE5hbWUgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Im1tSXNwTmFtZSJgCglNbUlzcE9yZ2FuaXphdGlvbiAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Im1tSXNwT3JnYW5pemF0aW9uImAKCU1tRG9tYWluTmFtZSAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoibW1Eb21haW5OYW1lImAKCU1tQ29ubmVjdGlvblR5cGUgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoibW1Db25uZWN0aW9uVHlwZSJgCglNbUFub255bW91cyAgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Im1tQW5vbnltb3VzImAKCU1tQW5vbnltb3VzVlBOICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoibW1Bbm9ueW1vdXNWUE4iYAoJTW1Ub3JFeGl0Tm9kZXMgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJtbVRvckV4aXROb2RlcyJgCglNbUhvc3RpbmdQcm92aWRlckRhdGFDZW50ZXIgc3RyaW5nICAgICAgICAgICAgYGpzb246Im1tSG9zdGluZ1Byb3ZpZGVyRGF0YUNlbnRlciJgCglNbVB1YmxpY1Byb3h5ICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Im1tUHVibGljUHJveHkiYAoJVHJhY2tpbmdJZCAgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJ0cmFja2luZ0lkImAKCVNlc3Npb25JZCAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoic2Vzc2lvbklkImAKCVJwQ29va2llICAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoicnBDb29raWUiYAoJTWVtYmVyUmFuayAgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJtZW1iZXJSYW5rImAKCVNoaXBwaW5nQ291cG9uRGlzY291bnQgICAgICBmbG9hdDY0ICAgICAgICAgICBganNvbjoic2hpcHBpbmdDb3Vwb25EaXNjb3VudCJgCglEZWxpdmVyeURhdGUgICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImRlbGl2ZXJ5RGF0ZSJgCglTYWxlc1RheEFtb3VudCAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246InNhbGVzVGF4QW1vdW50ImAKCURlbGl2ZXJ5Q29kZSAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiZGVsaXZlcnlDb2RlImAKCUl0ZW1Dc3RBbW91bnQgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiaXRlbUNzdEFtb3VudCJgCglJdGVtUGFydGl0aW9uVHlwZSAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Iml0ZW1QYXJ0aXRpb25UeXBlImAKCVByb2R1Y3RTa3UgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoicHJvZHVjdFNrdSJgCglJdGVtTWFuUGFydE5vICAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246Iml0ZW1NYW5QYXJ0Tm8iYAoJQ2F0ZWdvcnlJZCAgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJjYXRlZ29yeUlkImAKCUJpbGxpbmdBZGRyZXNzTGluZTEgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiYmlsbGluZ0FkZHJlc3NMaW5lMSJgCglCaWxsaW5nQWRkcmVzc0xpbmUyICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImJpbGxpbmdBZGRyZXNzTGluZTIiYAoJQmlsbGluZ0NpdHkgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJiaWxsaW5nQ2l0eSJgCglCaWxsaW5nQ291bnRyeSAgICAgICAgICAgICAgc3RyaW5nICAgICAgICAgICAgYGpzb246ImJpbGxpbmdDb3VudHJ5ImAKCUJpbGxpbmdQb3N0Q29kZSAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiYmlsbGluZ1Bvc3RDb2RlImAKCUF2c1Jlc3BvbnNlQ29kZSAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoiYXZzUmVzcG9uc2VDb2RlImAKCVNoaXBwaW5nQ2l0eSAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoic2hpcHBpbmdDaXR5ImAKCU1sU2NvcmUgICAgICAgICAgICAgICAgICAgICBmbG9hdDY0ICAgICAgICAgICBganNvbjoibWxTY29yZSJgCglNbFRocmVzaG9sZCAgICAgICAgICAgICAgICAgZmxvYXQ2NCAgICAgICAgICAgYGpzb246Im1sVGhyZXNob2xkImAKCU1sUmVzdWx0ICAgICAgICAgICAgICAgICAgICBzdHJpbmcgICAgICAgICAgICBganNvbjoibWxSZXN1bHQiYAoJQ2FzZVN0YXR1cyAgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgICAgICAgIGBqc29uOiJjYXNlU3RhdHVzImAK</text>
@@ -1114,9 +1114,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>acceptWith</last-search>
+      <last-search>ipCountry</last-search>
       <last-offset />
-      <last-pattern>acceptWith</last-pattern>
+      <last-pattern>ipCountry</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
