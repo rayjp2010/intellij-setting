@@ -124,12 +124,11 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="38" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590735782071">
-        <mark key="'" line="6" column="0" />
-        <mark key="[" line="29" column="24" />
-        <mark key="]" line="29" column="23" />
-        <mark key="." line="29" column="22" />
-        <mark key="^" line="29" column="23" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590736918785">
+        <mark key="[" line="17" column="28" />
+        <mark key="]" line="17" column="29" />
+        <mark key="." line="17" column="29" />
+        <mark key="^" line="20" column="73" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
         <mark key="'" line="68" column="24" />
@@ -179,7 +178,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="122" column="6" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
       <jump line="38" column="38" filename="$USER_HOME$/go/src/odin/core/validator.go" />
       <jump line="195" column="16" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="233" column="29" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/SearchTransactionLogicImpl.java" />
@@ -279,24 +277,25 @@
       <jump line="102" column="4" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="70" column="8" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="6" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
+      <jump line="31" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="4">
-        <text>string</text>
+      <register name="*" type="2">
+        <text encoding="base64">CW1hcDIgOj0gak1hcFB0cigiazIiLCAidjIiKQo=</text>
       </register>
       <register name="-" type="4">
-        <text>string</text>
+        <text>make([]JsonMap, 0)</text>
       </register>
       <register name="/" type="4">
         <text>shippingMethod</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQl7Im5pbCBhcnJheSB3aWxsIG5vdCBjYXVzZSBlcnJvciIsIG5pbCwgbmlsLCBuaWx9LAo=</text>
+        <text encoding="base64">CW1hcDIgOj0gak1hcFB0cigiazIiLCAidjIiKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyBqTWFwUHRycyhqcyAuLi4qSnNvbk1hcCkgW10qSnNvbk1hcCB7CglyZXR1cm4ganMKfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1086,28 +1085,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CUdldEpzb25NYXBQdHIoSnNvbk1hcHsia2V5IjogInZhbHVlIn0pCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWZ1bmMgZ2V0KCkgc3RyaW5newoJCXJldHVybiAiYSIKCX0K</text>
+        <text encoding="base64">CXRlc3RKc29uTWFwcyA6PSBbXSpKc29uTWFwe3t9LCB7fX0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CWZ1bmMgZ2V0SnNvbk1hcEFycmF5KGogSnNvbk1hcCkgW10qSnNvbk1hcHsKCQlyZXR1cm4gW10qSgoJfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CUdldEpzb25NYXBQdHIoKQo=</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CXR5cGUgaW5wdXQgc3RydWN0IHsKCX0KCXR5cGUgd2FudCBzdHJ1Y3QgewoJfQo=</text>
+        <text encoding="base64">CWZ1bmMgZ2V0KCkgc3RyaW5newoJCXJldHVybiAiYSIKCX0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQlPcmlnaW5hbCBbXUpzb25NYXAK</text>
+        <text encoding="base64">CWZ1bmMgZ2V0SnNvbk1hcEFycmF5KGogSnNvbk1hcCkgW10qSnNvbk1hcHsKCQlyZXR1cm4gW10qSgoJfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CUFwcGVuZE9wdGlvbmFsQ29uZGl0aW9ucygpCg==</text>
+        <text encoding="base64">CUdldEpzb25NYXBQdHIoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CS8vIFRPRE8gbW9kaWZ5IG9kaW4gYXBpIGRvY3VtZW50IGFjY29yZGluZyB0byB0aGUgY2hhbmdlcyBoZXJlCg==</text>
+        <text encoding="base64">CXR5cGUgaW5wdXQgc3RydWN0IHsKCX0KCXR5cGUgd2FudCBzdHJ1Y3QgewoJfQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
