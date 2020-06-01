@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Header</entry>
         <entry>zone</entry>
         <entry>deliveryDate</entry>
         <entry>timezone</entry>
@@ -25,6 +24,7 @@
         <entry>itemName</entry>
         <entry>shippingMethod</entry>
         <entry>error</entry>
+        <entry>assert.Error</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -112,12 +112,12 @@
         <mark key="^" line="43" column="0" />
         <mark key="." line="43" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1590991088594">
-        <mark key="'" line="33" column="26" />
-        <mark key="[" line="125" column="35" />
-        <mark key="]" line="125" column="17" />
-        <mark key="." line="125" column="16" />
-        <mark key="^" line="125" column="17" />
+      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1590992659407">
+        <mark key="'" line="162" column="23" />
+        <mark key="[" line="180" column="56" />
+        <mark key="]" line="180" column="56" />
+        <mark key="^" line="180" column="30" />
+        <mark key="." line="180" column="56" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/CaseLogicUtil.java" timestamp="1590975680481">
         <mark key="'" line="101" column="16" />
@@ -142,7 +142,7 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/CaseLogicUtil.java" timestamp="1590975657203">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="/fragment.go" timestamp="1590989074227">
+      <file name="/fragment.go" timestamp="1590992081454">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1590663649940">
@@ -152,11 +152,11 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="38" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590982465405">
-        <mark key="[" line="43" column="14" />
-        <mark key="]" line="43" column="14" />
-        <mark key="." line="43" column="13" />
-        <mark key="^" line="43" column="14" />
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590992379528">
+        <mark key="[" line="11" column="16" />
+        <mark key="]" line="11" column="17" />
+        <mark key="." line="11" column="17" />
+        <mark key="^" line="65" column="30" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
         <mark key="'" line="68" column="24" />
@@ -173,7 +173,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="26" column="32" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="34" column="16" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="35" column="9" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="36" column="11" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
@@ -273,24 +272,25 @@
       <jump line="17" column="23" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
       <jump line="24" column="110" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
       <jump line="33" column="26" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="145" column="23" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>convert epoch string correctly with empty layout</text>
+        <text>disAbleD</text>
       </register>
       <register name="-" type="4">
-        <text>convert epoch string correctly with empty layout</text>
+        <text>disAbleD</text>
       </register>
       <register name="/" type="4">
-        <text>error</text>
+        <text>assert.Error</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQl7ImNvbnZlcnQgZXBvY2ggc3RyaW5nIGNvcnJlY3RseSB3aXRoIGVtcHR5IGxheW91dCIsCgkJCUdldFN0cmluZ1B0cigiMTU5MDk4MDAxNzAwMCIpLAoJCQkiIiwKCQkJR2V0U3RyaW5nUHRyKCIyMDIwLTA2LTAxVDAyOjUzOjM3LjAwMCswMDAwIiksCgkJCW5pbH0sCg==</text>
+        <text encoding="base64">CQl7ImRpc0FibGVEIC0+IGZhbHNlIiwgR2V0U3RyaW5nUHRyKCJkaXNBYmxlRCIpLCBHZXRCb29sUHRyKGZhbHNlKX0sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQl7ImNvbnZlcnQgZXBvY2ggc3RyaW5nIGNvcnJlY3RseSIsCgkJCUdldFN0cmluZ1B0cigiMTU5MDk4MDAxNzAwMCIpLAoJCQkiMjAwNi0wMS0wMlQxNTowNDowNS4wMDAtMDcwMCIsCgkJCUdldFN0cmluZ1B0cigiMjAyMC0wNi0wMVQwMjo1MzozNy4wMDArMDAwMCIpLAoJCQluaWx9LAoJCXsiY29udmVydCBlcG9jaCBzdHJpbmcgY29ycmVjdGx5IHdpdGggYW5vdGhlciBsYXlvdXQiLAoJCQlHZXRTdHJpbmdQdHIoIjE1OTA5ODAwMTcwMDAiKSwKCQkJIjIwMDYvMDEvMDJUMTU6MDQ6MDUuMDAwIiwKCQkJR2V0U3RyaW5nUHRyKCIyMDIwLzA2LzAxVDAyOjUzOjM3LjAwMCIpLAoJCQluaWx9LAoJCXsiY29udmVydCBlcG9jaCBzdHJpbmcgY29ycmVjdGx5IHdpdGggZW1wdHkgbGF5b3V0IiwKCQkJR2V0U3RyaW5nUHRyKCIxNTkwOTgwMDE3MDAwIiksCgkJCSIiLAoJCQlHZXRTdHJpbmdQdHIoIjIwMjAtMDYtMDFUMDI6NTM6MzcuMDAwKzAwMDAiKSwKCQkJbmlsfSwKCQl7Im5pbCBlcG9jaCBzdHJpbmcgLT4gZ2V0IG5pbCIsCgkJCW5pbCwKCQkJIiIsCgkJCW5pbCwKCQkJR2V0U3RyaW5nUHRyKCJlbXB0eSBzdHJpbmciKX0sCgkJeyJlbXB0eSBlcG9jaCBzdHJpbmcgLT4gZ2V0IG5pbCIsCgkJCUdldFN0cmluZ1B0cigiIiksCgkJCSIiLAoJCQluaWwsCgkJCUdldFN0cmluZ1B0cigiZW1wdHkgc3RyaW5nIil9LAoJCXsiaW52YWxpZCBlcG9jaCBzdHJpbmcgLT4gZ2V0IGVycm9yIiwKCQkJR2V0U3RyaW5nUHRyKCJhYmNkMTIzNCIpLAoJCQkiIiwKCQkJbmlsLAoJCQlHZXRTdHJpbmdQdHIoInN0cmNvbnYuUGFyc2VJbnQ6IHBhcnNpbmcgXCJhYmNkMTIzNFwiOiBpbnZhbGlkIHN5bnRheCIpLAoJCX0sCgkJeyJpbnZhbGlkIGVwb2NoIHN0cmluZyAtPiBnZXQgZXJyb3IiLAoJCQlHZXRTdHJpbmdQdHIoImFiY2QxMjM0IiksCgkJCSIiLAoJCQluaWwsCgkJCUdldFN0cmluZ1B0cigic3RyY29udi5QYXJzZUludDogcGFyc2luZyBcImFiY2QxMjM0XCI6IGludmFsaWQgc3ludGF4IiksCgkJfSwKCQl7Im1pbnVzIGVwb2NoIHN0cmluZyAtPiBnZXQgbmlsIiwKCQkJR2V0U3RyaW5nUHRyKCItMSIpLAoJCQkiIiwKCQkJbmlsLAoJCQluaWwsCgkJfSwK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1080,28 +1080,30 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQl7ImNvbnZlcnQgZXBvY2ggc3RyaW5nIGNvcnJlY3RseSIsCgkJCUdldFN0cmluZ1B0cigiMTU5MDk4MDAxNzAwMCIpLAoJCQkiMjAwNi0wMS0wMlQxNTowNDowNS4wMDAtMDcwMCIsCgkJCUdldFN0cmluZ1B0cigiMjAwNi0wMS0wMlQxNTowNDowNS4wMDAtMDcwMCIpLAoJCQluaWx9LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQkJaWYK</text>
+        <text encoding="base64">CQkJaWYgdGMuZXhwZWN0ZWRFcnJvck1zZyA9PSBuaWwgewoJCQkJYXNzZXJ0Lk5pbCh0LCBhY3R1YWxFcnIpCgkJCX0gZWxzZSB7CgkJCQlhc3NlcnQuRXF1YWxFcnJvcih0LCBhY3R1YWxFcnIsICp0Yy5leHBlY3RlZEVycm9yTXNnKQoJCQl9</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJYXNzZXJ0LkVycm9yKCkK</text>
+        <text encoding="base64">CQlleHBlY3RlZFN0cmluZyAgICpzdHJpbmcK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQl7ImNvbnZlcnQgZXBvY2ggY29ycmVjdGx5IiwgR2V0SW50NjRQdHIoMTU5MDk4MDAxNzAwMCksCgkJCUdldFRpbWVQdHIodGltZS5EYXRlKDIwMjAsIDYsIDEsIDIsIDUzLCAzNywgMCwgdGltZS5VVEMpKX0sCgkJeyJoYW5kbGUgbmlsIGNvcnJlY3RseSIsIG5pbCwgbmlsfSwKCQl7ImNvbnZlcnQgemVybyB2YWx1ZSBjb3JyZWN0bHkiLCBHZXRJbnQ2NFB0cigwKSwKCQkJR2V0VGltZVB0cih0aW1lLkRhdGUoMTk3MCwgMSwgMSwgMCwgMCwgMCwgMCwgdGltZS5VVEMpKX0sCgkJeyJjb252ZXJ0IG1pbnVzIHZhbHVlIGNvcnJlY3RseSIsIEdldEludDY0UHRyKC0xKSwgbmlsfSwK</text>
+        <text encoding="base64">CQlpbnB1dExheW91dCAgICAgIHN0cmluZwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQlpbnB1dExheW91dCAgICAgKnRpbWUuVGltZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXRpbWUuVQo=</text>
+        <text>func Test()  {
+	
+}</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQkJYWN0dWFsIDo9IAo=</text>
+        <text encoding="base64">CQkJCWFzc2VydC5FKHQsIGFjdHVhbEVycikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQlpZiBlcG9jaAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1110,9 +1112,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>error</last-search>
+      <last-search>assert.Error</last-search>
       <last-offset />
-      <last-pattern>error</last-pattern>
+      <last-pattern>assert.Error</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
