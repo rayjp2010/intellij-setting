@@ -165,11 +165,11 @@
         <mark key="^" line="214" column="60" />
         <mark key="." line="214" column="59" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591002373518">
-        <mark key="[" line="237" column="55" />
-        <mark key="]" line="237" column="54" />
-        <mark key="^" line="237" column="47" />
-        <mark key="." line="237" column="46" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591003385805">
+        <mark key="[" line="281" column="29" />
+        <mark key="]" line="281" column="29" />
+        <mark key="^" line="282" column="29" />
+        <mark key="." line="281" column="29" />
       </file>
     </filemarks>
     <jumps>
@@ -278,16 +278,16 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>&quot;Daily&quot;,</text>
+        <text>;field2</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;Daily&quot;,</text>
+        <text>;field2</text>
       </register>
       <register name="/" type="4">
         <text>assert.Error</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQl7IkdlbmVyYXRlIGNvcnJlY3Qgc2VhcmNoIGNvbmRpdGlvbiBmb3IgRGF0ZUJ5SW50ZXJ2YWwgc2VhcmNoIGZpZWxkIiwKCQkJJlNlYXJjaEZpZWxkewoJCQkJTmFtZTogInRlc3RGaWVsZCIsCgkJCQlUeXBlOiBEYXRlQnlJbnRlcnZhbCwKCQkJfSwKCQkJIjE1OTA5ODAwMTcwMDAiLAoJCQluaWwsCgkJCXV0aWwuSnNvbk1hcHsKCQkJCSJyYW5nZSI6IHV0aWwuSnNvbk1hcHsKCQkJCQkidGVzdEZpZWxkIjogdXRpbC5Kc29uTWFweyJndGUiOiAiMjAyMC0wNi0wMVQwMiswMDAwIiwgImx0ZSI6ICIyMDIwLTA2LTAxVDAyKzAwMDAifX0sCgkJCX0sCgkJCW5pbH0sCg==</text>
+        <text encoding="base64">CQl7IkdlbmVyYXRlIGNvcnJlY3Qgc2VhcmNoIGNvbmRpdGlvbiBmb3IgTXVsdGlUZXJtIHNlYXJjaCBmaWVsZCIsCgkJCSZTZWFyY2hGaWVsZHsKCQkJCU5hbWU6ICJmaWVsZDE7ZmllbGQyIiwKCQkJCVR5cGU6IE11bHRpVGVybSwKCQkJfSwKCQkJInZhbHVlIiwKCQkJbmlsLAoJCQl1dGlsLkpzb25NYXB7ImJvb2wiOiB1dGlsLkpzb25NYXB7InNob3VsZCI6IFtddXRpbC5Kc29uTWFwewoJCQkJeyJ0ZXJtIjogdXRpbC5Kc29uTWFweyJmaWVsZDEua2V5d29yZCI6ICJ2YWx1ZSJ9fSwKCQkJCXsidGVybSI6IHV0aWwuSnNvbk1hcHsiZmllbGQyLmtleXdvcmQiOiAidmFsdWUifX0sCgkJCX19fSwKCQkJbmlsfSwK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CW1hdGNoICAgICAgICAgICAgICAgPSAibWF0Y2giCg==</text>
