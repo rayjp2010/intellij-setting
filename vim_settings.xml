@@ -76,12 +76,12 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590976101993">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1590976620018">
         <mark key="'" line="6" column="5" />
-        <mark key="[" line="142" column="0" />
-        <mark key="]" line="134" column="37" />
-        <mark key="." line="134" column="37" />
-        <mark key="^" line="134" column="38" />
+        <mark key="[" line="175" column="1" />
+        <mark key="]" line="177" column="59" />
+        <mark key="." line="177" column="58" />
+        <mark key="^" line="177" column="59" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1590661596273">
         <mark key="'" line="0" column="0" />
@@ -130,12 +130,12 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="38" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590751547479">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590977273066">
         <mark key="'" line="6" column="0" />
-        <mark key="[" line="263" column="34" />
-        <mark key="]" line="263" column="34" />
-        <mark key="." line="263" column="34" />
-        <mark key="^" line="263" column="38" />
+        <mark key="[" line="263" column="160" />
+        <mark key="]" line="263" column="161" />
+        <mark key="." line="263" column="161" />
+        <mark key="^" line="267" column="59" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
         <mark key="'" line="68" column="24" />
@@ -281,16 +281,16 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>[]Js</text>
+        <text>inputJsonMap</text>
       </register>
       <register name="-" type="4">
-        <text>[]Js</text>
+        <text>inputJsonMap</text>
       </register>
       <register name="/" type="4">
         <text>shippingMethod</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Ly8JdHlwZSB0ZXN0Q2FzZSBzdHJ1Y3QgewovLwkJbmFtZSAgICAgICAgICAgICAgc3RyaW5nCi8vCQlpbnB1dEpzb25NYXBBcnJheSBbXUpzb25NYXAKLy8JCWlucHV0U29ydEZpZWxkICAgIHN0cmluZwovLwkJaW5wdXRTb3J0T3JkZXIgICAgc3RyaW5nCi8vCX0KLy8JdGNzIDo9IFtddGVzdENhc2V7Ci8vCQl7ImdldCBjb3JyZWN0IGNvbmRpdGlvbiIsIEpzb25NYXB7ImtleSI6ICJ2YWx1ZSJ9LCBKc29uTWFweyJib29sIjogSnNvbk1hcHsibXVzdF9ub3QiOiBKc29uTWFweyJrZXkiOiAidmFsdWUifX19fSwKLy8JfQovLwlmb3IgXywgdGMgOj0gcmFuZ2UgdGNzIHsKLy8JCXQuUnVuKHRjLm5hbWUsIGZ1bmModCAqdGVzdGluZy5UKSB7Ci8vCQkJYWN0dWFsIDo9IFNvcnRlZEZpbHRlclF1ZXJ5KHRjLmlucHV0SnNvbk1hcCkKLy8JCQlhc3NlcnQuRXF1YWwodCwgdGMuZXhwZWN0ZWRDb25kaXRpb24sIGFjdHVhbCkKLy8JCX0pCi8vCX0K</text>
+      <register name="0" type="4">
+        <text>JsonMap{&quot;k1&quot;: &quot;v1&quot;}</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQlpbnB1dFNvcnRGaWVsZCAgICBzdHJpbmcK</text>
