@@ -112,11 +112,12 @@
         <mark key="^" line="43" column="0" />
         <mark key="." line="43" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1590989250420">
+      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1590991088594">
         <mark key="'" line="33" column="26" />
-        <mark key="[" line="130" column="0" />
-        <mark key="]" line="130" column="0" />
-        <mark key="." line="130" column="0" />
+        <mark key="[" line="125" column="35" />
+        <mark key="]" line="125" column="17" />
+        <mark key="." line="125" column="16" />
+        <mark key="^" line="125" column="17" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/CaseLogicUtil.java" timestamp="1590975680481">
         <mark key="'" line="101" column="16" />
@@ -276,11 +277,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>convert epoch string correctly with empty layout</text>
       </register>
       <register name="-" type="4">
-        <text>GetStringPtr(&quot;2020-06-01T02:53:37.000+0000&quot;),</text>
+        <text>convert epoch string correctly with empty layout</text>
       </register>
       <register name="/" type="4">
         <text>error</text>
