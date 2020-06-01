@@ -57,19 +57,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/CaseLogicUtil.java" timestamp="1590975680481">
-        <mark key="'" line="101" column="16" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1590720572893">
-        <mark key="'" line="112" column="9" />
-        <mark key="[" line="226" column="76" />
-        <mark key="]" line="226" column="162" />
-        <mark key="." line="221" column="81" />
-        <mark key="^" line="221" column="82" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1590663462291">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/health_check_service.go" timestamp="1590663600575">
         <mark key="[" line="11" column="1" />
         <mark key="]" line="12" column="0" />
@@ -93,13 +80,6 @@
       <file name="$USER_HOME$/go/src/odin/model/audit_log_test.go" timestamp="1590733214182">
         <mark key="'" line="61" column="19" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590732580279">
-        <mark key="'" line="70" column="8" />
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="^" line="240" column="0" />
-        <mark key="." line="43" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1590732380931">
         <mark key="'" line="104" column="47" />
         <mark key="[" line="3" column="0" />
@@ -107,34 +87,12 @@
         <mark key="^" line="90" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/CaseLogicUtil.java" timestamp="1590975657203">
-        <mark key="'" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1590663649940">
-        <mark key="'" line="38" column="38" />
-        <mark key="[" line="73" column="0" />
-        <mark key="]" line="73" column="0" />
-        <mark key="." line="73" column="0" />
-        <mark key="^" line="38" column="39" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590979183214">
         <mark key="'" line="6" column="0" />
         <mark key="[" line="264" column="59" />
         <mark key="]" line="264" column="69" />
         <mark key="." line="264" column="68" />
         <mark key="^" line="264" column="69" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590980392577">
-        <mark key="[" line="40" column="21" />
-        <mark key="]" line="40" column="34" />
-        <mark key="^" line="40" column="34" />
-        <mark key="." line="40" column="33" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
-        <mark key="'" line="68" column="24" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1590732783468">
         <mark key="'" line="1" column="0" />
@@ -150,6 +108,61 @@
         <mark key="^" line="43" column="0" />
         <mark key="." line="43" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/model/elastic_query.go" timestamp="1590663356054">
+        <mark key="'" line="13" column="19" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1590983098652">
+        <mark key="'" line="33" column="26" />
+        <mark key="[" line="119" column="23" />
+        <mark key="]" line="119" column="61" />
+        <mark key="." line="119" column="60" />
+        <mark key="^" line="119" column="61" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/CaseLogicUtil.java" timestamp="1590975680481">
+        <mark key="'" line="101" column="16" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1590720572893">
+        <mark key="'" line="112" column="9" />
+        <mark key="[" line="226" column="76" />
+        <mark key="]" line="226" column="162" />
+        <mark key="." line="221" column="81" />
+        <mark key="^" line="221" column="82" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1590663462291">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590732580279">
+        <mark key="'" line="70" column="8" />
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="0" />
+        <mark key="^" line="240" column="0" />
+        <mark key="." line="43" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/CaseLogicUtil.java" timestamp="1590975657203">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="/fragment.go" timestamp="1590981788342">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1590663649940">
+        <mark key="'" line="38" column="38" />
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="73" column="0" />
+        <mark key="." line="73" column="0" />
+        <mark key="^" line="38" column="39" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590982465405">
+        <mark key="[" line="43" column="14" />
+        <mark key="]" line="43" column="14" />
+        <mark key="." line="43" column="13" />
+        <mark key="^" line="43" column="14" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
+        <mark key="'" line="68" column="24" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590732563145">
         <mark key="'" line="102" column="4" />
         <mark key="[" line="114" column="55" />
@@ -157,30 +170,8 @@
         <mark key="^" line="114" column="59" />
         <mark key="." line="114" column="58" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/elastic_query.go" timestamp="1590663356054">
-        <mark key="'" line="13" column="19" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590663043680">
-        <mark key="'" line="313" column="0" />
-        <mark key="[" line="450" column="0" />
-        <mark key="]" line="450" column="0" />
-        <mark key="." line="450" column="0" />
-        <mark key="^" line="24" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1590980684169">
-        <mark key="[" line="84" column="97" />
-        <mark key="]" line="84" column="118" />
-        <mark key="." line="84" column="117" />
-        <mark key="^" line="84" column="118" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="5" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
-      <jump line="21" column="32" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
-      <jump line="22" column="32" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
-      <jump line="23" column="32" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
-      <jump line="24" column="32" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
-      <jump line="25" column="32" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="26" column="32" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="34" column="16" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="35" column="9" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
@@ -275,24 +266,52 @@
       <jump line="6" column="5" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="87" column="0" filename="$USER_HOME$/go/src/odin/core/audit_log_service.go" />
       <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/core/audit_log_service.go" />
+      <jump line="76" column="4" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="116" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="3" column="5" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="17" column="23" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="24" column="110" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="33" column="26" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>,</text>
+        <text>Equal(t, tc.expectedError,)</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>Equal(t, tc.expectedError,)</text>
       </register>
       <register name="/" type="4">
-        <text>shippingMethod</text>
+        <text>error</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQl7ImdldCBjb3JyZWN0IGRlc2NlbmRpbmcgY29uZGl0aW9uIiwgak1hcHMobTEsIG0yKSwgInRlc3QiLCBmYWxzZSwKCQkJSnNvbk1hcHsKCQkJCSJzb3J0IjogIGpNYXBzKEpzb25NYXB7InRlc3QiOiBKc29uTWFweyJvcmRlciI6ICJkZXNjIn19KSwKCQkJCSJxdWVyeSI6IEpzb25NYXB7ImJvb2wiOiBKc29uTWFweyJmaWx0ZXIiOiBqTWFwcyhtMSwgbTIpfX0sCgkJCX0sCgkJfSwK</text>
+        <text>func TestConvertEpochToTime(t *testing.T) {
+	type testCase struct {
+		name         string
+		inputEpoch   *int64
+		expectedTime *time.Time
+	}
+
+	tcs := []testCase{
+		{&quot;convert epoch correctly&quot;, GetInt64Ptr(1590980017000),
+			GetTimePtr(time.Date(2020, 6, 1, 2, 53, 37, 0, time.UTC))},
+		{&quot;handle nil correctly&quot;, nil, nil},
+		{&quot;convert zero value correctly&quot;, GetInt64Ptr(0),
+			GetTimePtr(time.Date(1970, 1, 1, 0, 0, 0, 0, time.UTC))},
+		{&quot;convert minus value correctly&quot;, GetInt64Ptr(-1), nil},
+	}
+
+	for _, tc := range tcs {
+		t.Run(tc.name, func(t *testing.T) {
+			actual := ConvertEpochToTime(tc.inputEpoch)
+			assert.Equal(t, tc.expectedTime, actual)
+		})
+	}
+}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkJYWN0dWFsIDo9IAo=</text>
+        <text encoding="base64">CQkJaWYK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1082,28 +1101,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQlpZiBlcG9jaAo=</text>
+        <text encoding="base64">CQkJYXNzZXJ0LkVycm9yKCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CQl7ImNvbnZlcnQgZXBvY2ggY29ycmVjdGx5IiwgR2V0SW50NjRQdHIoMTU5MDk4MDAxNzAwMCksCgkJCUdldFRpbWVQdHIodGltZS5EYXRlKDIwMjAsIDYsIDEsIDIsIDUzLCAzNywgMCwgdGltZS5VVEMpKX0sCgkJeyJoYW5kbGUgbmlsIGNvcnJlY3RseSIsIG5pbCwgbmlsfSwKCQl7ImNvbnZlcnQgemVybyB2YWx1ZSBjb3JyZWN0bHkiLCBHZXRJbnQ2NFB0cigwKSwKCQkJR2V0VGltZVB0cih0aW1lLkRhdGUoMTk3MCwgMSwgMSwgMCwgMCwgMCwgMCwgdGltZS5VVEMpKX0sCgkJeyJjb252ZXJ0IG1pbnVzIHZhbHVlIGNvcnJlY3RseSIsIEdldEludDY0UHRyKC0xKSwgbmlsfSwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQlpbnB1dFNvcnRGaWVsZCAgICBzdHJpbmcK</text>
+        <text encoding="base64">CQlpbnB1dExheW91dCAgICAgKnRpbWUuVGltZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXRpbWUuVQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQl7ImhhbmRsZSBlbXB0eSBtYXAgY29ycmVjdGx5IiwgSnNvbk1hcHt9LCBKc29uTWFweyJib29sIjogSnNvbk1hcHsibXVzdF9ub3QiOiBKc29uTWFwe319fX0sCg==</text>
+        <text encoding="base64">CQkJYWN0dWFsIDo9IAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQlpZiBlcG9jaAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQl7ImdldCBjb3JyZWN0IGNvbmRpdGlvbiIsIEpzb25NYXB7ImtleSI6ICJ2YWx1ZSJ9LCBKc29uTWFweyJib29sIjogSnNvbk1hcHsibXVzdF9ub3QiOiBKc29uTWFweyJrZXkiOiAidmFsdWUifX19fSwK</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQl7InN1Y2NlZWQiLCAia2V5IiwgW11zdHJpbmd7InYxIiwgIiIsICJ2MyJ9LCAmSnNvbk1hcHsidGVybXMiOiBKc29uTWFweyJrZXkua2V5d29yZCI6IFtdc3RyaW5neyJ2MSIsICIiLCAidjMifX0gfSgsICpqTWFwUHRyKGt2KCJrZXkua2V5d29yZCIsIFtdc3RyaW5neyJ2MSIsICIiLCAidjMifSkpKSl9LAo=</text>
+        <text encoding="base64">CQlpbnB1dFNvcnRGaWVsZCAgICBzdHJpbmcK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1112,9 +1131,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>shippingMethod</last-search>
+      <last-search>error</last-search>
       <last-offset />
-      <last-pattern>shippingMethod</last-pattern>
+      <last-pattern>error</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
