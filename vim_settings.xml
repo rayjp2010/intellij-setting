@@ -130,12 +130,12 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="38" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590977273066">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590977833309">
         <mark key="'" line="6" column="0" />
-        <mark key="[" line="263" column="160" />
-        <mark key="]" line="263" column="161" />
-        <mark key="." line="263" column="161" />
-        <mark key="^" line="267" column="59" />
+        <mark key="[" line="267" column="0" />
+        <mark key="]" line="270" column="10" />
+        <mark key="." line="268" column="21" />
+        <mark key="^" line="268" column="22" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1590663429510">
         <mark key="'" line="68" column="24" />
@@ -280,17 +280,17 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="4">
-        <text>inputJsonMap</text>
+      <register name="*" type="2">
+        <text encoding="base64">CQl7ImNhbiBoYW5kbGUgZW1wdHkgY29uZGl0aW9uIiwKCQkJW11Kc29uTWFwe30sCgkJCUpzb25NYXB7ImJvb2wiOiBKc29uTWFweyJzaG91bGQiOiBbXUpzb25NYXB7fX19LAoJCX0sCg==</text>
       </register>
       <register name="-" type="4">
-        <text>inputJsonMap</text>
+        <text>jMaps()</text>
       </register>
       <register name="/" type="4">
         <text>shippingMethod</text>
       </register>
-      <register name="0" type="4">
-        <text>JsonMap{&quot;k1&quot;: &quot;v1&quot;}</text>
+      <register name="0" type="2">
+        <text encoding="base64">CQl7ImNhbiBoYW5kbGUgZW1wdHkgY29uZGl0aW9uIiwKCQkJW11Kc29uTWFwe30sCgkJCUpzb25NYXB7ImJvb2wiOiBKc29uTWFweyJzaG91bGQiOiBbXUpzb25NYXB7fX19LAoJCX0sCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQlpbnB1dFNvcnRGaWVsZCAgICBzdHJpbmcK</text>
