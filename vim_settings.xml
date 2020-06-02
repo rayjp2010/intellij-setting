@@ -105,12 +105,12 @@
         <mark key="^" line="36" column="99" />
         <mark key="." line="36" column="98" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591104363479">
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591104394116">
         <mark key="'" line="573" column="23" />
-        <mark key="[" line="714" column="0" />
-        <mark key="]" line="714" column="0" />
-        <mark key="^" line="786" column="56" />
-        <mark key="." line="714" column="0" />
+        <mark key="[" line="714" column="64" />
+        <mark key="]" line="715" column="46" />
+        <mark key="^" line="715" column="46" />
+        <mark key="." line="715" column="45" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1591001904506">
         <mark key="'" line="361" column="0" />
