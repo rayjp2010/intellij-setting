@@ -84,11 +84,11 @@
         <mark key="[" line="12" column="26" />
         <mark key="]" line="12" column="55" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591097727048">
-        <mark key="[" line="285" column="31" />
-        <mark key="]" line="285" column="44" />
-        <mark key="^" line="282" column="13" />
-        <mark key="." line="285" column="31" />
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591102739485">
+        <mark key="[" line="306" column="40" />
+        <mark key="]" line="306" column="68" />
+        <mark key="^" line="312" column="30" />
+        <mark key="." line="306" column="40" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590979183214">
         <mark key="'" line="6" column="0" />
@@ -275,16 +275,16 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>nil</text>
+        <text>[]string{&quot;index1&quot;, &quot;index2&quot;}</text>
       </register>
       <register name="-" type="4">
-        <text>nil</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDwyMDE4XD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CXRyeDEuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjEiKQo=</text>
+      <register name="0" type="4">
+        <text>[]string{&quot;index1&quot;, &quot;index2&quot;}</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQkJCWFzc2VydC5FcXVhbCh0LCB0Yy5FeHBlY3RlZEVyclN0cmluZy5FcnJvcigpLCBhY3R1YWxFcnIuRXJyb3IoKSkK</text>
