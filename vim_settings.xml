@@ -67,9 +67,9 @@
         <mark key="." line="106" column="58" />
         <mark key="^" line="106" column="59" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591078328920">
-        <mark key="[" line="19" column="50" />
-        <mark key="]" line="19" column="50" />
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591080396070">
+        <mark key="[" line="14" column="4" />
+        <mark key="]" line="14" column="22" />
         <mark key="^" line="19" column="69" />
         <mark key="." line="19" column="50" />
       </file>
@@ -138,12 +138,12 @@
         <mark key="^" line="87" column="34" />
         <mark key="." line="87" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator_test.go" timestamp="1591076222279">
+      <file name="$USER_HOME$/go/src/odin/core/validator_test.go" timestamp="1591081481444">
         <mark key="'" line="45" column="0" />
-        <mark key="[" line="72" column="43" />
-        <mark key="]" line="73" column="15" />
-        <mark key="." line="73" column="14" />
-        <mark key="^" line="73" column="15" />
+        <mark key="[" line="79" column="65" />
+        <mark key="]" line="79" column="66" />
+        <mark key="^" line="79" column="64" />
+        <mark key="." line="79" column="66" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1590995867050">
         <mark key="[" line="123" column="0" />
@@ -278,16 +278,16 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>`valid:&quot;nonNegative~resultOffset should not be negative&quot;`</text>
+        <text>S</text>
       </register>
       <register name="-" type="4">
-        <text>`valid:&quot;nonNegative~resultOffset should not be negative&quot;`</text>
+        <text>S</text>
       </register>
       <register name="/" type="4">
         <text>multi</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CWlmIGVyciA6PSB2YWxpZGF0ZURhdGVQZXJpb2QoKnJlcS5TdGFydERhdGUsICpyZXEuRW5kRGF0ZSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0K</text>
+        <text encoding="base64">CW5vU3RhcnREYXRlUmVxIDo9IHJlcUJ1aWxkZXIuV2l0aCgiU3RhcnREYXRlIiwgbmlsKS5CdWlsZCgpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
