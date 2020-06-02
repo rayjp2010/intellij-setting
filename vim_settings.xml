@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>zone</entry>
-        <entry>deliveryDate</entry>
         <entry>timezone</entry>
         <entry>search</entry>
         <entry>acceptWithEvaluation</entry>
@@ -25,6 +23,8 @@
         <entry>shippingMethod</entry>
         <entry>error</entry>
         <entry>assert.Error</entry>
+        <entry>struct</entry>
+        <entry>valida</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -57,11 +57,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/health_check_service.go" timestamp="1590663600575">
-        <mark key="[" line="11" column="1" />
-        <mark key="]" line="12" column="0" />
-        <mark key="^" line="12" column="0" />
-        <mark key="." line="12" column="0" />
+      <file name="$USER_HOME$/go/src/odin/go.mod" timestamp="1591066791808">
+        <mark key="'" line="23" column="28" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1591002016194">
         <mark key="'" line="6" column="5" />
@@ -69,6 +66,12 @@
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
         <mark key="^" line="24" column="30" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591066680725">
+        <mark key="[" line="19" column="33" />
+        <mark key="]" line="12" column="0" />
+        <mark key="^" line="12" column="0" />
+        <mark key="." line="12" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590975903215">
         <mark key="'" line="0" column="0" />
@@ -122,13 +125,6 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/CaseLogicUtil.java" timestamp="1590975680481">
         <mark key="'" line="101" column="16" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1590720572893">
-        <mark key="'" line="112" column="9" />
-        <mark key="[" line="226" column="76" />
-        <mark key="]" line="226" column="162" />
-        <mark key="." line="221" column="81" />
-        <mark key="^" line="221" column="82" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590732580279">
         <mark key="'" line="70" column="8" />
         <mark key="[" line="43" column="0" />
@@ -177,8 +173,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="122" column="56" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
-      <jump line="127" column="56" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="131" column="29" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="63" column="9" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
       <jump line="177" column="5" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
@@ -277,6 +271,8 @@
       <jump line="17" column="32" filename="$USER_HOME$/go/src/odin/model/transaction_property_test.go" />
       <jump line="487" column="38" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="503" column="0" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
+      <jump line="8" column="0" filename="$USER_HOME$/go/src/odin/go.mod" />
+      <jump line="23" column="28" filename="$USER_HOME$/go/src/odin/go.mod" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -288,7 +284,7 @@
         <text>100</text>
       </register>
       <register name="/" type="4">
-        <text>assert.Error</text>
+        <text>valida</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZnVuYyBnZXRQZ0V2YWwocGUgbW9kZWwuUGF5Z3VhcmRFdmFsdWF0aW9uKSAqbW9kZWwuUGF5Z3VhcmRFdmFsdWF0aW9uIHsKCXJldHVybiAmcGUKfQo=</text>
@@ -1116,9 +1112,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>assert.Error</last-search>
+      <last-search>valida</last-search>
       <last-offset />
-      <last-pattern>assert.Error</last-pattern>
+      <last-pattern>valida</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
