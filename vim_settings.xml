@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>email</entry>
         <entry>mail</entry>
         <entry>holderName</entry>
         <entry>holder</entry>
@@ -25,6 +24,7 @@
         <entry>service</entry>
         <entry>serviceId</entry>
         <entry encoding="base64">XDwyMDE4XD4=</entry>
+        <entry>additionalOrderInfo</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -84,11 +84,12 @@
         <mark key="[" line="12" column="26" />
         <mark key="]" line="12" column="55" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591102739485">
-        <mark key="[" line="306" column="40" />
-        <mark key="]" line="306" column="68" />
-        <mark key="^" line="312" column="30" />
-        <mark key="." line="306" column="40" />
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591103940665">
+        <mark key="'" line="312" column="8" />
+        <mark key="[" line="373" column="55" />
+        <mark key="]" line="373" column="60" />
+        <mark key="." line="373" column="59" />
+        <mark key="^" line="373" column="60" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util_test.go" timestamp="1590979183214">
         <mark key="'" line="6" column="0" />
@@ -97,19 +98,19 @@
         <mark key="." line="264" column="68" />
         <mark key="^" line="264" column="69" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1591075097029">
-        <mark key="'" line="1" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1591104358420">
+        <mark key="'" line="425" column="5" />
         <mark key="[" line="36" column="61" />
         <mark key="]" line="36" column="99" />
         <mark key="^" line="36" column="99" />
         <mark key="." line="36" column="98" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591095642516">
-        <mark key="'" line="566" column="25" />
-        <mark key="[" line="798" column="0" />
-        <mark key="]" line="798" column="0" />
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591104363479">
+        <mark key="'" line="573" column="23" />
+        <mark key="[" line="714" column="0" />
+        <mark key="]" line="714" column="0" />
         <mark key="^" line="786" column="56" />
-        <mark key="." line="798" column="0" />
+        <mark key="." line="714" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1591001904506">
         <mark key="'" line="361" column="0" />
@@ -125,7 +126,7 @@
         <mark key="^" line="8" column="32" />
         <mark key="." line="8" column="31" />
       </file>
-      <file name="/fragment.go" timestamp="1590992081454">
+      <file name="/fragment.go" timestamp="1591103726320">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1591082677199">
@@ -170,9 +171,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="13" column="19" filename="$USER_HOME$/go/src/odin/model/elastic_query.go" />
-      <jump line="68" column="24" filename="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" />
-      <jump line="31" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="471" column="1" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="36" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="453" column="27" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
@@ -270,24 +268,27 @@
       <jump line="568" column="50" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="567" column="19" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="566" column="25" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
+      <jump line="316" column="8" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
+      <jump line="573" column="23" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
+      <jump line="425" column="5" filename="$USER_HOME$/go/src/odin/model/order.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="4">
-        <text>[]string{&quot;index1&quot;, &quot;index2&quot;}</text>
+      <register name="*" type="2">
+        <text encoding="base64">CQkJCQlBZGRpdGlvbmFsT3JkZXJJbmZvOiBtYXBbc3RyaW5nXWludGVyZmFjZXt9e30sCg==</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>actualResult</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDwyMDE4XD4=</text>
+        <text>additionalOrderInfo</text>
       </register>
-      <register name="0" type="4">
-        <text>[]string{&quot;index1&quot;, &quot;index2&quot;}</text>
+      <register name="0" type="2">
+        <text encoding="base64">CQkJZm10LlByaW50bG4oc3RyaW5nKHIxKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkJCWFzc2VydC5FcXVhbCh0LCB0Yy5FeHBlY3RlZEVyclN0cmluZy5FcnJvcigpLCBhY3R1YWxFcnIuRXJyb3IoKSkK</text>
+        <text encoding="base64">CQkJCQlBZGRpdGlvbmFsT3JkZXJJbmZvOiBtYXBbc3RyaW5nXWludGVyZmFjZXt9e30sCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1077,28 +1078,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQkJCWFzc2VydC5FcnJvcih0LCBhY3R1YWxFcnIpCgkJCQlhc3NlcnQuRXF1YWwodCwgdGMuRXhwZWN0ZWRFcnJTdHJpbmcuRXJyb3IoKSwgYWN0dWFsRXJyLkVycm9yKCkpCg==</text>
+        <text encoding="base64">CQkJYXNzZXJ0LkVxdWFsKHQsIHRjLmV4cGVjdGVkVHJ4cywgYWN0dWFsUmVzdWx0KQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CXRyeDIuUmVzcG9uc2libGVVc2VyRW1haWwgPSB1dGlsLkdldFN0cmluZ1B0cigicmFrdXRlbkB0ZXN0LmNvbSIpCg==</text>
+        <text encoding="base64">CQkJCWFzcwo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkJCQlbXW1vZGVsLkl0ZW17CgkJCQkJCXsKCQkJCQkJCUNhdGVnb3J5OiAmbW9kZWwuSXRlbUNhdGVnb3J5ewoJCQkJCQkJCUxldmVsMTogIuODkeOCveOCs+ODs+ODu+WRqOi+uuapn+WZqCIsCgkJCQkJCQkJTGV2ZWwyOiAi44Oe44Km44K544O744Kt44O844Oc44O844OJ44O75YWl5Yqb5qmf5ZmoIiwKCQkJCQkJCQlMZXZlbDM6ICLjg4jjg6njg4Pjgq/jg5zjg7zjg6siLAoJCQkJCQkJCUxldmVsNDogIlVTQuaOpee2miIsCgkJCQkJCQkJTGV2ZWw1OiAic29tZXRoaW5nIiwKCQkJCQkJCX0sCgkJCQkJCQlQcmljZTogICAgICAgICAgICAgIDIwMDAsCgkJCQkJCQlRdWFudGl0eTogICAgICAgICAgIDUwLAoJCQkJCQkJSXRlbU5hbWU6ICAgICAgICAgICAidGltZWx5Z20tb3B0YjAyYiIsCgkJCQkJCQlSYXdJdGVtTmFtZTogICAgICAgICJUSU1FTFkgR00tT1BUQjAyQiIsCgkJCQkJCQlBZGRpdGlvbmFsSXRlbUluZm86ICZtb2RlbC5JdGVtQWRkaXRpb25hbEluZm97fSwKCQkJCQkJfSwKCQkJCQkJewoJCQkJCQkJQ2F0ZWdvcnk6ICZtb2RlbC5JdGVtQ2F0ZWdvcnl7CgkJCQkJCQkJTGV2ZWwxOiAi6aOf5ZOBIiwKCQkJCQkJCQlMZXZlbDI6ICLjgYroj5PlrZAiLAoJCQkJCQkJCUxldmVsMzogIuOBm+OCk+OBueOBhCIsCgkJCQkJCQkJTGV2ZWw0OiAi44Gb44KT44G544GEIiwKCQkJCQkJCQlMZXZlbDU6ICLjgZvjgpPjgbnjgYQiLAoJCQkJCQkJfSwKCQkJCQkJCVByaWNlOiAgICAgICAxMDAwLAoJCQkJCQkJUXVhbnRpdHk6ICAgIDUwLAoJCQkJCQkJSXRlbU5hbWU6ICAgICLjgJDnqbbmpbXjg47miYvmj5rjgrLjg6Ljg4HjgqTjg5bjgrfpioDjgrvjg7Pjg5njgqTjgJEiLAoJCQkJCQkJUmF3SXRlbU5hbWU6ICLjgJDnqbbmpbXjga7miYvmj5rjgZLjgoLjgaHjgIDjgYTjgbbjgZfpioDjgZvjgpPjgbnjgYTjgJEiLAoJCQkJCQkJQWRkaXRpb25hbEl0ZW1JbmZvOiAmbW9kZWwuSXRlbUFkZGl0aW9uYWxJbmZvewoJCQkJCQkJCVNhbGVzVGF4QW1vdW50OiAgICAxMC41LAoJCQkJCQkJCURlbGl2ZXJ5Q29kZTogICAgICAiMjAwMDIwIiwKCQkJCQkJCQlJdGVtQ3N0QW1vdW50OiAgICAgMS41LAoJCQkJCQkJCUl0ZW1QYXJ0aXRpb25UeXBlOiAidGVzdCBwYXJ0aXRpb24xIiwKCQkJCQkJCQlQcm9kdWN0U2t1OiAgICAgICAgInNrdTEiLAoJCQkJCQkJCUl0ZW1NYW5QYXJ0Tm86ICAgICAiNSIsCgkJCQkJCQkJQ2F0ZWdvcnlJZDogICAgICAgICIzNCIsCgkJCQkJCQl9CgkJCQkJCX0sCgkJCQkJfSwK</text>
+        <text encoding="base64">CQkJcjEsIF8gOj0ganNvbi5NYXJzaGFsKHRjLmV4cGVjdGVkVHJ4c1swXSkKCQkJcjIsIF8gOj0ganNvbi5NYXJzaGFsKGFjdHVhbFJlc3VsdFswXSkKCQkJZm10LlByaW50bG4oc3RyaW5nKHIxKSkKCQkJZm10LlByaW50bG4oc3RyaW5nKHIyKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQkJCQltb2RlbC5PcmRlckRldGFpbHsKCQkJCQkJSXRlbXM6ICAgICAgICAgICAgICAgbmlsLAoJCQkJCQlTaGlwcGluZ0luZm86ICAgICAgICBuaWwsCgkJCQkJCUFkZGl0aW9uYWxPcmRlckluZm86IG5pbCwKCQkJCQl9Cg==</text>
+        <text encoding="base64">CQkJcjEsIF8gOj0ganNvbi5NYXJzaGFsKHRjLmV4cGVjdGVkVHJ4c1swXSkKCQkJcjIsIF8gOj0ganNvbi5NYXJzaGFsKGFjdHVhbFJlc3VsdFswXSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQkJCQkJewoJCQkJCQkJQ2F0ZWdvcnk6ICZtb2RlbC5JdGVtQ2F0ZWdvcnl7CgkJCQkJCQkJTGV2ZWwxOiAi44OR44K944Kz44Oz44O75ZGo6L665qmf5ZmoIiwKCQkJCQkJCQlMZXZlbDI6ICLjg57jgqbjgrnjg7vjgq3jg7zjg5zjg7zjg4njg7vlhaXlipvmqZ/lmagiLAoJCQkJCQkJCUxldmVsMzogIuODiOODqeODg+OCr+ODnOODvOODqyIsCgkJCQkJCQkJTGV2ZWw0OiAiVVNC5o6l57aaIiwKCQkJCQkJCQlMZXZlbDU6ICJzb21ldGhpbmciLAoJCQkJCQkJfSwKCQkJCQkJCVByaWNlOiAgICAgICAgICAgICAgMjAwMCwKCQkJCQkJCVF1YW50aXR5OiAgICAgICAgICAgNTAsCgkJCQkJCQlJdGVtTmFtZTogICAgICAgICAgICJ0aW1lbHlnbS1vcHRiMDJiIiwKCQkJCQkJCVJhd0l0ZW1OYW1lOiAgICAgICAgIlRJTUVMWSBHTS1PUFRCMDJCIiwKCQkJCQkJCUFkZGl0aW9uYWxJdGVtSW5mbzogJm1vZGVsLkl0ZW1BZGRpdGlvbmFsSW5mb3t9LAoJCQkJCQl9LAoJCQkJCQl7CgkJCQkJCQlDYXRlZ29yeTogJm1vZGVsLkl0ZW1DYXRlZ29yeXsKCQkJCQkJCQlMZXZlbDE6ICLpo5/lk4EiLAoJCQkJCQkJCUxldmVsMjogIuOBiuiPk+WtkCIsCgkJCQkJCQkJTGV2ZWwzOiAi44Gb44KT44G544GEIiwKCQkJCQkJCQlMZXZlbDQ6ICLjgZvjgpPjgbnjgYQiLAoJCQkJCQkJCUxldmVsNTogIuOBm+OCk+OBueOBhCIsCgkJCQkJCQl9LAoJCQkJCQkJUHJpY2U6ICAgICAgIDEwMDAsCgkJCQkJCQlRdWFudGl0eTogICAgNTAsCgkJCQkJCQlJdGVtTmFtZTogICAgIuOAkOeptualteODjuaJi+aPmuOCsuODouODgeOCpOODluOCt+mKgOOCu+ODs+ODmeOCpOOAkSIsCgkJCQkJCQlSYXdJdGVtTmFtZTogIuOAkOeptualteOBruaJi+aPmuOBkuOCguOBoeOAgOOBhOOBtuOBl+mKgOOBm+OCk+OBueOBhOOAkSIsCgkJCQkJCQlBZGRpdGlvbmFsSXRlbUluZm86ICZtb2RlbC5JdGVtQWRkaXRpb25hbEluZm97CgkJCQkJCQkJU2FsZXNUYXhBbW91bnQ6ICAgIDEwLjUsCgkJCQkJCQkJRGVsaXZlcnlDb2RlOiAgICAgICIyMDAwMjAiLAoJCQkJCQkJCUl0ZW1Dc3RBbW91bnQ6ICAgICAxLjUsCgkJCQkJCQkJSXRlbVBhcnRpdGlvblR5cGU6ICJ0ZXN0IHBhcnRpdGlvbjEiLAoJCQkJCQkJCVByb2R1Y3RTa3U6ICAgICAgICAic2t1MSIsCgkJCQkJCQkJSXRlbU1hblBhcnRObzogICAgICI1IiwKCQkJCQkJCQlDYXRlZ29yeUlkOiAgICAgICAgIjM0IiwKCQkJCQkJCX0KCQkJCQkJfSwK</text>
+        <text encoding="base64">CQkJZ2V0SW50UHRyKDApLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">CQkJZ2V0SW50UHRyKDApLAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">CQkJZ2V0SW50UHRyKDApLAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1107,10 +1108,10 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDwyMDE4XD4=</last-search>
+      <last-search>additionalOrderInfo</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDwyMDE4XD4=</last-pattern>
-      <last-dir>-1</last-dir>
+      <last-pattern>additionalOrderInfo</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
   </component>
