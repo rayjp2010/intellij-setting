@@ -67,11 +67,11 @@
         <mark key="." line="16" column="0" />
         <mark key="^" line="24" column="30" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591068382710">
-        <mark key="[" line="19" column="58" />
-        <mark key="]" line="19" column="63" />
-        <mark key="^" line="19" column="63" />
-        <mark key="." line="19" column="62" />
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591071705650">
+        <mark key="[" line="15" column="4" />
+        <mark key="]" line="15" column="27" />
+        <mark key="^" line="15" column="12" />
+        <mark key="." line="15" column="11" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590975903215">
         <mark key="'" line="0" column="0" />
@@ -279,7 +279,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>range(0)</text>
+        <text>TransactionPropertyValue</text>
       </register>
       <register name="-" type="4">
         <text>range(0)</text>
@@ -287,8 +287,8 @@
       <register name="/" type="4">
         <text>valida</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CQl0LlJ1bih0Yy5OYW1lLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCQlhY3R1YWxFcnJvciA6PSBWYWxpZGF0ZUF1ZGl0TG9nU2VhcmNoUmVxdWVzdCh0Yy5SZXF1ZXN0KQoJCQlpZiB0Yy5FeHBlY3RlZEVycm9yID09IG5pbCB7CgkJCQlhc3NlcnQuTmlsKHQsIGFjdHVhbEVycm9yKQoJCQl9IGVsc2UgewoJCQkJYXNzZXJ0LkVycm9yKHQsIGFjdHVhbEVycm9yKQoJCQkJZm10LlByaW50bG4oYWN0dWFsRXJyb3IpCgkJCQlhc3NlcnQuRXF1YWwodCwgdGMuRXhwZWN0ZWRFcnJvci5FcnJvcigpLCBhY3R1YWxFcnJvci5FcnJvcigpKQoJCQl9CgkJfSkK</text>
+      <register name="0" type="4">
+        <text>TransactionPropertyValue</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQkJfSBlbHNlIHsKCQkJCWFzc2VydC5FcnJvcih0LCBhY3R1YWxFcnJvcikKCQkJCWZtdC5QcmludGxuKGFjdHVhbEVycm9yKQoJCQkJYXNzZXJ0LkVxdWFsKHQsIHRjLkV4cGVjdGVkRXJyb3IuRXJyb3IoKSwgYWN0dWFsRXJyb3IuRXJyb3IoKSkKCQkJfQo=</text>
