@@ -88,12 +88,12 @@
         <mark key="]" line="350" column="31" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591165399227">
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591167307760">
         <mark key="'" line="487" column="51" />
-        <mark key="[" line="442" column="15" />
-        <mark key="]" line="442" column="26" />
-        <mark key="." line="442" column="25" />
-        <mark key="^" line="442" column="26" />
+        <mark key="[" line="442" column="36" />
+        <mark key="]" line="442" column="36" />
+        <mark key="." line="442" column="36" />
+        <mark key="^" line="444" column="48" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591162959966">
         <mark key="'" line="313" column="0" />
@@ -267,11 +267,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="*" type="2">
-        <text encoding="base64">ZnVuYyBHZXREZWZhdWx0UXVlcnlCb2R5KG5hbWUgc3RyaW5nLCBzZWFyY2hGaWVsZCBzdHJpbmcsIHNlYXJjaFZhbHVlIHN0cmluZywgb3JnYW5pemF0aW9uSWRzIFtdaW50NjQpIHV0aWwuSnNvbk1hcCB7CglmaWx0ZXJMaXN0IDo9IG1ha2UoW111dGlsLkpzb25NYXAsIDApCglmaWx0ZXJMaXN0ID0gYXBwZW5kKGZpbHRlckxpc3QsIEdldEV4aXN0RmlsdGVyKG5hbWUpKQoJZmlsdGVyTGlzdCA9IGFwcGVuZChmaWx0ZXJMaXN0LCBHZXREYXRlUmFuZ2VGaWx0ZXIoImFjdGlvblRpbWUiLCAxMTExMTExMTEsIDIyMjIyMjIyMikpCglpZiBsZW4ob3JnYW5pemF0aW9uSWRzKSAhPSAwIHsKCQlmaWx0ZXJMaXN0ID0gYXBwZW5kKGZpbHRlckxpc3QsIEdldE11bHRpSW50TWF0Y2hGaWx0ZXIoIm9yZ2FuaXphdGlvbklkIiwgb3JnYW5pemF0aW9uSWRzKSkKCX0KCWZpbHRlckxpc3QgPSBhcHBlbmQoZmlsdGVyTGlzdCwgR2V0VGVybUZpbHRlcigicmVzcG9uc2libGVVc2VyRW1haWwua2V5d29yZCIsICJtZUB0ZXN0LmNvbSIpKQoJaWYgbGVuKHNlYXJjaFZhbHVlKSAhPSAwIHsKCQlmaWx0ZXJMaXN0ID0gYXBwZW5kKGZpbHRlckxpc3QsIEdldFdpbGRDYXJkRmlsdGVyKHNlYXJjaEZpZWxkLCBzZWFyY2hWYWx1ZSkpCgl9CglmaWx0ZXJMaXN0ID0gYXBwZW5kKGZpbHRlckxpc3QsIEdldFRlcm1GaWx0ZXIobmFtZSsiLnF1ZXVlVHlwZS5rZXl3b3JkIiwgIkdlbmVyYWwiKSkKCXJldHVybiBHZXRGaWx0ZXJRdWVyeUJvZHkoZmlsdGVyTGlzdCkKfQo=</text>
+      <register name="*" type="4">
+        <text encoding="base64">bmFtZSBzdHJpbmcsIA==</text>
       </register>
       <register name="-" type="4">
-        <text>nil</text>
+        <text encoding="base64">bmFtZSBzdHJpbmcsIA==</text>
       </register>
       <register name="/" type="4">
         <text>prefix</text>
