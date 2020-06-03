@@ -88,12 +88,12 @@
         <mark key="]" line="350" column="31" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591167307760">
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591167473379">
         <mark key="'" line="487" column="51" />
-        <mark key="[" line="442" column="36" />
-        <mark key="]" line="442" column="36" />
-        <mark key="." line="442" column="36" />
-        <mark key="^" line="444" column="48" />
+        <mark key="[" line="449" column="51" />
+        <mark key="]" line="447" column="41" />
+        <mark key="." line="447" column="40" />
+        <mark key="^" line="447" column="41" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591162959966">
         <mark key="'" line="313" column="0" />
@@ -268,10 +268,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text encoding="base64">bmFtZSBzdHJpbmcsIA==</text>
+        <text>AllWithout</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmFtZSBzdHJpbmcsIA==</text>
+        <text>AllWithout</text>
       </register>
       <register name="/" type="4">
         <text>prefix</text>
