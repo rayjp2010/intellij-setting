@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>supplier</entry>
         <entry>table</entry>
         <entry>tabValue</entry>
         <entry>selectable</entry>
@@ -13,7 +12,6 @@
         <entry>matchCount</entry>
         <entry>is</entry>
         <entry>isVali</entry>
-        <entry>click</entry>
         <entry>clicked</entry>
         <entry>tab</entry>
         <entry>rowClicked</entry>
@@ -25,6 +23,8 @@
         <entry>max</entry>
         <entry>新規作成</entry>
         <entry>対応</entry>
+        <entry>rowClick</entry>
+        <entry>click</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -111,8 +111,15 @@
         <mark key="." line="23" column="47" />
         <mark key="^" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591184937642">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591186304085">
+        <mark key="'" line="20" column="49" />
         <mark key="[" line="4" column="53" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591187450151">
+        <mark key="[" line="292" column="30" />
+        <mark key="]" line="292" column="41" />
+        <mark key="." line="292" column="40" />
+        <mark key="^" line="292" column="41" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590479116913">
         <mark key="'" line="354" column="39" />
@@ -231,59 +238,65 @@
       <jump line="191" column="23" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="354" column="39" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="59" column="0" filename="$USER_HOME$/go/src/odin/core/audit_log_service.go" />
+      <jump line="27" column="17" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="21" column="39" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="20" column="49" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>Supply</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBjb25zdCBpc1NlbGVjdGFibGVUeXBlID0gIXRoaXMuc2VsZWN0ZWREZW1hbmQK</text>
       </register>
       <register name="*" type="4">
         <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>Supply</text>
+        <text>または同じタイプを選択している場合のみ、行選択する</text>
       </register>
       <register name="/" type="4">
-        <text>mapst</text>
+        <text>click</text>
       </register>
       <register name="0" type="4">
         <text>transaction</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCBpc1NlbGVjdGFibGVUeXBlID0gIXRoaXMuc2VsZWN0ZWREZW1hbmQK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>else {
+          this.selectedSupply = null
+        }</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dHlwZSBMaXN0SGl0SW5mb1Jlc3BvbnNlIHN0cnVjdCB7Cn0K</text>
+        <text encoding="base64">ICAgICAgLy8g5L6b57Wm44GM6YG45oqe44GV44KM44Gm44GE44Gq44GEIG9yIOOCv+OCpOODl+OBjOWQjOOBmOOBruWgtOWQiOOBruOBv+mBuOaKnuWPr+iDvQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">CWxpc3RJZCAgICAgICAqc3RyaW5nCglsaXN0TmFtZSAgICAgKnN0cmluZwoJbGlzdFR5cGUgICAgICpzdHJpbmcKCXZhbHVlICAgICAgICAqc3RyaW5nCg==</text>
+      <register name="5" type="4">
+        <text>else {
+      }</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWNhc2VJZCAgICAgKmludDY0Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkRGVtYW5kID0gaXRlbQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CWxpc3RJbmZvSWQgKkxpc3RIaXRJbmZvUmVzcG9uc2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CW9yZ2FuaXphdGlvbiAqc3RyaW5nCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWxpc3RJbmZvSWQgICAqc3RyaW5nCg==</text>
+        <text encoding="base64">dHlwZSBMaXN0SGl0SW5mb1Jlc3BvbnNlIHN0cnVjdCB7Cn0K</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>mapst</last-search>
+      <last-search>click</last-search>
       <last-offset />
-      <last-pattern>mapst</last-pattern>
+      <last-pattern>click</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
