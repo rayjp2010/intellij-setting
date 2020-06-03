@@ -74,16 +74,23 @@
         <mark key="^" line="75" column="14" />
         <mark key="." line="75" column="13" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591183695816">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591183699828">
         <mark key="[" line="96" column="20" />
-        <mark key="]" line="96" column="20" />
-        <mark key="." line="96" column="20" />
+        <mark key="]" line="96" column="24" />
+        <mark key="." line="96" column="23" />
+        <mark key="^" line="96" column="24" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590498900927">
         <mark key="[" line="9" column="14" />
         <mark key="]" line="7" column="16" />
         <mark key="." line="7" column="15" />
         <mark key="^" line="7" column="16" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591185389481">
+        <mark key="[" line="23" column="21" />
+        <mark key="]" line="23" column="22" />
+        <mark key="." line="23" column="21" />
+        <mark key="^" line="23" column="22" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" timestamp="1590476594884">
         <mark key="'" line="644" column="8" />
@@ -104,11 +111,8 @@
         <mark key="." line="23" column="47" />
         <mark key="^" line="23" column="48" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591183593525">
-        <mark key="[" line="21" column="92" />
-        <mark key="]" line="22" column="39" />
-        <mark key="^" line="22" column="39" />
-        <mark key="." line="22" column="38" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591184937642">
+        <mark key="[" line="4" column="53" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590479116913">
         <mark key="'" line="354" column="39" />
@@ -232,13 +236,13 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>currentGroups.includes('Admin')</text>
+        <text>Supply</text>
       </register>
       <register name="*" type="4">
         <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>currentGroups.includes('Admin')</text>
+        <text>Supply</text>
       </register>
       <register name="/" type="4">
         <text>mapst</text>
