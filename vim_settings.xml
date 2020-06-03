@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>organizationId</entry>
-        <entry>service</entry>
         <entry>serviceId</entry>
         <entry encoding="base64">XDwyMDE4XD4=</entry>
         <entry>additionalOrderInfo</entry>
@@ -25,6 +23,8 @@
         <entry>Accept</entry>
         <entry>keyword</entry>
         <entry>decisionType</entry>
+        <entry>apiEnabled</entry>
+        <entry>prefix</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -106,22 +106,15 @@
         <mark key="^" line="715" column="46" />
         <mark key="." line="715" column="45" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1591001904506">
-        <mark key="'" line="361" column="0" />
-        <mark key="[" line="84" column="48" />
-        <mark key="]" line="84" column="60" />
-        <mark key="^" line="352" column="97" />
-        <mark key="." line="352" column="97" />
-      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/PayGuardEvaluation.java" timestamp="1591143534023" />
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1591147612105">
         <mark key="'" line="505" column="66" />
         <mark key="[" line="527" column="0" />
         <mark key="]" line="535" column="90" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1591154946829">
-        <mark key="[" line="46" column="4" />
-        <mark key="]" line="46" column="5" />
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1591159351517">
+        <mark key="[" line="12" column="4" />
+        <mark key="]" line="12" column="14" />
         <mark key="^" line="46" column="5" />
         <mark key="." line="46" column="5" />
       </file>
@@ -148,12 +141,12 @@
         <mark key="]" line="58" column="0" />
         <mark key="." line="58" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591155684383">
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591159651885">
         <mark key="'" line="127" column="50" />
-        <mark key="[" line="134" column="97" />
-        <mark key="]" line="134" column="97" />
-        <mark key="." line="134" column="97" />
-        <mark key="^" line="134" column="84" />
+        <mark key="[" line="16" column="33" />
+        <mark key="]" line="16" column="60" />
+        <mark key="." line="154" column="61" />
+        <mark key="^" line="154" column="62" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591148598330">
         <mark key="'" line="239" column="0" />
@@ -169,11 +162,15 @@
         <mark key="^" line="321" column="6" />
         <mark key="." line="321" column="5" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591159195426">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="201" column="72" />
+        <mark key="]" line="201" column="76" />
+        <mark key="." line="201" column="75" />
+        <mark key="^" line="201" column="76" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="239" column="1" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
-      <jump line="8" column="15" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
-      <jump line="31" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="6" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/CaseLogicUtil.java" />
       <jump line="101" column="16" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/CaseLogicUtil.java" />
@@ -271,24 +268,30 @@
       <jump line="151" column="23" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="157" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="158" column="27" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="113" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="207" column="49" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>SubEvalMsg</text>
+        <text>order.additionalInfo.oppFlag</text>
       </register>
       <register name="-" type="4">
-        <text>SubEvalMsg</text>
+        <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>decisionType</text>
+        <text>prefix</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CXN1YkV2YWxNc2dDb25kaXRpb24gOj0gdXRpbC5UZXJtS2V5d29yZENvbmRpdGlvbihzdWJFdmFsTXNnRmllbGROYW1lLCBldmFsdWF0aW9uLlN1YkV2YWxNc2cpCg==</text>
+      <register name="0" type="4">
+        <text>order.additionalInfo.oppFlag</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">CXN1YkV2YWxNc2dDb25kaXRpb24gOj0gZ2V0U3ViRXZhbE1zZ0NvbmRpdGlvbihldmFsdWF0aW9uLlN1YkV2YWxNc2cpCg==</text>
+      <register name="1" type="4">
+        <text>util.ShouldConditions([]util.JsonMap{
+			*util.TermBooleanCondition(oppFlagFieldName, oppFlag),
+			util.MustNotCondition(util.FieldExistCondition(oppFlagFieldName)),
+		})</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1078,28 +1081,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXNlcnZpY2VJZEZpZWxkTmFtZSAgICA9ICJvcmRlci5zZXJ2aWNlSWQiCglyZXF1ZXN0RGF0ZUZpZWxkTmFtZSAgPSAib3JkZXIucmVxdWVzdERhdGUiCglldmFsTXNnRmllbGROYW1lICAgICAgPSAiZGVjaXNpb24uZXZhbHVhdGlvbk1lc3NhZ2UiCglzdWJFdmFsTXNnRmllbGROYW1lICAgPSAiZGVjaXNpb24uc3ViRXZhbHVhdGlvbk1lc3NhZ2UiCglkZWNpc2lvblR5cGVGaWVsZE5hbWUgPSAiZGVjaXNpb24uZGVjaXNpb25UeXBlIgoJZGVjaXNpb25UeXBlRmllbGROYW1lID0gImRlY2lzaW9uLmRlY2lzaW9uVHlwZSI=</text>
+        <text encoding="base64">CXJldHVybiAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWNhc2VTdGF0dXNGaWVsZE5hbWUgID0gImRlY2lzaW9uLnN0YXR1cyIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8gZ2V0IHNlYXJjaCBjb25kaXRpb24gZm9yIGV2YWxNc2cgYWNjb3JkaW5nIHRvIHBheWd1YXJkRXZhbHVhdGlvbgpmdW5jIGdldENhc2VTdGF0dXNDb25kaXRpb24oZXZhbCBtb2RlbC5TZWFyY2hWYWx1ZVByb3ZpZGVyKSAoY29uZGl0aW9uICp1dGlsLkpzb25NYXApIHsKCXJldHVybiB1dGlsLk11bHRpcGxlTWF0Y2hTdHJpbmdDb25kaXRpb24oY2FzZVN0YXR1c0ZpZWxkTmFtZSwgZXZhbC5HZXRDYXNlU3RhdHVzZXMoKSkKfQo=</text>
+        <text encoding="base64">Ly8gZ2V0IHNlYXJjaCBjb25kaXRpb24gZm9yIHN1YkV2YWxNc2cgYWNjb3JkaW5nIHRvIHBheWd1YXJkRXZhbHVhdGlvbgpmdW5jIGdldFN1YkV2YWxNc2dDb25kaXRpb24oZXZhbCBtb2RlbC5TZWFyY2hWYWx1ZVByb3ZpZGVyKSAoY29uZGl0aW9uICp1dGlsLkpzb25NYXApIHsKCWlmIHN1YkV2YWxNc2cgOj0gZXZhbC5HZXRTdWJFdmFsTXNnKCk7IHN1YkV2YWxNc2cgIT0gbmlsIHsKCQlzdWJFdmFsTXNnQ29uZGl0aW9uIDo9IHV0aWwuVGVybUtleXdvcmRDb25kaXRpb24oc3ViRXZhbE1zZ0ZpZWxkTmFtZSwgc3ViRXZhbE1zZykKCQlpZiBldmFsLklzTnVsbFN1YkV2YWxNc2dBbGxvd2VkKCkgewoJCQljb25kaXRpb24gPSB1dGlsLkdldEpzb25NYXBQdHIoCgkJCQl1dGlsLlNob3VsZENvbmRpdGlvbnMoCgkJCQkJW111dGlsLkpzb25NYXB7CgkJCQkJCSpzdWJFdmFsTXNnQ29uZGl0aW9uLAoJCQkJCQl1dGlsLk11c3ROb3RDb25kaXRpb24odXRpbC5GaWVsZEV4aXN0Q29uZGl0aW9uKHN1YkV2YWxNc2dGaWVsZE5hbWUpKSwKCQkJCQl9KSwKCQkJKQoJCX0gZWxzZSB7CgkJCWNvbmRpdGlvbiA9IHN1YkV2YWxNc2dDb25kaXRpb24KCQl9Cgl9CglyZXR1cm4KfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWV2YWx1YXRpb24uCg==</text>
+        <text encoding="base64">ZnVuYyBnZXREZWNpc3Rpb25UeXBlQ29uZGl0aW9uKCkgKGNvbmRpdGlvbiAqdXRpbC5Kc29uTWFwKSB7Cgp9Cgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gZ2V0IHNlYXJjaCBjb25kaXRpb24gZm9yIGV2YWxNc2cgYWNjb3JkaW5nIHRvIHBheWd1YXJkRXZhbHVhdGlvbgpmdW5jIGdldEV2YWxNc2dDb25kaXRpb24oZXZhbCBtb2RlbC5TZWFyY2hWYWx1ZVByb3ZpZGVyKSAoY29uZGl0aW9uICp1dGlsLkpzb25NYXApIHsKCWlmIGV2YWwuSXNOdWxsRXZhbE1zZygpIHsKCQljb25kaXRpb24gPSB1dGlsLkdldEpzb25NYXBQdHIodXRpbC5NdXN0Tm90Q29uZGl0aW9uKHV0aWwuRmllbGRFeGlzdENvbmRpdGlvbihldmFsTXNnRmllbGROYW1lKSkpCgl9IGVsc2UgaWYgZGVjaXNpb24gOj0gZXZhbC5HZXRFdmFsTXNnKCk7IGRlY2lzaW9uICE9IG5pbCB7CgkJY29uZGl0aW9uID0gdXRpbC5UZXJtS2V5d29yZENvbmRpdGlvbihldmFsTXNnRmllbGROYW1lLCBkZWNpc2lvbikKCX0KCXJldHVybgp9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">LyoqCkRlZmF1bHQgc2VhcmNoIHZhbHVlIGltcGxlbWVudCBTZWFyY2hWYWx1ZVByb3ZpZGVyLgpHZXQgYWxsIGZpZWxkcyBkaXJlY3RseSAmIGFsbCBib29sIGdldHRlcnMgcmV0dXJuIGZhbHNlCiovCnR5cGUgZGVmYXVsdFNlYXJjaFZhbHVlIHN0cnVjdCB7CglFdmFsTXNnICAgICAgc3RyaW5nCglTdWJFdmFsTXNnICAgc3RyaW5nCglDYXNlU3RhdHVzZXMgW11DYXNlU3RhdHVzCn0KCmZ1bmMgKGUgZGVmYXVsdFNlYXJjaFZhbHVlKSBJc051bGxFdmFsTXNnKCkgYm9vbCB7CglyZXR1cm4gZmFsc2UKfQoKZnVuYyAoZSBkZWZhdWx0U2VhcmNoVmFsdWUpIElzTnVsbFN1YkV2YWxNc2dBbGxvd2VkKCkgYm9vbCB7CglyZXR1cm4gZmFsc2UKfQoKZnVuYyAoZSBkZWZhdWx0U2VhcmNoVmFsdWUpIEdldEV2YWxNc2coKSAqc3RyaW5nIHsKCXJldHVybiB1dGlsLkdldFN0cmluZ1B0cihlLkV2YWxNc2cpCn0KCmZ1bmMgKGUgZGVmYXVsdFNlYXJjaFZhbHVlKSBHZXRTdWJFdmFsTXNnKCkgKnN0cmluZyB7CglyZXR1cm4gdXRpbC5HZXRTdHJpbmdQdHIoZS5TdWJFdmFsTXNnKQp9CgpmdW5jIChlIGRlZmF1bHRTZWFyY2hWYWx1ZSkgR2V0Q2FzZVN0YXR1c2VzKCkgW11zdHJpbmcgewoJcmV0dXJuIGUuQ2FzZVN0YXR1c2VzCn0KCi8qClNlYXJjaCB2YWx1ZSBmb3IgYWNjZXB0V2l0aCBldmFsdWF0aW9ucwpTZWFyY2ggZXZhbE1zZyBhbmQgc3ViRXZhbE1zZyBkaXJlY3RseQpOdWxsIHZhbHVlIGlzIGV4Y2x1ZGVkIGZvciBlaXRoZXIKKi8KdHlwZSBhY2NlcHRXaXRoU2VhcmNoVmFsdWUgc3RydWN0IHsKCWRlZmF1bHRTZWFyY2hWYWx1ZQp9CgpmdW5jIG5ld0FjY2VwdFdpdGhTZWFyY2hWYWx1ZShldmFsTXNnLCBzdWJFdmFsTXNnIHN0cmluZywgY2FzZVN0YXR1c2VzIFtdc3RyaW5nKSBhY2NlcHRXaXRoU2VhcmNoVmFsdWUgewoJcmV0dXJuIGFjY2VwdFdpdGhTZWFyY2hWYWx1ZXtkZWZhdWx0U2VhcmNoVmFsdWV7CgkJRXZhbE1zZzogICAgICBldmFsTXNnLAoJCVN1YkV2YWxNc2c6ICAgc3ViRXZhbE1zZywKCQlDYXNlU3RhdHVzZXM6IGNhc2VTdGF0dXNlcywKCX19Cn0KCi8qClNlYXJjaCB2YWx1ZSBmb3IgcmV2aWV3IGV2YWx1YXRpb25zCk9ubHkgc2VhcmNoIG51bGwgZXZhbE1zZywgbm8gY29uZGl0aW9uIGZvciBzdWJFdmFsTXNnCiovCnR5cGUgcmV2aWV3U2VhcmNoVmFsdWUgc3RydWN0IHsKCWRlZmF1bHRTZWFyY2hWYWx1ZQp9CgpmdW5jIChhIHJldmlld1NlYXJjaFZhbHVlKSBJc051bGxFdmFsTXNnKCkgYm9vbCB7CglyZXR1cm4gdHJ1ZQp9CgpmdW5jIChhIHJldmlld1NlYXJjaFZhbHVlKSBHZXRFdmFsTXNnKCkgKnN0cmluZyB7CglyZXR1cm4gbmlsCn0KCmZ1bmMgKGEgcmV2aWV3U2VhcmNoVmFsdWUpIEdldFN1YkV2YWxNc2coKSAqc3RyaW5nIHsKCXJldHVybiBuaWwKfQoKZnVuYyBuZXdSZXZpZXdTZWFyY2hWYWx1ZShldmFsTXNnLCBzdWJFdmFsTXNnIHN0cmluZywgY2FzZVN0YXR1c2VzIFtdc3RyaW5nKSByZXZpZXdTZWFyY2hWYWx1ZSB7CglyZXR1cm4gcmV2aWV3U2VhcmNoVmFsdWV7ZGVmYXVsdFNlYXJjaFZhbHVlewoJCUV2YWxNc2c6ICAgICAgZXZhbE1zZywKCQlTdWJFdmFsTXNnOiAgIHN1YkV2YWxNc2csCgkJQ2FzZVN0YXR1c2VzOiBjYXNlU3RhdHVzZXMsCgl9fQp9CgovKioKU2VhcmNoIHZhbHVlIGZvciBhbGxXaXRoIGV2YWx1YXRpb25zCk5vIGNvbmRpdGlvbiBmb3IgZXZhbE1zZyBvciBzdWJFdmFsTXNnCiovCnR5cGUgYWxsV2l0aFNlYXJjaFZhbHVlIHN0cnVjdCB7CglkZWZhdWx0U2VhcmNoVmFsdWUKfQoKZnVuYyAoYSBhbGxXaXRoU2VhcmNoVmFsdWUpIEdldEV2YWxNc2coKSAqc3RyaW5nIHsKCXJldHVybiBuaWwKfQoKZnVuYyAoYSBhbGxXaXRoU2VhcmNoVmFsdWUpIEdldFN1YkV2YWxNc2coKSAqc3RyaW5nIHsKCXJldHVybiBuaWwKfQoKZnVuYyBuZXdBbGxXaXRoU2VhcmNoVmFsdWUoZXZhbE1zZywgc3ViRXZhbE1zZyBzdHJpbmcsIGNhc2VTdGF0dXNlcyBbXXN0cmluZykgYWxsV2l0aFNlYXJjaFZhbHVlIHsKCXJldHVybiBhbGxXaXRoU2VhcmNoVmFsdWV7ZGVmYXVsdFNlYXJjaFZhbHVlewoJCUV2YWxNc2c6ICAgICAgZXZhbE1zZywKCQlTdWJFdmFsTXNnOiAgIHN1YkV2YWxNc2csCgkJQ2FzZVN0YXR1c2VzOiBjYXNlU3RhdHVzZXMsCgl9fQp9CgovKioKU2VhcmNoIHZhbHVlIGZvciBhY2NlcHREZW55IGV2YWx1YXRpb25zClNlYXJjaCBvbmx5IGV2YWxNc2csIG51bGwgaXMgZXhjbHVkZWQKTm8gQ29uZGl0aW9uIGZvciBzdWJFdmFsTXNnCiovCnR5cGUgYWNjZXB0RGVueVNlYXJjaFZhbHVlIHN0cnVjdCB7CglkZWZhdWx0U2VhcmNoVmFsdWUKfQoKZnVuYyAoYSBhY2NlcHREZW55U2VhcmNoVmFsdWUpIEdldFN1YkV2YWxNc2coKSAqc3RyaW5nIHsKCXJldHVybiBuaWwKfQoKZnVuYyBuZXdBY2NlcHREZW55U2VhcmNoVmFsdWUoZXZhbE1zZywgc3ViRXZhbE1zZyBzdHJpbmcsIGNhc2VTdGF0dXNlcyBbXXN0cmluZykgYWNjZXB0RGVueVNlYXJjaFZhbHVlIHsKCXJldHVybiBhY2NlcHREZW55U2VhcmNoVmFsdWV7ZGVmYXVsdFNlYXJjaFZhbHVlewoJCUV2YWxNc2c6ICAgICAgZXZhbE1zZywKCQlTdWJFdmFsTXNnOiAgIHN1YkV2YWxNc2csCgkJQ2FzZVN0YXR1c2VzOiBjYXNlU3RhdHVzZXMsCgl9fQp9CgovKioKU2VhcmNoIHZhbHVlIGZvciBvdGhlciBldmFsdWF0aW9ucwpTZWFyY2ggZm9yIGV2YWxNc2cgYW5kIHN1YkV2YWxNc2cuCk51bGwgU3ViRXZhbE1zZyBpcyBhbHNvIGluY2x1ZGVkCiovCnR5cGUgb3RoZXJTZWFyY2hWYWx1ZSBzdHJ1Y3QgewoJZGVmYXVsdFNlYXJjaFZhbHVlCn0KCmZ1bmMgKG8gb3RoZXJTZWFyY2hWYWx1ZSkgSXNOdWxsU3ViRXZhbE1zZ0FsbG93ZWQoKSBib29sIHsKCXJldHVybiB0cnVlCn0KCmZ1bmMgbmV3T3RoZXJFdmFsdWF0aW9uKGV2YWxNc2csIHN1YkV2YWxNc2cgc3RyaW5nLCBjYXNlU3RhdHVzZXMgW11zdHJpbmcpIG90aGVyU2VhcmNoVmFsdWUgewoJcmV0dXJuIG90aGVyU2VhcmNoVmFsdWV7ZGVmYXVsdFNlYXJjaFZhbHVlewoJCUV2YWxNc2c6ICAgICAgZXZhbE1zZywKCQlTdWJFdmFsTXNnOiAgIHN1YkV2YWxNc2csCgkJQ2FzZVN0YXR1c2VzOiBjYXNlU3RhdHVzZXMsCgl9fQp9Cgp0eXBlIFNlYXJjaFZhbHVlUHJvdmlkZXIgaW50ZXJmYWNlIHsKCUdldEV2YWxNc2coKSAqc3RyaW5nCglJc051bGxFdmFsTXNnKCkgYm9vbAoJR2V0U3ViRXZhbE1zZygpICpzdHJpbmcKCUlzTnVsbFN1YkV2YWxNc2dBbGxvd2VkKCkgYm9vbAoJR2V0Q2FzZVN0YXR1c2VzKCkgW11zdHJpbmcKfQo=</text>
+        <text encoding="base64">CXN1YkV2YWxNc2dDb25kaXRpb24gOj0gZ2V0U3ViRXZhbE1zZ0NvbmRpdGlvbihldmFsdWF0aW9uLlN1YkV2YWxNc2cpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXNlcnZpY2VJZEZpZWxkTmFtZSAgICA9ICJvcmRlci5zZXJ2aWNlSWQiCglyZXF1ZXN0RGF0ZUZpZWxkTmFtZSAgPSAib3JkZXIucmVxdWVzdERhdGUiCglldmFsTXNnRmllbGROYW1lICAgICAgPSAiZGVjaXNpb24uZXZhbHVhdGlvbk1lc3NhZ2UiCglzdWJFdmFsTXNnRmllbGROYW1lICAgPSAiZGVjaXNpb24uc3ViRXZhbHVhdGlvbk1lc3NhZ2UiCglkZWNpc2lvblR5cGVGaWVsZE5hbWUgPSAiZGVjaXNpb24uZGVjaXNpb25UeXBlIgoJZGVjaXNpb25UeXBlRmllbGROYW1lID0gImRlY2lzaW9uLmRlY2lzaW9uVHlwZSI=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1108,9 +1111,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>decisionType</last-search>
+      <last-search>prefix</last-search>
       <last-offset />
-      <last-pattern>decisionType</last-pattern>
+      <last-pattern>prefix</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
