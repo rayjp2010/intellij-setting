@@ -109,8 +109,8 @@
         <mark key="." line="352" column="97" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/PayGuardEvaluation.java" timestamp="1591143534023" />
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1591144596131">
-        <mark key="'" line="28" column="27" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1591145240990">
+        <mark key="'" line="512" column="99" />
         <mark key="[" line="532" column="75" />
         <mark key="]" line="532" column="93" />
       </file>
@@ -166,8 +166,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="94" column="107" filename="$USER_HOME$/go/src/odin/model/search_response.go" />
-      <jump line="104" column="47" filename="$USER_HOME$/go/src/odin/model/search_response.go" />
       <jump line="65" column="65" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="94" column="51" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="82" column="70" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
@@ -256,7 +254,6 @@
       <jump line="138" column="23" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="140" column="25" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="144" column="25" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="511" column="66" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="508" column="79" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="509" column="84" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="530" column="77" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -266,6 +263,9 @@
       <jump line="506" column="58" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="528" column="67" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="28" column="27" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="505" column="25" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="511" column="77" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="512" column="99" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
