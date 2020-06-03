@@ -99,6 +99,9 @@
         <mark key="^" line="334" column="22" />
         <mark key="." line="334" column="21" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1591160579443">
+        <mark key="'" line="20" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591104394116">
         <mark key="'" line="573" column="23" />
         <mark key="[" line="714" column="64" />
@@ -112,7 +115,7 @@
         <mark key="[" line="527" column="0" />
         <mark key="]" line="535" column="90" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1591160524456">
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1591160549535">
         <mark key="[" line="12" column="4" />
         <mark key="]" line="12" column="14" />
         <mark key="^" line="46" column="5" />
@@ -155,13 +158,6 @@
         <mark key="." line="91" column="39" />
         <mark key="^" line="91" column="40" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591062414075">
-        <mark key="'" line="17" column="32" />
-        <mark key="[" line="321" column="0" />
-        <mark key="]" line="323" column="1" />
-        <mark key="^" line="321" column="6" />
-        <mark key="." line="321" column="5" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591159195426">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="201" column="72" />
@@ -171,7 +167,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/CaseLogicUtil.java" />
       <jump line="101" column="16" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/CaseLogicUtil.java" />
       <jump line="6" column="5" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
@@ -271,6 +266,7 @@
       <jump line="113" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="207" column="49" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="20" column="0" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
