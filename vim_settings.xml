@@ -5,26 +5,26 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>layout</entry>
-        <entry>searchField</entry>
-        <entry>elastic.host</entry>
-        <entry>host</entry>
-        <entry>prefix</entry>
-        <entry>easyId</entry>
-        <entry>organizationId</entry>
-        <entry>caseId</entry>
-        <entry>judegement</entry>
-        <entry>requestId</entry>
-        <entry>listHitRepository</entry>
-        <entry>value</entry>
-        <entry>list</entry>
-        <entry>HitList</entry>
-        <entry>listHit</entry>
-        <entry>values</entry>
-        <entry>serviceId</entry>
-        <entry>deep</entry>
-        <entry>remote</entry>
-        <entry>mapst</entry>
+        <entry>supplier</entry>
+        <entry>table</entry>
+        <entry>tabValue</entry>
+        <entry>selectable</entry>
+        <entry>createMatch</entry>
+        <entry>matchCount</entry>
+        <entry>is</entry>
+        <entry>isVali</entry>
+        <entry>click</entry>
+        <entry>clicked</entry>
+        <entry>tab</entry>
+        <entry>rowClicked</entry>
+        <entry>selectedName</entry>
+        <entry>rowClass</entry>
+        <entry>https:</entry>
+        <entry>selected-row</entry>
+        <entry>state</entry>
+        <entry>max</entry>
+        <entry>新規作成</entry>
+        <entry>対応</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -36,80 +36,27 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/util/pointer.go" timestamp="1590471117523">
-        <mark key="[" line="28" column="1" />
-        <mark key="]" line="26" column="5" />
-        <mark key="^" line="26" column="5" />
-        <mark key="." line="26" column="4" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590500026363">
+        <mark key="'" line="52" column="29" />
+        <mark key="[" line="22" column="8" />
+        <mark key="]" line="22" column="121" />
+        <mark key="^" line="22" column="121" />
+        <mark key="." line="22" column="120" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590479457985">
-        <mark key="'" line="59" column="0" />
-        <mark key="[" line="59" column="0" />
-        <mark key="]" line="59" column="0" />
-        <mark key="^" line="47" column="28" />
-        <mark key="." line="59" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1590471788748">
-        <mark key="'" line="35" column="22" />
-        <mark key="[" line="335" column="0" />
-        <mark key="]" line="335" column="0" />
-        <mark key="." line="335" column="0" />
-        <mark key="^" line="334" column="8" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/ListService.java" timestamp="1590477431965" />
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/ListInfo.java" timestamp="1590474434575">
-        <mark key="'" line="21" column="5" />
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="37" column="25" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" timestamp="1590476594884">
-        <mark key="'" line="644" column="8" />
-        <mark key="[" line="63" column="30" />
-        <mark key="]" line="63" column="46" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590479116913">
-        <mark key="'" line="354" column="39" />
-        <mark key="[" line="351" column="73" />
-        <mark key="]" line="351" column="111" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/PerformanceReportServiceImpl.java" timestamp="1590476565681">
-        <mark key="'" line="51" column="30" />
-        <mark key="[" line="51" column="30" />
-        <mark key="]" line="51" column="46" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-events-scheduler/src/main/java/com/rakuten/fpg/ui/admintool/scheduler/model/ListEventJson.java" timestamp="1590476793663">
-        <mark key="'" line="35" column="26" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1590475798637">
-        <mark key="'" line="35" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590479343531">
-        <mark key="'" line="29" column="6" />
-        <mark key="[" line="31" column="98" />
-        <mark key="]" line="31" column="110" />
-        <mark key="." line="31" column="109" />
-        <mark key="^" line="31" column="110" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" timestamp="1590477074267">
-        <mark key="'" line="30" column="64" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/ListHit.java" timestamp="1590474324457">
-        <mark key="'" line="22" column="4" />
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="29" column="32" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/SaveOrderCheck.java" timestamp="1590477309842" />
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1590472165678">
-        <mark key="'" line="16" column="55" />
-        <mark key="[" line="165" column="53" />
-        <mark key="]" line="165" column="54" />
-        <mark key="^" line="129" column="27" />
-        <mark key="." line="165" column="54" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatch.vue" timestamp="1590500707003">
+        <mark key="'" line="73" column="48" />
+        <mark key="[" line="72" column="36" />
+        <mark key="]" line="72" column="36" />
+        <mark key="." line="72" column="36" />
+        <mark key="^" line="73" column="26" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1590480998098">
         <mark key="'" line="13" column="27" />
@@ -118,19 +65,71 @@
         <mark key="^" line="168" column="14" />
         <mark key="." line="168" column="13" />
       </file>
+      <file name="/GraphQL.result.json" timestamp="1591182636668">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1590500307387">
+        <mark key="[" line="75" column="15" />
+        <mark key="]" line="75" column="14" />
+        <mark key="^" line="75" column="14" />
+        <mark key="." line="75" column="13" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591183695816">
+        <mark key="[" line="96" column="20" />
+        <mark key="]" line="96" column="20" />
+        <mark key="." line="96" column="20" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590498900927">
+        <mark key="[" line="9" column="14" />
+        <mark key="]" line="7" column="16" />
+        <mark key="." line="7" column="15" />
+        <mark key="^" line="7" column="16" />
+      </file>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" timestamp="1590476594884">
+        <mark key="'" line="644" column="8" />
+        <mark key="[" line="63" column="30" />
+        <mark key="]" line="63" column="46" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1590479457985">
+        <mark key="'" line="59" column="0" />
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="59" column="0" />
+        <mark key="^" line="47" column="28" />
+        <mark key="." line="59" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditDemand.vue" timestamp="1590500100845">
+        <mark key="'" line="61" column="25" />
+        <mark key="[" line="23" column="47" />
+        <mark key="]" line="23" column="48" />
+        <mark key="." line="23" column="47" />
+        <mark key="^" line="23" column="48" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591183593525">
+        <mark key="[" line="21" column="92" />
+        <mark key="]" line="22" column="39" />
+        <mark key="^" line="22" column="39" />
+        <mark key="." line="22" column="38" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590479116913">
+        <mark key="'" line="354" column="39" />
+        <mark key="[" line="351" column="73" />
+        <mark key="]" line="351" column="111" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590479343531">
+        <mark key="'" line="29" column="6" />
+        <mark key="[" line="31" column="98" />
+        <mark key="]" line="31" column="110" />
+        <mark key="." line="31" column="109" />
+        <mark key="^" line="31" column="110" />
+      </file>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-events-scheduler/src/main/java/com/rakuten/fpg/ui/admintool/scheduler/model/ListEventJson.java" timestamp="1590476793663">
+        <mark key="'" line="35" column="26" />
+      </file>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" timestamp="1590477074267">
+        <mark key="'" line="30" column="64" />
+      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590477044208">
         <mark key="'" line="175" column="66" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1590470609142">
-        <mark key="'" line="79" column="21" />
-        <mark key="[" line="177" column="75" />
-        <mark key="]" line="177" column="76" />
-        <mark key="." line="177" column="75" />
-        <mark key="^" line="177" column="76" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/model/RuleHitModel.java" timestamp="1590474171991">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="24" column="33" />
       </file>
     </filemarks>
     <jumps>
@@ -232,11 +231,14 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
+      <register name="&quot;" type="4">
+        <text>currentGroups.includes('Admin')</text>
+      </register>
       <register name="*" type="4">
         <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>=</text>
+        <text>currentGroups.includes('Admin')</text>
       </register>
       <register name="/" type="4">
         <text>mapst</text>
@@ -248,28 +250,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">dHlwZSBMaXN0SGl0SW5mb1Jlc3BvbnNlIHN0cnVjdCB7Cn0K</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">dHlwZSBMaXN0SGl0SW5mb1Jlc3BvbnNlIHN0cnVjdCB7Cn0K</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">CWxpc3RJZCAgICAgICAqc3RyaW5nCglsaXN0TmFtZSAgICAgKnN0cmluZwoJbGlzdFR5cGUgICAgICpzdHJpbmcKCXZhbHVlICAgICAgICAqc3RyaW5nCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWNhc2VJZCAgICAgKmludDY0Cg==</text>
+        <text encoding="base64">CWxpc3RJZCAgICAgICAqc3RyaW5nCglsaXN0TmFtZSAgICAgKnN0cmluZwoJbGlzdFR5cGUgICAgICpzdHJpbmcKCXZhbHVlICAgICAgICAqc3RyaW5nCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWxpc3RJbmZvSWQgKkxpc3RIaXRJbmZvUmVzcG9uc2UK</text>
+        <text encoding="base64">CWNhc2VJZCAgICAgKmludDY0Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CW9yZ2FuaXphdGlvbiAqc3RyaW5nCg==</text>
+        <text encoding="base64">CWxpc3RJbmZvSWQgKkxpc3RIaXRJbmZvUmVzcG9uc2UK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CWxpc3RJbmZvSWQgICAqc3RyaW5nCg==</text>
+        <text encoding="base64">CW9yZ2FuaXphdGlvbiAqc3RyaW5nCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWxpc3RIaXRJZCAgKmludDY0Cg==</text>
+        <text encoding="base64">CWxpc3RJbmZvSWQgICAqc3RyaW5nCg==</text>
       </register>
     </registers>
   </component>
