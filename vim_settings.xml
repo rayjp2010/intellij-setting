@@ -89,11 +89,11 @@
         <mark key="." line="58" column="24" />
         <mark key="^" line="58" column="25" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591173462898">
-        <mark key="[" line="504" column="40" />
-        <mark key="]" line="504" column="43" />
-        <mark key="^" line="504" column="43" />
-        <mark key="." line="504" column="42" />
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591175708933">
+        <mark key="[" line="566" column="10" />
+        <mark key="]" line="566" column="28" />
+        <mark key="^" line="436" column="94" />
+        <mark key="." line="436" column="93" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591162959966">
         <mark key="'" line="313" column="0" />
@@ -114,11 +114,11 @@
         <mark key="^" line="46" column="5" />
         <mark key="." line="46" column="5" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1591174499372">
-        <mark key="[" line="39" column="24" />
-        <mark key="]" line="39" column="56" />
-        <mark key="." line="39" column="55" />
-        <mark key="^" line="39" column="56" />
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1591175803840">
+        <mark key="[" line="59" column="31" />
+        <mark key="]" line="59" column="65" />
+        <mark key="." line="59" column="31" />
+        <mark key="^" line="59" column="38" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/audit_case_template.json" timestamp="1591169133124">
         <mark key="'" line="0" column="0" />
@@ -264,19 +264,19 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="*" type="4">
-        <text>util.GetInt64Ptr</text>
+        <text>NewResponseBuilder().With(&quot;No results found.&quot;, []model.TransactionSearchResponse{}).Build()</text>
       </register>
       <register name="-" type="4">
-        <text>1577840461000</text>
+        <text>NewResponseBuilder().With(&quot;No results found.&quot;, []model.TransactionSearchResponse{}).Build()</text>
       </register>
       <register name="/" type="4">
         <text>prefix</text>
       </register>
       <register name="0" type="4">
-        <text>util.GetInt64Ptr</text>
+        <text>TransactionProperty</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWRvYzIgOj0K</text>
+        <text encoding="base64">CWRhdGVSZWxldmFudFFiMSA6PSBHZXREZWZhdWx0VHJhbnNhY3Rpb25RdWVyeUJvZHkoIm9yZGVyLnNob3BwZXJJbmZvLmVhc3lJZC5rZXl3b3JkIiwgIjE5MDk1MC0yMDE5MDcyNi0wMTAwNTgxNyIsIFtdaW50NjR7MTIzfSwgMTU3Nzg0MDQ2MTAwMCwgMTU4ODI5NDg2MTAwMCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1066,28 +1066,32 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQkJewoJCQkJUnVsZUlkOiAgICAgICAgMjMzNiwKCQkJCVJ1bGVOYW1lOiAgICAgICLjgqvjg7zjg4nkuI3mraPjg7tJROebl+eUqO+8iOOCt+ODreWIpOWumu+8iV8x5rOo5paH44Gu57eP6aGN44GMMjDkuIflhobku6XkuIvjg7vjg4njg6Hjg43jg7zjg6DjgYxwYW5kYeODu3NwbW9kZSIsCgkJCQlSdWxlQ29uZGl0aW9uOiAiXCJcInJlcXVlc3QuZ3Jvc3NBbW91bnQoSlBZKSAgPD0gIDIwMDAwMCAmIHJlcXVlc3QuaXBEb21haW4gIGludGVyc2VjdHMgICggXCJwYW5kYS13b3JsZC5uZS5qcFwiLCBcInNwbW9kZS5uZS5qcFwiICkgXCJcIiIsCgkJCX0sCg==</text>
+        <text encoding="base64">CS8vIDIwMjAtMS0xVDE6MToxKzAwMDAgdG8gMjAyMC01LTFUMToxOjErMDAwMAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">CXJlc3AK</text>
+      <register name="3" type="4">
+        <text>GetFilterQueryBody([]util.JsonMap{
+		GetDateRangeFilter(&quot;order.requestDate&quot;, 1577840461000, 1588294861000),
+		GetMultiIntMatchFilter(&quot;order.serviceId&quot;, dateRelevantReq.OrganizationIds),
+		GetTermFilter(&quot;order.shopperInfo.easyId.keyword&quot;),
+	}, &quot;order.requestDate&quot;, &quot;asc&quot;)</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CXJlc3AuRAo=</text>
+        <text encoding="base64">CWRhdGVSZWxldmF0ZVFiLgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWRvYzIgOj0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnVuYyBHZXRNYXRjaEZpbHRlcihrZXkgc3RyaW5nLCB2YWx1ZSBpbnRlcmZhY2V7fSkgdXRpbC5Kc29uTWFwIHsKCXJldHVybiB1dGlsLkpzb25NYXB7CgkJIm1hdGNoIjogdXRpbC5Kc29uTWFwewoJCQlrZXk6IHZhbHVlLAoJCX0sCgl9Cn0K</text>
+        <text encoding="base64">CQkJewoJCQkJUnVsZUlkOiAgICAgICAgMjMzNiwKCQkJCVJ1bGVOYW1lOiAgICAgICLjgqvjg7zjg4nkuI3mraPjg7tJROebl+eUqO+8iOOCt+ODreWIpOWumu+8iV8x5rOo5paH44Gu57eP6aGN44GMMjDkuIflhobku6XkuIvjg7vjg4njg6Hjg43jg7zjg6DjgYxwYW5kYeODu3NwbW9kZSIsCgkJCQlSdWxlQ29uZGl0aW9uOiAiXCJcInJlcXVlc3QuZ3Jvc3NBbW91bnQoSlBZKSAgPD0gIDIwMDAwMCAmIHJlcXVlc3QuaXBEb21haW4gIGludGVyc2VjdHMgICggXCJwYW5kYS13b3JsZC5uZS5qcFwiLCBcInNwbW9kZS5uZS5qcFwiICkgXCJcIiIsCgkJCX0sCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXJlc3AK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CXJlc3AuRAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
