@@ -76,7 +76,12 @@
         <mark key="^" line="66" column="14" />
         <mark key="." line="66" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591187450151" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591231489514">
+        <mark key="[" line="291" column="40" />
+        <mark key="]" line="291" column="40" />
+        <mark key="^" line="291" column="40" />
+        <mark key="." line="291" column="39" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590479116913">
         <mark key="'" line="354" column="39" />
         <mark key="[" line="351" column="73" />
@@ -238,13 +243,13 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>count</text>
+        <text>userId</text>
       </register>
       <register name="*" type="4">
         <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>count</text>
+        <text>userId</text>
       </register>
       <register name="/" type="4">
         <text>click</text>
