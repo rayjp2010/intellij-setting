@@ -81,6 +81,10 @@
         <mark key="[" line="72" column="23" />
         <mark key="]" line="72" column="33" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-recipient.ts" timestamp="1591277190694">
+        <mark key="[" line="9" column="17" />
+        <mark key="]" line="9" column="18" />
+      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590500026363">
         <mark key="'" line="52" column="29" />
         <mark key="[" line="22" column="8" />
@@ -108,27 +112,20 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="6" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/components/AcnFormInput.vue" timestamp="1590498900927">
-        <mark key="[" line="9" column="14" />
-        <mark key="]" line="7" column="16" />
-        <mark key="." line="7" column="15" />
-        <mark key="^" line="7" column="16" />
-      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
         <mark key="[" line="11" column="10" />
         <mark key="]" line="11" column="22" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/matchable/_type/_id/edit.vue" timestamp="1591276185116">
-        <mark key="[" line="17" column="21" />
-        <mark key="]" line="17" column="57" />
-        <mark key="^" line="13" column="42" />
-        <mark key="." line="13" column="41" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/matchable/_type/_id/edit.vue" timestamp="1591277892627">
+        <mark key="[" line="13" column="32" />
+        <mark key="]" line="13" column="55" />
+        <mark key="^" line="13" column="55" />
+        <mark key="." line="13" column="54" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-editable.ts" timestamp="1591276411050">
-        <mark key="[" line="9" column="26" />
-        <mark key="]" line="9" column="24" />
-        <mark key="." line="9" column="23" />
-        <mark key="^" line="9" column="24" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-editable.ts" timestamp="1591277734849">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -235,46 +232,46 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>hasOwnProperty('type')</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="*" type="4">
         <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>hasOwnProperty('type')</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>click</text>
       </register>
       <register name="0" type="4">
-        <text>this.$route.params.type === 'demands'</text>
+        <text>('</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBjb25zb2xlLmxvZyhjb250ZXh0KQo=</text>
+        <text encoding="base64">ICBjb25zb2xlLmxvZyhyb3V0ZSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBpZiAocm91dGUucGFyYW1zLikK</text>
+        <text encoding="base64">CiAgLy8gZ2V0IF9lZGl0TW9kZSAoKTogJ1VQREFURScgfCAnUkVBRE9OTFknIHsKICAvLyAgIGNvbnN0IHsgdXNlclR5cGUgfSA9IHVzZXJTdG9yZS51c2VyCiAgLy8gICBjb25zdCBpc1N1cHBseUVkaXRhYmxlID0gIXRoaXMuaXNEZW1hbmQgJiYgdXNlclR5cGUgPT09ICdTVVBQTElFUicKICAvLyAgIGNvbnN0IGlzRGVtYW5kRWRpdGFibGUgPSB0aGlzLmlzRGVtYW5kICYmIHVzZXJUeXBlID09PSAnUkVDSVBJRU5UJwogIC8vICAgcmV0dXJuIGlzU3VwcGx5RWRpdGFibGUgfHwgaXNEZW1hbmRFZGl0YWJsZSA/ICdVUERBVEUnIDogJ1JFQURPTkxZJwogIC8vIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBjb25zb2xlLmxvZyhjb250ZXh0KQo=</text>
+        <text encoding="base64">aW1wb3J0IGF1dGhSZWNpcGllbnQgZnJvbSAifi9taWRkbGV3YXJlL2F1dGgtcmVjaXBpZW50IjsKaW1wb3J0IGF1dGhTdXBwbGllciBmcm9tICJ+L21pZGRsZXdhcmUvYXV0aC1zdXBwbGllciI7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBjb25zb2xlLmxvZyhjb250ZXh0KQo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICBnZXQgaXNEZW1hbmQgKCk6IEJvb2xlYW4gewogIH0K</text>
+      <register name="5" type="2">
+        <text encoding="base64">ZnVuY3Rpb24gZiAoKSB7Cgp9Cg==</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">KHsgcm91dGUgfSkgPT4gewogIGNvbnN0IGlzRGVtYW5kID0gcm91dGUucGFyYW1zLnR5cGUgPT09ICdkZW1hbmRzJwogIHJldHVybiBpc0RlbWFuZCA/IGF1dGhSZWNpcGllbnQgOiBhdXRoU3VwcGxpZXIKfQ==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJldHVybiB0aGlzLiRyb3V0ZS5wYXJhbXMudHlwZSA9PT0gJ2RlbWFuZHMnCg==</text>
+        <text encoding="base64">ICBhdXRoRWRpdGFibGUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGNoZWNrQXV0aCBmcm9tICd+L3V0aWxzL2F1dGgtY2hlY2tlcicK</text>
+        <text encoding="base64">ICBpZiAoaXNEZW1hbmQpIHsKICAgIHJldHVybiBhdXRoUmVjaXBpZW50CiAgfWVsc2UgewogICAgCiAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBjb250ZXh0Lgo=</text>
+        <text encoding="base64">ICBpZiAoKSB7fQogIC8vIGF3YWl0IGNoZWNrQXV0aCgnQURNSU4nLCBjb250ZXh0LnJlZGlyZWN0KQo=</text>
       </register>
     </registers>
   </component>
