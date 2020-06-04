@@ -1024,10 +1024,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>getValidationTestCases</text>
+        <text>api_test</text>
       </register>
       <register name="-" type="4">
-        <text>getValidationTestCases</text>
+        <text>api_test</text>
       </register>
       <register name="/" type="4">
         <text>acceptWithOtherPaymentPG</text>
