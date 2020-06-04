@@ -76,12 +76,6 @@
         <mark key="^" line="62" column="9" />
         <mark key="." line="62" column="8" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1591179479896">
-        <mark key="[" line="75" column="4" />
-        <mark key="]" line="75" column="9" />
-        <mark key="^" line="70" column="4" />
-        <mark key="." line="70" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591248959700">
         <mark key="'" line="71" column="8" />
         <mark key="[" line="8" column="31" />
@@ -103,12 +97,17 @@
         <mark key="." line="159" column="51" />
         <mark key="^" line="159" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591258581326">
-        <mark key="'" line="318" column="40" />
-        <mark key="[" line="592" column="0" />
-        <mark key="]" line="595" column="95" />
-        <mark key="^" line="579" column="93" />
-        <mark key="." line="592" column="0" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/order.go" timestamp="1591260017462">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591259767942">
+        <mark key="'" line="622" column="75" />
+        <mark key="[" line="755" column="5" />
+        <mark key="]" line="755" column="6" />
+        <mark key="^" line="748" column="78" />
+        <mark key="." line="755" column="6" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591240795190">
         <mark key="'" line="13" column="4" />
@@ -131,12 +130,11 @@
         <mark key="." line="10" column="5" />
         <mark key="^" line="10" column="6" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591253136531">
-        <mark key="'" line="314" column="28" />
-        <mark key="[" line="465" column="0" />
-        <mark key="]" line="525" column="18" />
-        <mark key="." line="465" column="0" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591260022777">
+        <mark key="[" line="64" column="0" />
+        <mark key="]" line="64" column="0" />
         <mark key="^" line="58" column="35" />
+        <mark key="." line="64" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1591239206109">
         <mark key="[" line="0" column="0" />
@@ -181,9 +179,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="444" column="38" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
-      <jump line="47" column="0" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
-      <jump line="45" column="0" filename="$USER_HOME$/go/src/odin/core/validator_test.go" />
       <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="190" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="181" column="12" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -281,6 +276,9 @@
       <jump line="416" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="147" column="24" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="318" column="40" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="612" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="622" column="75" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="64" column="10" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1051,19 +1049,19 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUxIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUyIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUzIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGU0IikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>u.GetStringPtr(&quot;avs1&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>rule1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUxIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUyIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUzIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGU0IikK</text>
+        <text encoding="base64">CXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5TaGlwcGluZ0luZm8uU2hpcHBpbmdDaXR5ID0gdS5HZXRTdHJpbmdQdHIoImNpdHkxIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5TaGlwcGluZ0luZm8uU2hpcHBpbmdDaXR5ID0gdS5HZXRTdHJpbmdQdHIoImNpdHkyIikK</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">R2V0RmxvYXQ2NFB0cgpHZXRGbG9hdDY0UHRyCkdldEZsb2F0NjRQdHIKR2V0RmxvYXQ2NFB0cgoKICAgICAgICAgICAgCgpldEZsb2F0NjRQdHIKCmV0RmxvYXQ2NFB0cgoKZXRGbG9hdDY0UHRyCg==</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1852,50 +1850,277 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="2" type="8">
-        <text>SalesTaxAmount
-SalesTaxAmount
-SalesTaxAmount
-SalesTaxAmount
-
-             
-
-alesTaxAmount
-
-alesTaxAmount
-
-alesTaxAmount
-
-
-lesTaxAmount
- 
-            
-S
-lesTaxAmount
-S
-lesTaxAmount
-S</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uU2FsZXNUYXhBbW91bnQgPSB1LkdldEZsb2F0NjRQdHIoMTIzLjExMSkKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uU2FsZXNUYXhBbW91bnQgPSB1LkdldEZsb2F0NjRQdHIoMjIyLjExMSkKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uU2FsZXNUYXhBbW91bnQgPSB1LkdldEZsb2F0NjRQdHIoMzIzLjExMSkKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uU2FsZXNUYXhBbW91bnQgPSB1LkdldEZsb2F0NjRQdHIoNDIzLjExMSkK</text>
+        <text encoding="base64">YGAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLlNob3BwZXJJbmZvLkdlb0RhdGEuQW5vbnltb3VzSXAuQW5vbnltb3VzID0gdS5HZXRCb29sUHRyKHRydWUpCg==</text>
+        <text encoding="base64">YGAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CXQxLgo=</text>
+        <text>type Order struct {
+	ServiceId      *int64               `json:&quot;serviceId,omitempty&quot;`
+	TrackingId     *string              `json:&quot;trackingId,omitempty&quot;`
+	OrderId        *string              `json:&quot;orderId,omitempty&quot; valid:&quot;required~orderId is required&quot;`
+	RequestId      *string              `json:&quot;requestId,omitempty&quot;`
+	RequestDate    *string              `json:&quot;requestDate,omitempty&quot; valid:&quot;required~requestDate is required&quot;`
+	UserAgent      *string              `json:&quot;userAgent,omitempty&quot;`
+	ShopperInfo    *ShopperInfo         `json:&quot;shopperInfo,omitempty&quot;`
+	MerchantInfo   *MerchantInfo        `json:&quot;merchantInfo,omitempty&quot;`
+	PaymentInfo    *PaymentInfo         `json:&quot;paymentInfo,omitempty&quot;`
+	EdyInfo        *EdyInfo             `json:&quot;edyInfo,omitempty&quot;`
+	OrderDetails   []*OrderDetail       `json:&quot;orderDetails,omitempty&quot;`
+	AdditionalInfo *OrderAdditionalInfo `json:&quot;additionalInfo,omitempty&quot;`
+	RatVCookie     *string              `json:&quot;ratVCookie,omitempty&quot;`
+}
+
+type OrderAdditionalInfo struct {
+	Asuraku  *bool   `json:&quot;asuraku,omitempty&quot;`
+	CardHash *string `json:&quot;cardHash,omitempty&quot;`
+	OppFlag  *bool   `json:&quot;oppFlag,omitempty&quot;`
+}
+
+type MerchantInfo struct {
+	MerchantId *string `json:&quot;merchantId,omitempty&quot;`
+}
+
+type ShopperInfo struct {
+	DeviceFingerprint *string     `json:&quot;deviceFingerprint,omitempty&quot;`
+	EasyId            *string     `json:&quot;easyId,omitempty&quot;`
+	EmailAddress      *string     `json:&quot;emailAddress,omitempty&quot;`
+	RawEmailAddress   *string     `json:&quot;rawEmailAddress,omitempty&quot;`
+	MemberId          *string     `json:&quot;memberId,omitempty&quot;`
+	PersonalId        *string     `json:&quot;personalId,omitempty&quot;`
+	SessionId         *string     `json:&quot;sessionId,omitempty&quot;`
+	Cookie            *string     `json:&quot;cookie,omitempty&quot;`
+	GeoData           *GeoData    `json:&quot;geoData,omitempty&quot;`
+	RpCookie          *string     `json:&quot;rpCookie,omitempty&quot;`
+	MemberRank        *string     `json:&quot;memberRank,omitempty&quot;`
+	AppDeviceId       *string     `json:&quot;appDeviceId,omitempty&quot;`
+	AppAuId           *string     `json:&quot;appAuId,omitempty&quot;`
+	MembershipDate    *string     `json:&quot;membershipDate,omitempty&quot;`
+	MemberUpdateDate  *string     `json:&quot;memberUpdateDate,omitempty&quot;`
+	AuditTrail        *AuditTrail `json:&quot;auditTrail,omitempty&quot;`
+}
+
+type PaymentInfo struct {
+	CheckType                  string           `json:&quot;checkType,omitempty&quot;`
+	CouponDiscount             *float64         `json:&quot;couponDiscount,omitempty&quot;`
+	CreditCard                 *CreditCard      `json:&quot;creditCard,omitempty&quot;`
+	Currency                   *string          `json:&quot;currency,omitempty&quot;`
+	PaypalAddressVerifiedFlags *string          `json:&quot;payPalAddressVerifiedFlags,omitempty&quot;`
+	PaypalAccountVerifiedFlags *string          `json:&quot;payPalAccountVerifiedFlags,omitempty&quot;`
+	DetailedPaymentMethod      *string          `json:&quot;detailedPaymentMethod,omitempty&quot;`
+	RawDetailedPaymentMethod   *string          `json:&quot;rawDetailedPaymentMethod,omitempty&quot;`
+	GrossAmount                *float64         `json:&quot;grossAmount,omitempty&quot;`
+	RedeemedPoint              *float64         `json:&quot;redeemedPoint,omitempty&quot;`
+	ShippingCouponDiscount     *float64         `json:&quot;shippingCouponDiscount,omitempty&quot;`
+	BillingInfo                *BillingInfo     `json:&quot;billingInfo,omitempty&quot;`
+	BankAccountInfo            *BankAccountInfo `json:&quot;bankAccountInfo,omitempty&quot;`
+}
+
+type CreditCard struct {
+	CardAmount        *float64      `json:&quot;cardAmount,omitempty&quot;`
+	CardBin           *string       `json:&quot;cardBin,omitempty&quot;`
+	CardFingerprint   *string       `json:&quot;cardFingerprint,omitempty&quot;`
+	CardHolderName    *string       `json:&quot;cardHolderName,omitempty&quot;`
+	RawCardHolderName *string       `json:&quot;rawCardHolderName,omitempty&quot;`
+	CardLast4Digit    *string       `json:&quot;cardLast4Digit,omitempty&quot;`
+	CardToken         *string       `json:&quot;cardToken,omitempty&quot;`
+	ExpirationDate    *string       `json:&quot;expirationDate,omitempty&quot;`
+	CardCountryCodes  []string      `json:&quot;cardCountryCodes,omitempty&quot;`
+	CardGeolocations  []Geolocation `json:&quot;cardGeolocations,omitempty&quot;`
+	CardIssuerBanks   []string      `json:&quot;cardIssuerBanks,omitempty&quot;`
+	AvsResponseCode   *string       `json:&quot;avsResponseCode,omitempty&quot;`
+}
+
+type OrderDetail struct {
+	Items               []Item                 `json:&quot;items,omitempty&quot;`
+	ShippingInfo        *ShippingInfo          `json:&quot;shippingInfo,omitempty&quot;`
+	AdditionalOrderInfo map[string]interface{} `json:&quot;additionalOrderInfo,omitempty&quot;` // currently no specific field for AdditionalOrderInfo
+}
+
+type Item struct {
+	Category           *ItemCategory       `json:&quot;category,omitempty&quot;`
+	Price              *float64            `json:&quot;price,omitempty&quot;`
+	Quantity           *int64              `json:&quot;quantity,omitempty&quot;`
+	ItemName           *string             `json:&quot;itemName,omitempty&quot;`
+	RawItemName        *string             `json:&quot;rawItemName,omitempty&quot;`
+	AdditionalItemInfo *ItemAdditionalInfo `json:&quot;additionalItemInfo,omitempty&quot;`
+	ItemBrandName      *string             `json:&quot;itemBrandName,omitempty&quot;`
+	ItemNumber         *string             `json:&quot;itemNumber,omitempty&quot;`
+}
+
+type ItemAdditionalInfo struct {
+	SalesTaxAmount    *float64 `json:&quot;salesTaxAmount&quot;`
+	DeliveryCode      *string  `json:&quot;deliveryCode&quot;`
+	ItemCstAmount     *float64 `json:&quot;itemCstAmount&quot;`
+	ItemPartitionType *string  `json:&quot;itemPartitionType&quot;`
+	ProductSku        *string  `json:&quot;productSku&quot;`
+	ItemManPartNo     *string  `json:&quot;itemManPartNo&quot;`
+	CategoryId        *string  `json:&quot;categoryId&quot;`
+}
+
+type AuditTrail struct {
+	RegisDate    *int64 `json:&quot;regisDate,omitempty&quot;`
+	UpdateDate   *int64 `json:&quot;updateDate,omitempty&quot;`
+	CcRegisDate  *int64 `json:&quot;ccRegisDate,omitempty&quot;`
+	CcUpdateDate *int64 `json:&quot;ccUpdateDate,omitempty&quot;`
+}
+
+type BillingInfo struct {
+	BillingAddressLine1 *string `json:&quot;billingAddressLine1,omitempty&quot;`
+	BillingAddressLine2 *string `json:&quot;billingAddressLine2,omitempty&quot;`
+	BillingCity         *string `json:&quot;billingCity,omitempty&quot;`
+	BillingCountry      *string `json:&quot;billingCountry,omitempty&quot;`
+	BillingPostCode     *string `json:&quot;billingPostCode,omitempty&quot;`
+	BillingPhoneNumber  *string `json:&quot;billingPhoneNumber,omitempty&quot;`
+}
+
+type BankAccountInfo struct {
+	JapanBankInfo *string `json:&quot;japanBankInfo,omitempty&quot;`
+}
+
+type EdyInfo struct {
+	Idm             *string `json:&quot;idm,omitempty&quot;`
+	EdyNo           *string `json:&quot;edyNo,omitempty&quot;`
+	NameDateOfBirth *string `json:&quot;nameDateOfBirth,omitempty&quot;`
+	IpUserAgent     *string `json:&quot;ipUserAgent,omitempty&quot;`
+}
+
+type ItemCategory struct {
+	Level1 *string `json:&quot;level1,omitempty&quot;`
+	Level2 *string `json:&quot;level2,omitempty&quot;`
+	Level3 *string `json:&quot;level3,omitempty&quot;`
+	Level4 *string `json:&quot;level4,omitempty&quot;`
+	Level5 *string `json:&quot;level5,omitempty&quot;`
+}
+
+type ShippingInfo struct {
+	Name              *string      `json:&quot;name,omitempty&quot;`
+	RawName           *string      `json:&quot;rawName,omitempty&quot;`
+	Address           *string      `json:&quot;address,omitempty&quot;`
+	RawAddress        *string      `json:&quot;rawAddress,omitempty&quot;`
+	CountryCode       *string      `json:&quot;countryCode,omitempty&quot;`
+	Phone             *string      `json:&quot;phone,omitempty&quot;`
+	PostalCode        *string      `json:&quot;postalCode,omitempty&quot;`
+	ShippingMethod    *string      `json:&quot;shippingMethod,omitempty&quot;`
+	RawShippingMethod *string      `json:&quot;rawShippingMethod,omitempty&quot;`
+	ShippingFee       *float64     `json:&quot;shippingFee,omitempty&quot;`
+	DeliveryDate      *string      `json:&quot;deliveryDate,omitempty&quot;`
+	Geolocation       *Geolocation `json:&quot;geolocation,omitempty&quot;`
+	ShippingCity      *string      `json:&quot;shippingCity,omitempty&quot;`
+}
+
+type GeoData struct {
+	IpAddress      *string      `json:&quot;ipAddress,omitempty&quot;`
+	City           *string      `json:&quot;city,omitempty&quot;`
+	CountryCode    *string      `json:&quot;countryCode,omitempty&quot;`
+	Geolocation    *Geolocation `json:&quot;geolocation,omitempty&quot;`
+	IspInfo        *IspInfo     `json:&quot;ispInfo,omitempty&quot;`
+	DomainName     *string      `json:&quot;domainName,omitempty&quot;`
+	ConnectionType *string      `json:&quot;connectionType,omitempty&quot;`
+	AnonymousIp    *AnonymousIp `json:&quot;anonymousIp,omitempty&quot;`
+}
+
+type Geolocation struct {
+	Latitude  *float64 `json:&quot;latitude,omitempty&quot; mapstructure:&quot;lat&quot;`
+	Longitude *float64 `json:&quot;longitude,omitempty&quot; mapstructure:&quot;lon&quot;`
+}
+
+type IspInfo struct {
+	IspName         *string `json:&quot;ispName,omitempty&quot;`
+	IspOrganization *string `json:&quot;ispOrganization,omitempty&quot;`
+}
+
+type AnonymousIp struct {
+	Anonymous                 *bool `json:&quot;anonymous,omitempty&quot;`
+	AnonymousVpn              *bool `json:&quot;anonymousVpn,omitempty&quot;`
+	TorExitNode               *bool `json:&quot;torExitNode,omitempty&quot;`
+	HostingProviderDataCenter *bool `json:&quot;hostingProviderDataCenter,omitempty&quot;`
+	PublicProxy               *bool `json:&quot;publicProxy,omitempty&quot;`
+}
+
+type OrderDecision struct {
+	// Source from orderaccepted, orderreviewed, orderdenied
+	ResultType           *string `json:&quot;resultType,omitempty&quot;`
+	RequestId            *string `json:&quot;requestId,omitempty&quot;`
+	MerchantId           *string `json:&quot;merchantId,omitempty&quot;`
+	OrderId              *string `json:&quot;orderId,omitempty&quot; valid:&quot;required~orderId is required&quot;`
+	Source               *string `json:&quot;source,omitempty&quot;`
+	DecisionDate         *string `json:&quot;decisionDate,omitempty&quot; valid:&quot;required~decisionDate is required&quot;`
+	EvaluationMessage    *string `json:&quot;evaluationMessage,omitempty&quot;`
+	SubEvaluationMessage *string `json:&quot;subEvaluationMessage,omitempty&quot;`
+	ServiceId            *int64  `json:&quot;serviceId,omitempty&quot;`
+	Score                *int    `json:&quot;score,omitempty&quot;`
+	DecisionType         *string `json:&quot;decisionType,omitempty&quot;`
+	Comment              *string `json:&quot;comment,omitempty&quot;`
+
+	// Source from remoteCase EventSync
+	Reviewer         *string `json:&quot;reviewer,omitempty&quot;`
+	ReviewerDecision *string `json:&quot;reviewerDecision,omitempty&quot;`
+	DecisionQueueId  *int64  `json:&quot;decisionQueueId,omitempty&quot;`
+	DecisionTime     *string `json:&quot;decisionTime,omitempty&quot;`
+	UserAction       *string `json:&quot;userAction,omitempty&quot;`
+	PayguardDecision *string `json:&quot;payguardDecision,omitempty&quot;`
+
+	// Source from remoteCase EventSync and need refinement
+	QueueId   *string `json:&quot;queueId,omitempty&quot;`
+	QueueName *string `json:&quot;queueName,omitempty&quot;`
+	Status    *string `json:&quot;status,omitempty&quot;`
+
+	CheckInfo *CheckInfo `json:&quot;checkInfo,omitempty&quot;`
+
+	ErrorMessage *string `json:&quot;errorMessage,omitempty&quot;`
+}
+
+type CheckInfo struct {
+	HitLists      []HitList      `json:&quot;hitLists,omitempty&quot;`
+	HitRules      []HitRule      `json:&quot;hitRules,omitempty&quot;`
+	MlCheckResult *MlCheckResult `json:&quot;mlCheckResult,omitempty&quot;`
+}
+
+type HitList struct {
+	ListId            *string  `json:&quot;listId,omitempty&quot;`
+	ListName          *string  `json:&quot;listName,omitempty&quot;`
+	Priority          *int     `json:&quot;priority,omitempty&quot;`
+	EvaluationMessage *string  `json:&quot;evaluationMessage,omitempty&quot;`
+	SubMessage        *string  `json:&quot;subMessage,omitempty&quot;`
+	Score             *int     `json:&quot;score,omitempty&quot;`
+	ListType          *string  `json:&quot;listType,omitempty&quot;`
+	Values            []string `json:&quot;values,omitempty&quot;`
+}
+
+type HitRule struct {
+	RuleId            *int64  `json:&quot;ruleId,omitempty&quot;`
+	RuleName          *string `json:&quot;ruleName,omitempty&quot;`
+	RuleCondition     *string `json:&quot;ruleCondition,omitempty&quot;`
+	Priority          *int    `json:&quot;priority,omitempty&quot;`
+	EvaluationMessage *string `json:&quot;evaluationMessage,omitempty&quot;`
+	SubMessage        *string `json:&quot;subMessage,omitempty&quot;`
+	Score             *int    `json:&quot;score,omitempty&quot;`
+	TestMode          *bool   `json:&quot;testMode,omitempty&quot;`
+}
+
+type MlCheckResult struct {
+	Score     *float64 `json:&quot;score,omitempty&quot;`
+	Threshold *float64 `json:&quot;threshold,omitempty&quot;`
+	Result    *string  `json:&quot;result,omitempty&quot;`
+}</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLlNob3BwZXJJbmZvLkdlb0RhdGEuR2VvbG9jYXRpb24uTG9uZ2l0dWRlID0gdS5HZXRGbG9hdDY0UHRyKDEyMy4xMjMpCg==</text>
+        <text encoding="base64">CXQxLk9yZGVyLlBheW1lbnRJbmZvLkJpbGxpbmdJbmZvLkJpbGxpbmdBZGRyZXNzTGluZTEgPSB1LkdldFN0cmluZ1B0cigiYWRkcmVzczEiKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLlBheW1lbnRJbmZvLkNyZWRpdENhcmQuQ2Fycgo=</text>
+        <text encoding="base64">CXQxLk9yZGVyLlBheW1lbnRJbmZvLkJpbGxpbmdJbmZvLkJpbGxpbmdBZGRyZXNzTGluZTEgPSB1LkdldFN0cmluZ1B0cigiYWRkcmVzczEiKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CXQzIDo9IGdldE5ld1RyeERvYygpCg==</text>
+        <text encoding="base64">CXQxLk9yZGVyLlBheW1lbnRJbmZvLkJpbGxpbmdJbmZvLkJpbGxpbmdBZGRyZXNzTGluZTEgPSB1LkdldFN0cmluZ1B0cigiYWRkcmVzczEiKQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
