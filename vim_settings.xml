@@ -76,10 +76,12 @@
         <mark key="^" line="66" column="14" />
         <mark key="." line="66" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590479116913">
-        <mark key="'" line="354" column="39" />
-        <mark key="[" line="351" column="73" />
-        <mark key="]" line="351" column="111" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591272135927">
+        <mark key="'" line="291" column="17" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/types/types.d.ts" timestamp="1591273712724">
+        <mark key="[" line="72" column="23" />
+        <mark key="]" line="72" column="33" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1590479343531">
         <mark key="'" line="29" column="6" />
@@ -87,9 +89,6 @@
         <mark key="]" line="31" column="110" />
         <mark key="." line="31" column="109" />
         <mark key="^" line="31" column="110" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertDAOUtil.java" timestamp="1590477044208">
-        <mark key="'" line="175" column="66" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditSupply.vue" timestamp="1590500026363">
         <mark key="'" line="52" column="29" />
@@ -127,8 +126,15 @@
         <mark key="." line="7" column="15" />
         <mark key="^" line="7" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" timestamp="1590477074267">
-        <mark key="'" line="30" column="64" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
+        <mark key="[" line="11" column="10" />
+        <mark key="]" line="11" column="22" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/matchable/_type/_id/edit.vue" timestamp="1591274500698">
+        <mark key="[" line="32" column="70" />
+        <mark key="]" line="33" column="4" />
+        <mark key="^" line="33" column="4" />
+        <mark key="." line="33" column="3" />
       </file>
     </filemarks>
     <jumps>
@@ -229,53 +235,52 @@
       <jump line="27" column="17" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
       <jump line="21" column="39" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
       <jump line="20" column="49" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="291" column="17" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>currentGroups.includes('Admin')</text>
+        <text>Supplier でのサインイン必須</text>
       </register>
       <register name="*" type="4">
         <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>currentGroups.includes('Admin')</text>
+        <text>Supplier でのサインイン必須</text>
       </register>
       <register name="/" type="4">
         <text>click</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIC8vIGNvbnN0IGlzQWRtaW4gPSBjdXJyZW50R3JvdXBzLmluY2x1ZGVzKCdBZG1pbicpCg==</text>
+      <register name="0" type="4">
+        <text>'RECIPIENT'</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHRoaXMubWF0Y2hhYmxlLm0pCiAgICBjb25zb2xlLmxvZyh0aGlzLmNvdW50KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIHJldHVybiAnVVBEQVRFJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBnZXQgbWF4Q291bnQoKTogYm9vbGVhbnsKICAgIHRoaXMubWF0Y2hhYmxlLgogIH0K</text>
+        <text encoding="base64">ICAgIGlmIChpc1N1cHBseUVkaXRhYmxlIHx8IGlzRGVtYW5kRWRpdGFibGUpIHsKCiAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNvbnN0IGlzU3VwcGx5RWRpdGFibGUgPSB1c2VyVHlwZSA9PT0gJ1NVUFBMSUVSJyAmJiAhdGhpcy5pc0RlbWFuZCAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBtYXhDb3VudCAoKTogbnVtYmVyIHsKICAgIC8vIOS4gOaXpuODj+ODvOODieOCs+ODvOODh+OCo+ODs+OCsOOAguW/heimgeOBp+OBguOCjOOBsOODkOODg+OCr+OCqOODs+ODieioreWumuOBq+enu+ihjAogICAgcmV0dXJuIDMwMAogIH0K</text>
+        <text encoding="base64">ICAgIGlmIHVzZXJUeXBlID09PSAnU1VQUExJRVInICYmIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmICgpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCBpc1NlbGVjdGFibGVUeXBlID0gIXRoaXMuc2VsZWN0ZWREZW1hbmQK</text>
+        <text encoding="base64">ICAgIHVzZXJTdG9yZS4K</text>
       </register>
-      <register name="9" type="4">
-        <text>else {
-          this.selectedSupply = null
-        }</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIGNvbnN0IGlzRGVtYW5kID0gdGhpcy4kcm91dGUucGFyYW1zLnR5cGUgPT09ICdkZW1hbmRzJwo=</text>
       </register>
     </registers>
   </component>
