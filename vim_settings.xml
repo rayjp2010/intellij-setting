@@ -44,11 +44,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591183699828">
-        <mark key="[" line="96" column="20" />
-        <mark key="]" line="96" column="24" />
-        <mark key="." line="96" column="23" />
-        <mark key="^" line="96" column="24" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591270035973">
+        <mark key="[" line="97" column="23" />
+        <mark key="]" line="97" column="4" />
+        <mark key="." line="97" column="3" />
+        <mark key="^" line="97" column="4" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591229948093">
         <mark key="[" line="20" column="1" />
@@ -75,12 +75,6 @@
         <mark key="]" line="66" column="0" />
         <mark key="^" line="66" column="14" />
         <mark key="." line="66" column="0" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591231489514">
-        <mark key="[" line="291" column="40" />
-        <mark key="]" line="291" column="40" />
-        <mark key="^" line="291" column="40" />
-        <mark key="." line="291" column="39" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1590479116913">
         <mark key="'" line="354" column="39" />
@@ -132,9 +126,6 @@
         <mark key="]" line="7" column="16" />
         <mark key="." line="7" column="15" />
         <mark key="^" line="7" column="16" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-events-scheduler/src/main/java/com/rakuten/fpg/ui/admintool/scheduler/model/ListEventJson.java" timestamp="1590476793663">
-        <mark key="'" line="35" column="26" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/ConvertFPGOrderTOUtil.java" timestamp="1590477074267">
         <mark key="'" line="30" column="64" />
@@ -243,19 +234,19 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>userId</text>
+        <text>currentGroups.includes('Admin')</text>
       </register>
       <register name="*" type="4">
         <text>=</text>
       </register>
       <register name="-" type="4">
-        <text>userId</text>
+        <text>currentGroups.includes('Admin')</text>
       </register>
       <register name="/" type="4">
         <text>click</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHRoaXMubWF0Y2hhYmxlLmNvdW50KQo=</text>
+        <text encoding="base64">ICAgIC8vIGNvbnN0IGlzQWRtaW4gPSBjdXJyZW50R3JvdXBzLmluY2x1ZGVzKCdBZG1pbicpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHRoaXMubWF0Y2hhYmxlLm0pCiAgICBjb25zb2xlLmxvZyh0aGlzLmNvdW50KQo=</text>
