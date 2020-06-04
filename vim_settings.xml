@@ -5,35 +5,28 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>notEvaluated</entry>
-        <entry>not</entry>
-        <entry>AcceptWithCautionPG</entry>
-        <entry>AcceptWithOtherPaymentPG</entry>
-        <entry>AcceptAC</entry>
-        <entry>DenyAC</entry>
-        <entry>AllWith</entry>
-        <entry>after</entry>
-        <entry>DenyUI</entry>
-        <entry>Accept</entry>
-        <entry>keyword</entry>
-        <entry>decisionType</entry>
-        <entry>apiEnabled</entry>
-        <entry>prefix</entry>
-        <entry>acceptWithCautionPGReq</entry>
-        <entry>acceptWithCautionPG</entry>
-        <entry>acceptWithOtherPaymentPG</entry>
-        <entry>indexList</entry>
-        <entry>postalCode</entry>
-        <entry>rule1</entry>
+        <entry>table</entry>
+        <entry>tabValue</entry>
+        <entry>selectable</entry>
+        <entry>createMatch</entry>
+        <entry>matchCount</entry>
+        <entry>is</entry>
+        <entry>isVali</entry>
+        <entry>clicked</entry>
+        <entry>tab</entry>
+        <entry>rowClicked</entry>
+        <entry>selectedName</entry>
+        <entry>rowClass</entry>
+        <entry>https:</entry>
+        <entry>selected-row</entry>
+        <entry>state</entry>
+        <entry>max</entry>
+        <entry>新規作成</entry>
+        <entry>対応</entry>
+        <entry>rowClick</entry>
+        <entry>click</entry>
       </history-search>
-      <history-cmd>
-        <entry>vsplit</entry>
-        <entry>unsplit</entry>
-        <entry>c</entry>
-        <entry>close</entry>
-        <entry>on</entry>
-        <entry>only</entry>
-      </history-cmd>
+      <history-cmd />
       <history-expr />
       <history-input />
     </history>
@@ -42,6 +35,9 @@
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed J</text>
@@ -60,76 +56,41 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1591262091732">
-        <mark key="'" line="2" column="14" />
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="89" column="1" />
-        <mark key="^" line="90" column="0" />
-        <mark key="." line="90" column="0" />
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1591255296092">
+        <mark key="[" line="35" column="31" />
+        <mark key="]" line="35" column="58" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591263369976">
-        <mark key="'" line="459" column="4" />
-        <mark key="[" line="459" column="0" />
-        <mark key="]" line="555" column="5" />
-        <mark key="^" line="452" column="59" />
-        <mark key="." line="452" column="58" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591270035973">
+        <mark key="[" line="97" column="23" />
+        <mark key="]" line="97" column="4" />
+        <mark key="." line="97" column="3" />
+        <mark key="^" line="97" column="4" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/api_test.go" timestamp="1591237589213">
-        <mark key="[" line="62" column="12" />
-        <mark key="]" line="62" column="9" />
-        <mark key="^" line="62" column="9" />
-        <mark key="." line="62" column="8" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-user.ts" timestamp="1591275432242">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591248959700">
-        <mark key="'" line="71" column="8" />
-        <mark key="[" line="8" column="31" />
-        <mark key="]" line="8" column="41" />
-        <mark key="^" line="8" column="32" />
-        <mark key="." line="8" column="31" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/types/types.d.ts" timestamp="1591273712724">
+        <mark key="[" line="72" column="23" />
+        <mark key="]" line="72" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/util/elasticsearch_util.go" timestamp="1591240259040">
-        <mark key="'" line="74" column="24" />
-        <mark key="[" line="194" column="11" />
-        <mark key="]" line="194" column="11" />
-        <mark key="." line="194" column="11" />
-        <mark key="^" line="59" column="21" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591265406597">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="16" column="1" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591248897668">
-        <mark key="'" line="127" column="50" />
-        <mark key="[" line="101" column="60" />
-        <mark key="]" line="101" column="128" />
-        <mark key="." line="159" column="51" />
-        <mark key="^" line="159" column="52" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-recipient.ts" timestamp="1591277190694">
+        <mark key="[" line="9" column="17" />
+        <mark key="]" line="9" column="18" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/order.go" timestamp="1591260017462">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591265503206">
-        <mark key="'" line="40" column="57" />
-        <mark key="[" line="45" column="43" />
-        <mark key="]" line="45" column="52" />
-        <mark key="^" line="45" column="52" />
-        <mark key="." line="45" column="51" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-admin.ts" timestamp="1591275899067">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="44" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591240795190">
-        <mark key="'" line="13" column="4" />
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="24" column="1" />
-        <mark key="^" line="18" column="98" />
-        <mark key="." line="18" column="97" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1591246834912">
-        <mark key="'" line="425" column="5" />
-        <mark key="[" line="36" column="61" />
-        <mark key="]" line="36" column="99" />
-        <mark key="^" line="36" column="99" />
-        <mark key="." line="36" column="98" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
+        <mark key="[" line="11" column="10" />
+        <mark key="]" line="11" column="22" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591263866922">
         <mark key="'" line="14" column="0" />
@@ -138,6 +99,26 @@
         <mark key="." line="30" column="46" />
         <mark key="^" line="30" column="47" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/matchable/_type/_id/edit.vue" timestamp="1591277892627">
+        <mark key="[" line="13" column="32" />
+        <mark key="]" line="13" column="55" />
+        <mark key="^" line="13" column="55" />
+        <mark key="." line="13" column="54" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591263369976">
+        <mark key="'" line="459" column="4" />
+        <mark key="[" line="459" column="0" />
+        <mark key="]" line="555" column="5" />
+        <mark key="^" line="452" column="59" />
+        <mark key="." line="452" column="58" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1591262091732">
+        <mark key="'" line="2" column="14" />
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="89" column="1" />
+        <mark key="^" line="90" column="0" />
+        <mark key="." line="90" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591265309330">
         <mark key="'" line="64" column="16" />
         <mark key="[" line="733" column="14" />
@@ -145,25 +126,19 @@
         <mark key="^" line="64" column="17" />
         <mark key="." line="64" column="16" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591239206109">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591265406597">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="16" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1591255296092">
-        <mark key="[" line="35" column="31" />
-        <mark key="]" line="35" column="58" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591272135927">
+        <mark key="'" line="291" column="17" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1591246831109">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="101" column="40" />
-        <mark key="]" line="101" column="39" />
-        <mark key="^" line="101" column="39" />
-        <mark key="." line="101" column="38" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/audit_log.go" timestamp="1591247945968">
-        <mark key="'" line="12" column="6" />
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="22" column="1" />
-        <mark key="." line="240" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591248959700">
+        <mark key="'" line="71" column="8" />
+        <mark key="[" line="8" column="31" />
+        <mark key="]" line="8" column="41" />
+        <mark key="." line="8" column="31" />
+        <mark key="^" line="8" column="32" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591250534074">
         <mark key="'" line="23" column="17" />
@@ -172,12 +147,17 @@
         <mark key="." line="91" column="39" />
         <mark key="^" line="91" column="40" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591247865717">
-        <mark key="'" line="33" column="11" />
-        <mark key="[" line="144" column="42" />
-        <mark key="]" line="144" column="44" />
-        <mark key="." line="144" column="43" />
-        <mark key="^" line="144" column="44" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-editable.ts" timestamp="1591277734849">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591265503206">
+        <mark key="'" line="40" column="57" />
+        <mark key="[" line="45" column="43" />
+        <mark key="]" line="45" column="52" />
+        <mark key="^" line="45" column="52" />
+        <mark key="." line="45" column="51" />
       </file>
     </filemarks>
     <jumps>
@@ -1049,6 +1029,9 @@
           <key char="65535" code="38" mods="0" />
           <key char="65535" code="40" mods="0" />
         </keys>
+      </register>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="*" type="4">
         <text>test-order-2</text>
