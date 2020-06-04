@@ -103,12 +103,12 @@
         <mark key="." line="159" column="51" />
         <mark key="^" line="159" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591257575123">
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591258581326">
         <mark key="'" line="318" column="40" />
-        <mark key="[" line="581" column="92" />
-        <mark key="]" line="581" column="93" />
+        <mark key="[" line="592" column="0" />
+        <mark key="]" line="595" column="95" />
         <mark key="^" line="579" column="93" />
-        <mark key="." line="581" column="93" />
+        <mark key="." line="592" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591240795190">
         <mark key="'" line="13" column="4" />
@@ -1050,8 +1050,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>e</text>
+      <register name="*" type="2">
+        <text encoding="base64">CXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUxIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUyIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUzIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGU0IikK</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -1059,8 +1059,8 @@
       <register name="/" type="4">
         <text>rule1</text>
       </register>
-      <register name="0" type="4">
-        <text>&quot;code1&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">CXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUxIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1swXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUyIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1swXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGUzIikKCXQxLk9yZGVyLk9yZGVyRGV0YWlsc1sxXS5JdGVtc1sxXS5BZGRpdGlvbmFsSXRlbUluZm8uRGVsaXZlcnlDb2RlID0gdS5HZXRTdHJpbmdQdHIoImNvZGU0IikK</text>
       </register>
       <register name="1" type="8">
         <text encoding="base64">R2V0RmxvYXQ2NFB0cgpHZXRGbG9hdDY0UHRyCkdldEZsb2F0NjRQdHIKR2V0RmxvYXQ2NFB0cgoKICAgICAgICAgICAgCgpldEZsb2F0NjRQdHIKCmV0RmxvYXQ2NFB0cgoKZXRGbG9hdDY0UHRyCg==</text>
