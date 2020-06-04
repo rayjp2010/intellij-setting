@@ -128,12 +128,6 @@
       <file name="/fragment.go" timestamp="1591168705292">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator_test.go" timestamp="1591083283902">
-        <mark key="'" line="45" column="0" />
-        <mark key="[" line="58" column="0" />
-        <mark key="]" line="58" column="0" />
-        <mark key="." line="58" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591177783270">
         <mark key="'" line="127" column="50" />
         <mark key="[" line="16" column="33" />
