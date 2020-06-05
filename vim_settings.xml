@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ipAddress</entry>
-        <entry>rpCookie</entry>
-        <entry>phone</entry>
         <entry>nested</entry>
         <entry>ipcountry</entry>
         <entry>orderAmount</entry>
@@ -25,6 +22,9 @@
         <entry>countryCodes</entry>
         <entry>ipCountry</entry>
         <entry>delivery</entry>
+        <entry>deliveryDate</entry>
+        <entry>geolocation</entry>
+        <entry>latitude</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -70,15 +70,15 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591354227415">
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591355078011">
         <mark key="'" line="937" column="5" />
         <mark key="[" line="307" column="96" />
         <mark key="]" line="307" column="125" />
         <mark key="." line="307" column="124" />
         <mark key="^" line="307" column="125" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591352094751">
-        <mark key="'" line="459" column="21" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591355228713">
+        <mark key="'" line="466" column="25" />
         <mark key="[" line="373" column="0" />
         <mark key="]" line="374" column="41" />
         <mark key="^" line="365" column="21" />
@@ -142,10 +142,10 @@
         <mark key="." line="134" column="38" />
         <mark key="^" line="131" column="47" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591353698656">
-        <mark key="'" line="102" column="74" />
-        <mark key="[" line="123" column="67" />
-        <mark key="]" line="123" column="71" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591355485548">
+        <mark key="'" line="62" column="57" />
+        <mark key="[" line="132" column="35" />
+        <mark key="]" line="132" column="75" />
         <mark key="." line="123" column="70" />
         <mark key="^" line="123" column="71" />
       </file>
@@ -166,10 +166,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="495" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="538" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="554" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="558" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="498" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="392" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="396" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -261,11 +257,15 @@
       <jump line="51" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="458" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="124" column="70" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="27" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="60" column="60" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="91" column="11" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="93" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="102" column="74" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="369" column="39" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="370" column="27" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="466" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="27" column="64" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="62" column="57" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1036,16 +1036,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>2020-03-23T14:22:33.456+0000</text>
+        <text>order.shopperInfo.geoData.geolocation.lat</text>
       </register>
       <register name="-" type="4">
         <text>Hourly</text>
       </register>
       <register name="/" type="4">
-        <text>delivery</text>
+        <text>latitude</text>
       </register>
       <register name="0" type="4">
-        <text>2020-03-23T14:22:33.456+0000</text>
+        <text>order.shopperInfo.geoData.geolocation.lat</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1887,9 +1887,9 @@ I</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>delivery</last-search>
+      <last-search>latitude</last-search>
       <last-offset />
-      <last-pattern>delivery</last-pattern>
+      <last-pattern>latitude</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
