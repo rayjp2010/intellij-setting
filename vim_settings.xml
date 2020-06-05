@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>billingAddressLine1</entry>
         <entry>avsResponseCode</entry>
         <entry>shippingCity</entry>
         <entry>easyId</entry>
@@ -25,6 +24,7 @@
         <entry>cardCountryCodes</entry>
         <entry>organizationIds</entry>
         <entry>postalCode</entry>
+        <entry>Phone</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -70,8 +70,8 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591348326289">
-        <mark key="'" line="919" column="23" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591348357136">
+        <mark key="'" line="921" column="5" />
         <mark key="[" line="937" column="42" />
         <mark key="]" line="937" column="52" />
         <mark key="^" line="667" column="66" />
@@ -166,18 +166,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="508" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
-      <jump line="532" column="42" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
-      <jump line="474" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
-      <jump line="54" column="28" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
-      <jump line="169" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="238" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="2" column="6" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="127" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="241" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="129" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="616" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="670" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="699" column="20" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="620" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="704" column="24" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -266,6 +254,18 @@
       <jump line="196" column="4" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="1167" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="919" column="23" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="926" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="711" column="27" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="915" column="8" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="917" column="42" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="918" column="42" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="920" column="42" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="923" column="42" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="924" column="42" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="187" column="21" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="188" column="67" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="192" column="37" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="921" column="5" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1042,7 +1042,7 @@
         <text>, nil</text>
       </register>
       <register name="/" type="4">
-        <text>postalCode</text>
+        <text>Phone</text>
       </register>
       <register name="0" type="4">
         <text>RawAddress</text>
@@ -1868,9 +1868,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>postalCode</last-search>
+      <last-search>Phone</last-search>
       <last-offset />
-      <last-pattern>postalCode</last-pattern>
+      <last-pattern>Phone</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
