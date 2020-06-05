@@ -70,12 +70,12 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591357170670">
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591359021989">
         <mark key="'" line="938" column="5" />
-        <mark key="[" line="210" column="47" />
-        <mark key="]" line="210" column="72" />
-        <mark key="." line="210" column="71" />
-        <mark key="^" line="210" column="72" />
+        <mark key="[" line="220" column="64" />
+        <mark key="]" line="220" column="65" />
+        <mark key="." line="220" column="64" />
+        <mark key="^" line="220" column="65" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591355228713">
         <mark key="'" line="466" column="25" />
@@ -98,12 +98,12 @@
         <mark key="^" line="143" column="65" />
         <mark key="." line="143" column="64" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591358044302">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591359016122">
         <mark key="'" line="402" column="57" />
-        <mark key="[" line="582" column="18" />
-        <mark key="]" line="582" column="18" />
-        <mark key="^" line="582" column="19" />
-        <mark key="." line="582" column="18" />
+        <mark key="[" line="629" column="68" />
+        <mark key="]" line="629" column="69" />
+        <mark key="." line="629" column="68" />
+        <mark key="^" line="629" column="69" />
       </file>
       <file name="/Dummy.txt" timestamp="1591357940105">
         <mark key="[" line="0" column="0" />
@@ -1033,19 +1033,19 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>.</text>
+        <text>u.GetStringPtr(&quot;m2&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>u.GetStringPtr(&quot;m2&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>latitude</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQkJYnVpbGRlci5SdWxlSGl0c1tpZHhdLlJ1bGVOYW1lID0gbmFtZUxpc3RbaWR4XQo=</text>
+        <text encoding="base64">CQkJcnVsZUhpdCA6PSBSdWxlSGl0UmVzcG9uc2V7fQoJCQlkZWVwY29waWVyLkNvcHkoYnVpbGRlci5SdWxlSGl0c1tpZHhdKS5UbygmcnVsZUhpdCkKCQkJcnVsZUhpdC5SdWxlTmFtZSA9IG5hbWUKCQkJYnVpbGRlci5SdWxlSGl0c1tpZHhdID0gcnVsZUhpdAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkJbGlzdEhpdC5MaXN0SW5mb0lkLkxpc3ROYW1lID0gbmFtZUxpc3RbaWR4XQo=</text>
+        <text encoding="base64">CQkJbGlzdEhpdCA6PSBMaXN0SGl0UmVzcG9uc2V7fQoJCQlkZWVwY29waWVyLkNvcHkoYnVpbGRlci5MaXN0SGl0c1tpZHhdLkxpc3RJbmZvSWQpLlRvKCZsaXN0SGl0Lkxpc3RJbmZvSWQpCgkJCWxpc3RIaXQuTGlzdEluZm9JZC5MaXN0TmFtZSA9IG5hbWUKCQkJYnVpbGRlci5MaXN0SGl0c1tpZHhdID0gbGlzdEhpdAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1835,47 +1835,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQlidWlsZGVyLlJ1bGVIaXRzID0K</text>
+        <text encoding="base64">CQkJcnVsZUhpdCA6PSBSdWxlSGl0UmVzcG9uc2V7fQoJCQlkZWVwY29waWVyLkNvcHkoYnVpbGRlci5SdWxlSGl0c1tpZHhdKS5UbygmcnVsZUhpdCkKCQkJcnVsZUhpdC5SdWxlTmFtZSA9IG5hbWUKCQkJYnVpbGRlci5SdWxlSGl0c1tpZHhdID0gcnVsZUhpdAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJCQo=</text>
+        <text encoding="base64">CQkKCQluYW1lTGlzdCA6PSB2YWx1ZS4oW11zdHJpbmcpCg==</text>
       </register>
-      <register name="5" type="8">
-        <text>ItemManPartNo
-ItemManPartNo
-
-            
-
-temManPartNo
-
-temManPartNo
-
-temManPartNo
-
-
-emManPartNo
- 
-           
-I
-emManPartNo
-I
-emManPartNo
-I</text>
+      <register name="5" type="2">
+        <text encoding="base64">CQkJYnVpbGRlci5SdWxlSGl0c1tpZHhdID0gcnVsZUhpdAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQlicmVhawo=</text>
+        <text encoding="base64">CQkJdC5MaXN0SGl0cyAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CS8vY2FzZSBLZXl3b3JkRmllbGQ6CgkvLwlyZXR1cm4gKnV0aWwuVGVybUtleXdvcmRDb25kaXRpb24ocy5OYW1lLCB1dGlsLkdldFN0cmluZ1B0cihwcm9wZXJ0eVZhbHVlKSksIG5pbAo=</text>
+        <text encoding="base64">CQkJYnVpbGRlci5SdWxlSGl0c1tpZHhdID0gUnVsZUhpdFJlc3BvbnNlewoJCQkJUnVsZUlkOiAgICAgICAgLAoJCQkJUnVsZU5hbWU6ICAgICAgIiIsCgkJCQlSdWxlQ29uZGl0aW9uOiAiIiwKCQkJfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CW5lc3RSb290IAo=</text>
+        <text encoding="base64">CQkJbGlzdEhpdC5MaXN0SW5mb0lkLkxpc3ROYW1lID0gbmFtZUxpc3RbaWR4XQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CS8vY2FzZSBLZXl3b3JkRmllbGQ6CgkvLwlyZXR1cm4gKnV0aWwuVGVybUtleXdvcmRDb25kaXRpb24ocy5OYW1lLCB1dGlsLkdldFN0cmluZ1B0cihwcm9wZXJ0eVZhbHVlKSksIG5pbAo=</text>
+        <text encoding="base64">CQlidWlsZGVyLlJ1bGVIaXRzID0K</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
