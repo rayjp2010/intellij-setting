@@ -70,12 +70,12 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591356669338">
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591357170670">
         <mark key="'" line="938" column="5" />
-        <mark key="[" line="396" column="45" />
-        <mark key="]" line="396" column="45" />
-        <mark key="." line="396" column="45" />
-        <mark key="^" line="396" column="45" />
+        <mark key="[" line="210" column="47" />
+        <mark key="]" line="210" column="72" />
+        <mark key="." line="210" column="71" />
+        <mark key="^" line="210" column="72" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591355228713">
         <mark key="'" line="466" column="25" />
@@ -98,13 +98,15 @@
         <mark key="^" line="143" column="65" />
         <mark key="." line="143" column="64" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591319678015" />
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591353605564">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591358044302">
         <mark key="'" line="402" column="57" />
-        <mark key="[" line="487" column="26" />
-        <mark key="]" line="487" column="31" />
-        <mark key="^" line="494" column="40" />
-        <mark key="." line="487" column="26" />
+        <mark key="[" line="582" column="18" />
+        <mark key="]" line="582" column="18" />
+        <mark key="^" line="582" column="19" />
+        <mark key="." line="582" column="18" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1591357940105">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1591329594213">
         <mark key="'" line="40" column="42" />
@@ -116,7 +118,7 @@
         <mark key="^" line="66" column="89" />
         <mark key="." line="66" column="88" />
       </file>
-      <file name="/fragment.go" timestamp="1591340501797">
+      <file name="/fragment.go" timestamp="1591357983587">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1591340015020">
@@ -135,12 +137,12 @@
         <mark key="." line="134" column="38" />
         <mark key="^" line="131" column="47" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591355485548">
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591356831256">
         <mark key="'" line="62" column="57" />
-        <mark key="[" line="132" column="35" />
-        <mark key="]" line="132" column="75" />
-        <mark key="." line="123" column="70" />
-        <mark key="^" line="123" column="71" />
+        <mark key="[" line="110" column="116" />
+        <mark key="]" line="110" column="121" />
+        <mark key="." line="110" column="120" />
+        <mark key="^" line="110" column="121" />
       </file>
       <file name="/search_order_template.json" timestamp="1591326133908" />
       <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591347982086" />
@@ -1031,19 +1033,19 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IGlzIG5vdCB3b3JraW5nCQ==</text>
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGlzIG5vdCB3b3JraW5nCQ==</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>latitude</text>
       </register>
-      <register name="0" type="4">
-        <text>order.shopperInfo.geoData.geolocation.lat</text>
+      <register name="0" type="2">
+        <text encoding="base64">CQkJYnVpbGRlci5SdWxlSGl0c1tpZHhdLlJ1bGVOYW1lID0gbmFtZUxpc3RbaWR4XQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkJbGlzdEhpdC5MaXN0SW5mb0lkLkxpc3ROYW1lID0gbmFtZUxpc3RbaWR4XQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1833,9 +1835,15 @@
         </keys>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">CQlidWlsZGVyLlJ1bGVIaXRzID0K</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">CQkJCQo=</text>
       </register>
-      <register name="3" type="8">
+      <register name="5" type="8">
         <text>ItemManPartNo
 ItemManPartNo
 
@@ -1857,23 +1865,17 @@ I
 emManPartNo
 I</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">CQlicmVhawo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">CS8vY2FzZSBLZXl3b3JkRmllbGQ6CgkvLwlyZXR1cm4gKnV0aWwuVGVybUtleXdvcmRDb25kaXRpb24ocy5OYW1lLCB1dGlsLkdldFN0cmluZ1B0cihwcm9wZXJ0eVZhbHVlKSksIG5pbAo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">CW5lc3RSb290IAo=</text>
+        <text encoding="base64">CQlicmVhawo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">CS8vY2FzZSBLZXl3b3JkRmllbGQ6CgkvLwlyZXR1cm4gKnV0aWwuVGVybUtleXdvcmRDb25kaXRpb24ocy5OYW1lLCB1dGlsLkdldFN0cmluZ1B0cihwcm9wZXJ0eVZhbHVlKSksIG5pbAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQl7ImhhbmRsZSBlbXB0eSBuZXN0ZWQgZmllbGRzIGNvcnJlY3RseSIsIFtdc3RyaW5ne30sIEpzb25NYXB7ImtleSI6ICJ2YWx1ZSJ9LCBKc29uTWFweyJrZXkiOiAidmFsdWUifX0sCg==</text>
+        <text encoding="base64">CW5lc3RSb290IAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQkJSnNvbk1hcHtuZXN0ZWQ6IEpzb25NYXB7CgkJCQlwYXRoOiAibmVzdDEiLCBxdWVyeTogSnNvbk1hcHsKCQkJCQluZXN0ZWQ6IEpzb25NYXB7CgkJCQkJCXBhdGg6ICJuZXN0MiIsIHF1ZXJ5OiBKc29uTWFwewoJCQkJCQkJbmVzdGVkOiBKc29uTWFwewoJCQkJCQkJCXBhdGg6ICJuZXN0MyIsIHF1ZXJ5OiBKc29uTWFweyJrZXkiOiAidmFsdWUifSwgYGAKCQkJCQkJCX0sCgkJCQkJCX0sCgkJCQkJfSwKCQkJCX0sCgkJCX19LAoJCX0sCg==</text>
+        <text encoding="base64">CS8vY2FzZSBLZXl3b3JkRmllbGQ6CgkvLwlyZXR1cm4gKnV0aWwuVGVybUtleXdvcmRDb25kaXRpb24ocy5OYW1lLCB1dGlsLkdldFN0cmluZ1B0cihwcm9wZXJ0eVZhbHVlKSksIG5pbAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
