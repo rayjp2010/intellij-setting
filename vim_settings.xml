@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ipcountry</entry>
         <entry>orderAmount</entry>
         <entry>cardFinger</entry>
         <entry>enabled</entry>
@@ -25,6 +24,7 @@
         <entry>latitude</entry>
         <entry>deliveryDate</entry>
         <entry>cardCountryCode</entry>
+        <entry>cardCOuntry</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -70,12 +70,12 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591362206152">
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591362931661">
         <mark key="'" line="938" column="5" />
-        <mark key="[" line="384" column="52" />
-        <mark key="]" line="384" column="65" />
-        <mark key="." line="381" column="15" />
-        <mark key="^" line="381" column="16" />
+        <mark key="[" line="383" column="75" />
+        <mark key="]" line="383" column="75" />
+        <mark key="." line="383" column="75" />
+        <mark key="^" line="383" column="78" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591362631301">
         <mark key="'" line="367" column="40" />
@@ -98,10 +98,10 @@
         <mark key="^" line="143" column="65" />
         <mark key="." line="143" column="64" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591359016122">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591362926727">
         <mark key="'" line="402" column="57" />
-        <mark key="[" line="629" column="68" />
-        <mark key="]" line="629" column="69" />
+        <mark key="[" line="664" column="10" />
+        <mark key="]" line="664" column="25" />
         <mark key="." line="629" column="68" />
         <mark key="^" line="629" column="69" />
       </file>
@@ -111,8 +111,8 @@
       <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1591329594213">
         <mark key="'" line="40" column="42" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591353526262">
-        <mark key="'" line="93" column="10" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591362844669">
+        <mark key="'" line="87" column="13" />
         <mark key="[" line="66" column="79" />
         <mark key="]" line="66" column="89" />
         <mark key="^" line="66" column="89" />
@@ -163,7 +163,6 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/test/java/com/rakuten/fpg/ui/admintool/domain/logic/SearchTransactionLogicImplTest.java" timestamp="1591355661890" />
     </filemarks>
     <jumps>
-      <jump line="397" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="77" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="295" column="26" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="187" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -263,6 +262,7 @@
       <jump line="208" column="23" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="641" column="34" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="367" column="40" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="87" column="13" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1033,16 +1033,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>text</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>text</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>cardCountryCode</text>
+        <text>cardCOuntry</text>
       </register>
       <register name="0" type="4">
-        <text>test-order-100</text>
+        <text>CardCountryCodes</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQllbmRUaW1lLCBlcnIgOj0gdXRpbC5Db252ZXJ0RXBvY2hTdHJpbmdUb1RpbWVTdHJpbmcodXRpbC5HZXRTdHJpbmdQdHIocHJvcGVydHlWYWx1ZSksIGVuZExheW91dCkK</text>
@@ -1865,9 +1865,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>cardCountryCode</last-search>
+      <last-search>cardCOuntry</last-search>
       <last-offset />
-      <last-pattern>cardCountryCode</last-pattern>
+      <last-pattern>cardCOuntry</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
