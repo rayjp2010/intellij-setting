@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>shippingInfo</entry>
-        <entry>DeliveryDate</entry>
         <entry>rawCardHolderName</entry>
         <entry>cardBin</entry>
         <entry>cardHash</entry>
@@ -25,6 +23,8 @@
         <entry>getPhone</entry>
         <entry>email</entry>
         <entry>rawEmail</entry>
+        <entry>ipAddress</entry>
+        <entry>rpCookie</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -60,19 +60,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591330241572">
-        <mark key="'" line="698" column="28" />
-        <mark key="[" line="64" column="42" />
-        <mark key="]" line="64" column="43" />
-        <mark key="." line="64" column="43" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591335531249">
+        <mark key="'" line="76" column="30" />
+        <mark key="[" line="91" column="38" />
+        <mark key="]" line="91" column="39" />
+        <mark key="." line="91" column="39" />
         <mark key="^" line="128" column="65" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1591262091732">
-        <mark key="'" line="2" column="14" />
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="89" column="1" />
-        <mark key="^" line="90" column="0" />
-        <mark key="." line="90" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591330304171">
         <mark key="'" line="378" column="21" />
@@ -84,6 +77,13 @@
       <file name="$USER_HOME$/go/src/odin/util/time.go" timestamp="1591318796358">
         <mark key="[" line="12" column="27" />
         <mark key="]" line="12" column="54" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1591335977569">
+        <mark key="'" line="425" column="5" />
+        <mark key="[" line="278" column="31" />
+        <mark key="]" line="282" column="21" />
+        <mark key="^" line="282" column="21" />
+        <mark key="." line="282" column="20" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591319678015" />
       <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591263866922">
@@ -113,9 +113,12 @@
       <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1591329594213">
         <mark key="'" line="40" column="42" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1591255296092">
-        <mark key="[" line="35" column="31" />
-        <mark key="]" line="35" column="58" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591335924079">
+        <mark key="'" line="95" column="12" />
+        <mark key="[" line="108" column="70" />
+        <mark key="]" line="108" column="70" />
+        <mark key="^" line="8" column="32" />
+        <mark key="." line="108" column="70" />
       </file>
       <file name="/fragment.go" timestamp="1591319999796">
         <mark key="[" line="0" column="0" />
@@ -137,8 +140,8 @@
         <mark key="." line="134" column="38" />
         <mark key="^" line="131" column="47" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591329401135">
-        <mark key="'" line="18" column="8" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591335907254">
+        <mark key="'" line="96" column="6" />
         <mark key="[" line="18" column="0" />
         <mark key="]" line="87" column="68" />
         <mark key="." line="234" column="38" />
@@ -161,9 +164,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="582" column="12" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
-      <jump line="63" column="17" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
-      <jump line="39" column="57" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="64" column="16" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="201" column="75" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="22" column="2" filename="$USER_HOME$/go/src/odin/docker/docker-compose.yml" />
@@ -261,6 +261,9 @@
       <jump line="696" column="28" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="698" column="28" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="378" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="76" column="30" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="95" column="12" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="96" column="6" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1030,14 +1033,14 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgInR5cGUiOiAia2V5d29yZCIsCiAgICAgICAgICAgICAgICAgICJpZ25vcmVfYWJvdmUiOiAyNTYK</text>
+      <register name="*" type="4">
+        <text>GetCookie()</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;m2&quot;</text>
+        <text>GetCookie()</text>
       </register>
       <register name="/" type="4">
-        <text>rawEmail</text>
+        <text>rpCookie</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgInR5cGUiOiAia2V5d29yZCIsCiAgICAgICAgICAgICAgICAgICJpZ25vcmVfYWJvdmUiOiAyNTYK</text>
@@ -1863,9 +1866,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>rawEmail</last-search>
+      <last-search>rpCookie</last-search>
       <last-offset />
-      <last-pattern>rawEmail</last-pattern>
+      <last-pattern>rpCookie</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
