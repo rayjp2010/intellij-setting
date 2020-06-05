@@ -70,12 +70,12 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591355078011">
-        <mark key="'" line="937" column="5" />
-        <mark key="[" line="307" column="96" />
-        <mark key="]" line="307" column="125" />
-        <mark key="." line="307" column="124" />
-        <mark key="^" line="307" column="125" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591356669338">
+        <mark key="'" line="938" column="5" />
+        <mark key="[" line="396" column="45" />
+        <mark key="]" line="396" column="45" />
+        <mark key="." line="396" column="45" />
+        <mark key="^" line="396" column="45" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591355228713">
         <mark key="'" line="466" column="25" />
@@ -1031,10 +1031,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>order.shopperInfo.geoData.geolocation.lat</text>
+        <text encoding="base64">IGlzIG5vdCB3b3JraW5nCQ==</text>
       </register>
       <register name="-" type="4">
-        <text>Hourly</text>
+        <text encoding="base64">IGlzIG5vdCB3b3JraW5nCQ==</text>
       </register>
       <register name="/" type="4">
         <text>latitude</text>
