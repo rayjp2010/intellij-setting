@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>getPhone</entry>
-        <entry>email</entry>
         <entry>rawEmail</entry>
         <entry>ipAddress</entry>
         <entry>rpCookie</entry>
@@ -25,6 +23,8 @@
         <entry>shippingName</entry>
         <entry>shippingInfo</entry>
         <entry>IPCountry</entry>
+        <entry>countryCodes</entry>
+        <entry>ipCountry</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -95,12 +95,12 @@
         <mark key="^" line="322" column="58" />
         <mark key="." line="323" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1591335977569">
-        <mark key="'" line="425" column="5" />
-        <mark key="[" line="278" column="31" />
-        <mark key="]" line="282" column="21" />
-        <mark key="^" line="282" column="21" />
-        <mark key="." line="282" column="20" />
+      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1591353474330">
+        <mark key="'" line="429" column="5" />
+        <mark key="[" line="142" column="69" />
+        <mark key="]" line="143" column="65" />
+        <mark key="^" line="143" column="65" />
+        <mark key="." line="143" column="64" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591319678015" />
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591350508349">
@@ -116,12 +116,12 @@
       <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1591329594213">
         <mark key="'" line="40" column="42" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591353117205">
-        <mark key="'" line="95" column="12" />
-        <mark key="[" line="66" column="58" />
-        <mark key="]" line="56" column="4" />
-        <mark key="^" line="56" column="4" />
-        <mark key="." line="56" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591353526262">
+        <mark key="'" line="93" column="10" />
+        <mark key="[" line="66" column="79" />
+        <mark key="]" line="66" column="89" />
+        <mark key="^" line="66" column="89" />
+        <mark key="." line="66" column="88" />
       </file>
       <file name="/fragment.go" timestamp="1591340501797">
         <mark key="[" line="0" column="0" />
@@ -166,8 +166,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="702" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="463" column="28" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="388" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="495" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="538" column="25" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -266,6 +264,8 @@
       <jump line="124" column="70" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="27" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="60" column="60" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="91" column="11" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
+      <jump line="93" column="10" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1036,16 +1036,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>geoData.GetCountryCode()</text>
+        <text>JP;JP</text>
       </register>
       <register name="-" type="4">
-        <text>geoData.GetCountryCode()</text>
+        <text>ShippingCity</text>
       </register>
       <register name="/" type="4">
-        <text>IPCountry</text>
+        <text>ipCountry</text>
       </register>
       <register name="0" type="4">
-        <text>CategoryId</text>
+        <text>JP;JP</text>
       </register>
       <register name="1" type="8">
         <text>ItemManPartNo
@@ -1887,9 +1887,9 @@ I</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>IPCountry</last-search>
+      <last-search>ipCountry</last-search>
       <last-offset />
-      <last-pattern>IPCountry</last-pattern>
+      <last-pattern>ipCountry</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
