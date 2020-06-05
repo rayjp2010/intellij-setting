@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>productSku</entry>
         <entry>billingAddressLine1</entry>
         <entry>avsResponseCode</entry>
         <entry>shippingCity</entry>
@@ -25,6 +24,7 @@
         <entry>serviceId</entry>
         <entry>cardCountryCodes</entry>
         <entry>organizationIds</entry>
+        <entry>postalCode</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -70,12 +70,12 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591344267377">
-        <mark key="'" line="1197" column="0" />
-        <mark key="[" line="1508" column="0" />
-        <mark key="]" line="1508" column="0" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591348326289">
+        <mark key="'" line="919" column="23" />
+        <mark key="[" line="937" column="42" />
+        <mark key="]" line="937" column="52" />
         <mark key="^" line="667" column="66" />
-        <mark key="." line="1508" column="0" />
+        <mark key="." line="937" column="42" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591341116651">
         <mark key="'" line="374" column="21" />
@@ -150,7 +150,7 @@
         <mark key="^" line="229" column="63" />
       </file>
       <file name="/search_order_template.json" timestamp="1591326133908" />
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591328189685" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591347982086" />
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591318517125">
         <mark key="'" line="75" column="44" />
         <mark key="[" line="195" column="45" />
@@ -166,8 +166,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="120" column="24" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="124" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="508" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="532" column="42" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="474" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
@@ -266,6 +264,8 @@
       <jump line="31" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="196" column="4" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="1167" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="919" column="23" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1036,16 +1036,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>, nil</text>
+        <text>RawAddress</text>
       </register>
       <register name="-" type="4">
         <text>, nil</text>
       </register>
       <register name="/" type="4">
-        <text>organizationIds</text>
+        <text>postalCode</text>
       </register>
       <register name="0" type="4">
-        <text>nestRoot =</text>
+        <text>RawAddress</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQlicmVhawo=</text>
@@ -1868,9 +1868,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>organizationIds</last-search>
+      <last-search>postalCode</last-search>
       <last-offset />
-      <last-pattern>organizationIds</last-pattern>
+      <last-pattern>postalCode</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
