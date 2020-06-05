@@ -63,12 +63,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591343129894">
-        <mark key="'" line="1226" column="4" />
-        <mark key="[" line="630" column="75" />
-        <mark key="]" line="630" column="83" />
-        <mark key="^" line="618" column="73" />
-        <mark key="." line="630" column="75" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591344267377">
+        <mark key="'" line="1197" column="0" />
+        <mark key="[" line="1508" column="0" />
+        <mark key="]" line="1508" column="0" />
+        <mark key="^" line="667" column="66" />
+        <mark key="." line="1508" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591341116651">
         <mark key="'" line="374" column="21" />
@@ -163,7 +163,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="303" column="20" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="118" column="62" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="404" column="57" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="461" column="5" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
@@ -263,6 +262,7 @@
       <jump line="374" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="435" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="1193" column="4" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="1197" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1032,8 +1032,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>m2</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>m2</text>
@@ -1042,10 +1042,10 @@
         <text>organizationIds</text>
       </register>
       <register name="0" type="4">
-        <text>address2</text>
+        <text>city2</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkJCQlXaXRoKCJPcmdhbml6YXRpb25JZHMiLCBbXWludDY0ezMzMzN9KS4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1835,28 +1835,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXQyLk9yZGVyLlNlcnZpY2VJZCA9IHUuR2V0SW50NjRQdHIoMzMzMykK</text>
+        <text encoding="base64">CQkJCQlXaXRoKCJPcmdhbml6YXRpb25JZHMiLCBbXWludDY0ezMzMzN9KS4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLlNlcnZpY2VJZCA9IHUuR2V0SW50NjRQdHIoNjY2NikK</text>
+        <text encoding="base64">CXQyLk9yZGVyLlNlcnZpY2VJZCA9IHUuR2V0SW50NjRQdHIoMzMzMykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJCVdpdGgoIm9yZ2FuaXphdGlvbklkcyIsIHUuR2V0U3RyaW5nUHRyKCIiKSkuCg==</text>
+        <text encoding="base64">CXQxLk9yZGVyLlNlcnZpY2VJZCA9IHUuR2V0SW50NjRQdHIoNjY2NikK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkJCVdpdGgoIm9yZ2FuaXphdGlvbklkcyIsIHUuR2V0U3RyaW5nUHRyKCIiKSkuCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQkJCVdpdGgoIk9yZ2FuaXphdGlvbklkcyIsIFtdaW50NjR7OTk5OX0pLgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXQzLk9yZGVyLlNlcnZpY2VJZCA9IHUuR2V0SW50NjRQdHIoOTk5OCkK</text>
+        <text encoding="base64">CQkJCVdpdGgoIk9yZ2FuaXphdGlvbklkcyIsIFtdaW50NjR7OTk5OX0pLgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQkJCQlXaXRoKCJPcmdhbml6YXRpb25JZCIsIHUuR2V0U3RyaW5nUHRyKCJ0ZXN0LW9yZGVyLTkxIikpLgo=</text>
+        <text encoding="base64">CXQzLk9yZGVyLlNlcnZpY2VJZCA9IHUuR2V0SW50NjRQdHIoOTk5OCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CXQxLk9yZGVyLlNlcnZpY2VJZCA9IHUuR2V0Qm9vbFB0cih0cnVlKQo=</text>
+        <text encoding="base64">CQkJCQlXaXRoKCJPcmdhbml6YXRpb25JZCIsIHUuR2V0U3RyaW5nUHRyKCJ0ZXN0LW9yZGVyLTkxIikpLgo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
