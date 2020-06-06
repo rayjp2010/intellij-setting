@@ -66,11 +66,10 @@
       <file name="/Dummy.txt" timestamp="1591357940105">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/go-playground/main.go" timestamp="1591410909418">
-        <mark key="[" line="0" column="13" />
-        <mark key="]" line="2" column="8" />
-        <mark key="^" line="2" column="8" />
-        <mark key="." line="2" column="7" />
+      <file name="$USER_HOME$/Workspace/go-playground/main.go" timestamp="1591411974040">
+        <mark key="[" line="18" column="16" />
+        <mark key="]" line="18" column="17" />
+        <mark key="." line="18" column="17" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1591406876074">
         <mark key="'" line="205" column="0" />
@@ -168,8 +167,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="350" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="503" column="22" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="129" column="38" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="464" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="206" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -268,6 +265,8 @@
       <jump line="78" column="44" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="264" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="205" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="22" column="19" filename="$USER_HOME$/Workspace/go-playground/main.go" />
+      <jump line="8" column="3" filename="$USER_HOME$/Workspace/go-playground/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1038,46 +1037,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>100</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>100</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>cardCOuntry</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CWZtdC5QcmludGxuKDwtZG9uZSkK</text>
+        <text encoding="base64">CQkJZm10LlByaW50bG4oY3R4LkVycigpLCBzdHIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkK</text>
+        <text encoding="base64">CQlmbXQuUHJpbnRsbihzdHIgKyAicnVubmluZyIpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWNsb3NlKGRvbmUpCg==</text>
+        <text encoding="base64">CXRpbWUuU2xlZXAoMSAqIHRpbWUuU2Vjb25kKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQkJCQo=</text>
+        <text encoding="base64">CWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkKCWZtdC5QcmludGxuKDwtZG9uZSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJCQo=</text>
+        <text encoding="base64">CWNsb3NlKGRvbmUpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWZtdC5QcmludGxuKDwtYykK</text>
+        <text encoding="base64">CQkJCQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQlkb25lIDo9IG1ha2UoY2hhbiBib29sKQo=</text>
+        <text encoding="base64">CQkJCQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQl0aW1lcyA6PSBtYWtlKFtdaW50LCAxMDApCg==</text>
+        <text encoding="base64">CWZtdC5QcmludGxuKDwtYykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQlyZXR1cm4gZG9uZQo=</text>
+        <text encoding="base64">CQlkb25lIDo9IG1ha2UoY2hhbiBib29sKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWMgOj0K</text>
+        <text encoding="base64">CQl0aW1lcyA6PSBtYWtlKFtdaW50LCAxMDApCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
