@@ -79,11 +79,11 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591425025816">
-        <mark key="[" line="38" column="56" />
-        <mark key="]" line="38" column="39" />
-        <mark key="." line="38" column="38" />
-        <mark key="^" line="38" column="39" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591426920374">
+        <mark key="[" line="36" column="85" />
+        <mark key="]" line="36" column="89" />
+        <mark key="." line="36" column="88" />
+        <mark key="^" line="36" column="89" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591362631301">
         <mark key="'" line="367" column="40" />
@@ -102,12 +102,11 @@
       <file name="$USER_HOME$/go/src/odin/util/main.go" timestamp="1591400257227">
         <mark key="[" line="0" column="12" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591424790312">
-        <mark key="'" line="16" column="0" />
-        <mark key="[" line="94" column="20" />
-        <mark key="]" line="94" column="30" />
-        <mark key="^" line="94" column="30" />
-        <mark key="." line="94" column="29" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591427388295">
+        <mark key="'" line="15" column="0" />
+        <mark key="[" line="87" column="18" />
+        <mark key="]" line="87" column="18" />
+        <mark key="." line="87" column="18" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591362926727">
         <mark key="'" line="402" column="57" />
@@ -133,7 +132,7 @@
         <mark key="^" line="10" column="12" />
         <mark key="." line="10" column="11" />
       </file>
-      <file name="/fragment.go" timestamp="1591357983587">
+      <file name="/fragment.go" timestamp="1591425240870">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/go1.12.17/src/net/http/request.go" timestamp="1591423821964">
@@ -150,12 +149,12 @@
         <mark key="[" line="96" column="11" />
         <mark key="]" line="96" column="43" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591423260808">
-        <mark key="'" line="32" column="11" />
-        <mark key="[" line="142" column="103" />
-        <mark key="]" line="146" column="27" />
-        <mark key="." line="146" column="26" />
-        <mark key="^" line="146" column="27" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591427429349">
+        <mark key="'" line="31" column="11" />
+        <mark key="[" line="141" column="82" />
+        <mark key="]" line="141" column="83" />
+        <mark key="." line="141" column="83" />
+        <mark key="^" line="141" column="86" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591400340484">
         <mark key="'" line="264" column="0" />
@@ -1042,46 +1041,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>0</text>
+        <text>ctx,</text>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>ctx,</text>
       </register>
       <register name="/" type="4">
         <text>ctx</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQlmbXQuUHJpbnRsbihyZXFDdHguRGVhZGxpbmUoKSkK</text>
+        <text encoding="base64">CXNlbGVjdCB7CgljYXNlIHJlc3BCIDo9IDwtcmVzcEJDOgoJCXJldHVybiByZXNwQiwgbmlsCgljYXNlIGVyciA6PSA8LWVyckM6CgkJcmV0dXJuIG5pbCwgZXJyCgl9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWNhbmNlbCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQkJZm10LlByaW50bG4ocmVzcCkK</text>
+        <text encoding="base64">CQlib2R5U3RyaW5nIDo9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQkJY3R4IDo9IGNvbnRleHQuQmFja2dyb3VuZCgpCg==</text>
+        <text encoding="base64">CQlib2R5U3RyaW5nIDo9IHN0cmluZ3MuUmVwbGFjZUFsbChzdHJpbmcoYm9keSksICJcbiIsICIiKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJfSh0ZXN0Q3R4KQo=</text>
+        <text encoding="base64">CQlib2R5LCBlcnIgOj0gaW91dGlsLlJlYWRBbGwocmVzcC5Cb2R5KQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkJZ28gZnVuYyhjdHggY29udGV4dC5Db250ZXh0KSB7Cg==</text>
+        <text encoding="base64">CXJlcS5XaXRoQ29udGV4dChjdHgpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWNsaWVudCA6PSAmaHR0cC5DbGllbnR7CgkJLy9UaW1lb3V0OiB0aW1lLlNlY29uZCAqIDUsCgl9CglpZiBlcnIgIT0gbmlsIHsKCQlwYW5pYyhlcnIpCgl9Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">CXJldHVybiBSZXNwb25zZUJ1bmRsZXsKCQlTdGF0dXNDb2RlOiByZXNwLlN0YXR1c0NvZGUsCgkJUkJvZHk6Cgl9Cg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICZSZXNwb25zZUJ1bmRsZXsKCQkJU3RhdHVzQ29kZTogcmVzcC5TdGF0dXNDb2RlLAoJCQlSQm9keTogICAgICBib2R5U3RyaW5nLAoJCX0=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CQkJcmV0dXJuIG5pbCwgZXJyCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">CQkJYm9keVN0cmluZyA6PSBzdHJpbmdzLlJlcGxhY2VBbGwoc3RyaW5nKGJvZHkpLCAiXG4iLCAiIiksCg==</text>
+        <text encoding="base64">CWJvZHksIGVyciA6PSBpb3V0aWwuUmVhZEFsbChyZXNwLkJvZHkpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCWJvZHlTdHJpbmcgOj0gc3RyaW5ncy5SZXBsYWNlQWxsKHN0cmluZyhib2R5KSwgIlxuIiwgIiIpCglyZXR1cm4gJlJlc3BvbnNlQnVuZGxlewoJCVN0YXR1c0NvZGU6IHJlc3AuU3RhdHVzQ29kZSwKCQlSQm9keTogICAgICBib2R5U3RyaW5nLAoJfSwgbmlsCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
