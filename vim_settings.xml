@@ -66,11 +66,11 @@
       <file name="/Dummy.txt" timestamp="1591357940105">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/go-playground/main.go" timestamp="1591406549338">
-        <mark key="[" line="38" column="29" />
-        <mark key="]" line="38" column="30" />
-        <mark key="." line="38" column="29" />
-        <mark key="^" line="38" column="30" />
+      <file name="$USER_HOME$/Workspace/go-playground/main.go" timestamp="1591410909418">
+        <mark key="[" line="0" column="13" />
+        <mark key="]" line="2" column="8" />
+        <mark key="^" line="2" column="8" />
+        <mark key="." line="2" column="7" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1591406876074">
         <mark key="'" line="205" column="0" />
