@@ -66,33 +66,30 @@
         <mark key="." line="97" column="3" />
         <mark key="^" line="97" column="4" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591512089104">
-        <mark key="[" line="37" column="25" />
-        <mark key="]" line="38" column="33" />
-        <mark key="." line="38" column="32" />
-        <mark key="^" line="38" column="33" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591515421692">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591511398571">
-        <mark key="[" line="27" column="12" />
-        <mark key="]" line="27" column="33" />
-        <mark key="." line="27" column="32" />
-        <mark key="^" line="27" column="33" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591514403523">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="29" column="5" />
+        <mark key="." line="28" column="51" />
+        <mark key="^" line="28" column="52" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591511371904">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591515486664">
         <mark key="'" line="20" column="8" />
-        <mark key="]" line="68" column="40" />
-        <mark key="." line="68" column="39" />
-        <mark key="^" line="68" column="40" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-user.ts" timestamp="1591275432242">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591509744956">
-        <mark key="[" line="284" column="0" />
-        <mark key="]" line="284" column="0" />
-        <mark key="." line="284" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591515450014">
+        <mark key="[" line="289" column="5" />
+        <mark key="]" line="288" column="12" />
+        <mark key="." line="288" column="11" />
+        <mark key="^" line="288" column="12" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -113,7 +110,12 @@
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="44" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591503287256" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591514414565">
+        <mark key="[" line="28" column="6" />
+        <mark key="]" line="28" column="20" />
+        <mark key="." line="28" column="19" />
+        <mark key="^" line="28" column="20" />
+      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
         <mark key="[" line="11" column="10" />
         <mark key="]" line="11" column="22" />
@@ -1008,19 +1010,19 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>DemandEntity</text>
+        <text>cond: Matching</text>
       </register>
       <register name="-" type="4">
-        <text>DemandEntity</text>
+        <text>cond: Matching</text>
       </register>
       <register name="/" type="4">
         <text>rule1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBATXV0YXRpb24KICBTRVRfTUFUQ0hJTkcgKHBheWxvYWQ6IERlbWFuZEVudGl0eSkgewogICAgdGhpcy5zZWxlY3RlZERlbWFuZCA9IHBheWxvYWQKICB9Cg==</text>
+        <text encoding="base64">ICBnZXQgc2VsZWN0ZWRGYWNlU2hpZWxkVHlwZSAoKTogRmFjZVNoaWVsZFR5cGUgfCBudWxsIHsKICAgIGNvbnN0IHNlbGVjdGVkID0gdGhpcy5tYXRjaGluZy5zZWxlY3RlZFN1cHBseSB8fCB0aGlzLm1hdGNoaW5nLnNlbGVjdGVkRGVtYW5kCiAgICByZXR1cm4gc2VsZWN0ZWQgPyBzZWxlY3RlZC5mYWNlU2hpZWxkVHlwZSA6IG51bGwKICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHRoaXMubWF0Y2hpbmcgPSB7CiAgICAgIC4uLnRoaXMubWF0Y2hpbmcsCiAgICAgIC4uLnBheWxvYWQsCiAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1810,28 +1812,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBtYXRjaGluZzogTWF0Y2hpbmcgPSB7CiAgICBzZWxlY3RlZERlbWFuZDogbnVsbCwKICAgIHNlbGVjdGVkU3VwcGx5OiBudWxsLAogIH0K</text>
+        <text encoding="base64">ICBnZXQgc2VsZWN0ZWQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGl0ZW0ub3duZXJJZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZWludGVyZmFjZSBNYXRjaGluZyB7CiAgc2VsZWN0ZWREZW1hbmQ6IERlbWFuZEVudGl0eSB8IG51bGwKICBzZWxlY3RlZFN1cHBseTogU3VwcGx5RW50aXR5IHwgbnVsbAp9Cg==</text>
+        <text encoding="base64">ICAgIGlmIChjb25kaXRpb25TdG9yZSkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBtYXRjaGluZzogTWF0Y2hpbmcgPSB7CiAgICBzZWxlY3RlZERlbWFuZDogbnVsbCwKICAgIHNlbGVjdGVkU3VwcGx5OiBudWxsLAogIH0K</text>
+        <text encoding="base64">ICAgIGlmICh0aGlzLm1hdGNoaW5nLnNlbGVjdGVkRGVtYW5kKXsKICAgICAgcmV0dXJuIHRoaXMubWF0Y2hpbmcuc2VsZWN0ZWREZW1hbmQuZmFjZVNoaWVsZFR5cGUKICAgIH1lbHNlIGlmICh0aGlzLm1hdGNoaW5nLnNlbGVjdGVkU3VwcGx5KXsKICAgICAgcmV0dXJuIHRoaXMubWF0Y2hpbmcuc2UxMQogICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IE1hdGNoYWJsZUVudGl0eSBmcm9tICJ+L2VudGl0eS9NYXRjaGFibGVFbnRpdHkiOwo=</text>
+        <text encoding="base64">ICAgIGlmICghdGhpcy5tYXRjaGluZy5zZWxlY3RlZFN1cHBseSAmJiAhdGhpcy5tYXRjaGluZy5zZWxlY3RlZERlbWFuZCkgewogICAgICByZXR1cm4gbnVsbAogICAgfQo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBpc1NlbGVjdGVkIChpdGVtOiBNYXRjaGFibGVFbnRpdHkpOiBib29sZWFuIHsKICAgIHJldHVybiBmYWxzZQogIH0K</text>
+        <text encoding="base64">ICBnZXQgc2VsZWN0ZWRGYWNlVHlwZSAoKSB7CiAgICAKICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICB9Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
