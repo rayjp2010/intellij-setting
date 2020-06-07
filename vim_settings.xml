@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>tabValue</entry>
         <entry>selectable</entry>
         <entry>createMatch</entry>
         <entry>matchCount</entry>
@@ -25,6 +24,7 @@
         <entry>rowClick</entry>
         <entry>click</entry>
         <entry>isAdmin</entry>
+        <entry>admin</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -77,11 +77,12 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591533805223">
-        <mark key="[" line="216" column="21" />
-        <mark key="]" line="216" column="32" />
-        <mark key="." line="216" column="31" />
-        <mark key="^" line="216" column="32" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591535387634">
+        <mark key="'" line="201" column="0" />
+        <mark key="[" line="198" column="67" />
+        <mark key="]" line="199" column="76" />
+        <mark key="." line="199" column="75" />
+        <mark key="^" line="199" column="76" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -128,7 +129,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="540" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="127" column="50" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
       <jump line="572" column="49" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="790" column="12" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
@@ -228,6 +228,7 @@
       <jump line="62" column="19" filename="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" />
       <jump line="97" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" />
       <jump line="12" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" />
+      <jump line="195" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1000,20 +1001,20 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>true</text>
       </register>
       <register name="-" type="4">
-        <text>user.userType === 'RECIPIENT'</text>
+        <text>true</text>
       </register>
       <register name="/" type="4">
-        <text>isAdmin</text>
+        <text>admin</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBnZXQgaXNTdXBwbGllciAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy51c2VyLnVzZXJUeXBlID09PSAnU1VQUExJRVInCiAgfQo=</text>
+        <text encoding="base64">ICBnZXQgaXNTdXBwbGllciAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdXNlclN0b3JlLmlzU3VwcGxpZXIKICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgfWVsc2UgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1803,28 +1804,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBnZXQgaW52aXNpYmxlRmllbGRzICgpOiBzdHJpbmdbXSB8IG51bGwgewogICAgaWYgKHRoaXMuaXNBZG1pbikgewogICAgICByZXR1cm4gbnVsbAogICAgfQogICAgcmV0dXJuIHRoaXMuaXNSZWNpcGllbnQKICAgICAgPyBbXQogICAgICA6IFtdCiAgfQo=</text>
+        <text encoding="base64">ICAgICAgaWYgKHRoaXMuaXNSZWNpcGllbnQpIHsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGlmICh0aGlzLmlzUmVjaXBpZW50KSB7CiAgICAgIHJldHVybiBbXQogICAgfWVsc2Uge30K</text>
+        <text encoding="base64">ICAgIGlmICgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHJldHVybgo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGlmICh0aGlzLmlzUmVjaXBpZW50KXsKICAgICAgcmV0dXJuIHt9CiAgICB9Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIGlmICh0aGlzLmlzUmVjaXBpZW50KSB7Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICBnZXQgaXNBZG1pbiAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdXNlclN0b3JlLmlzU3VwcGxpZXIKICB9Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGlmICgpCg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGNvbnN0IHZpc2libGVGaWVsZHMgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBudWxsCg==</text>
+        <text encoding="base64">ICAgIGNvbnN0IAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1833,9 +1834,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>isAdmin</last-search>
+      <last-search>admin</last-search>
       <last-offset />
-      <last-pattern>isAdmin</last-pattern>
+      <last-pattern>admin</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
