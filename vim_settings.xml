@@ -60,12 +60,11 @@
         <mark key="[" line="13" column="0" />
         <mark key="]" line="16" column="1" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591532566979">
-        <mark key="'" line="101" column="10" />
-        <mark key="[" line="47" column="3" />
-        <mark key="]" line="50" column="15" />
-        <mark key="." line="50" column="14" />
-        <mark key="^" line="50" column="15" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591534042954">
+        <mark key="'" line="105" column="10" />
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="0" />
+        <mark key="." line="57" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591524261218">
         <mark key="[" line="4" column="32" />
@@ -78,11 +77,11 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591533054220">
-        <mark key="[" line="138" column="31" />
-        <mark key="]" line="138" column="31" />
-        <mark key="." line="138" column="31" />
-        <mark key="^" line="138" column="66" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591533805223">
+        <mark key="[" line="216" column="21" />
+        <mark key="]" line="216" column="32" />
+        <mark key="." line="216" column="31" />
+        <mark key="^" line="216" column="32" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -1001,20 +1000,20 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">LCBpc1Zpc2libGVGb3JSZWNpcGllbnQ6IHRydWUsIHRydWUg</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LCBpc1Zpc2libGVGb3JSZWNpcGllbnQ6IHRydWUsIHRydWUg</text>
+        <text>user.userType === 'RECIPIENT'</text>
       </register>
       <register name="/" type="4">
         <text>isAdmin</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgeyBrZXk6ICdubycsIGxhYmVsOiAnTm8uJyB9LAo=</text>
+        <text encoding="base64">ICBnZXQgaXNTdXBwbGllciAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdGhpcy51c2VyLnVzZXJUeXBlID09PSAnU1VQUExJRVInCiAgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICB2aXNpYmxlRmllbGRzOiB7IGtleTogc3RyaW5nLCBsYWJlbDogc3RyaW5nIH1bXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1804,28 +1803,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHZpc2libGVGaWVsZHM6IAo=</text>
+        <text encoding="base64">ICBnZXQgaW52aXNpYmxlRmllbGRzICgpOiBzdHJpbmdbXSB8IG51bGwgewogICAgaWYgKHRoaXMuaXNBZG1pbikgewogICAgICByZXR1cm4gbnVsbAogICAgfQogICAgcmV0dXJuIHRoaXMuaXNSZWNpcGllbnQKICAgICAgPyBbXQogICAgICA6IFtdCiAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgIGlmICh0aGlzLmlzUmVjaXBpZW50KSB7CiAgICAgIHJldHVybiBbXQogICAgfWVsc2Uge30K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgbmlja05hbWU6ICcnLAo=</text>
+        <text encoding="base64">ICAgIHJldHVybgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICA8dGggZGF0YS1mb3JtYXR0ZXI+PC90aD4K</text>
+        <text encoding="base64">ICAgIGlmICh0aGlzLmlzUmVjaXBpZW50KXsKICAgICAgcmV0dXJuIHt9CiAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB7e3Jvdy5pbmRleH19Cg==</text>
+        <text encoding="base64">ICAgIGlmICh0aGlzLmlzUmVjaXBpZW50KSB7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAge2tleTp9LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHsgZmFjZVNoaWVsZFR5cGVPcHRpb25zIH0gZnJvbSAifi9lbnRpdHkvRmFjZVNoaWVsZFR5cGVPcHRpb25zIjsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IHsgTWF0Y2hpbmcgfSBmcm9tICJ+L3N0b3JlL2NvbmRpdGlvbiI7Cg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBudWxsCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
