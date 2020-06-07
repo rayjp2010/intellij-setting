@@ -77,12 +77,12 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591536900947">
-        <mark key="'" line="211" column="0" />
-        <mark key="[" line="171" column="31" />
-        <mark key="]" line="206" column="57" />
-        <mark key="." line="206" column="56" />
-        <mark key="^" line="206" column="57" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591538209104">
+        <mark key="'" line="208" column="0" />
+        <mark key="[" line="199" column="51" />
+        <mark key="]" line="200" column="35" />
+        <mark key="." line="200" column="34" />
+        <mark key="^" line="200" column="35" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -103,10 +103,11 @@
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="44" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591527209015">
-        <mark key="[" line="4" column="59" />
-        <mark key="]" line="10" column="0" />
-        <mark key="." line="10" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591539330111">
+        <mark key="[" line="15" column="53" />
+        <mark key="]" line="15" column="37" />
+        <mark key="." line="15" column="36" />
+        <mark key="^" line="15" column="37" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
         <mark key="[" line="11" column="10" />
@@ -1002,10 +1003,10 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>true</text>
+        <text>nick</text>
       </register>
       <register name="-" type="4">
-        <text>true</text>
+        <text>nick</text>
       </register>
       <register name="/" type="4">
         <text>admin</text>
@@ -1014,7 +1015,7 @@
         <text encoding="base64">ICBnZXQgaXNTdXBwbGllciAoKTogYm9vbGVhbiB7CiAgICByZXR1cm4gdXNlclN0b3JlLmlzU3VwcGxpZXIKICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJldHVybiB0aGlzLmlzU3VwcGxpZXIKICAgICAgPyBvcHRpb24gPT4gb3B0aW9uLmlzSW52aXNpYmxlRm9yU3VwcGxpZXIgCiAgICAgIDogb3B0aW9uID0+IG9wdGlvbi5pc0ludmlzaWJsZUZvclJlY2lwaWVudAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1804,28 +1805,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgbmlja05hbWUK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW50ZXJmYWNlIEZpZWxkT3B0aW9uIGV4dGVuZHMgRmllbGQgewogIGlzVmlzaWJsZUZvclN1cHBsaWVyOiBib29sZWFuCiAgaXNWaXNpYmxlRm9yUmVjaXBpZW50OiBib29sZWFuCn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgZmllbGRzOiBzaG93RGF0YU9wdGlvbi5maWVsZHNPcHRpb25zLmZpbHRlcih0aGlzLl9maWVsZEZpbHRlciksCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgZmllbGRzOiBzaG93RGF0YU9wdGlvbi5maWVsZHNPcHRpb25zLmZpbHRlcih0aGlzLl9maWVsZEZpbHRlciksCg==</text>
+        <text encoding="base64">ICAgIGlmICh1c2VyU3RvcmUuaXNBZG1pbikgewogICAgICByZXR1cm4gKCkgPT4gdHJ1ZQogICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxldCB2aXNpYmxlRmllbGRzID0gc2hvd0RhdGFPcHRpb24uZmllbGRzT3B0aW9ucwo=</text>
+        <text encoding="base64">ICBpc0ludmlzaWJsZUZvclJlY2lwaWVudD86IGJvb2xlYW4K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmICghdXNlclN0b3JlLmlzQWRtaW4pIHsKICAgICAgdmlzaWJsZUZpZWxkcyA9IHRoaXMuaXNTdXBwbGllcgogICAgICAgID8gdmlzaWJsZUZpZWxkcy5maWx0ZXIoZmllbGQgPT4gZmllbGQuaXNWaXNpYmxlRm9yU3VwcGxpZXIgPT09IHRydWUpCiAgICAgICAgOiB2aXNpYmxlRmllbGRzLmZpbHRlcihmaWVsZCA9PiBmaWVsZC5pc1Zpc2libGVGb3JSZWNpcGllbnQgPT09IHRydWUpCiAgICB9Cg==</text>
+        <text encoding="base64">ICBpc0ludmlzaWJsZUZvclN1cHBsaWVyPzogYm9vbGVhbgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgOiBvcHkK</text>
+        <text encoding="base64">ICBpc0ludmlzaWJsZUZvclN1cHBsaWVyPzogYm9vbGVhbgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJldHVybiAoZmllbGRPcHRpb25zOiBGaWVsZE9wdGlvbikgPT4gewo=</text>
+        <text encoding="base64">ICAgIHJldHVybiB0aGlzLmlzU3VwcGxpZXIKICAgICAgPyBvcHRpb24gPT4gb3B0aW9uLmlzSW52aXNpYmxlRm9yU3VwcGxpZXIgCiAgICAgIDogb3B0aW9uID0+IG9wdGlvbi5pc0ludmlzaWJsZUZvclJlY2lwaWVudAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
