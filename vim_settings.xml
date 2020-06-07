@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>table</entry>
         <entry>tabValue</entry>
         <entry>selectable</entry>
         <entry>createMatch</entry>
@@ -25,6 +24,7 @@
         <entry>対応</entry>
         <entry>rowClick</entry>
         <entry>click</entry>
+        <entry>isAdmin</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -60,16 +60,17 @@
         <mark key="[" line="13" column="0" />
         <mark key="]" line="16" column="1" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591270035973">
-        <mark key="[" line="97" column="23" />
-        <mark key="]" line="97" column="4" />
-        <mark key="." line="97" column="3" />
-        <mark key="^" line="97" column="4" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591516852877">
+        <mark key="'" line="97" column="10" />
+        <mark key="[" line="98" column="20" />
+        <mark key="]" line="107" column="30" />
+        <mark key="." line="107" column="29" />
+        <mark key="^" line="107" column="30" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591515421692">
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="0" />
-        <mark key="." line="36" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591516257661">
+        <mark key="[" line="4" column="53" />
+        <mark key="]" line="4" column="54" />
+        <mark key="." line="4" column="54" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591515501502">
         <mark key="[" line="26" column="1" />
@@ -113,11 +114,11 @@
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="44" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591515493887">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591516245473">
         <mark key="[" line="26" column="2" />
-        <mark key="]" line="28" column="20" />
-        <mark key="." line="28" column="19" />
-        <mark key="^" line="28" column="20" />
+        <mark key="]" line="26" column="6" />
+        <mark key="." line="26" column="5" />
+        <mark key="^" line="26" column="6" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
         <mark key="[" line="11" column="10" />
@@ -140,8 +141,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="52" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
-      <jump line="17" column="14" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="143" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="540" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="127" column="50" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
@@ -240,6 +239,8 @@
       <jump line="64" column="16" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="72" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/store/demand.ts" />
       <jump line="19" column="8" filename="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" />
+      <jump line="62" column="19" filename="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" />
+      <jump line="97" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1013,16 +1014,16 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>!</text>
+        <text>currentGroups.includes('Admin')</text>
       </register>
       <register name="-" type="4">
-        <text>!</text>
+        <text>currentGroups.includes('Admin')</text>
       </register>
       <register name="/" type="4">
-        <text>rule1</text>
+        <text>isAdmin</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBnZXQgc2VsZWN0ZWRGYWNlU2hpZWxkVHlwZSAoKTogRmFjZVNoaWVsZFR5cGUgfCBudWxsIHsKICAgIGNvbnN0IHNlbGVjdGVkID0gdGhpcy5tYXRjaGluZy5zZWxlY3RlZFN1cHBseSB8fCB0aGlzLm1hdGNoaW5nLnNlbGVjdGVkRGVtYW5kCiAgICByZXR1cm4gc2VsZWN0ZWQgPyBzZWxlY3RlZC5mYWNlU2hpZWxkVHlwZSA6IG51bGwKICB9Cg==</text>
+        <text encoding="base64">ICAgIC8vIGNvbnN0IGlzQWRtaW4gPSBjdXJyZW50R3JvdXBzLmluY2x1ZGVzKCdBZG1pbicpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1845,9 +1846,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>rule1</last-search>
+      <last-search>isAdmin</last-search>
       <last-offset />
-      <last-pattern>rule1</last-pattern>
+      <last-pattern>isAdmin</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
