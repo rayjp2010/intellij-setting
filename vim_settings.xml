@@ -67,11 +67,11 @@
         <mark key="." line="107" column="29" />
         <mark key="^" line="107" column="30" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591519353840">
-        <mark key="[" line="27" column="18" />
-        <mark key="]" line="27" column="33" />
-        <mark key="." line="27" column="32" />
-        <mark key="^" line="27" column="33" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591520031178">
+        <mark key="[" line="34" column="68" />
+        <mark key="]" line="36" column="44" />
+        <mark key="." line="36" column="43" />
+        <mark key="^" line="36" column="44" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591518693424">
         <mark key="[" line="27" column="0" />
@@ -89,11 +89,11 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591518378045">
-        <mark key="[" line="285" column="50" />
-        <mark key="]" line="286" column="33" />
-        <mark key="^" line="286" column="33" />
-        <mark key="." line="286" column="32" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591520573553">
+        <mark key="[" line="281" column="0" />
+        <mark key="]" line="281" column="0" />
+        <mark key="^" line="289" column="7" />
+        <mark key="." line="281" column="0" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -1013,20 +1013,20 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="4">
-        <text>Matwching</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdjbGlja2VkJykK</text>
       </register>
       <register name="-" type="4">
-        <text>Matwching</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>isAdmin</text>
       </register>
       <register name="0" type="4">
-        <text>(item.ownerId === this.user.userId || this.user.isAdmin)</text>
+        <text>faceShieldType</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCdjbGlja2VkJykK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1816,28 +1816,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IHRhcmdldCA9IGl0ZW0gaW5zdGFuY2VvZiBEZW1hbmRFbnRpdHkgPyB0aGlzLm1hdGNoaW5nLnNlbGVjdGVkRGVtYW5kIDogdGhpcy5tYXRjaGluZy5zZWxlY3RlZFN1cHBseQogICAgcmV0dXJuIHRhcmdldCAhPSBudWxsICYmIHRhcmdldC5pZCA9PT0gaXRlbS5pZAo=</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHRoaXMubWF0Y2hDcmVhdGFibGUpCiAgICBjb25zb2xlLmxvZyhjb25kaXRpb25TdG9yZS5pc1NlbGVjdGFibGVGYWNlU2hpZWxkVHlwZShpdGVtLmZhY2VTaGllbGRUeXBlKSkKICAgIGNvbnNvbGUubG9nKGl0ZW0ub3duZXJJZCA9PT0gdGhpcy51c2VyLnVzZXJJZCkKICAgIGNvbnNvbGUubG9nKHRoaXMudXNlci5pc0FkbWluKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCkK</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIHNlbGVjdGVkID8gc2VsZWN0ZWQuZmFjZVNoaWVsZFR5cGUgOiBudWxsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgY29uc29sZS5sb2cK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNvbnN0IHNlbGVjdGVkID0gdGhpcy5tYXRjaGluZy5zZWxlY3RlZFN1cHBseSB8fCB0aGlzLm1hdGNoaW5nLnNlbGVjdGVkRGVtYW5kCiAgICByZXR1cm4gc2VsZWN0ZWQgPyBzZWxlY3RlZC5mYWNlU2hpZWxkVHlwZSA6IG51bGwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuCg==</text>
+        <text encoding="base64">ICAgIGNvbnN0IHRhcmdldCA9IGl0ZW0gaW5zdGFuY2VvZiBEZW1hbmRFbnRpdHkgPyB0aGlzLm1hdGNoaW5nLnNlbGVjdGVkRGVtYW5kIDogdGhpcy5tYXRjaGluZy5zZWxlY3RlZFN1cHBseQogICAgcmV0dXJuIHRhcmdldCAhPSBudWxsICYmIHRhcmdldC5pZCA9PT0gaXRlbS5pZAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGlmICgKICAgICAgLy8g5qip6ZmQ44Gq44GR44KM44Gw5L2V44KC44GX44Gq44GECiAgICAgICF0aGlzLm1hdGNoQ3JlYXRhYmxlIHx8CiAgICAgIC8vIOOCv+OCpOODl+OBjOmBleOBiOOBsOS9leOCguOBl+OBquOBhAogICAgICAoKQogICAgKSB7Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgY29uc29sZS5sb2cK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
