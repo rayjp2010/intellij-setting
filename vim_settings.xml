@@ -60,44 +60,27 @@
         <mark key="[" line="13" column="0" />
         <mark key="]" line="16" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/order.go" timestamp="1591260017462">
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="0" />
-        <mark key="." line="1" column="0" />
-      </file>
-      <file name="/GraphQL.result.json" timestamp="1591278804047">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-admin.ts" timestamp="1591275899067">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="44" />
-      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591270035973">
         <mark key="[" line="97" column="23" />
         <mark key="]" line="97" column="4" />
         <mark key="." line="97" column="3" />
         <mark key="^" line="97" column="4" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
-        <mark key="[" line="11" column="10" />
-        <mark key="]" line="11" column="22" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591503707371">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="^" line="34" column="2" />
+        <mark key="." line="24" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-user.ts" timestamp="1591275432242">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591263866922">
-        <mark key="'" line="14" column="0" />
-        <mark key="[" line="30" column="40" />
-        <mark key="]" line="30" column="47" />
-        <mark key="." line="30" column="46" />
-        <mark key="^" line="30" column="47" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591316197575">
-        <mark key="[" line="304" column="0" />
-        <mark key="]" line="304" column="0" />
-        <mark key="." line="304" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591503808673">
+        <mark key="[" line="284" column="0" />
+        <mark key="]" line="284" column="0" />
+        <mark key="." line="284" column="0" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -107,23 +90,35 @@
         <mark key="[" line="72" column="23" />
         <mark key="]" line="72" column="33" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-recipient.ts" timestamp="1591277190694">
+        <mark key="[" line="9" column="17" />
+        <mark key="]" line="9" column="18" />
+      </file>
+      <file name="/GraphQL.result.json" timestamp="1591278804047">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-admin.ts" timestamp="1591275899067">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="44" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591503287256" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
+        <mark key="[" line="11" column="10" />
+        <mark key="]" line="11" column="22" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591263866922">
+        <mark key="'" line="14" column="0" />
+        <mark key="[" line="30" column="40" />
+        <mark key="]" line="30" column="47" />
+        <mark key="." line="30" column="46" />
+        <mark key="^" line="30" column="47" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591263369976">
         <mark key="'" line="459" column="4" />
         <mark key="[" line="459" column="0" />
         <mark key="]" line="555" column="5" />
         <mark key="^" line="452" column="59" />
         <mark key="." line="452" column="58" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1591262091732">
-        <mark key="'" line="2" column="14" />
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="89" column="1" />
-        <mark key="^" line="90" column="0" />
-        <mark key="." line="90" column="0" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-recipient.ts" timestamp="1591277190694">
-        <mark key="[" line="9" column="17" />
-        <mark key="]" line="9" column="18" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-editable.ts" timestamp="1591277734849">
         <mark key="[" line="9" column="0" />
@@ -1019,10 +1014,10 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSBudWxsCg==</text>
+        <text encoding="base64">ICAgIGl0ZW0uaWQK</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>DemandEntity | SupplyEntity</text>
       </register>
       <register name="/" type="4">
         <text>rule1</text>
@@ -1031,7 +1026,7 @@
         <text encoding="base64">ICAgICAgICAgIGNvbmRpdGlvblN0b3JlLlNFVF9NQVRDSElORyh7IHNlbGVjdGVkU3VwcGx5OiBudWxsIH0pCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSBudWxsCg==</text>
+        <text encoding="base64">ICAgIGl0ZW0uaWQK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1821,28 +1816,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSBpdGVtCg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkU3VwcGx5ID0gbnVsbAo=</text>
+        <text encoding="base64">ICBnZXQgaXNTZWxlY3RlZCgpOiBib29sewogICAgCn0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkRGVtYW5kID0gaXRlbQo=</text>
+        <text encoding="base64">ICAgIGlmICh0aGlzKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkRGVtYW5kID0gbnVsbAo=</text>
+        <text encoding="base64">ICAgICAgICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSBudWxsCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBtaWRkbGV3YXJlOiwgCg==</text>
+        <text encoding="base64">ICAgICAgICAgIHRoaXMuc2VsZWN0ZWRTdXBwbHkgPSBpdGVtCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBtaWRkbGV3YXJlOiwgLy8g6KGo56S644GZ44KL5YaF5a655Yil44Gr44K144Kk44Oz44Kk44Oz54q25oWL44OB44Kn44OD44KvCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkU3VwcGx5ID0gbnVsbAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICByZXR1cm4gc3VwcGx5U3RvcmUuc3VwcGx5QnlJZChtYXRjaGFibGVJZCkK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkRGVtYW5kID0gaXRlbQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNlbGVjdGVkRGVtYW5kID0gbnVsbAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
