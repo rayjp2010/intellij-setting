@@ -66,17 +66,17 @@
         <mark key="." line="97" column="3" />
         <mark key="^" line="97" column="4" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591511253181">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="12" column="7" />
-        <mark key="." line="12" column="6" />
-        <mark key="^" line="12" column="7" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591512089104">
+        <mark key="[" line="37" column="25" />
+        <mark key="]" line="38" column="33" />
+        <mark key="." line="38" column="32" />
+        <mark key="^" line="38" column="33" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591511357386">
-        <mark key="[" line="26" column="15" />
-        <mark key="]" line="27" column="32" />
-        <mark key="." line="27" column="31" />
-        <mark key="^" line="27" column="32" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591511398571">
+        <mark key="[" line="27" column="12" />
+        <mark key="]" line="27" column="33" />
+        <mark key="." line="27" column="32" />
+        <mark key="^" line="27" column="33" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591511371904">
         <mark key="'" line="20" column="8" />
@@ -1008,19 +1008,19 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>undefined</text>
+        <text>DemandEntity</text>
       </register>
       <register name="-" type="4">
-        <text>undefined</text>
+        <text>DemandEntity</text>
       </register>
       <register name="/" type="4">
         <text>rule1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIGNvbmRpdGlvblN0b3JlLlNFVF9NQVRDSElORyh7IHNlbGVjdGVkU3VwcGx5OiBudWxsIH0pCg==</text>
+        <text encoding="base64">ICBATXV0YXRpb24KICBTRVRfTUFUQ0hJTkcgKHBheWxvYWQ6IERlbWFuZEVudGl0eSkgewogICAgdGhpcy5zZWxlY3RlZERlbWFuZCA9IHBheWxvYWQKICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIHRoaXMubWF0Y2hpbmcgPSB7CiAgICAgIC4uLnRoaXMubWF0Y2hpbmcsCiAgICAgIC4uLnBheWxvYWQsCiAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1810,28 +1810,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBzdWIK</text>
+        <text encoding="base64">ICBtYXRjaGluZzogTWF0Y2hpbmcgPSB7CiAgICBzZWxlY3RlZERlbWFuZDogbnVsbCwKICAgIHNlbGVjdGVkU3VwcGx5OiBudWxsLAogIH0K</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZXhwb3J0IGludGVyZmFjZSBNYXRjaGluZyB7CiAgCn0K</text>
+        <text encoding="base64">ZWludGVyZmFjZSBNYXRjaGluZyB7CiAgc2VsZWN0ZWREZW1hbmQ6IERlbWFuZEVudGl0eSB8IG51bGwKICBzZWxlY3RlZFN1cHBseTogU3VwcGx5RW50aXR5IHwgbnVsbAp9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBzZWxlY3RlZCgpOiBQYXJ0aWFsPGNvbmRpdGlvbj4uCg==</text>
+        <text encoding="base64">ICBtYXRjaGluZzogTWF0Y2hpbmcgPSB7CiAgICBzZWxlY3RlZERlbWFuZDogbnVsbCwKICAgIHNlbGVjdGVkU3VwcGx5OiBudWxsLAogIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">aW1wb3J0IE1hdGNoYWJsZUVudGl0eSBmcm9tICJ+L2VudGl0eS9NYXRjaGFibGVFbnRpdHkiOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBzZWxlY3RlZCgpOiBQYXJ0aWFsPGNvbmRpdGlvbj4K</text>
+        <text encoding="base64">ICBpc1NlbGVjdGVkIChpdGVtOiBNYXRjaGFibGVFbnRpdHkpOiBib29sZWFuIHsKICAgIHJldHVybiBmYWxzZQogIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbmRpdGlvbiBmcm9tICd+L3N0b3JlL2NvbmRpdGlvbic7Cg==</text>
+        <text encoding="base64">ICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
