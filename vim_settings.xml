@@ -72,11 +72,10 @@
         <mark key="]" line="4" column="54" />
         <mark key="." line="4" column="54" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591515501502">
-        <mark key="[" line="26" column="1" />
-        <mark key="]" line="26" column="6" />
-        <mark key="." line="26" column="5" />
-        <mark key="^" line="26" column="6" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591518693424">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591516228336">
         <mark key="'" line="20" column="8" />
@@ -89,11 +88,11 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591516188494">
-        <mark key="[" line="288" column="20" />
-        <mark key="]" line="288" column="21" />
-        <mark key="^" line="288" column="21" />
-        <mark key="." line="288" column="20" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591518378045">
+        <mark key="[" line="285" column="50" />
+        <mark key="]" line="286" column="33" />
+        <mark key="^" line="286" column="33" />
+        <mark key="." line="286" column="32" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -1013,20 +1012,20 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="4">
-        <text>currentGroups.includes('Admin')</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCkK</text>
       </register>
       <register name="-" type="4">
-        <text>currentGroups.includes('Admin')</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
         <text>isAdmin</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIC8vIGNvbnN0IGlzQWRtaW4gPSBjdXJyZW50R3JvdXBzLmluY2x1ZGVzKCdBZG1pbicpCg==</text>
+      <register name="0" type="4">
+        <text>(item.ownerId === this.user.userId || this.user.isAdmin)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1816,28 +1815,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgY29uc29sZS5sb2cK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGlmICgKICAgICAgLy8g5qip6ZmQ44Gq44GR44KM44Gw5L2V44KC44GX44Gq44GECiAgICAgICF0aGlzLm1hdGNoQ3JlYXRhYmxlIHx8CiAgICAgIC8vIOOCv+OCpOODl+OBjOmBleOBiOOBsOS9leOCguOBl+OBquOBhAogICAgICAoKQogICAgKSB7Cg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIH0K</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgcmV0dXJuCg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgaXRlbS5mYWNlU2hpZWxkVHlwZSAhPT0gY29uZGl0aW9uU3RvcmUuc2VsZWN0ZWRGYWNlU2hpZWxkVHlwZSB8fAo=</text>
+        <text encoding="base64">ICAgIGlmICgKICAgICAgLy8g5qip6ZmQ44Gq44GR44KM44Gw5L2V44KC44GX44Gq44GECiAgICAgICF0aGlzLm1hdGNoQ3JlYXRhYmxlIHx8CiAgICAgIC8vIOOCv+OCpOODl+OBjOmBleOBiOOBsOS9leOCguOBl+OBquOBhAogICAgICAoKQogICAgKSB7Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNvbmRpdGlvblN0b3JlLlNFVF9NQVRDSElORyhpdGVtLnNlbGVjdGVkQ29uZGl0aW9uKQo=</text>
+        <text encoding="base64">ICAgICAgaXRlbS5mYWNlU2hpZWxkVHlwZSAhPT0gY29uZGl0aW9uU3RvcmUuc2VsZWN0ZWRGYWNlU2hpZWxkVHlwZSB8fAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
