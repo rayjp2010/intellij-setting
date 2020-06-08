@@ -65,21 +65,34 @@
         <mark key="[" line="41" column="2" />
         <mark key="]" line="41" column="7" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591574277017">
-        <mark key="[" line="54" column="11" />
-        <mark key="]" line="54" column="31" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591616079553">
+        <mark key="[" line="50" column="26" />
+        <mark key="]" line="50" column="25" />
+        <mark key="." line="50" column="24" />
+        <mark key="^" line="50" column="25" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591616017959">
+        <mark key="[" line="26" column="74" />
+        <mark key="]" line="28" column="22" />
+        <mark key="." line="28" column="21" />
+        <mark key="^" line="28" column="22" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591615819400">
+        <mark key="[" line="79" column="0" />
+        <mark key="]" line="79" column="0" />
+        <mark key="." line="79" column="0" />
+        <mark key="^" line="78" column="64" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-user.ts" timestamp="1591275432242">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591573070998">
-        <mark key="[" line="116" column="0" />
-        <mark key="]" line="116" column="0" />
-        <mark key="." line="116" column="0" />
-        <mark key="^" line="114" column="29" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591615839025">
+        <mark key="[" line="295" column="81" />
+        <mark key="]" line="295" column="65" />
+        <mark key="." line="295" column="64" />
+        <mark key="^" line="295" column="65" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -95,6 +108,12 @@
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-admin.ts" timestamp="1591275899067">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="44" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591615995233">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="29" column="3" />
+        <mark key="." line="27" column="5" />
+        <mark key="^" line="27" column="6" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
         <mark key="[" line="11" column="10" />
@@ -996,19 +1015,19 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>isItemTypeMultiSelect</text>
+        <text>DemandEntity</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHx8ICcn</text>
+        <text>DemandEntity</text>
       </register>
       <register name="/" type="4">
         <text>type</text>
       </register>
-      <register name="0" type="4">
-        <text>isItemTypeMultiSelect</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICBnZXQgbWF0Y2hpbmdGb3JTZWxlY3Rpb24gKCk6IChpc1NlbGVjdGVkOiBib29sZWFuKSA9PiB7IHNlbGVjdGVkRGVtYW5kOiBEZW1hbmRFbnRpdHkgfCBudWxsIH0gewogICAgcmV0dXJuIGlzU2VsZWN0ZWQgPT4gKHsKICAgICAgc2VsZWN0ZWREZW1hbmQ6IGlzU2VsZWN0ZWQgPyBudWxsIDogdGhpcwogICAgfSkKICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiB7CiAgICAgIHNlbGVjdGVkRGVtYW5kOiBpPyBudWxsIDogdGhpcwogICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1798,28 +1817,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">ICAgICAgaWYgKCF0aGlzLnNlbGVjdGVkSXRlbVR5cGVzKSB7CiAgICAgICAgLy8g6YG45oqe44GX44Gm44GE44Gq44GE44Gq44KJ44Gq44KT44Gn44KC6YG45oqe5Y+v6IO9CiAgICAgICAgcmV0dXJuIHRydWUKICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
+        <text encoding="base64">ICAgICAgY29uc3Qgc2VsZWN0ZWQgPSB0aGlzLm1hdGNoaW5nLnNlbGVjdGVkU3VwcGx5IHx8IHRoaXMubWF0Y2hpbmcuc2VsZWN0ZWREZW1hbmQKICAgICAgcmV0dXJuIHNlbGVjdGVkID8gc2VsZWN0ZWQuZmFjZVNoaWVsZFR5cGUgPT09IGZhY2VTaGllbGRUeXBlIDogdHJ1ZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIHRoaXMuc2VsZWN0ZWRJdGVtVHlwZXMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">ICAgICAgdGhpcy5zZWxlY3RlZEl0ZW1UeXBlcz8uc29tZSgxKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHsgZmFjZVNoaWVsZFR5cGVPcHRpb25zIH0gZnJvbSAnfi9lbnRpdHkvRmFjZVNoaWVsZFR5cGVPcHRpb25zJwo=</text>
+        <text encoding="base64">ICAgICAgLy8g44GZ44Gn44Gr6YG45oqe44GX44Gm44GE44KL5aC05ZCI44Gv44CB5ZCM44GY44K/44Kk44OX44KS6YG45oqe44GZ44KL5b+F6KaB44GM44GC44KLCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
+        <text encoding="base64">ICAgIGlmICghdGhpcy5tYXRjaGluZy5zZWxlY3RlZERlbWFuZCAmJiAhdGhpcy5tYXRjaGluZy5zZWxlY3RlZFN1cHBseSkgewogICAgICAvLyDjganjgozjgoLpgbjmip7jgZfjgabjgYTjgarjgYTjgarjgokKICAgICAgcmV0dXJuIG51bGwKICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
