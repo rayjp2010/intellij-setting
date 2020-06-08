@@ -56,48 +56,22 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591265406597">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="16" column="1" />
-      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" timestamp="1591622264923">
-        <mark key="'" line="75" column="6" />
-        <mark key="[" line="98" column="23" />
-        <mark key="]" line="98" column="4" />
-        <mark key="." line="98" column="3" />
-        <mark key="^" line="98" column="4" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591620582163">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
-        <mark key="^" line="9" column="0" />
+        <mark key="[" line="49" column="23" />
+        <mark key="]" line="49" column="4" />
+        <mark key="." line="49" column="3" />
+        <mark key="^" line="49" column="4" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591622281994">
-        <mark key="'" line="37" column="24" />
-        <mark key="[" line="39" column="39" />
-        <mark key="]" line="39" column="39" />
-        <mark key="." line="39" column="39" />
-        <mark key="^" line="39" column="24" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591622279929">
-        <mark key="'" line="88" column="15" />
-        <mark key="[" line="57" column="11" />
-        <mark key="]" line="57" column="11" />
-        <mark key="." line="57" column="11" />
-        <mark key="^" line="57" column="11" />
+        <mark key="[" line="2" column="39" />
+        <mark key="]" line="2" column="39" />
+        <mark key="." line="2" column="39" />
+        <mark key="^" line="2" column="24" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-user.ts" timestamp="1591275432242">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591622257273">
-        <mark key="'" line="220" column="39" />
-        <mark key="[" line="285" column="0" />
-        <mark key="]" line="285" column="0" />
-        <mark key="." line="285" column="0" />
-        <mark key="^" line="289" column="21" />
       </file>
       <file name="/index.vue" timestamp="1591316195343">
         <mark key="[" line="301" column="0" />
@@ -113,13 +87,6 @@
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-admin.ts" timestamp="1591275899067">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="44" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" timestamp="1591622278153">
-        <mark key="'" line="17" column="4" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="38" column="3" />
-        <mark key="." line="37" column="39" />
-        <mark key="^" line="37" column="40" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
         <mark key="[" line="11" column="10" />
@@ -1020,8 +987,8 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIC8vIOWFqOOBpuOBruadoeS7tuOCkuOBv+OBn+OBleOBquOBhOOBqOOAgeS9leOCguOBl+OBquOBhAo=</text>
+      <register name="*" type="4">
+        <text>selectableMatchingItemTypes</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">JiY=</text>
@@ -1030,7 +997,7 @@
         <text>isAdmin</text>
       </register>
       <register name="0" type="4">
-        <text>item.ownerId === this.user.userId || this.user.isAdmin</text>
+        <text>selectableMatchingItemTypes</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIC8vIOWFqOOBpuOBruadoeS7tuOCkuOBv+OBn+OBleOBquOBhOOBqOOAgeS9leOCguOBl+OBquOBhAo=</text>
