@@ -65,11 +65,11 @@
         <mark key="[" line="41" column="2" />
         <mark key="]" line="41" column="7" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591616079553">
-        <mark key="[" line="50" column="26" />
-        <mark key="]" line="50" column="25" />
-        <mark key="." line="50" column="24" />
-        <mark key="^" line="50" column="25" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/condition.ts" timestamp="1591616095721">
+        <mark key="[" line="1" column="9" />
+        <mark key="]" line="1" column="9" />
+        <mark key="." line="1" column="9" />
+        <mark key="^" line="50" column="28" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/SupplyEntity.ts" timestamp="1591616017959">
         <mark key="[" line="26" column="74" />
@@ -1015,10 +1015,10 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>DemandEntity</text>
+        <text>FaceShieldType,</text>
       </register>
       <register name="-" type="4">
-        <text>DemandEntity</text>
+        <text>FaceShieldType,</text>
       </register>
       <register name="/" type="4">
         <text>type</text>
