@@ -79,11 +79,11 @@
         <mark key="." line="201" column="51" />
         <mark key="^" line="201" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591426920374">
-        <mark key="[" line="36" column="85" />
-        <mark key="]" line="36" column="89" />
-        <mark key="." line="36" column="88" />
-        <mark key="^" line="36" column="89" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591427445678">
+        <mark key="[" line="36" column="86" />
+        <mark key="]" line="36" column="88" />
+        <mark key="." line="36" column="87" />
+        <mark key="^" line="36" column="88" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591362631301">
         <mark key="'" line="367" column="40" />
@@ -102,11 +102,12 @@
       <file name="$USER_HOME$/go/src/odin/util/main.go" timestamp="1591400257227">
         <mark key="[" line="0" column="12" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591427388295">
+      <file name="$USER_HOME$/go/src/odin/servicetest/util/testing_util.go" timestamp="1591427515455">
         <mark key="'" line="15" column="0" />
-        <mark key="[" line="87" column="18" />
-        <mark key="]" line="87" column="18" />
-        <mark key="." line="87" column="18" />
+        <mark key="[" line="83" column="66" />
+        <mark key="]" line="83" column="77" />
+        <mark key="." line="83" column="76" />
+        <mark key="^" line="83" column="77" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591362926727">
         <mark key="'" line="402" column="57" />
@@ -1041,10 +1042,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>ctx,</text>
+        <text>Microsecond</text>
       </register>
       <register name="-" type="4">
-        <text>ctx,</text>
+        <text>Microsecond</text>
       </register>
       <register name="/" type="4">
         <text>ctx</text>
