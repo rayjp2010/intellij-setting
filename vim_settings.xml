@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>is</entry>
         <entry>isVali</entry>
         <entry>clicked</entry>
         <entry>tab</entry>
@@ -25,6 +24,7 @@
         <entry>Entity</entry>
         <entry>user</entry>
         <entry>userDb</entry>
+        <entry>type</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -65,9 +65,9 @@
         <mark key="[" line="41" column="2" />
         <mark key="]" line="41" column="7" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591573019884">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591574277017">
+        <mark key="[" line="54" column="11" />
+        <mark key="]" line="54" column="31" />
         <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-user.ts" timestamp="1591275432242">
@@ -100,6 +100,9 @@
         <mark key="[" line="11" column="10" />
         <mark key="]" line="11" column="22" />
       </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591574242997">
+        <mark key="'" line="58" column="10" />
+      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/store/demand.ts" timestamp="1591541397928">
         <mark key="[" line="34" column="67" />
         <mark key="]" line="34" column="84" />
@@ -120,12 +123,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="140" column="25" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="144" column="25" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="508" column="79" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="509" column="84" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="530" column="77" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="532" column="67" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="539" column="74" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="492" column="74" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="506" column="58" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -220,6 +217,12 @@
       <jump line="41" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" />
       <jump line="45" column="65" filename="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" />
       <jump line="46" column="31" filename="$USER_HOME$/Develop/workspace/face-shield/store/user.ts" />
+      <jump line="13" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="15" column="6" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="49" column="66" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="53" column="79" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="55" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
+      <jump line="58" column="10" filename="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -992,17 +995,17 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
+      <register name="*" type="4">
+        <text>isItemTypeMultiSelect</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IHx8ICcn</text>
       </register>
       <register name="/" type="4">
-        <text>userDb</text>
+        <text>type</text>
       </register>
       <register name="0" type="4">
-        <text>userDb</text>
+        <text>isItemTypeMultiSelect</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
@@ -1825,9 +1828,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>userDb</last-search>
+      <last-search>type</last-search>
       <last-offset />
-      <last-pattern>userDb</last-pattern>
+      <last-pattern>type</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
