@@ -99,6 +99,9 @@
         <mark key="." line="371" column="0" />
         <mark key="^" line="11" column="5" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/util/audit_util_test.go" timestamp="1591592382917">
+        <mark key="'" line="24" column="8" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1591584594627">
         <mark key="'" line="47" column="98" />
       </file>
@@ -147,12 +150,11 @@
         <mark key="." line="130" column="0" />
         <mark key="^" line="212" column="75" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591590476746">
-        <mark key="'" line="140" column="20" />
-        <mark key="[" line="47" column="33" />
-        <mark key="]" line="47" column="33" />
-        <mark key="." line="47" column="32" />
-        <mark key="^" line="47" column="33" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1591592236713">
+        <mark key="'" line="345" column="86" />
+        <mark key="[" line="351" column="0" />
+        <mark key="]" line="351" column="0" />
+        <mark key="." line="351" column="0" />
       </file>
       <file name="/usr/local/Cellar/go/1.14.1/libexec/src/context/context.go" timestamp="1591412180410">
         <mark key="[" line="96" column="11" />
@@ -165,17 +167,8 @@
         <mark key="." line="141" column="83" />
         <mark key="^" line="141" column="86" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591400340484">
-        <mark key="'" line="264" column="0" />
-        <mark key="[" line="195" column="45" />
-        <mark key="]" line="195" column="49" />
-        <mark key="." line="195" column="48" />
-        <mark key="^" line="195" column="49" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="919" column="23" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
-      <jump line="926" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="711" column="27" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="915" column="8" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
       <jump line="917" column="42" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
@@ -274,6 +267,8 @@
       <jump line="108" column="78" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="166" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="142" column="20" filename="$USER_HOME$/go/src/odin/model/transaction_property_test.go" />
+      <jump line="345" column="86" filename="$USER_HOME$/go/src/odin/model/transaction_property_test.go" />
+      <jump line="24" column="8" filename="$USER_HOME$/go/src/odin/util/audit_util_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1044,46 +1039,54 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">CQkvL3siR2VuZXJhdGUgY29ycmVjdCBzZWFyY2ggY29uZGl0aW9uIGZvciBrZXl3b3JkIHNlYXJjaCBmaWVsZCIsCgkJLy8JJlNlYXJjaEZpZWxkewoJCS8vCQlOYW1lOiAidGVzdEZpZWxkIiwKCQkvLwkJVHlwZTogS2V5d29yZEZpZWxkLAoJCS8vCX0sCgkJLy8JInRlc3RWYWx1ZSIsCgkJLy8JbmlsLAoJCS8vCXV0aWwuSnNvbk1hcHsidGVybSI6IHV0aWwuSnNvbk1hcHsidGVzdEZpZWxkLmtleXdvcmQiOiAidGVzdFZhbHVlIn19LAoJCS8vCW5pbH0sCgkJLy97IkdlbmVyYXRlIGNvcnJlY3Qgc2VhcmNoIGNvbmRpdGlvbiBmb3Iga2V5d29yZCBzZWFyY2ggZmllbGQiLAoJCS8vCSZTZWFyY2hGaWVsZHsKCQkvLwkJTmFtZTogInRlc3RGaWVsZCIsCgkJLy8JCVR5cGU6IEtleXdvcmRGaWVsZCwKCQkvLwl9LAoJCS8vCSJ0ZXN0VmFsdWUiLAoJCS8vCW5pbCwKCQkvLwl1dGlsLkpzb25NYXB7InRlcm0iOiB1dGlsLkpzb25NYXB7InRlc3RGaWVsZC5rZXl3b3JkIjogInRlc3RWYWx1ZSJ9fSwKCQkvLwluaWx9LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>.keyword</text>
+        <text>util.JsonMap{&quot;term&quot;: util.JsonMap{&quot;field&quot;: true}},</text>
       </register>
       <register name="/" type="4">
         <text>keyword</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CXNlbGVjdCB7CgljYXNlIHJlc3BCIDo9IDwtcmVzcEJDOgoJCXJldHVybiByZXNwQiwgbmlsCgljYXNlIGVyciA6PSA8LWVyckM6CgkJcmV0dXJuIG5pbCwgZXJyCgl9Cg==</text>
+        <text encoding="base64">CQkJdXRpbC5Kc29uTWFwewoJCQkJIm5lc3RlZCI6IHV0aWwuSnNvbk1hcHsKCQkJCQkicGF0aCI6ICJuZXN0MSIsCgkJCQkJInF1ZXJ5IjogdXRpbC5Kc29uTWFwewoJCQkJCQkibmVzdGVkIjogdXRpbC5Kc29uTWFwewoJCQkJCQkJInBhdGgiOiAibmVzdDIiLAoJCQkJCQkJInF1ZXJ5IjogdXRpbC5Kc29uTWFweyJib29sIjogdXRpbC5Kc29uTWFweyJzaG91bGQiOiBbXXV0aWwuSnNvbk1hcHsKCQkJCQkJCQl7InRlcm0iOiB1dGlsLkpzb25NYXB7ImZpZWxkMSI6ICJ2YWx1ZSJ9fSwKCQkJCQkJCQl7InRlcm0iOiB1dGlsLkpzb25NYXB7ImZpZWxkMiI6ICJ2YWx1ZSJ9fSwKCQkJCQkJCQl7InRlcm0iOiB1dGlsLkpzb25NYXB7ImZpZWxkMyI6ICJ2YWx1ZSJ9fSwKCQkJCQkJCX19fSwKCQkJCQkJfSwKCQkJCQl9LAoJCQkJfSwKCQkJfSwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkvL3siR2VuZXJhdGUgY29ycmVjdCBzZWFyY2ggY29uZGl0aW9uIGZvciBrZXl3b3JkIHNlYXJjaCBmaWVsZCIsCgkJLy8JJlNlYXJjaEZpZWxkewoJCS8vCQlOYW1lOiAidGVzdEZpZWxkIiwKCQkvLwkJVHlwZTogS2V5d29yZEZpZWxkLAoJCS8vCX0sCgkJLy8JInRlc3RWYWx1ZSIsCgkJLy8JbmlsLAoJCS8vCXV0aWwuSnNvbk1hcHsidGVybSI6IHV0aWwuSnNvbk1hcHsidGVzdEZpZWxkLmtleXdvcmQiOiAidGVzdFZhbHVlIn19LAoJCS8vCW5pbH0sCgkJLy97IkdlbmVyYXRlIGNvcnJlY3Qgc2VhcmNoIGNvbmRpdGlvbiBmb3Iga2V5d29yZCBzZWFyY2ggZmllbGQiLAoJCS8vCSZTZWFyY2hGaWVsZHsKCQkvLwkJTmFtZTogInRlc3RGaWVsZCIsCgkJLy8JCVR5cGU6IEtleXdvcmRGaWVsZCwKCQkvLwl9LAoJCS8vCSJ0ZXN0VmFsdWUiLAoJCS8vCW5pbCwKCQkvLwl1dGlsLkpzb25NYXB7InRlcm0iOiB1dGlsLkpzb25NYXB7InRlc3RGaWVsZC5rZXl3b3JkIjogInRlc3RWYWx1ZSJ9fSwKCQkvLwluaWx9LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQl7Ik1NTGF0aXR1ZGUgaXMgdmFsaWQiLCBnZXRUcnhQcm9wUHRyKCJNTUxhdGl0dWRlIiksIHRydWV9LAoJCXsiTU1Mb25naXR1ZGUgaXMgdmFsaWQiLCBnZXRUcnhQcm9wUHRyKCJNTUxvbmdpdHVkZSIpLCB0cnVlfSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ZnVuYyBnZXRNTUxhdGl0dWRlVmFyaWVzRG9jcygpIFtddS5Eb2N1bWVudCB7Cgl0MSA6PSBnZXROZXdUcnhEb2MoKQoJdDEuT3JkZXIuU2hvcHBlckluZm8uR2VvRGF0YS5HZW9sb2NhdGlvbi5MYXRpdHVkZSA9IHUuR2V0RmxvYXQ2NFB0cigxMjMuMTIzKQoJdDIgOj0gZ2V0TmV3VHJ4RG9jKCkKCXQyLk9yZGVyLlNob3BwZXJJbmZvLkdlb0RhdGEuR2VvbG9jYXRpb24uTGF0aXR1ZGUgPSB1LkdldEZsb2F0NjRQdHIoMzIxLjMyMSkKCXQzIDo9IGdldE5ld1RyeERvYygpCgl0My5PcmRlci5TaG9wcGVySW5mby5HZW9EYXRhLkdlb2xvY2F0aW9uLkxhdGl0dWRlID0gbmlsCglyZXR1cm4gZ2V0RG9jc0Zyb21UcnhEb2NzKHQxLCB0MiwgdDMpCn0KCmZ1bmMgZ2V0TU1Mb25naXR1ZGVWYXJpZXNEb2NzKCkgW111LkRvY3VtZW50IHsKCXQxIDo9IGdldE5ld1RyeERvYygpCgl0MS5PcmRlci5TaG9wcGVySW5mby5HZW9EYXRhLkdlb2xvY2F0aW9uLkxvbmdpdHVkZSA9IHUuR2V0RmxvYXQ2NFB0cigxMjMuMTIzKQoJdDIgOj0gZ2V0TmV3VHJ4RG9jKCkKCXQyLk9yZGVyLlNob3BwZXJJbmZvLkdlb0RhdGEuR2VvbG9jYXRpb24uTG9uZ2l0dWRlID0gdS5HZXRGbG9hdDY0UHRyKDMyMS4zMjEpCgl0MyA6PSBnZXROZXdUcnhEb2MoKQoJdDMuT3JkZXIuU2hvcHBlckluZm8uR2VvRGF0YS5HZW9sb2NhdGlvbi5Mb25naXR1ZGUgPSBuaWwKCXJldHVybiBnZXREb2NzRnJvbVRyeERvY3ModDEsIHQyLCB0MykKfQo=</text>
+      <register name="4" type="4">
+        <text>util.JsonMap{&quot;bool&quot;: util.JsonMap{&quot;should&quot;: []util.JsonMap{
+								{&quot;term&quot;: util.JsonMap{&quot;field1&quot;: &quot;value&quot;}},
+								{&quot;term&quot;: util.JsonMap{&quot;field2&quot;: &quot;value&quot;}},
+								{&quot;term&quot;: util.JsonMap{&quot;field3&quot;: &quot;value&quot;}},
+							}}},</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkvLyBUT0RPIGZpeCBMYXRpdHVkZS9Mb25naXR1ZGUgc2VhcmNoCgkJLy97InF1ZXJ5IGJ5IE1NTGF0aXR1ZGUgY29ycmVjdGx5IiwKCQkvLwlyZXFCdWlsZGVyLldpdGgoIlRyYW5zYWN0aW9uUHJvcGVydHkiLCB1LkdldFN0cmluZ1B0cigiTU1MYXRpdHVkZSIpKS4KCQkvLwkJV2l0aCgiVHJhbnNhY3Rpb25Qcm9wZXJ0eVZhbHVlIiwgdS5HZXRTdHJpbmdQdHIoIjMyMS4zMjEiKSkuQnVpbGQoKSwKCQkvLwkyMDAsCgkJLy8Jb2tSZXNwQnVpbGRlci5XaXRoRGF0YShbXXRtLlRyeFNlYXJjaFJlc3B7CgkJLy8JCXRyeFJlc3BCdWlsZGVyLldpdGgoIk1tTGF0aXR1ZGUiLCB1LkdldEZsb2F0NjRQdHIoMzIxLjMyMSkpLgoJCS8vCQkJV2l0aCgiT3JkZXJJZCIsIHUuR2V0U3RyaW5nUHRyKCJ0ZXN0LW9yZGVyLTEwNiIpKS4KCQkvLwkJCUJ1aWxkKCksCgkJLy8JfSkuQnVpbGQoKS5Kc29uKCl9LAoJCS8veyJxdWVyeSBieSBNTUxvbmdpdHVkZSBjb3JyZWN0bHkiLAoJCS8vCXJlcUJ1aWxkZXIuV2l0aCgiVHJhbnNhY3Rpb25Qcm9wZXJ0eSIsIHUuR2V0U3RyaW5nUHRyKCJNTUxvbmdpdHVkZSIpKS4KCQkvLwkJV2l0aCgiVHJhbnNhY3Rpb25Qcm9wZXJ0eVZhbHVlIiwgdS5HZXRTdHJpbmdQdHIoIjMyMS4zMjEiKSkuQnVpbGQoKSwKCQkvLwkyMDAsCgkJLy8Jb2tSZXNwQnVpbGRlci5XaXRoRGF0YShbXXRtLlRyeFNlYXJjaFJlc3B7CgkJLy8JCXRyeFJlc3BCdWlsZGVyLldpdGgoIk1tTG9uZ2l0dWRlIiwgdS5HZXRGbG9hdDY0UHRyKDMyMS4zMjEpKS4KCQkvLwkJCVdpdGgoIk9yZGVySWQiLCB1LkdldFN0cmluZ1B0cigidGVzdC1vcmRlci0xMDkiKSkuCgkJLy8JCQlCdWlsZCgpLAoJCS8vCX0pLkJ1aWxkKCkuSnNvbigpfSwK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CU1NTGF0aXR1ZGU6ICAgICAgICAgICAgICAgICAgeyJvcmRlci5zaG9wcGVySW5mby5nZW9EYXRhLmdlb2xvY2F0aW9uLmxhdCIsIE51bWJlciwgdHJ1ZSwgbmlsfSwKCU1NTG9uZ2l0dWRlOiAgICAgICAgICAgICAgICAgeyJvcmRlci5zaG9wcGVySW5mby5nZW9EYXRhLmdlb2xvY2F0aW9uLmxvbiIsIE51bWJlciwgdHJ1ZSwgbmlsfSwK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">CU1NTGF0aXR1ZGUgICAgICAgICAgICAgICAgICBUcmFuc2FjdGlvblByb3BlcnR5ID0gIk1NTGF0aXR1ZGUiCglNTUxvbmdpdHVkZSAgICAgICAgICAgICAgICAgVHJhbnNhY3Rpb25Qcm9wZXJ0eSA9ICJNTUxvbmdpdHVkZSIK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
+        <text>util.JsonMap{&quot;bool&quot;: util.JsonMap{&quot;should&quot;: []util.JsonMap{
+				{&quot;term&quot;: util.JsonMap{&quot;field1&quot;: &quot;value&quot;}},
+				{&quot;term&quot;: util.JsonMap{&quot;field2&quot;: &quot;value&quot;}},
+				{&quot;term&quot;: util.JsonMap{&quot;field3&quot;: &quot;value&quot;}},
+			}}},</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">CQlib2R5U3RyaW5nIDo9Cg==</text>
+        <text encoding="base64">CQkJCQkJCSJwYXRoIjogIm5lc3QyIiwK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
