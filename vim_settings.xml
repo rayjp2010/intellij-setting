@@ -69,6 +69,12 @@
         <mark key="." line="36" column="87" />
         <mark key="^" line="36" column="88" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1591598318645">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="^" line="13" column="21" />
+        <mark key="." line="16" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591589251048">
         <mark key="'" line="667" column="18" />
         <mark key="[" line="461" column="31" />
@@ -115,14 +121,17 @@
         <mark key="." line="31" column="56" />
         <mark key="^" line="31" column="57" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591424647489">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1591589307807">
         <mark key="'" line="166" column="53" />
         <mark key="[" line="172" column="52" />
         <mark key="]" line="172" column="52" />
         <mark key="." line="172" column="52" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/infra/endpoints.go" timestamp="1591598144843">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
+        <mark key="^" line="15" column="25" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591593773686">
         <mark key="'" line="10" column="0" />
@@ -136,9 +145,6 @@
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1591577479030">
         <mark key="'" line="58" column="65" />
-      </file>
-      <file name="$USER_HOME$/go/go1.12.17/src/net/http/request.go" timestamp="1591423821964">
-        <mark key="'" line="316" column="7" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/evh_transaction_manual_decision_test.go" timestamp="1591593835714">
         <mark key="[" line="1318" column="0" />
@@ -1042,47 +1048,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>password</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>password</text>
+        <text>func</text>
       </register>
       <register name="/" type="4">
         <text>port</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAiLWVsYXN0aWNzZWFyY2gudXNlcm5hbWU9ZWxhc3RpYyIKICAgICAgICAiLWVsYXN0aWNzZWFyY2gucGFzc3dvcmQ9cGFzc3dvcmQiCg==</text>
+      <register name="0" type="4">
+        <text>SearchAuditLogFunc</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">dHlwZSBTZWFyY2hBdWRpdExvZ0Z1bmMgZnVuYyhjdHggY29udGV4dC5Db250ZXh0LCByZXF1ZXN0ICptb2RlbC5BdWRpdExvZ1NlYXJjaFJlcXVlc3QpICgqbW9kZWwuUmVzcG9uc2UsIGVycm9yKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">dHlwZSBTZWFyY2hBdWRpdExvZ0Z1bmMgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">dHlwZSBTZWFyY2hBdWRpdExvZ0Z1bmMgZnVuYyhjdHggY29udGV4dC5Db250ZXh0LCByZXF1ZXN0ICptb2RlbC5BdWRpdExvZ1NlYXJjaFJlcXVlc3QpICgqbW9kZWwuUmVzcG9uc2UsIGVycm9yKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">CVNlYXJjaAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">CVNlYXJjaEF1ZGl0TG9nKGN0eCBjb250ZXh0LkNvbnRleHQsIHJlcXVlc3QgKm1vZGVsLkF1ZGl0TG9nU2VhcmNoUmVxdWVzdCkgKCptb2RlbC5SZXNwb25zZSwgZXJyb3IpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQkJCQkJUXVldWVJZDogICAgICAgICAgICAgIHV0aWwuR2V0U3RyaW5nUHRyKCIxMiIpLAo=</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWRvY3MgPSBhcHBlbmQoZG9jcywgZ2V0TU1MYXRpdHVkZVZhcmllc0RvY3MoKS4uLikKCWRvY3MgPSBhcHBlbmQoZG9jcywgZ2V0TU1Mb25naXR1ZGVWYXJpZXNEb2NzKCkuLi4pCg==</text>
+        <text encoding="base64">ZnVuYyBTZWFyY2hBdWRpdExvZygpICB7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
