@@ -136,6 +136,9 @@
       <file name="/fragment.go" timestamp="1591425240870">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1591577479030">
+        <mark key="'" line="58" column="65" />
+      </file>
       <file name="$USER_HOME$/go/go1.12.17/src/net/http/request.go" timestamp="1591423821964">
         <mark key="'" line="316" column="7" />
       </file>
@@ -172,7 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="238" column="0" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="18" column="8" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="40" column="42" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="686" column="5" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
@@ -272,6 +274,7 @@
       <jump line="348" column="7" filename="$USER_HOME$/go/go1.12.17/src/net/http/request.go" />
       <jump line="353" column="13" filename="$USER_HOME$/go/go1.12.17/src/net/http/request.go" />
       <jump line="316" column="7" filename="$USER_HOME$/go/go1.12.17/src/net/http/request.go" />
+      <jump line="58" column="65" filename="$USER_HOME$/go/src/odin/util/util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
