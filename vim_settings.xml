@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>hystrix</entry>
         <entry>100</entry>
         <entry>failCount</entry>
         <entry>tt.failCount</entry>
@@ -25,6 +24,7 @@
         <entry>publicProxy</entry>
         <entry>publicProxy2</entry>
         <entry>Genera</entry>
+        <entry>findAuditLogResult</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -97,11 +97,18 @@
         <mark key="." line="20" column="48" />
         <mark key="^" line="20" column="49" />
       </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" timestamp="1591685468290">
+        <mark key="'" line="131" column="23" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1591611588125">
         <mark key="[" line="381" column="36" />
         <mark key="]" line="381" column="36" />
         <mark key="." line="381" column="36" />
         <mark key="^" line="376" column="41" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/reducers/homeReducer.js" timestamp="1591685554654">
+        <mark key="[" line="12" column="13" />
+        <mark key="]" line="12" column="24" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591680751169">
         <mark key="'" line="633" column="24" />
@@ -123,9 +130,6 @@
         <mark key="." line="66" column="33" />
         <mark key="^" line="66" column="34" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/json_parser_test.go" timestamp="1591602194082">
-        <mark key="[" line="355" column="12" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591603154624">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="96" />
@@ -140,12 +144,6 @@
       <file name="/Dummy.txt" timestamp="1591680969723">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1591602212939">
-        <mark key="[" line="951" column="12" />
-        <mark key="]" line="951" column="16" />
-        <mark key="^" line="951" column="16" />
-        <mark key="." line="951" column="15" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/util/audit_util.go" timestamp="1591684711336">
         <mark key="'" line="17" column="0" />
       </file>
@@ -155,7 +153,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="229" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="108" column="78" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="166" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="142" column="20" filename="$USER_HOME$/go/src/odin/model/transaction_property_test.go" />
@@ -255,6 +252,7 @@
       <jump line="17" column="0" filename="$USER_HOME$/go/src/odin/util/audit_util.go" />
       <jump line="98" column="13" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
       <jump line="21" column="0" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
+      <jump line="131" column="23" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1024,17 +1022,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>HOME_CONTROL</text>
       </register>
       <register name="-" type="4">
         <text>model.GENERAL</text>
       </register>
       <register name="/" type="4">
-        <text>Genera</text>
+        <text>findAuditLogResult</text>
       </register>
       <register name="0" type="4">
-        <text>MPublicProxy2&quot;)).</text>
+        <text>HOME_CONTROL</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1073,9 +1071,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Genera</last-search>
+      <last-search>findAuditLogResult</last-search>
       <last-offset />
-      <last-pattern>Genera</last-pattern>
+      <last-pattern>findAuditLogResult</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
