@@ -77,12 +77,12 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591700935788">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591703255607">
         <mark key="'" line="41" column="26" />
-        <mark key="[" line="99" column="17" />
-        <mark key="]" line="99" column="17" />
-        <mark key="^" line="99" column="24" />
-        <mark key="." line="99" column="17" />
+        <mark key="[" line="170" column="14" />
+        <mark key="]" line="170" column="24" />
+        <mark key="^" line="170" column="24" />
+        <mark key="." line="170" column="23" />
       </file>
       <file name="/index.vue" timestamp="1591691356185">
         <mark key="[" line="172" column="43" />
@@ -117,20 +117,20 @@
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591574242997">
         <mark key="'" line="58" column="10" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/store/demand.ts" timestamp="1591693489900">
-        <mark key="[" line="34" column="66" />
-        <mark key="]" line="34" column="66" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/demand.ts" timestamp="1591703107339">
+        <mark key="'" line="158" column="0" />
+        <mark key="[" line="82" column="56" />
+        <mark key="]" line="82" column="56" />
         <mark key="^" line="34" column="84" />
-        <mark key="." line="34" column="66" />
+        <mark key="." line="82" column="56" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/store/match.ts" timestamp="1591696985886">
         <mark key="'" line="21" column="2" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/UserEntity.ts" timestamp="1591694485957">
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="0" />
-        <mark key="." line="30" column="0" />
-        <mark key="^" line="27" column="41" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/UserEntity.ts" timestamp="1591702893925">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-editable.ts" timestamp="1591277734849">
         <mark key="[" line="9" column="0" />
@@ -139,7 +139,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="525" column="4" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="471" column="27" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="123" column="84" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
@@ -239,6 +238,7 @@
       <jump line="58" column="31" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="48" column="20" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
       <jump line="41" column="26" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="158" column="0" filename="$USER_HOME$/Develop/workspace/face-shield/store/demand.ts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1011,11 +1011,11 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgbmlja05hbWU6IGAke2RhdGEuc3VwcGx5TmFtZX3jga7jg4vjg4Pjgq/jg43jg7zjg6BgLAo=</text>
+      <register name="*" type="4">
+        <text>address</text>
       </register>
       <register name="-" type="4">
-        <text>`${data.demandName}の希望納期`</text>
+        <text>address</text>
       </register>
       <register name="/" type="4">
         <text>modal</text>
@@ -1024,7 +1024,7 @@
         <text>isValidMatchCount</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgbmlja05hbWU6IGAke2RhdGEuc3VwcGx5TmFtZX3jga7jg4vjg4Pjgq/jg43jg7zjg6BgLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1814,25 +1814,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgZmFjaWxpdHlOYW1lOiBkYXRhLmZhY2lsaXR5TmFtZSwK</text>
+        <text encoding="base64">ICBnZXQgbmlja05hbWUgKCk6IHN0cmluZyB8IG51bGwgewogICAgcmV0dXJuIHRoaXMuZGV0YWlsPy5uaWNrTmFtZSB8fCBudWxsCiAgfQoKICBnZXQgYWRkcmVzc1ByZWZlY3R1cmUgKCk6IHN0cmluZyB8IG51bGwgewogICAgcmV0dXJuIHRoaXMuZGV0YWlsPy5hZGRyZXNzUHJlZmVjdHVyZSB8fCBudWxsCiAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHRoaXMuZmFjaWxpdHlOYW1lID0gZGF0YS5mYWNpbGl0eU5hbWUgfHwgJycK</text>
+        <text encoding="base64">ICAgICAgbmlja05hbWU6IGAke2RhdGEuc3VwcGx5TmFtZX3jga7jg4vjg4Pjgq/jg43jg7zjg6BgLAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBmYWNpbGl0eU5hbWU/OiBzdHJpbmcK</text>
+        <text encoding="base64">ICAgICAgZmFjaWxpdHlOYW1lOiBkYXRhLmZhY2lsaXR5TmFtZSwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBmYWNpbGl0eU5hbWU6IHN0cmluZwo=</text>
+        <text encoding="base64">ICAgIHRoaXMuZmFjaWxpdHlOYW1lID0gZGF0YS5mYWNpbGl0eU5hbWUgfHwgJycK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
+        <text encoding="base64">ICBmYWNpbGl0eU5hbWU/OiBzdHJpbmcK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
+        <text encoding="base64">ICBmYWNpbGl0eU5hbWU6IHN0cmluZwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICB0aGlzLm5pY2tOYW1lID0gZGF0YS5uaWNrTmFtZQogICAgdGhpcy5hZGRyZXNzID0gZGF0YS5hZGRyZXNzUHJlZmVjdHVyZQo9PT09PT09Cg==</text>
+        <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Pj4+Pj4+PiBvcmlnaW4vbWFzdGVyCg==</text>
