@@ -5,18 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>es returns</entry>
-        <entry>single transac</entry>
-        <entry>rpCookie</entry>
-        <entry>ipCountry</entry>
-        <entry>startDate</entry>
-        <entry>subEvalua</entry>
-        <entry>subEvaluation</entry>
-        <entry>keyword</entry>
-        <entry>password</entry>
-        <entry>port</entry>
-        <entry>time</entry>
-        <entry>Saved successfully</entry>
         <entry>retry</entry>
         <entry>hystrix</entry>
         <entry>100</entry>
@@ -25,6 +13,18 @@
         <entry>api</entry>
         <entry>api.enabled</entry>
         <entry>112</entry>
+        <entry>ipCountry</entry>
+        <entry>orderAmount</entry>
+        <entry>redeem</entry>
+        <entry>ruleHit</entry>
+        <entry>shipping</entry>
+        <entry>shippingCou</entry>
+        <entry>itemname</entry>
+        <entry>mmcity</entry>
+        <entry>MMAnonymous</entry>
+        <entry>MMAnonymousVPN2</entry>
+        <entry>publicProxy</entry>
+        <entry>publicProxy2</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -83,12 +83,12 @@
         <mark key="^" line="45" column="16" />
         <mark key="." line="45" column="15" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591677695256">
-        <mark key="'" line="389" column="39" />
-        <mark key="[" line="377" column="63" />
-        <mark key="]" line="379" column="31" />
-        <mark key="." line="379" column="30" />
-        <mark key="^" line="379" column="31" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591681272631">
+        <mark key="'" line="497" column="29" />
+        <mark key="[" line="504" column="65" />
+        <mark key="]" line="504" column="66" />
+        <mark key="." line="504" column="66" />
+        <mark key="^" line="242" column="61" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/audit_util_test.go" timestamp="1591602059361">
         <mark key="'" line="24" column="8" />
@@ -120,18 +120,21 @@
         <mark key="." line="381" column="36" />
         <mark key="^" line="376" column="41" />
       </file>
+      <file name="/Dummy.txt" timestamp="1591680969723">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1591602212939">
         <mark key="[" line="951" column="12" />
         <mark key="]" line="951" column="16" />
         <mark key="^" line="951" column="16" />
         <mark key="." line="951" column="15" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591677826574">
-        <mark key="'" line="10" column="0" />
-        <mark key="[" line="81" column="34" />
-        <mark key="]" line="81" column="35" />
-        <mark key="^" line="77" column="35" />
-        <mark key="." line="81" column="35" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591680751169">
+        <mark key="'" line="633" column="24" />
+        <mark key="[" line="91" column="30" />
+        <mark key="]" line="91" column="31" />
+        <mark key="^" line="436" column="24" />
+        <mark key="." line="91" column="31" />
       </file>
       <file name="/fragment.go" timestamp="1591667494128">
         <mark key="[" line="0" column="0" />
@@ -146,12 +149,6 @@
         <mark key="." line="32" column="28" />
         <mark key="^" line="32" column="29" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/evh_transaction_orderarrived_test.go" timestamp="1591601859993">
-        <mark key="[" line="32" column="12" />
-        <mark key="]" line="33" column="6" />
-        <mark key="^" line="33" column="6" />
-        <mark key="." line="33" column="5" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591677591604">
         <mark key="'" line="230" column="31" />
         <mark key="[" line="66" column="32" />
@@ -161,23 +158,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="41" column="37" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="114" column="14" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="109" column="0" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="667" column="18" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="159" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="179" column="52" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="185" column="56" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="186" column="52" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="192" column="52" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="198" column="48" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="199" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="205" column="48" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="206" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="207" column="56" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="213" column="48" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="214" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="215" column="56" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="221" column="48" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="222" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="228" column="48" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
@@ -261,6 +241,23 @@
       <jump line="187" column="90" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="230" column="31" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="389" column="39" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="213" column="4" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" />
+      <jump line="551" column="37" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" />
+      <jump line="619" column="37" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" />
+      <jump line="633" column="24" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" />
+      <jump line="347" column="15" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="77" column="83" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="92" column="79" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="112" column="49" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="164" column="22" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="193" column="18" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="254" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="155" column="26" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="335" column="40" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="512" column="53" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="515" column="28" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="457" column="52" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="497" column="29" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1031,16 +1028,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>&quot;merchantId1&quot;</text>
+        <text>MPublicProxy2&quot;)).</text>
       </register>
       <register name="-" type="4">
-        <text>getNextDocId()</text>
+        <text>2</text>
       </register>
       <register name="/" type="4">
-        <text>112</text>
+        <text>publicProxy2</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;merchantId1&quot;</text>
+        <text>MPublicProxy2&quot;)).</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1079,9 +1076,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>112</last-search>
+      <last-search>publicProxy2</last-search>
       <last-offset />
-      <last-pattern>112</last-pattern>
+      <last-pattern>publicProxy2</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
