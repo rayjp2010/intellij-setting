@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>retry</entry>
         <entry>hystrix</entry>
         <entry>100</entry>
         <entry>failCount</entry>
@@ -25,6 +24,7 @@
         <entry>MMAnonymousVPN2</entry>
         <entry>publicProxy</entry>
         <entry>publicProxy2</entry>
+        <entry>Genera</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -63,25 +63,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/json_parser_test.go" timestamp="1591602194082">
-        <mark key="[" line="355" column="12" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/elastic_query_test.go" timestamp="1591602140921">
-        <mark key="[" line="19" column="12" />
-      </file>
       <file name="/a.dummy" timestamp="1591609107288">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591603154624">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="96" />
-        <mark key="." line="6" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/audit_log_test.go" timestamp="1591602123160">
-        <mark key="[" line="45" column="16" />
-        <mark key="]" line="45" column="16" />
-        <mark key="^" line="45" column="16" />
-        <mark key="." line="45" column="15" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591681272631">
         <mark key="'" line="497" column="29" />
@@ -89,13 +72,6 @@
         <mark key="]" line="504" column="66" />
         <mark key="." line="504" column="66" />
         <mark key="^" line="242" column="61" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/util/audit_util_test.go" timestamp="1591602059361">
-        <mark key="'" line="24" column="8" />
-        <mark key="[" line="17" column="12" />
-        <mark key="]" line="17" column="16" />
-        <mark key="^" line="17" column="16" />
-        <mark key="." line="17" column="15" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/time.go" timestamp="1591603582000">
         <mark key="'" line="34" column="30" />
@@ -114,20 +90,18 @@
         <mark key="^" line="71" column="16" />
         <mark key="." line="40" column="16" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591685015970">
+        <mark key="'" line="564" column="8" />
+        <mark key="[" line="20" column="41" />
+        <mark key="]" line="20" column="49" />
+        <mark key="." line="20" column="48" />
+        <mark key="^" line="20" column="49" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1591611588125">
         <mark key="[" line="381" column="36" />
         <mark key="]" line="381" column="36" />
         <mark key="." line="381" column="36" />
         <mark key="^" line="376" column="41" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1591680969723">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1591602212939">
-        <mark key="[" line="951" column="12" />
-        <mark key="]" line="951" column="16" />
-        <mark key="^" line="951" column="16" />
-        <mark key="." line="951" column="15" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591680751169">
         <mark key="'" line="633" column="24" />
@@ -139,15 +113,8 @@
       <file name="/fragment.go" timestamp="1591667494128">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1591603313915">
-        <mark key="'" line="58" column="65" />
-        <mark key="[" line="136" column="25" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/evh_transaction_manual_decision_test.go" timestamp="1591602166544">
-        <mark key="[" line="32" column="25" />
-        <mark key="]" line="32" column="29" />
-        <mark key="." line="32" column="28" />
-        <mark key="^" line="32" column="29" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/logic/RuleLogic.java" timestamp="1591681874220">
+        <mark key="[" line="130" column="41" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591677591604">
         <mark key="'" line="230" column="31" />
@@ -156,11 +123,38 @@
         <mark key="." line="66" column="33" />
         <mark key="^" line="66" column="34" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/json_parser_test.go" timestamp="1591602194082">
+        <mark key="[" line="355" column="12" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591603154624">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="96" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591685020999">
+        <mark key="'" line="21" column="0" />
+        <mark key="[" line="181" column="0" />
+        <mark key="]" line="181" column="0" />
+        <mark key="." line="181" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1591680969723">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1591602212939">
+        <mark key="[" line="951" column="12" />
+        <mark key="]" line="951" column="16" />
+        <mark key="^" line="951" column="16" />
+        <mark key="." line="951" column="15" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/audit_util.go" timestamp="1591684711336">
+        <mark key="'" line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1591603313915">
+        <mark key="'" line="58" column="65" />
+        <mark key="[" line="136" column="25" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="221" column="48" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="222" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="228" column="48" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="229" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="108" column="78" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="166" column="53" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
@@ -258,6 +252,9 @@
       <jump line="515" column="28" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
       <jump line="457" column="52" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
       <jump line="497" column="29" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
+      <jump line="17" column="0" filename="$USER_HOME$/go/src/odin/util/audit_util.go" />
+      <jump line="98" column="13" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
+      <jump line="21" column="0" filename="$USER_HOME$/go/src/odin/model/audit_log.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1027,14 +1024,14 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>MPublicProxy2&quot;)).</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>2</text>
+        <text>model.GENERAL</text>
       </register>
       <register name="/" type="4">
-        <text>publicProxy2</text>
+        <text>Genera</text>
       </register>
       <register name="0" type="4">
         <text>MPublicProxy2&quot;)).</text>
@@ -1046,28 +1043,28 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnVuYyBnZXROZXh0RG9jSWQoKSBzdHJpbmcgewoJZG9jSWRObysrCglyZXR1cm4gInRlc3Qtb3JkZXItIiArIHN0cmNvbnYuSXRvYShkb2NJZE5vKQp9Cg==</text>
+        <text encoding="base64">Y29uc3QgKAoJR0VORVJBTCAgICBRdWV1ZVR5cGUgPSAiR2VuZXJhbCIKCURlZmF1bHQgICAgUXVldWVUeXBlID0gIkRlZmF1bHQiCglTdXBlcnZpc29yIFF1ZXVlVHlwZSA9ICJTdXBlcnZpc29yIgopCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWNvbmZpZ3VyZUh5c3RyaXgoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uc3QgKAoJR0VORVJBTCAgICBRdWV1ZVR5cGUgPSAiR2VuZXJhbCIKCURlZmF1bHQgICAgUXVldWVUeXBlID0gIkRlZmF1bHQiCglTdXBlcnZpc29yIFF1ZXVlVHlwZSA9ICJTdXBlcnZpc29yIgopCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CS8vIHByZXZlbnQgaHlzdHJpeCBmYWlsdXJlCgloeXN0cml4LkNvbmZpZ3VyZUNvbW1hbmQoYEVsYXN0aWNTZWFyY2hTYXZpbmdgLCBoeXN0cml4LkNvbW1hbmRDb25maWd7CgkJRXJyb3JQZXJjZW50VGhyZXNob2xkOiAxMDAsCgl9KQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CQlUaW1lb3V0OiAgICAgICAgICAgICAgIDEwMDAwLAoJCU1heENvbmN1cnJlbnRSZXF1ZXN0czogMTAwLAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ZnVuYyBnZXROZXh0RG9jSWQoKSBzdHJpbmcgewoJZG9jSWRObysrCglyZXR1cm4gInRlc3Qtb3JkZXItIiArIHN0cmNvbnYuSXRvYShkb2NJZE5vKQp9Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CWNvbmZpZ3VyZUh5c3RyaXgoKQo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">CWNvbmZpZ3VyZUh5c3RyaXgK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWNvbmZpZyA6PSAK</text>
+        <text encoding="base64">CS8vIHByZXZlbnQgaHlzdHJpeCBmYWlsdXJlCgloeXN0cml4LkNvbmZpZ3VyZUNvbW1hbmQoYEVsYXN0aWNTZWFyY2hTYXZpbmdgLCBoeXN0cml4LkNvbW1hbmRDb25maWd7CgkJRXJyb3JQZXJjZW50VGhyZXNob2xkOiAxMDAsCgl9KQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1076,9 +1073,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>publicProxy2</last-search>
+      <last-search>Genera</last-search>
       <last-offset />
-      <last-pattern>publicProxy2</last-pattern>
+      <last-pattern>Genera</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
