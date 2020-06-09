@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>selectedName</entry>
-        <entry>rowClass</entry>
-        <entry>https:</entry>
-        <entry>selected-row</entry>
         <entry>state</entry>
         <entry>max</entry>
         <entry>新規作成</entry>
@@ -25,6 +21,10 @@
         <entry>userStore</entry>
         <entry>address</entry>
         <entry>api</entry>
+        <entry>leftCount</entry>
+        <entry>status</entry>
+        <entry>matchStatus</entry>
+        <entry>badge</entry>
       </history-search>
       <history-cmd />
       <history-expr />
@@ -67,22 +67,17 @@
         <mark key="." line="9" column="33" />
         <mark key="^" line="9" column="34" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591694917516">
-        <mark key="[" line="10" column="2" />
-        <mark key="]" line="10" column="19" />
-        <mark key="^" line="10" column="19" />
-        <mark key="." line="10" column="18" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/entity/MatchableEntity.ts" timestamp="1591696108988">
+        <mark key="[" line="81" column="0" />
+        <mark key="]" line="81" column="0" />
+        <mark key="." line="81" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-user.ts" timestamp="1591275432242">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
-      </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591692918954">
-        <mark key="[" line="170" column="0" />
-        <mark key="]" line="170" column="0" />
-        <mark key="^" line="148" column="23" />
-        <mark key="." line="170" column="0" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591697087593">
+        <mark key="'" line="58" column="31" />
+        <mark key="[" line="67" column="68" />
+        <mark key="]" line="85" column="71" />
+        <mark key="^" line="85" column="71" />
+        <mark key="." line="85" column="70" />
       </file>
       <file name="/index.vue" timestamp="1591691356185">
         <mark key="[" line="172" column="43" />
@@ -93,6 +88,11 @@
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="0" />
         <mark key="." line="60" column="0" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/components/MatchBadge.vue" timestamp="1591697459431">
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/middleware/auth-recipient.ts" timestamp="1591277190694">
         <mark key="[" line="9" column="17" />
@@ -112,10 +112,6 @@
         <mark key="." line="51" column="0" />
         <mark key="^" line="69" column="22" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/.nuxt/middleware.js" timestamp="1591274165686">
-        <mark key="[" line="11" column="10" />
-        <mark key="]" line="11" column="22" />
-      </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/components/EditMatchable.vue" timestamp="1591574242997">
         <mark key="'" line="58" column="10" />
       </file>
@@ -124,6 +120,9 @@
         <mark key="]" line="34" column="66" />
         <mark key="^" line="34" column="84" />
         <mark key="." line="34" column="66" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/match.ts" timestamp="1591696985886">
+        <mark key="'" line="21" column="2" />
       </file>
       <file name="$USER_HOME$/Develop/workspace/face-shield/entity/UserEntity.ts" timestamp="1591694485957">
         <mark key="[" line="30" column="0" />
@@ -138,9 +137,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="0" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
-      <jump line="366" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="473" column="51" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
       <jump line="9" column="39" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
       <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/audit_case_template.json" />
       <jump line="74" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util.go" />
@@ -238,6 +234,9 @@
       <jump line="47" column="21" filename="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" />
       <jump line="2" column="22" filename="$USER_HOME$/Develop/workspace/face-shield/entity/DemandEntity.ts" />
       <jump line="86" column="17" filename="$USER_HOME$/Develop/workspace/face-shield/types/types.d.ts" />
+      <jump line="33" column="13" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
+      <jump line="21" column="2" filename="$USER_HOME$/Develop/workspace/face-shield/store/match.ts" />
+      <jump line="58" column="31" filename="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1010,20 +1009,20 @@
       <register name="&quot;" type="2">
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
-      <register name="*" type="4">
-        <text>demandName</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="-" type="4">
-        <text>demandName</text>
+        <text>d</text>
       </register>
       <register name="/" type="4">
-        <text>api</text>
+        <text>badge</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgbmlja05hbWU6IGAke2RhdGEuZGVtYW5kTmFtZX3jga7jg4vjg4Pjgq/jg43jg7zjg6BgLAogICAgICBhZGRyZXNzUHJlZmVjdHVyZTogYCR7ZGF0YS5kZW1hbmROYW1lfeOBrumDvemBk+W6nOecjGAsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBuaWNrTmFtZTogdGhpcy5uaWNrTmFtZSwKICAgICAgICBhZGRyZXNzUHJlZmVjdHVyZTogdGhpcy5hZGRyZXNzLAogICAgICAgIGRlc2lyZWREZWxpdmVyeURhdGU6IHRoaXMuZGVzaXJlZERlbGl2ZXJ5RGF0ZQo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1813,28 +1812,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBuaWNrTmFtZTogdGhpcy5uaWNrTmFtZSwKICAgICAgICBhZGRyZXNzUHJlZmVjdHVyZTogdGhpcy5hZGRyZXNzLAogICAgICAgIGRlc2lyZWREZWxpdmVyeURhdGU6IHRoaXMuZGVzaXJlZERlbGl2ZXJ5RGF0ZQo=</text>
+        <text encoding="base64">ZGQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGFkZCBhZAo=</text>
+        <text encoding="base64">ICBhYnN0cmFjdCAK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBuaWNrTmFtZTogdGhpcy5uaWNrTmFtZSwKICAgICAgICBhZGRyZXNzUHJlZmVjdHVyZTogdGhpcy5hZGRyZXNzLAogICAgICAgIGRlc2lyZWREZWxpdmVyeURhdGU6IHRoaXMuZGVzaXJlZERlbGl2ZXJ5RGF0ZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IHVzZXIgPSB1c2VyU3RvcmUudXNlcgogICAgLy8gVE9ETyDluIzmnJvntI3mnJ/jga/jganjgpPjgarjgr/jgqTjg5fjgavjgZnjgovjga7jgYvjga/oqbPntLDnlLvpnaLlvoXjgaHjgIHkuIDml6Zpc28gc3RyaW5n44GnCiAgICBjb25zdCBkZXNpcmVkRGVsaXZlcnlEYXRlID0gbmV3IERhdGUoKQogICAgZGVzaXJlZERlbGl2ZXJ5RGF0ZS5zZXREYXRlKGRlc2lyZWREZWxpdmVyeURhdGUuZ2V0RGF0ZSgpICsgMTApCg==</text>
+        <text encoding="base64">ICAgICAgICBuaWNrTmFtZTogdGhpcy5uaWNrTmFtZSwKICAgICAgICBhZGRyZXNzUHJlZmVjdHVyZTogdGhpcy5hZGRyZXNzLAogICAgICAgIGRlc2lyZWREZWxpdmVyeURhdGU6IHRoaXMuZGVzaXJlZERlbGl2ZXJ5RGF0ZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgZGVzaXJlZERlbGl2ZXJ5RGF0ZTogZGVzaXJlZERlbGl2ZXJ5RGF0ZS50b0lTT1N0cmluZygpLAo=</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGFkZCBhZAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgYWRkcmVzc1ByZWZlY3R1cmU6IHVzZXIuYWRkcmVzc1ByZWZlY3R1cmUgfHwgJycsCg==</text>
+        <text encoding="base64">ICAgICAgICBuaWNrTmFtZTogdGhpcy5uaWNrTmFtZSwKICAgICAgICBhZGRyZXNzUHJlZmVjdHVyZTogdGhpcy5hZGRyZXNzLAogICAgICAgIGRlc2lyZWREZWxpdmVyeURhdGU6IHRoaXMuZGVzaXJlZERlbGl2ZXJ5RGF0ZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgbmlja05hbWU6IHVzZXIubmlja05hbWUgfHwgJycsCg==</text>
+        <text encoding="base64">ICAgIGNvbnN0IHVzZXIgPSB1c2VyU3RvcmUudXNlcgogICAgLy8gVE9ETyDluIzmnJvntI3mnJ/jga/jganjgpPjgarjgr/jgqTjg5fjgavjgZnjgovjga7jgYvjga/oqbPntLDnlLvpnaLlvoXjgaHjgIHkuIDml6Zpc28gc3RyaW5n44GnCiAgICBjb25zdCBkZXNpcmVkRGVsaXZlcnlEYXRlID0gbmV3IERhdGUoKQogICAgZGVzaXJlZERlbGl2ZXJ5RGF0ZS5zZXREYXRlKGRlc2lyZWREZWxpdmVyeURhdGUuZ2V0RGF0ZSgpICsgMTApCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAvLyDjganjgYbmjIHjgaTjgYvjga9EQuasoeesrOOAgeOBk+OBk+OBr+S4gOaXpuW5s+OCieOBp+OCguOBpAogIG5pY2tOYW1lOiBzdHJpbmcKICBhZGRyZXNzOiBzdHJpbmcK</text>
+        <text encoding="base64">ICAgICAgZGVzaXJlZERlbGl2ZXJ5RGF0ZTogZGVzaXJlZERlbGl2ZXJ5RGF0ZS50b0lTT1N0cmluZygpLAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1843,9 +1842,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>api</last-search>
+      <last-search>badge</last-search>
       <last-offset />
-      <last-pattern>api</last-pattern>
+      <last-pattern>badge</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
