@@ -77,12 +77,12 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591703255607">
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591782816689">
         <mark key="'" line="41" column="26" />
-        <mark key="[" line="170" column="14" />
-        <mark key="]" line="170" column="24" />
+        <mark key="[" line="148" column="36" />
+        <mark key="]" line="148" column="43" />
         <mark key="^" line="170" column="24" />
-        <mark key="." line="170" column="23" />
+        <mark key="." line="148" column="36" />
       </file>
       <file name="/index.vue" timestamp="1591691356185">
         <mark key="[" line="172" column="43" />
@@ -1012,7 +1012,7 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>Mine</text>
+        <text>フレームタイプ</text>
       </register>
       <register name="-" type="4">
         <text>Mine</text>
@@ -1021,7 +1021,7 @@
         <text>modal</text>
       </register>
       <register name="0" type="4">
-        <text>isValidMatchCount</text>
+        <text>フレームタイプ</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
