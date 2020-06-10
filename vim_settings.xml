@@ -72,12 +72,10 @@
         <mark key="^" line="680" column="34" />
         <mark key="." line="680" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591766000691">
-        <mark key="'" line="12" column="0" />
-        <mark key="[" line="14" column="23" />
-        <mark key="]" line="13" column="37" />
-        <mark key="." line="13" column="36" />
-        <mark key="^" line="13" column="37" />
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591767623649">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
         <mark key="'" line="196" column="0" />
@@ -110,6 +108,9 @@
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation_test.go" timestamp="1591688282887">
         <mark key="'" line="201" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591767642583">
+        <mark key="'" line="23" column="19" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591758015749">
         <mark key="[" line="38" column="0" />
         <mark key="]" line="38" column="0" />
@@ -130,12 +131,6 @@
         <mark key="." line="36" column="87" />
         <mark key="^" line="36" column="88" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591688263716">
-        <mark key="'" line="10" column="0" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="96" />
-        <mark key="." line="6" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591762313724">
         <mark key="[" line="90" column="10" />
         <mark key="]" line="90" column="10" />
@@ -148,12 +143,11 @@
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1591688276059">
         <mark key="'" line="205" column="28" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1591758442133">
-        <mark key="'" line="19" column="4" />
-        <mark key="[" line="130" column="19" />
-        <mark key="]" line="19" column="4" />
-        <mark key="^" line="19" column="4" />
-        <mark key="." line="19" column="3" />
+      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1591767759920">
+        <mark key="[" line="129" column="7" />
+        <mark key="]" line="129" column="13" />
+        <mark key="." line="129" column="12" />
+        <mark key="^" line="129" column="13" />
       </file>
       <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" timestamp="1591766065323">
         <mark key="'" line="312" column="20" />
@@ -170,8 +164,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="265" column="4" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="71" column="14" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="213" column="49" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="619" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="537" column="32" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
@@ -270,6 +262,8 @@
       <jump line="357" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
       <jump line="266" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
       <jump line="312" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
+      <jump line="23" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
+      <jump line="131" column="8" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1040,19 +1034,19 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>IsLevelEnabled</text>
+        <text>Info</text>
       </register>
       <register name="-" type="4">
-        <text>withPayloadLogProvider()</text>
+        <text>Info</text>
       </register>
       <register name="/" type="4">
         <text>IsLevelEnabled</text>
       </register>
       <register name="0" type="4">
-        <text>IsLevelEnabled</text>
+        <text>WithPayloadFunc func(payload string) *logrus.Entry</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQlyZXR1cm4gJkxvZ2dlcntsLldpdGhGaWVsZHMobG9ncnVzLkZpZWxkc3sicGF5bG9hZCIsIH0pfQo=</text>
+        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkKCkuRGVidWcoKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -1061,25 +1055,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnVuYyAobCAqTG9nZ2VyKSBXaXRoRmllbGQgKGZpZWxkIGxvZ3J1cy5GaWVsZHMpIHsKCXJldHVybiAmTG9nZ2VyewoJCQoJfQp9Cg==</text>
+        <text encoding="base64">dHlwZSBXaXRoUGF5bG9hZEZ1bmMgZnVuYyhwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuTG9nZ2VyCn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aChmaWVsZHMgbG9ncnVzLkZpZWxkcykgKkxvZ2dlciB7CglyZXR1cm4gbC5XaXRoRmllbGRzKGZpZWxkcykKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoUGF5bG9hZChwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeSB7CglpZiBsb2dydXMuSXNMZXZlbEVuYWJsZWQobG9ncnVzLkRlYnVnTGV2ZWwpIHsKCQlsLkVudHJ5LldpdGhGaWVsZHMoKQoJfQoJcmV0dXJuIGwKfQoK</text>
+        <text encoding="base64">ZnVuYyBHZXRXaXRoUGF5bG9hZEZ1bmMoKSBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewoJCXJldHVybiBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCQkJCgkJfQoJfQoJcmV0dXJuIGZ1bmMocGF5bG9hZCBzdHJpbmcpICpsb2dydXMuRW50cnkgewoJCWxvZ3J1cy4KCX0KfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0K</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">dHlwZSBlbnRyeSBsb2dydXMuRW50cnkKCmZ1bmMgKGUgKmVudHJ5KUdldFdpdGhQYXlsb2FkRnVjKCkgIHsKCWUuCn0K</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnVuYyAobCAqTG9nZ2VyKSBXaXRoKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0KfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnVuYyBXaSgpICB7CgkKfQo=</text>
+        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuRW50cnkKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoRmllbGRzKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye2xvZ3J1cy5XaXRoRmllbGRzKGZpZWxkcyl9Cn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aFBheWxvYWQocGF5bG9hZCBzdHJpbmcpICpMb2dnZXIgewoJaWYgbG9ncnVzLklzTGV2ZWxFbmFibGVkKGxvZ3J1cy5EZWJ1Z0xldmVsKSB7CgkJcmV0dXJuICZMb2dnZXJ7CgkJCWwuRW50cnkuTG9nKCksCgkJCWxvZ3J1cy5XaXRoRmllbGQoKSwKCQl9Cgl9CglyZXR1cm4gbAp9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWwuV2l0aEZpZWxkcygpCg==</text>
+        <text encoding="base64">CQlyZXR1cm4gJkxvZ2dlcntsLldpdGhGaWVsZHMobG9ncnVzLkZpZWxkc3sicGF5bG9hZCIsIH0pfQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
