@@ -1012,10 +1012,10 @@
         <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="4">
-        <text>address</text>
+        <text>Mine</text>
       </register>
       <register name="-" type="4">
-        <text>address</text>
+        <text>Mine</text>
       </register>
       <register name="/" type="4">
         <text>modal</text>
