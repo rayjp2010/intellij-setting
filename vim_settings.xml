@@ -77,11 +77,12 @@
         <mark key="^" line="680" column="34" />
         <mark key="." line="680" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591753021326">
-        <mark key="[" line="20" column="5" />
-        <mark key="]" line="20" column="22" />
-        <mark key="." line="20" column="21" />
-        <mark key="^" line="20" column="22" />
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591756835572">
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+        <mark key="^" line="10" column="36" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/time_test.go" timestamp="1591749042631">
         <mark key="'" line="44" column="47" />
@@ -148,10 +149,10 @@
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591688234678">
         <mark key="'" line="110" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591752610583">
-        <mark key="[" line="78" column="23" />
-        <mark key="]" line="78" column="32" />
-        <mark key="." line="78" column="31" />
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591756408681">
+        <mark key="[" line="27" column="23" />
+        <mark key="]" line="27" column="23" />
+        <mark key="." line="27" column="23" />
         <mark key="^" line="78" column="32" />
       </file>
       <file name="/Dummy.txt" timestamp="1591750888337">
@@ -170,7 +171,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="653" column="28" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="196" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="238" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="259" column="25" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -270,6 +270,7 @@
       <jump line="28" column="18" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="37" column="18" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="46" column="18" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="25" column="0" filename="$USER_HOME$/go/src/odin/util/log_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1039,47 +1040,51 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>log.WithFields</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>log.WithFields</text>
+        <text>LogWithFields</text>
       </register>
       <register name="/" type="4">
         <text>servicetest</text>
       </register>
-      <register name="0" type="4">
-        <text>logWithFields</text>
+      <register name="0" type="2">
+        <text encoding="base64">CWxvZ1dpdGhGaWVsZHNBbmRQYXlsb2FkIDo9IGZ1bmMoZmllbGRzIGxvZ3J1cy5GaWVsZHMsIHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCQlyZXR1cm4gbG9ncnVzLldpdGhGaWVsZHMoZmllbGRzKS5XaXRoRmllbGQoInBheWxvYWQiLCBwYXlsb2FkKQoJfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CSJvZGluL3NlcnZpY2V0ZXN0L3V0aWwiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CSJvZGluL3NlcnZpY2V0ZXN0L3V0aWwiCg==</text>
+        <text encoding="base64">ZnVuYyBhc2QoKSAgewoJTG9nZ2VyLkxvZ1dpdGhGaWVsZHNBbmRQYXlsb2FkKCkKfQo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">TG9nZ2VyCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">CWF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCWF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJYXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglhdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
+      <register name="6" type="4">
+        <text>func(fields logrus.Fields, payload string) *logrus.Entry {
+		return logWithFields(fields)
+	}</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyBsb2dXaXRoRmllbGRzQW5kUGF5bG9hZChmaWVsZHMgbG9ncnVzLkZpZWxkcywgcGF5bG9hZCBzdHJpbmcpICpsb2dydXMuRW50cnkgewoJcmV0dXJuIGxvZ3J1cy5XaXRoRmllbGRzKGZpZWxkcykuV2l0aEZpZWxkKCJwYXlsb2FkIiwgcGF5bG9hZCkKfQo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Y29uc3QgKAopCg==</text>
+      <register name="8" type="4">
+        <text>func(fields logrus.Fields, payload string) *logrus.Entry {
+			return logWithFields(fields)
+		}</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CUF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCUF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJQXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglBdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
+        <text encoding="base64">CWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewoJCXJldHVybiBmdW5jKGZpZWxkcyBsb2dydXMuRmllbGRzLCBwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeSB7CgkJCXJldHVybiBsb2dXaXRoRmllbGRzKGZpZWxkcykKCQl9Cgl9CglyZXR1cm4gZnVuYyhmaWVsZHMgbG9ncnVzLkZpZWxkcywgcGF5bG9hZCBzdHJpbmcpICpsb2dydXMuRW50cnkgewoJCXJldHVybiBsb2dXaXRoRmllbGRzKGZpZWxkcykud2kKCX0K</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
