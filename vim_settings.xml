@@ -5,12 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>failCount</entry>
-        <entry>tt.failCount</entry>
-        <entry>api</entry>
-        <entry>api.enabled</entry>
-        <entry>112</entry>
-        <entry>ipCountry</entry>
         <entry>orderAmount</entry>
         <entry>redeem</entry>
         <entry>ruleHit</entry>
@@ -25,6 +19,12 @@
         <entry>Genera</entry>
         <entry>findAuditLogResult</entry>
         <entry>core</entry>
+        <entry>time</entry>
+        <entry>host</entry>
+        <entry>key</entry>
+        <entry>testhub</entry>
+        <entry>teststub</entry>
+        <entry>logWithFields</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -63,9 +63,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/a.dummy" timestamp="1591687845092">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log_test.go" timestamp="1591688244901">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="0" />
@@ -74,26 +71,29 @@
       <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1591688267348">
         <mark key="'" line="16" column="40" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/audit_util_test.go" timestamp="1591687918880" />
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591688486270">
         <mark key="[" line="680" column="33" />
         <mark key="]" line="680" column="34" />
         <mark key="^" line="680" column="34" />
         <mark key="." line="680" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1591685015970">
-        <mark key="'" line="564" column="8" />
-        <mark key="[" line="20" column="41" />
-        <mark key="]" line="20" column="49" />
-        <mark key="." line="20" column="48" />
-        <mark key="^" line="20" column="49" />
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591750920076">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" timestamp="1591685468290">
-        <mark key="'" line="131" column="23" />
+      <file name="$USER_HOME$/go/src/odin/util/time_test.go" timestamp="1591749042631">
+        <mark key="'" line="44" column="47" />
+        <mark key="[" line="38" column="12" />
+        <mark key="]" line="40" column="16" />
+        <mark key="^" line="71" column="16" />
+        <mark key="." line="40" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/reducers/homeReducer.js" timestamp="1591685554654">
-        <mark key="[" line="12" column="13" />
-        <mark key="]" line="12" column="24" />
+      <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591749763632">
+        <mark key="[" line="37" column="4" />
+        <mark key="]" line="37" column="15" />
+        <mark key="." line="37" column="14" />
+        <mark key="^" line="37" column="15" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1591688259328">
         <mark key="'" line="92" column="11" />
@@ -111,6 +111,20 @@
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation_test.go" timestamp="1591688282887">
         <mark key="'" line="201" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591749285208">
+        <mark key="'" line="302" column="68" />
+        <mark key="[" line="251" column="64" />
+        <mark key="]" line="251" column="68" />
+        <mark key="." line="251" column="67" />
+        <mark key="^" line="251" column="68" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591749325951">
+        <mark key="'" line="27" column="0" />
+        <mark key="[" line="36" column="86" />
+        <mark key="]" line="36" column="88" />
+        <mark key="." line="36" column="87" />
+        <mark key="^" line="36" column="88" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1591688263716">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="6" column="0" />
@@ -127,7 +141,12 @@
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591688234678">
         <mark key="'" line="110" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591688113280">
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591750736313">
+        <mark key="'" line="78" column="8" />
+        <mark key="[" line="56" column="8" />
+        <mark key="]" line="56" column="20" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1591750888337">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_util_test.go" timestamp="1591688191481">
@@ -146,31 +165,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="30" column="61" filename="$USER_HOME$/go/src/odin/util/time.go" />
-      <jump line="33" column="9" filename="$USER_HOME$/go/src/odin/util/time.go" />
-      <jump line="34" column="30" filename="$USER_HOME$/go/src/odin/util/time.go" />
-      <jump line="17" column="19" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="38" column="21" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="41" column="19" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="44" column="47" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="49" column="50" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="50" column="51" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="51" column="49" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="52" column="50" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="53" column="52" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="54" column="52" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="55" column="62" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="56" column="29" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="82" column="21" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="84" column="16" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="88" column="25" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="5" column="5" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="13" column="17" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="30" column="128" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="31" column="119" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="32" column="107" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="33" column="107" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
-      <jump line="167" column="31" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="32" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="509" column="46" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="647" column="24" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
@@ -246,6 +240,31 @@
       <jump line="201" column="0" filename="$USER_HOME$/go/src/odin/model/transaction_evaluation_test.go" />
       <jump line="206" column="51" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="41" column="26" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="21" column="21" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="30" column="128" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="31" column="119" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="32" column="107" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="33" column="107" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="38" column="21" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="41" column="19" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="44" column="47" filename="$USER_HOME$/go/src/odin/util/time_test.go" />
+      <jump line="96" column="29" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="97" column="91" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="99" column="121" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="188" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="232" column="29" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="70" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="91" column="65" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="118" column="48" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="120" column="57" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="209" column="70" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="250" column="60" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="251" column="46" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="302" column="68" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="27" column="0" filename="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" />
+      <jump line="55" column="8" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="66" column="8" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="77" column="8" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1015,17 +1034,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>core.JsonMap</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>core.JsonMap</text>
+        <text>image</text>
       </register>
       <register name="/" type="4">
-        <text>core</text>
+        <text>logWithFields</text>
       </register>
       <register name="0" type="4">
-        <text>HOME_CONTROL</text>
+        <text>logWithFields</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1037,25 +1056,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCWF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJYXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglhdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCWF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJYXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglhdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3QgKAopCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CUF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCUF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJQXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglBdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
+        <text encoding="base64">Y29uc3QgKAopCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CUF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCUF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJQXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglBdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnVuYyAocCBQYXlndWFyZEV2YWx1YXRpb24pIE5hbWUoKSBzdHJpbmcgewoJcmV0dXJuIGZtdC5TcHJpbnRmKCIlcyIsIHApCn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyAocCBQYXlndWFyZEV2YWx1YXRpb24pIE5hbWUoKSBzdHJpbmcgewoJcmV0dXJuIGZtdC5TcHJpbnRmKCIlcyIsIHApCn0K</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1064,9 +1083,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>core</last-search>
+      <last-search>logWithFields</last-search>
       <last-offset />
-      <last-pattern>core</last-pattern>
+      <last-pattern>logWithFields</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
