@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>orderAmount</entry>
-        <entry>redeem</entry>
         <entry>ruleHit</entry>
         <entry>shipping</entry>
         <entry>shippingCou</entry>
@@ -25,6 +23,8 @@
         <entry>testhub</entry>
         <entry>teststub</entry>
         <entry>logWithFields</entry>
+        <entry>util.</entry>
+        <entry>util\.</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -77,10 +77,11 @@
         <mark key="^" line="680" column="34" />
         <mark key="." line="680" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591750920076">
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591752415112">
+        <mark key="[" line="4" column="11" />
+        <mark key="]" line="4" column="19" />
+        <mark key="." line="4" column="18" />
+        <mark key="^" line="4" column="19" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/time_test.go" timestamp="1591749042631">
         <mark key="'" line="44" column="47" />
@@ -141,10 +142,11 @@
       <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591688234678">
         <mark key="'" line="110" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591750736313">
-        <mark key="'" line="78" column="8" />
-        <mark key="[" line="56" column="8" />
-        <mark key="]" line="56" column="20" />
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591752590881">
+        <mark key="[" line="78" column="23" />
+        <mark key="]" line="78" column="31" />
+        <mark key="." line="78" column="30" />
+        <mark key="^" line="78" column="31" />
       </file>
       <file name="/Dummy.txt" timestamp="1591750888337">
         <mark key="[" line="0" column="0" />
@@ -165,11 +167,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="32" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="509" column="46" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="647" column="24" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="621" column="19" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="642" column="34" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="653" column="28" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="196" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="238" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -265,6 +262,11 @@
       <jump line="55" column="8" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="66" column="8" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="77" column="8" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="5" column="22" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="6" column="16" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="28" column="18" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="37" column="18" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="46" column="18" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1034,47 +1036,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>util.EventSync,</text>
       </register>
       <register name="-" type="4">
-        <text>image</text>
+        <text>util.EventSync,</text>
       </register>
       <register name="/" type="4">
-        <text>logWithFields</text>
+        <text>util\.</text>
       </register>
       <register name="0" type="4">
         <text>logWithFields</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CSJvZGluL3NlcnZpY2V0ZXN0L3V0aWwiCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CSJvZGluL3NlcnZpY2V0ZXN0L3V0aWwiCg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CWF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCWF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJYXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglhdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y29uc3QgKAopCg==</text>
+        <text encoding="base64">CWF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCWF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJYXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglhdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CUF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCUF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJQXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglBdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">Y29uc3QgKAopCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnVuYyAocCBQYXlndWFyZEV2YWx1YXRpb24pIE5hbWUoKSBzdHJpbmcgewoJcmV0dXJuIGZtdC5TcHJpbnRmKCIlcyIsIHApCn0K</text>
+        <text encoding="base64">CUF1ZGl0RnJvbUZpZWxkICAgID0gIkZyb206ICIKCUF1ZGl0RnJvbUZpZWxkTGVuID0gNgoJQXVkaXRUb0ZpZWxkICAgICAgPSAiIHRvOiAiCglBdWRpdFRvRmllbGRMZW4gICA9IDUK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1083,9 +1085,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>logWithFields</last-search>
+      <last-search>util\.</last-search>
       <last-offset />
-      <last-pattern>logWithFields</last-pattern>
+      <last-pattern>util\.</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
