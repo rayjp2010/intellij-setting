@@ -63,9 +63,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1591688267348">
-        <mark key="'" line="16" column="40" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591688486270">
         <mark key="[" line="680" column="33" />
         <mark key="]" line="680" column="34" />
@@ -131,6 +128,11 @@
         <mark key="." line="36" column="87" />
         <mark key="^" line="36" column="88" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591768707060">
+        <mark key="'" line="110" column="0" />
+        <mark key="[" line="87" column="62" />
+        <mark key="]" line="87" column="92" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591762313724">
         <mark key="[" line="90" column="10" />
         <mark key="]" line="90" column="10" />
@@ -143,11 +145,11 @@
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1591688276059">
         <mark key="'" line="205" column="28" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1591767759920">
-        <mark key="[" line="129" column="7" />
-        <mark key="]" line="129" column="13" />
-        <mark key="." line="129" column="12" />
-        <mark key="^" line="129" column="13" />
+      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1591768689418">
+        <mark key="[" line="128" column="9" />
+        <mark key="]" line="128" column="16" />
+        <mark key="." line="128" column="15" />
+        <mark key="^" line="128" column="16" />
       </file>
       <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" timestamp="1591766065323">
         <mark key="'" line="312" column="20" />
@@ -1034,16 +1036,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Info</text>
+        <text>SearchFieldDisplayValueProvider</text>
       </register>
       <register name="-" type="4">
-        <text>Info</text>
+        <text>response</text>
       </register>
       <register name="/" type="4">
         <text>IsLevelEnabled</text>
       </register>
       <register name="0" type="4">
-        <text>WithPayloadFunc func(payload string) *logrus.Entry</text>
+        <text>SearchFieldDisplayValueProvider</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkKCkuRGVidWcoKQo=</text>
