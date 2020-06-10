@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>shippingCou</entry>
         <entry>itemname</entry>
         <entry>mmcity</entry>
         <entry>MMAnonymous</entry>
@@ -25,6 +24,7 @@
         <entry>util\.</entry>
         <entry>servicetest</entry>
         <entry>debug</entry>
+        <entry>log</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -63,11 +63,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/model/audit_log_test.go" timestamp="1591688244901">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1591688267348">
         <mark key="'" line="16" column="40" />
       </file>
@@ -83,6 +78,11 @@
         <mark key="]" line="6" column="26" />
         <mark key="." line="6" column="25" />
         <mark key="^" line="6" column="26" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
+        <mark key="'" line="196" column="0" />
+        <mark key="[" line="27" column="36" />
+        <mark key="]" line="27" column="56" />
       </file>
       <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/logrus.go" timestamp="1591757540230">
         <mark key="'" line="24" column="8" />
@@ -142,13 +142,6 @@
         <mark key="]" line="6" column="96" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1591688254566">
-        <mark key="'" line="183" column="38" />
-        <mark key="[" line="142" column="69" />
-        <mark key="]" line="143" column="65" />
-        <mark key="^" line="143" column="65" />
-        <mark key="." line="143" column="64" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591757591042">
         <mark key="[" line="78" column="23" />
         <mark key="]" line="76" column="32" />
@@ -161,6 +154,13 @@
       <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1591688276059">
         <mark key="'" line="205" column="28" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1591758442133">
+        <mark key="'" line="19" column="4" />
+        <mark key="[" line="130" column="19" />
+        <mark key="]" line="19" column="4" />
+        <mark key="^" line="19" column="4" />
+        <mark key="." line="19" column="3" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591688330044">
         <mark key="'" line="40" column="26" />
         <mark key="[" line="189" column="89" />
@@ -171,7 +171,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="259" column="25" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="260" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="261" column="38" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="262" column="38" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -271,6 +270,7 @@
       <jump line="25" column="0" filename="$USER_HOME$/go/src/odin/util/log_util.go" />
       <jump line="4" column="0" filename="$USER_HOME$/go/src/odin/util/log_util.go" />
       <jump line="24" column="8" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/logrus.go" />
+      <jump line="19" column="4" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1040,17 +1040,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkIDo9IHV0aWwuR2V0TG9nV2l0aFBheWxvYWRGdW5jKCkK</text>
+      <register name="*" type="4">
+        <text>logWithPayload</text>
       </register>
       <register name="-" type="4">
         <text>&quot;Transaction search error&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>debug</text>
+        <text>log</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZnVuYyBsb2dXaXRoRmllbGRzKCkgIHsKCQp9Cg==</text>
+      <register name="0" type="4">
+        <text>logWithPayload</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkIDo9IHV0aWwuR2V0TG9nV2l0aFBheWxvYWRGdW5jKCkK</text>
@@ -1096,9 +1096,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>debug</last-search>
+      <last-search>log</last-search>
       <last-offset />
-      <last-pattern>debug</last-pattern>
+      <last-pattern>log</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
