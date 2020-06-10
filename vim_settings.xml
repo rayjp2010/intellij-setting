@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>MMAnonymous</entry>
         <entry>MMAnonymousVPN2</entry>
         <entry>publicProxy</entry>
         <entry>publicProxy2</entry>
@@ -25,6 +24,7 @@
         <entry>log</entry>
         <entry>leve</entry>
         <entry>IsLevelEnabled</entry>
+        <entry>shippingAddress</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -95,8 +95,8 @@
         <mark key="." line="37" column="14" />
         <mark key="^" line="37" column="15" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591688270400">
-        <mark key="'" line="16" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591772718781">
+        <mark key="'" line="109" column="84" />
         <mark key="[" line="66" column="79" />
         <mark key="]" line="66" column="89" />
         <mark key="^" line="66" column="89" />
@@ -166,7 +166,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="619" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="537" column="32" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="555" column="8" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="567" column="12" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
@@ -266,6 +265,7 @@
       <jump line="23" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
       <jump line="131" column="8" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
       <jump line="135" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="109" column="84" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1042,7 +1042,7 @@
         <text>response</text>
       </register>
       <register name="/" type="4">
-        <text>IsLevelEnabled</text>
+        <text>shippingAddress</text>
       </register>
       <register name="0" type="4">
         <text>SearchFieldDisplayValueProvider</text>
@@ -1084,9 +1084,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>IsLevelEnabled</last-search>
+      <last-search>shippingAddress</last-search>
       <last-offset />
-      <last-pattern>IsLevelEnabled</last-pattern>
+      <last-pattern>shippingAddress</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
