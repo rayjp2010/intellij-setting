@@ -114,8 +114,8 @@
         <mark key="^" line="60" column="17" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591749285208">
-        <mark key="'" line="302" column="68" />
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591770644751">
+        <mark key="'" line="135" column="14" />
         <mark key="[" line="251" column="64" />
         <mark key="]" line="251" column="68" />
         <mark key="." line="251" column="67" />
@@ -166,7 +166,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="213" column="49" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="619" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="537" column="32" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="555" column="8" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
@@ -266,6 +265,7 @@
       <jump line="312" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
       <jump line="23" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
       <jump line="131" column="8" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
+      <jump line="135" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
