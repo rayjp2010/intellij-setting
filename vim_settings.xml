@@ -72,12 +72,12 @@
         <mark key="^" line="680" column="34" />
         <mark key="." line="680" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591757696141">
-        <mark key="'" line="4" column="0" />
-        <mark key="[" line="6" column="19" />
-        <mark key="]" line="6" column="26" />
-        <mark key="." line="6" column="25" />
-        <mark key="^" line="6" column="26" />
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591763346482">
+        <mark key="'" line="19" column="0" />
+        <mark key="[" line="14" column="8" />
+        <mark key="]" line="10" column="1" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="10" column="1" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
         <mark key="'" line="196" column="0" />
@@ -142,11 +142,11 @@
         <mark key="]" line="6" column="96" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591757591042">
-        <mark key="[" line="78" column="23" />
-        <mark key="]" line="76" column="32" />
-        <mark key="." line="76" column="31" />
-        <mark key="^" line="76" column="32" />
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591762313724">
+        <mark key="[" line="90" column="10" />
+        <mark key="]" line="90" column="10" />
+        <mark key="." line="90" column="9" />
+        <mark key="^" line="90" column="10" />
       </file>
       <file name="/Dummy.txt" timestamp="1591757621180">
         <mark key="[" line="0" column="0" />
@@ -1040,54 +1040,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>logWithPayload</text>
+      <register name="*" type="2">
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;Transaction search error&quot;</text>
+        <text>payload string</text>
       </register>
       <register name="/" type="4">
         <text>log</text>
       </register>
-      <register name="0" type="4">
-        <text>logWithPayload</text>
+      <register name="0" type="2">
+        <text encoding="base64">CWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkIDo9IHV0aWwuR2V0TG9nV2l0aFBheWxvYWRGdW5jKCkK</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQlsb2cuV2l0aEZpZWxkcygpLkVycm9yKCkK</text>
+        <text encoding="base64">CXJldHVybiAmTG9nZ2Vye2xvZ3J1cy5XaXRoRmllbGQoInBheWxvYWQiLCBwYXlsb2FkKX0K</text>
       </register>
-      <register name="3" type="4">
-        <text>log.Fields{
-			&quot;property&quot;:      *request.TransactionProperty,
-			&quot;propertyValue&quot;: *request.TransactionPropertyValue,
-			&quot;request&quot;:       request,
-			&quot;indexes&quot;:       indexes,
-			&quot;queryBody&quot;:     queryBody,
-			&quot;errorMessage&quot;:  err,
-		}</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyAoKSAgewoJCn0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWEgOj0gbG9nRW50cnl7fQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWZ1bmMgCg==</text>
+        <text encoding="base64">CWEuV2l0aEZpZWxkcygpLndpdGgK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">dmFyIExvZ2dlciA9ICZsb2dnZXJ7Cg==</text>
+        <text encoding="base64">ZnVuYyBXaXRoRmllbGRzKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqbG9nRW50cnkgewoJcmV0dXJuICZsb2dFbnRyeXtsb2dydXMuV2l0aEZpZWxkcyhmaWVsZHMpfQp9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkIDo9IHV0aWwuR2V0TG9nV2l0aFBheWxvYWRGdW5jKCkK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
