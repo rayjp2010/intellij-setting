@@ -72,12 +72,11 @@
         <mark key="^" line="680" column="34" />
         <mark key="." line="680" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591764033442">
-        <mark key="'" line="14" column="0" />
-        <mark key="[" line="6" column="54" />
-        <mark key="]" line="9" column="9" />
-        <mark key="^" line="4" column="24" />
-        <mark key="." line="9" column="9" />
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591765228294">
+        <mark key="'" line="4" column="0" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
         <mark key="'" line="196" column="0" />
@@ -1040,11 +1039,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>.Entry</text>
+      <register name="*" type="2">
+        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuTG9nZ2VyCn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aChmaWVsZHMgbG9ncnVzLkZpZWxkcykgKkxvZ2dlciB7CglyZXR1cm4gbC5XaXRoRmllbGRzKGZpZWxkcykKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoUGF5bG9hZChwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeSB7CglpZiBsb2dydXMuSXNMZXZlbEVuYWJsZWQobG9ncnVzLkRlYnVnTGV2ZWwpIHsKCQlsLkVudHJ5LldpdGhGaWVsZHMoKQoJfQoJcmV0dXJuIGwKfQoK</text>
       </register>
       <register name="-" type="4">
-        <text>.Entry</text>
+        <text>WithFields(fields)</text>
       </register>
       <register name="/" type="4">
         <text>log</text>
@@ -1053,34 +1052,34 @@
         <text encoding="base64">CWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWwuV2l0aEZpZWxkcygpCg==</text>
+        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuTG9nZ2VyCn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aChmaWVsZHMgbG9ncnVzLkZpZWxkcykgKkxvZ2dlciB7CglyZXR1cm4gbC5XaXRoRmllbGRzKGZpZWxkcykKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoUGF5bG9hZChwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeSB7CglpZiBsb2dydXMuSXNMZXZlbEVuYWJsZWQobG9ncnVzLkRlYnVnTGV2ZWwpIHsKCQlsLkVudHJ5LldpdGhGaWVsZHMoKQoJfQoJcmV0dXJuIGwKfQoK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">CXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CSpsb2dydXMuRW50cnkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsK</text>
+        <text encoding="base64">ZnVuYyAobCAqTG9nZ2VyKSBXaXRoKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0KfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyBXaSgpICB7CgkKfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnVuYyAobCAqTG9nZ2VyKSBXaXRoRmllbGRzKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye2xvZ3J1cy5XaXRoRmllbGRzKGZpZWxkcyl9Cn0K</text>
+        <text encoding="base64">CWwuV2l0aEZpZWxkcygpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CWwuV2EK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CXJldHVybiAmTG9nZ2Vye2xvZ3J1cy5XaXRoRmllbGQoInBheWxvYWQiLCBwYXlsb2FkKX0K</text>
+        <text encoding="base64">CWwuV2l0aEZpZWxkcygpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
