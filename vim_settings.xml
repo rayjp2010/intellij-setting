@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>itemname</entry>
-        <entry>mmcity</entry>
         <entry>MMAnonymous</entry>
         <entry>MMAnonymousVPN2</entry>
         <entry>publicProxy</entry>
@@ -25,6 +23,8 @@
         <entry>servicetest</entry>
         <entry>debug</entry>
         <entry>log</entry>
+        <entry>leve</entry>
+        <entry>IsLevelEnabled</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -72,11 +72,12 @@
         <mark key="^" line="680" column="34" />
         <mark key="." line="680" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591765228294">
-        <mark key="'" line="4" column="0" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591766000691">
+        <mark key="'" line="12" column="0" />
+        <mark key="[" line="14" column="23" />
+        <mark key="]" line="13" column="37" />
+        <mark key="." line="13" column="36" />
+        <mark key="^" line="13" column="37" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
         <mark key="'" line="196" column="0" />
@@ -98,12 +99,6 @@
         <mark key="]" line="37" column="15" />
         <mark key="." line="37" column="14" />
         <mark key="^" line="37" column="15" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1591688259328">
-        <mark key="'" line="92" column="11" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591688270400">
         <mark key="'" line="16" column="0" />
@@ -160,6 +155,11 @@
         <mark key="^" line="19" column="4" />
         <mark key="." line="19" column="3" />
       </file>
+      <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" timestamp="1591766065323">
+        <mark key="'" line="312" column="20" />
+        <mark key="[" line="266" column="20" />
+        <mark key="]" line="266" column="33" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591688330044">
         <mark key="'" line="40" column="26" />
         <mark key="[" line="189" column="89" />
@@ -170,10 +170,6 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
-      <jump line="260" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="261" column="38" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="262" column="38" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="263" column="38" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="265" column="4" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="71" column="14" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="213" column="49" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
@@ -270,6 +266,10 @@
       <jump line="4" column="0" filename="$USER_HOME$/go/src/odin/util/log_util.go" />
       <jump line="24" column="8" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/logrus.go" />
       <jump line="19" column="4" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
+      <jump line="265" column="58" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
+      <jump line="357" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
+      <jump line="266" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
+      <jump line="312" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1039,47 +1039,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuTG9nZ2VyCn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aChmaWVsZHMgbG9ncnVzLkZpZWxkcykgKkxvZ2dlciB7CglyZXR1cm4gbC5XaXRoRmllbGRzKGZpZWxkcykKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoUGF5bG9hZChwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeSB7CglpZiBsb2dydXMuSXNMZXZlbEVuYWJsZWQobG9ncnVzLkRlYnVnTGV2ZWwpIHsKCQlsLkVudHJ5LldpdGhGaWVsZHMoKQoJfQoJcmV0dXJuIGwKfQoK</text>
+      <register name="*" type="4">
+        <text>IsLevelEnabled</text>
       </register>
       <register name="-" type="4">
-        <text>WithFields(fields)</text>
+        <text>withPayloadLogProvider()</text>
       </register>
       <register name="/" type="4">
-        <text>log</text>
+        <text>IsLevelEnabled</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewo=</text>
+      <register name="0" type="4">
+        <text>IsLevelEnabled</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuTG9nZ2VyCn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aChmaWVsZHMgbG9ncnVzLkZpZWxkcykgKkxvZ2dlciB7CglyZXR1cm4gbC5XaXRoRmllbGRzKGZpZWxkcykKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoUGF5bG9hZChwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeSB7CglpZiBsb2dydXMuSXNMZXZlbEVuYWJsZWQobG9ncnVzLkRlYnVnTGV2ZWwpIHsKCQlsLkVudHJ5LldpdGhGaWVsZHMoKQoJfQoJcmV0dXJuIGwKfQoK</text>
+        <text encoding="base64">CQlyZXR1cm4gJkxvZ2dlcntsLldpdGhGaWVsZHMobG9ncnVzLkZpZWxkc3sicGF5bG9hZCIsIH0pfQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0K</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ZnVuYyAobCAqTG9nZ2VyKSBXaXRoRmllbGQgKGZpZWxkIGxvZ3J1cy5GaWVsZHMpIHsKCXJldHVybiAmTG9nZ2VyewoJCQoJfQp9Cg==</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuYyAobCAqTG9nZ2VyKSBXaXRoKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0KfQo=</text>
+        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuTG9nZ2VyCn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aChmaWVsZHMgbG9ncnVzLkZpZWxkcykgKkxvZ2dlciB7CglyZXR1cm4gbC5XaXRoRmllbGRzKGZpZWxkcykKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoUGF5bG9hZChwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeSB7CglpZiBsb2dydXMuSXNMZXZlbEVuYWJsZWQobG9ncnVzLkRlYnVnTGV2ZWwpIHsKCQlsLkVudHJ5LldpdGhGaWVsZHMoKQoJfQoJcmV0dXJuIGwKfQoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuYyBXaSgpICB7CgkKfQo=</text>
+        <text encoding="base64">CXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWwuV2l0aEZpZWxkcygpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CWwuV2EK</text>
+        <text encoding="base64">ZnVuYyAobCAqTG9nZ2VyKSBXaXRoKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye0VudHJ5OiBsLldpdGhGaWVsZHMoZmllbGRzKX0KfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CWwuV2l0aEZpZWxkcygpCg==</text>
+        <text encoding="base64">ZnVuYyBXaSgpICB7CgkKfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">CWwuV2l0aEZpZWxkcygpCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1088,9 +1088,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>log</last-search>
+      <last-search>IsLevelEnabled</last-search>
       <last-offset />
-      <last-pattern>log</last-pattern>
+      <last-pattern>IsLevelEnabled</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
