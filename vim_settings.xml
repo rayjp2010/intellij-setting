@@ -92,12 +92,6 @@
       <file name="$USER_HOME$/Workspace/poseidon/event/events.yml" timestamp="1591839593661">
         <mark key="^" line="18" column="29" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591688486270">
-        <mark key="[" line="680" column="33" />
-        <mark key="]" line="680" column="34" />
-        <mark key="^" line="680" column="34" />
-        <mark key="." line="680" column="33" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591767623649">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
@@ -116,6 +110,9 @@
         <mark key="'" line="196" column="0" />
         <mark key="[" line="27" column="36" />
         <mark key="]" line="27" column="56" />
+      </file>
+      <file name="$USER_HOME$/Workspace/poseidon/src/domain/ichiba.js" timestamp="1591842909577">
+        <mark key="'" line="26" column="4" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591758015749">
         <mark key="[" line="38" column="0" />
@@ -164,7 +161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="567" column="12" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="579" column="12" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="591" column="12" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="603" column="12" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
@@ -264,6 +260,7 @@
       <jump line="97" column="91" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="99" column="121" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="188" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="26" column="4" filename="$USER_HOME$/Workspace/poseidon/src/domain/ichiba.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
