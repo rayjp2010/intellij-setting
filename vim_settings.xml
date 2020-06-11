@@ -5,35 +5,28 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>publicProxy</entry>
-        <entry>publicProxy2</entry>
-        <entry>Genera</entry>
-        <entry>findAuditLogResult</entry>
-        <entry>core</entry>
-        <entry>time</entry>
-        <entry>key</entry>
-        <entry>testhub</entry>
-        <entry>teststub</entry>
-        <entry>logWithFields</entry>
-        <entry>util.</entry>
-        <entry>util\.</entry>
-        <entry>servicetest</entry>
-        <entry>debug</entry>
-        <entry>log</entry>
-        <entry>leve</entry>
-        <entry>IsLevelEnabled</entry>
-        <entry>shippingAddress</entry>
-        <entry>host</entry>
-        <entry>prefox</entry>
+        <entry>新規作成</entry>
+        <entry>対応</entry>
+        <entry>rowClick</entry>
+        <entry>click</entry>
+        <entry>admin</entry>
+        <entry>Entity</entry>
+        <entry>user</entry>
+        <entry>userDb</entry>
+        <entry>type</entry>
+        <entry>isAdmin</entry>
+        <entry>store</entry>
+        <entry>userStore</entry>
+        <entry>address</entry>
+        <entry>api</entry>
+        <entry>leftCount</entry>
+        <entry>status</entry>
+        <entry>matchStatus</entry>
+        <entry>badge</entry>
+        <entry>週</entry>
+        <entry>modal</entry>
       </history-search>
-      <history-cmd>
-        <entry>vsplit</entry>
-        <entry>unsplit</entry>
-        <entry>c</entry>
-        <entry>on</entry>
-        <entry>close</entry>
-        <entry>only</entry>
-      </history-cmd>
+      <history-cmd />
       <history-expr />
       <history-input />
     </history>
@@ -42,6 +35,9 @@
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed J</text>
@@ -63,24 +59,37 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1591688486270">
-        <mark key="[" line="680" column="33" />
-        <mark key="]" line="680" column="34" />
-        <mark key="^" line="680" column="34" />
-        <mark key="." line="680" column="33" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591767642583">
+        <mark key="'" line="23" column="19" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="16" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591767623649">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591758015749">
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="0" />
+        <mark key="^" line="60" column="17" />
+        <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
-        <mark key="'" line="196" column="0" />
-        <mark key="[" line="27" column="36" />
-        <mark key="]" line="27" column="56" />
+      <file name="/Dummy.txt" timestamp="1591757621180">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/logrus.go" timestamp="1591757540230">
-        <mark key="'" line="24" column="8" />
+      <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" timestamp="1591766065323">
+        <mark key="'" line="312" column="20" />
+        <mark key="[" line="266" column="20" />
+        <mark key="]" line="266" column="33" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1591768689418">
+        <mark key="[" line="128" column="9" />
+        <mark key="]" line="128" column="16" />
+        <mark key="." line="128" column="15" />
+        <mark key="^" line="128" column="16" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591773854233">
+        <mark key="'" line="188" column="28" />
+        <mark key="[" line="236" column="72" />
+        <mark key="]" line="236" column="75" />
+        <mark key="." line="236" column="74" />
+        <mark key="^" line="236" column="75" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/time_test.go" timestamp="1591749042631">
         <mark key="'" line="44" column="47" />
@@ -88,6 +97,41 @@
         <mark key="]" line="40" column="16" />
         <mark key="^" line="71" column="16" />
         <mark key="." line="40" column="16" />
+      </file>
+      <file name="/GraphQL.result.json" timestamp="1591870076981">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/util/log_util.go" timestamp="1591767623649">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591762313724">
+        <mark key="[" line="90" column="10" />
+        <mark key="]" line="90" column="10" />
+        <mark key="." line="90" column="9" />
+        <mark key="^" line="90" column="10" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/store/demand.ts" timestamp="1591703107339">
+        <mark key="'" line="158" column="0" />
+        <mark key="[" line="82" column="56" />
+        <mark key="]" line="82" column="56" />
+        <mark key="^" line="34" column="84" />
+        <mark key="." line="82" column="56" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/index.vue" timestamp="1591870111116">
+        <mark key="[" line="13" column="1" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="14" column="9" />
+        <mark key="^" line="15" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/logrus.go" timestamp="1591757540230">
+        <mark key="'" line="24" column="8" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591768707060">
+        <mark key="'" line="110" column="0" />
+        <mark key="[" line="87" column="62" />
+        <mark key="]" line="87" column="92" />
       </file>
       <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591749763632">
         <mark key="[" line="37" column="4" />
@@ -99,71 +143,27 @@
         <mark key="'" line="109" column="84" />
         <mark key="[" line="66" column="79" />
         <mark key="]" line="66" column="89" />
-        <mark key="^" line="66" column="89" />
         <mark key="." line="66" column="88" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation_test.go" timestamp="1591688282887">
-        <mark key="'" line="201" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591767642583">
-        <mark key="'" line="23" column="19" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591758015749">
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="38" column="0" />
-        <mark key="^" line="60" column="17" />
-        <mark key="." line="38" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591773854233">
-        <mark key="'" line="188" column="28" />
-        <mark key="[" line="236" column="72" />
-        <mark key="]" line="236" column="75" />
-        <mark key="." line="236" column="74" />
-        <mark key="^" line="236" column="75" />
+        <mark key="^" line="66" column="89" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591749325951">
         <mark key="'" line="27" column="0" />
         <mark key="[" line="36" column="86" />
         <mark key="]" line="36" column="88" />
-        <mark key="." line="36" column="87" />
         <mark key="^" line="36" column="88" />
+        <mark key="." line="36" column="87" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/audit_log.go" timestamp="1591768707060">
-        <mark key="'" line="110" column="0" />
-        <mark key="[" line="87" column="62" />
-        <mark key="]" line="87" column="92" />
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
+        <mark key="'" line="196" column="0" />
+        <mark key="[" line="27" column="36" />
+        <mark key="]" line="27" column="56" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1591762313724">
-        <mark key="[" line="90" column="10" />
-        <mark key="]" line="90" column="10" />
-        <mark key="." line="90" column="9" />
-        <mark key="^" line="90" column="10" />
+      <file name="$USER_HOME$/Develop/workspace/face-shield/pages/demand-list.vue" timestamp="1591870198641">
+        <mark key="[" line="20" column="31" />
+        <mark key="]" line="20" column="33" />
+        <mark key="." line="20" column="32" />
+        <mark key="^" line="20" column="33" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591757621180">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_evaluation.go" timestamp="1591688276059">
-        <mark key="'" line="205" column="28" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1591768689418">
-        <mark key="[" line="128" column="9" />
-        <mark key="]" line="128" column="16" />
-        <mark key="." line="128" column="15" />
-        <mark key="^" line="128" column="16" />
-      </file>
-      <file name="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" timestamp="1591766065323">
-        <mark key="'" line="312" column="20" />
-        <mark key="[" line="266" column="20" />
-        <mark key="]" line="266" column="33" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591688330044">
-        <mark key="'" line="40" column="26" />
-        <mark key="[" line="189" column="89" />
-        <mark key="]" line="189" column="89" />
-        <mark key="." line="189" column="89" />
-        <mark key="^" line="211" column="75" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_util.go" timestamp="1591688404219" />
     </filemarks>
     <jumps>
       <jump line="567" column="12" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
@@ -1035,11 +1035,14 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
+      </register>
       <register name="*" type="4">
-        <text>SearchFieldDisplayValueProvider</text>
+        <text>detail</text>
       </register>
       <register name="-" type="4">
-        <text>response</text>
+        <text>detail</text>
       </register>
       <register name="/" type="4">
         <text>prefox</text>
@@ -1047,35 +1050,35 @@
       <register name="0" type="4">
         <text>SearchFieldDisplayValueProvider</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkKCkuRGVidWcoKQo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkKCkuRGVidWcoKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dHlwZSBXaXRoUGF5bG9hZEZ1bmMgZnVuYyhwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuYyBHZXRXaXRoUGF5bG9hZEZ1bmMoKSBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewoJCXJldHVybiBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCQkJCgkJfQoJfQoJcmV0dXJuIGZ1bmMocGF5bG9hZCBzdHJpbmcpICpsb2dydXMuRW50cnkgewoJCWxvZ3J1cy4KCX0KfQo=</text>
+        <text encoding="base64">dHlwZSBXaXRoUGF5bG9hZEZ1bmMgZnVuYyhwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyBHZXRXaXRoUGF5bG9hZEZ1bmMoKSBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewoJCXJldHVybiBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCQkJCgkJfQoJfQoJcmV0dXJuIGZ1bmMocGF5bG9hZCBzdHJpbmcpICpsb2dydXMuRW50cnkgewoJCWxvZ3J1cy4KCX0KfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dHlwZSBlbnRyeSBsb2dydXMuRW50cnkKCmZ1bmMgKGUgKmVudHJ5KUdldFdpdGhQYXlsb2FkRnVjKCkgIHsKCWUuCn0K</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">dHlwZSBlbnRyeSBsb2dydXMuRW50cnkKCmZ1bmMgKGUgKmVudHJ5KUdldFdpdGhQYXlsb2FkRnVjKCkgIHsKCWUuCn0K</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuRW50cnkKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoRmllbGRzKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye2xvZ3J1cy5XaXRoRmllbGRzKGZpZWxkcyl9Cn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aFBheWxvYWQocGF5bG9hZCBzdHJpbmcpICpMb2dnZXIgewoJaWYgbG9ncnVzLklzTGV2ZWxFbmFibGVkKGxvZ3J1cy5EZWJ1Z0xldmVsKSB7CgkJcmV0dXJuICZMb2dnZXJ7CgkJCWwuRW50cnkuTG9nKCksCgkJCWxvZ3J1cy5XaXRoRmllbGQoKSwKCQl9Cgl9CglyZXR1cm4gbAp9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQlyZXR1cm4gJkxvZ2dlcntsLldpdGhGaWVsZHMobG9ncnVzLkZpZWxkc3sicGF5bG9hZCIsIH0pfQo=</text>
+        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuRW50cnkKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoRmllbGRzKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye2xvZ3J1cy5XaXRoRmllbGRzKGZpZWxkcyl9Cn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aFBheWxvYWQocGF5bG9hZCBzdHJpbmcpICpMb2dnZXIgewoJaWYgbG9ncnVzLklzTGV2ZWxFbmFibGVkKGxvZ3J1cy5EZWJ1Z0xldmVsKSB7CgkJcmV0dXJuICZMb2dnZXJ7CgkJCWwuRW50cnkuTG9nKCksCgkJCWxvZ3J1cy5XaXRoRmllbGQoKSwKCQl9Cgl9CglyZXR1cm4gbAp9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
