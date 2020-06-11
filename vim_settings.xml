@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>testhub</entry>
         <entry>teststub</entry>
         <entry>logWithFields</entry>
         <entry>util.</entry>
@@ -25,6 +24,7 @@
         <entry>persister</entry>
         <entry>token</entry>
         <entry>buildEventProcessorChain</entry>
+        <entry>states</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -81,11 +81,6 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1591758251566">
-        <mark key="'" line="196" column="0" />
-        <mark key="[" line="27" column="36" />
-        <mark key="]" line="27" column="56" />
-      </file>
       <file name="$USER_HOME$/Workspace/poseidon/src/domain/ichiba.js" timestamp="1591842909577">
         <mark key="'" line="26" column="4" />
       </file>
@@ -135,19 +130,28 @@
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591767642583">
         <mark key="'" line="23" column="19" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/index.js" timestamp="1591855612423">
+      <file name="$USER_HOME$/Workspace/poseidon/src/index.js" timestamp="1591857217384">
         <mark key="'" line="17" column="9" />
-        <mark key="[" line="17" column="9" />
-        <mark key="]" line="17" column="32" />
+        <mark key="[" line="99" column="4" />
+        <mark key="]" line="101" column="4" />
+        <mark key="." line="101" column="3" />
+        <mark key="^" line="101" column="4" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/.gitignore" timestamp="1591839184637">
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/domain/event_processor.js" timestamp="1591855602122">
-        <mark key="[" line="2" column="15" />
-        <mark key="]" line="2" column="38" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/domain/event_processor.js" timestamp="1591856950346">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="^" line="21" column="18" />
+        <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/poseidon/src/config.js" timestamp="1591857532884">
+        <mark key="[" line="10" column="32" />
+        <mark key="]" line="10" column="191" />
+        <mark key="." line="10" column="32" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591774047231">
         <mark key="'" line="188" column="28" />
@@ -1027,47 +1031,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>sequenceNumber</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGFkZEhlYWx0aChoZWFsdGgpCg==</text>
       </register>
       <register name="-" type="4">
         <text>odinpass</text>
       </register>
       <register name="/" type="4">
-        <text>buildEventProcessorChain</text>
+        <text>states</text>
       </register>
       <register name="0" type="4">
-        <text>sequenceNumber</text>
+        <text>buildEventProcessorChain</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGFkZEhlYWx0aChoZWFsdGgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkKCkuRGVidWcoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuY3Rpb24gZm9ybWF0TXNnKG5leHQpIHsKICAgIHJldHVybiAoZXJyLCBtc2csIHBhcnRpdGlvbikgPT4gewogICAgICAgIG5leHQoZXJyLCBtc2csIHBhcnRpdGlvbikKICAgIH0KfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dHlwZSBXaXRoUGF5bG9hZEZ1bmMgZnVuYyhwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuYyBHZXRXaXRoUGF5bG9hZEZ1bmMoKSBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewoJCXJldHVybiBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCQkJCgkJfQoJfQoJcmV0dXJuIGZ1bmMocGF5bG9hZCBzdHJpbmcpICpsb2dydXMuRW50cnkgewoJCWxvZ3J1cy4KCX0KfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkKCkuRGVidWcoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">dHlwZSBlbnRyeSBsb2dydXMuRW50cnkKCmZ1bmMgKGUgKmVudHJ5KUdldFdpdGhQYXlsb2FkRnVjKCkgIHsKCWUuCn0K</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">dHlwZSBXaXRoUGF5bG9hZEZ1bmMgZnVuYyhwYXlsb2FkIHN0cmluZykgKmxvZ3J1cy5FbnRyeQo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">dHlwZSBMb2dnZXIgc3RydWN0IHsKCSpsb2dydXMuRW50cnkKfQoKZnVuYyAobCAqTG9nZ2VyKSBXaXRoRmllbGRzKGZpZWxkcyBsb2dydXMuRmllbGRzKSAqTG9nZ2VyIHsKCXJldHVybiAmTG9nZ2Vye2xvZ3J1cy5XaXRoRmllbGRzKGZpZWxkcyl9Cn0KCmZ1bmMgKGwgKkxvZ2dlcikgV2l0aFBheWxvYWQocGF5bG9hZCBzdHJpbmcpICpMb2dnZXIgewoJaWYgbG9ncnVzLklzTGV2ZWxFbmFibGVkKGxvZ3J1cy5EZWJ1Z0xldmVsKSB7CgkJcmV0dXJuICZMb2dnZXJ7CgkJCWwuRW50cnkuTG9nKCksCgkJCWxvZ3J1cy5XaXRoRmllbGQoKSwKCQl9Cgl9CglyZXR1cm4gbAp9Cg==</text>
+        <text encoding="base64">ZnVuYyBHZXRXaXRoUGF5bG9hZEZ1bmMoKSBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCWlmIGxvZ3J1cy5Jc0xldmVsRW5hYmxlZChsb2dydXMuRGVidWdMZXZlbCkgewoJCXJldHVybiBmdW5jKHBheWxvYWQgc3RyaW5nKSAqbG9ncnVzLkVudHJ5IHsKCQkJCgkJfQoJfQoJcmV0dXJuIGZ1bmMocGF5bG9hZCBzdHJpbmcpICpsb2dydXMuRW50cnkgewoJCWxvZ3J1cy4KCX0KfQo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1076,9 +1080,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>buildEventProcessorChain</last-search>
+      <last-search>states</last-search>
       <last-offset />
-      <last-pattern>buildEventProcessorChain</last-pattern>
+      <last-pattern>states</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
