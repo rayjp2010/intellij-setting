@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>util.</entry>
         <entry>util\.</entry>
         <entry>servicetest</entry>
         <entry>debug</entry>
@@ -25,6 +24,7 @@
         <entry>states</entry>
         <entry>orderarrived</entry>
         <entry>eventsync</entry>
+        <entry>getCheckpoint</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -99,10 +99,11 @@
         <mark key="[" line="4" column="15" />
         <mark key="]" line="4" column="38" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591863818965">
-        <mark key="[" line="12" column="56" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="17" column="0" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591863986113">
+        <mark key="[" line="9" column="15" />
+        <mark key="]" line="9" column="27" />
+        <mark key="." line="13" column="54" />
+        <mark key="^" line="13" column="55" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591772718781">
         <mark key="'" line="109" column="84" />
@@ -117,9 +118,10 @@
       <file name="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" timestamp="1591854468974">
         <mark key="'" line="31" column="63" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" timestamp="1591860132718">
-        <mark key="[" line="88" column="88" />
-        <mark key="]" line="88" column="31" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" timestamp="1591864007517">
+        <mark key="'" line="11" column="29" />
+        <mark key="[" line="11" column="13" />
+        <mark key="]" line="11" column="25" />
         <mark key="^" line="88" column="31" />
         <mark key="." line="88" column="30" />
       </file>
@@ -168,7 +170,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="131" column="23" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" />
       <jump line="11" column="11" filename="$USER_HOME$/go/src/odin/util/audit_util.go" />
       <jump line="3" column="0" filename="$USER_HOME$/go/src/odin/util/audit_util.go" />
       <jump line="27" column="9" filename="$USER_HOME$/go/src/odin/util/audit_util.go" />
@@ -268,6 +269,7 @@
       <jump line="23" column="22" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="60" column="8" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="61" column="179" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
+      <jump line="11" column="29" filename="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1037,17 +1039,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>getCheckpoint</text>
       </register>
       <register name="-" type="4">
         <text>{</text>
       </register>
       <register name="/" type="4">
-        <text>eventsync</text>
+        <text>getCheckpoint</text>
       </register>
       <register name="0" type="4">
-        <text>{time: res[1].lastModified}</text>
+        <text>getCheckpoint</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1086,9 +1088,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>eventsync</last-search>
+      <last-search>getCheckpoint</last-search>
       <last-offset />
-      <last-pattern>eventsync</last-pattern>
+      <last-pattern>getCheckpoint</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
