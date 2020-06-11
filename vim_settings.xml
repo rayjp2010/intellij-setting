@@ -72,12 +72,12 @@
         <mark key="[" line="11" column="15" />
         <mark key="]" line="11" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591869315388">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591869388599">
         <mark key="'" line="146" column="52" />
-        <mark key="[" line="311" column="58" />
-        <mark key="]" line="311" column="77" />
-        <mark key="." line="311" column="76" />
-        <mark key="^" line="311" column="77" />
+        <mark key="[" line="295" column="49" />
+        <mark key="]" line="295" column="55" />
+        <mark key="." line="295" column="54" />
+        <mark key="^" line="295" column="55" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/event/events.yml" timestamp="1591860123688">
         <mark key="[" line="16" column="0" />
@@ -1039,17 +1039,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CWVtcHR5UmVzcC5NZXNzYWdlID0gIk5vIFJlc3VsdHMgZCIK</text>
+      <register name="*" type="4">
+        <text>Daily</text>
       </register>
       <register name="-" type="4">
-        <text>i interface{}</text>
+        <text>Daily</text>
       </register>
       <register name="/" type="4">
         <text>deliveryDate</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAociAqUmVzcG9uc2VCdWlsZGVyKSBXaXRoRGF0YShpIGludGVyZmFjZXt9KSAqUmVzcG9uc2VCdWlsZGVyIHsKCWJ1aWxkZXIgOj0gJlJlc3BvbnNlQnVpbGRlcnt9CglfID0gZGVlcGNvcGllci5Db3B5KHIpLlRvKGJ1aWxkZXIpCglidWlsZGVyLkRhdGEgPSBpCglyZXR1cm4gYnVpbGRlcgp9Cg==</text>
+      <register name="0" type="4">
+        <text>while querying by hourly</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CWVtcHR5UmVzcC5NZXNzYWdlID0gIk5vIFJlc3VsdHMgZCIK</text>
