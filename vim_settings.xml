@@ -99,11 +99,10 @@
         <mark key="[" line="4" column="15" />
         <mark key="]" line="4" column="38" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591862577299">
-        <mark key="[" line="13" column="41" />
-        <mark key="]" line="13" column="42" />
-        <mark key="^" line="13" column="42" />
-        <mark key="." line="13" column="41" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591863818965">
+        <mark key="[" line="12" column="56" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591772718781">
         <mark key="'" line="109" column="84" />
@@ -1042,7 +1041,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>{</text>
       </register>
       <register name="/" type="4">
         <text>eventsync</text>
@@ -1057,28 +1056,28 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSlNPTi5wYXJzZShyZXNbMF0sIChrZXksIHZhbHVlKSA9PiB7CiAgICAgICAgICAgICAgICBpZiAodHlwZW9mIHZhbHVlICE9PSAnb2JqZWN0JykgewogICAgICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNoZWNrcG9pbnRba2V5XSA9IHZhbHVlCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGNoZWNrcG9pbnQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHt0aW1lOiByZXNbMV0ufQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICh0eXBlb2YgdmFsdWUgIT09ICdvYmplY3QnKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHZhbHVlCiAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIHt0aW1lOiByZXNbMV0ubGFzdE1vZGlmaWVkfQo=</text>
+        <text encoding="base64">ICAgICAgICAuLi4K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjaGVja3BvaW50W2tleV0gPSB2YWx1ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gcmV0dXJuIE9iamVjdC5hc3NpZ24oe3RpbWU6IHJlc1sxXS5sYXN0TW9kaWZpZWR9LCBKU09OLnBhcnNlKHJlc1swXSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAuLi4K</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
