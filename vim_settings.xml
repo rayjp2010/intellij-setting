@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>core</entry>
-        <entry>time</entry>
-        <entry>key</entry>
         <entry>testhub</entry>
         <entry>teststub</entry>
         <entry>logWithFields</entry>
@@ -25,6 +22,9 @@
         <entry>eventhub</entry>
         <entry>Hub</entry>
         <entry>New</entry>
+        <entry>persister</entry>
+        <entry>token</entry>
+        <entry>buildEventProcessorChain</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -104,9 +104,6 @@
         <mark key="." line="90" column="9" />
         <mark key="^" line="90" column="10" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591757621180">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591772718781">
         <mark key="'" line="109" column="84" />
         <mark key="[" line="66" column="79" />
@@ -131,20 +128,26 @@
         <mark key="[" line="266" column="20" />
         <mark key="]" line="266" column="33" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" timestamp="1591839747580" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" timestamp="1591855793528">
+        <mark key="[" line="92" column="38" />
+        <mark key="]" line="92" column="51" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591767642583">
         <mark key="'" line="23" column="19" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1591758015749">
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="38" column="0" />
-        <mark key="^" line="60" column="17" />
-        <mark key="." line="38" column="0" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/index.js" timestamp="1591855612423">
+        <mark key="'" line="17" column="9" />
+        <mark key="[" line="17" column="9" />
+        <mark key="]" line="17" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/.gitignore" timestamp="1591839184637">
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/poseidon/src/domain/event_processor.js" timestamp="1591855602122">
+        <mark key="[" line="2" column="15" />
+        <mark key="]" line="2" column="38" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591774047231">
         <mark key="'" line="188" column="28" />
@@ -155,7 +158,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="164" column="22" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
       <jump line="193" column="18" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
       <jump line="254" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
       <jump line="155" column="26" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
@@ -255,6 +257,7 @@
       <jump line="29" column="38" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="30" column="85" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="31" column="63" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="17" column="9" filename="$USER_HOME$/Workspace/poseidon/src/index.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1025,16 +1028,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>fpgopher/eventhub</text>
+        <text>sequenceNumber</text>
       </register>
       <register name="-" type="4">
         <text>odinpass</text>
       </register>
       <register name="/" type="4">
-        <text>New</text>
+        <text>buildEventProcessorChain</text>
       </register>
       <register name="0" type="4">
-        <text>fpgopher/eventhub</text>
+        <text>sequenceNumber</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1073,9 +1076,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>New</last-search>
+      <last-search>buildEventProcessorChain</last-search>
       <last-offset />
-      <last-pattern>New</last-pattern>
+      <last-pattern>buildEventProcessorChain</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
