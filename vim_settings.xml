@@ -100,11 +100,11 @@
         <mark key="[" line="4" column="15" />
         <mark key="]" line="4" column="38" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591860585882">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="16" column="19" />
-        <mark key="^" line="16" column="19" />
-        <mark key="." line="16" column="18" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591861554929">
+        <mark key="[" line="14" column="48" />
+        <mark key="]" line="16" column="39" />
+        <mark key="^" line="16" column="39" />
+        <mark key="." line="16" column="38" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1591772718781">
         <mark key="'" line="109" column="84" />
@@ -1039,8 +1039,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">fSB7Cg==</text>
+      <register name="*" type="4">
+        <text>{time: res[1].lastModified}</text>
       </register>
       <register name="-" type="4">
         <text>checkPoint</text>
@@ -1048,35 +1048,35 @@
       <register name="/" type="4">
         <text>eventsync</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGNoZWNrcG9pbnRMYW5ndWFnZTogImdvbGFuZyIK</text>
+      <register name="0" type="4">
+        <text>{time: res[1].lastModified}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">fSB7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGNoZWNrcG9pbnRGb3JtYXQ6ICJnb2xhbmctZm9ybWF0Igo=</text>
+        <text encoding="base64">Y2xhc3MgQ2hlY2tQb2ludCB7Cgp9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGFkZEhlYWx0aChoZWFsdGgpCg==</text>
+        <text encoding="base64">fSB7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNoZWNrcG9pbnRGb3JtYXQ6ICJnb2xhbmctZm9ybWF0Igo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gZm9ybWF0TXNnKG5leHQpIHsKICAgIHJldHVybiAoZXJyLCBtc2csIHBhcnRpdGlvbikgPT4gewogICAgICAgIG5leHQoZXJyLCBtc2csIHBhcnRpdGlvbikKICAgIH0KfQo=</text>
+        <text encoding="base64">ICAgIGFkZEhlYWx0aChoZWFsdGgpCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuY3Rpb24gZm9ybWF0TXNnKG5leHQpIHsKICAgIHJldHVybiAoZXJyLCBtc2csIHBhcnRpdGlvbikgPT4gewogICAgICAgIG5leHQoZXJyLCBtc2csIHBhcnRpdGlvbikKICAgIH0KfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CWxvZ1dpdGhQYXlsb2FkKCkuRGVidWcoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
