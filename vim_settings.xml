@@ -63,6 +63,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591940025893">
+        <mark key="[" line="42" column="32" />
+        <mark key="]" line="42" column="41" />
+        <mark key="^" line="42" column="41" />
+        <mark key="." line="42" column="40" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591939486810">
         <mark key="'" line="11" column="9" />
       </file>
@@ -70,12 +76,12 @@
         <mark key="[" line="11" column="15" />
         <mark key="]" line="11" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591939626129">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591940460938">
         <mark key="'" line="700" column="4" />
-        <mark key="[" line="727" column="12" />
-        <mark key="]" line="727" column="13" />
-        <mark key="^" line="730" column="16" />
-        <mark key="." line="727" column="13" />
+        <mark key="[" line="703" column="34" />
+        <mark key="]" line="703" column="91" />
+        <mark key="^" line="703" column="91" />
+        <mark key="." line="703" column="90" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1591937954492">
         <mark key="[" line="68" column="18" />
@@ -96,7 +102,7 @@
         <mark key="]" line="28" column="1" />
       </file>
       <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591877225563" />
-      <file name="/Dummy.txt" timestamp="1591938061356">
+      <file name="/Dummy.txt" timestamp="1591939847820">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591863986113">
@@ -1023,46 +1029,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>\</text>
+        <text>tc.Req.Bytes()</text>
       </register>
       <register name="-" type="4">
-        <text>\</text>
+        <text>tc.Req.Bytes()</text>
       </register>
       <register name="/" type="4">
         <text>decisionQueue</text>
       </register>
       <register name="0" type="4">
-        <text>decisionQueueId</text>
+        <text>query results in Transaction search error</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkJLC8vZXJyIGNvZGUK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQlJbmRleDogIm9yZGVyLTIwMTguMDciCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">CXJldHVybiBuaWwK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">CWZtdC5QcmludGxuKHQxRG9jU3RyaW5nKQo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">CXN0cmluZ3MuUmVwbGFjZSgiIikK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CWlycmVndWxhcjEuCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">CQkJLCAvL3JlcSB0aGF0IHJlc3VsdHMgdG8gZW1wdHkgcmVzCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">CQlJbmRleDogIm9yZGVyLTIwMTguMDciCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CXJldHVybiBuaWwK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CWZtdC5QcmludGxuKHQxRG9jU3RyaW5nKQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">CXN0cmluZ3MuUmVwbGFjZSgiIikK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CWlycmVndWxhcjEuCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CQkJLCAvL3JlcSB0aGF0IHJlc3VsdHMgdG8gZW1wdHkgcmVzCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">CXN3aXRjaCBmaWVsZCB7CgljYXNlICJFcnJvckNhdGVnb3J5IjoKCQllcnJSZXNwLkVycm9yQ2F0ZWdvcnkgPSB2YWx1ZQoJY2FzZSAiRXJyb3JNZXNzYWdlIjoKCQllcgoJfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
