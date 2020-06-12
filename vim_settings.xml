@@ -63,6 +63,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Workspace/fgis.login.ip.velocity/app/service/memberService.js" timestamp="1591946996921">
+        <mark key="[" line="134" column="0" />
+        <mark key="]" line="137" column="5" />
+        <mark key="^" line="135" column="60" />
+        <mark key="." line="135" column="59" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591940025893">
         <mark key="[" line="42" column="32" />
         <mark key="]" line="42" column="41" />
@@ -91,10 +97,6 @@
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591939472914">
         <mark key="'" line="323" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/http_response.go" timestamp="1591866934113">
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="28" column="1" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591944089186">
         <mark key="[" line="48" column="22" />
         <mark key="]" line="48" column="45" />
@@ -109,12 +111,6 @@
       <file name="/Dummy.txt" timestamp="1591939847820">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1591863986113">
-        <mark key="[" line="9" column="15" />
-        <mark key="]" line="9" column="27" />
-        <mark key="." line="13" column="54" />
-        <mark key="^" line="13" column="55" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591942071659">
         <mark key="'" line="121" column="43" />
         <mark key="[" line="791" column="53" />
@@ -125,13 +121,6 @@
       <file name="$USER_HOME$/go/src/odin/Dockerfile" timestamp="1591876099794" />
       <file name="/fragment.go" timestamp="1591939127867">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" timestamp="1591864007517">
-        <mark key="'" line="11" column="29" />
-        <mark key="[" line="11" column="13" />
-        <mark key="]" line="11" column="25" />
-        <mark key="^" line="88" column="31" />
-        <mark key="." line="88" column="30" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591930070326">
         <mark key="[" line="33" column="12" />
@@ -1032,47 +1021,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>1541111111000</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIF9idWlsZFdoZXJlQ29uZGl0aW9uKHF1ZXJpZXMpewogICAgICAgIGxldCBqb2ludFF1ZXJ5ID0gcXVlcmllcyA/IHF1ZXJpZXMuam9pbignIEFORCAnKSA6ICcnCiAgICAgICAgcmV0dXJuIGpvaW50UXVlcnkgIT09ICcnID8gYCBXSEVSRSAke2pvaW50UXVlcnl9YCA6ICcnCiAgICB9Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>false</text>
+        <text>queries.join(' AND ')</text>
       </register>
       <register name="/" type="4">
         <text>regisDate</text>
       </register>
-      <register name="0" type="4">
-        <text>1541111111000</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIF9idWlsZFdoZXJlQ29uZGl0aW9uKHF1ZXJpZXMpewogICAgICAgIGxldCBqb2ludFF1ZXJ5ID0gcXVlcmllcyA/IHF1ZXJpZXMuam9pbignIEFORCAnKSA6ICcnCiAgICAgICAgcmV0dXJuIGpvaW50UXVlcnkgIT09ICcnID8gYCBXSEVSRSAke2pvaW50UXVlcnl9YCA6ICcnCiAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CXJlZyA6PQo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgd2hlcmUgPSAnJwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXQxRG9jU3RyaW5nIDo9IHN0cmluZyh0MURvYykK</text>
+        <text encoding="base64">ICAgICAgICB2YXIga2V5d29yZCA9ICIgV0hFUkUgIgogICAgICAgIHZhciBxdWVyeSA9IGtleXdvcmQKICAgICAgICBpZiAocXVlcmllcyl7CiAgICAgICAgICAgIHF1ZXJpZXMuZmlsdGVyKHEgPT4gcSAhPT0ga2V5d29yZCkuam9pbigiIEFORCAiKQogICAgICAgIH1lbHNlIHsKICAgICAgICAgICAgcmV0dXJuICcnCiAgICAgICAgfQogICAgICAgIGlmKHF1ZXJpZXMgJiYgcXVlcmllcy5sZW5ndGggPiAwKXsKICAgICAgICAgICAgZm9yIChjb25zdCBxIG9mIHF1ZXJpZXMpIHsKICAgICAgICAgICAgICAgIHF1ZXJ5ICs9IChxdWVyeSAhPT0ga2V5d29yZCA/ICIgQU5EICIgOiAnJykgKyBxCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHF1ZXJ5ID09PSBrZXl3b3JkID8gJyc6IHF1ZXJ5Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CS8vIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkvL3sicXVlcnkgcmVzdWx0cyBpbiBUcmFuc2FjdGlvbiBzZWFyY2ggZXJyb3IiLAoJCS8vIHNpbXVsYXRlIGVycgoJCS8vLCAvL2VyciBjb2RlCgkJLy9lcnIgcmVzcG9uc2UKCQkvL30sCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkJLC8vZXJyIGNvZGUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcXVlcmllcy5maWx0ZXIocSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcXVlcmllcy5maWx0ZXIocSA9PiBxICE9PSBrZXl3b3JkKS5qb2luKCIgQU5EICIpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQlJbmRleDogIm9yZGVyLTIwMTguMDciCg==</text>
+        <text encoding="base64">CXJlZyA6PQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CXJldHVybiBuaWwK</text>
+        <text encoding="base64">CXQxRG9jU3RyaW5nIDo9IHN0cmluZyh0MURvYykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWZtdC5QcmludGxuKHQxRG9jU3RyaW5nKQo=</text>
+        <text encoding="base64">CS8vIAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
