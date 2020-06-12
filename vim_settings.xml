@@ -139,16 +139,14 @@
         <mark key="^" line="23" column="52" />
         <mark key="." line="23" column="51" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/config.js" timestamp="1591857532884">
-        <mark key="[" line="10" column="32" />
-        <mark key="]" line="10" column="191" />
-        <mark key="." line="10" column="32" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591876726125">
         <mark key="[" line="68" column="30" />
         <mark key="]" line="68" column="31" />
         <mark key="." line="68" column="31" />
         <mark key="^" line="68" column="31" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aegis.radar/src/mixins/suzakuMixin.js" timestamp="1591925769344">
+        <mark key="[" line="50" column="24" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591877338346">
         <mark key="'" line="236" column="34" />
