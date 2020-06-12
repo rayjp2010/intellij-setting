@@ -67,12 +67,12 @@
         <mark key="[" line="11" column="15" />
         <mark key="]" line="11" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591930608094">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591935036279">
         <mark key="'" line="698" column="4" />
-        <mark key="[" line="709" column="35" />
-        <mark key="]" line="709" column="68" />
-        <mark key="." line="709" column="35" />
-        <mark key="^" line="709" column="44" />
+        <mark key="[" line="714" column="12" />
+        <mark key="]" line="714" column="13" />
+        <mark key="." line="714" column="13" />
+        <mark key="^" line="715" column="51" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1591878009177">
         <mark key="[" line="19" column="22" />
@@ -96,7 +96,7 @@
         <mark key="]" line="28" column="1" />
       </file>
       <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591877225563" />
-      <file name="/Dummy.txt" timestamp="1591930610192">
+      <file name="/Dummy.txt" timestamp="1591935038078">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/dist/domain/event_processor.js" timestamp="1591858055902">
@@ -1033,16 +1033,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>ErrorMessage()</text>
+        <text>//err response</text>
       </register>
       <register name="-" type="4">
-        <text>ErrorMessage()</text>
+        <text>//err response</text>
       </register>
       <register name="/" type="4">
         <text>prefix</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAoZSAqRXJyb3JSZXNwb25zZSkgV2l0aENhdGVnb3J5KHZhbHVlIHN0cmluZykgKkVycm9yUmVzcG9uc2UgewoJZXJyUmVzcCA6PSAmRXJyb3JSZXNwb25zZXt9CglfID0gZGVlcGNvcGllci5Db3B5KGUpLlRvKGVyclJlc3ApCgllcnJSZXNwLkVycm9yQ2F0ZWdvcnkgPSB2YWx1ZQoJcmV0dXJuIGVyclJlc3AKfQo=</text>
+      <register name="0" type="4">
+        <text>reqBuilder.With(&quot;TransactionProperty&quot;, u.GetStringPtr(&quot;OrderID&quot;)).</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
