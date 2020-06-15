@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>itemCstAmount</entry>
         <entry>api.enabled</entry>
         <entry>eventhub.stub</entry>
         <entry>eventhub\.stub</entry>
@@ -25,6 +24,7 @@
         <entry>cassandra</entry>
         <entry>camel</entry>
         <entry>denied</entry>
+        <entry>data</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -1010,7 +1010,7 @@
         <text>blackbox-123456-20200513</text>
       </register>
       <register name="/" type="4">
-        <text>denied</text>
+        <text>data</text>
       </register>
       <register name="0" type="4">
         <text>npm run send-msg -- --env=DEV</text>
@@ -1052,9 +1052,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>denied</last-search>
+      <last-search>data</last-search>
       <last-offset />
-      <last-pattern>denied</last-pattern>
+      <last-pattern>data</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
