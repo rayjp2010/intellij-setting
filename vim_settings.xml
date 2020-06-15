@@ -105,10 +105,10 @@
         <mark key="^" line="316" column="34" />
         <mark key="." line="316" column="33" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1592205566025">
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1592214521174">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="6" column="1" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" timestamp="1592210133627">
         <mark key="'" line="98" column="12" />
@@ -1003,11 +1003,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>blackbox-123456-20200513</text>
+      <register name="*" type="2">
+        <text encoding="base64">Y29uc3QgY2hlY2twb2ludEtleU1hcHBpbmcgPSB7CiAgICAncGFydGl0aW9uSUQnOiAncGFydGl0aW9uSWQnCn0K</text>
       </register>
       <register name="-" type="4">
-        <text>blackbox-123456-20200513</text>
+        <text>let</text>
       </register>
       <register name="/" type="4">
         <text>data</text>
@@ -1016,34 +1016,34 @@
         <text>npm run send-msg -- --env=DEV</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICJjYXNzYW5kcmEtZHJpdmVyIjogIj00LjAuMCIsCg==</text>
+        <text encoding="base64">Y29uc3QgY2hlY2twb2ludEtleU1hcHBpbmcgPSB7CiAgICAncGFydGl0aW9uSUQnOiAncGFydGl0aW9uSWQnCn0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICJjYW1lbGNhc2Uta2V5cyI6ICJeNi4yLjIiLAo=</text>
+        <text encoding="base64">ICAgICJjYXNzYW5kcmEtZHJpdmVyIjogIj00LjAuMCIsCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCj09PT09PT0K</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCiAgICAgICAgICAgICAgICAgICAgY2hlY2twb2ludFtrZXldID0gdmFsdWUKPT09PT09PQo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICJjYW1lbGNhc2Uta2V5cyI6ICJeNi4yLjIiLAo=</text>
       </register>
-      <register name="8" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
       </register>
-      <register name="9" type="2">
+      <register name="5" type="2">
         <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCj09PT09PT0K</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCiAgICAgICAgICAgICAgICAgICAgY2hlY2twb2ludFtrZXldID0gdmFsdWUKPT09PT09PQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICJjYW1lbGNhc2Uta2V5cyI6ICJeNi4yLjIiLAo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
