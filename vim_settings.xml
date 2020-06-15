@@ -72,14 +72,17 @@
       <file name="$USER_HOME$/Workspace/poseidon/src/infra/subscriptions.js" timestamp="1592199875299">
         <mark key="'" line="86" column="24" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/evh_audit_test.go" timestamp="1591944124947">
-        <mark key="'" line="474" column="39" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591944714331">
         <mark key="'" line="165" column="13" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/dist/domain/stats.js" timestamp="1592203766664">
         <mark key="'" line="115" column="17" />
+      </file>
+      <file name="$USER_HOME$/Workspace/eventhub_test_tool/sendread_config.js" timestamp="1592213352761">
+        <mark key="[" line="2" column="21" />
+        <mark key="]" line="2" column="32" />
+        <mark key="." line="2" column="31" />
+        <mark key="^" line="2" column="32" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1592184440618">
         <mark key="'" line="173" column="40" />
@@ -1000,11 +1003,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICJjYXNzYW5kcmEtZHJpdmVyIjogIj00LjAuMCIsCg==</text>
+      <register name="*" type="4">
+        <text>ichibaorderarrived</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>ichibaorderarrived</text>
       </register>
       <register name="/" type="4">
         <text>camel</text>
