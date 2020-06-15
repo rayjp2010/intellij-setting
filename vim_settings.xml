@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>serviceId</entry>
         <entry>Quantity</entry>
         <entry>quantity</entry>
         <entry>int</entry>
@@ -25,6 +24,7 @@
         <entry>shipping</entry>
         <entry>querying</entry>
         <entry>prefix</entry>
+        <entry>index</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -129,12 +129,6 @@
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591939472914">
         <mark key="'" line="323" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591876726125">
-        <mark key="[" line="68" column="30" />
-        <mark key="]" line="68" column="31" />
-        <mark key="." line="68" column="31" />
-        <mark key="^" line="68" column="31" />
-      </file>
       <file name="$USER_HOME$/Workspace/aegis.radar/src/mixins/suzakuMixin.js" timestamp="1591925769344">
         <mark key="[" line="50" column="24" />
       </file>
@@ -155,6 +149,9 @@
         <mark key="]" line="87" column="4" />
         <mark key="." line="87" column="4" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1592187275776">
+        <mark key="'" line="263" column="4" />
+      </file>
       <file name="$USER_HOME$/Workspace/fgis.login.ip.velocity/app/service/transformer.js" timestamp="1591950151489">
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="47" />
@@ -163,12 +160,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
-      <jump line="131" column="8" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
-      <jump line="135" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="109" column="84" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="65" column="12" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="93" column="117" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="97" column="91" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="99" column="121" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="188" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -263,6 +254,12 @@
       <jump line="51" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="173" column="40" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="105" column="8" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="115" column="4" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="160" column="59" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="173" column="27" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="210" column="38" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="223" column="26" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="263" column="4" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1039,7 +1036,7 @@
         <text>parametersMemberDetail</text>
       </register>
       <register name="/" type="4">
-        <text>prefix</text>
+        <text>index</text>
       </register>
       <register name="0" type="4">
         <text>elasticsearch.indexprefix</text>
@@ -1081,9 +1078,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>prefix</last-search>
+      <last-search>index</last-search>
       <last-offset />
-      <last-pattern>prefix</last-pattern>
+      <last-pattern>index</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
