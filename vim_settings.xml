@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>defer</entry>
-        <entry>prefix</entry>
-        <entry>grossAmount</entry>
         <entry>serviceId</entry>
         <entry>Quantity</entry>
         <entry>quantity</entry>
@@ -25,6 +22,9 @@
         <entry>decrypt.key</entry>
         <entry>regisData</entry>
         <entry>regisDate</entry>
+        <entry>shipping</entry>
+        <entry>querying</entry>
+        <entry>prefix</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -63,6 +63,16 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" timestamp="1591945011132">
+        <mark key="'" line="315" column="19" />
+        <mark key="[" line="313" column="29" />
+        <mark key="]" line="313" column="41" />
+        <mark key="^" line="316" column="34" />
+        <mark key="." line="316" column="33" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1591939847820">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/Workspace/fgis.login.ip.velocity/app/service/memberService.js" timestamp="1591949278903">
         <mark key="[" line="149" column="0" />
         <mark key="]" line="158" column="5" />
@@ -78,8 +88,18 @@
       <file name="$USER_HOME$/go/src/odin/servicetest/evh_audit_test.go" timestamp="1591944124947">
         <mark key="'" line="474" column="39" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591942071659">
+        <mark key="'" line="121" column="43" />
+        <mark key="[" line="791" column="53" />
+        <mark key="]" line="792" column="12" />
+        <mark key="." line="792" column="8" />
+        <mark key="^" line="792" column="12" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591944714331">
         <mark key="'" line="165" column="13" />
+      </file>
+      <file name="/fragment.go" timestamp="1591939127867">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591941527438">
         <mark key="'" line="700" column="4" />
@@ -94,39 +114,20 @@
         <mark key="^" line="68" column="20" />
         <mark key="." line="68" column="19" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591939472914">
-        <mark key="'" line="323" column="39" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591944089186">
-        <mark key="[" line="48" column="22" />
-        <mark key="]" line="48" column="45" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" timestamp="1591945011132">
-        <mark key="'" line="315" column="19" />
-        <mark key="[" line="313" column="29" />
-        <mark key="]" line="313" column="41" />
-        <mark key="^" line="316" column="34" />
-        <mark key="." line="316" column="33" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1591939847820">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591942071659">
-        <mark key="'" line="121" column="43" />
-        <mark key="[" line="791" column="53" />
-        <mark key="]" line="792" column="12" />
-        <mark key="." line="792" column="8" />
-        <mark key="^" line="792" column="12" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/Dockerfile" timestamp="1591876099794" />
-      <file name="/fragment.go" timestamp="1591939127867">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591930070326">
         <mark key="[" line="33" column="12" />
         <mark key="]" line="34" column="18" />
         <mark key="." line="34" column="17" />
         <mark key="^" line="34" column="18" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1592184440618">
+        <mark key="'" line="173" column="40" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591951199107">
+        <mark key="'" line="51" column="55" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591939472914">
+        <mark key="'" line="323" column="39" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591876726125">
         <mark key="[" line="68" column="30" />
@@ -137,10 +138,14 @@
       <file name="$USER_HOME$/Workspace/aegis.radar/src/mixins/suzakuMixin.js" timestamp="1591925769344">
         <mark key="[" line="50" column="24" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1591944096868">
-        <mark key="'" line="118" column="32" />
-        <mark key="[" line="209" column="47" />
-        <mark key="]" line="213" column="29" />
+      <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591944089186">
+        <mark key="[" line="48" column="22" />
+        <mark key="]" line="48" column="45" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592185035678">
+        <mark key="'" line="105" column="8" />
+        <mark key="[" line="236" column="43" />
+        <mark key="]" line="236" column="67" />
         <mark key="^" line="213" column="29" />
         <mark key="." line="213" column="28" />
       </file>
@@ -158,13 +163,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="0" filename="$USER_HOME$/go/src/odin/util/log_util.go" />
-      <jump line="24" column="8" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/logrus.go" />
-      <jump line="19" column="4" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
-      <jump line="265" column="58" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
-      <jump line="357" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
-      <jump line="266" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
-      <jump line="312" column="20" filename="$USER_HOME$/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2/entry.go" />
       <jump line="23" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
       <jump line="131" column="8" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
       <jump line="135" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -258,6 +256,13 @@
       <jump line="118" column="32" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="474" column="39" filename="$USER_HOME$/go/src/odin/servicetest/evh_audit_test.go" />
       <jump line="165" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="143" column="53" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="153" column="67" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="34" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="36" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="51" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="173" column="40" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
+      <jump line="105" column="8" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1027,17 +1032,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIHJldHVybiAhaXNOYU4obGltaXQgKiAxKSA/IGxpbWl0ICogMSA6IG51bGwK</text>
+      <register name="*" type="4">
+        <text>elasticsearch.indexprefix</text>
       </register>
       <register name="-" type="4">
         <text>parametersMemberDetail</text>
       </register>
       <register name="/" type="4">
-        <text>regisDate</text>
+        <text>prefix</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHJldHVybiAhaXNOYU4obGltaXQgKiAxKSA/IGxpbWl0ICogMSA6IG51bGwK</text>
+      <register name="0" type="4">
+        <text>elasticsearch.indexprefix</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGxpbWl0ICsgJycK</text>
@@ -1076,9 +1081,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>regisDate</last-search>
+      <last-search>prefix</last-search>
       <last-offset />
-      <last-pattern>regisDate</last-pattern>
+      <last-pattern>prefix</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
