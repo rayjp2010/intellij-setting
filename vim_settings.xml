@@ -127,8 +127,11 @@
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1591951199107">
         <mark key="'" line="51" column="55" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592200034089">
+      <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592203106628">
         <mark key="'" line="19" column="19" />
+        <mark key="[" line="41" column="25" />
+        <mark key="]" line="41" column="26" />
+        <mark key="." line="41" column="26" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592199069059">
         <mark key="'" line="163" column="15" />
