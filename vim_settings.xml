@@ -70,11 +70,12 @@
         <mark key="^" line="316" column="34" />
         <mark key="." line="316" column="33" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1592274065126">
-        <mark key="[" line="24" column="1" />
-        <mark key="]" line="26" column="33" />
-        <mark key="." line="26" column="32" />
-        <mark key="^" line="26" column="33" />
+      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1592281852197">
+        <mark key="'" line="23" column="0" />
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+        <mark key="^" line="24" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/src/infra/subscriptions.js" timestamp="1592199875299">
         <mark key="'" line="86" column="24" />
@@ -84,6 +85,12 @@
         <mark key="]" line="15" column="29" />
         <mark key="^" line="15" column="29" />
         <mark key="." line="15" column="28" />
+      </file>
+      <file name="$USER_HOME$/Workspace/poseidon/test/testData/azureTestData.js" timestamp="1592282476700">
+        <mark key="[" line="24" column="1" />
+        <mark key="]" line="2" column="4" />
+        <mark key="^" line="2" column="4" />
+        <mark key="." line="2" column="3" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon-config/config-secret-stg.yaml" timestamp="1592216646998">
         <mark key="[" line="6" column="13" />
@@ -96,11 +103,11 @@
         <mark key="]" line="66" column="191" />
         <mark key="." line="66" column="37" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/test/infra/azure.test.js" timestamp="1592274177872">
-        <mark key="[" line="2" column="25" />
-        <mark key="]" line="2" column="44" />
-        <mark key="." line="2" column="43" />
-        <mark key="^" line="2" column="44" />
+      <file name="$USER_HOME$/Workspace/poseidon/test/infra/azure.test.js" timestamp="1592282459197">
+        <mark key="[" line="13" column="27" />
+        <mark key="]" line="14" column="9" />
+        <mark key="." line="14" column="8" />
+        <mark key="^" line="14" column="9" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/dist/domain/stats.js" timestamp="1592203766664">
         <mark key="'" line="115" column="17" />
@@ -150,9 +157,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="15" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
-      <jump line="29" column="38" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
-      <jump line="30" column="85" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="31" column="63" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="17" column="9" filename="$USER_HOME$/Workspace/poseidon/src/index.js" />
       <jump line="48" column="21" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
@@ -250,6 +254,9 @@
       <jump line="10" column="30" filename="$USER_HOME$/Workspace/poseidon/package.json" />
       <jump line="16" column="6" filename="$USER_HOME$/Workspace/poseidon/package.json" />
       <jump line="17" column="6" filename="$USER_HOME$/Workspace/poseidon/package.json" />
+      <jump line="23" column="0" filename="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/poseidon/test/testData/azureTestData.js" />
+      <jump line="12" column="6" filename="$USER_HOME$/Workspace/poseidon/test/testData/azureTestData.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1020,48 +1027,60 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>, &quot;@babel/preset-env&quot;</text>
+        <text>{
+                &quot;offset&quot;: &quot;3667929597424&quot;,
+                &quot;sequenceNumber&quot;: 7008723,
+                &quot;partitionId&quot;: &quot;0&quot;,
+                &quot;epoch&quot;: 84,
+                &quot;owner&quot;: &quot;javahost-c38bed6e-1cad-43c4-87b2-606d3221ea9d&quot;,
+                &quot;token&quot;: &quot;aba8f1a4-e543-435a-984f-993558d07b2a&quot;
+            },</text>
       </register>
       <register name="-" type="4">
-        <text>, &quot;@babel/preset-env&quot;</text>
+        <text>testData</text>
       </register>
       <register name="/" type="4">
         <text>babel</text>
       </register>
-      <register name="0" type="4">
-        <text>npm run send-msg -- --env=DEV</text>
+      <register name="0" type="2">
+        <text encoding="base64">bGV0IGdldEphdmFDaGVja3BvaW50ID0gKCkgPT4gewogICAgcmV0dXJuIHsKICAgICAgICAib2Zmc2V0IjogIjM2Njc5Mjk1OTc0MjQiLAogICAgICAgICJzZXF1ZW5jZU51bWJlciI6IDcwMDg3MjMsCiAgICAgICAgInBhcnRpdGlvbklkIjogIjAiLAogICAgICAgICJlcG9jaCI6IDg0LAogICAgICAgICJvd25lciI6ICJqYXZhaG9zdC1jMzhiZWQ2ZS0xY2FkLTQzYzQtODdiMi02MDZkMzIyMWVhOWQiLAogICAgICAgICJ0b2tlbiI6ICJhYmE4ZjFhNC1lNTQzLTQzNWEtOTg0Zi05OTM1NThkMDdiMmEiCiAgICB9Cn0=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICJAYmFiZWwvY29yZSI6ICJeNy4xMC4yIiwKICAgICJAYmFiZWwvcHJlc2V0LWVudiI6ICJeNy4xMC4yIiwK</text>
+      <register name="1" type="4">
+        <text>{
+                &quot;offset&quot;: &quot;3667929597424&quot;,
+                &quot;sequenceNumber&quot;: 7008723,
+                &quot;partitionId&quot;: &quot;0&quot;,
+                &quot;epoch&quot;: 84,
+                &quot;owner&quot;: &quot;javahost-c38bed6e-1cad-43c4-87b2-606d3221ea9d&quot;,
+                &quot;token&quot;: &quot;aba8f1a4-e543-435a-984f-993558d07b2a&quot;
+            },</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICJAYmFiZWwvcmVnaXN0ZXIiOiAiXjcuMTAuMSIsCg==</text>
+        <text encoding="base64">ZXhwb3J0IA==</text>
       </register>
-      <register name="3" type="4">
-        <text>function () {
-
-        }</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHJldHVybiB7CiAgICAgICAgIm9mZnNldCI6ICIzNjY3OTI5NTk3NDI0IiwKICAgICAgICAic2VxdWVuY2VOdW1iZXIiOiA3MDA4NzIzLAogICAgICAgICJwYXJ0aXRpb25JZCI6ICIwIiwKICAgICAgICAiZXBvY2giOiA4NCwKICAgICAgICAib3duZXIiOiAiamF2YWhvc3QtYzM4YmVkNmUtMWNhZC00M2M0LTg3YjItNjA2ZDMyMjFlYTlkIiwKICAgICAgICAidG9rZW4iOiAiYWJhOGYxYTQtZTU0My00MzVhLTk4NGYtOTkzNTU4ZDA3YjJhIgogICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGl0KCdzaG91bGQgcmV0dXJuIDInLCAoKSA9PiB7CiAgICAgICAgYXNzZXJ0LmVxdWFsKDEgKyAxLCAyKTsKICAgIH0pCiAgICBpdCgnc2hvdWxkIHJldHVybiA5JywgKCkgPT4gewogICAgICAgIGFzc2VydC5lcXVhbCgzICogMywgOSk7CiAgICB9KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bGUK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IHtkZXNjcmliZX0gZnJvbSAibW9jaGEiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bGV0Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHtkZXNjcmliZX0gZnJvbSAibW9jaGEiCg==</text>
+      <register name="8" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIA==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiYXNkIikK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
