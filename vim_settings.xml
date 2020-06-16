@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>regisData</entry>
-        <entry>regisDate</entry>
         <entry>shipping</entry>
         <entry>querying</entry>
         <entry>prefix</entry>
@@ -25,6 +23,8 @@
         <entry>fgis</entry>
         <entry>event</entry>
         <entry>eventsync</entry>
+        <entry>lint</entry>
+        <entry>rewire</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -149,14 +149,11 @@
         <mark key="^" line="0" column="9" />
         <mark key="." line="0" column="8" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592286347021">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
-        <mark key="^" line="10" column="29" />
-      </file>
-      <file name="$USER_HOME$/Workspace/poseidon/package-lock.json" timestamp="1592200190416">
-        <mark key="'" line="24" column="24" />
+      <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592291081876">
+        <mark key="[" line="22" column="20" />
+        <mark key="]" line="22" column="21" />
+        <mark key="." line="22" column="21" />
+        <mark key="^" line="20" column="20" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/.babelrc" timestamp="1592275250022">
         <mark key="[" line="1" column="34" />
@@ -168,9 +165,11 @@
         <mark key="[" line="3" column="15" />
         <mark key="]" line="3" column="43" />
       </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" timestamp="1592291074849">
+        <mark key="'" line="35" column="23" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="70" column="9" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="71" column="180" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="85" column="15" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="86" column="186" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
@@ -270,6 +269,7 @@
       <jump line="1" column="0" filename="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" />
       <jump line="13" column="16" filename="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" />
       <jump line="3" column="13" filename="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" />
+      <jump line="35" column="23" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1039,14 +1039,14 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="8">
-        <text encoding="base64">ICAKICA=</text>
+      <register name="*" type="4">
+        <text>8.0.1</text>
       </register>
       <register name="-" type="4">
-        <text>eros</text>
+        <text>8.0.1</text>
       </register>
       <register name="/" type="4">
-        <text>eventsync</text>
+        <text>rewire</text>
       </register>
       <register name="0" type="2">
         <text>- name: eventsync
@@ -1094,9 +1094,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>eventsync</last-search>
+      <last-search>rewire</last-search>
       <last-offset />
-      <last-pattern>eventsync</last-pattern>
+      <last-pattern>rewire</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
