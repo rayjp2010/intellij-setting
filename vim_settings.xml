@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>decrypt</entry>
-        <entry>decrypt.key</entry>
         <entry>regisData</entry>
         <entry>regisDate</entry>
         <entry>shipping</entry>
@@ -25,6 +23,8 @@
         <entry>mocha</entry>
         <entry>babel</entry>
         <entry>fgis</entry>
+        <entry>event</entry>
+        <entry>eventsync</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -77,10 +77,11 @@
         <mark key="." line="24" column="0" />
         <mark key="^" line="24" column="33" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon-config/config-secret-pro.yaml" timestamp="1592287755649">
+      <file name="$USER_HOME$/Workspace/poseidon-config/config-secret-pro.yaml" timestamp="1592289303448">
         <mark key="[" line="7" column="13" />
-        <mark key="]" line="7" column="4345" />
+        <mark key="]" line="7" column="14" />
         <mark key="." line="7" column="13" />
+        <mark key="^" line="7" column="14" />
       </file>
       <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1592214085997">
         <mark key="[" line="15" column="20" />
@@ -95,7 +96,7 @@
         <mark key="^" line="54" column="20" />
         <mark key="." line="54" column="19" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon-config/config-secret-stg.yaml" timestamp="1592216646998">
+      <file name="$USER_HOME$/Workspace/poseidon-config/config-secret-stg.yaml" timestamp="1592289261291">
         <mark key="[" line="6" column="13" />
         <mark key="]" line="6" column="14" />
         <mark key="." line="6" column="13" />
@@ -106,12 +107,12 @@
         <mark key="]" line="66" column="191" />
         <mark key="." line="66" column="37" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" timestamp="1592287744872">
+      <file name="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" timestamp="1592289250647">
         <mark key="'" line="13" column="16" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="72" column="24" />
-        <mark key="." line="71" column="0" />
-        <mark key="^" line="24" column="14" />
+        <mark key="[" line="101" column="2" />
+        <mark key="]" line="101" column="2" />
+        <mark key="." line="101" column="2" />
+        <mark key="^" line="97" column="17" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/test/infra/azure.test.js" timestamp="1592286500226">
         <mark key="'" line="33" column="66" />
@@ -126,11 +127,12 @@
       <file name="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" timestamp="1592210133627">
         <mark key="'" line="98" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" timestamp="1592287055598">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="94" column="2" />
-        <mark key="]" line="94" column="2" />
-        <mark key="." line="94" column="2" />
+      <file name="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" timestamp="1592289180309">
+        <mark key="'" line="3" column="13" />
+        <mark key="[" line="101" column="2" />
+        <mark key="]" line="101" column="2" />
+        <mark key="^" line="103" column="180" />
+        <mark key="." line="101" column="2" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/evh_transaction_auto_decision_test.go" timestamp="1592213654547">
         <mark key="'" line="44" column="38" />
@@ -168,7 +170,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="44" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="70" column="9" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="71" column="180" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="85" column="15" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
@@ -268,6 +269,7 @@
       <jump line="33" column="66" filename="$USER_HOME$/Workspace/poseidon/test/infra/azure.test.js" />
       <jump line="1" column="0" filename="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" />
       <jump line="13" column="16" filename="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" />
+      <jump line="3" column="13" filename="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1037,17 +1039,23 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAtIG5hbWU6IG9kaW4KICAgIGNoZWNrcG9pbnRBZnRlcjogMTAwCg==</text>
+      <register name="*" type="8">
+        <text encoding="base64">ICAKICA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>eros</text>
       </register>
       <register name="/" type="4">
-        <text>fgis</text>
+        <text>eventsync</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAtIG5hbWU6IG9kaW4KICAgIGNoZWNrcG9pbnRBZnRlcjogMTAwCg==</text>
+        <text>- name: eventsync
+  partition: 1
+  eventPerMin: 0.001
+  consumerGroups:
+    - name: odin
+      checkpointAfter: 100
+  connectionString: &quot;Endpoint=sb://fpg-stg-es.servicebus.windows.net/;SharedAccessKeyName=Receive;SharedAccessKey=lowEpN8Dt1IzxOSqdcTxXRm0dmyv1KP1IDMKyywWcKE=;EntityPath=eventsync&quot;</text>
       </register>
       <register name="1" type="8">
         <text encoding="base64">ICAKICA=</text>
@@ -1056,28 +1064,28 @@
         <text />
       </register>
       <register name="2" type="8">
-        <text encoding="base64">ICAKICAKICAKICA=</text>
-      </register>
-      <register name="3" type="8">
         <text encoding="base64">ICAKICA=</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICBjb25uZWN0aW9uU3RyaW5nOiAiRW5kcG9pbnQ9c2I6Ly9mcGctc3RnLWVzLnNlcnZpY2VidXMud2luZG93cy5uZXQvO1NoYXJlZEFjY2Vzc0tleU5hbWU9UmVjZWl2ZTtTaGFyZWRBY2Nlc3NLZXk9bG93RXBOOER0MUl6eE9TcWRjVHhYUm0wZG15djFLUDFJRE1LeXl3V2NLRT07RW50aXR5UGF0aD1ldmVudHN5bmMiCg==</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICAKICA=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICBjb25uZWN0aW9uU3RyaW5nOiAiRW5kcG9pbnQ9c2I6Ly9mcGctc3RnLWVzLnNlcnZpY2VidXMud2luZG93cy5uZXQvO1NoYXJlZEFjY2Vzc0tleU5hbWU9UmVjZWl2ZTtTaGFyZWRBY2Nlc3NLZXk9bG93RXBOOER0MUl6eE9TcWRjVHhYUm0wZG15djFLUDFJRE1LeXl3V2NLRT07RW50aXR5UGF0aD1ldmVudHN5bmMiCg==</text>
       </register>
-      <register name="6" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICBldmVudFBlck1pbjogMC4wMDEK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
+        <text encoding="base64">ICAKICA=</text>
       </register>
       <register name="8" type="8">
         <text encoding="base64">ICAKICAKICAKICA=</text>
       </register>
       <register name="9" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
+        <text encoding="base64">ICAKICA=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1086,9 +1094,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>fgis</last-search>
+      <last-search>eventsync</last-search>
       <last-offset />
-      <last-pattern>fgis</last-pattern>
+      <last-pattern>eventsync</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
