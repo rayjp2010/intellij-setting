@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>shipping</entry>
         <entry>querying</entry>
         <entry>prefix</entry>
         <entry>index</entry>
@@ -25,6 +24,7 @@
         <entry>eventsync</entry>
         <entry>lint</entry>
         <entry>rewire</entry>
+        <entry>limit</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -155,6 +155,9 @@
         <mark key="." line="22" column="21" />
         <mark key="^" line="20" column="20" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592301435338">
+        <mark key="'" line="239" column="24" />
+      </file>
       <file name="$USER_HOME$/Workspace/poseidon/.babelrc" timestamp="1592275250022">
         <mark key="[" line="1" column="34" />
         <mark key="]" line="1" column="34" />
@@ -170,7 +173,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="180" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="85" column="15" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="86" column="186" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="23" column="22" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
@@ -270,6 +272,7 @@
       <jump line="13" column="16" filename="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" />
       <jump line="3" column="13" filename="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" />
       <jump line="35" column="23" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" />
+      <jump line="239" column="24" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1046,7 +1049,7 @@
         <text>8.0.1</text>
       </register>
       <register name="/" type="4">
-        <text>rewire</text>
+        <text>limit</text>
       </register>
       <register name="0" type="2">
         <text>- name: eventsync
@@ -1094,9 +1097,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>rewire</last-search>
+      <last-search>limit</last-search>
       <last-offset />
-      <last-pattern>rewire</last-pattern>
+      <last-pattern>limit</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
