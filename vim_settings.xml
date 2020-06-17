@@ -69,12 +69,6 @@
         <mark key="." line="7" column="13" />
         <mark key="^" line="7" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1592214085997">
-        <mark key="[" line="15" column="20" />
-        <mark key="]" line="15" column="29" />
-        <mark key="^" line="15" column="29" />
-        <mark key="." line="15" column="28" />
-      </file>
       <file name="$USER_HOME$/Workspace/poseidon/test/testData/azureTestData.js" timestamp="1592285004908">
         <mark key="'" line="54" column="19" />
         <mark key="[" line="67" column="21" />
@@ -97,13 +91,6 @@
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" timestamp="1592291074849">
         <mark key="'" line="35" column="23" />
-      </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/infra/azure.js" timestamp="1592281852197">
-        <mark key="'" line="23" column="0" />
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-        <mark key="^" line="24" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon-config/config-secret-stg.yaml" timestamp="1592289261291">
         <mark key="[" line="6" column="13" />
@@ -128,12 +115,6 @@
         <mark key="^" line="103" column="180" />
         <mark key="." line="101" column="2" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/src/config.js" timestamp="1592274241890">
-        <mark key="[" line="0" column="11" />
-        <mark key="]" line="0" column="9" />
-        <mark key="^" line="0" column="9" />
-        <mark key="." line="0" column="8" />
-      </file>
       <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592291081876">
         <mark key="[" line="22" column="20" />
         <mark key="]" line="22" column="21" />
@@ -142,12 +123,6 @@
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592301435338">
         <mark key="'" line="239" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/poseidon/.babelrc" timestamp="1592275250022">
-        <mark key="[" line="1" column="34" />
-        <mark key="]" line="1" column="34" />
-        <mark key="^" line="1" column="4" />
-        <mark key="." line="1" column="34" />
       </file>
     </filemarks>
     <jumps>
