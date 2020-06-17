@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>querying</entry>
         <entry>prefix</entry>
         <entry>index</entry>
         <entry>elastic.password</entry>
@@ -25,6 +24,7 @@
         <entry>lint</entry>
         <entry>rewire</entry>
         <entry>limit</entry>
+        <entry>enabledAuditSearchScopes</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -69,19 +69,23 @@
         <mark key="." line="7" column="13" />
         <mark key="^" line="7" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/repository/JudgementInfoRepository.java" timestamp="1592380882510" />
-      <file name="$USER_HOME$/Workspace/poseidon-config/events.pro.yml" timestamp="1592289250647">
-        <mark key="'" line="13" column="16" />
-        <mark key="[" line="101" column="2" />
-        <mark key="]" line="101" column="2" />
-        <mark key="." line="101" column="2" />
-        <mark key="^" line="97" column="17" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/util/permissionUtil.js" timestamp="1592382329625">
+        <mark key="[" line="11" column="35" />
+        <mark key="]" line="11" column="66" />
+        <mark key="." line="11" column="65" />
+        <mark key="^" line="11" column="66" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/repository/JudgementInfoRepository.java" timestamp="1592380882510" />
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" timestamp="1592376174529">
         <mark key="[" line="75" column="34" />
         <mark key="]" line="75" column="40" />
         <mark key="^" line="75" column="40" />
         <mark key="." line="75" column="39" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/common/SideMenu.jsx" timestamp="1592382181377">
+        <mark key="'" line="6" column="9" />
+        <mark key="[" line="6" column="9" />
+        <mark key="]" line="6" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" timestamp="1592291074849">
         <mark key="'" line="35" column="23" />
@@ -92,22 +96,8 @@
         <mark key="." line="6" column="13" />
         <mark key="^" line="6" column="14" />
       </file>
-      <file name="$USER_HOME$/Workspace/poseidon/test/infra/azure.test.js" timestamp="1592286500226">
-        <mark key="'" line="33" column="66" />
-        <mark key="[" line="74" column="37" />
-        <mark key="]" line="74" column="37" />
-        <mark key="^" line="74" column="37" />
-        <mark key="." line="74" column="36" />
-      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchCategory.java" timestamp="1592379205504">
         <mark key="[" line="0" column="54" />
-      </file>
-      <file name="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" timestamp="1592289180309">
-        <mark key="'" line="3" column="13" />
-        <mark key="[" line="101" column="2" />
-        <mark key="]" line="101" column="2" />
-        <mark key="^" line="103" column="180" />
-        <mark key="." line="101" column="2" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592291081876">
         <mark key="[" line="22" column="20" />
@@ -120,7 +110,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="15" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="86" column="186" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="23" column="22" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="60" column="8" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
@@ -220,6 +209,7 @@
       <jump line="3" column="13" filename="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" />
       <jump line="35" column="23" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" />
       <jump line="239" column="24" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="6" column="9" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/common/SideMenu.jsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -990,25 +980,19 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>8.0.1</text>
+        <text>enabledAuditSearchScopes</text>
       </register>
       <register name="-" type="4">
-        <text>8.0.1</text>
+        <text>: null,</text>
       </register>
       <register name="/" type="4">
-        <text>limit</text>
+        <text>enabledAuditSearchScopes</text>
       </register>
-      <register name="0" type="2">
-        <text>- name: eventsync
-  partition: 1
-  eventPerMin: 0.001
-  consumerGroups:
-    - name: odin
-      checkpointAfter: 100
-  connectionString: &quot;Endpoint=sb://fpg-stg-es.servicebus.windows.net/;SharedAccessKeyName=Receive;SharedAccessKey=lowEpN8Dt1IzxOSqdcTxXRm0dmyv1KP1IDMKyywWcKE=;EntityPath=eventsync&quot;</text>
+      <register name="0" type="4">
+        <text>enabledAuditSearchScopes</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAKICA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICB1c2VyUGVybWlzc2lvbnMucnVsZSA+IDAgPyAnUnVsZScgOiBudWxsLAo=</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -1016,26 +1000,26 @@
       <register name="2" type="8">
         <text encoding="base64">ICAKICA=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICBjb25uZWN0aW9uU3RyaW5nOiAiRW5kcG9pbnQ9c2I6Ly9mcGctc3RnLWVzLnNlcnZpY2VidXMud2luZG93cy5uZXQvO1NoYXJlZEFjY2Vzc0tleU5hbWU9UmVjZWl2ZTtTaGFyZWRBY2Nlc3NLZXk9bG93RXBOOER0MUl6eE9TcWRjVHhYUm0wZG15djFLUDFJRE1LeXl3V2NLRT07RW50aXR5UGF0aD1ldmVudHN5bmMiCg==</text>
+      <register name="3" type="8">
+        <text encoding="base64">ICAKICA=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICBjb25uZWN0aW9uU3RyaW5nOiAiRW5kcG9pbnQ9c2I6Ly9mcGctc3RnLWVzLnNlcnZpY2VidXMud2luZG93cy5uZXQvO1NoYXJlZEFjY2Vzc0tleU5hbWU9UmVjZWl2ZTtTaGFyZWRBY2Nlc3NLZXk9bG93RXBOOER0MUl6eE9TcWRjVHhYUm0wZG15djFLUDFJRE1LeXl3V2NLRT07RW50aXR5UGF0aD1ldmVudHN5bmMiCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBldmVudFBlck1pbjogMC4wMDEK</text>
+        <text encoding="base64">ICBjb25uZWN0aW9uU3RyaW5nOiAiRW5kcG9pbnQ9c2I6Ly9mcGctc3RnLWVzLnNlcnZpY2VidXMud2luZG93cy5uZXQvO1NoYXJlZEFjY2Vzc0tleU5hbWU9UmVjZWl2ZTtTaGFyZWRBY2Nlc3NLZXk9bG93RXBOOER0MUl6eE9TcWRjVHhYUm0wZG15djFLUDFJRE1LeXl3V2NLRT07RW50aXR5UGF0aD1ldmVudHN5bmMiCg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICBldmVudFBlck1pbjogMC4wMDEK</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">ICAKICA=</text>
-      </register>
       <register name="8" type="8">
-        <text encoding="base64">ICAKICAKICAKICA=</text>
+        <text encoding="base64">ICAKICA=</text>
       </register>
       <register name="9" type="8">
-        <text encoding="base64">ICAKICA=</text>
+        <text encoding="base64">ICAKICAKICAKICA=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1044,9 +1028,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>limit</last-search>
+      <last-search>enabledAuditSearchScopes</last-search>
       <last-offset />
-      <last-pattern>limit</last-pattern>
+      <last-pattern>enabledAuditSearchScopes</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
