@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>prefix</entry>
-        <entry>index</entry>
         <entry>elastic.password</entry>
         <entry>elastic\.password</entry>
         <entry>password</entry>
@@ -25,6 +23,8 @@
         <entry>rewire</entry>
         <entry>limit</entry>
         <entry>enabledAuditSearchScopes</entry>
+        <entry>hosts</entry>
+        <entry>log.leve</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -113,16 +113,18 @@
         <mark key="." line="22" column="21" />
         <mark key="^" line="20" column="20" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592301435338">
-        <mark key="'" line="239" column="24" />
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592474162726">
+        <mark key="'" line="79" column="45" />
+        <mark key="[" line="253" column="45" />
+        <mark key="]" line="253" column="50" />
+        <mark key="." line="253" column="49" />
+        <mark key="^" line="253" column="50" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" timestamp="1592291074849">
         <mark key="'" line="35" column="23" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="22" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
-      <jump line="60" column="8" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="61" column="179" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
       <jump line="11" column="29" filename="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" />
       <jump line="217" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -221,6 +223,8 @@
       <jump line="239" column="24" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="6" column="9" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/common/SideMenu.jsx" />
       <jump line="191" column="34" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" />
+      <jump line="219" column="34" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="79" column="45" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -990,14 +994,14 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CXIuTWV0aG9kcygiR0VUIikuUGF0aCgiL2h5c3RyaXguc3RyZWFtIikuSGFuZGxlcihoeXN0cml4SGFuZGxlcikK</text>
+      <register name="*" type="4">
+        <text>info</text>
       </register>
       <register name="-" type="4">
-        <text>: null,</text>
+        <text>info</text>
       </register>
       <register name="/" type="4">
-        <text>enabledAuditSearchScopes</text>
+        <text>log.leve</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CXIuTWV0aG9kcygiR0VUIikuUGF0aCgiL2h5c3RyaXguc3RyZWFtIikuSGFuZGxlcihoeXN0cml4SGFuZGxlcikK</text>
@@ -1039,9 +1043,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>enabledAuditSearchScopes</last-search>
+      <last-search>log.leve</last-search>
       <last-offset />
-      <last-pattern>enabledAuditSearchScopes</last-pattern>
+      <last-pattern>log.leve</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
