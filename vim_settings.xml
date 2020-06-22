@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>elastic\.password</entry>
-        <entry>password</entry>
-        <entry>init</entry>
-        <entry>cassandra</entry>
         <entry>camel</entry>
         <entry>denied</entry>
         <entry>data</entry>
@@ -25,6 +21,10 @@
         <entry>hosts</entry>
         <entry>log.leve</entry>
         <entry>isDate</entry>
+        <entry>writeHeader</entry>
+        <entry>head</entry>
+        <entry>header</entry>
+        <entry>writeHead</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -85,6 +85,9 @@
         <mark key="." line="6" column="13" />
         <mark key="^" line="6" column="14" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592794485425">
+        <mark key="'" line="109" column="0" />
+      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchCategory.java" timestamp="1592379205504">
         <mark key="[" line="0" column="54" />
       </file>
@@ -114,11 +117,12 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" timestamp="1592382956986">
         <mark key="'" line="191" column="34" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1592790479358">
-        <mark key="[" line="166" column="72" />
-        <mark key="]" line="166" column="80" />
-        <mark key="^" line="166" column="80" />
-        <mark key="." line="166" column="79" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1592793920207">
+        <mark key="'" line="258" column="15" />
+        <mark key="[" line="93" column="43" />
+        <mark key="]" line="93" column="56" />
+        <mark key="^" line="93" column="76" />
+        <mark key="." line="93" column="43" />
       </file>
       <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592291081876">
         <mark key="[" line="22" column="20" />
@@ -138,10 +142,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="217" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="22" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
-      <jump line="146" column="52" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
-      <jump line="35" column="25" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
       <jump line="67" column="4" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
       <jump line="64" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="22" column="6" filename="$USER_HOME$/go/src/odin/docker/docker-compose.yml" />
@@ -238,6 +238,10 @@
       <jump line="79" column="45" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="194" column="18" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
       <jump line="184" column="4" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="258" column="15" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
+      <jump line="119" column="0" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
+      <jump line="127" column="28" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
+      <jump line="109" column="0" filename="$USER_HOME$/go/src/odin/infra/transport.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1008,13 +1012,13 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>.</text>
+        <text>&quot;General&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>&quot;General&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>isDate</text>
+        <text>writeHead</text>
       </register>
       <register name="0" type="4">
         <text>AllWith</text>
@@ -1056,9 +1060,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>isDate</last-search>
+      <last-search>writeHead</last-search>
       <last-offset />
-      <last-pattern>isDate</last-pattern>
+      <last-pattern>writeHead</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
