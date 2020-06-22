@@ -114,6 +114,12 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" timestamp="1592382956986">
         <mark key="'" line="191" column="34" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1592789698057">
+        <mark key="[" line="89" column="23" />
+        <mark key="]" line="89" column="24" />
+        <mark key="^" line="109" column="23" />
+        <mark key="." line="89" column="24" />
+      </file>
       <file name="$USER_HOME$/Workspace/poseidon/package.json" timestamp="1592291081876">
         <mark key="[" line="22" column="20" />
         <mark key="]" line="22" column="21" />
@@ -1002,10 +1008,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>AllWith</text>
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text>info</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>isDate</text>
