@@ -63,6 +63,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1592536294219">
+        <mark key="[" line="66" column="4" />
+        <mark key="]" line="66" column="10" />
+      </file>
       <file name="$USER_HOME$/Workspace/poseidon-config/config-secret-pro.yaml" timestamp="1592289303448">
         <mark key="[" line="7" column="13" />
         <mark key="]" line="7" column="14" />
@@ -998,7 +1002,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>info</text>
+        <text>AllWith</text>
       </register>
       <register name="-" type="4">
         <text>info</text>
@@ -1006,8 +1010,8 @@
       <register name="/" type="4">
         <text>isDate</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CXIuTWV0aG9kcygiR0VUIikuUGF0aCgiL2h5c3RyaXguc3RyZWFtIikuSGFuZGxlcihoeXN0cml4SGFuZGxlcikK</text>
+      <register name="0" type="4">
+        <text>AllWith</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CXIuTWV0aG9kcygiR0VUIikuUGF0aCgiL2h5c3RyaXguc3RyZWFtIikuSGFuZGxlcihoeXN0cml4SGFuZGxlcikK</text>
