@@ -63,12 +63,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/util/permissionUtil.js" timestamp="1592382329625">
-        <mark key="[" line="11" column="35" />
-        <mark key="]" line="11" column="66" />
-        <mark key="." line="11" column="65" />
-        <mark key="^" line="11" column="66" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1592798203068">
         <mark key="'" line="402" column="48" />
         <mark key="[" line="357" column="0" />
@@ -86,14 +80,6 @@
         <mark key="." line="178" column="47" />
         <mark key="^" line="178" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/common/SideMenu.jsx" timestamp="1592382181377">
-        <mark key="'" line="6" column="9" />
-        <mark key="[" line="6" column="9" />
-        <mark key="]" line="6" column="32" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" timestamp="1592382956986">
-        <mark key="'" line="191" column="34" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1592536294219">
         <mark key="[" line="66" column="4" />
         <mark key="]" line="66" column="10" />
@@ -108,10 +94,6 @@
         <mark key="'" line="109" column="0" />
         <mark key="[" line="96" column="6" />
         <mark key="]" line="96" column="16" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/infra/server.go" timestamp="1592473145399">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="68" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1592476702502">
         <mark key="'" line="184" column="4" />
@@ -130,6 +112,12 @@
       <file name="$USER_HOME$/go/pkg/mod/github.com/go-kit/kit@v0.8.0/transport/http/encode_decode.go" timestamp="1592796136136">
         <mark key="[" line="23" column="5" />
         <mark key="]" line="23" column="22" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1592813942475">
+        <mark key="[" line="4" column="46" />
+        <mark key="]" line="4" column="61" />
+        <mark key="." line="4" column="60" />
+        <mark key="^" line="4" column="61" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1592812525494">
         <mark key="'" line="114" column="31" />
@@ -1018,11 +1006,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CQkvLyB0aGlzIHRlc3QgY2FzZSBpcyBmYWlsaW5nIGFuZCB3aWxsIGZpeCB0aHJvdWdoICB0aWNrZXQK</text>
+      <register name="*" type="4">
+        <text>aletheia-test</text>
       </register>
       <register name="-" type="4">
-        <text>, &quot;Queue&quot;</text>
+        <text>aletheia-test</text>
       </register>
       <register name="/" type="4">
         <text>with QueueType</text>
