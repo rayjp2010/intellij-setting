@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>data</entry>
         <entry>fg</entry>
         <entry>mocha</entry>
         <entry>babel</entry>
@@ -25,6 +24,7 @@
         <entry>writeHead</entry>
         <entry>Timeout</entry>
         <entry>timeout</entry>
+        <entry>empty organizationId</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -63,37 +63,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1592536294219">
-        <mark key="[" line="66" column="4" />
-        <mark key="]" line="66" column="10" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1592805711997">
-        <mark key="'" line="146" column="12" />
-        <mark key="[" line="183" column="51" />
-        <mark key="]" line="183" column="75" />
-        <mark key="^" line="183" column="75" />
-        <mark key="." line="183" column="74" />
-      </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/util/permissionUtil.js" timestamp="1592382329625">
         <mark key="[" line="11" column="35" />
         <mark key="]" line="11" column="66" />
         <mark key="." line="11" column="65" />
         <mark key="^" line="11" column="66" />
-      </file>
-      <file name="/fragment.go" timestamp="1592805092659">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592795413207">
-        <mark key="'" line="109" column="0" />
-        <mark key="[" line="96" column="6" />
-        <mark key="]" line="96" column="16" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/SearchCategory.java" timestamp="1592379205504">
-        <mark key="[" line="0" column="54" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/infra/server.go" timestamp="1592473145399">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="68" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1592798203068">
         <mark key="'" line="402" column="48" />
@@ -106,6 +80,39 @@
         <mark key="[" line="28" column="8" />
         <mark key="]" line="28" column="25" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/audit_log_data.go" timestamp="1592806847290">
+        <mark key="[" line="178" column="42" />
+        <mark key="]" line="178" column="48" />
+        <mark key="." line="178" column="47" />
+        <mark key="^" line="178" column="48" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/common/SideMenu.jsx" timestamp="1592382181377">
+        <mark key="'" line="6" column="9" />
+        <mark key="[" line="6" column="9" />
+        <mark key="]" line="6" column="32" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" timestamp="1592382956986">
+        <mark key="'" line="191" column="34" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1592536294219">
+        <mark key="[" line="66" column="4" />
+        <mark key="]" line="66" column="10" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1592806072875">
+        <mark key="'" line="92" column="44" />
+      </file>
+      <file name="/fragment.go" timestamp="1592805092659">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592795413207">
+        <mark key="'" line="109" column="0" />
+        <mark key="[" line="96" column="6" />
+        <mark key="]" line="96" column="16" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/infra/server.go" timestamp="1592473145399">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="68" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1592476702502">
         <mark key="'" line="184" column="4" />
       </file>
@@ -115,35 +122,21 @@
         <mark key="." line="97" column="60" />
         <mark key="^" line="97" column="61" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" timestamp="1592376174529">
-        <mark key="[" line="75" column="34" />
-        <mark key="]" line="75" column="40" />
-        <mark key="^" line="75" column="40" />
-        <mark key="." line="75" column="39" />
-      </file>
       <file name="$USER_HOME$/go/src/niffler/infra/server.go" timestamp="1592473149475">
         <mark key="[" line="32" column="0" />
         <mark key="]" line="32" column="0" />
         <mark key="." line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/common/SideMenu.jsx" timestamp="1592382181377">
-        <mark key="'" line="6" column="9" />
-        <mark key="[" line="6" column="9" />
-        <mark key="]" line="6" column="32" />
-      </file>
       <file name="$USER_HOME$/go/pkg/mod/github.com/go-kit/kit@v0.8.0/transport/http/encode_decode.go" timestamp="1592796136136">
         <mark key="[" line="23" column="5" />
         <mark key="]" line="23" column="22" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" timestamp="1592382956986">
-        <mark key="'" line="191" column="34" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1592793920207">
-        <mark key="'" line="258" column="15" />
-        <mark key="[" line="93" column="43" />
-        <mark key="]" line="93" column="56" />
-        <mark key="^" line="93" column="76" />
-        <mark key="." line="93" column="43" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1592809100656">
+        <mark key="'" line="87" column="29" />
+        <mark key="[" line="249" column="60" />
+        <mark key="]" line="249" column="66" />
+        <mark key="." line="249" column="65" />
+        <mark key="^" line="249" column="66" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592797477535">
         <mark key="'" line="268" column="45" />
@@ -157,8 +150,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="110" column="4" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
-      <jump line="118" column="30" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="199" column="53" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="213" column="46" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="258" column="53" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
@@ -257,6 +248,8 @@
       <jump line="268" column="45" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="402" column="48" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="118" column="12" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
+      <jump line="92" column="44" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
+      <jump line="87" column="29" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1027,46 +1020,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>and endDate are the same</text>
+        <text>Transfer</text>
       </register>
       <register name="-" type="4">
-        <text>and endDate are the same</text>
+        <text>Transfer</text>
       </register>
       <register name="/" type="4">
-        <text>timeout</text>
+        <text>empty organizationId</text>
       </register>
       <register name="0" type="4">
-        <text>1582938061000</text>
+        <text>GetRuleAuditLogResponse</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkJCSJvcmRlci0yMDIwLjA0IiwKCQkJCSJvcmRlci0yMDIwLjA1IiwKCQkJCSJvcmRlci0yMDIwLjA2IiwKCQkJCSJvcmRlci0yMDIwLjA3IiwKCQkJCSJvcmRlci0yMDIwLjA4IiwKCQkJCSJvcmRlci0yMDIwLjA5IiwKCQkJCSJvcmRlci0yMDIwLjEwIiwKCQkJCSJvcmRlci0yMDIwLjExIiwKCQkJCSJvcmRlci0yMDIwLjEyIiwK</text>
+        <text encoding="base64">CQkJCSp0ZC5HZXRQcm9maWxlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYxMDAwLCAiUHJvZmlsZTIiKSwK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQkJCSJvcmRlci0yMDIwLjAxIiwK</text>
+        <text encoding="base64">CQkJCSp0ZC5HZXRRdWV1ZUF1ZGl0TG9nUmVzcG9uc2UoMTU4MDg2NDQ2MjAwMCwgIlByb2ZpbGUyIiwgIkdlbmVyYWwiKSwK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQkJQWRkRGF0ZSgwLCBpZHgsIDApCg==</text>
+        <text encoding="base64">CQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTc4MDk5NjYxMDAwLCAiUS1HZW5lcmFsIiwgIkdlbmVyYWwiKSwKCQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYxMDAwLCAiUS1EZWZhdWx0IiwgIkRlZmF1bHQiKSwKCQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUS1EZWZhdWx0IiwgIkRlZmF1bHQiKSwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJbm93VGltZSA6PSBzdGFydFRpbWUuQWRkRGF0ZSgwLCBpZHgsIClBZGREYXRlKDAsIGlkeCwgMCkK</text>
+        <text encoding="base64">CQl7InF1ZXJ5IG9yZ2FuaXphdGlvbiBhdWRpdExvZyB3aXRoIHF1ZXVlVHlwZSIsCgkJCXJlcUJ1aWxkZXIuV2l0aEZpZWxkKCJDYXRlZ29yeSIsIHUuR2V0U3RyaW5nUHRyKCJRdWV1ZSIpKS4KCQkJCVdpdGhGaWVsZCgiU2VhcmNoVmFsdWUiLCB1LkdldFN0cmluZ1B0cigiUS1HZW5lcmFsIikpLgoJCQkJV2l0aEZpZWxkKCJRdWV1ZVR5cGUiLCB1LkdldFN0cmluZ1B0cigiR2VuZXJhbCIpKS4KCQkJCVdpdGhGaWVsZCgiT3JnYW5pemF0aW9uSWRzIiwgW11pbnQ2NHsxMDIwMX0pLkJ1aWxkKCksCgkJCTIwMCwKCQkJcmVzQnVpbGRlci5XaXRoRGF0YShbXXRtLkF1ZGl0TG9nU2VhcmNoUmVzcG9uc2V7KnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUS1HZW5lcmFsIiwgIkdlbmVyYWwiKX0pLgoJCQkJQnVpbGQoKS5Kc29uKCksCgkJfSwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQl0aW1lLk5vdygpLmIK</text>
+        <text encoding="base64">CQkJcmVzQnVpbGRlci5XaXRoRGF0YShbXXRtLkF1ZGl0TG9nU2VhcmNoUmVzcG9uc2V7CgkJCQlyZXNCdWlsZGVyLldpdGhEYXRhKFtddG0uQXVkaXRMb2dTZWFyY2hSZXNwb25zZXsqdGQuR2V0UXVldWVBdWRpdExvZ1Jlc3BvbnNlKDE1ODA4NjQ0NjEwMDAsICJRLUdlbmVyYWwiLCAiR2VuZXJhbCIpfSkuCgkJCQkJQnVpbGQoKS5Kc29uKCksCgkJCX0pLkJ1aWxkKCkuSnNvbigpLAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQlzdGFydFRpbWUuCg==</text>
+        <text encoding="base64">CQkJfSkuQnVpbGQoKS5Kc29uKCksCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXJlcy5Jc0Vycm9yKCkK</text>
+        <text encoding="base64">CQkJfSkuQnVpbGQoKS5Kc29uKCksCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQlUaW1lb3V0OiAgICAgICAgICAgdGltZS5OYW5vc2Vjb25kICogMSwK</text>
+        <text encoding="base64">CQkJCSJvcmRlci0yMDIwLjA0IiwKCQkJCSJvcmRlci0yMDIwLjA1IiwKCQkJCSJvcmRlci0yMDIwLjA2IiwKCQkJCSJvcmRlci0yMDIwLjA3IiwKCQkJCSJvcmRlci0yMDIwLjA4IiwKCQkJCSJvcmRlci0yMDIwLjA5IiwKCQkJCSJvcmRlci0yMDIwLjEwIiwKCQkJCSJvcmRlci0yMDIwLjExIiwKCQkJCSJvcmRlci0yMDIwLjEyIiwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQlUaW1lb3V0OiAgICAgICAgICAgdGltZS5OYW5vc2Vjb25kICogMSwK</text>
+        <text encoding="base64">CQkJCSJvcmRlci0yMDIwLjAxIiwK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1075,9 +1068,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>timeout</last-search>
+      <last-search>empty organizationId</last-search>
       <last-offset />
-      <last-pattern>timeout</last-pattern>
+      <last-pattern>empty organizationId</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
