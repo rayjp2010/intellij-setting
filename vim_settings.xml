@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>babel</entry>
-        <entry>fgis</entry>
-        <entry>event</entry>
         <entry>eventsync</entry>
         <entry>lint</entry>
         <entry>rewire</entry>
@@ -25,6 +22,9 @@
         <entry>empty organizationId</entry>
         <entry>queueType</entry>
         <entry>with QueueType</entry>
+        <entry>go mod</entry>
+        <entry>mod</entry>
+        <entry>-v</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -74,15 +74,16 @@
         <mark key="[" line="28" column="8" />
         <mark key="]" line="28" column="25" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1592536294219">
-        <mark key="[" line="66" column="4" />
-        <mark key="]" line="66" column="10" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1592806072875">
         <mark key="'" line="92" column="44" />
       </file>
       <file name="/fragment.go" timestamp="1592805092659">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/Dockerfile" timestamp="1592819478170">
+        <mark key="'" line="22" column="20" />
+        <mark key="[" line="3" column="4" />
+        <mark key="]" line="3" column="14" />
       </file>
       <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592795413207">
         <mark key="'" line="109" column="0" />
@@ -117,9 +118,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="280" column="5" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="134" column="28" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="158" column="28" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
       <jump line="411" column="29" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
       <jump line="435" column="29" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
       <jump line="436" column="29" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
@@ -217,6 +215,9 @@
       <jump line="96" column="31" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
       <jump line="105" column="31" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
       <jump line="114" column="31" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
+      <jump line="10" column="48" filename="$USER_HOME$/go/src/odin/Dockerfile" />
+      <jump line="3" column="9" filename="$USER_HOME$/go/src/odin/Dockerfile" />
+      <jump line="22" column="20" filename="$USER_HOME$/go/src/odin/Dockerfile" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -987,16 +988,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>aletheia-test</text>
+        <text>GO111MODULE</text>
       </register>
       <register name="-" type="4">
         <text>aletheia-test</text>
       </register>
       <register name="/" type="4">
-        <text>with QueueType</text>
+        <text>-v</text>
       </register>
       <register name="0" type="4">
-        <text>fix</text>
+        <text>GO111MODULE</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQkvLyB0aGlzIHRlc3QgY2FzZSBpcyBmYWlsaW5nIGFuZCB3aWxsIGZpeCB0aHJvdWdoICB0aWNrZXQK</text>
@@ -1035,9 +1036,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>with QueueType</last-search>
+      <last-search>-v</last-search>
       <last-offset />
-      <last-pattern>with QueueType</last-pattern>
+      <last-pattern>-v</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
