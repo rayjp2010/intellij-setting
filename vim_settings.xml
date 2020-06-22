@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>elastic.password</entry>
         <entry>elastic\.password</entry>
         <entry>password</entry>
         <entry>init</entry>
@@ -25,6 +24,7 @@
         <entry>enabledAuditSearchScopes</entry>
         <entry>hosts</entry>
         <entry>log.leve</entry>
+        <entry>isDate</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -88,6 +88,9 @@
         <mark key="[" line="24" column="0" />
         <mark key="]" line="24" column="68" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property.go" timestamp="1592476702502">
+        <mark key="'" line="184" column="4" />
+      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/SearchController.java" timestamp="1592376174529">
         <mark key="[" line="75" column="34" />
         <mark key="]" line="75" column="40" />
@@ -125,8 +128,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="179" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
-      <jump line="11" column="29" filename="$USER_HOME$/Workspace/poseidon/src/domain/stats.js" />
       <jump line="217" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="22" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
       <jump line="146" column="52" filename="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" />
@@ -225,6 +226,8 @@
       <jump line="191" column="34" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" />
       <jump line="219" column="34" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="79" column="45" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="194" column="18" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
+      <jump line="184" column="4" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1001,7 +1004,7 @@
         <text>info</text>
       </register>
       <register name="/" type="4">
-        <text>log.leve</text>
+        <text>isDate</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CXIuTWV0aG9kcygiR0VUIikuUGF0aCgiL2h5c3RyaXguc3RyZWFtIikuSGFuZGxlcihoeXN0cml4SGFuZGxlcikK</text>
@@ -1043,9 +1046,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>log.leve</last-search>
+      <last-search>isDate</last-search>
       <last-offset />
-      <last-pattern>log.leve</last-pattern>
+      <last-pattern>isDate</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
