@@ -73,7 +73,7 @@
         <mark key="." line="11" column="65" />
         <mark key="^" line="11" column="66" />
       </file>
-      <file name="/fragment.go" timestamp="1592798069649">
+      <file name="/fragment.go" timestamp="1592798308940">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592795413207">
@@ -88,8 +88,8 @@
         <mark key="[" line="24" column="0" />
         <mark key="]" line="24" column="68" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1592797804361">
-        <mark key="'" line="38" column="4" />
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1592798203068">
+        <mark key="'" line="402" column="48" />
         <mark key="[" line="357" column="0" />
         <mark key="]" line="357" column="0" />
         <mark key="." line="357" column="0" />
@@ -153,7 +153,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="50" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/order.go" />
       <jump line="129" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="110" column="4" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
       <jump line="118" column="30" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" />
@@ -253,6 +252,7 @@
       <jump line="38" column="4" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="80" column="4" filename="$USER_HOME$/go/pkg/mod/github.com/elastic/go-elasticsearch/v6@v6.8.5/esapi/api.search.go" />
       <jump line="268" column="45" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="402" column="48" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
