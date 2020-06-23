@@ -90,10 +90,10 @@
         <mark key="[" line="96" column="6" />
         <mark key="]" line="96" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1592896355428">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1592897157043">
         <mark key="'" line="73" column="10" />
-        <mark key="[" line="73" column="10" />
-        <mark key="]" line="73" column="17" />
+        <mark key="[" line="286" column="0" />
+        <mark key="]" line="286" column="21" />
       </file>
       <file name="/" timestamp="1592895946823">
         <mark key="[" line="0" column="0" />
@@ -1018,7 +1018,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>rule_sub</text>
+        <text>list_hit_query_results</text>
       </register>
       <register name="-" type="4">
         <text>line</text>
@@ -1027,7 +1027,7 @@
         <text>rule_sub</text>
       </register>
       <register name="0" type="4">
-        <text>rule_sub</text>
+        <text>list_hit_query_results</text>
       </register>
       <register name="1" type="2">
         <text># elasticsearch.username: &quot;elastic&quot;
