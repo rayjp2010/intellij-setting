@@ -93,11 +93,11 @@
         <mark key="." line="4" column="60" />
         <mark key="^" line="4" column="61" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1592879432658">
-        <mark key="[" line="22" column="27" />
-        <mark key="]" line="27" column="20" />
-        <mark key="." line="27" column="19" />
-        <mark key="^" line="27" column="20" />
+      <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1592883150044">
+        <mark key="[" line="32" column="21" />
+        <mark key="]" line="32" column="21" />
+        <mark key="." line="32" column="20" />
+        <mark key="^" line="32" column="21" />
       </file>
       <file name="/fragment.go" timestamp="1592805092659">
         <mark key="[" line="0" column="0" />
@@ -993,29 +993,29 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>shell script</text>
+      <register name="*" type="2">
+        <text encoding="base64">My4gWW91IGNhbiAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>shell script</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>test</text>
       </register>
-      <register name="0" type="4">
-        <text>GO111MODULE</text>
+      <register name="0" type="2">
+        <text encoding="base64">IyMgUnVuIG9kaW4gaW4gaW50ZWxsaWogKG9wdGlvbjEpCjIuIEdvIHRvIGBtYWluLmdvYAozLiBDbGljayBydW4gCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">LSBEb2NrZXI6IDE4LjA5IG9yIGFib3ZlCg==</text>
+        <text encoding="base64">My4gWW91IGNhbiAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">LSBEb2NrZXIgY29tcG9zZTogCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyMjIDIuMiBDaGFuZ2UgY29uZmlnCnlvdSBuZWVkIAo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -1024,16 +1024,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Z28gdGVzdCAtdiAtY292ZXJwcm9maWxlIC4vcmVwb3J0L2NvdmVyLm91dCAkKGdvIGxpc3QgLi8uLi4gfCBncmVwIC12IC1lIHNlcnZpY2V0ZXN0KSAK</text>
+        <text encoding="base64">IyMgUnVuIG9kaW4gaW4gaW50ZWxsaWogKG9wdGlvbjEpCjIuIEdvIHRvIGBtYWluLmdvYAozLiBDbGljayBydW4gCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Li9vZGluCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YGBgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">IyMgT2RpbiBIdWIK</text>
+        <text encoding="base64">YGBgc2hlbGwgc2NyaXB0Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
