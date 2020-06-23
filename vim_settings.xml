@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>limit</entry>
         <entry>enabledAuditSearchScopes</entry>
         <entry>hosts</entry>
         <entry>log.leve</entry>
@@ -25,6 +24,7 @@
         <entry>test</entry>
         <entry>eventhub</entry>
         <entry>rule_sub</entry>
+        <entry>4</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -115,6 +115,11 @@
         <mark key="." line="97" column="60" />
         <mark key="^" line="97" column="61" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1592908711974">
+        <mark key="'" line="28" column="0" />
+        <mark key="[" line="23" column="4" />
+        <mark key="]" line="23" column="20" />
+      </file>
       <file name="$USER_HOME$/go/pkg/mod/github.com/go-kit/kit@v0.8.0/transport/http/encode_decode.go" timestamp="1592796136136">
         <mark key="[" line="23" column="5" />
         <mark key="]" line="23" column="22" />
@@ -148,7 +153,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="159" column="28" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
       <jump line="409" column="41" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
       <jump line="316" column="33" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
       <jump line="40" column="16" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
@@ -248,6 +252,7 @@
       <jump line="68" column="25" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="86" column="7" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="73" column="10" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
+      <jump line="28" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1018,16 +1023,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>list_hit_query_results</text>
+        <text>DoneAccertifyDeny</text>
       </register>
       <register name="-" type="4">
         <text>line</text>
       </register>
       <register name="/" type="4">
-        <text>rule_sub</text>
+        <text>4</text>
       </register>
       <register name="0" type="4">
-        <text>list_hit_query_results</text>
+        <text>DoneAccertifyDeny</text>
       </register>
       <register name="1" type="2">
         <text># elasticsearch.username: &quot;elastic&quot;
@@ -1067,9 +1072,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>rule_sub</last-search>
+      <last-search>4</last-search>
       <last-offset />
-      <last-pattern>rule_sub</last-pattern>
+      <last-pattern>4</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
