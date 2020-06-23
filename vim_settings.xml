@@ -77,19 +77,6 @@
       <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1592806072875">
         <mark key="'" line="92" column="44" />
       </file>
-      <file name="/fragment.go" timestamp="1592805092659">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/Dockerfile" timestamp="1592819478170">
-        <mark key="'" line="22" column="20" />
-        <mark key="[" line="3" column="4" />
-        <mark key="]" line="3" column="14" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592795413207">
-        <mark key="'" line="109" column="0" />
-        <mark key="[" line="96" column="6" />
-        <mark key="]" line="96" column="16" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1592801254001">
         <mark key="[" line="97" column="60" />
         <mark key="]" line="97" column="61" />
@@ -106,12 +93,30 @@
         <mark key="." line="4" column="60" />
         <mark key="^" line="4" column="61" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1592876800134">
+        <mark key="[" line="2" column="10" />
+        <mark key="]" line="0" column="7" />
+        <mark key="." line="0" column="7" />
+      </file>
+      <file name="/fragment.go" timestamp="1592805092659">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/Dockerfile" timestamp="1592819805500">
+        <mark key="'" line="22" column="20" />
+        <mark key="[" line="3" column="4" />
+        <mark key="]" line="3" column="17" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1592797477535">
         <mark key="'" line="268" column="45" />
         <mark key="[" line="192" column="60" />
         <mark key="]" line="203" column="31" />
         <mark key="." line="203" column="30" />
         <mark key="^" line="203" column="31" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592795413207">
+        <mark key="'" line="109" column="0" />
+        <mark key="[" line="96" column="6" />
+        <mark key="]" line="96" column="16" />
       </file>
       <file name="$USER_HOME$/go/pkg/mod/github.com/elastic/go-elasticsearch/v6@v6.8.5/esapi/api.search.go" timestamp="1592796832223">
         <mark key="'" line="80" column="4" />
@@ -988,46 +993,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>GO111MODULE</text>
+        <text>GO111MODULE=on</text>
       </register>
       <register name="-" type="4">
-        <text>aletheia-test</text>
+        <text>is a god</text>
       </register>
       <register name="/" type="4">
         <text>-v</text>
       </register>
       <register name="0" type="4">
-        <text>GO111MODULE</text>
+        <text>GO111MODULE=on</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkvLyB0aGlzIHRlc3QgY2FzZSBpcyBmYWlsaW5nIGFuZCB3aWxsIGZpeCB0aHJvdWdoICB0aWNrZXQK</text>
+        <text encoding="base64">Ly8gVE9ETyBhZGQgcmVhZCBtZSBmb3Igb2Rpbgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkvLyB0aGlzIHRlc3QgY2FzZSBpcyBmYWlsaW5nIGFuZCB3aWxsIGZpeCB0aHJvdWdoICB0aWNrZXQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQl7InF1ZXJ5IHByb2ZpbGUgYXVkaXRMb2cgd2l0aCBxdWV1ZVR5cGUiLAoJCQlyZXFCdWlsZGVyLldpdGhGaWVsZCgiQ2F0ZWdvcnkiLCB1LkdldFN0cmluZ1B0cigiUHJvZmlsZSIpKS4KCQkJCVdpdGhGaWVsZCgiU2VhcmNoVmFsdWUiLCB1LkdldFN0cmluZ1B0cigiUHJvZmlsZTEiKSkuCgkJCQlXaXRoRmllbGQoIk9yZ2FuaXphdGlvbklkcyIsIFtdaW50NjR7MjAwMDF9KS5CdWlsZCgpLAoJCQkvL1dpdGhGaWVsZCgiUXVldWVUeXBlIiwgdS5HZXRTdHJpbmdQdHIoIlN1cGVydmlzb3IiKSkuQnVpbGQoKSwKCQkJMjAwLAoJCQlyZXNCdWlsZGVyLldpdGhEYXRhKFtddG0uQXVkaXRMb2dTZWFyY2hSZXNwb25zZXsKCQkJCSp0ZC5HZXRQcm9maWxlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUHJvZmlsZTIiKSwKCQkJfSkuQnVpbGQoKS5Kc29uKCksCgkJfSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQkJCSp0ZC5HZXRQcm9maWxlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYxMDAwLCAiUHJvZmlsZTIiKSwK</text>
+        <text encoding="base64">CQl7InF1ZXJ5IHByb2ZpbGUgYXVkaXRMb2cgd2l0aCBxdWV1ZVR5cGUiLAoJCQlyZXFCdWlsZGVyLldpdGhGaWVsZCgiQ2F0ZWdvcnkiLCB1LkdldFN0cmluZ1B0cigiUHJvZmlsZSIpKS4KCQkJCVdpdGhGaWVsZCgiU2VhcmNoVmFsdWUiLCB1LkdldFN0cmluZ1B0cigiUHJvZmlsZTEiKSkuCgkJCQlXaXRoRmllbGQoIk9yZ2FuaXphdGlvbklkcyIsIFtdaW50NjR7MjAwMDF9KS5CdWlsZCgpLAoJCQkvL1dpdGhGaWVsZCgiUXVldWVUeXBlIiwgdS5HZXRTdHJpbmdQdHIoIlN1cGVydmlzb3IiKSkuQnVpbGQoKSwKCQkJMjAwLAoJCQlyZXNCdWlsZGVyLldpdGhEYXRhKFtddG0uQXVkaXRMb2dTZWFyY2hSZXNwb25zZXsKCQkJCSp0ZC5HZXRQcm9maWxlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUHJvZmlsZTIiKSwKCQkJfSkuQnVpbGQoKS5Kc29uKCksCgkJfSwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkJCSp0ZC5HZXRRdWV1ZUF1ZGl0TG9nUmVzcG9uc2UoMTU4MDg2NDQ2MjAwMCwgIlByb2ZpbGUyIiwgIkdlbmVyYWwiKSwK</text>
+        <text encoding="base64">CQkJCSp0ZC5HZXRQcm9maWxlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYxMDAwLCAiUHJvZmlsZTIiKSwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTc4MDk5NjYxMDAwLCAiUS1HZW5lcmFsIiwgIkdlbmVyYWwiKSwKCQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYxMDAwLCAiUS1EZWZhdWx0IiwgIkRlZmF1bHQiKSwKCQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUS1EZWZhdWx0IiwgIkRlZmF1bHQiKSwK</text>
+        <text encoding="base64">CQkJCSp0ZC5HZXRRdWV1ZUF1ZGl0TG9nUmVzcG9uc2UoMTU4MDg2NDQ2MjAwMCwgIlByb2ZpbGUyIiwgIkdlbmVyYWwiKSwK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQl7InF1ZXJ5IG9yZ2FuaXphdGlvbiBhdWRpdExvZyB3aXRoIHF1ZXVlVHlwZSIsCgkJCXJlcUJ1aWxkZXIuV2l0aEZpZWxkKCJDYXRlZ29yeSIsIHUuR2V0U3RyaW5nUHRyKCJRdWV1ZSIpKS4KCQkJCVdpdGhGaWVsZCgiU2VhcmNoVmFsdWUiLCB1LkdldFN0cmluZ1B0cigiUS1HZW5lcmFsIikpLgoJCQkJV2l0aEZpZWxkKCJRdWV1ZVR5cGUiLCB1LkdldFN0cmluZ1B0cigiR2VuZXJhbCIpKS4KCQkJCVdpdGhGaWVsZCgiT3JnYW5pemF0aW9uSWRzIiwgW11pbnQ2NHsxMDIwMX0pLkJ1aWxkKCksCgkJCTIwMCwKCQkJcmVzQnVpbGRlci5XaXRoRGF0YShbXXRtLkF1ZGl0TG9nU2VhcmNoUmVzcG9uc2V7KnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUS1HZW5lcmFsIiwgIkdlbmVyYWwiKX0pLgoJCQkJQnVpbGQoKS5Kc29uKCksCgkJfSwK</text>
+        <text encoding="base64">CQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTc4MDk5NjYxMDAwLCAiUS1HZW5lcmFsIiwgIkdlbmVyYWwiKSwKCQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYxMDAwLCAiUS1EZWZhdWx0IiwgIkRlZmF1bHQiKSwKCQkJCS8vKnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUS1EZWZhdWx0IiwgIkRlZmF1bHQiKSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQkJcmVzQnVpbGRlci5XaXRoRGF0YShbXXRtLkF1ZGl0TG9nU2VhcmNoUmVzcG9uc2V7CgkJCQlyZXNCdWlsZGVyLldpdGhEYXRhKFtddG0uQXVkaXRMb2dTZWFyY2hSZXNwb25zZXsqdGQuR2V0UXVldWVBdWRpdExvZ1Jlc3BvbnNlKDE1ODA4NjQ0NjEwMDAsICJRLUdlbmVyYWwiLCAiR2VuZXJhbCIpfSkuCgkJCQkJQnVpbGQoKS5Kc29uKCksCgkJCX0pLkJ1aWxkKCkuSnNvbigpLAo=</text>
+        <text encoding="base64">CQl7InF1ZXJ5IG9yZ2FuaXphdGlvbiBhdWRpdExvZyB3aXRoIHF1ZXVlVHlwZSIsCgkJCXJlcUJ1aWxkZXIuV2l0aEZpZWxkKCJDYXRlZ29yeSIsIHUuR2V0U3RyaW5nUHRyKCJRdWV1ZSIpKS4KCQkJCVdpdGhGaWVsZCgiU2VhcmNoVmFsdWUiLCB1LkdldFN0cmluZ1B0cigiUS1HZW5lcmFsIikpLgoJCQkJV2l0aEZpZWxkKCJRdWV1ZVR5cGUiLCB1LkdldFN0cmluZ1B0cigiR2VuZXJhbCIpKS4KCQkJCVdpdGhGaWVsZCgiT3JnYW5pemF0aW9uSWRzIiwgW11pbnQ2NHsxMDIwMX0pLkJ1aWxkKCksCgkJCTIwMCwKCQkJcmVzQnVpbGRlci5XaXRoRGF0YShbXXRtLkF1ZGl0TG9nU2VhcmNoUmVzcG9uc2V7KnRkLkdldFF1ZXVlQXVkaXRMb2dSZXNwb25zZSgxNTgwODY0NDYyMDAwLCAiUS1HZW5lcmFsIiwgIkdlbmVyYWwiKX0pLgoJCQkJQnVpbGQoKS5Kc29uKCksCgkJfSwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQkJfSkuQnVpbGQoKS5Kc29uKCksCg==</text>
+        <text encoding="base64">CQkJcmVzQnVpbGRlci5XaXRoRGF0YShbXXRtLkF1ZGl0TG9nU2VhcmNoUmVzcG9uc2V7CgkJCQlyZXNCdWlsZGVyLldpdGhEYXRhKFtddG0uQXVkaXRMb2dTZWFyY2hSZXNwb25zZXsqdGQuR2V0UXVldWVBdWRpdExvZ1Jlc3BvbnNlKDE1ODA4NjQ0NjEwMDAsICJRLUdlbmVyYWwiLCAiR2VuZXJhbCIpfSkuCgkJCQkJQnVpbGQoKS5Kc29uKCksCgkJCX0pLkJ1aWxkKCkuSnNvbigpLAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
