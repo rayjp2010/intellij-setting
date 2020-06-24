@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>head</entry>
-        <entry>header</entry>
         <entry>writeHead</entry>
         <entry>Timeout</entry>
         <entry>timeout</entry>
@@ -25,6 +23,8 @@
         <entry>process</entry>
         <entry>daily</entry>
         <entry>http_auth</entry>
+        <entry>heathc</entry>
+        <entry>health</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -110,25 +110,24 @@
       <file name="/" timestamp="1592895946823">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1592980407454">
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1592988631316">
         <mark key="'" line="30" column="0" />
-        <mark key="[" line="45" column="25" />
-        <mark key="]" line="47" column="29" />
-        <mark key="^" line="47" column="29" />
-        <mark key="." line="47" column="28" />
+        <mark key="[" line="45" column="0" />
+        <mark key="]" line="45" column="0" />
+        <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1592987944065">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1592988825240">
         <mark key="'" line="12" column="20" />
-        <mark key="[" line="228" column="55" />
-        <mark key="]" line="228" column="57" />
-        <mark key="." line="228" column="56" />
-        <mark key="^" line="228" column="57" />
+        <mark key="[" line="46" column="0" />
+        <mark key="]" line="46" column="16" />
+        <mark key="." line="46" column="15" />
+        <mark key="^" line="46" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1592987910113">
-        <mark key="[" line="85" column="14" />
-        <mark key="]" line="85" column="24" />
-        <mark key="^" line="85" column="24" />
-        <mark key="." line="85" column="23" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1592989188201">
+        <mark key="[" line="85" column="17" />
+        <mark key="]" line="85" column="20" />
+        <mark key="." line="85" column="19" />
+        <mark key="^" line="85" column="20" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1592984676137">
         <mark key="'" line="36" column="35" />
@@ -1025,46 +1024,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>9</text>
+        <text>ping()</text>
       </register>
       <register name="-" type="4">
-        <text>9</text>
+        <text>ping()</text>
       </register>
       <register name="/" type="4">
-        <text>http_auth</text>
+        <text>health</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChlc19ob3N0KQogICAgICAgIHByaW50KGVzX3VzZXIpCiAgICAgICAgcHJpbnQoZXNfcGFzc3dvcmQpCg==</text>
+        <text encoding="base64">ICAgICAgICBlcy4K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIE1haW4oKS5ydW4oKQo=</text>
+        <text encoding="base64">JycnKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgYSA9ICJhc2QiOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBQYXR0ZXJuIGFiYyA9IFBhdHRlcm4uY29tcGlsZSgiXG4iKTsKICAgICAgICBhLnJlcGxhY2VBbGwoIlxuIiwgIiAiKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBQYXR0ZXJuIGFiYyA9IFBhdHRlcm4uY29tcGlsZSgiXG4iKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChlc19ob3N0KQogICAgICAgIHByaW50KGVzX3VzZXIpCiAgICAgICAgcHJpbnQoZXNfcGFzc3dvcmQpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIE1haW4oKS5ydW4oKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZGVmIGNsZWFyX3Jlc3VsdF9maWxlcygpOgogICAgZm9yIGZpbGVfbmFtZSBpbiBnbG9iLmdsb2IoIi4vIiArIHJ1bGVfaGl0X2ZpbGVfbmFtZV9wcmVmaXggKyAiKiIpOgogICAgICAgIG9zLnJlbW92ZShmaWxlX25hbWUpCiAgICBmb3IgZmlsZV9uYW1lIGluIGdsb2IuZ2xvYigiLi8iICsgbGlzdF9oaXRfZmlsZV9uYW1lX3ByZWZpeCArICIqIik6CiAgICAgICAgb3MucmVtb3ZlKGZpbGVfbmFtZSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGVmIHdyaXRlX3Jlc3VsdHNfdG9fZmlsZShyZXN1bHRzLCBmaWxlX25hbWVfcHJlZml4KToKICAgIGZpbGVfbmFtZSA9IGZpbGVfbmFtZV9wcmVmaXggKyBnZXRfY3VycmVudF9kYXRlX3N0cmluZygpICsgZmlsZV9leHRlbnNpb24KCiAgICB3aXRoIGlvLm9wZW4oZmlsZV9uYW1lLCAidyIsIC0xLCAidXRmLTgiKSBhcyBvdXRwdXRfZmlsZToKICAgICAgICBvdXRwdXRfZmlsZS53cml0ZShnZXRfaGVhZGVyX3JvdyhmaWxlX25hbWVfcHJlZml4KSkKCiAgICAgICAgcmVzdWx0c19pdHIgPSBpdGVyKHJlc3VsdHMpCiAgICAgICAgcHJvY2Vzc19yb3cob3V0cHV0X2ZpbGUsIG5leHQocmVzdWx0c19pdHIpKQogICAgICAgIGZvciByZXN1bHQgaW4gcmVzdWx0c19pdHI6CiAgICAgICAgICAgIG91dHB1dF9maWxlLndyaXRlKHUiXG4iKQogICAgICAgICAgICBwcm9jZXNzX3JvdyhvdXRwdXRfZmlsZSwgcmVzdWx0KQoKICAgIHJldHVybiBmaWxlX25hbWUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1073,9 +1072,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>http_auth</last-search>
+      <last-search>health</last-search>
       <last-offset />
-      <last-pattern>http_auth</last-pattern>
+      <last-pattern>health</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
