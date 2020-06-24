@@ -115,10 +115,12 @@
         <mark key="." line="97" column="60" />
         <mark key="^" line="97" column="61" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1592908711974">
-        <mark key="'" line="28" column="0" />
-        <mark key="[" line="23" column="4" />
-        <mark key="]" line="23" column="20" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1592979222438">
+        <mark key="'" line="29" column="0" />
+        <mark key="[" line="43" column="63" />
+        <mark key="]" line="46" column="0" />
+        <mark key="^" line="43" column="58" />
+        <mark key="." line="46" column="0" />
       </file>
       <file name="$USER_HOME$/go/pkg/mod/github.com/go-kit/kit@v0.8.0/transport/http/encode_decode.go" timestamp="1592796136136">
         <mark key="[" line="23" column="5" />
@@ -1022,8 +1024,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>DoneAccertifyDeny</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbC5vZk51bGxhYmxlKGNhc2VTdGF0dXMpLm1hcCgpLm9yRWxzZSgpCg==</text>
       </register>
       <register name="-" type="4">
         <text>line</text>
@@ -1035,35 +1037,35 @@
         <text>DoneAccertifyDeny</text>
       </register>
       <register name="1" type="2">
-        <text># elasticsearch.username: &quot;elastic&quot;
-# elasticsearch.password: &quot;password&quot;</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbC5vZk51bGxhYmxlKGNhc2VTdGF0dXMpLm1hcCgpLm9yRWxzZSgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgY29udGFpbmVyX25hbWU6IGtpYmFuYQo=</text>
+        <text># elasticsearch.username: &quot;elastic&quot;
+# elasticsearch.password: &quot;password&quot;</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICMgY29udGFpbmVyX25hbWU6IGVsYXN0aWNzZWFyY2gK</text>
+        <text encoding="base64">ICAgICMgY29udGFpbmVyX25hbWU6IGtpYmFuYQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIyAtIEVMQVNUSUNfUEFTU1dPUkQ9cGFzc3dvcmQK</text>
+        <text encoding="base64">ICAgICMgY29udGFpbmVyX25hbWU6IGVsYXN0aWNzZWFyY2gK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyAtIHhwYWNrLnNlY3VyaXR5LmVuYWJsZWQ9dHJ1ZQo=</text>
+        <text encoding="base64">ICAgICAgIyAtIEVMQVNUSUNfUEFTU1dPUkQ9cGFzc3dvcmQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">YGBgCg==</text>
+        <text encoding="base64">ICAgICAgIyAtIHhwYWNrLnNlY3VyaXR5LmVuYWJsZWQ9dHJ1ZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YGBgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">IyMgNC4gSG93IHRvIGJ1aWxkIGxvY2FsIGltYWdlCmBgYHNoZWxsIHNjcmlwdAojIFRoZSBidWlsdCBpbWFnZSB3aWxsIGJlIHdpdGggImxhdGVzdCIgdGFnCnNoIGJ1aWxkLnNoCmBgYAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">CQkiCgkJIgoJCSIKCQki</text>
+      <register name="9" type="2">
+        <text encoding="base64">IyMgNC4gSG93IHRvIGJ1aWxkIGxvY2FsIGltYWdlCmBgYHNoZWxsIHNjcmlwdAojIFRoZSBidWlsdCBpbWFnZSB3aWxsIGJlIHdpdGggImxhdGVzdCIgdGFnCnNoIGJ1aWxkLnNoCmBgYAo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
