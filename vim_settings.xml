@@ -5,11 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>enabledAuditSearchScopes</entry>
-        <entry>hosts</entry>
-        <entry>log.leve</entry>
-        <entry>isDate</entry>
-        <entry>writeHeader</entry>
         <entry>head</entry>
         <entry>header</entry>
         <entry>writeHead</entry>
@@ -25,6 +20,11 @@
         <entry>eventhub</entry>
         <entry>rule_sub</entry>
         <entry>4</entry>
+        <entry>post</entry>
+        <entry>http</entry>
+        <entry>process</entry>
+        <entry>daily</entry>
+        <entry>http_auth</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -63,13 +63,31 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1592806072875">
-        <mark key="'" line="92" column="44" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/daily_report_library.py" timestamp="1592984371947">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/docker/local/docker-compose.yml" timestamp="1592890187742">
         <mark key="[" line="19" column="0" />
         <mark key="]" line="19" column="0" />
         <mark key="." line="19" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1592985536174">
+        <mark key="[" line="0" column="13" />
+        <mark key="]" line="0" column="13" />
+        <mark key="." line="0" column="13" />
+      </file>
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_rcheckout_daily_report_to_box_folder.py" timestamp="1592986331093">
+        <mark key="'" line="25" column="19" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/docker/local/kibana.yml" timestamp="1592890325506">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" timestamp="1592987484794">
+        <mark key="'" line="50" column="19" />
       </file>
       <file name="$USER_HOME$/go/src/odin/.gitignore" timestamp="1592890210646">
         <mark key="[" line="4" column="20" />
@@ -77,43 +95,20 @@
         <mark key="^" line="4" column="20" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="/fragment.go" timestamp="1592805092659">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" timestamp="1592986747016">
+        <mark key="'" line="10" column="65" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/Dockerfile" timestamp="1592878894507">
-        <mark key="'" line="11" column="105" />
-        <mark key="[" line="3" column="4" />
-        <mark key="]" line="3" column="14" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1592985947676">
+        <mark key="'" line="171" column="2" />
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="99" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/infra/transport.go" timestamp="1592795413207">
-        <mark key="'" line="109" column="0" />
-        <mark key="[" line="96" column="6" />
-        <mark key="]" line="96" column="16" />
-      </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1592976552580">
-        <mark key="'" line="73" column="10" />
-        <mark key="[" line="286" column="0" />
-        <mark key="]" line="286" column="21" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/fgis_vacantaddress_report/main.py" timestamp="1592986421833">
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="69" column="16" />
       </file>
       <file name="/" timestamp="1592895946823">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1592798203068">
-        <mark key="'" line="402" column="48" />
-        <mark key="[" line="357" column="0" />
-        <mark key="]" line="357" column="0" />
-        <mark key="." line="357" column="0" />
-        <mark key="^" line="348" column="5" />
-      </file>
-      <file name="$USER_HOME$/go/pkg/mod/github.com/go-kit/kit@v0.8.0/transport/http/server.go" timestamp="1592796117581">
-        <mark key="[" line="28" column="8" />
-        <mark key="]" line="28" column="25" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1592801254001">
-        <mark key="[" line="97" column="60" />
-        <mark key="]" line="97" column="61" />
-        <mark key="." line="97" column="60" />
-        <mark key="^" line="97" column="61" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1592980407454">
         <mark key="'" line="30" column="0" />
@@ -122,15 +117,25 @@
         <mark key="^" line="47" column="29" />
         <mark key="." line="47" column="28" />
       </file>
-      <file name="$USER_HOME$/go/pkg/mod/github.com/go-kit/kit@v0.8.0/transport/http/encode_decode.go" timestamp="1592796136136">
-        <mark key="[" line="23" column="5" />
-        <mark key="]" line="23" column="22" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1592987944065">
+        <mark key="'" line="12" column="20" />
+        <mark key="[" line="228" column="55" />
+        <mark key="]" line="228" column="57" />
+        <mark key="." line="228" column="56" />
+        <mark key="^" line="228" column="57" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1592813942475">
-        <mark key="[" line="4" column="46" />
-        <mark key="]" line="4" column="61" />
-        <mark key="." line="4" column="60" />
-        <mark key="^" line="4" column="61" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1592987910113">
+        <mark key="[" line="85" column="14" />
+        <mark key="]" line="85" column="24" />
+        <mark key="^" line="85" column="24" />
+        <mark key="." line="85" column="23" />
+      </file>
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1592984676137">
+        <mark key="'" line="36" column="35" />
+        <mark key="[" line="10" column="46" />
+        <mark key="]" line="31" column="33" />
+        <mark key="." line="31" column="32" />
+        <mark key="^" line="31" column="33" />
       </file>
       <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1592890015969">
         <mark key="[" line="81" column="0" />
@@ -145,35 +150,11 @@
         <mark key="." line="203" column="30" />
         <mark key="^" line="203" column="31" />
       </file>
-      <file name="$USER_HOME$/go/pkg/mod/github.com/elastic/go-elasticsearch/v6@v6.8.5/esapi/api.search.go" timestamp="1592796832223">
-        <mark key="'" line="80" column="4" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/docker/local/kibana.yml" timestamp="1592890325506">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard102z.prod.jp.local.cron" timestamp="1592986757736">
+        <mark key="'" line="6" column="5" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="409" column="41" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="316" column="33" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="40" column="16" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="42" column="18" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="313" column="17" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="315" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" />
-      <jump line="248" column="51" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="243" column="88" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="251" column="67" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="54" column="9" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="118" column="32" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="474" column="39" filename="$USER_HOME$/go/src/odin/servicetest/evh_audit_test.go" />
-      <jump line="165" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
-      <jump line="143" column="53" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="153" column="67" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="34" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="36" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="51" column="55" filename="$USER_HOME$/go/src/odin/model/transaction_property.go" />
-      <jump line="173" column="40" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="105" column="8" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="115" column="4" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="160" column="59" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
@@ -255,6 +236,25 @@
       <jump line="86" column="7" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="73" column="10" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="28" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" />
+      <jump line="237" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
+      <jump line="171" column="2" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
+      <jump line="32" column="32" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" />
+      <jump line="36" column="35" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" />
+      <jump line="75" column="5" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="62" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="25" column="19" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_rcheckout_daily_report_to_box_folder.py" />
+      <jump line="245" column="21" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="235" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="6" column="73" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="26" column="78" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" />
+      <jump line="10" column="65" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" />
+      <jump line="23" column="33" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard102z.prod.jp.local.cron" />
+      <jump line="6" column="5" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard102z.prod.jp.local.cron" />
+      <jump line="12" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="172" column="8" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
+      <jump line="39" column="12" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
+      <jump line="50" column="19" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1024,48 +1024,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBPcHRpb25hbC5vZk51bGxhYmxlKGNhc2VTdGF0dXMpLm1hcCgpLm9yRWxzZSgpCg==</text>
+      <register name="*" type="4">
+        <text>9</text>
       </register>
       <register name="-" type="4">
-        <text>line</text>
+        <text>9</text>
       </register>
       <register name="/" type="4">
-        <text>4</text>
+        <text>http_auth</text>
       </register>
-      <register name="0" type="4">
-        <text>DoneAccertifyDeny</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBPcHRpb25hbC5vZk51bGxhYmxlKGNhc2VTdGF0dXMpLm1hcCgpLm9yRWxzZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChlc19ob3N0KQogICAgICAgIHByaW50KGVzX3VzZXIpCiAgICAgICAgcHJpbnQoZXNfcGFzc3dvcmQpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text># elasticsearch.username: &quot;elastic&quot;
-# elasticsearch.password: &quot;password&quot;</text>
+        <text encoding="base64">aWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIE1haW4oKS5ydW4oKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICMgY29udGFpbmVyX25hbWU6IGtpYmFuYQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICMgY29udGFpbmVyX25hbWU6IGVsYXN0aWNzZWFyY2gK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyAtIEVMQVNUSUNfUEFTU1dPUkQ9cGFzc3dvcmQK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgIyAtIHhwYWNrLnNlY3VyaXR5LmVuYWJsZWQ9dHJ1ZQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">YGBgCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ZGVmIGNsZWFyX3Jlc3VsdF9maWxlcygpOgogICAgZm9yIGZpbGVfbmFtZSBpbiBnbG9iLmdsb2IoIi4vIiArIHJ1bGVfaGl0X2ZpbGVfbmFtZV9wcmVmaXggKyAiKiIpOgogICAgICAgIG9zLnJlbW92ZShmaWxlX25hbWUpCiAgICBmb3IgZmlsZV9uYW1lIGluIGdsb2IuZ2xvYigiLi8iICsgbGlzdF9oaXRfZmlsZV9uYW1lX3ByZWZpeCArICIqIik6CiAgICAgICAgb3MucmVtb3ZlKGZpbGVfbmFtZSkK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">IyMgNC4gSG93IHRvIGJ1aWxkIGxvY2FsIGltYWdlCmBgYHNoZWxsIHNjcmlwdAojIFRoZSBidWlsdCBpbWFnZSB3aWxsIGJlIHdpdGggImxhdGVzdCIgdGFnCnNoIGJ1aWxkLnNoCmBgYAo=</text>
+        <text encoding="base64">ZGVmIHdyaXRlX3Jlc3VsdHNfdG9fZmlsZShyZXN1bHRzLCBmaWxlX25hbWVfcHJlZml4KToKICAgIGZpbGVfbmFtZSA9IGZpbGVfbmFtZV9wcmVmaXggKyBnZXRfY3VycmVudF9kYXRlX3N0cmluZygpICsgZmlsZV9leHRlbnNpb24KCiAgICB3aXRoIGlvLm9wZW4oZmlsZV9uYW1lLCAidyIsIC0xLCAidXRmLTgiKSBhcyBvdXRwdXRfZmlsZToKICAgICAgICBvdXRwdXRfZmlsZS53cml0ZShnZXRfaGVhZGVyX3JvdyhmaWxlX25hbWVfcHJlZml4KSkKCiAgICAgICAgcmVzdWx0c19pdHIgPSBpdGVyKHJlc3VsdHMpCiAgICAgICAgcHJvY2Vzc19yb3cob3V0cHV0X2ZpbGUsIG5leHQocmVzdWx0c19pdHIpKQogICAgICAgIGZvciByZXN1bHQgaW4gcmVzdWx0c19pdHI6CiAgICAgICAgICAgIG91dHB1dF9maWxlLndyaXRlKHUiXG4iKQogICAgICAgICAgICBwcm9jZXNzX3JvdyhvdXRwdXRfZmlsZSwgcmVzdWx0KQoKICAgIHJldHVybiBmaWxlX25hbWUK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1074,9 +1073,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>4</last-search>
+      <last-search>http_auth</last-search>
       <last-offset />
-      <last-pattern>4</last-pattern>
+      <last-pattern>http_auth</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
