@@ -119,18 +119,17 @@
         <mark key="]" line="45" column="0" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593060222406">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593061103165">
         <mark key="'" line="202" column="29" />
-        <mark key="[" line="214" column="113" />
-        <mark key="]" line="215" column="99" />
-        <mark key="." line="215" column="98" />
-        <mark key="^" line="215" column="99" />
+        <mark key="[" line="219" column="0" />
+        <mark key="]" line="219" column="0" />
+        <mark key="." line="219" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1593056649787">
-        <mark key="'" line="118" column="12" />
-        <mark key="[" line="118" column="28" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1593061093888">
+        <mark key="'" line="120" column="27" />
+        <mark key="[" line="122" column="34" />
         <mark key="]" line="118" column="28" />
-        <mark key="^" line="124" column="17" />
+        <mark key="^" line="125" column="17" />
         <mark key="." line="118" column="28" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1592984676137">
@@ -145,7 +144,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="0" filename="$USER_HOME$/Workspace/poseidon/package.json" />
       <jump line="29" column="0" filename="$USER_HOME$/Workspace/poseidon/package.json" />
       <jump line="32" column="31" filename="$USER_HOME$/Workspace/poseidon/package.json" />
       <jump line="44" column="38" filename="$USER_HOME$/go/src/odin/servicetest/evh_transaction_auto_decision_test.go" />
@@ -245,6 +243,7 @@
       <jump line="149" column="9" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="1" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="202" column="29" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="120" column="27" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1014,11 +1013,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>in</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>in</text>
+        <text>generate_list_hit_query</text>
       </register>
       <register name="/" type="4">
         <text>priority</text>
@@ -1027,34 +1026,34 @@
         <text>{'gte': 'now-1d', 'lte': 'now'}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">cHJpbnQoc3lzLmFyZ3ZbMV0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgU3RhdHVzIGVudW0gZGVmaW5pdGlvbnMgY2FuIGJlIGZvdW5kIGhlcmU6Cg==</text>
+        <text encoding="base64">cHJpbnQgKHJ1bGVfaGl0X3F1ZXJ5X3Jlc3VsdHMpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIGhvdXJseSBieSBkZWZhdWx0Cg==</text>
+        <text encoding="base64">cHJpbnQoc3lzLmFyZ3ZbMV0pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgU3RhdHVzIGVudW0gZGVmaW5pdGlvbnMgY2FuIGJlIGZvdW5kIGhlcmU6Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHN3aXRjaAo=</text>
+        <text encoding="base64">ICAgICAgICAjIGhvdXJseSBieSBkZWZhdWx0Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">bGlzdF9oaXRfcXVlcnkgPSB7Cgp9Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICMgcHJpbnQocnVsZV9oaXRfcXVlcnlfcmVzdWx0cykK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHN3aXRjaAo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">bGlzdF9oaXRfcXVlcnkgPSB7Cgp9Cg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB3cml0ZXIud3JpdGVyb3coZmlsZV9oZWFkZXJzKQo=</text>
+        <text encoding="base64">ICAgICMgcHJpbnQocnVsZV9oaXRfcXVlcnlfcmVzdWx0cykK</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
