@@ -123,11 +123,12 @@
         <mark key="." line="46" column="15" />
         <mark key="^" line="46" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1592989188201">
-        <mark key="[" line="85" column="17" />
-        <mark key="]" line="85" column="20" />
-        <mark key="." line="85" column="19" />
-        <mark key="^" line="85" column="20" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1592989453592">
+        <mark key="'" line="76" column="37" />
+        <mark key="[" line="84" column="26" />
+        <mark key="]" line="84" column="53" />
+        <mark key="." line="84" column="52" />
+        <mark key="^" line="84" column="53" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1592984676137">
         <mark key="'" line="36" column="35" />
@@ -154,7 +155,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="105" column="8" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="115" column="4" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="160" column="59" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="173" column="27" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
@@ -254,6 +254,7 @@
       <jump line="172" column="8" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
       <jump line="39" column="12" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
       <jump line="50" column="19" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
+      <jump line="76" column="37" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1023,11 +1024,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>ping()</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQogICAgICAgIHByaW50KGVzLmluZm8oKSkK</text>
       </register>
       <register name="-" type="4">
-        <text>ping()</text>
+        <text>80</text>
       </register>
       <register name="/" type="4">
         <text>health</text>
@@ -1036,31 +1037,31 @@
         <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBlcy4K</text>
+        <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQogICAgICAgIHByaW50KGVzLmluZm8oKSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">JycnKQo=</text>
+        <text encoding="base64">ICAgICAgICBlcy4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgYSA9ICJhc2QiOwo=</text>
+        <text encoding="base64">JycnKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBQYXR0ZXJuIGFiYyA9IFBhdHRlcm4uY29tcGlsZSgiXG4iKTsKICAgICAgICBhLnJlcGxhY2VBbGwoIlxuIiwgIiAiKTsK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgYSA9ICJhc2QiOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBQYXR0ZXJuIGFiYyA9IFBhdHRlcm4uY29tcGlsZSgiXG4iKTsK</text>
+        <text encoding="base64">ICAgICAgICBQYXR0ZXJuIGFiYyA9IFBhdHRlcm4uY29tcGlsZSgiXG4iKTsKICAgICAgICBhLnJlcGxhY2VBbGwoIlxuIiwgIiAiKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChlc19ob3N0KQogICAgICAgIHByaW50KGVzX3VzZXIpCiAgICAgICAgcHJpbnQoZXNfcGFzc3dvcmQpCg==</text>
+        <text encoding="base64">ICAgICAgICBQYXR0ZXJuIGFiYyA9IFBhdHRlcm4uY29tcGlsZSgiXG4iKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIE1haW4oKS5ydW4oKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChlc19ob3N0KQogICAgICAgIHByaW50KGVzX3VzZXIpCiAgICAgICAgcHJpbnQoZXNfcGFzc3dvcmQpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIE1haW4oKS5ydW4oKQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
