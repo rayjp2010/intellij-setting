@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>length</entry>
-        <entry>of</entry>
-        <entry>dict_key</entry>
         <entry>range</entry>
         <entry>encoding</entry>
         <entry>encod</entry>
@@ -25,6 +22,9 @@
         <entry>pd</entry>
         <entry>pd_email_text</entry>
         <entry>email_server</entry>
+        <entry>lati</entry>
+        <entry>lat</entry>
+        <entry>Long</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -92,11 +92,11 @@
       <file name="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" timestamp="1592987484794">
         <mark key="'" line="50" column="19" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/.gitignore" timestamp="1592890210646">
-        <mark key="[" line="4" column="20" />
-        <mark key="]" line="4" column="20" />
-        <mark key="^" line="4" column="20" />
-        <mark key="." line="4" column="19" />
+      <file name="$USER_HOME$/go/src/odin/.gitignore" timestamp="1593072537964">
+        <mark key="[" line="2" column="20" />
+        <mark key="]" line="2" column="20" />
+        <mark key="^" line="2" column="20" />
+        <mark key="." line="2" column="19" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" timestamp="1592986747016">
         <mark key="'" line="10" column="65" />
@@ -1028,7 +1028,7 @@
         <text>stg</text>
       </register>
       <register name="/" type="4">
-        <text>email_server</text>
+        <text>Long</text>
       </register>
       <register name="0" type="4">
         <text>error_mail_subject</text>
@@ -1070,9 +1070,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>email_server</last-search>
+      <last-search>Long</last-search>
       <last-offset />
-      <last-pattern>email_server</last-pattern>
+      <last-pattern>Long</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
