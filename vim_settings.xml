@@ -126,12 +126,12 @@
         <mark key="]" line="45" column="0" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593072092320">
-        <mark key="'" line="231" column="31" />
-        <mark key="[" line="232" column="13" />
-        <mark key="]" line="232" column="16" />
-        <mark key="." line="232" column="15" />
-        <mark key="^" line="232" column="16" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593073024407">
+        <mark key="'" line="230" column="21" />
+        <mark key="[" line="230" column="33" />
+        <mark key="]" line="232" column="0" />
+        <mark key="." line="232" column="0" />
+        <mark key="^" line="230" column="14" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1593071796383">
         <mark key="'" line="66" column="19" />
@@ -152,7 +152,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="13" filename="$USER_HOME$/Workspace/poseidon-config/events.stg.yml" />
       <jump line="35" column="23" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/package.json" />
       <jump line="6" column="9" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/common/SideMenu.jsx" />
       <jump line="191" column="34" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/AuditLogSearch.jsx" />
@@ -215,7 +214,6 @@
       <jump line="50" column="19" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
       <jump line="4" column="54" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="231" column="51" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="230" column="47" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="46" column="17" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="130" column="26" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="96" column="12" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -252,6 +250,8 @@
       <jump line="234" column="31" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="68" column="32" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="66" column="19" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="228" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="230" column="21" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1021,11 +1021,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>stg</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIG5vdy4K</text>
       </register>
       <register name="-" type="4">
-        <text>stg</text>
+        <text>__sub__()</text>
       </register>
       <register name="/" type="4">
         <text>Long</text>
@@ -1034,34 +1034,34 @@
         <text>error_mail_subject</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGVycm9yX21haWxfc3ViamVjdD0K</text>
+        <text encoding="base64">ICAgIG5vdy4K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">cGRfZW1haWxfdGV4dCA9ICJFcnJvciBvY2N1cnJlZCB3aGlsZSBhdHRlbXB0aW5nIHRvIHF1ZXJ5IHRoZSBkYXRhYmFzZSBmcm9tIHByby1lbGFzdGljc2VhcmNoMTAyOlxuXG4iCg==</text>
+        <text encoding="base64">ICAgIG5vdy55ZWFyICsgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">cGRfZW1haWxfcmVjaXBpZW50ID0gInRzLWRpbmcucnVpQHJha3V0ZW4uY29tIgpwZF9lbWFpbF9zZW5kZXIgPSAidHMtZGluZy5ydWlAcmFrdXRlbi5jb20iCg==</text>
+        <text encoding="base64">ICAgIGVycm9yX21haWxfc3ViamVjdD0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">cGRfZW1haWxfc3ViamVjdCA9ICJEYWlseSBSZXBvcnQgVFNWIEZpbGUgLSBGYWlsZWQiCg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">cGRfZW1haWxfdGV4dCA9ICJFcnJvciBvY2N1cnJlZCB3aGlsZSBhdHRlbXB0aW5nIHRvIHF1ZXJ5IHRoZSBkYXRhYmFzZSBmcm9tIHByby1lbGFzdGljc2VhcmNoMTAyOlxuXG4iCg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">cGRfZW1haWxfcmVjaXBpZW50ID0gInRzLWRpbmcucnVpQHJha3V0ZW4uY29tIgpwZF9lbWFpbF9zZW5kZXIgPSAidHMtZGluZy5ydWlAcmFrdXRlbi5jb20iCg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">cGRfZW1haWxfc2VuZGVyID0gInRzLWRpbmcucnVpQHJha3V0ZW4uY29tIgo=</text>
+        <text encoding="base64">cGRfZW1haWxfc3ViamVjdCA9ICJEYWlseSBSZXBvcnQgVFNWIEZpbGUgLSBGYWlsZWQiCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cGRfZW1haWxfcmVjaXBpZW50ID0gInRzLWRpbmcucnVpQHJha3V0ZW4uY29tIgo=</text>
+        <text encoding="base64">cGRfZW1haWxfdGV4dCA9ICJFcnJvciBvY2N1cnJlZCB3aGlsZSBhdHRlbXB0aW5nIHRvIHF1ZXJ5IHRoZSBkYXRhYmFzZSBmcm9tIHByby1lbGFzdGljc2VhcmNoMTAyOlxuXG4iCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">cGRfZW1haWxfc2VuZGVyID0gInRzLWRpbmcucnVpQHJha3V0ZW4uY29tIgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dHJ5Ogo=</text>
+        <text encoding="base64">cGRfZW1haWxfcmVjaXBpZW50ID0gInRzLWRpbmcucnVpQHJha3V0ZW4uY29tIgo=</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
