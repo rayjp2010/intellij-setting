@@ -116,13 +116,7 @@
         <mark key="]" line="45" column="0" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1592988825240">
-        <mark key="'" line="12" column="20" />
-        <mark key="[" line="46" column="0" />
-        <mark key="]" line="46" column="16" />
-        <mark key="." line="46" column="15" />
-        <mark key="^" line="46" column="16" />
-      </file>
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593046167845" />
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1592989453592">
         <mark key="'" line="76" column="37" />
         <mark key="[" line="84" column="26" />
@@ -155,8 +149,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="115" column="4" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
-      <jump line="160" column="59" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="173" column="27" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="210" column="38" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
       <jump line="223" column="26" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
@@ -255,6 +247,8 @@
       <jump line="39" column="12" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
       <jump line="50" column="19" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
       <jump line="76" column="37" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="230" column="37" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="4" column="54" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
