@@ -116,7 +116,12 @@
         <mark key="]" line="45" column="0" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593046167845" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593046555001">
+        <mark key="[" line="230" column="119" />
+        <mark key="]" line="230" column="46" />
+        <mark key="^" line="230" column="46" />
+        <mark key="." line="230" column="45" />
+      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1592989453592">
         <mark key="'" line="76" column="37" />
         <mark key="[" line="84" column="26" />
@@ -1018,8 +1023,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQogICAgICAgIHByaW50KGVzLmluZm8oKSkK</text>
+      <register name="*" type="4">
+        <text>rule_hit_file_header_row</text>
       </register>
       <register name="-" type="4">
         <text>80</text>
@@ -1027,8 +1032,8 @@
       <register name="/" type="4">
         <text>health</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQo=</text>
+      <register name="0" type="4">
+        <text>rule_hit_file_header_row</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChpbmRleGVzKQogICAgICAgIHByaW50KGVzLmluZm8oKSkK</text>
