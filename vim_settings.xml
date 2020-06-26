@@ -93,10 +93,10 @@
       <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" timestamp="1592986747016">
         <mark key="'" line="10" column="65" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593079926222">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593137301721">
         <mark key="'" line="74" column="34" />
-        <mark key="[" line="121" column="6" />
-        <mark key="]" line="121" column="10" />
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="100" />
         <mark key="^" line="23" column="44" />
         <mark key="." line="23" column="43" />
       </file>
@@ -115,11 +115,11 @@
         <mark key="]" line="20" column="44" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593080561217">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593137315774">
         <mark key="'" line="340" column="0" />
-        <mark key="[" line="35" column="16" />
-        <mark key="]" line="35" column="21" />
-        <mark key="." line="35" column="20" />
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="0" />
+        <mark key="." line="38" column="0" />
         <mark key="^" line="35" column="21" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1593080582654">
@@ -1008,7 +1008,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
       </register>
       <register name="-" type="4">
         <text>30</text>
@@ -1017,37 +1017,37 @@
         <text>50</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIG1heF9yZXN1bHRfbm89bWF4X3Jlc3VsdF9ubywK</text>
+        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZGVmIGNsZWFyX3Jlc3VsdF9maWxlcyhmaWxlX25hbWVfcHJlZml4KToKICAgIGZvciBmaWxlX25hbWUgaW4gZ2xvYi5nbG9iKCIuLyIgKyBmaWxlX25hbWVfcHJlZml4ICsgIioiKToKICAgICAgICBvcy5yZW1vdmUoZmlsZV9uYW1lKQo=</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ZGVmIGNsZWFyX3Jlc3VsdF9maWxlcyhmaWxlX25hbWVfcHJlZml4KToKICAgIGZvciBmaWxlX25hbWUgaW4gZ2xvYi5nbG9iKCIuLyIgKyBmaWxlX25hbWVfcHJlZml4ICsgIioiKToKICAgICAgICBvcy5yZW1vdmUoZmlsZV9uYW1lKQo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjdXJyZW50X2hpdHNfbGVuID49IG1heF9yZXN1bHRfbm86CiAgICAgICAgICAgIGhpdHMgPSBoaXRzWzptYXhfcmVzdWx0X25vXQogICAgICAgIGVsc2U6Cg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIA==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBpZiBjdXJyZW50X2hpdHNfbGVuID49IG1heF9yZXN1bHRfbm86CiAgICAgICAgICAgIGhpdHMgPSBoaXRzWzptYXhfcmVzdWx0X25vXQogICAgICAgIGVsc2U6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzY3JvbGxfaWQpCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBjdXJyZW50X2hpdHNfbGVuID49IG1heF9yZXN1bHRfbm86CiAgICAgICAgICAgIGhpdHMgPSBoaXRzWzptYXhfcmVzdWx0X25vXQogICAgICAgIGVsc2U6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChzY3JvbGxfaWQpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY3VycmVudF9oaXRzX2xlbiArIGxlbihzY3JvbGxfcmF3X3Jlc3VsdCkgPj0gbWF4X3Jlc3VsdF9ubzoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
