@@ -68,8 +68,11 @@
         <mark key="]" line="19" column="0" />
         <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/.gitignore" timestamp="1593080766440">
+      <file name="$USER_HOME$/Workspace/payguard_release/.gitignore" timestamp="1593080781689">
         <mark key="[" line="1" column="8" />
+        <mark key="]" line="3" column="8" />
+        <mark key="^" line="3" column="8" />
+        <mark key="." line="3" column="7" />
       </file>
       <file name="/a.dummy" timestamp="1593058141010">
         <mark key="[" line="0" column="3" />
