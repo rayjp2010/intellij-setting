@@ -74,10 +74,12 @@
         <mark key="]" line="0" column="13" />
         <mark key="." line="0" column="13" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_rcheckout_daily_report_to_box_folder.py" timestamp="1592986331093">
-        <mark key="'" line="25" column="19" />
-      </file>
       <file name="$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/1178212989/datetime.py" timestamp="1593073851010" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/query.py.go" timestamp="1593138197348">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
       <file name="$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/1178212989/__builtin__.py" timestamp="1593056503848">
         <mark key="'" line="414" column="4" />
       </file>
@@ -90,19 +92,21 @@
         <mark key="^" line="2" column="20" />
         <mark key="." line="2" column="19" />
       </file>
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/test.py" timestamp="1593138275316">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="7" column="48" />
+        <mark key="^" line="7" column="48" />
+        <mark key="." line="7" column="47" />
+      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" timestamp="1592986747016">
         <mark key="'" line="10" column="65" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593137301721">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593137320590">
         <mark key="'" line="74" column="34" />
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="100" />
+        <mark key="[" line="124" column="0" />
+        <mark key="]" line="124" column="89" />
         <mark key="^" line="23" column="44" />
         <mark key="." line="23" column="43" />
-      </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/fgis_vacantaddress_report/main.py" timestamp="1592986421833">
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="69" column="16" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_20200625.tsv" timestamp="1593070624883">
         <mark key="[" line="0" column="0" />
@@ -115,11 +119,11 @@
         <mark key="]" line="20" column="44" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593137315774">
-        <mark key="'" line="340" column="0" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593138269611">
+        <mark key="'" line="368" column="4" />
         <mark key="[" line="38" column="0" />
-        <mark key="]" line="38" column="0" />
-        <mark key="." line="38" column="0" />
+        <mark key="]" line="38" column="100" />
+        <mark key="." line="205" column="0" />
         <mark key="^" line="35" column="21" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1593080582654">
@@ -138,7 +142,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="4" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="91" column="121" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="192" column="75" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="207" column="54" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
@@ -217,7 +220,6 @@
       <jump line="76" column="55" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="233" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="38" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
-      <jump line="40" column="26" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="234" column="31" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="68" column="32" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="66" column="19" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
@@ -238,6 +240,8 @@
       <jump line="93" column="25" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="352" column="9" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="340" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="40" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="368" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1020,34 +1024,34 @@
         <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
+        <text encoding="base64">cGFja2FnZSBib3hfcmVwb3J0X2VsYXN0aWNzZWFyY2gK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZGVmIGNsZWFyX3Jlc3VsdF9maWxlcyhmaWxlX25hbWVfcHJlZml4KToKICAgIGZvciBmaWxlX25hbWUgaW4gZ2xvYi5nbG9iKCIuLyIgKyBmaWxlX25hbWVfcHJlZml4ICsgIioiKToKICAgICAgICBvcy5yZW1vdmUoZmlsZV9uYW1lKQo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ZGVmIGNsZWFyX3Jlc3VsdF9maWxlcyhmaWxlX25hbWVfcHJlZml4KToKICAgIGZvciBmaWxlX25hbWUgaW4gZ2xvYi5nbG9iKCIuLyIgKyBmaWxlX25hbWVfcHJlZml4ICsgIioiKToKICAgICAgICBvcy5yZW1vdmUoZmlsZV9uYW1lKQo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjdXJyZW50X2hpdHNfbGVuID49IG1heF9yZXN1bHRfbm86CiAgICAgICAgICAgIGhpdHMgPSBoaXRzWzptYXhfcmVzdWx0X25vXQogICAgICAgIGVsc2U6Cg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIA==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBpZiBjdXJyZW50X2hpdHNfbGVuID49IG1heF9yZXN1bHRfbm86CiAgICAgICAgICAgIGhpdHMgPSBoaXRzWzptYXhfcmVzdWx0X25vXQogICAgICAgIGVsc2U6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzY3JvbGxfaWQpCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBjdXJyZW50X2hpdHNfbGVuID49IG1heF9yZXN1bHRfbm86CiAgICAgICAgICAgIGhpdHMgPSBoaXRzWzptYXhfcmVzdWx0X25vXQogICAgICAgIGVsc2U6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChzY3JvbGxfaWQpCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
