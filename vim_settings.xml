@@ -101,10 +101,10 @@
       <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" timestamp="1592986747016">
         <mark key="'" line="10" column="65" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593137320590">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593150801119">
         <mark key="'" line="74" column="34" />
-        <mark key="[" line="124" column="0" />
-        <mark key="]" line="124" column="89" />
+        <mark key="[" line="87" column="32" />
+        <mark key="]" line="87" column="85" />
         <mark key="^" line="23" column="44" />
         <mark key="." line="23" column="43" />
       </file>
@@ -1011,8 +1011,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiQWN0aXZlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSW5Qcm9ncmVzc0FjdGl2ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkluUHJvZ3Jlc3NFeHBpcmVkIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiRXhwaXJlZCIsCg==</text>
+      <register name="*" type="4">
+        <text>'Automatic Deny OR Accertify Deny OR Accertify Review'</text>
       </register>
       <register name="-" type="4">
         <text>30</text>
@@ -1020,8 +1020,8 @@
       <register name="/" type="4">
         <text>50</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiQWN0aXZlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSW5Qcm9ncmVzc0FjdGl2ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkluUHJvZ3Jlc3NFeHBpcmVkIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiRXhwaXJlZCIsCg==</text>
+      <register name="0" type="4">
+        <text>'Automatic Deny OR Accertify Deny OR Accertify Review'</text>
       </register>
       <register name="1" type="4">
         <text>,
