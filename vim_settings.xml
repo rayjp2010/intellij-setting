@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>priority</entry>
         <entry>test_mode</entry>
         <entry>asuraku</entry>
         <entry>join</entry>
@@ -25,6 +24,7 @@
         <entry>scrol</entry>
         <entry>params</entry>
         <entry>50</entry>
+        <entry>here</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -74,6 +74,9 @@
         <mark key="]" line="0" column="13" />
         <mark key="." line="0" column="13" />
       </file>
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_202006.tsv" timestamp="1593153539282">
+        <mark key="'" line="23" column="30" />
+      </file>
       <file name="$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/1178212989/datetime.py" timestamp="1593073851010" />
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/query.py.go" timestamp="1593138197348">
         <mark key="[" line="2" column="0" />
@@ -98,9 +101,6 @@
         <mark key="^" line="7" column="48" />
         <mark key="." line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" timestamp="1592986747016">
-        <mark key="'" line="10" column="65" />
-      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593150801119">
         <mark key="'" line="74" column="34" />
         <mark key="[" line="87" column="32" />
@@ -119,16 +119,18 @@
         <mark key="]" line="18" column="44" />
         <mark key="." line="44" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593152245860">
-        <mark key="'" line="258" column="12" />
-        <mark key="[" line="155" column="8" />
-        <mark key="]" line="157" column="139" />
-        <mark key="." line="78" column="53" />
-        <mark key="^" line="78" column="54" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593153853419">
+        <mark key="'" line="337" column="24" />
+        <mark key="[" line="303" column="0" />
+        <mark key="]" line="312" column="14" />
+        <mark key="^" line="360" column="17" />
+        <mark key="." line="303" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1593080582654">
-        <mark key="'" line="91" column="25" />
-        <mark key="^" line="21" column="28" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1593153621732">
+        <mark key="'" line="114" column="0" />
+        <mark key="[" line="91" column="0" />
+        <mark key="]" line="91" column="0" />
+        <mark key="." line="91" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1593063432968">
         <mark key="'" line="36" column="35" />
@@ -142,11 +144,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="207" column="54" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="233" column="79" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="239" column="142" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="38" column="4" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
-      <jump line="80" column="4" filename="$USER_HOME$/go/pkg/mod/github.com/elastic/go-elasticsearch/v6@v6.8.5/esapi/api.search.go" />
       <jump line="268" column="45" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="402" column="48" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="118" column="12" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
@@ -242,6 +239,11 @@
       <jump line="40" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="41" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="258" column="12" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="98" column="35" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="117" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="23" column="30" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_202006.tsv" />
+      <jump line="133" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="337" column="24" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1011,52 +1013,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">cGFyYW1zLl9zb3VyY2UuZGVjaXNpb24gPT0gbnVsbCB8fCBwYXJhbXMuX3NvdXJjZS5kZWNpc2lvbi5jaGVja0luZm8gPT0gbnVsbCB8fCBwYXJhbXMuX3NvdXJjZS5kZWNpc2lvbi5jaGVja0luZm8uaGl0UnVsZXMgPT0gbnVsbAogICAgICAgID8gJycKICAgICAgICA6IHBhcmFtcy5fc291cmNlLmRlY2lzaW9uLmNoZWNrSW5mby5oaXRSdWxlcy5zdHJlYW0oKS5tYXAociAtPiByLnRlc3RNb2RlID09IHRydWUgPyAnVFJVRSc6J0ZBTFNFJykuY29sbGVjdChDb2xsZWN0b3JzLmpvaW5pbmcoJzsnKSk=</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIml0ZW0gbmFtZXMgd2l0aCBpdGVtIHByaWNlcyI6IHsKICAgICAgICAgICAgICAgICJzY3JpcHQiOiB7CiAgICAgICAgICAgICAgICAgICAgInNvdXJjZSI6ICIiIgogICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKHBhcmFtcy5fc291cmNlLm9yZGVyLm9yZGVyRGV0YWlscykKICAgICAgICAubWFwKGRldGFpbHMgLT4gCiAgICAgICAgICBkZXRhaWxzLnN0cmVhbSgpLmZsYXRNYXAoZCAtPiBkLml0ZW1zLnN0cmVhbSgpKS5tYXAoaSAtPiBpLml0ZW1OYW1lICsgJy0nICsgaS5wcmljZSkuZGlzdGluY3QoKS5jb2xsZWN0KENvbGxlY3RvcnMuam9pbmluZygnOycpKSkKICAgICAgICAub3JFbHNlKCcnKQoiIiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwK</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;now&quot;</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>50</text>
+        <text>here</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">cGFyYW1zLl9zb3VyY2UuZGVjaXNpb24gPT0gbnVsbCB8fCBwYXJhbXMuX3NvdXJjZS5kZWNpc2lvbi5jaGVja0luZm8gPT0gbnVsbCB8fCBwYXJhbXMuX3NvdXJjZS5kZWNpc2lvbi5jaGVja0luZm8uaGl0UnVsZXMgPT0gbnVsbAogICAgICAgID8gJycKICAgICAgICA6IHBhcmFtcy5fc291cmNlLmRlY2lzaW9uLmNoZWNrSW5mby5oaXRSdWxlcy5zdHJlYW0oKS5tYXAociAtPiByLnRlc3RNb2RlID09IHRydWUgPyAnVFJVRSc6J0ZBTFNFJykuY29sbGVjdChDb2xsZWN0b3JzLmpvaW5pbmcoJzsnKSk=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIml0ZW0gbmFtZXMgd2l0aCBpdGVtIHByaWNlcyI6IHsKICAgICAgICAgICAgICAgICJzY3JpcHQiOiB7CiAgICAgICAgICAgICAgICAgICAgInNvdXJjZSI6ICIiIgogICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKHBhcmFtcy5fc291cmNlLm9yZGVyLm9yZGVyRGV0YWlscykKICAgICAgICAubWFwKGRldGFpbHMgLT4gCiAgICAgICAgICBkZXRhaWxzLnN0cmVhbSgpLmZsYXRNYXAoZCAtPiBkLml0ZW1zLnN0cmVhbSgpKS5tYXAoaSAtPiBpLml0ZW1OYW1lICsgJy0nICsgaS5wcmljZSkuZGlzdGluY3QoKS5jb2xsZWN0KENvbGxlY3RvcnMuam9pbmluZygnOycpKSkKICAgICAgICAub3JFbHNlKCcnKQoiIiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwK</text>
       </register>
-      <register name="1" type="4">
-        <text>,
-                    {
-                        &quot;exists&quot;: {
-                            &quot;field&quot;: &quot;orderarrivedTimestamp&quot;
-                        }
-                    },</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChzY3JvbGxfaWQpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgewogICAgICAgICAgICAgICAgIyAgICAgIm5lc3RlZCI6IHsKICAgICAgICAgICAgICAgICMgICAgICAgICAicGF0aCI6ICJkZWNpc2lvbi5jaGVja0luZm8uaGl0UnVsZXMiLAogICAgICAgICAgICAgICAgIyAgICAgICAgICJxdWVyeSI6IHsKICAgICAgICAgICAgICAgICMgICAgICAgICAgICAgImV4aXN0cyI6IHsKICAgICAgICAgICAgICAgICMgICAgICAgICAgICAgICAgICJmaWVsZCI6ICJkZWNpc2lvbi5jaGVja0luZm8uaGl0UnVsZXMiCiAgICAgICAgICAgICAgICAjICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICMgICAgICAgICB9CiAgICAgICAgICAgICAgICAjICAgICB9CiAgICAgICAgICAgICAgICAjIH0sCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChyYXdfcmVzdWx0c3NgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">cGFja2FnZSBib3hfcmVwb3J0X2VsYXN0aWNzZWFyY2gK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">cHJpbnQobGlzdF9oaXRfcXVlcnlfcmVzdWx0cykK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaW50KCdoZXJlJykK</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGVmIGNsZWFyX3Jlc3VsdF9maWxlcyhmaWxlX25hbWVfcHJlZml4KToKICAgIGZvciBmaWxlX25hbWUgaW4gZ2xvYi5nbG9iKCIuLyIgKyBmaWxlX25hbWVfcHJlZml4ICsgIioiKToKICAgICAgICBvcy5yZW1vdmUoZmlsZV9uYW1lKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ZGVmIHF1ZXJ5X2VzX3Njcm9sbChlcywgc2Nyb2xsX2lkKToKICAgIHJlcyA9IGVzLnNlYXJjaChzY3JvbGxfaWQ9c2Nyb2xsX2lkKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjdXJyZW50X2hpdHNfbGVuID49IG1heF9yZXN1bHRfbm86CiAgICAgICAgICAgIGhpdHMgPSBoaXRzWzptYXhfcmVzdWx0X25vXQogICAgICAgIGVsc2U6Cg==</text>
+        <text encoding="base64">ICAgICAgICAsCg==</text>
       </register>
       <register name=":" type="4">
         <text>only</text>
@@ -1065,9 +1062,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>50</last-search>
+      <last-search>here</last-search>
       <last-offset />
-      <last-pattern>50</last-pattern>
+      <last-pattern>here</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
