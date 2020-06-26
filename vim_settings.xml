@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>test_mode</entry>
         <entry>asuraku</entry>
         <entry>join</entry>
         <entry>item names</entry>
@@ -25,6 +24,7 @@
         <entry>params</entry>
         <entry>50</entry>
         <entry>here</entry>
+        <entry>ser</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -69,10 +69,11 @@
         <mark key="^" line="3" column="8" />
         <mark key="." line="3" column="7" />
       </file>
-      <file name="/a.dummy" timestamp="1593058141010">
-        <mark key="[" line="0" column="3" />
-        <mark key="]" line="0" column="13" />
-        <mark key="." line="0" column="13" />
+      <file name="$USER_HOME$/go/src/odin/docker/local/docker-compose.yml" timestamp="1593155284517">
+        <mark key="[" line="19" column="11" />
+        <mark key="]" line="19" column="33" />
+        <mark key="." line="19" column="11" />
+        <mark key="^" line="4" column="11" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_202006.tsv" timestamp="1593153539282">
         <mark key="'" line="23" column="30" />
@@ -82,9 +83,6 @@
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
-      </file>
-      <file name="$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/1178212989/__builtin__.py" timestamp="1593056503848">
-        <mark key="'" line="414" column="4" />
       </file>
       <file name="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" timestamp="1593077856557">
         <mark key="'" line="601" column="22" />
@@ -139,17 +137,14 @@
         <mark key="." line="31" column="32" />
         <mark key="^" line="31" column="33" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard102z.prod.jp.local.cron" timestamp="1592986757736">
-        <mark key="'" line="6" column="5" />
+      <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1593155354255">
+        <mark key="'" line="43" column="14" />
+        <mark key="[" line="49" column="27" />
+        <mark key="]" line="49" column="27" />
+        <mark key="." line="49" column="27" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="268" column="45" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="402" column="48" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
-      <jump line="118" column="12" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="92" column="44" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="87" column="29" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
-      <jump line="127" column="50" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
       <jump line="134" column="27" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
       <jump line="144" column="27" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
       <jump line="73" column="51" filename="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" />
@@ -244,6 +239,12 @@
       <jump line="23" column="30" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_202006.tsv" />
       <jump line="133" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="337" column="24" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/go/src/odin/README.md" />
+      <jump line="13" column="29" filename="$USER_HOME$/go/src/odin/README.md" />
+      <jump line="27" column="84" filename="$USER_HOME$/go/src/odin/README.md" />
+      <jump line="29" column="49" filename="$USER_HOME$/go/src/odin/README.md" />
+      <jump line="33" column="25" filename="$USER_HOME$/go/src/odin/README.md" />
+      <jump line="43" column="14" filename="$USER_HOME$/go/src/odin/README.md" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1013,17 +1014,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIml0ZW0gbmFtZXMgd2l0aCBpdGVtIHByaWNlcyI6IHsKICAgICAgICAgICAgICAgICJzY3JpcHQiOiB7CiAgICAgICAgICAgICAgICAgICAgInNvdXJjZSI6ICIiIgogICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKHBhcmFtcy5fc291cmNlLm9yZGVyLm9yZGVyRGV0YWlscykKICAgICAgICAubWFwKGRldGFpbHMgLT4gCiAgICAgICAgICBkZXRhaWxzLnN0cmVhbSgpLmZsYXRNYXAoZCAtPiBkLml0ZW1zLnN0cmVhbSgpKS5tYXAoaSAtPiBpLml0ZW1OYW1lICsgJy0nICsgaS5wcmljZSkuZGlzdGluY3QoKS5jb2xsZWN0KENvbGxlY3RvcnMuam9pbmluZygnOycpKSkKICAgICAgICAub3JFbHNlKCcnKQoiIiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwK</text>
+      <register name="*" type="4">
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>here</text>
+        <text>ser</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIml0ZW0gbmFtZXMgd2l0aCBpdGVtIHByaWNlcyI6IHsKICAgICAgICAgICAgICAgICJzY3JpcHQiOiB7CiAgICAgICAgICAgICAgICAgICAgInNvdXJjZSI6ICIiIgogICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKHBhcmFtcy5fc291cmNlLm9yZGVyLm9yZGVyRGV0YWlscykKICAgICAgICAubWFwKGRldGFpbHMgLT4gCiAgICAgICAgICBkZXRhaWxzLnN0cmVhbSgpLmZsYXRNYXAoZCAtPiBkLml0ZW1zLnN0cmVhbSgpKS5tYXAoaSAtPiBpLml0ZW1OYW1lICsgJy0nICsgaS5wcmljZSkuZGlzdGluY3QoKS5jb2xsZWN0KENvbGxlY3RvcnMuam9pbmluZygnOycpKSkKICAgICAgICAub3JFbHNlKCcnKQoiIiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwK</text>
+      <register name="0" type="4">
+        <text>100.77.32.212/payguard</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChzY3JvbGxfaWQpCg==</text>
@@ -1062,9 +1063,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>here</last-search>
+      <last-search>ser</last-search>
       <last-offset />
-      <last-pattern>here</last-pattern>
+      <last-pattern>ser</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
