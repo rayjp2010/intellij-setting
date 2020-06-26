@@ -63,11 +63,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/daily_report_library.py" timestamp="1592984371947">
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="19" column="0" />
-        <mark key="." line="19" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/.gitignore" timestamp="1593080781689">
         <mark key="[" line="1" column="8" />
         <mark key="]" line="3" column="8" />
