@@ -130,12 +130,11 @@
         <mark key="]" line="91" column="0" />
         <mark key="." line="91" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1593063432968">
-        <mark key="'" line="36" column="35" />
-        <mark key="[" line="118" column="0" />
-        <mark key="]" line="118" column="36" />
-        <mark key="." line="31" column="32" />
-        <mark key="^" line="31" column="33" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1593410480136">
+        <mark key="[" line="4" column="61" />
+        <mark key="]" line="4" column="62" />
+        <mark key="." line="4" column="61" />
+        <mark key="^" line="4" column="62" />
       </file>
       <file name="$USER_HOME$/go/src/odin/README.md" timestamp="1593155354255">
         <mark key="'" line="43" column="14" />
@@ -1015,10 +1014,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>v</text>
+        <text>test</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>test</text>
       </register>
       <register name="/" type="4">
         <text>ser</text>
