@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>easy id</entry>
         <entry>send</entry>
         <entry>replace</entry>
         <entry>send_mail</entry>
@@ -25,6 +24,7 @@
         <entry>timestamp</entry>
         <entry>orderaccept</entry>
         <entry>index</entry>
+        <entry>serviceId</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -1020,7 +1020,7 @@
         <text>test</text>
       </register>
       <register name="/" type="4">
-        <text>index</text>
+        <text>serviceId</text>
       </register>
       <register name="0" type="4">
         <text>OrderarrivedTimestamp</text>
@@ -1062,9 +1062,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>index</last-search>
+      <last-search>serviceId</last-search>
       <last-offset />
-      <last-pattern>index</last-pattern>
+      <last-pattern>serviceId</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
