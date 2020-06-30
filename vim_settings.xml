@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>send_mail</entry>
         <entry>report_interval</entry>
         <entry>pd</entry>
         <entry>pd_email_text</entry>
@@ -25,6 +24,7 @@
         <entry>serviceId</entry>
         <entry>Previous</entry>
         <entry>Page</entry>
+        <entry>AllWith</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -141,13 +141,14 @@
         <mark key="[" line="136" column="12" />
         <mark key="]" line="136" column="32" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1593499036826">
-        <mark key="'" line="533" column="19" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1593511905737">
+        <mark key="'" line="90" column="22" />
+        <mark key="[" line="81" column="56" />
+        <mark key="]" line="81" column="56" />
+        <mark key="." line="81" column="56" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="25" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="86" column="7" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="73" column="10" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="28" column="0" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" />
       <jump line="237" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
@@ -246,6 +247,8 @@
       <jump line="491" column="61" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="506" column="65" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="533" column="19" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="381" column="55" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="90" column="22" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1016,13 +1019,13 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>OrderarrivedTimestamp</text>
+        <text>&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>test</text>
+        <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>Page</text>
+        <text>AllWith</text>
       </register>
       <register name="0" type="4">
         <text>OrderarrivedTimestamp</text>
@@ -1064,9 +1067,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Page</last-search>
+      <last-search>AllWith</last-search>
       <last-offset />
-      <last-pattern>Page</last-pattern>
+      <last-pattern>AllWith</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
