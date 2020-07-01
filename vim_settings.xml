@@ -5,13 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>pd</entry>
-        <entry>pd_email_text</entry>
-        <entry>email_server</entry>
-        <entry>lati</entry>
-        <entry>lat</entry>
-        <entry>Long</entry>
-        <entry>scroll</entry>
         <entry>scrol</entry>
         <entry>params</entry>
         <entry>50</entry>
@@ -25,6 +18,13 @@
         <entry>Page</entry>
         <entry>AllWith</entry>
         <entry>itemName</entry>
+        <entry>assignee</entry>
+        <entry>assign</entry>
+        <entry>decision</entry>
+        <entry>reviewer</entry>
+        <entry>ruleId</entry>
+        <entry>decisionTime</entry>
+        <entry>queueId</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -75,9 +75,6 @@
         <mark key="." line="19" column="11" />
         <mark key="^" line="4" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" timestamp="1593077856557">
-        <mark key="'" line="601" column="22" />
-      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/model/TransactionSearchResultModel.java" timestamp="1593567517279">
         <mark key="'" line="14" column="0" />
       </file>
@@ -93,8 +90,9 @@
       <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1593568371399">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1593584341517">
-        <mark key="[" line="10" column="0" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1593584614338">
+        <mark key="'" line="165" column="21" />
+        <mark key="[" line="151" column="31" />
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
@@ -163,12 +161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="235" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="6" column="73" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="26" column="78" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" />
-      <jump line="10" column="65" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard105z.prod.jp.local.cron" />
-      <jump line="23" column="33" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard102z.prod.jp.local.cron" />
-      <jump line="6" column="5" filename="$USER_HOME$/Workspace/payguard_release/template/cron/production/bpayguard102z.prod.jp.local.cron" />
       <jump line="12" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="172" column="8" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
       <jump line="39" column="12" filename="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/client/__init__.py" />
@@ -263,6 +255,12 @@
       <jump line="116" column="15" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
       <jump line="11" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="10" column="6" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="24" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="105" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="21" column="30" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="75" column="34" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="151" column="30" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
+      <jump line="165" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1039,7 +1037,7 @@
         <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>itemName</text>
+        <text>queueId</text>
       </register>
       <register name="0" type="4">
         <text>OrderarrivedTimestamp</text>
@@ -1081,9 +1079,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>itemName</last-search>
+      <last-search>queueId</last-search>
       <last-offset />
-      <last-pattern>itemName</last-pattern>
+      <last-pattern>queueId</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
