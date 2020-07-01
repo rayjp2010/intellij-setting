@@ -87,11 +87,17 @@
         <mark key="^" line="2" column="20" />
         <mark key="." line="2" column="19" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1593568423917">
+        <mark key="'" line="116" column="15" />
+      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/test.py" timestamp="1593139362998">
         <mark key="[" line="21" column="0" />
         <mark key="]" line="21" column="0" />
         <mark key="^" line="7" column="48" />
         <mark key="." line="21" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1593568371399">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593150801119">
         <mark key="'" line="74" column="34" />
@@ -158,8 +164,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="5" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="62" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="25" column="19" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_rcheckout_daily_report_to_box_folder.py" />
       <jump line="245" column="21" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="235" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -258,6 +262,8 @@
       <jump line="16" column="13" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/model/TransactionSearchResultModel.java" />
       <jump line="14" column="0" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/model/TransactionSearchResultModel.java" />
       <jump line="149" column="30" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/SearchTransactionLogicImpl.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/model/search_response.go" />
+      <jump line="116" column="15" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
