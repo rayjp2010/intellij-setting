@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>nested</entry>
         <entry>evalua</entry>
         <entry>payguard</entry>
         <entry>reviewer</entry>
@@ -25,6 +24,7 @@
         <entry>suzaku</entry>
         <entry>suzaku_url</entry>
         <entry>suzaku.url</entry>
+        <entry>displayMemberDetailList</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -131,8 +131,8 @@
         <mark key="." line="16" column="58" />
         <mark key="^" line="16" column="59" />
       </file>
-      <file name="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" timestamp="1593763143193">
-        <mark key="'" line="305" column="22" />
+      <file name="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" timestamp="1593766598886">
+        <mark key="'" line="221" column="19" />
         <mark key="[" line="212" column="36" />
         <mark key="]" line="212" column="39" />
         <mark key="^" line="212" column="39" />
@@ -140,7 +140,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="19" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="228" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="230" column="21" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="173" column="23" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -240,6 +239,7 @@
       <jump line="15" column="22" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" />
       <jump line="28" column="35" filename="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" />
       <jump line="305" column="22" filename="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" />
+      <jump line="221" column="19" filename="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1016,7 +1016,7 @@
         <text>rops</text>
       </register>
       <register name="/" type="4">
-        <text>suzaku.url</text>
+        <text>displayMemberDetailList</text>
       </register>
       <register name="0" type="4">
         <text>allMemberDetailList</text>
@@ -1058,9 +1058,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>suzaku.url</last-search>
+      <last-search>displayMemberDetailList</last-search>
       <last-offset />
-      <last-pattern>suzaku.url</last-pattern>
+      <last-pattern>displayMemberDetailList</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
