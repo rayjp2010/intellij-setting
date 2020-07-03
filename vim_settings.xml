@@ -131,10 +131,12 @@
         <mark key="." line="16" column="58" />
         <mark key="^" line="16" column="59" />
       </file>
-      <file name="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" timestamp="1593762166618">
+      <file name="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" timestamp="1593763143193">
         <mark key="'" line="305" column="22" />
-        <mark key="[" line="660" column="13" />
-        <mark key="]" line="660" column="31" />
+        <mark key="[" line="212" column="36" />
+        <mark key="]" line="212" column="39" />
+        <mark key="^" line="212" column="39" />
+        <mark key="." line="212" column="38" />
       </file>
     </filemarks>
     <jumps>
@@ -1008,10 +1010,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>allMemberDetailList</text>
+        <text>rops</text>
       </register>
       <register name="-" type="4">
-        <text>dev</text>
+        <text>rops</text>
       </register>
       <register name="/" type="4">
         <text>suzaku.url</text>
