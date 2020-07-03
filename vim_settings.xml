@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>queueId</entry>
         <entry>gross</entry>
         <entry>couponDiscount</entry>
         <entry>redeemedPoint</entry>
@@ -25,6 +24,7 @@
         <entry>range</entry>
         <entry>offset</entry>
         <entry>32</entry>
+        <entry>valid</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -93,13 +93,6 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/Case.java" timestamp="1593592176199">
         <mark key="'" line="32" column="13" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1593150801119">
-        <mark key="'" line="74" column="34" />
-        <mark key="[" line="87" column="32" />
-        <mark key="]" line="87" column="85" />
-        <mark key="^" line="23" column="44" />
-        <mark key="." line="23" column="43" />
-      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/ordercheck/SaveOrderCheck.java" timestamp="1593663055291">
         <mark key="'" line="139" column="24" />
         <mark key="[" line="134" column="70" />
@@ -110,9 +103,6 @@
         <mark key="]" line="373" column="20" />
         <mark key="." line="373" column="19" />
         <mark key="^" line="373" column="20" />
-      </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_202006.tsv" timestamp="1593153539282">
-        <mark key="'" line="23" column="30" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593743409689">
         <mark key="'" line="223" column="33" />
@@ -143,6 +133,9 @@
         <mark key="]" line="49" column="27" />
         <mark key="." line="49" column="27" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/SuzakuUtilImpl.java" timestamp="1593756264901">
+        <mark key="'" line="66" column="18" />
+      </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/dataaccess/CaseServiceImpl.java" timestamp="1593567275589">
         <mark key="'" line="563" column="17" />
       </file>
@@ -162,7 +155,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="55" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="233" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="38" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="234" column="31" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -262,6 +254,7 @@
       <jump line="78" column="44" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="223" column="33" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="189" column="0" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/BasicReportLogicImpl.java" />
+      <jump line="66" column="18" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/SuzakuUtilImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1038,7 +1031,7 @@
         <text>orderarrivedTimestamp</text>
       </register>
       <register name="/" type="4">
-        <text>32</text>
+        <text>valid</text>
       </register>
       <register name="0" type="4">
         <text>order.requestDate</text>
@@ -1080,9 +1073,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>32</last-search>
+      <last-search>valid</last-search>
       <last-offset />
-      <last-pattern>32</last-pattern>
+      <last-pattern>valid</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
