@@ -64,6 +64,9 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/BasicReportLogicImpl.java" timestamp="1593752442665">
+        <mark key="'" line="189" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/docker/local/docker-compose.yml" timestamp="1593155284517">
         <mark key="[" line="19" column="11" />
         <mark key="]" line="19" column="33" />
@@ -110,12 +113,6 @@
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_202006.tsv" timestamp="1593153539282">
         <mark key="'" line="23" column="30" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1593148737244">
-        <mark key="'" line="28" column="0" />
-        <mark key="[" line="32" column="48" />
-        <mark key="]" line="18" column="44" />
-        <mark key="." line="44" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593743409689">
         <mark key="'" line="223" column="33" />
@@ -165,7 +162,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="76" column="55" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="233" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="38" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
@@ -265,6 +261,7 @@
       <jump line="77" column="44" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="78" column="44" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="223" column="33" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="189" column="0" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/BasicReportLogicImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1041,7 +1038,7 @@
         <text>orderarrivedTimestamp</text>
       </register>
       <register name="/" type="4">
-        <text>range</text>
+        <text>offset</text>
       </register>
       <register name="0" type="4">
         <text>order.requestDate</text>
@@ -1083,9 +1080,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>range</last-search>
+      <last-search>offset</last-search>
       <last-offset />
-      <last-pattern>range</last-pattern>
+      <last-pattern>offset</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
