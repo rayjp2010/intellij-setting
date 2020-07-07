@@ -106,8 +106,8 @@
         <mark key="^" line="110" column="84" />
         <mark key="." line="111" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594107948476">
-        <mark key="[" line="2" column="16" />
+      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594108037521">
+        <mark key="[" line="2" column="25" />
         <mark key="]" line="2" column="16" />
         <mark key="." line="2" column="16" />
         <mark key="^" line="2" column="17" />
