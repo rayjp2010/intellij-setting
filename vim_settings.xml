@@ -80,12 +80,11 @@
         <mark key="^" line="172" column="22" />
         <mark key="." line="172" column="21" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1593591812044">
-        <mark key="'" line="111" column="10" />
-        <mark key="[" line="101" column="57" />
-        <mark key="]" line="101" column="57" />
-        <mark key="^" line="101" column="57" />
-        <mark key="." line="101" column="56" />
+      <file name="$USER_HOME$/Workspace/aletheia-api/README.md" timestamp="1594090244114">
+        <mark key="[" line="7" column="3" />
+        <mark key="]" line="7" column="3" />
+        <mark key="." line="7" column="3" />
+        <mark key="^" line="7" column="1" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/Case.java" timestamp="1593592176199">
         <mark key="'" line="32" column="13" />
@@ -1026,10 +1025,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>FIND_TRANSACTION_SEARCH_RESULT</text>
+        <text>shell script</text>
       </register>
       <register name="-" type="4">
-        <text>rops</text>
+        <text>shell script</text>
       </register>
       <register name="/" type="4">
         <text>validatewhen</text>
