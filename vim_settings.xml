@@ -67,12 +67,12 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1594087967393">
         <mark key="'" line="56" column="52" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594191929071">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594197253554">
         <mark key="'" line="40" column="33" />
-        <mark key="[" line="265" column="37" />
-        <mark key="]" line="266" column="34" />
-        <mark key="^" line="266" column="34" />
-        <mark key="." line="266" column="33" />
+        <mark key="[" line="271" column="5" />
+        <mark key="]" line="262" column="6" />
+        <mark key="^" line="271" column="5" />
+        <mark key="." line="262" column="6" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594193656727">
         <mark key="'" line="19" column="17" />
