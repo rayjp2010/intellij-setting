@@ -100,11 +100,11 @@
         <mark key="^" line="114" column="117" />
         <mark key="." line="114" column="116" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594195913023">
-        <mark key="[" line="111" column="5" />
-        <mark key="]" line="110" column="87" />
-        <mark key="^" line="110" column="87" />
-        <mark key="." line="110" column="86" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594199797860">
+        <mark key="[" line="112" column="79" />
+        <mark key="]" line="112" column="68" />
+        <mark key="^" line="112" column="68" />
+        <mark key="." line="112" column="67" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594189716392">
         <mark key="[" line="25" column="50" />
@@ -1042,47 +1042,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>reportRedeemedPointFieldName</text>
       </register>
       <register name="-" type="4">
-        <text>i</text>
+        <text>reportRedeemedPointFieldName</text>
       </register>
       <register name="/" type="4">
         <text>query</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAodCAqVHJhbnNhY3Rpb25Qcm9wZXJ0eSkgTmFtZSgpIHN0cmluZyB7CglpZiB0ID09IG5pbCB7CgkJcmV0dXJuIFVua25vd24KCX0KCXJldHVybiBmbXQuU3ByaW50ZigiJXMiLCAqdCkKfQo=</text>
+        <text encoding="base64">CXRvdGFsUmVkZWVtZWRQb2ludHNBZ2cgOj0gdXRpbC5TdW1BZ2cocmVwb3J0UmVkZWVtZWRQb2ludEZpZWxkTmFtZSwgaW50NjQoMCkpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXJldHVybiAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXJldHVybgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CXJldHVybiB2YWxpZFJlcG9ydEludGVydmFsWypyXS5EYXRlRm9ybWF0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3QgKCkK</text>
+        <text encoding="base64">CXJldHVybiB2YWxpZFJlcG9ydEludGVydmFsWypyXS5EYXRlRm9ybWF0Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CXN3aXRjaCAqciB7CgljYXNlIEhvdXJseToKCQkiIgoJfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Y29uc3QgKCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQo=</text>
+        <text encoding="base64">CXN3aXRjaCAqciB7CgljYXNlIEhvdXJseToKCQkiIgoJfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CnR5cGUgUmVwb3J0U2VydmljZSBpbnRlcmZhY2Ugewo=</text>
+        <text encoding="base64">Y29uc3QgKCkK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
