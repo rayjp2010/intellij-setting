@@ -64,12 +64,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594203513569">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594208904999">
         <mark key="'" line="40" column="33" />
-        <mark key="[" line="277" column="1" />
-        <mark key="]" line="277" column="0" />
-        <mark key="^" line="277" column="0" />
-        <mark key="." line="277" column="0" />
+        <mark key="[" line="290" column="5" />
+        <mark key="]" line="290" column="11" />
+        <mark key="^" line="290" column="11" />
+        <mark key="." line="290" column="10" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594193656727">
         <mark key="'" line="19" column="17" />
@@ -103,11 +103,11 @@
         <mark key="^" line="0" column="3" />
         <mark key="." line="0" column="2" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594203490033">
-        <mark key="[" line="151" column="33" />
-        <mark key="]" line="150" column="33" />
-        <mark key="^" line="150" column="33" />
-        <mark key="." line="150" column="32" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594208253259">
+        <mark key="[" line="154" column="8" />
+        <mark key="]" line="154" column="8" />
+        <mark key="^" line="156" column="26" />
+        <mark key="." line="154" column="8" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594189716392">
         <mark key="[" line="25" column="50" />
@@ -1047,52 +1047,48 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>ReportEvaluationGroup</text>
+        <text>Terms</text>
       </register>
       <register name="-" type="4">
-        <text>ReportEvaluationGroup = &quot;Accept&quot;</text>
+        <text>Terms</text>
       </register>
       <register name="/" type="4">
         <text>name</text>
       </register>
-      <register name="0" type="4">
-        <text>ReportEvaluationGroup</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZnVuYyBUZXJtc0FnZyhmaWVsZE5hbWUgc3RyaW5nLCBzdWJBZ2csIGFnZ01ldGEgKkpzb25NYXApIEpzb25NYXAgewoJcmV0dXJuIGFnZyh0ZXJtcywgSnNvbk1hcHtmaWVsZDogZmllbGROYW1lfSwgc3ViQWdnLCBhZ2dNZXRhKQp9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXJldHVybiBKc29uTWFwewoJCXRlcm1zOiAKCX0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">dmFyIGV2YWx1YXRpb25Hcm91cCA9IFtdbW9kZWwuUmVwb3J0RXZhbHVhdGlvbkdyb3VwewoJCn0K</text>
+      <register name="2" type="4">
+        <text>JsonMap{
+			field: fieldName,
+		},</text>
       </register>
-      <register name="3" type="8">
-        <text>ReportEvaluationGroup = &quot;Accept&quot;
-ReportEvaluationGroup = &quot;Deny&quot;
-ReportEvaluationGroup = &quot;AcceptUIGroup&quot;
-ReportEvaluationGroup = &quot;DenyUIGroup&quot;
-ReportEvaluationGroup = &quot;AcceptWithCautionGroup&quot;
-ReportEvaluationGroup = &quot;AcceptWithOtherPaymentGroup&quot;
-ReportEvaluationGroup = &quot;ReviewGroup&quot;</text>
+      <register name="3" type="2">
+        <text encoding="base64">ZnVuYyBGaWx0ZXJBZ2coKSAoZmlsdGVyQWdnIEpzb25NYXApIHsKCQp9Cgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyBGaWx0ZXJBZ2coY29uZGl0aW9uIEpzb25NYXAsIHN1YkFnZywgYWdnTWV0YSAqSnNvbk1hcCkgKGZpbHRlckFnZyBKc29uTWFwKSB7CglyZXR1cm4gYWdnKGZpbHRlciwgY29uZGl0aW9uLCBzdWJBZ2csIGFnZ01ldGEpCn0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWV2YWx1YXRpb25Hcm91cCA9IFtdbW9kZWwuUmVwb3J0RXZhbHVhdGlvbkdyb3VwewoJCQoJfQo=</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CUFjY2VwdCBSZXBvcnRFdmFsdWF0aW9uR3JvdXAgPSAiQWNjZXB0Igo=</text>
+        <text encoding="base64">CWFnZ3JlZ2F0aW9uID0gSnNvbk1hcHsKCQlhZ2dOYW1lOiBhZ2dXYXksCgl9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CURlbnlVSSAK</text>
+        <text encoding="base64">CWRlY2lzaW9uLmV2YWx1YXRpb25NZXNzYWdlCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CXJldHVybiAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CXJldHVybgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
