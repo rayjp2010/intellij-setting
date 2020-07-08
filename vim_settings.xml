@@ -93,19 +93,18 @@
         <mark key="^" line="148" column="24" />
         <mark key="." line="148" column="23" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/resources/application.properties" timestamp="1593758573061">
-        <mark key="'" line="15" column="22" />
-        <mark key="[" line="37" column="11" />
-        <mark key="]" line="37" column="40" />
-        <mark key="." line="0" column="69" />
-        <mark key="^" line="0" column="70" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1594181430920">
         <mark key="'" line="382" column="23" />
         <mark key="[" line="429" column="23" />
         <mark key="]" line="429" column="29" />
         <mark key="^" line="429" column="29" />
         <mark key="." line="429" column="28" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594181783234">
+        <mark key="[" line="15" column="5" />
+        <mark key="]" line="15" column="5" />
+        <mark key="^" line="12" column="86" />
+        <mark key="." line="15" column="5" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594175749901">
         <mark key="[" line="3" column="76" />
@@ -128,15 +127,13 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1593954660557">
         <mark key="'" line="528" column="208" />
       </file>
-      <file name="/Dummy.txt" timestamp="1593757749189">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/README.md" timestamp="1594092264725">
         <mark key="[" line="1" column="68" />
         <mark key="]" line="2" column="0" />
         <mark key="^" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1594181720230" />
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1594176501125">
         <mark key="[" line="245" column="125" />
         <mark key="]" line="245" column="137" />
@@ -1033,11 +1030,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CS8vZm9yIF8sIGhpdCA6PSByYW5nZSByLkhpdHMuSGl0cyB7CgkvLwlzb3VyY2UgOj0gaGl0LlNvdXJjZQoJLy8JdmFyIHRyYW5zYWN0aW9uRG9jUmVzcCBtb2RlbC5UcmFuc2FjdGlvbkRvY3VtZW50CgkvLwlpZiBlcnIgPSBtYXBzdHJ1Y3R1cmUuRGVjb2RlKHNvdXJjZSwgJnRyYW5zYWN0aW9uRG9jUmVzcCk7IGVyciAhPSBuaWwgewoJLy8JCWxvZy5FcnJvcigiRmFpbGVkIGluIGV4dHJhY3Rpbmcgb3JkZXIgZnJvbSByZXNwb25zZSIpCgkvLwkJcmV0dXJuIG5pbCwgZXJyCgkvLwl9CgkvLwlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCB0cmFuc2FjdGlvbkRvY1Jlc3ApCgkvL30K</text>
+      <register name="*" type="4">
+        <text>transactionService</text>
       </register>
       <register name="-" type="4">
-        <text>order</text>
+        <text>transactionService</text>
       </register>
       <register name="/" type="4">
         <text>Query</text>
@@ -1046,34 +1043,34 @@
         <text>Failed in extracting order from response</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CS8vZm9yIF8sIGhpdCA6PSByYW5nZSByLkhpdHMuSGl0cyB7CgkvLwlzb3VyY2UgOj0gaGl0LlNvdXJjZQoJLy8JdmFyIHRyYW5zYWN0aW9uRG9jUmVzcCBtb2RlbC5UcmFuc2FjdGlvbkRvY3VtZW50CgkvLwlpZiBlcnIgPSBtYXBzdHJ1Y3R1cmUuRGVjb2RlKHNvdXJjZSwgJnRyYW5zYWN0aW9uRG9jUmVzcCk7IGVyciAhPSBuaWwgewoJLy8JCWxvZy5FcnJvcigiRmFpbGVkIGluIGV4dHJhY3Rpbmcgb3JkZXIgZnJvbSByZXNwb25zZSIpCgkvLwkJcmV0dXJuIG5pbCwgZXJyCgkvLwl9CgkvLwlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCB0cmFuc2FjdGlvbkRvY1Jlc3ApCgkvL30K</text>
+        <text encoding="base64">Y29uc3QgKAopCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PSJGYWlsZWQgaW4gZXh0cmFjdGluZyBvcmRlciBmcm9tIHJlc3BvbnNlIgo=</text>
+        <text encoding="base64">CXNlcnZpY2VJZEZpZWxkTmFtZSAgICAgICAgPSAib3JkZXIuc2VydmljZUlkIgoJcmVxdWVzdERhdGVGaWVsZE5hbWUgICAgICA9ICJvcmRlci5yZXF1ZXN0RGF0ZSIKCWV2YWxNc2dGaWVsZE5hbWUgICAgICAgICAgPSAiZGVjaXNpb24uZXZhbHVhdGlvbk1lc3NhZ2UiCglzdWJFdmFsTXNnRmllbGROYW1lICAgICAgID0gImRlY2lzaW9uLnN1YkV2YWx1YXRpb25NZXNzYWdlIgoJZGVjaXNpb25UeXBlRmllbGROYW1lICAgICA9ICJkZWNpc2lvbi5kZWNpc2lvblR5cGUiCglvcHBGbGFnRmllbGROYW1lICAgICAgICAgID0gIm9yZGVyLmFkZGl0aW9uYWxJbmZvLm9wcEZsYWciCglyZXZpZXdlckRlY2lzaW9uRmllbGROYW1lID0gImRlY2lzaW9uLnJldmlld2VyRGVjaXNpb24iCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWRlZmVyIGNsb3NlUmVzcG9uc2UocmVzKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cGFja2FnZSBjb3JlCgppbXBvcnQgKAoiY29udGV4dCIKImZtdCIKbG9nICJnaXRodWIuY29tL3NpcnVwc2VuL2xvZ3J1cyIKIm9kaW4vbW9kZWwiCiJvZGluL3V0aWwiCikK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQlkZWZlciBjbG9zZVJlc3BvbnNlKHJlcykK</text>
+        <text encoding="base64">CS8vZm9yIF8sIGhpdCA6PSByYW5nZSByLkhpdHMuSGl0cyB7CgkvLwlzb3VyY2UgOj0gaGl0LlNvdXJjZQoJLy8JdmFyIHRyYW5zYWN0aW9uRG9jUmVzcCBtb2RlbC5UcmFuc2FjdGlvbkRvY3VtZW50CgkvLwlpZiBlcnIgPSBtYXBzdHJ1Y3R1cmUuRGVjb2RlKHNvdXJjZSwgJnRyYW5zYWN0aW9uRG9jUmVzcCk7IGVyciAhPSBuaWwgewoJLy8JCWxvZy5FcnJvcigiRmFpbGVkIGluIGV4dHJhY3Rpbmcgb3JkZXIgZnJvbSByZXNwb25zZSIpCgkvLwkJcmV0dXJuIG5pbCwgZXJyCgkvLwl9CgkvLwlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCB0cmFuc2FjdGlvbkRvY1Jlc3ApCgkvL30K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PSJGYWlsZWQgaW4gZXh0cmFjdGluZyBvcmRlciBmcm9tIHJlc3BvbnNlIgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQlkZWZlciBjbG9zZVJlc3BvbnNlKHJlcykK</text>
+        <text encoding="base64">CWRlZmVyIGNsb3NlUmVzcG9uc2UocmVzKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWRlZmVyIGNsb3NlUmVzcG9uc2UocmVzKQo=</text>
+        <text encoding="base64">CQlkZWZlciBjbG9zZVJlc3BvbnNlKHJlcykK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
