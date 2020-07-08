@@ -64,9 +64,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/CaseManagementController.java" timestamp="1594087967393">
-        <mark key="'" line="56" column="52" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594197910995">
         <mark key="'" line="40" column="33" />
         <mark key="[" line="277" column="0" />
@@ -100,11 +97,11 @@
         <mark key="^" line="114" column="117" />
         <mark key="." line="114" column="116" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594199797860">
-        <mark key="[" line="112" column="79" />
-        <mark key="]" line="112" column="68" />
-        <mark key="^" line="112" column="68" />
-        <mark key="." line="112" column="67" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594201266556">
+        <mark key="[" line="130" column="5" />
+        <mark key="]" line="128" column="12" />
+        <mark key="^" line="128" column="12" />
+        <mark key="." line="128" column="8" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594189716392">
         <mark key="[" line="25" column="50" />
@@ -164,6 +161,9 @@
         <mark key="'" line="190" column="24" />
         <mark key="[" line="61" column="4" />
         <mark key="]" line="61" column="8" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/report_evaluation_group.go" timestamp="1594201486603">
+        <mark key="[" line="4" column="6" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594195836465">
         <mark key="[" line="53" column="30" />
@@ -1043,16 +1043,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>reportRedeemedPointFieldName</text>
+        <text>grossAmount</text>
       </register>
       <register name="-" type="4">
-        <text>reportRedeemedPointFieldName</text>
+        <text>grossAmount</text>
       </register>
       <register name="/" type="4">
         <text>query</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CXRvdGFsUmVkZWVtZWRQb2ludHNBZ2cgOj0gdXRpbC5TdW1BZ2cocmVwb3J0UmVkZWVtZWRQb2ludEZpZWxkTmFtZSwgaW50NjQoMCkpCg==</text>
+      <register name="0" type="4">
+        <text>reportGrossAmountFieldName</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CXJldHVybiAK</text>
