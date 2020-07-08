@@ -74,11 +74,11 @@
         <mark key="^" line="266" column="34" />
         <mark key="." line="266" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594184403632">
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594193656727">
         <mark key="'" line="19" column="17" />
         <mark key="[" line="31" column="74" />
         <mark key="]" line="31" column="75" />
-        <mark key="^" line="31" column="102" />
+        <mark key="^" line="29" column="107" />
         <mark key="." line="31" column="75" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/audit_log_test.go" timestamp="1594106414371">
@@ -100,11 +100,11 @@
         <mark key="^" line="114" column="117" />
         <mark key="." line="114" column="116" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594192467460">
-        <mark key="[" line="104" column="29" />
-        <mark key="]" line="104" column="4" />
-        <mark key="^" line="104" column="4" />
-        <mark key="." line="104" column="3" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594195752963">
+        <mark key="[" line="104" column="38" />
+        <mark key="]" line="111" column="69" />
+        <mark key="^" line="111" column="69" />
+        <mark key="." line="111" column="68" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594189716392">
         <mark key="[" line="25" column="50" />
@@ -124,9 +124,10 @@
         <mark key="^" line="65" column="12" />
         <mark key="." line="65" column="11" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1594193161926">
-        <mark key="[" line="64" column="4" />
-        <mark key="]" line="64" column="27" />
+      <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1594195322962">
+        <mark key="[" line="80" column="0" />
+        <mark key="]" line="80" column="0" />
+        <mark key="." line="80" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction.go" timestamp="1594183575943">
         <mark key="'" line="111" column="10" />
@@ -141,12 +142,12 @@
         <mark key="^" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1594184295928">
-        <mark key="'" line="62" column="0" />
-        <mark key="[" line="90" column="36" />
-        <mark key="]" line="90" column="70" />
-        <mark key="." line="104" column="0" />
-        <mark key="^" line="98" column="18" />
+      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1594193603975">
+        <mark key="'" line="68" column="0" />
+        <mark key="[" line="65" column="57" />
+        <mark key="]" line="65" column="73" />
+        <mark key="." line="65" column="72" />
+        <mark key="^" line="65" column="73" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1594181720230" />
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1594176501125">
@@ -164,11 +165,11 @@
         <mark key="[" line="10" column="26" />
         <mark key="]" line="10" column="55" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594193418291">
-        <mark key="[" line="19" column="42" />
-        <mark key="]" line="19" column="42" />
-        <mark key="." line="19" column="42" />
-        <mark key="^" line="19" column="31" />
+      <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594195760393">
+        <mark key="[" line="7" column="30" />
+        <mark key="]" line="7" column="31" />
+        <mark key="." line="7" column="31" />
+        <mark key="^" line="43" column="14" />
       </file>
     </filemarks>
     <jumps>
@@ -1042,46 +1043,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IEhI</text>
+        <text>string</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IEhI</text>
+        <text>string</text>
       </register>
       <register name="/" type="4">
         <text>query</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;yyyy-MM-dd HH&quot;</text>
+        <text>R</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y29uc3QgKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQo=</text>
+        <text encoding="base64">CXJldHVybiB2YWxpZFJlcG9ydEludGVydmFsWypyXS5EYXRlRm9ybWF0Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CnR5cGUgUmVwb3J0U2VydmljZSBpbnRlcmZhY2Ugewo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uc3QgKCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dmFyICgKCWJhc2ljUmVwb3J0UXVlcnkgPSB1dGlsLkpzb25NYXB7Cgl9CikK</text>
+        <text encoding="base64">CXN3aXRjaCAqciB7CgljYXNlIEhvdXJseToKCQkiIgoJfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uc3QgKCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQlzaXplCg==</text>
+        <text encoding="base64">CWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gY29udmVydCByZXNwb25zZSBmcm9tIGVzIHRvIHJlc3BvbnNlIGRhdGEgdG8gY2xpZW50Cg==</text>
+        <text encoding="base64">CnR5cGUgUmVwb3J0U2VydmljZSBpbnRlcmZhY2Ugewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
