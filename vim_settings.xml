@@ -115,6 +115,12 @@
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/SuzakuUtilImpl.java" timestamp="1593756264901">
         <mark key="'" line="66" column="18" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/model/http_response.go" timestamp="1594121960154">
+        <mark key="[" line="58" column="8" />
+        <mark key="]" line="55" column="12" />
+        <mark key="^" line="55" column="12" />
+        <mark key="." line="55" column="11" />
+      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-api/src/main/java/com/rakuten/fpg/aletheia/api/ProfileManagementController.java" timestamp="1594088609564">
         <mark key="[" line="65" column="41" />
         <mark key="]" line="65" column="12" />
@@ -135,13 +141,6 @@
         <mark key="]" line="2" column="0" />
         <mark key="^" line="2" column="0" />
         <mark key="." line="2" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1593743409689">
-        <mark key="'" line="223" column="33" />
-        <mark key="[" line="253" column="29" />
-        <mark key="]" line="253" column="46" />
-        <mark key="^" line="253" column="46" />
-        <mark key="." line="253" column="45" />
       </file>
       <file name="$USER_HOME$/Workspace/aegis.radar/src/components/TheLoginIPVelocity/LoginIPVelocity.vue" timestamp="1593766598886">
         <mark key="'" line="221" column="19" />
@@ -1029,16 +1028,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Document</text>
+        <text>BucketFloatField</text>
       </register>
       <register name="-" type="4">
-        <text>Document</text>
+        <text>BucketFloatField</text>
       </register>
       <register name="/" type="4">
         <text>validatewhen</text>
       </register>
-      <register name="0" type="4">
-        <text>(result []model.TransactionDocument, err error)</text>
+      <register name="0" type="2">
+        <text encoding="base64">dHlwZSBCdWNrZXRGbG9hdFZhbHVlIHN0cnVjdCB7Cgl2YWx1ZSBmbG9hdDY0Cn0K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CVNlYXJjaEJhc2ljUmVwb3J0KGluZGV4ZXMgW11zdHJpbmcsIHF1ZXJ5Qm9keSB1dGlsLkpzb25NYXAsIG9mZnNldCwgbGltaXQgKmludCkgKHJlc3VsdCBbXW1vZGVsLlRyYW5zYWN0aW9uRG9jdW1lbnQsIGVyciBlcnJvcikK</text>
