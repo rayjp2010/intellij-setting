@@ -142,11 +142,11 @@
         <mark key="." line="69" column="0" />
         <mark key="^" line="54" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594280031523">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
-        <mark key="^" line="29" column="14" />
+      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594282070190">
+        <mark key="[" line="3" column="27" />
+        <mark key="]" line="3" column="33" />
+        <mark key="." line="3" column="32" />
+        <mark key="^" line="3" column="33" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/http_response.go" timestamp="1594181031642">
         <mark key="[" line="47" column="4" />
@@ -1050,10 +1050,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>SearchBasicReport</text>
+        <text>order</text>
       </register>
       <register name="-" type="4">
-        <text>TransactionSearchRequest</text>
+        <text>order</text>
       </register>
       <register name="/" type="4">
         <text>redeem</text>
