@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>suzaku.url</entry>
         <entry>displayMemberDetailList</entry>
         <entry>decryptRoutines</entry>
         <entry>errorFilterCh</entry>
@@ -25,6 +24,7 @@
         <entry>query</entry>
         <entry>Name</entry>
         <entry>Name()</entry>
+        <entry>redeem</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -90,12 +90,6 @@
         <mark key="^" line="29" column="107" />
         <mark key="." line="31" column="75" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/audit_log_test.go" timestamp="1594106414371">
-        <mark key="[" line="0" column="13" />
-        <mark key="]" line="0" column="13" />
-        <mark key="^" line="0" column="13" />
-        <mark key="." line="0" column="12" />
-      </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/util/EventUtilProfileImplTest.java" timestamp="1594254588701">
         <mark key="'" line="56" column="8" />
       </file>
@@ -136,12 +130,18 @@
         <mark key="[" line="164" column="0" />
         <mark key="]" line="169" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594270867670">
-        <mark key="'" line="148" column="78" />
-        <mark key="[" line="31" column="44" />
-        <mark key="]" line="31" column="22" />
-        <mark key="." line="31" column="21" />
-        <mark key="^" line="31" column="22" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594272245264">
+        <mark key="'" line="27" column="42" />
+        <mark key="[" line="29" column="4" />
+        <mark key="]" line="29" column="16" />
+        <mark key="." line="144" column="16" />
+        <mark key="^" line="144" column="20" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594272300890">
+        <mark key="[" line="42" column="2" />
+        <mark key="]" line="42" column="2" />
+        <mark key="." line="42" column="2" />
+        <mark key="^" line="38" column="51" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594189716392">
         <mark key="[" line="25" column="50" />
@@ -181,9 +181,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/model/search_response.go" />
-      <jump line="116" column="15" filename="$USER_HOME$/go/src/odin/model/transaction.go" />
-      <jump line="11" column="21" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="10" column="6" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="24" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="105" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -281,6 +278,9 @@
       <jump line="130" column="29" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="135" column="94" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="144" column="78" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="142" column="12" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="139" column="16" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="27" column="42" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1051,51 +1051,56 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Pct</text>
+        <text>{
+FieldName      string
+AggFieldName   string
+TotalFieldName string
+PctFieldName   string
+}</text>
       </register>
       <register name="-" type="4">
-        <text>Pct</text>
+        <text>ReportAggregationField = ReportAggregationField{&quot;paymentInfo.grossAmount&quot;, &quot;gms&quot;, &quot;totalGms&quot;, &quot;gmsPct&quot;}</text>
       </register>
       <register name="/" type="4">
-        <text>Name()</text>
+        <text>redeem</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CXJlZGVlbWVkUG9pbnRQY3RGaWVsZE5hbWUgICAgICAgICAgPSAicmVkZWVtZWRQb2ludHNQY3QiCg==</text>
+      <register name="0" type="4">
+        <text>RedeemedPoint</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">CQlbXQo=</text>
+      <register name="1" type="4">
+        <text>{
+FieldName      string
+AggFieldName   string
+TotalFieldName string
+PctFieldName   string
+}</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWFjY2VwdEdtc1BjdCA6PSB1dGlsLkJ1Y2tldFNjcmlwdEFnZygKCQlhdmVyYWdlVmFyaWFibGVNYXAoCgkJCWZtdC5TcHJpbnRmKGJ1Y2tldFNjcmlwdFBhdGhWYWx1ZVRlbXBsYXRlLCBhY2NlcHRBZ2dGaWVsZE5hbWUsIGdyb3NzQW1vdW50QWdnRmllbGROYW1lKSwKCQkJcmVwb3J0R3Jvc3NBbW91bnRGaWVsZE5hbWUpLAoJCWF2ZXJhZ2VCdWNrZXRTY3JpcHQsCgkpCg==</text>
+        <text encoding="base64">Y29uc3QgKAoJR3Jvc3NBbW91bnQgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9IFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifQopCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQlldmFsR3JvdXAgPSBhcHBlbmQoZXZhbEdyb3VwLCBldmFsdWF0aW9uQWdnKGdyb3VwKSkK</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CXZhciAK</text>
+        <text encoding="base64">CWZpZWxkTmFtZQo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnVuYyBBZ2dyZWdhdGlvbihhZ2dzTWFwIG1hcFtzdHJpbmddSnNvbk1hcCwgc3ViQWdnICpKc29uTWFwLCBhZ2dNZXRhICpKc29uTWFwKSAoYWdncmVnYXRpb24gSnNvbk1hcCkgewoJYWdncmVnYXRpb24gPSBKc29uTWFwe30KCWZvciBrLCB2IDo9IHJhbmdlIGFnZ3NNYXAgewoJCWFnZ3JlZ2F0aW9uW2tdID0gdgoJfQoJaWYgc3ViQWdnICE9IG5pbCB7CgkJYWdncmVnYXRpb25bYWdnc10gPSBzdWJBZ2cKCX0KCWlmIGFnZ01ldGEgIT0gbmlsIHsKCQlhZ2dyZWdhdGlvblttZXRhXSA9IGFnZ01ldGEKCX0KCXJldHVybgp9Cg==</text>
+        <text encoding="base64">ZnVuYyBuZXdSZXBvcnRBZ2dyZWdhdGlvbkZpZWxkKCkgUmVwb3J0QWdncmVnYXRpb25GaWVsZCB7CglyZXR1cm4gCn0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CWV2YWx1YXRpb25GaWVsZE5hbWUgPSAiIgo=</text>
+        <text encoding="base64">Y29uc3QgKAoJCikg</text>
       </register>
-      <register name="8" type="4">
-        <text>Aggregation(
-		group.Name(),
-		util.FilterAgg(*util.TermTextCondition(reportEvaluationField, util.GetStringPtr(group.Name()))),
-		util.Aggregation(grossAmountAggFieldName, util.SumAgg()),
-		util.GetJsonMapPtr(util.AggMeta(evaluationMetaFieldName, group.Name())),
-	)</text>
+      <register name="8" type="2">
+        <text encoding="base64">CQlbXQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWFjY2VwdEdtc1BjdCA6PSB1dGlsLkJ1Y2tldFNjcmlwdEFnZygKCQlhdmVyYWdlVmFyaWFibGVNYXAoCgkJCWZtdC5TcHJpbnRmKGJ1Y2tldFNjcmlwdFBhdGhWYWx1ZVRlbXBsYXRlLCBhY2NlcHRBZ2dGaWVsZE5hbWUsIGdyb3NzQW1vdW50QWdnRmllbGROYW1lKSwKCQkJcmVwb3J0R3Jvc3NBbW91bnRGaWVsZE5hbWUpLAoJCWF2ZXJhZ2VCdWNrZXRTY3JpcHQsCgkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1104,9 +1109,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Name()</last-search>
+      <last-search>redeem</last-search>
       <last-offset />
-      <last-pattern>Name()</last-pattern>
+      <last-pattern>redeem</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
