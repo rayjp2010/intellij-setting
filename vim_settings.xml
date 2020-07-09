@@ -76,12 +76,11 @@
         <mark key="]" line="80" column="0" />
         <mark key="." line="80" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594269161988">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594276146397">
         <mark key="'" line="232" column="0" />
-        <mark key="[" line="232" column="0" />
-        <mark key="]" line="232" column="0" />
-        <mark key="^" line="224" column="25" />
-        <mark key="." line="232" column="0" />
+        <mark key="[" line="286" column="0" />
+        <mark key="]" line="286" column="0" />
+        <mark key="." line="286" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594274420136">
         <mark key="'" line="19" column="17" />
@@ -130,18 +129,18 @@
         <mark key="[" line="164" column="0" />
         <mark key="]" line="169" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594274443877">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594278162880">
         <mark key="'" line="27" column="42" />
-        <mark key="[" line="127" column="67" />
-        <mark key="]" line="127" column="67" />
-        <mark key="." line="127" column="67" />
-        <mark key="^" line="127" column="72" />
+        <mark key="[" line="142" column="39" />
+        <mark key="]" line="150" column="0" />
+        <mark key="." line="150" column="0" />
+        <mark key="^" line="142" column="138" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594273026517">
-        <mark key="[" line="53" column="35" />
-        <mark key="]" line="53" column="36" />
-        <mark key="." line="53" column="36" />
-        <mark key="^" line="53" column="5" />
+      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594277844915">
+        <mark key="[" line="57" column="76" />
+        <mark key="]" line="69" column="0" />
+        <mark key="." line="69" column="0" />
+        <mark key="^" line="54" column="1" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594189716392">
         <mark key="[" line="25" column="50" />
@@ -181,7 +180,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="6" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="24" column="32" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="105" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="21" column="30" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -281,6 +279,7 @@
       <jump line="142" column="12" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="139" column="16" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="27" column="42" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="70" column="3" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1050,54 +1049,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>, nil</text>
+      <register name="*" type="2">
+        <text encoding="base64">CQlncm91cEFnZ1tmbXQuU3ByaW50ZihldmFsdWF0aW9uQWdnRmllbGRUZW1wbGF0ZSwgZ3JvdXBOYW1lLCBncm9zc0Ftb3VudFBjdEZpZWxkTmFtZSldID0KCQkJdXRpbC5CdWNrZXRTY3JpcHRBZ2coCgkJCQlhdmdWYXJpYWJsZU1hcCgKCQkJCQlmbXQuU3ByaW50ZihidWNrZXRTY3JpcHRQYXRoVmFsdWVUZW1wbGF0ZSwKCQkJCQkJZ3JvdXBOYW1lLAoJCQkJCQlncm9zc0Ftb3VudEFnZ0ZpZWxkTmFtZSwKCQkJCQkpLAoJCQkJCWdyb3NzQW1vdW50QWdnRmllbGROYW1lKSwKCQkJCWF2ZXJhZ2VCdWNrZXRTY3JpcHQpCg==</text>
       </register>
       <register name="-" type="4">
-        <text>, nil</text>
+        <text>aggField.PctFieldName</text>
       </register>
       <register name="/" type="4">
         <text>redeem</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CUdyb3NzQW1vdW50ICAgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9ICJncm9zc0Ftb3VudCIK</text>
+      <register name="0" type="4">
+        <text>evaluationAggFieldTemplate</text>
       </register>
-      <register name="1" type="4">
-        <text>util.Aggregations(map[string]util.JsonMap{
-		
-	})</text>
+      <register name="1" type="2">
+        <text encoding="base64">CQlncm91cEFnZ1tmbXQuU3ByaW50ZihldmFsdWF0aW9uQWdnRmllbGRUZW1wbGF0ZSwgZ3JvdXBOYW1lLCBncm9zc0Ftb3VudFBjdEZpZWxkTmFtZSldID0KCQkJdXRpbC5CdWNrZXRTY3JpcHRBZ2coCgkJCQlhdmdWYXJpYWJsZU1hcCgKCQkJCQlmbXQuU3ByaW50ZihidWNrZXRTY3JpcHRQYXRoVmFsdWVUZW1wbGF0ZSwKCQkJCQkJZ3JvdXBOYW1lLAoJCQkJCQlncm9zc0Ftb3VudEFnZ0ZpZWxkTmFtZSwKCQkJCQkpLAoJCQkJCWdyb3NzQW1vdW50QWdnRmllbGROYW1lKSwKCQkJCWF2ZXJhZ2VCdWNrZXRTY3JpcHQpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CUNvdXBvblBvaW50OiAgIHsib3JkZXIub3JkZXJpZCIsICIiLCAiIiwgImNvdXBvblBvaW50c1BjdCIsICJjb3VudCJ9LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CU9yZGVySWQgICAgICAgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9ICJvcmRlcklkIgo=</text>
+        <text encoding="base64">CQkJZ3JvdXBBZ2dbYWdnRmllbGQuUGN0RmllbGROYW1lXSA9IGFnZ0ZpZWxkLkFnZ3JlZ2F0aW9uQ29uZGl0aW9uKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CUdyb3NzQW1vdW50OiB7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifSwK</text>
+        <text encoding="base64">ZnVuYyAoYSBBZ2dyZWdhdGVWYWx1ZSkgbmVlZHNBZ2dyZWdhdGlvbigpIHV0aWwuSnNvbk1hcCB7CglpZiBhLkFnZ1R5cGUgPT0gImNvdW50IiB7CgkJcmV0dXJuIHV0aWwuVmFsdWVDb3VudEFnZyhhLkZpZWxkTmFtZSkKCX0KCXJldHVybiB1dGlsLlN1bUFnZyhhLkZpZWxkTmFtZSkKfQoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuYyBuZXdBZ2dGaWVsZChmaWVsZE5hbWUsIGFnZ0ZpZWxkTmFtZSwgdG90YWxGaWVsZE5hbWUsIHBjdEZpZWxkbmFtZSBzdHJpbmcpIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGQgewoJcmV0dXJuIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7CgkJRmllbGROYW1lOiAgICAgIGZpZWxkTmFtZSwKCQlBZ2dGaWVsZE5hbWU6ICAgYWdnRmllbGROYW1lLAoJCVRvdGFsRmllbGROYW1lOiB0b3RhbEZpZWxkTmFtZSwKCQlQY3RGaWVsZE5hbWU6ICAgcGN0RmllbGRuYW1lLAoJfQp9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWQK</text>
+        <text encoding="base64">CXZhciBncm91cEFnZyBtYXBbc3RyaW5nXXV0aWwuSnNvbk1hcAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ewpGaWVsZE5hbWUgICAgICBzdHJpbmcKQWdnRmllbGROYW1lICAgc3RyaW5nClRvdGFsRmllbGROYW1lIHN0cmluZwpQY3RGaWVsZE5hbWUgICBzdHJpbmcKfQo=</text>
+        <text encoding="base64">CXRvdGFsT3JkZXJzQWdnIDo9IHV0aWwuVmFsdWVDb3VudEFnZyhyZXBvcnRPcmRlcklkRmllbGROYW1lKQoJdG90YWxHbXNBZ2cgOj0gdXRpbC5TdW1BZ2cocmVwb3J0R3Jvc3NBbW91bnRGaWVsZE5hbWUpCgl0b3RhbFJlZGVlbWVkUG9pbnRzQWdnIDo9IHV0aWwuU3VtQWdnKHJlcG9ydFJlZGVlbWVkUG9pbnRGaWVsZE5hbWUpCgl0b3RhbENvdXBvbkRpc2NvdW50IDo9IHV0aWwuU3VtQWdnKHJlcG9ydENvdXBvbkRpc2NvdW50RmllbGROYW1lKQo=</text>
       </register>
-      <register name="8" type="4">
-        <text>{
-FieldName      string
-AggFieldName   string
-TotalFieldName string
-PctFieldName   string
-}</text>
+      <register name="8" type="2">
+        <text encoding="base64">CXN3aXRjaCBhLkFnZ1R5cGUgewoJY2FzZSAic3VtIjoKCQlyZXR1cm4gdXRpbC5TdW1BZ2coYS5GaWVsZE5hbWUpCgljYXNlICJjb3VudCI6CgkJcmV0dXJuIHV0aWwuVmFsdWVDb3VudEFnZyhhLkZpZWxkTmFtZSkKCX0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Y29uc3QgKAoJR3Jvc3NBbW91bnQgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9IFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifQopCg==</text>
+        <text encoding="base64">CWEuQQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
