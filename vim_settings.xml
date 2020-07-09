@@ -83,12 +83,12 @@
         <mark key="^" line="224" column="25" />
         <mark key="." line="232" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594193656727">
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594274420136">
         <mark key="'" line="19" column="17" />
-        <mark key="[" line="31" column="74" />
-        <mark key="]" line="31" column="75" />
-        <mark key="^" line="29" column="107" />
-        <mark key="." line="31" column="75" />
+        <mark key="[" line="29" column="20" />
+        <mark key="]" line="29" column="34" />
+        <mark key="^" line="29" column="34" />
+        <mark key="." line="29" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/util/EventUtilProfileImplTest.java" timestamp="1594254588701">
         <mark key="'" line="56" column="8" />
@@ -130,12 +130,12 @@
         <mark key="[" line="164" column="0" />
         <mark key="]" line="169" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594272245264">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594274443877">
         <mark key="'" line="27" column="42" />
-        <mark key="[" line="29" column="4" />
-        <mark key="]" line="29" column="16" />
-        <mark key="." line="144" column="16" />
-        <mark key="^" line="144" column="20" />
+        <mark key="[" line="127" column="67" />
+        <mark key="]" line="127" column="67" />
+        <mark key="." line="127" column="67" />
+        <mark key="^" line="127" column="72" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594273026517">
         <mark key="[" line="53" column="35" />
@@ -1051,10 +1051,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>w</text>
+        <text>, nil</text>
       </register>
       <register name="-" type="4">
-        <text>w</text>
+        <text>, nil</text>
       </register>
       <register name="/" type="4">
         <text>redeem</text>
@@ -1062,28 +1062,33 @@
       <register name="0" type="2">
         <text encoding="base64">CUdyb3NzQW1vdW50ICAgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9ICJncm9zc0Ftb3VudCIK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">CUNvdXBvblBvaW50OiAgIHsib3JkZXIub3JkZXJpZCIsICIiLCAiIiwgImNvdXBvblBvaW50c1BjdCIsICJjb3VudCJ9LAo=</text>
+      <register name="1" type="4">
+        <text>util.Aggregations(map[string]util.JsonMap{
+		
+	})</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CU9yZGVySWQgICAgICAgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9ICJvcmRlcklkIgo=</text>
+        <text encoding="base64">CUNvdXBvblBvaW50OiAgIHsib3JkZXIub3JkZXJpZCIsICIiLCAiIiwgImNvdXBvblBvaW50c1BjdCIsICJjb3VudCJ9LAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CUdyb3NzQW1vdW50OiB7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifSwK</text>
+        <text encoding="base64">CU9yZGVySWQgICAgICAgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9ICJvcmRlcklkIgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuYyBuZXdBZ2dGaWVsZChmaWVsZE5hbWUsIGFnZ0ZpZWxkTmFtZSwgdG90YWxGaWVsZE5hbWUsIHBjdEZpZWxkbmFtZSBzdHJpbmcpIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGQgewoJcmV0dXJuIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7CgkJRmllbGROYW1lOiAgICAgIGZpZWxkTmFtZSwKCQlBZ2dGaWVsZE5hbWU6ICAgYWdnRmllbGROYW1lLAoJCVRvdGFsRmllbGROYW1lOiB0b3RhbEZpZWxkTmFtZSwKCQlQY3RGaWVsZE5hbWU6ICAgcGN0RmllbGRuYW1lLAoJfQp9Cg==</text>
+        <text encoding="base64">CUdyb3NzQW1vdW50OiB7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifSwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWQK</text>
+        <text encoding="base64">ZnVuYyBuZXdBZ2dGaWVsZChmaWVsZE5hbWUsIGFnZ0ZpZWxkTmFtZSwgdG90YWxGaWVsZE5hbWUsIHBjdEZpZWxkbmFtZSBzdHJpbmcpIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGQgewoJcmV0dXJuIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7CgkJRmllbGROYW1lOiAgICAgIGZpZWxkTmFtZSwKCQlBZ2dGaWVsZE5hbWU6ICAgYWdnRmllbGROYW1lLAoJCVRvdGFsRmllbGROYW1lOiB0b3RhbEZpZWxkTmFtZSwKCQlQY3RGaWVsZE5hbWU6ICAgcGN0RmllbGRuYW1lLAoJfQp9Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">CWQK</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ewpGaWVsZE5hbWUgICAgICBzdHJpbmcKQWdnRmllbGROYW1lICAgc3RyaW5nClRvdGFsRmllbGROYW1lIHN0cmluZwpQY3RGaWVsZE5hbWUgICBzdHJpbmcKfQo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>{
 FieldName      string
 AggFieldName   string
@@ -1091,11 +1096,8 @@ TotalFieldName string
 PctFieldName   string
 }</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Y29uc3QgKAoJR3Jvc3NBbW91bnQgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9IFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifQopCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">Y29uc3QgKAoJR3Jvc3NBbW91bnQgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9IFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifQopCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
