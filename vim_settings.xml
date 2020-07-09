@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>32</entry>
         <entry>valid</entry>
         <entry>suzaku</entry>
         <entry>suzaku_url</entry>
@@ -25,6 +24,7 @@
         <entry>Ma,e</entry>
         <entry>Name</entry>
         <entry>name</entry>
+        <entry>Mockito.verify</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -83,6 +83,9 @@
         <mark key="]" line="0" column="13" />
         <mark key="^" line="0" column="13" />
         <mark key="." line="0" column="12" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/util/EventUtilProfileImplTest.java" timestamp="1594254588701">
+        <mark key="'" line="56" column="8" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1594107996472">
         <mark key="[" line="148" column="16" />
@@ -177,8 +180,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="481" column="43" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
-      <jump line="491" column="61" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="506" column="65" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="533" column="19" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="381" column="55" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -277,6 +278,8 @@
       <jump line="255" column="14" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="40" column="33" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="49" column="24" filename="$USER_HOME$/go/src/odin/model/report_interval.go" />
+      <jump line="54" column="21" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/util/EventUtilProfileImplTest.java" />
+      <jump line="56" column="8" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/util/EventUtilProfileImplTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1053,7 +1056,7 @@
         <text>Terms</text>
       </register>
       <register name="/" type="4">
-        <text>name</text>
+        <text>Mockito.verify</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZnVuYyBUZXJtc0FnZyhmaWVsZE5hbWUgc3RyaW5nLCBzdWJBZ2csIGFnZ01ldGEgKkpzb25NYXApIEpzb25NYXAgewoJcmV0dXJuIGFnZyh0ZXJtcywgSnNvbk1hcHtmaWVsZDogZmllbGROYW1lfSwgc3ViQWdnLCBhZ2dNZXRhKQp9Cg==</text>
@@ -1097,9 +1100,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>name</last-search>
+      <last-search>Mockito.verify</last-search>
       <last-offset />
-      <last-pattern>name</last-pattern>
+      <last-pattern>Mockito.verify</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
