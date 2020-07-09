@@ -137,11 +137,11 @@
         <mark key="." line="144" column="16" />
         <mark key="^" line="144" column="20" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594272300890">
-        <mark key="[" line="42" column="2" />
-        <mark key="]" line="42" column="2" />
-        <mark key="." line="42" column="2" />
-        <mark key="^" line="38" column="51" />
+      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594273026517">
+        <mark key="[" line="53" column="35" />
+        <mark key="]" line="53" column="36" />
+        <mark key="." line="53" column="36" />
+        <mark key="^" line="53" column="5" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594189716392">
         <mark key="[" line="25" column="50" />
@@ -1051,56 +1051,51 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>{
-FieldName      string
-AggFieldName   string
-TotalFieldName string
-PctFieldName   string
-}</text>
+        <text>w</text>
       </register>
       <register name="-" type="4">
-        <text>ReportAggregationField = ReportAggregationField{&quot;paymentInfo.grossAmount&quot;, &quot;gms&quot;, &quot;totalGms&quot;, &quot;gmsPct&quot;}</text>
+        <text>w</text>
       </register>
       <register name="/" type="4">
         <text>redeem</text>
       </register>
-      <register name="0" type="4">
-        <text>RedeemedPoint</text>
+      <register name="0" type="2">
+        <text encoding="base64">CUdyb3NzQW1vdW50ICAgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9ICJncm9zc0Ftb3VudCIK</text>
       </register>
-      <register name="1" type="4">
-        <text>{
-FieldName      string
-AggFieldName   string
-TotalFieldName string
-PctFieldName   string
-}</text>
+      <register name="1" type="2">
+        <text encoding="base64">CUNvdXBvblBvaW50OiAgIHsib3JkZXIub3JkZXJpZCIsICIiLCAiIiwgImNvdXBvblBvaW50c1BjdCIsICJjb3VudCJ9LAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uc3QgKAoJR3Jvc3NBbW91bnQgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9IFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifQopCg==</text>
+        <text encoding="base64">CU9yZGVySWQgICAgICAgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9ICJvcmRlcklkIgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CUdyb3NzQW1vdW50OiB7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifSwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CWZpZWxkTmFtZQo=</text>
+        <text encoding="base64">ZnVuYyBuZXdBZ2dGaWVsZChmaWVsZE5hbWUsIGFnZ0ZpZWxkTmFtZSwgdG90YWxGaWVsZE5hbWUsIHBjdEZpZWxkbmFtZSBzdHJpbmcpIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGQgewoJcmV0dXJuIFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7CgkJRmllbGROYW1lOiAgICAgIGZpZWxkTmFtZSwKCQlBZ2dGaWVsZE5hbWU6ICAgYWdnRmllbGROYW1lLAoJCVRvdGFsRmllbGROYW1lOiB0b3RhbEZpZWxkTmFtZSwKCQlQY3RGaWVsZE5hbWU6ICAgcGN0RmllbGRuYW1lLAoJfQp9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnVuYyBuZXdSZXBvcnRBZ2dyZWdhdGlvbkZpZWxkKCkgUmVwb3J0QWdncmVnYXRpb25GaWVsZCB7CglyZXR1cm4gCn0K</text>
+        <text encoding="base64">ewpGaWVsZE5hbWUgICAgICBzdHJpbmcKQWdnRmllbGROYW1lICAgc3RyaW5nClRvdGFsRmllbGROYW1lIHN0cmluZwpQY3RGaWVsZE5hbWUgICBzdHJpbmcKfQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Y29uc3QgKAoJCikg</text>
+      <register name="7" type="4">
+        <text>{
+FieldName      string
+AggFieldName   string
+TotalFieldName string
+PctFieldName   string
+}</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQlbXQo=</text>
+        <text encoding="base64">Y29uc3QgKAoJR3Jvc3NBbW91bnQgUmVwb3J0QWdncmVnYXRpb25GaWVsZCA9IFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGR7InBheW1lbnRJbmZvLmdyb3NzQW1vdW50IiwgImdtcyIsICJ0b3RhbEdtcyIsICJnbXNQY3QifQopCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWFjY2VwdEdtc1BjdCA6PSB1dGlsLkJ1Y2tldFNjcmlwdEFnZygKCQlhdmVyYWdlVmFyaWFibGVNYXAoCgkJCWZtdC5TcHJpbnRmKGJ1Y2tldFNjcmlwdFBhdGhWYWx1ZVRlbXBsYXRlLCBhY2NlcHRBZ2dGaWVsZE5hbWUsIGdyb3NzQW1vdW50QWdnRmllbGROYW1lKSwKCQkJcmVwb3J0R3Jvc3NBbW91bnRGaWVsZE5hbWUpLAoJCWF2ZXJhZ2VCdWNrZXRTY3JpcHQsCgkpCg==</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
