@@ -113,12 +113,12 @@
         <mark key="." line="199" column="24" />
         <mark key="^" line="201" column="18" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594358105133">
-        <mark key="'" line="47" column="0" />
-        <mark key="[" line="12" column="33" />
-        <mark key="]" line="10" column="36" />
-        <mark key="." line="10" column="23" />
-        <mark key="^" line="10" column="32" />
+      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594359332004">
+        <mark key="'" line="64" column="0" />
+        <mark key="[" line="15" column="61" />
+        <mark key="]" line="17" column="15" />
+        <mark key="." line="17" column="14" />
+        <mark key="^" line="17" column="15" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" timestamp="1594295534947">
         <mark key="'" line="53" column="47" />
@@ -1045,49 +1045,49 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>BucketAggField</text>
+      <register name="*" type="2">
+        <text encoding="base64">CXBhdGggOj0gc3RyaW5ncy5TcGxpdChmaWVsZFBhdGgsICI+IikK</text>
       </register>
       <register name="-" type="4">
-        <text>map[string]</text>
+        <text>fieldLvl int, fieldType string, fieldName ...string</text>
       </register>
       <register name="/" type="4">
         <text>ratelimit</text>
       </register>
       <register name="0" type="4">
-        <text>BucketAggField</text>
+        <text>fieldPath string</text>
       </register>
-      <register name="1" type="4">
-        <text>struct {
-	map[string]BucketAggField
-}</text>
+      <register name="1" type="2">
+        <text encoding="base64">CXBhdGggOj0gc3RyaW5ncy5TcGxpdChmaWVsZFBhdGgsICI+IikK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWtleSAgICAgICAgICAgICAgICAgICAgICAgICppbnQ2NCAgICAgICAgICAgICAgICAgYGpzb246ImtleSJgCgl0b3RhbFJlZGVlbWVkUG9pbnRzICAgICAgICBGbG9hdDY0QWdnc0ZpZWxkICAgICAgIGBqc29uOiJ0b3RhbFJlZGVlbWVkUG9pbnRzImAKCXRvdGFsQ291cG9uRGlzY291bnQgICAgICAgIEZsb2F0NjRBZ2dzRmllbGQgICAgICAgYGpzb246InRvdGFsQ291cG9uRGlzY291bnQiYAoJdG90YWxPcmRlcnMgICAgICAgICAgICAgICAgSW50NjRBZ2dzRmllbGQgICAgICAgICBganNvbjoidG90YWxPcmRlcnMiYAoJdG90YWxHbXMgICAgICAgICAgICAgICAgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoidG90YWxHbXMiYAoJYWNjZXB0QWdncyAgICAgICAgICAgICAgICAgKkFnZ3NHcm91cEJ5RXZhbHVhdGlvbiBganNvbjoiYWNjZXB0QWdncyJgCglkZW55QWdncyAgICAgICAgICAgICAgICAgICAqQWdnc0dyb3VwQnlFdmFsdWF0aW9uIGBqc29uOiJkZW55QWdncyJgCglhY2NlcHRVSUFnZ3MgICAgICAgICAgICAgICAqQWdnc0dyb3VwQnlFdmFsdWF0aW9uIGBqc29uOiJhY2NlcHRVSUFnZ3MiYAoJYWNjZXB0V2l0aENhdXRpb25BZ2dzICAgICAgKkFnZ3NHcm91cEJ5RXZhbHVhdGlvbiBganNvbjoiYWNjZXB0V2l0aENhdXRpb25BZ2dzImAKCWFjY2VwdFdpdGhPdGhlclBheW1lbnRBZ2dzICpBZ2dzR3JvdXBCeUV2YWx1YXRpb24gYGpzb246ImFjY2VwdFdpdGhPdGhlclBheW1lbnRBZ2dzImAKCWRlbnlVSUFnZ3MgICAgICAgICAgICAgICAgICpBZ2dzR3JvdXBCeUV2YWx1YXRpb24gYGpzb246ImRlbnlVSUFnZ3MiYAoJcmV2aWV3QWdncyAgICAgICAgICAgICAgICAgKkFnZ3NHcm91cEJ5RXZhbHVhdGlvbiBganNvbjoicmV2aWV3QWdncyJgCglhY2NlcHRPcmRlcnNQY3QgICAgICAgICAgICBGbG9hdDY0QWdnc0ZpZWxkICAgICAgIGBqc29uOiJhY2NlcHRPcmRlcnNQY3QiYAoJYWNjZXB0R21zUGN0ICAgICAgICAgICAgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoiYWNjZXB0R21zUGN0ImAKCWFjY2VwdFJlZGVlbWVkUG9pbnRQY3QgICAgIEZsb2F0NjRBZ2dzRmllbGQgICAgICAgYGpzb246ImFjY2VwdFJlZGVlbWVkUG9pbnRQY3QiYAoJYWNjZXB0Q291cG9uRGlzY291bnRQY3QgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoiYWNjZXB0Q291cG9uRGlzY291bnRQY3QiYAoJZGVueUdtc1BjdCAgICAgICAgICAgICAgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoiZGVueUdtc1BjdCJgCg==</text>
+        <text encoding="base64">CXN3aXRjaCBmaWVsZEx2bCB7CgljYXNlIDE6CgkJYltmaWVsZE5hbWVbMF1dCgl9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWlmIG1ldGFGaWVsZCwgb2sgOj0gci5tZXRhW2tleV07IG9rIHsKCQlyZXR1cm4gbWV0YUZpZWxkCgl9IGVsc2UgewoJCXJldHVybiBVbmtub3duCgl9Cg==</text>
+        <text encoding="base64">ZnVuYyBnZXRMdjEoKSAgewoJCn0K</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ZnVuYyAoKSAgewoJCn0K</text>
+      <register name="4" type="4">
+        <text>struct {
+	map[string]BucketAggField
+}</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQo=</text>
+        <text encoding="base64">CWtleSAgICAgICAgICAgICAgICAgICAgICAgICppbnQ2NCAgICAgICAgICAgICAgICAgYGpzb246ImtleSJgCgl0b3RhbFJlZGVlbWVkUG9pbnRzICAgICAgICBGbG9hdDY0QWdnc0ZpZWxkICAgICAgIGBqc29uOiJ0b3RhbFJlZGVlbWVkUG9pbnRzImAKCXRvdGFsQ291cG9uRGlzY291bnQgICAgICAgIEZsb2F0NjRBZ2dzRmllbGQgICAgICAgYGpzb246InRvdGFsQ291cG9uRGlzY291bnQiYAoJdG90YWxPcmRlcnMgICAgICAgICAgICAgICAgSW50NjRBZ2dzRmllbGQgICAgICAgICBganNvbjoidG90YWxPcmRlcnMiYAoJdG90YWxHbXMgICAgICAgICAgICAgICAgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoidG90YWxHbXMiYAoJYWNjZXB0QWdncyAgICAgICAgICAgICAgICAgKkFnZ3NHcm91cEJ5RXZhbHVhdGlvbiBganNvbjoiYWNjZXB0QWdncyJgCglkZW55QWdncyAgICAgICAgICAgICAgICAgICAqQWdnc0dyb3VwQnlFdmFsdWF0aW9uIGBqc29uOiJkZW55QWdncyJgCglhY2NlcHRVSUFnZ3MgICAgICAgICAgICAgICAqQWdnc0dyb3VwQnlFdmFsdWF0aW9uIGBqc29uOiJhY2NlcHRVSUFnZ3MiYAoJYWNjZXB0V2l0aENhdXRpb25BZ2dzICAgICAgKkFnZ3NHcm91cEJ5RXZhbHVhdGlvbiBganNvbjoiYWNjZXB0V2l0aENhdXRpb25BZ2dzImAKCWFjY2VwdFdpdGhPdGhlclBheW1lbnRBZ2dzICpBZ2dzR3JvdXBCeUV2YWx1YXRpb24gYGpzb246ImFjY2VwdFdpdGhPdGhlclBheW1lbnRBZ2dzImAKCWRlbnlVSUFnZ3MgICAgICAgICAgICAgICAgICpBZ2dzR3JvdXBCeUV2YWx1YXRpb24gYGpzb246ImRlbnlVSUFnZ3MiYAoJcmV2aWV3QWdncyAgICAgICAgICAgICAgICAgKkFnZ3NHcm91cEJ5RXZhbHVhdGlvbiBganNvbjoicmV2aWV3QWdncyJgCglhY2NlcHRPcmRlcnNQY3QgICAgICAgICAgICBGbG9hdDY0QWdnc0ZpZWxkICAgICAgIGBqc29uOiJhY2NlcHRPcmRlcnNQY3QiYAoJYWNjZXB0R21zUGN0ICAgICAgICAgICAgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoiYWNjZXB0R21zUGN0ImAKCWFjY2VwdFJlZGVlbWVkUG9pbnRQY3QgICAgIEZsb2F0NjRBZ2dzRmllbGQgICAgICAgYGpzb246ImFjY2VwdFJlZGVlbWVkUG9pbnRQY3QiYAoJYWNjZXB0Q291cG9uRGlzY291bnRQY3QgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoiYWNjZXB0Q291cG9uRGlzY291bnRQY3QiYAoJZGVueUdtc1BjdCAgICAgICAgICAgICAgICAgRmxvYXQ2NEFnZ3NGaWVsZCAgICAgICBganNvbjoiZGVueUdtc1BjdCJgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CW1ldGEgKk1ldGFBZ2dGaWVsZAoJZ21zIAoJY291cG9uRGlzY291bnRzCg==</text>
+        <text encoding="base64">CWlmIG1ldGFGaWVsZCwgb2sgOj0gci5tZXRhW2tleV07IG9rIHsKCQlyZXR1cm4gbWV0YUZpZWxkCgl9IGVsc2UgewoJCXJldHVybiBVbmtub3duCgl9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnVuYyAoKSAgewoJCn0K</text>
       </register>
       <register name="8" type="2">
-        <text>type ReportByEvaluationA</text>
+        <text encoding="base64">CQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CW1ldGEgKk1ldGFBZ2dGaWVsZAoJZ21zIAoJY291cG9uRGlzY291bnRzCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
