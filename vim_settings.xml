@@ -106,12 +106,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594353553419">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594353832597">
         <mark key="'" line="113" column="0" />
-        <mark key="[" line="197" column="33" />
-        <mark key="]" line="197" column="33" />
-        <mark key="." line="197" column="33" />
-        <mark key="^" line="199" column="12" />
+        <mark key="[" line="199" column="24" />
+        <mark key="]" line="199" column="24" />
+        <mark key="." line="199" column="24" />
+        <mark key="^" line="201" column="18" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594344748106">
         <mark key="[" line="6" column="31" />
@@ -1048,10 +1048,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>evalGroup.Name()</text>
+        <text>Model</text>
       </register>
       <register name="-" type="4">
-        <text>evalGroup.Name()</text>
+        <text>Model</text>
       </register>
       <register name="/" type="4">
         <text>ratelimit</text>
