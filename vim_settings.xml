@@ -159,9 +159,9 @@
         <mark key="." line="77" column="40" />
         <mark key="^" line="84" column="36" />
       </file>
-      <file name="/docker-compose.yml" timestamp="1594362677542">
-        <mark key="[" line="4" column="11" />
-        <mark key="]" line="4" column="61" />
+      <file name="/docker-compose.yml" timestamp="1594362689127">
+        <mark key="[" line="19" column="11" />
+        <mark key="]" line="19" column="47" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594291138610">
         <mark key="'" line="36" column="14" />
@@ -1042,7 +1042,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>docker.elastic.co/elasticsearch/elasticsearch:6.8.8</text>
+        <text>docker.elastic.co/kibana/kibana:6.8.8</text>
       </register>
       <register name="-" type="4">
         <text>value.(model.Int64AggsField)</text>
@@ -1051,7 +1051,7 @@
         <text>ratelimit</text>
       </register>
       <register name="0" type="4">
-        <text>docker.elastic.co/elasticsearch/elasticsearch:6.8.8</text>
+        <text>docker.elastic.co/kibana/kibana:6.8.8</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnVuYyBHZXRGaWVsZChmaWVsZFBhdGggW11zdHJpbmcsIGpzb25NYXAgdXRpbC5Kc29uTWFwKSAoaW50ZXJmYWNle30sIGVycm9yKSB7CglpZiBsZW4oZmllbGRQYXRoKSA9PSAwIHsKCQlyZXR1cm4gbmlsLCBlcnJvcnMuTmV3KCJ3cm9uZyBmaWVsZCBwYXRoIikKCX0gZWxzZSBpZiBsZW4oZmllbGRQYXRoKSA9PSAxIHsKCQlpZiB2YWx1ZWksIG9rIDo9IGpzb25NYXBbZmllbGRQYXRoWzBdXTsgb2sgewoJCQlyZXR1cm4gdmFsdWVpLCBuaWwKCQl9Cgl9IGVsc2UgewoJCWlmIHZhbHVlaSwgb2sgOj0ganNvbk1hcFtmaWVsZFBhdGhbMF1dOyBvayB7CgkJCWlmIG5leHRWYWx1ZWksIG9rIDo9IHZhbHVlaS4odXRpbC5Kc29uTWFwKTsgb2sgewoJCQkJcmV0dXJuIEdldEZpZWxkKGZpZWxkUGF0aFsxOl0sIG5leHRWYWx1ZWkpCgkJCX0KCQl9Cgl9CglyZXR1cm4gbmlsLCBlcnJvcnMuTmV3KCJmYWlsZWQgaW4gZ2V0dGluZyBmaWVsZCIpCn0KCmZ1bmMgR2V0SW50NjRGaWVsZChmaWVsZFBhdGggW11zdHJpbmcsIGpzb25NYXAgdXRpbC5Kc29uTWFwKSAoKmludDY0LCBlcnJvcikgewoJdmFsdWVpLCBlcnIgOj0gR2V0RmllbGQoZmllbGRQYXRoLCBqc29uTWFwKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglpZiByZXN1bHQsIG9rIDo9IHZhbHVlaS4oKmludDY0KTsgb2sgewoJCXJldHVybiByZXN1bHQsIG5pbAoJfQoJcmV0dXJuIG5pbCwgZXJyb3JzLk5ldygiZmFpbGVkIGluIGdldHRpbmcgaW50NjQgZmllbGQiKQp9CgpmdW5jIEdldEZsb2F0NjRGaWVsZChmaWVsZFBhdGggW11zdHJpbmcsIGpzb25NYXAgdXRpbC5Kc29uTWFwKSAoKmZsb2F0NjQsIGVycm9yKSB7Cgl2YWx1ZWksIGVyciA6PSBHZXRGaWVsZChmaWVsZFBhdGgsIGpzb25NYXApCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCWlmIHJlc3VsdCwgb2sgOj0gdmFsdWVpLigqZmxvYXQ2NCk7IG9rIHsKCQlyZXR1cm4gcmVzdWx0LCBuaWwKCX0KCXJldHVybiBuaWwsIGVycm9ycy5OZXcoImZhaWxlZCBpbiBnZXR0aW5nIGZsb2F0NjQgZmllbGQiKQp9CgpmdW5jIEdldFN0cmluZ0ZpZWxkKGZpZWxkUGF0aCBbXXN0cmluZywganNvbk1hcCB1dGlsLkpzb25NYXApICgqc3RyaW5nLCBlcnJvcikgewoJdmFsdWVpLCBlcnIgOj0gR2V0RmllbGQoZmllbGRQYXRoLCBqc29uTWFwKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglpZiByZXN1bHQsIG9rIDo9IHZhbHVlaS4oKnN0cmluZyk7IG9rIHsKCQlyZXR1cm4gcmVzdWx0LCBuaWwKCX0KCXJldHVybiBuaWwsIGVycm9ycy5OZXcoImZhaWxlZCBpbiBnZXR0aW5nIHN0cmluZyBmaWVsZCIpCn0K</text>
