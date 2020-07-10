@@ -106,12 +106,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594372514686">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594374777634">
         <mark key="'" line="179" column="40" />
-        <mark key="[" line="138" column="0" />
-        <mark key="]" line="138" column="0" />
-        <mark key="." line="138" column="0" />
-        <mark key="^" line="208" column="44" />
+        <mark key="[" line="226" column="64" />
+        <mark key="]" line="226" column="160" />
+        <mark key="." line="226" column="64" />
+        <mark key="^" line="222" column="144" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594361318364">
         <mark key="[" line="12" column="0" />
@@ -1045,17 +1045,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CQkJfQo=</text>
+      <register name="*" type="4">
+        <text>fmt.Sprintf(evaluationAggFieldTemplate, evalGroup.Name(), model.RedeemedPointAgg.PctFieldName())</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>GrossAmountAgg</text>
       </register>
       <register name="/" type="4">
         <text>ratelimit</text>
       </register>
       <register name="0" type="4">
-        <text>util.ConvertFloat64ToString</text>
+        <text>fmt.Sprintf(evaluationAggFieldTemplate, evalGroup.Name(), model.RedeemedPointAgg.PctFieldName())</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQkJfQo=</text>
