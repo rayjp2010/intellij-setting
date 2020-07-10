@@ -99,12 +99,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594293610615">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594341076571">
         <mark key="'" line="119" column="0" />
-        <mark key="[" line="18" column="88" />
-        <mark key="]" line="18" column="89" />
-        <mark key="." line="18" column="89" />
-        <mark key="^" line="135" column="51" />
+        <mark key="[" line="110" column="35" />
+        <mark key="]" line="110" column="45" />
+        <mark key="." line="110" column="44" />
+        <mark key="^" line="110" column="45" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594282070190">
         <mark key="[" line="3" column="27" />
@@ -150,6 +150,12 @@
         <mark key="." line="52" column="34" />
         <mark key="^" line="52" column="44" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1594341071519">
+        <mark key="[" line="12" column="51" />
+        <mark key="]" line="13" column="38" />
+        <mark key="^" line="13" column="38" />
+        <mark key="." line="13" column="37" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594293459447">
         <mark key="[" line="16" column="63" />
         <mark key="]" line="16" column="63" />
@@ -161,12 +167,6 @@
         <mark key="]" line="188" column="87" />
         <mark key="^" line="188" column="87" />
         <mark key="." line="188" column="86" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_evaluation_group.go" timestamp="1594270126207">
-        <mark key="[" line="16" column="9" />
-        <mark key="]" line="16" column="30" />
-        <mark key="^" line="22" column="0" />
-        <mark key="." line="16" column="9" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594291138610">
         <mark key="'" line="36" column="14" />
@@ -1047,10 +1047,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>AUTO_INCREMENT</text>
+        <text>requestDateFieldName</text>
       </register>
       <register name="-" type="4">
-        <text>localhost</text>
+        <text>requestDateFieldName</text>
       </register>
       <register name="/" type="4">
         <text>auto</text>
