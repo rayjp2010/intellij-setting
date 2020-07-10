@@ -115,7 +115,12 @@
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" timestamp="1594295534947">
         <mark key="'" line="53" column="47" />
       </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/DataAccessUtil.java" timestamp="1594295548575" />
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/DataAccessUtil.java" timestamp="1594296365559">
+        <mark key="[" line="26" column="35" />
+        <mark key="]" line="27" column="37" />
+        <mark key="^" line="27" column="37" />
+        <mark key="." line="27" column="36" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/infra/endpoints.go" timestamp="1594280649395">
         <mark key="'" line="30" column="0" />
         <mark key="[" line="43" column="0" />
@@ -1042,7 +1047,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>aletheia-scheduler</text>
+        <text>AUTO_INCREMENT</text>
       </register>
       <register name="-" type="4">
         <text>localhost</text>
@@ -1051,7 +1056,7 @@
         <text>auto</text>
       </register>
       <register name="0" type="4">
-        <text>aletheia-scheduler</text>
+        <text>AUTO_INCREMENT</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQkvLyB0aGlzIGxpbmUgd2lsbCBuZXZlciBiZSByZWEK</text>
