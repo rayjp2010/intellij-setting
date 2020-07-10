@@ -88,26 +88,26 @@
         <mark key="^" line="31" column="23" />
         <mark key="." line="31" column="22" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1594289991061">
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1594345375379">
         <mark key="'" line="391" column="33" />
-        <mark key="[" line="429" column="42" />
-        <mark key="]" line="429" column="56" />
-        <mark key="^" line="114" column="117" />
-        <mark key="." line="114" column="116" />
+        <mark key="[" line="436" column="50" />
+        <mark key="]" line="436" column="55" />
+        <mark key="^" line="436" column="55" />
+        <mark key="." line="436" column="54" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-events-scheduler/Dockerfile" timestamp="1594294566799">
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594341574053">
-        <mark key="'" line="119" column="0" />
-        <mark key="[" line="168" column="0" />
-        <mark key="]" line="168" column="0" />
-        <mark key="." line="168" column="0" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594345580246">
+        <mark key="'" line="167" column="49" />
+        <mark key="[" line="167" column="43" />
+        <mark key="]" line="167" column="43" />
+        <mark key="." line="167" column="43" />
         <mark key="^" line="110" column="45" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594282070190">
-        <mark key="[" line="3" column="27" />
+      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594344748106">
+        <mark key="[" line="6" column="31" />
         <mark key="]" line="3" column="33" />
         <mark key="." line="3" column="32" />
         <mark key="^" line="3" column="33" />
@@ -177,7 +177,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="132" column="18" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="111" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="135" column="16" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
       <jump line="147" column="13" filename="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" />
@@ -277,6 +276,7 @@
       <jump line="119" column="0" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="33" column="41" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-web/src/main/resources/application.properties" />
       <jump line="53" column="47" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" />
+      <jump line="167" column="49" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1046,17 +1046,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CWZtdC5QcmludGxuKGJhc2ljUmVwb3J0QnVja2V0KQo=</text>
+      <register name="*" type="4">
+        <text>model.BasicReportBucket</text>
       </register>
       <register name="-" type="4">
-        <text>requestDateFieldName</text>
+        <text>model.BasicReportBucket</text>
       </register>
       <register name="/" type="4">
         <text>auto</text>
       </register>
       <register name="0" type="4">
-        <text>AUTO_INCREMENT</text>
+        <text>r.Aggregations[&quot;group_by_date&quot;].Buckets</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CWZtdC5QcmludGxuKGJhc2ljUmVwb3J0QnVja2V0KQo=</text>
@@ -1065,30 +1065,30 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQkvLyB0aGlzIGxpbmUgd2lsbCBuZXZlciBiZSByZWEK</text>
+        <text encoding="base64">CWZtdC5QcmludGxuKGJhc2ljUmVwb3J0QnVja2V0KQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWRlZmF1bHQ6CgkJLy8gdGhpcyBsaW5lIAoJCXJldHVybiAiIgo=</text>
+        <text encoding="base64">CQkvLyB0aGlzIGxpbmUgd2lsbCBuZXZlciBiZSByZWEK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CXJldHVybiAiIgo=</text>
+        <text encoding="base64">CWRlZmF1bHQ6CgkJLy8gdGhpcyBsaW5lIAoJCXJldHVybiAiIgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWlmIHIgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
+        <text encoding="base64">CXJldHVybiAiIgo=</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">CWlmIHIgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">CXJldHVybiBmbXQuU3ByaW50ZigiJXMiLCAqcikK</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>util.Aggregations(map[string]util.JsonMap{
 			&quot;group_by_date&quot;: 
 		})</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">CX0KCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
