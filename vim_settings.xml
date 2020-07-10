@@ -99,11 +99,11 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594341076571">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594341574053">
         <mark key="'" line="119" column="0" />
-        <mark key="[" line="110" column="35" />
-        <mark key="]" line="110" column="45" />
-        <mark key="." line="110" column="44" />
+        <mark key="[" line="168" column="0" />
+        <mark key="]" line="168" column="0" />
+        <mark key="." line="168" column="0" />
         <mark key="^" line="110" column="45" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594282070190">
@@ -1046,8 +1046,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>requestDateFieldName</text>
+      <register name="*" type="2">
+        <text encoding="base64">CWZtdC5QcmludGxuKGJhc2ljUmVwb3J0QnVja2V0KQo=</text>
       </register>
       <register name="-" type="4">
         <text>requestDateFieldName</text>
@@ -1059,36 +1059,36 @@
         <text>AUTO_INCREMENT</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQkvLyB0aGlzIGxpbmUgd2lsbCBuZXZlciBiZSByZWEK</text>
+        <text encoding="base64">CWZtdC5QcmludGxuKGJhc2ljUmVwb3J0QnVja2V0KQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWRlZmF1bHQ6CgkJLy8gdGhpcyBsaW5lIAoJCXJldHVybiAiIgo=</text>
+        <text encoding="base64">CQkvLyB0aGlzIGxpbmUgd2lsbCBuZXZlciBiZSByZWEK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CXJldHVybiAiIgo=</text>
+        <text encoding="base64">CWRlZmF1bHQ6CgkJLy8gdGhpcyBsaW5lIAoJCXJldHVybiAiIgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CWlmIHIgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
+        <text encoding="base64">CXJldHVybiAiIgo=</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">CWlmIHIgPT0gbmlsIHsKCQlyZXR1cm4gVW5rbm93bgoJfQo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">CXJldHVybiBmbXQuU3ByaW50ZigiJXMiLCAqcikK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>util.Aggregations(map[string]util.JsonMap{
 			&quot;group_by_date&quot;: 
 		})</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">CX0KCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CX0KCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
