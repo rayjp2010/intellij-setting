@@ -106,12 +106,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594374777634">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594375428959">
         <mark key="'" line="179" column="40" />
-        <mark key="[" line="226" column="64" />
-        <mark key="]" line="226" column="160" />
-        <mark key="." line="226" column="64" />
-        <mark key="^" line="222" column="144" />
+        <mark key="[" line="123" column="16" />
+        <mark key="]" line="123" column="16" />
+        <mark key="." line="123" column="16" />
+        <mark key="^" line="234" column="146" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594361318364">
         <mark key="[" line="12" column="0" />
@@ -1046,10 +1046,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>fmt.Sprintf(evaluationAggFieldTemplate, evalGroup.Name(), model.RedeemedPointAgg.PctFieldName())</text>
+        <text>, _</text>
       </register>
       <register name="-" type="4">
-        <text>GrossAmountAgg</text>
+        <text>, _</text>
       </register>
       <register name="/" type="4">
         <text>ratelimit</text>
