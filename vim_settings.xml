@@ -106,12 +106,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594429523560">
-        <mark key="'" line="229" column="147" />
-        <mark key="[" line="224" column="53" />
-        <mark key="]" line="224" column="76" />
-        <mark key="." line="224" column="75" />
-        <mark key="^" line="224" column="76" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594430666389">
+        <mark key="'" line="195" column="26" />
+        <mark key="[" line="224" column="35" />
+        <mark key="]" line="224" column="35" />
+        <mark key="." line="224" column="35" />
+        <mark key="^" line="225" column="12" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" timestamp="1594295534947">
         <mark key="'" line="53" column="47" />
@@ -162,18 +162,15 @@
         <mark key="[" line="19" column="11" />
         <mark key="]" line="19" column="47" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594291138610">
+      <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594431215137">
         <mark key="'" line="36" column="14" />
-        <mark key="[" line="23" column="40" />
+        <mark key="[" line="68" column="1" />
         <mark key="]" line="23" column="40" />
         <mark key="." line="23" column="40" />
         <mark key="^" line="64" column="26" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="29" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="77" column="44" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="78" column="44" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="223" column="33" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="189" column="0" filename="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-domain/src/main/java/com/rakuten/fpg/ui/admintool/domain/logic/BasicReportLogicImpl.java" />
       <jump line="66" column="18" filename="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/main/java/com/rakuten/fpg/aletheia/domain/util/SuzakuUtilImpl.java" />
@@ -271,6 +268,9 @@
       <jump line="229" column="147" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="73" column="30" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
       <jump line="66" column="56" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
+      <jump line="202" column="19" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="243" column="18" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="195" column="26" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1041,46 +1041,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>model.RedeemedPointAgg.AggResultFieldPath(groupName)</text>
+        <text>:</text>
       </register>
       <register name="-" type="4">
-        <text>ossAmountAgg</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
         <text>PctFieldName</text>
       </register>
       <register name="0" type="4">
-        <text>model.RedeemedPointAgg.AggResultFieldPath(groupName)</text>
+        <text>couponDiscountsPct</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQlpZiBlcnIgIT0gbmlsIHsKCQl9Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXJldHVybiBWYWxpZFJlcG9ydEFnZ3JlZ2F0aW9uRmllbGRzW3JdLmFnZ0ZpZWxkTmFtZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkJcmV0dXJuIG5pbCwgZXJyCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">YnVja2V0U2NyaXB0UGF0aFZhbHVlVGVtcGxhdGUgPSAiJXM+JXMiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWJ1Y2tldFNjcmlwdFBhdGhWYWx1ZVRlbXBsYXRlID0gIiVzPiVzIgo=</text>
+        <text encoding="base64">CQkJcmV0dXJuIG5pbCwgZXJyCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWV2YWx1YXRpb25BZ2dGaWVsZFRlbXBsYXRlICAgID0gIiVzXyVzIgo=</text>
+        <text encoding="base64">CQl9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXJlcG9ydE9yZGVySWRGaWVsZE5hbWUgICAgICAgID0gIm9yZGVyLm9yZGVySWQiCglyZXBvcnRHcm9zc0Ftb3VudEZpZWxkTmFtZSAgICA9ICJwYXltZW50SW5mby5ncm9zc0Ftb3VudCIKCXJlcG9ydFJlZGVlbWVkUG9pbnRGaWVsZE5hbWUgID0gInBheW1lbnRJbmZvLnJlZGVlbWVkUG9pbnQiCglyZXBvcnRDb3Vwb25EaXNjb3VudEZpZWxkTmFtZSA9ICJwYXltZW50SW5mby5jb3Vwb25EaXNjb3VudCIK</text>
+        <text encoding="base64">CQlpZiBlcnIgIT0gbmlsIHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CW9yZGVyTnVtYmVyQWdnRmllbGROYW1lICAgICAgID0gIm9yZGVycyIKCWdyb3NzQW1vdW50QWdnRmllbGROYW1lICAgICAgID0gImdtcyIKCXJlZGVlbWVkUG9pbnRBZ2dGaWVsZE5hbWUgICAgID0gInJlZGVlbWVkUG9pbnRzIgoJY291cG9uRGlzY291bnRBZ2dGaWVsZE5hbWUgICAgPSAiY291cG9uRGlzY291bnRzIgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQl9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
