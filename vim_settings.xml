@@ -11,8 +11,6 @@
         <entry>port</entry>
         <entry>password</entry>
         <entry>query</entry>
-        <entry>Name</entry>
-        <entry>Name()</entry>
         <entry>redeem</entry>
         <entry>valida</entry>
         <entry>Aggregations</entry>
@@ -25,6 +23,8 @@
         <entry>date</entry>
         <entry>group_by</entry>
         <entry encoding="base64">XDx1dGlsXD4=</entry>
+        <entry>Name</entry>
+        <entry>Name()</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -105,12 +105,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594448707402">
-        <mark key="'" line="19" column="0" />
-        <mark key="[" line="200" column="35" />
-        <mark key="]" line="200" column="55" />
-        <mark key="." line="200" column="54" />
-        <mark key="^" line="200" column="55" />
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594450212245">
+        <mark key="'" line="154" column="14" />
+        <mark key="[" line="248" column="50" />
+        <mark key="]" line="248" column="50" />
+        <mark key="." line="248" column="50" />
+        <mark key="^" line="236" column="97" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594447170895">
         <mark key="[" line="8" column="0" />
@@ -152,12 +152,12 @@
         <mark key="^" line="13" column="38" />
         <mark key="." line="13" column="37" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594448460763">
+      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594450452633">
         <mark key="'" line="115" column="97" />
-        <mark key="[" line="136" column="0" />
-        <mark key="]" line="136" column="0" />
-        <mark key="." line="136" column="0" />
-        <mark key="^" line="13" column="4" />
+        <mark key="[" line="156" column="1" />
+        <mark key="]" line="100" column="0" />
+        <mark key="." line="100" column="0" />
+        <mark key="^" line="107" column="66" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1594367259006">
         <mark key="[" line="4" column="0" />
@@ -177,9 +177,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="171" column="24" filename="$USER_HOME$/go/src/peitho/internal/execpipe/pipelines.go" />
-      <jump line="60" column="4" filename="$USER_HOME$/go/src/peitho/internal/execpipe/pipelines.go" />
-      <jump line="36" column="25" filename="$USER_HOME$/go/src/peitho/internal/ipc/evh.go" />
       <jump line="33" column="19" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="175" column="16" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="516" column="15" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -219,10 +216,8 @@
       <jump line="194" column="8" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="219" column="12" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="232" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
-      <jump line="130" column="29" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="135" column="94" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="144" column="78" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="142" column="12" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="139" column="16" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="27" column="42" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="70" column="3" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
@@ -277,6 +272,11 @@
       <jump line="186" column="64" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="185" column="5" filename="$USER_HOME$/go/src/odin/util/util.go" />
       <jump line="19" column="0" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="130" column="63" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="131" column="43" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="142" column="21" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="150" column="32" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="154" column="14" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1046,14 +1046,14 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text encoding="base64">IHV0aWwuQ29udmVydEZsb2F0NjRUb1N0cmluZyh0b3RhbENvdXBvbkRpc2NvdW50LCBuaWwp</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHV0aWwuQ29udmVydEZsb2F0NjRUb1N0cmluZyh0b3RhbENvdXBvbkRpc2NvdW50LCBuaWwp</text>
+        <text>r.TotalResultFieldPath()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1dGlsXD4=</text>
+        <text>Name()</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZnVuYyAociBSZXBvcnRBZ2dyZWdhdGlvbkZpZWxkKSBBZ2dSZXN1bHREaXNwbGF5VmFsdWUoYnVja2V0IEJhc2ljUmVwb3J0QnVja2V0LCBncm91cE5hbWUgc3RyaW5nKSAocmVzdWx0ICpzdHJpbmcsIGVyciBlcnJvcikgewoJdmFyIGZsb2F0VmFsdWUgKmZsb2F0NjQKCWlmIGZsb2F0VmFsdWUsIGVyciA9IHV0aWwuR2V0RmxvYXQ2NEZpZWxkKHIuQWdnUmVzdWx0RmllbGRQYXRoKGdyb3VwTmFtZSksIGJ1Y2tldCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJZmxvYXRXaXRoQ29tbWEgOj0gdXRpbC5Db21tYWYoKmZsb2F0VmFsdWUpCgl2YXIgcmVzdWx0U3RyaW5nIHN0cmluZwoJaWYgci5EaXNwbGF5V2l0aEN1cnJlbmN5KCkgewoJCXJlc3VsdFN0cmluZyA9IGZtdC5TcHJpbnRmKHJlcG9ydEN1cnJlbmN5VGVtcGxhdGUsIGZsb2F0V2l0aENvbW1hKQoJfSBlbHNlIHsKCQlyZXN1bHRTdHJpbmcgPSBmbG9hdFdpdGhDb21tYQoJfQoJcmV0dXJuICZyZXN1bHRTdHJpbmcsIG5pbAp9Cg==</text>
@@ -1065,28 +1065,28 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXBjdFByZWNpc2lvbiAgICAgICAgICAgICAgICAgID0gMgo=</text>
+        <text encoding="base64">ZnVuYyAociBSZXBvcnRBZ2dyZWdhdGlvbkZpZWxkKSBUb3RhbFJlc3VsdEZpZWxkUGF0aCgpIFtdc3RyaW5nIHsKCXJldHVybiAKfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWZsb2F0V2l0aENvbW1hIDo9IHV0aWwuQ29tbWFmKCpmbG9hdFZhbHVlKQoJdmFyIHJlc3VsdFN0cmluZyBzdHJpbmcKCWlmIHIuRGlzcGxheVdpdGhDdXJyZW5jeSgpIHsKCQlyZXN1bHRTdHJpbmcgPSBmbXQuU3ByaW50ZihyZXBvcnRDdXJyZW5jeVRlbXBsYXRlLCBmbG9hdFdpdGhDb21tYSkKCX0gZWxzZSB7CgkJcmVzdWx0U3RyaW5nID0gZmxvYXRXaXRoQ29tbWEKCX0K</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">CXBjdFByZWNpc2lvbiAgICAgICAgICAgICAgICAgID0gMgo=</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">CXJlc3VsdCA9ICZyZXN1bHRTdHJpbmcK</text>
+        <text encoding="base64">CWZsb2F0V2l0aENvbW1hIDo9IHV0aWwuQ29tbWFmKCpmbG9hdFZhbHVlKQoJdmFyIHJlc3VsdFN0cmluZyBzdHJpbmcKCWlmIHIuRGlzcGxheVdpdGhDdXJyZW5jeSgpIHsKCQlyZXN1bHRTdHJpbmcgPSBmbXQuU3ByaW50ZihyZXBvcnRDdXJyZW5jeVRlbXBsYXRlLCBmbG9hdFdpdGhDb21tYSkKCX0gZWxzZSB7CgkJcmVzdWx0U3RyaW5nID0gZmxvYXRXaXRoQ29tbWEKCX0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CXZhciByZXN1bHRTdHJpbmcgc3RyaW5nCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXZhciByZXN1bHQK</text>
+        <text encoding="base64">CXJlc3VsdCA9ICZyZXN1bHRTdHJpbmcK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CWN1cnJlbmN5VGVtcGxhdGUgPSAiSlBZICVzIgo=</text>
+        <text encoding="base64">CXZhciByZXN1bHRTdHJpbmcgc3RyaW5nCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CXJlcG9ydEN1cnJlbmN5VGVtcGxhdGUgPSAiSlBZICVzIgo=</text>
+        <text encoding="base64">CXZhciByZXN1bHQK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1095,12 +1095,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx1dGlsXD4=</last-search>
+      <last-search>Name()</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1dGlsXD4=</last-pattern>
+      <last-pattern>Name()</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
   </component>
