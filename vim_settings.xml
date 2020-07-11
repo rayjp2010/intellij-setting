@@ -67,11 +67,11 @@
       <file name="$USER_HOME$/go/src/odin/go.mod" timestamp="1594348602510">
         <mark key="'" line="15" column="11" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594431983532">
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594453330697">
         <mark key="'" line="233" column="0" />
-        <mark key="[" line="279" column="50" />
-        <mark key="]" line="279" column="50" />
-        <mark key="." line="279" column="50" />
+        <mark key="[" line="301" column="0" />
+        <mark key="]" line="301" column="0" />
+        <mark key="." line="301" column="0" />
         <mark key="^" line="256" column="40" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-web/src/main/resources/application.properties" timestamp="1594294215212">
@@ -105,12 +105,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594450212245">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594453724342">
         <mark key="'" line="154" column="14" />
-        <mark key="[" line="248" column="50" />
-        <mark key="]" line="248" column="50" />
-        <mark key="." line="248" column="50" />
-        <mark key="^" line="236" column="97" />
+        <mark key="[" line="118" column="13" />
+        <mark key="]" line="118" column="12" />
+        <mark key="." line="118" column="11" />
+        <mark key="^" line="118" column="12" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594447170895">
         <mark key="[" line="8" column="0" />
@@ -152,12 +152,12 @@
         <mark key="^" line="13" column="38" />
         <mark key="." line="13" column="37" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594450452633">
-        <mark key="'" line="115" column="97" />
-        <mark key="[" line="156" column="1" />
-        <mark key="]" line="100" column="0" />
-        <mark key="." line="100" column="0" />
-        <mark key="^" line="107" column="66" />
+      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594451684115">
+        <mark key="'" line="158" column="13" />
+        <mark key="[" line="54" column="5" />
+        <mark key="]" line="54" column="6" />
+        <mark key="." line="54" column="5" />
+        <mark key="^" line="54" column="6" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1594367259006">
         <mark key="[" line="4" column="0" />
@@ -169,15 +169,14 @@
         <mark key="[" line="19" column="11" />
         <mark key="]" line="19" column="47" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594432175144">
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="69" column="0" />
-        <mark key="." line="69" column="0" />
-        <mark key="^" line="21" column="55" />
+      <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594452710852">
+        <mark key="[" line="35" column="41" />
+        <mark key="]" line="35" column="27" />
+        <mark key="." line="35" column="26" />
+        <mark key="^" line="35" column="27" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="19" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="175" column="16" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="516" column="15" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="528" column="208" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -277,6 +276,7 @@
       <jump line="142" column="21" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="150" column="32" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="154" column="14" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
+      <jump line="158" column="13" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1046,47 +1046,53 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>(groupAgg</text>
       </register>
       <register name="-" type="4">
-        <text>r.TotalResultFieldPath()</text>
+        <text>(groupAgg</text>
       </register>
       <register name="/" type="4">
         <text>Name()</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnVuYyAociBSZXBvcnRBZ2dyZWdhdGlvbkZpZWxkKSBBZ2dSZXN1bHREaXNwbGF5VmFsdWUoYnVja2V0IEJhc2ljUmVwb3J0QnVja2V0LCBncm91cE5hbWUgc3RyaW5nKSAocmVzdWx0ICpzdHJpbmcsIGVyciBlcnJvcikgewoJdmFyIGZsb2F0VmFsdWUgKmZsb2F0NjQKCWlmIGZsb2F0VmFsdWUsIGVyciA9IHV0aWwuR2V0RmxvYXQ2NEZpZWxkKHIuQWdnUmVzdWx0RmllbGRQYXRoKGdyb3VwTmFtZSksIGJ1Y2tldCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJZmxvYXRXaXRoQ29tbWEgOj0gdXRpbC5Db21tYWYoKmZsb2F0VmFsdWUpCgl2YXIgcmVzdWx0U3RyaW5nIHN0cmluZwoJaWYgci5EaXNwbGF5V2l0aEN1cnJlbmN5KCkgewoJCXJlc3VsdFN0cmluZyA9IGZtdC5TcHJpbnRmKHJlcG9ydEN1cnJlbmN5VGVtcGxhdGUsIGZsb2F0V2l0aENvbW1hKQoJfSBlbHNlIHsKCQlyZXN1bHRTdHJpbmcgPSBmbG9hdFdpdGhDb21tYQoJfQoJcmV0dXJuICZyZXN1bHRTdHJpbmcsIG5pbAp9Cg==</text>
+        <text encoding="base64">CXJldHVybiBbXXN0cmluZ3tyLlBjdEZpZWxkUGF0aChncm91cE5hbWUpLCAidmFsdWUifQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CXJldHVybiByZXN1bHQK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnVuYyAociBSZXBvcnRBZ2dyZWdhdGlvbkZpZWxkKSBUb3RhbFJlc3VsdEZpZWxkUGF0aCgpIFtdc3RyaW5nIHsKCXJldHVybiAKfQo=</text>
+        <text encoding="base64">CXZhciByZXN1bHQgdXRpbC5Kc29uTWFwCg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CXBjdFByZWNpc2lvbiAgICAgICAgICAgICAgICAgID0gMgo=</text>
+        <text>func Aggregations(aggsMap JsonMap) (aggs JsonMap) {
+	aggs = JsonMap{}
+	for k, v := range aggsMap {
+		aggs[k] = v
+	}
+	return aggs
+}</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CWZsb2F0V2l0aENvbW1hIDo9IHV0aWwuQ29tbWFmKCpmbG9hdFZhbHVlKQoJdmFyIHJlc3VsdFN0cmluZyBzdHJpbmcKCWlmIHIuRGlzcGxheVdpdGhDdXJyZW5jeSgpIHsKCQlyZXN1bHRTdHJpbmcgPSBmbXQuU3ByaW50ZihyZXBvcnRDdXJyZW5jeVRlbXBsYXRlLCBmbG9hdFdpdGhDb21tYSkKCX0gZWxzZSB7CgkJcmVzdWx0U3RyaW5nID0gZmxvYXRXaXRoQ29tbWEKCX0K</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ZnVuYyBiYXNpY1JlcG9ydFNlYXJjaEJvZHkocmVxICptb2RlbC5CYXNpY1JlcG9ydFNlYXJjaFJlcXVlc3QpIHV0aWwuSnNvbk1hcCB7CglzZWFyY2hDb25kaXRpb24gOj0gdXRpbC5EYXRlUmFuZ2VDb25kaXRpb24ocmVwb3J0UmVxdWVzdERhdGVGaWVsZE5hbWUsIHJlcS5TdGFydERhdGUsIHJlcS5FbmREYXRlKQoJYWdncmVnYXRpb25zIDo9IGFnZ1RvcEdyb3VwKHJlcS5JbnRlcnZhbCkKCXJldHVybiB1dGlsLlF1ZXJ5V2l0aEFnZ3JlZ2F0aW9uKHNlYXJjaENvbmRpdGlvbiwgYWdncmVnYXRpb25zKQp9Cg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">CXJlc3VsdCA9ICZyZXN1bHRTdHJpbmcK</text>
+        <text encoding="base64">CW1zZ1ByaW50ZXIgICAgICAgICAgPSBtZXNzYWdlLk5ld1ByaW50ZXIobWVzc2FnZS5NYXRjaExhbmd1YWdlKCJqcCIpKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CXZhciByZXN1bHRTdHJpbmcgc3RyaW5nCg==</text>
+        <text encoding="base64">CW1zZ1ByaW50ZXIgICAgICAgICAgPSBtZXNzYWdlLk5ld1ByaW50ZXIobWVzc2FnZS5NYXRjaExhbmd1YWdlKCJqcCIpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CXZhciByZXN1bHQK</text>
+        <text encoding="base64">IG1zZ1ByaW50ZXIgPSBtZXNzYWdlLk5ld1ByaW50ZXIobWVzc2FnZS5NYXRjaExhbmd1YWdlKCJqcCIpKQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
