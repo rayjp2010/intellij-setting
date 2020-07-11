@@ -106,12 +106,12 @@
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="33" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594433191954">
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594433267780">
         <mark key="'" line="55" column="0" />
-        <mark key="[" line="161" column="67" />
-        <mark key="]" line="161" column="77" />
-        <mark key="." line="161" column="76" />
-        <mark key="^" line="161" column="77" />
+        <mark key="[" line="199" column="75" />
+        <mark key="]" line="200" column="23" />
+        <mark key="." line="200" column="22" />
+        <mark key="^" line="200" column="23" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dbtest/src/main/java/com/rakuten/fpg/ui/admintool/tests/util/ServiceUtil.java" timestamp="1594295534947">
         <mark key="'" line="53" column="47" />
@@ -1039,47 +1039,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>interval.Name()</text>
+      <register name="*" type="2">
+        <text encoding="base64">CQlyZXBvcnRSc3AuUmVwb3J0cyA9IHJlcG9ydEJ5RXZhbE1vZGVscwo=</text>
       </register>
       <register name="-" type="4">
-        <text>interval.Name()</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
         <text>group_by</text>
       </register>
       <register name="0" type="4">
-        <text>couponDiscountsPct</text>
+        <text>reportRsp.Reports</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQlyZXBvcnRSc3AuUmVwb3J0cyA9IHJlcG9ydEJ5RXZhbE1vZGVscwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CWlmIGR1cmF0aW9uLCBlcnIgPSB1dGlsLkdldFN0cmluZ0ZpZWxkKFtdc3RyaW5ne2R1cmF0aW9uRmllbGROYW1lfSwgcmVwb3J0QnVja2V0KTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CWlmIGR1cmF0aW9uLCBlcnIgPSB1dGlsLkdldFN0cmluZ0ZpZWxkKFtdc3RyaW5ne2R1cmF0aW9uRmllbGROYW1lfSwgcmVwb3J0QnVja2V0KTsgZXJyICE9IG5pbCB7Cg==</text>
+        <text encoding="base64">CWlmIGR1cmF0aW9uLCBlcnIgPSB1dGlsLkdldFN0cmluZ0ZpZWxkKFtdc3RyaW5ne2R1cmF0aW9uRmllbGROYW1lfSwgcmVwb3J0QnVja2V0KTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CXJlcG9ydFJzcC5EdXJhdGlvbgo=</text>
+        <text encoding="base64">CWlmIGR1cmF0aW9uLCBlcnIgPSB1dGlsLkdldFN0cmluZ0ZpZWxkKFtdc3RyaW5ne2R1cmF0aW9uRmllbGROYW1lfSwgcmVwb3J0QnVja2V0KTsgZXJyICE9IG5pbCB7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuYyAociAqUmVwb3J0SW50ZXJ2YWwpIFJlc3VsdER1cmF0aW9uKCkgc3RyaW5nIHsKCn0K</text>
+        <text encoding="base64">CXJlcG9ydFJzcC5EdXJhdGlvbgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQlpZiBlcnIgIT0gbmlsIHsKCQl9Cg==</text>
+        <text encoding="base64">ZnVuYyAociAqUmVwb3J0SW50ZXJ2YWwpIFJlc3VsdER1cmF0aW9uKCkgc3RyaW5nIHsKCn0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQlpZiBlcnIgIT0gbmlsIHsKCQl9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQkJcmV0dXJuIG5pbCwgZXJyCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkJcmV0dXJuIG5pbCwgZXJyCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
