@@ -81,13 +81,6 @@
         <mark key="." line="0" column="69" />
         <mark key="^" line="0" column="70" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594287483171">
-        <mark key="'" line="19" column="17" />
-        <mark key="[" line="31" column="35" />
-        <mark key="]" line="31" column="23" />
-        <mark key="^" line="31" column="23" />
-        <mark key="." line="31" column="22" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1594352978803">
         <mark key="'" line="154" column="4" />
         <mark key="[" line="155" column="26" />
@@ -134,6 +127,9 @@
         <mark key="[" line="199" column="0" />
         <mark key="]" line="199" column="0" />
         <mark key="." line="199" column="0" />
+      </file>
+      <file name="/" timestamp="1594442724604">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1594356689335">
         <mark key="'" line="0" column="0" />
