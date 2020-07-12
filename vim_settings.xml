@@ -155,9 +155,9 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="35" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594535545433">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594536243525">
         <mark key="'" line="81" column="8" />
-        <mark key="[" line="328" column="4" />
+        <mark key="[" line="327" column="73" />
         <mark key="]" line="327" column="73" />
         <mark key="^" line="327" column="73" />
         <mark key="." line="327" column="72" />
