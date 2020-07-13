@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ratelimit</entry>
-        <entry>PctFieldName</entry>
         <entry>group_by</entry>
         <entry encoding="base64">XDx1dGlsXD4=</entry>
         <entry>Name</entry>
@@ -25,6 +23,8 @@
         <entry>stg-</entry>
         <entry>request_date</entry>
         <entry>for</entry>
+        <entry>io.write</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -83,13 +83,6 @@
         <mark key="]" line="34" column="0" />
         <mark key="^" line="32" column="23" />
         <mark key="." line="34" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_response.go" timestamp="1594352978803">
-        <mark key="'" line="154" column="4" />
-        <mark key="[" line="155" column="26" />
-        <mark key="]" line="155" column="42" />
-        <mark key="^" line="148" column="24" />
-        <mark key="." line="153" column="22" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1594445918566">
         <mark key="[" line="587" column="90" />
@@ -152,25 +145,28 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="35" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594620843851">
-        <mark key="'" line="672" column="0" />
-        <mark key="[" line="9" column="18" />
-        <mark key="]" line="9" column="19" />
-        <mark key="." line="9" column="19" />
-        <mark key="^" line="687" column="26" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594622789665">
+        <mark key="'" line="752" column="0" />
+        <mark key="[" line="48" column="18" />
+        <mark key="]" line="48" column="21" />
+        <mark key="^" line="48" column="21" />
+        <mark key="." line="48" column="20" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594610863185">
-        <mark key="'" line="97" column="35" />
-        <mark key="[" line="96" column="0" />
-        <mark key="]" line="96" column="0" />
-        <mark key="." line="96" column="0" />
-        <mark key="^" line="99" column="66" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594622519894">
+        <mark key="'" line="55" column="8" />
+        <mark key="[" line="84" column="0" />
+        <mark key="]" line="84" column="0" />
+        <mark key="^" line="97" column="66" />
+        <mark key="." line="84" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1594367259006">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="64" />
         <mark key="." line="4" column="45" />
         <mark key="^" line="4" column="53" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1594621918837">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="/docker-compose.yml" timestamp="1594362689127">
         <mark key="[" line="19" column="11" />
@@ -183,20 +179,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="11" filename="$USER_HOME$/go/src/odin/go.mod" />
-      <jump line="162" column="11" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="96" column="25" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
-      <jump line="113" column="0" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="47" column="4" filename="$USER_HOME$/go/src/odin/model/http_response.go" />
-      <jump line="154" column="4" filename="$USER_HOME$/go/src/odin/model/search_response.go" />
-      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" />
-      <jump line="59" column="0" filename="$USER_HOME$/go/src/odin/model/basic_report.go" />
-      <jump line="57" column="0" filename="$USER_HOME$/go/src/odin/model/basic_report.go" />
-      <jump line="112" column="5" filename="$USER_HOME$/go/src/odin/util/util.go" />
-      <jump line="44" column="62" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
-      <jump line="179" column="40" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="175" column="14" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="173" column="1" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="13" column="37" filename="$USER_HOME$/go/src/odin/model/basic_report.go" />
       <jump line="126" column="81" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="205" column="131" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
@@ -283,6 +265,20 @@
       <jump line="83" column="15" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="129" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="672" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+      <jump line="11" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="99" column="33" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="114" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="115" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="84" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="56" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="97" column="16" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="112" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="113" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="53" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="55" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="753" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1052,47 +1048,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGxhc3RfbW9udGggPSBub3cgLSByZWxhdGl2ZWRlbHRhKG1vbnRocz0xMikK</text>
+      <register name="*" type="4">
+        <text>orange</text>
       </register>
       <register name="-" type="4">
-        <text>last_month, now</text>
+        <text>orange</text>
       </register>
       <register name="/" type="4">
-        <text>for</text>
+        <text>print</text>
       </register>
       <register name="0" type="4">
         <text>relativedelta</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGxhc3RfbW9udGggPSBub3cgLSByZWxhdGl2ZWRlbHRhKG1vbnRocz0xMikK</text>
+        <text encoding="base64">ICAgIHByaW50IChyZXN1bHQpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRpZmZNb250aCA9IDEKICAgIG5vdyA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgncXVlcnkgYm9keScsIHF1ZXJ5X2JvZHkpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">L2Zvcgo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgncXVlcnkgaW5kZXhlcycsIGluZGV4ZXMpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRhdGV0aW1lLmRhdGV0aW1lLgo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAoJ3dyaXR0ZW4nICsgaGVhZGVyX3JvdykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzY3JvbGxfaWQK</text>
+        <text encoding="base64">ICAgIGxhc3RfbW9udGggPSBub3cgLSByZWxhdGl2ZWRlbHRhKG1vbnRocz0xMikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwo=</text>
+        <text encoding="base64">ICAgIGRpZmZNb250aCA9IDEKICAgIG5vdyA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwogICAgICAgIHByaW50IHNjcm9sbF9pZAo=</text>
+        <text encoding="base64">L2Zvcgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwogICAgICAgIHByaW50IHNjcm9sbF9pZAo=</text>
+        <text encoding="base64">ICAgIGRhdGV0aW1lLmRhdGV0aW1lLgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgncXVlcnkgaW5kZXhlcycsIGluZGV4ZXMpCiAgICAgICAgcHJpbnQoJ3F1ZXJ5IGJvZHknLCBxdWVyeV9ib2R5KQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzY3JvbGxfaWQK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1101,9 +1097,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>for</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>for</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
