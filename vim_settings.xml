@@ -152,12 +152,12 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="35" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594610963115">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594618843188">
         <mark key="'" line="58" column="20" />
-        <mark key="[" line="9" column="19" />
-        <mark key="]" line="9" column="20" />
-        <mark key="." line="9" column="19" />
-        <mark key="^" line="9" column="20" />
+        <mark key="[" line="688" column="45" />
+        <mark key="]" line="688" column="46" />
+        <mark key="." line="688" column="45" />
+        <mark key="^" line="688" column="46" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594610863185">
         <mark key="'" line="97" column="35" />
