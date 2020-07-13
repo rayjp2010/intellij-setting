@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>auto</entry>
         <entry>ratelimit</entry>
         <entry>PctFieldName</entry>
         <entry>group_by</entry>
@@ -25,6 +24,7 @@
         <entry>scro</entry>
         <entry>stg-</entry>
         <entry>request_date</entry>
+        <entry>for</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -152,11 +152,12 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="35" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594619366691">
-        <mark key="'" line="58" column="20" />
-        <mark key="[" line="688" column="23" />
-        <mark key="]" line="688" column="35" />
-        <mark key="." line="688" column="0" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594620843851">
+        <mark key="'" line="672" column="0" />
+        <mark key="[" line="9" column="18" />
+        <mark key="]" line="9" column="19" />
+        <mark key="." line="9" column="19" />
+        <mark key="^" line="687" column="26" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594610863185">
         <mark key="'" line="97" column="35" />
@@ -182,7 +183,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="167" column="49" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="15" column="11" filename="$USER_HOME$/go/src/odin/go.mod" />
       <jump line="162" column="11" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="96" column="25" filename="$USER_HOME$/go/src/odin/model/report_group.go" />
@@ -282,6 +282,7 @@
       <jump line="56" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="83" column="15" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="129" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
+      <jump line="672" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1051,47 +1052,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>relativedelta</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGxhc3RfbW9udGggPSBub3cgLSByZWxhdGl2ZWRlbHRhKG1vbnRocz0xMikK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>last_month, now</text>
       </register>
       <register name="/" type="4">
-        <text>request_date</text>
+        <text>for</text>
       </register>
       <register name="0" type="4">
         <text>relativedelta</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRhdGV0aW1lLmRhdGV0aW1lLgo=</text>
+        <text encoding="base64">ICAgIGxhc3RfbW9udGggPSBub3cgLSByZWxhdGl2ZWRlbHRhKG1vbnRocz0xMikK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzY3JvbGxfaWQK</text>
+        <text encoding="base64">ICAgIGRpZmZNb250aCA9IDEKICAgIG5vdyA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwo=</text>
+        <text encoding="base64">L2Zvcgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwogICAgICAgIHByaW50IHNjcm9sbF9pZAo=</text>
+        <text encoding="base64">ICAgIGRhdGV0aW1lLmRhdGV0aW1lLgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwogICAgICAgIHByaW50IHNjcm9sbF9pZAo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzY3JvbGxfaWQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgncXVlcnkgaW5kZXhlcycsIGluZGV4ZXMpCiAgICAgICAgcHJpbnQoJ3F1ZXJ5IGJvZHknLCBxdWVyeV9ib2R5KQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50IHJlc3VsdHMK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwogICAgICAgIHByaW50IHNjcm9sbF9pZAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBlc19zY3JvbGxfYWxpdmVfdGltZQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cwogICAgICAgIHByaW50IHNjcm9sbF9pZAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCByYXdfcmVzdWx0cy5nZXQoJ3Njcm9sbF9pZCcpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgncXVlcnkgaW5kZXhlcycsIGluZGV4ZXMpCiAgICAgICAgcHJpbnQoJ3F1ZXJ5IGJvZHknLCBxdWVyeV9ib2R5KQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1100,9 +1101,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>request_date</last-search>
+      <last-search>for</last-search>
       <last-offset />
-      <last-pattern>request_date</last-pattern>
+      <last-pattern>for</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
