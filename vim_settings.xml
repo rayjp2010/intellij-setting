@@ -138,12 +138,12 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="35" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594622789665">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594635846119">
         <mark key="'" line="752" column="0" />
-        <mark key="[" line="48" column="18" />
-        <mark key="]" line="48" column="21" />
-        <mark key="^" line="48" column="21" />
-        <mark key="." line="48" column="20" />
+        <mark key="[" line="741" column="63" />
+        <mark key="]" line="741" column="63" />
+        <mark key="^" line="732" column="79" />
+        <mark key="." line="741" column="63" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594622519894">
         <mark key="'" line="55" column="8" />
@@ -1045,16 +1045,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>orange</text>
+        <text>, 20001</text>
       </register>
       <register name="-" type="4">
-        <text>orange</text>
+        <text>, 20001</text>
       </register>
       <register name="/" type="4">
         <text>create</text>
       </register>
       <register name="0" type="4">
-        <text>relativedelta</text>
+        <text>, 20001</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHByaW50IChyZXN1bHQpCg==</text>
