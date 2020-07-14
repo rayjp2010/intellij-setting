@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>duration</entry>
-        <entry>date_hi</entry>
         <entry>date</entry>
         <entry>timezone</entry>
         <entry>zone</entry>
@@ -25,6 +23,8 @@
         <entry>currency</entry>
         <entry>host</entry>
         <entry>prefix</entry>
+        <entry>failing in</entry>
+        <entry>getting field</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -125,12 +125,12 @@
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" timestamp="1594648110087">
         <mark key="'" line="130" column="22" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1594456712545">
-        <mark key="'" line="84" column="5" />
-        <mark key="[" line="245" column="29" />
-        <mark key="]" line="245" column="32" />
-        <mark key="." line="245" column="31" />
-        <mark key="^" line="245" column="32" />
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1594711973946">
+        <mark key="'" line="245" column="39" />
+        <mark key="[" line="194" column="59" />
+        <mark key="]" line="194" column="59" />
+        <mark key="." line="194" column="59" />
+        <mark key="^" line="205" column="97" />
       </file>
       <file name="/" timestamp="1594701436010">
         <mark key="[" line="0" column="0" />
@@ -176,7 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="177" column="18" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="14" column="12" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="16" column="44" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="210" column="31" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
@@ -276,6 +275,7 @@
       <jump line="192" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="236" column="29" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="73" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="245" column="39" filename="$USER_HOME$/go/src/odin/util/util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1046,46 +1046,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">Y0dGemMyOWthVzQ9IA==</text>
+        <text>tring</text>
       </register>
       <register name="-" type="4">
-        <text>JPY</text>
+        <text>tring</text>
       </register>
       <register name="/" type="4">
-        <text>prefix</text>
+        <text>getting field</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">Y0dGemMyOWthVzQ9IA==</text>
+      <register name="0" type="2">
+        <text encoding="base64">CXJldHVybiBuaWwsIGVycm9ycy5OZXcoZm10LlNwcmludGYoImZhaWxlZCBpbiBnZXR0aW5nIHN0cmluZyBmaWVsZC4gZmllbGRQYXRoOiAlcyIsIGZpZWxkUGF0aCkpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CS8vIFRPRE8gbmVlZHMgdGhlIGZyb250ZW5kIHRvIHNlbmQgY3VycmVuY3kgb3Igc2F2ZSBjdXJyZW5jeSBpbiByZXBvcnQK</text>
+        <text encoding="base64">CXJldHVybiBuaWwsIGVycm9ycy5OZXcoImZhaWxlZCBpbiBnZXR0aW5nIGZsb2F0NjQgZmllbGQiKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBlcy5jbGVhcl9zY3JvbGwK</text>
+        <text encoding="base64">CS8vIFRPRE8gbmVlZHMgdGhlIGZyb250ZW5kIHRvIHNlbmQgY3VycmVuY3kgb3Igc2F2ZSBjdXJyZW5jeSBpbiByZXBvcnQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICcnCg==</text>
+        <text encoding="base64">ICAgICAgICBlcy5jbGVhcl9zY3JvbGwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBxdWVyeV9ib2R5CiAgICAgICAgcHJpbnQgcmF3X3Jlc3VsdHMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICcnCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cHl0aG9uIHRlbXBsYXRlL3NjcmlwdC9taXNjZWxsYW5lb3VzL2JveF9yZXBvcnRfZWxhc3RpY3NlYXJjaC9lbWFpbF9pY2hpYmFfcmVwb3J0X3RvX2JveF9mb2xkZXIucHkgLXQgaHR0cDovLzEwMC43Ny4yMTUuMTM3OjgwIC11IG9kaW4gLXAgY0dGemMyOWthVzQ9IC1pIERhaWx5Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBxdWVyeV9ib2R5CiAgICAgICAgcHJpbnQgcmF3X3Jlc3VsdHMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">IyBUT0RPIG5lZWQgdG8gYmUgY2hhbmdlZCB0byBwcmQgY29uZmlnIGJ5IHJlZ3VsYXIgZW1wbG95ZWUKIyBlc19ob3N0ID0gImh0dHA6Ly8xMDAuNzcuMjE1LjEzNzo4MCIKIyBlc191c2VyID0gIm9kaW4iCiMgZXNfb2JmdXNjYXRlZF9wYXNzd29yZCA9ICJjR0Z6YzI5a2FXND0iCiMgZXNfcGFzc3dvcmQgPSBiYXNlNjQuYjY0ZGVjb2RlKGVzX29iZnVzY2F0ZWRfcGFzc3dvcmQpCg==</text>
+        <text encoding="base64">cHl0aG9uIHRlbXBsYXRlL3NjcmlwdC9taXNjZWxsYW5lb3VzL2JveF9yZXBvcnRfZWxhc3RpY3NlYXJjaC9lbWFpbF9pY2hpYmFfcmVwb3J0X3RvX2JveF9mb2xkZXIucHkgLXQgaHR0cDovLzEwMC43Ny4yMTUuMTM3OjgwIC11IG9kaW4gLXAgY0dGemMyOWthVzQ9IC1pIERhaWx5Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">IyBUT0RPIG5lZWQgdG8gYmUgY2hhbmdlZCB0byBwcmQgY29uZmlnIGJ5IHJlZ3VsYXIgZW1wbG95ZWUKIyBlc19ob3N0ID0gImh0dHA6Ly8xMDAuNzcuMjE1LjEzNzo4MCIKIyBlc191c2VyID0gIm9kaW4iCiMgZXNfb2JmdXNjYXRlZF9wYXNzd29yZCA9ICJjR0Z6YzI5a2FXND0iCiMgZXNfcGFzc3dvcmQgPSBiYXNlNjQuYjY0ZGVjb2RlKGVzX29iZnVzY2F0ZWRfcGFzc3dvcmQpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
+        <text encoding="base64">IyBUT0RPIG5lZWQgdG8gYmUgY2hhbmdlZCB0byBwcmQgY29uZmlnIGJ5IHJlZ3VsYXIgZW1wbG95ZWUKIyBlc19ob3N0ID0gImh0dHA6Ly8xMDAuNzcuMjE1LjEzNzo4MCIKIyBlc191c2VyID0gIm9kaW4iCiMgZXNfb2JmdXNjYXRlZF9wYXNzd29yZCA9ICJjR0Z6YzI5a2FXND0iCiMgZXNfcGFzc3dvcmQgPSBiYXNlNjQuYjY0ZGVjb2RlKGVzX29iZnVzY2F0ZWRfcGFzc3dvcmQpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZXNfdXNlciA9IGFyZ3MudXNlcgo=</text>
+        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1094,9 +1094,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>prefix</last-search>
+      <last-search>getting field</last-search>
       <last-offset />
-      <last-pattern>prefix</last-pattern>
+      <last-pattern>getting field</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
