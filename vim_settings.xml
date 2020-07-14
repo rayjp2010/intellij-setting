@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Name()</entry>
         <entry>group</entry>
         <entry>offset</entry>
         <entry>duration</entry>
@@ -25,6 +24,7 @@
         <entry>api</entry>
         <entry>create</entry>
         <entry>item name</entry>
+        <entry>currency</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -81,12 +81,12 @@
         <mark key="." line="286" column="30" />
         <mark key="^" line="286" column="31" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594457306233">
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594701356272">
         <mark key="'" line="32" column="22" />
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="34" column="0" />
-        <mark key="^" line="32" column="23" />
-        <mark key="." line="34" column="0" />
+        <mark key="[" line="34" column="26" />
+        <mark key="]" line="34" column="27" />
+        <mark key="^" line="34" column="44" />
+        <mark key="." line="34" column="27" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/util/EventUtilProfileImplTest.java" timestamp="1594649457952">
         <mark key="'" line="56" column="8" />
@@ -112,10 +112,11 @@
         <mark key="." line="178" column="21" />
         <mark key="^" line="178" column="22" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594447170895">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594701655034">
+        <mark key="[" line="7" column="30" />
+        <mark key="]" line="7" column="32" />
+        <mark key="." line="7" column="31" />
+        <mark key="^" line="7" column="32" />
       </file>
       <file name="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/transport.py" timestamp="1594652924794">
         <mark key="[" line="304" column="34" />
@@ -137,15 +138,15 @@
         <mark key="." line="245" column="31" />
         <mark key="^" line="245" column="32" />
       </file>
-      <file name="/" timestamp="1594442724604">
+      <file name="/" timestamp="1594701436010">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594455091714">
+      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594701643067">
         <mark key="'" line="158" column="13" />
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="41" column="31" />
-        <mark key="." line="41" column="0" />
-        <mark key="^" line="35" column="35" />
+        <mark key="[" line="105" column="59" />
+        <mark key="]" line="104" column="73" />
+        <mark key="." line="104" column="72" />
+        <mark key="^" line="104" column="73" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594653369717">
         <mark key="'" line="8" column="38" />
@@ -1044,46 +1045,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>http://wgpayguard101z.prod.jp.local/nexus/content/groups/public/</text>
+        <text>JPY</text>
       </register>
       <register name="-" type="4">
-        <text>365</text>
+        <text>JPY</text>
       </register>
       <register name="/" type="4">
-        <text>item name</text>
+        <text>currency</text>
       </register>
       <register name="0" type="4">
-        <text>http://wgpayguard101z.prod.jp.local/nexus/content/groups/public/</text>
+        <text encoding="base64">ci5EaXNwbGF5V2l0aEN1cnJlbmN5KCkgJiYgY3VycmVuY3kgIT0gbmlsICYmIGxlbigqY3VycmVuY3kpID4gMA==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBlcy5jbGVhcl9zY3JvbGwK</text>
+        <text encoding="base64">CS8vIFRPRE8gbmVlZHMgdGhlIGZyb250ZW5kIHRvIHNlbmQgY3VycmVuY3kgb3Igc2F2ZSBjdXJyZW5jeSBpbiByZXBvcnQK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICcnCg==</text>
+        <text encoding="base64">ICAgICAgICBlcy5jbGVhcl9zY3JvbGwK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBxdWVyeV9ib2R5CiAgICAgICAgcHJpbnQgcmF3X3Jlc3VsdHMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICcnCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">cHl0aG9uIHRlbXBsYXRlL3NjcmlwdC9taXNjZWxsYW5lb3VzL2JveF9yZXBvcnRfZWxhc3RpY3NlYXJjaC9lbWFpbF9pY2hpYmFfcmVwb3J0X3RvX2JveF9mb2xkZXIucHkgLXQgaHR0cDovLzEwMC43Ny4yMTUuMTM3OjgwIC11IG9kaW4gLXAgY0dGemMyOWthVzQ9IC1pIERhaWx5Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBxdWVyeV9ib2R5CiAgICAgICAgcHJpbnQgcmF3X3Jlc3VsdHMK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">IyBUT0RPIG5lZWQgdG8gYmUgY2hhbmdlZCB0byBwcmQgY29uZmlnIGJ5IHJlZ3VsYXIgZW1wbG95ZWUKIyBlc19ob3N0ID0gImh0dHA6Ly8xMDAuNzcuMjE1LjEzNzo4MCIKIyBlc191c2VyID0gIm9kaW4iCiMgZXNfb2JmdXNjYXRlZF9wYXNzd29yZCA9ICJjR0Z6YzI5a2FXND0iCiMgZXNfcGFzc3dvcmQgPSBiYXNlNjQuYjY0ZGVjb2RlKGVzX29iZnVzY2F0ZWRfcGFzc3dvcmQpCg==</text>
+        <text encoding="base64">cHl0aG9uIHRlbXBsYXRlL3NjcmlwdC9taXNjZWxsYW5lb3VzL2JveF9yZXBvcnRfZWxhc3RpY3NlYXJjaC9lbWFpbF9pY2hpYmFfcmVwb3J0X3RvX2JveF9mb2xkZXIucHkgLXQgaHR0cDovLzEwMC43Ny4yMTUuMTM3OjgwIC11IG9kaW4gLXAgY0dGemMyOWthVzQ9IC1pIERhaWx5Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">IyBUT0RPIG5lZWQgdG8gYmUgY2hhbmdlZCB0byBwcmQgY29uZmlnIGJ5IHJlZ3VsYXIgZW1wbG95ZWUKIyBlc19ob3N0ID0gImh0dHA6Ly8xMDAuNzcuMjE1LjEzNzo4MCIKIyBlc191c2VyID0gIm9kaW4iCiMgZXNfb2JmdXNjYXRlZF9wYXNzd29yZCA9ICJjR0Z6YzI5a2FXND0iCiMgZXNfcGFzc3dvcmQgPSBiYXNlNjQuYjY0ZGVjb2RlKGVzX29iZnVzY2F0ZWRfcGFzc3dvcmQpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
+        <text encoding="base64">IyBUT0RPIG5lZWQgdG8gYmUgY2hhbmdlZCB0byBwcmQgY29uZmlnIGJ5IHJlZ3VsYXIgZW1wbG95ZWUKIyBlc19ob3N0ID0gImh0dHA6Ly8xMDAuNzcuMjE1LjEzNzo4MCIKIyBlc191c2VyID0gIm9kaW4iCiMgZXNfb2JmdXNjYXRlZF9wYXNzd29yZCA9ICJjR0Z6YzI5a2FXND0iCiMgZXNfcGFzc3dvcmQgPSBiYXNlNjQuYjY0ZGVjb2RlKGVzX29iZnVzY2F0ZWRfcGFzc3dvcmQpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZXNfdXNlciA9IGFyZ3MudXNlcgo=</text>
+        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">c3lzLmV4aXQoKQo=</text>
+        <text encoding="base64">ZXNfdXNlciA9IGFyZ3MudXNlcgo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1092,9 +1093,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>item name</last-search>
+      <last-search>currency</last-search>
       <last-offset />
-      <last-pattern>item name</last-pattern>
+      <last-pattern>currency</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
