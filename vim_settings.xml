@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>group</entry>
         <entry>offset</entry>
         <entry>duration</entry>
         <entry>date_hi</entry>
@@ -25,6 +24,7 @@
         <entry>create</entry>
         <entry>item name</entry>
         <entry>currency</entry>
+        <entry>host</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -92,18 +92,12 @@
         <mark key="'" line="56" column="8" />
         <mark key="[" line="61" column="18" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/order.go" timestamp="1594445918566">
-        <mark key="[" line="587" column="90" />
-        <mark key="]" line="587" column="95" />
-        <mark key="^" line="587" column="95" />
-        <mark key="." line="587" column="94" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1594427600517">
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1594703986194">
         <mark key="'" line="391" column="33" />
-        <mark key="[" line="429" column="42" />
-        <mark key="]" line="429" column="51" />
-        <mark key="^" line="429" column="51" />
-        <mark key="." line="429" column="50" />
+        <mark key="[" line="477" column="0" />
+        <mark key="]" line="439" column="99" />
+        <mark key="^" line="439" column="99" />
+        <mark key="." line="439" column="98" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594701816157">
         <mark key="'" line="210" column="31" />
@@ -148,10 +142,10 @@
         <mark key="." line="81" column="59" />
         <mark key="^" line="81" column="60" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594653369717">
-        <mark key="'" line="8" column="38" />
-        <mark key="[" line="697" column="26" />
-        <mark key="]" line="697" column="26" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594704091139">
+        <mark key="'" line="768" column="61" />
+        <mark key="[" line="3" column="140" />
+        <mark key="]" line="3" column="152" />
         <mark key="^" line="697" column="26" />
         <mark key="." line="697" column="25" />
       </file>
@@ -168,6 +162,13 @@
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1594633597944">
         <mark key="'" line="36" column="4" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1594704055164">
+        <mark key="'" line="192" column="28" />
+        <mark key="[" line="238" column="66" />
+        <mark key="]" line="236" column="84" />
+        <mark key="^" line="236" column="84" />
+        <mark key="." line="236" column="83" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594456124949">
         <mark key="[" line="49" column="0" />
         <mark key="]" line="49" column="0" />
@@ -175,13 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="118" column="4" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="120" column="8" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="122" column="12" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="123" column="25" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="124" column="50" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="127" column="44" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="130" column="58" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="137" column="11" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="147" column="8" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="152" column="16" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
@@ -275,6 +269,13 @@
       <jump line="53" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="121" column="38" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="8" column="38" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="16" column="26" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="94" column="117" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="98" column="91" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="100" column="121" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="219" column="82" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="192" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="768" column="61" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1045,16 +1046,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>, currency</text>
+        <text encoding="base64">Y0dGemMyOWthVzQ9IA==</text>
       </register>
       <register name="-" type="4">
         <text>JPY</text>
       </register>
       <register name="/" type="4">
-        <text>currency</text>
+        <text>host</text>
       </register>
       <register name="0" type="4">
-        <text>, currency</text>
+        <text encoding="base64">Y0dGemMyOWthVzQ9IA==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CS8vIFRPRE8gbmVlZHMgdGhlIGZyb250ZW5kIHRvIHNlbmQgY3VycmVuY3kgb3Igc2F2ZSBjdXJyZW5jeSBpbiByZXBvcnQK</text>
@@ -1093,9 +1094,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>currency</last-search>
+      <last-search>host</last-search>
       <last-offset />
-      <last-pattern>currency</last-pattern>
+      <last-pattern>host</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
