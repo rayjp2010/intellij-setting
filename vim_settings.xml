@@ -143,8 +143,8 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="35" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594653324154">
-        <mark key="'" line="53" column="0" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594653369717">
+        <mark key="'" line="8" column="38" />
         <mark key="[" line="697" column="26" />
         <mark key="]" line="697" column="26" />
         <mark key="^" line="697" column="26" />
@@ -176,7 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="112" column="22" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="118" column="4" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="120" column="8" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="122" column="12" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
@@ -276,6 +275,7 @@
       <jump line="688" column="56" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="53" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="121" column="38" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="8" column="38" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
