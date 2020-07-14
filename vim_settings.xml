@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>offset</entry>
         <entry>duration</entry>
         <entry>date_hi</entry>
         <entry>date</entry>
@@ -25,6 +24,7 @@
         <entry>item name</entry>
         <entry>currency</entry>
         <entry>host</entry>
+        <entry>prefix</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -162,12 +162,12 @@
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1594633597944">
         <mark key="'" line="36" column="4" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1594704136433">
-        <mark key="'" line="192" column="28" />
-        <mark key="[" line="238" column="66" />
-        <mark key="]" line="239" column="74" />
-        <mark key="^" line="239" column="74" />
-        <mark key="." line="239" column="73" />
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1594711087279">
+        <mark key="'" line="73" column="14" />
+        <mark key="[" line="240" column="75" />
+        <mark key="]" line="240" column="76" />
+        <mark key="^" line="240" column="76" />
+        <mark key="." line="240" column="75" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594456124949">
         <mark key="[" line="49" column="0" />
@@ -176,9 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="137" column="11" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="147" column="8" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
-      <jump line="152" column="16" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="177" column="18" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="14" column="12" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="16" column="44" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
@@ -270,12 +267,15 @@
       <jump line="121" column="38" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="8" column="38" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="16" column="26" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="219" column="82" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="768" column="61" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="27" column="29" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="94" column="117" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="98" column="91" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="100" column="121" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="219" column="82" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="192" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="768" column="61" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="236" column="29" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
+      <jump line="73" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1052,7 +1052,7 @@
         <text>JPY</text>
       </register>
       <register name="/" type="4">
-        <text>host</text>
+        <text>prefix</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Y0dGemMyOWthVzQ9IA==</text>
@@ -1094,9 +1094,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>host</last-search>
+      <last-search>prefix</last-search>
       <last-offset />
-      <last-pattern>host</last-pattern>
+      <last-pattern>prefix</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
