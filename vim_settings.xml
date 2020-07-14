@@ -162,12 +162,12 @@
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1594633597944">
         <mark key="'" line="36" column="4" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1594704055164">
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1594704136433">
         <mark key="'" line="192" column="28" />
         <mark key="[" line="238" column="66" />
-        <mark key="]" line="236" column="84" />
-        <mark key="^" line="236" column="84" />
-        <mark key="." line="236" column="83" />
+        <mark key="]" line="239" column="74" />
+        <mark key="^" line="239" column="74" />
+        <mark key="." line="239" column="73" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_interval.go" timestamp="1594456124949">
         <mark key="[" line="49" column="0" />
