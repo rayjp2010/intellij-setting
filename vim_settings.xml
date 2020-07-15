@@ -113,10 +113,10 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1594777581080">
         <mark key="'" line="28" column="26" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594782246727">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594791741004">
         <mark key="'" line="576" column="67" />
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="2" column="0" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="100" />
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
@@ -1042,8 +1042,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>BooleanUtils.isFalse(request.getOpp())</text>
+      <register name="*" type="2">
+        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
       </register>
       <register name="-" type="4">
         <text>t</text>
@@ -1051,8 +1051,8 @@
       <register name="/" type="4">
         <text>All</text>
       </register>
-      <register name="0" type="4">
-        <text>BooleanUtils.isFalse(request.getOpp())</text>
+      <register name="0" type="2">
+        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
