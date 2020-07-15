@@ -120,6 +120,10 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/casereview/CaseReviewResultServiceImpl.java" timestamp="1594789718943">
+        <mark key="[" line="36" column="19" />
+        <mark key="]" line="36" column="56" />
+      </file>
       <file name="/fragment.go" timestamp="1594715626027">
         <mark key="[" line="0" column="0" />
       </file>
@@ -156,9 +160,6 @@
         <mark key="]" line="0" column="20" />
         <mark key="." line="16" column="23" />
         <mark key="^" line="106" column="62" />
-      </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1594621918837">
-        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/daily_report_library.py" timestamp="1594633597944">
         <mark key="'" line="36" column="4" />
@@ -1042,7 +1043,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>t</text>
+        <text>BooleanUtils.isFalse(request.getOpp())</text>
       </register>
       <register name="-" type="4">
         <text>t</text>
@@ -1050,8 +1051,8 @@
       <register name="/" type="4">
         <text>All</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">IyEvdXNyL2Jpbi9weXRob24yLjcK</text>
+      <register name="0" type="4">
+        <text>BooleanUtils.isFalse(request.getOpp())</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
