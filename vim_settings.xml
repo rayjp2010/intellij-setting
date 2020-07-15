@@ -81,10 +81,6 @@
         <mark key="." line="7" column="31" />
         <mark key="^" line="7" column="32" />
       </file>
-      <file name="$USER_HOME$/Workspace/pyvirenv/p2e/lib/python2.7/site-packages/elasticsearch/transport.py" timestamp="1594652924794">
-        <mark key="[" line="304" column="34" />
-        <mark key="]" line="304" column="48" />
-      </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1594777581080">
         <mark key="'" line="28" column="26" />
       </file>
@@ -142,6 +138,10 @@
         <mark key="]" line="69" column="102" />
         <mark key="." line="69" column="101" />
         <mark key="^" line="69" column="102" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1594808647296">
+        <mark key="[" line="104" column="23" />
+        <mark key="]" line="104" column="29" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594804589130">
         <mark key="'" line="286" column="11" />
@@ -1040,7 +1040,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>CheckStage</text>
+        <text>Process</text>
       </register>
       <register name="-" type="4">
         <text>20001</text>
@@ -1049,7 +1049,7 @@
         <text>index</text>
       </register>
       <register name="0" type="4">
-        <text>CheckStage</text>
+        <text>Process</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCBpbmRleGVzCiAgICAgICAgcHJpbnQgcXVlcnlfYm9keQogICAgICAgIHByaW50IHJhd19yZXN1bHRzCg==</text>
