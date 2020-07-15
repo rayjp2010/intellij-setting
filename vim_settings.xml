@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>timezone</entry>
-        <entry>zone</entry>
-        <entry>time_to_review_in_minutes</entry>
         <entry>timeout</entry>
         <entry>scroll</entry>
         <entry>scro</entry>
@@ -25,6 +22,9 @@
         <entry>getting field</entry>
         <entry>prefix</entry>
         <entry>50</entry>
+        <entry>select Organization</entry>
+        <entry>Payguard Evaluation</entry>
+        <entry>All</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -116,8 +116,8 @@
         <mark key="[" line="304" column="34" />
         <mark key="]" line="304" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1594774497780">
-        <mark key="'" line="164" column="40" />
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1594777581080">
+        <mark key="'" line="28" column="26" />
       </file>
       <file name="/fragment.go" timestamp="1594715626027">
         <mark key="[" line="0" column="0" />
@@ -171,12 +171,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="22" filename="$USER_HOME$/go/src/odin/model/search_request.go" />
-      <jump line="81" column="8" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="332" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="335" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="334" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="492" column="2" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="494" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="126" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="17" column="27" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -271,6 +265,12 @@
       <jump line="440" column="9" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="65" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="164" column="40" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="177" column="178" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="519" column="41" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="557" column="37" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="66" column="57" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="67" column="56" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
+      <jump line="28" column="26" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1047,7 +1047,7 @@
         <text>dev-</text>
       </register>
       <register name="/" type="4">
-        <text>50</text>
+        <text>All</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CWRlZmVyIGNsb3NlUmVzcG9uc2UocmVzKQo=</text>
@@ -1093,9 +1093,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>50</last-search>
+      <last-search>All</last-search>
       <last-offset />
-      <last-pattern>50</last-pattern>
+      <last-pattern>All</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
