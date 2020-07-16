@@ -79,6 +79,12 @@
         <mark key="." line="9" column="69" />
         <mark key="^" line="9" column="70" />
       </file>
+      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1594895456412">
+        <mark key="[" line="23" column="4" />
+        <mark key="]" line="23" column="20" />
+        <mark key="^" line="33" column="49" />
+        <mark key="." line="33" column="48" />
+      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594893983968">
         <mark key="'" line="163" column="13" />
         <mark key="[" line="34" column="29" />
@@ -99,12 +105,12 @@
         <mark key="[" line="104" column="23" />
         <mark key="]" line="104" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594894189131">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594894596382">
         <mark key="'" line="302" column="38" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="100" />
-        <mark key="^" line="232" column="62" />
-        <mark key="." line="514" column="55" />
+        <mark key="[" line="27" column="25" />
+        <mark key="]" line="26" column="29" />
+        <mark key="^" line="26" column="29" />
+        <mark key="." line="26" column="28" />
       </file>
       <file name="$USER_HOME$/Workspace/rhea/src/message_handler.js" timestamp="1594892922011">
         <mark key="'" line="71" column="21" />
@@ -112,13 +118,6 @@
         <mark key="]" line="28" column="50" />
         <mark key="." line="28" column="50" />
         <mark key="^" line="28" column="51" />
-      </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594804558815">
-        <mark key="'" line="25" column="23" />
-        <mark key="[" line="98" column="24" />
-        <mark key="]" line="98" column="25" />
-        <mark key="." line="98" column="24" />
-        <mark key="^" line="98" column="25" />
       </file>
       <file name="$USER_HOME$/Workspace/rhea/src/message.js" timestamp="1594886529307">
         <mark key="'" line="2" column="29" />
@@ -1001,8 +1000,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
+      <register name="*" type="4">
+        <text>DoneAccertifyDeny</text>
       </register>
       <register name="-" type="4">
         <text>.value;\n                            return reviewer == null || reviewer == 'UI' ? 'Automatic Deny OR Accertify Deny OR Accertify Review' : reviewer;</text>
@@ -1010,8 +1009,8 @@
       <register name="/" type="4">
         <text>Automatic</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">IyBUaGlzIGJlbG93IHF1ZXJ5IGlzIHRvIGdldCBBdXRvbWF0aWMgRGVueSBhbmQgTWFudWFsIEFjY2VwdC9EZW55IGZyb20gUGF5Z3VhcmQgVUkgYW5kIEFjY2VydGlmeSBVSQo=</text>
+      <register name="0" type="4">
+        <text>DoneAccertifyDeny</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgImFzc2lnbmVlIjogewogICAgICAgICAgICAgICAgInNjcmlwdCI6IHsKICAgICAgICAgICAgICAgICAgICAic291cmNlIjogIiIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWYgcmV2aWV3ZXIgPSBkb2NbJ2RlY2lzaW9uLnJldmlld2VyJ10udmFsdWU7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmV2aWV3ZXIgPT0gbnVsbCB8fCByZXZpZXdlciA9PSAnVUknID8gJ0F1dG9tYXRpYyBEZW55IE9SIEFjY2VydGlmeSBEZW55IE9SIEFjY2VydGlmeSBSZXZpZXcnIDogcmV2aWV3ZXI7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwK</text>
