@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>for</entry>
         <entry>io.write</entry>
         <entry>print</entry>
         <entry>api</entry>
@@ -25,6 +24,7 @@
         <entry>service</entry>
         <entry>organizationId</entry>
         <entry>index</entry>
+        <entry>opp</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -107,8 +107,8 @@
         <mark key="." line="288" column="35" />
         <mark key="^" line="288" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1594794574062">
-        <mark key="'" line="9" column="197" />
+      <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1594868192932">
+        <mark key="'" line="2" column="196" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594715265765">
         <mark key="'" line="210" column="31" />
@@ -137,8 +137,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="498" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="54" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="58" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="163" column="35" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="56" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
@@ -230,13 +228,15 @@
       <jump line="576" column="67" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
       <jump line="6" column="206" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="7" column="0" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
-      <jump line="2" column="26" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="14" column="9" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="9" column="197" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="144" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="180" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="12" column="14" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="286" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
+      <jump line="17" column="47" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
+      <jump line="10" column="0" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
+      <jump line="2" column="196" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1013,7 +1013,7 @@
         <text>20001</text>
       </register>
       <register name="/" type="4">
-        <text>index</text>
+        <text>opp</text>
       </register>
       <register name="0" type="4">
         <text>orderacceptedTimestamp</text>
@@ -1059,9 +1059,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>index</last-search>
+      <last-search>opp</last-search>
       <last-offset />
-      <last-pattern>index</last-pattern>
+      <last-pattern>opp</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
