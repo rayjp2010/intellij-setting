@@ -64,10 +64,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/aletheia-api/build.gradle" timestamp="1594695925354">
-        <mark key="[" line="24" column="21" />
-        <mark key="]" line="24" column="84" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1594717150005">
         <mark key="'" line="372" column="9" />
         <mark key="[" line="370" column="40" />
@@ -75,31 +71,15 @@
         <mark key="." line="370" column="89" />
         <mark key="^" line="370" column="90" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1594701655034">
-        <mark key="[" line="7" column="30" />
-        <mark key="]" line="7" column="32" />
-        <mark key="." line="7" column="31" />
-        <mark key="^" line="7" column="32" />
-      </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" timestamp="1594777581080">
         <mark key="'" line="28" column="26" />
       </file>
       <file name="/fragment.go" timestamp="1594715626027">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/" timestamp="1594701436010">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/peitho/main.go" timestamp="1594808121700">
         <mark key="[" line="244" column="8" />
         <mark key="]" line="244" column="17" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1594701671900">
-        <mark key="'" line="158" column="13" />
-        <mark key="[" line="81" column="58" />
-        <mark key="]" line="81" column="60" />
-        <mark key="." line="81" column="59" />
-        <mark key="^" line="81" column="60" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594804612987">
         <mark key="'" line="12" column="14" />
@@ -125,13 +105,6 @@
       <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1594794574062">
         <mark key="'" line="9" column="197" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1594701356272">
-        <mark key="'" line="32" column="22" />
-        <mark key="[" line="34" column="26" />
-        <mark key="]" line="34" column="27" />
-        <mark key="^" line="34" column="44" />
-        <mark key="." line="34" column="27" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594715265765">
         <mark key="'" line="210" column="31" />
         <mark key="[" line="69" column="96" />
@@ -149,10 +122,6 @@
         <mark key="]" line="441" column="4" />
         <mark key="^" line="232" column="62" />
         <mark key="." line="232" column="64" />
-      </file>
-      <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-clients/src/main/java/com/rakuten/fpg/ui/admintool/clients/service/casereview/CaseReviewResultServiceImpl.java" timestamp="1594789718943">
-        <mark key="[" line="36" column="19" />
-        <mark key="]" line="36" column="56" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1594711973946">
         <mark key="'" line="245" column="39" />
