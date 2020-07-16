@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>io.write</entry>
         <entry>print</entry>
         <entry>api</entry>
         <entry>create</entry>
@@ -25,6 +24,7 @@
         <entry>organizationId</entry>
         <entry>index</entry>
         <entry>opp</entry>
+        <entry>ichibaorder</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -100,14 +100,7 @@
         <mark key="^" line="240" column="76" />
         <mark key="." line="240" column="72" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1594714379731">
-        <mark key="'" line="45" column="41" />
-        <mark key="[" line="287" column="31" />
-        <mark key="]" line="288" column="36" />
-        <mark key="." line="288" column="35" />
-        <mark key="^" line="288" column="36" />
-      </file>
-      <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1594868192932">
+      <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1594878225988">
         <mark key="'" line="2" column="196" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1594715265765">
@@ -135,9 +128,11 @@
         <mark key="." line="98" column="24" />
         <mark key="^" line="98" column="25" />
       </file>
+      <file name="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" timestamp="1594878240602">
+        <mark key="'" line="8" column="20" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="58" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="163" column="35" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="56" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="83" column="15" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
@@ -237,6 +232,7 @@
       <jump line="17" column="47" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="10" column="0" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="2" column="196" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
+      <jump line="8" column="20" filename="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1013,7 +1009,7 @@
         <text>20001</text>
       </register>
       <register name="/" type="4">
-        <text>opp</text>
+        <text>ichibaorder</text>
       </register>
       <register name="0" type="4">
         <text>orderacceptedTimestamp</text>
@@ -1059,9 +1055,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>opp</last-search>
+      <last-search>ichibaorder</last-search>
       <last-offset />
-      <last-pattern>opp</last-pattern>
+      <last-pattern>ichibaorder</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
