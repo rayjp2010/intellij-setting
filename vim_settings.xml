@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>opp</entry>
         <entry>ichibaorder</entry>
         <entry>memberId</entry>
         <entry>member</entry>
@@ -25,6 +24,7 @@
         <entry>assignee</entry>
         <entry>es_query</entry>
         <entry>es</entry>
+        <entry>grpc</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -85,7 +85,7 @@
         <mark key="^" line="33" column="49" />
         <mark key="." line="33" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594964748394">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594969795384">
         <mark key="'" line="25" column="57" />
         <mark key="[" line="45" column="19" />
         <mark key="]" line="45" column="52" />
@@ -101,9 +101,6 @@
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_travel_daily_report_to_box_folder.py" timestamp="1594956079731">
         <mark key="'" line="34" column="43" />
       </file>
-      <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1594878225988">
-        <mark key="'" line="2" column="196" />
-      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594956217176">
         <mark key="'" line="116" column="13" />
         <mark key="[" line="0" column="17" />
@@ -117,6 +114,11 @@
         <mark key="]" line="27" column="54" />
         <mark key="." line="27" column="53" />
         <mark key="^" line="27" column="54" />
+      </file>
+      <file name="$USER_HOME$/go/src/minos/Gopkg.toml" timestamp="1594972123267">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="108" column="10" />
+        <mark key="]" line="108" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594956221550">
         <mark key="'" line="35" column="48" />
@@ -137,7 +139,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="69" column="35" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="157" column="2" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="327" column="2" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="425" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -237,6 +238,7 @@
       <jump line="99" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="34" column="48" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="34" column="43" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_travel_daily_report_to_box_folder.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/go/src/minos/Gopkg.toml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1007,16 +1009,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>ichiba_.yd6w8blq7f4o24lz@u.box.com</text>
+        <text>google.golang.org/grpc</text>
       </register>
       <register name="-" type="4">
         <text>python</text>
       </register>
       <register name="/" type="4">
-        <text>es</text>
+        <text>grpc</text>
       </register>
       <register name="0" type="4">
-        <text>ichiba_.yd6w8blq7f4o24lz@u.box.com</text>
+        <text>google.golang.org/grpc</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Pj4+Pj4+PiBkY2ZhY2FmYTk1NGRlYWU4N2MyODZjNTAzNTdkMWIyZmNhMDg4NTc1Cg==</text>
@@ -1062,9 +1064,9 @@ daily_</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>es</last-search>
+      <last-search>grpc</last-search>
       <last-offset />
-      <last-pattern>es</last-pattern>
+      <last-pattern>grpc</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
