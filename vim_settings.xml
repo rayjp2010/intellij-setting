@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>organizationId</entry>
-        <entry>index</entry>
         <entry>opp</entry>
         <entry>ichibaorder</entry>
         <entry>memberId</entry>
@@ -25,6 +23,8 @@
         <entry>Automatic</entry>
         <entry>== null</entry>
         <entry>assignee</entry>
+        <entry>es_query</entry>
+        <entry>es</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -81,12 +81,12 @@
         <mark key="^" line="33" column="49" />
         <mark key="." line="33" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594950508978">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594953257211">
         <mark key="'" line="25" column="57" />
-        <mark key="[" line="53" column="18" />
-        <mark key="]" line="53" column="21" />
-        <mark key="." line="53" column="20" />
-        <mark key="^" line="53" column="21" />
+        <mark key="[" line="14" column="18" />
+        <mark key="]" line="14" column="22" />
+        <mark key="." line="14" column="21" />
+        <mark key="^" line="14" column="22" />
       </file>
       <file name="$USER_HOME$/Workspace/rhea/src/index.js" timestamp="1594891476162">
         <mark key="[" line="51" column="9" />
@@ -97,12 +97,12 @@
       <file name="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" timestamp="1594878225988">
         <mark key="'" line="2" column="196" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594951501357">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" timestamp="1594952964564">
         <mark key="'" line="116" column="13" />
-        <mark key="[" line="127" column="27" />
-        <mark key="]" line="127" column="35" />
-        <mark key="." line="127" column="34" />
-        <mark key="^" line="127" column="35" />
+        <mark key="[" line="550" column="56" />
+        <mark key="]" line="550" column="61" />
+        <mark key="." line="550" column="60" />
+        <mark key="^" line="550" column="61" />
       </file>
       <file name="$USER_HOME$/Workspace/rhea/src/message_handler.js" timestamp="1594903214025">
         <mark key="'" line="71" column="21" />
@@ -111,11 +111,12 @@
         <mark key="." line="27" column="53" />
         <mark key="^" line="27" column="54" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594950003052">
-        <mark key="'" line="25" column="23" />
-        <mark key="[" line="96" column="0" />
-        <mark key="]" line="96" column="0" />
-        <mark key="." line="96" column="0" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" timestamp="1594953354972">
+        <mark key="'" line="35" column="48" />
+        <mark key="[" line="19" column="22" />
+        <mark key="]" line="19" column="26" />
+        <mark key="^" line="19" column="26" />
+        <mark key="." line="19" column="25" />
       </file>
       <file name="$USER_HOME$/Workspace/rhea/src/message.js" timestamp="1594901324518">
         <mark key="'" line="2" column="29" />
@@ -129,8 +130,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="773" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="130" column="22" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_ichiba_daily_report_to_box_folder.py" />
       <jump line="767" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="69" column="35" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="157" column="2" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -229,6 +228,8 @@
       <jump line="40" column="65" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="25" column="57" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="116" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
+      <jump line="99" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
+      <jump line="34" column="48" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -999,24 +1000,27 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">ID09IG51bGwgPyBudWxsIDogIChkZWNpc2lvblRpbWUudG9JbnN0YW50KCkudG9FcG9jaE1pbGxpKCkgLSBzdGFydCkgLyA2MDAwMDs=</text>
+        <text>10000</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ID09IG51bGwgPyBudWxsIDogIChkZWNpc2lvblRpbWUudG9JbnN0YW50KCkudG9FcG9jaE1pbGxpKCkgLSBzdGFydCkgLyA2MDAwMDs=</text>
+        <text>10000</text>
       </register>
       <register name="/" type="4">
-        <text>assignee</text>
+        <text>es</text>
       </register>
-      <register name="0" type="4">
-        <text>python template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py -t http://100.77.215.137:80 -u odin -p cGFzc29kaW4= -i Daily</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZXNfc2VhcmNoX2JhdGNoX3NpemUgPSAxMDAwMAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBpbmRleGVzCiAgICAgICAgcHJpbnQgcXVlcnlfYm9keQogICAgICAgIHByaW50IHJhd19yZXN1bHRzCg==</text>
+        <text encoding="base64">ICAgICMgaW5wdXRfaW50ZXJ2YWwgPSBzeXMuYXJndlsxXQogICAgIyByZXR1cm4gaW5wdXRfaW50ZXJ2YWwgaWYgaW5wdXRfaW50ZXJ2YWwgaW4gWydNb250aGx5JywgJ0RhaWx5JywgJ0hvdXJseSddIGVsc2UgJ0hvdXJseScK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCBpbmRleGVzCiAgICAgICAgcHJpbnQgcXVlcnlfYm9keQogICAgICAgIHByaW50IHJhd19yZXN1bHRzCg==</text>
+      </register>
+      <register name="3" type="4">
         <text>,
             &quot;under_review&quot;: {
                 &quot;script&quot;: {
@@ -1024,26 +1028,23 @@
                 }
             }</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgImFzc2lnbmVlIjogewogICAgICAgICAgICAgICAgInNjcmlwdCI6IHsKICAgICAgICAgICAgICAgICAgICAic291cmNlIjogIiIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWYgcmV2aWV3ZXIgPSBkb2NbJ2RlY2lzaW9uLnJldmlld2VyJ10udmFsdWU7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmV2aWV3ZXIgPT0gbnVsbCB8fCByZXZpZXdlciA9PSAnVUknID8gJ0F1dG9tYXRpYyBEZW55IE9SIEFjY2VydGlmeSBEZW55IE9SIEFjY2VydGlmeSBSZXZpZXcnIDogcmV2aWV3ZXI7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwK</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgTG9nCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">CQlkYXRhID0gZGF0YS5yZXBsYWNlKC9cW1NFU1NJT05cXS9naSwgMSkK</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">CQkJdG90YWwgOiA1LAo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">CQkK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTG9nZ2VyLmluZm8oJ3dpbGwgc2VuZCcgKyBtc2dUb1NlbmRbaV0pCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBpbmRleGVzCiAgICAgICAgcHJpbnQgcXVlcnlfYm9keQogICAgICAgIHByaW50IHJhd19yZXN1bHRzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgTG9nZ2VyLmluZm8oJ3dpbGwgc2VuZCcgKyBtc2dUb1NlbmRbaV0pCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1052,9 +1053,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>assignee</last-search>
+      <last-search>es</last-search>
       <last-offset />
-      <last-pattern>assignee</last-pattern>
+      <last-pattern>es</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
