@@ -85,10 +85,10 @@
         <mark key="^" line="33" column="49" />
         <mark key="." line="33" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594956551387">
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594963213476">
         <mark key="'" line="25" column="57" />
-        <mark key="[" line="3" column="2" />
-        <mark key="]" line="3" column="160" />
+        <mark key="[" line="45" column="27" />
+        <mark key="]" line="45" column="42" />
         <mark key="." line="0" column="17" />
         <mark key="^" line="14" column="22" />
       </file>
@@ -1007,7 +1007,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>python</text>
+        <text>yd6w8blq7f4o24lz</text>
       </register>
       <register name="-" type="4">
         <text>python</text>
@@ -1016,7 +1016,7 @@
         <text>es</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHl0aG9uIHB5dGhvbiBlbWFpbF9pY2hpYmFfcmVwb3J0X3RvX2JveF9mb2xkZXIucHkgLXQgaHR0cDovLzEwMC43Ny4yMTUuMTM3OjgwIC11IG9kaW4gLXAgY0dGemMyOWthVzQ9IC1pIERhaWx5ID4gL2Rldi9udWxsIDI+JjEgIA==</text>
+        <text>yd6w8blq7f4o24lz</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Pj4+Pj4+PiBkY2ZhY2FmYTk1NGRlYWU4N2MyODZjNTAzNTdkMWIyZmNhMDg4NTc1Cg==</text>
