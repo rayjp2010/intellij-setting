@@ -100,12 +100,12 @@
         <mark key="^" line="0" column="17" />
         <mark key="." line="0" column="12" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1595235002962">
+      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1595238742591">
         <mark key="'" line="456" column="0" />
-        <mark key="[" line="457" column="82" />
-        <mark key="]" line="457" column="99" />
-        <mark key="." line="457" column="98" />
-        <mark key="^" line="457" column="99" />
+        <mark key="[" line="462" column="47" />
+        <mark key="]" line="462" column="54" />
+        <mark key="." line="462" column="53" />
+        <mark key="^" line="462" column="54" />
       </file>
       <file name="/elastic_search_service.go" timestamp="1595227350604">
         <mark key="[" line="218" column="0" />
@@ -166,12 +166,12 @@
         <mark key="^" line="9" column="6" />
         <mark key="." line="69" column="88" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595235090159">
-        <mark key="'" line="249" column="39" />
-        <mark key="[" line="197" column="43" />
-        <mark key="]" line="197" column="104" />
-        <mark key="." line="197" column="103" />
-        <mark key="^" line="197" column="104" />
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595238441387">
+        <mark key="'" line="250" column="39" />
+        <mark key="[" line="186" column="101" />
+        <mark key="]" line="186" column="106" />
+        <mark key="." line="186" column="105" />
+        <mark key="^" line="186" column="106" />
       </file>
     </filemarks>
     <jumps>
@@ -1045,46 +1045,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>JsonMap{&quot;testK1&quot;: JsonMap{&quot;testK2&quot;: &quot;value&quot;}</text>
+        <text>string</text>
       </register>
       <register name="-" type="4">
-        <text>empty</text>
+        <text>string</text>
       </register>
       <register name="/" type="4">
         <text>grpc</text>
       </register>
-      <register name="0" type="4">
-        <text>JsonMap{&quot;testK1&quot;: JsonMap{&quot;testK2&quot;: &quot;value&quot;}</text>
+      <register name="0" type="2">
+        <text encoding="base64">Ly8gZ2V0IHN0cmluZyBmcm9tIGVtYmVkZGVkIG1hcCByZWN1cnNpdmVseS4gcmV0dXJucyBlcnJvciBpZiB0aGUgZmllbGQgZG9lc250IGV4aXN0IG9yIGl0IGlzIG5vdCBzdHJpbmcK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CQl7ImlycmVndWxhcjogZW1wdHkgZmllbGRQYXRoIC0+IGVycm9yIiwgW11zdHJpbmd7fSwgSnNvbk1hcHt9LAoJCQluaWwsIGVycm9ycy5OZXcoIndyb25nIGZpZWxkIHBhdGgiKX0sCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQkJCWFzc2VydC5FcnJvcigpCg==</text>
+        <text encoding="base64">CQl7ImlycmVndWxhcjogZW1wdHkgZmllbGRQYXRoIC0+IGVycm9yIiwgW11zdHJpbmd7fSwgSnNvbk1hcHt9LAoJCQluaWwsIGVycm9ycy5OZXcoIndyb25nIGZpZWxkIHBhdGgiKX0sCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQl7Inplcm86IDAgLT4gJzAnIiwgZmxvYXQ2NCgwKSwgIjAifSwKCQl7IjMgZGlnaXRzOiAxMjMgLT4gJzEyMyciLCBmbG9hdDY0KDEyMyksICIxMjMifSwKCQl7IjYgZGlnaXRzOiAxMjM0NTYgLT4gJzEyMyw0NTYnIiwgZmxvYXQ2NCgxMjM0NTYpLCAiMTIzLDQ1NiJ9LAoJCXsiOSBkaWdpdHMgOiAxMjM0NTY3ODkgLT4gJzEyMyw0NTYsNzg5JyIsIGZsb2F0NjQoMTIzNDU2Nzg5KSwgIjEyMyw0NTYsNzg5In0sCgkJeyJtaW51cywgMyBkaWdpdHM6IC0xMjMgLT4gJy0xMjMnIiwgZmxvYXQ2NCgtMTIzKSwgIi0xMjMifSwKCQl7Im1pbnVzLCA2IGRpZ2l0czogLTEyMzQ1NiAtPiAnLTEyMyw0NTYnIiwgZmxvYXQ2NCgtMTIzNDU2KSwgIi0xMjMsNDU2In0sCgkJeyJtaW51cywgOSBkaWdpdHM6IC0xMjM0NTY3ODkgLT4gJy0xMjMsNDU2LDc4OSciLCBmbG9hdDY0KC0xMjM0NTY3ODkpLCAiLTEyMyw0NTYsNzg5In0sCgkJeyI2IGRpZ2l0cyArIDAgZGVjaW1hbCA6IDEyMzQ1Ni4wIC0+ICcxMjMsNDU2LjAnIiwgMTIzNDU2LjAsICIxMjMsNDU2In0sCgkJeyI2IGRpZ2l0cyArIDMgZGVjaW1hbCA6IDEyMzQ1Ni4xMjMgLT4gJzEyMyw0NTYuMTIzJyIsIDEyMzQ1Ni4xMjMsICIxMjMsNDU2LjEyMyJ9LAoJCXsiNiBkaWdpdHMgKyA2IGRlY2ltYWwgOiAxMjM0NTYuMTIzNDU2IC0+ICcxMjMsNDU2LjEyMzQ1NiciLCAxMjM0NTYuMTIzNDU2LCAiMTIzLDQ1Ni4xMjM0NTYifSwKCQl7IjYgZGlnaXRzLCBkZWNpbWFsIGVuZHMgd2l0aCAwIDogMTIzNDU2LjEyMzAgLT4gJzEyMyw0NTYuMTIzJyIsIDEyMzQ1Ni4xMjMwLCAiMTIzLDQ1Ni4xMjMifSwKCQl7IjYgZGlnaXRzLCBkZWNpbWFsIGVuZHMgd2l0aCBtdWx0aXBsZSAwIDogMTIzNDU2LjEyMDAgLT4gJzEyMyw0NTYuMTInIiwgMTIzNDU2LjEyMDAsICIxMjMsNDU2LjEyIn0sCg==</text>
+        <text encoding="base64">CQkJCWFzc2VydC5FcnJvcigpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQl7Inplcm86IDAgLT4gJzAnIiwgZmxvYXQ2NCgwKSwgIjAifSwKCQl7IjMgZGlnaXRzOiAxMjMgLT4gJzEyMyciLCBmbG9hdDY0KDEyMyksICIxMjMifSwKCQl7IjYgZGlnaXRzOiAxMjM0NTYgLT4gJzEyMyw0NTYnIiwgZmxvYXQ2NCgxMjM0NTYpLCAiMTIzLDQ1NiJ9LAoJCXsiOSBkaWdpdHMgOiAxMjM0NTY3ODkgLT4gJzEyMyw0NTYsNzg5JyIsIGZsb2F0NjQoMTIzNDU2Nzg5KSwgIjEyMyw0NTYsNzg5In0sCgkJeyJtaW51cywgMyBkaWdpdHM6IC0xMjMgLT4gJy0xMjMnIiwgZmxvYXQ2NCgtMTIzKSwgIi0xMjMifSwKCQl7Im1pbnVzLCA2IGRpZ2l0czogLTEyMzQ1NiAtPiAnLTEyMyw0NTYnIiwgZmxvYXQ2NCgtMTIzNDU2KSwgIi0xMjMsNDU2In0sCgkJeyJtaW51cywgOSBkaWdpdHM6IC0xMjM0NTY3ODkgLT4gJy0xMjMsNDU2LDc4OSciLCBmbG9hdDY0KC0xMjM0NTY3ODkpLCAiLTEyMyw0NTYsNzg5In0sCgkJeyI2IGRpZ2l0cyArIDAgZGVjaW1hbCA6IDEyMzQ1Ni4wIC0+ICcxMjMsNDU2LjAnIiwgMTIzNDU2LjAsICIxMjMsNDU2In0sCgkJeyI2IGRpZ2l0cyArIDMgZGVjaW1hbCA6IDEyMzQ1Ni4xMjMgLT4gJzEyMyw0NTYuMTIzJyIsIDEyMzQ1Ni4xMjMsICIxMjMsNDU2LjEyMyJ9LAoJCXsiNiBkaWdpdHMgKyA2IGRlY2ltYWwgOiAxMjM0NTYuMTIzNDU2IC0+ICcxMjMsNDU2LjEyMzQ1NiciLCAxMjM0NTYuMTIzNDU2LCAiMTIzLDQ1Ni4xMjM0NTYifSwKCQl7IjYgZGlnaXRzLCBkZWNpbWFsIGVuZHMgd2l0aCAwIDogMTIzNDU2LjEyMzAgLT4gJzEyMyw0NTYuMTIzJyIsIDEyMzQ1Ni4xMjMwLCAiMTIzLDQ1Ni4xMjMifSwKCQl7IjYgZGlnaXRzLCBkZWNpbWFsIGVuZHMgd2l0aCBtdWx0aXBsZSAwIDogMTIzNDU2LjEyMDAgLT4gJzEyMyw0NTYuMTInIiwgMTIzNDU2LjEyMDAsICIxMjMsNDU2LjEyIn0sCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQkJaG91ciA9IHRlbXBIb3VyCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQl9Cg==</text>
+        <text encoding="base64">CQkJaG91ciA9IHRlbXBIb3VyCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQlpZiB0ZW1wSG91ciA+PSAtMTIgJiYgdGVtcEhvdXIgPD0gMTIgewo=</text>
+        <text encoding="base64">CQl9Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ZWxzZSB7CgkJaG91ciA9ICptaW51dGVUaW1lWm9uZSAvIDYwCgl9CglpZiBob3VyID4gOSB8fCBob3VyIDwgLTkgewoJCWhvdXIgPSAwCgl9</text>
+      <register name="9" type="2">
+        <text encoding="base64">CQlpZiB0ZW1wSG91ciA+PSAtMTIgJiYgdGVtcEhvdXIgPD0gMTIgewo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
