@@ -100,12 +100,12 @@
         <mark key="^" line="0" column="17" />
         <mark key="." line="0" column="12" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1595234852962">
+      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1595235002962">
         <mark key="'" line="456" column="0" />
-        <mark key="[" line="446" column="62" />
-        <mark key="]" line="446" column="69" />
-        <mark key="." line="446" column="68" />
-        <mark key="^" line="446" column="69" />
+        <mark key="[" line="457" column="82" />
+        <mark key="]" line="457" column="99" />
+        <mark key="." line="457" column="98" />
+        <mark key="^" line="457" column="99" />
       </file>
       <file name="/elastic_search_service.go" timestamp="1595227350604">
         <mark key="[" line="218" column="0" />
@@ -166,7 +166,7 @@
         <mark key="^" line="9" column="6" />
         <mark key="." line="69" column="88" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595233623192">
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595235090159">
         <mark key="'" line="249" column="39" />
         <mark key="[" line="197" column="43" />
         <mark key="]" line="197" column="104" />
@@ -1045,16 +1045,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>&quot;</text>
+        <text>JsonMap{&quot;testK1&quot;: JsonMap{&quot;testK2&quot;: &quot;value&quot;}</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text>empty</text>
       </register>
       <register name="/" type="4">
         <text>grpc</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CQl7InN1Y2Nlc3M6IDIgbGV2ZWwgbWFwIiwgW11zdHJpbmd7InRlc3RLMSIsICJ0ZXN0SzIifSwgSnNvbk1hcHsidGVzdEsxIjogSnNvbk1hcHsidGVzdEsyIjogInZhbHVlIn19LAoJCQlHZXRTdHJpbmdQdHIoInZhbHVlIiksIG5pbH0sCg==</text>
+      <register name="0" type="4">
+        <text>JsonMap{&quot;testK1&quot;: JsonMap{&quot;testK2&quot;: &quot;value&quot;}</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQl7ImlycmVndWxhcjogZW1wdHkgZmllbGRQYXRoIC0+IGVycm9yIiwgW11zdHJpbmd7fSwgSnNvbk1hcHt9LAoJCQluaWwsIGVycm9ycy5OZXcoIndyb25nIGZpZWxkIHBhdGgiKX0sCg==</text>
