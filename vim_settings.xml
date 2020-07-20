@@ -100,12 +100,12 @@
         <mark key="^" line="0" column="17" />
         <mark key="." line="0" column="12" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1595230087449">
-        <mark key="'" line="424" column="0" />
-        <mark key="[" line="450" column="96" />
-        <mark key="]" line="450" column="107" />
-        <mark key="." line="450" column="96" />
-        <mark key="^" line="450" column="53" />
+      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1595231695491">
+        <mark key="'" line="433" column="0" />
+        <mark key="[" line="472" column="41" />
+        <mark key="]" line="472" column="33" />
+        <mark key="." line="472" column="32" />
+        <mark key="^" line="472" column="33" />
       </file>
       <file name="/elastic_search_service.go" timestamp="1595227350604">
         <mark key="[" line="218" column="0" />
@@ -166,16 +166,15 @@
         <mark key="^" line="9" column="6" />
         <mark key="." line="69" column="88" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595229219435">
-        <mark key="'" line="246" column="39" />
-        <mark key="[" line="208" column="77" />
-        <mark key="]" line="208" column="93" />
-        <mark key="." line="208" column="92" />
-        <mark key="^" line="208" column="93" />
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595231321814">
+        <mark key="'" line="247" column="39" />
+        <mark key="[" line="238" column="0" />
+        <mark key="]" line="239" column="50" />
+        <mark key="." line="239" column="49" />
+        <mark key="^" line="239" column="50" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="14" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="245" column="39" filename="$USER_HOME$/go/src/odin/util/util.go" />
       <jump line="45" column="41" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="439" column="16" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
@@ -275,6 +274,7 @@
       <jump line="1537" column="41" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
       <jump line="7" column="13" filename="$USER_HOME$/go/src/odin/core/json_parser_test.go" />
       <jump line="424" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="433" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1045,48 +1045,48 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>123,456.123</text>
+        <text>inputFloat64</text>
       </register>
       <register name="-" type="4">
-        <text>456</text>
+        <text>inputFloat64</text>
       </register>
       <register name="/" type="4">
         <text>grpc</text>
       </register>
-      <register name="0" type="4">
-        <text>123,456.123</text>
+      <register name="0" type="2">
+        <text encoding="base64">CXR5cGUgdGVzdENhc2Ugc3RydWN0IHsKCQluYW1lICAgICAgICAgICBzdHJpbmcKCQlpbnB1dEZsb2F0NjQgICBmbG9hdDY0CgkJZXhwZWN0ZWRTdHJpbmcgc3RyaW5nCgl9CgoJdGNzIDo9IFtddGVzdENhc2V7CgkJeyJ6ZXJvOiAwIC0+ICcwJyIsIGZsb2F0NjQoMCksICIwIn0sCgkJeyIzIGRpZ2l0czogMTIzIC0+ICcxMjMnIiwgZmxvYXQ2NCgxMjMpLCAiMTIzIn0sCgkJeyI2IGRpZ2l0czogMTIzNDU2IC0+ICcxMjMsNDU2JyIsIGZsb2F0NjQoMTIzNDU2KSwgIjEyMyw0NTYifSwKCQl7IjkgZGlnaXRzIDogMTIzNDU2Nzg5IC0+ICcxMjMsNDU2LDc4OSciLCBmbG9hdDY0KDEyMzQ1Njc4OSksICIxMjMsNDU2LDc4OSJ9LAoJCXsibWludXMsIDMgZGlnaXRzOiAtMTIzIC0+ICctMTIzJyIsIGZsb2F0NjQoLTEyMyksICItMTIzIn0sCgkJeyJtaW51cywgNiBkaWdpdHM6IC0xMjM0NTYgLT4gJy0xMjMsNDU2JyIsIGZsb2F0NjQoLTEyMzQ1NiksICItMTIzLDQ1NiJ9LAoJCXsibWludXMsIDkgZGlnaXRzOiAtMTIzNDU2Nzg5IC0+ICctMTIzLDQ1Niw3ODknIiwgZmxvYXQ2NCgtMTIzNDU2Nzg5KSwgIi0xMjMsNDU2LDc4OSJ9LAoJCXsiNiBkaWdpdHMgKyAwIGRlY2ltYWwgOiAxMjM0NTYuMCAtPiAnMTIzLDQ1Ni4wJyIsIDEyMzQ1Ni4wLCAiMTIzLDQ1NiJ9LAoJCXsiNiBkaWdpdHMgKyAzIGRlY2ltYWwgOiAxMjM0NTYuMTIzIC0+ICcxMjMsNDU2LjEyMyciLCAxMjM0NTYuMTIzLCAiMTIzLDQ1Ni4xMjMifSwKCQl7IjYgZGlnaXRzICsgNiBkZWNpbWFsIDogMTIzNDU2LjEyMzQ1NiAtPiAnMTIzLDQ1Ni4xMjM0NTYnIiwgMTIzNDU2LjEyMzQ1NiwgIjEyMyw0NTYuMTIzNDU2In0sCgkJeyI2IGRpZ2l0cywgZGVjaW1hbCBlbmRzIHdpdGggMCA6IDEyMzQ1Ni4xMjMwIC0+ICcxMjMsNDU2LjEyMyciLCAxMjM0NTYuMTIzMCwgIjEyMyw0NTYuMTIzIn0sCgkJeyI2IGRpZ2l0cywgZGVjaW1hbCBlbmRzIHdpdGggbXVsdGlwbGUgMCA6IDEyMzQ1Ni4xMjAwIC0+ICcxMjMsNDU2LjEyJyIsIDEyMzQ1Ni4xMjAwLCAiMTIzLDQ1Ni4xMiJ9LAoJfQoJZm9yIF8sIHRjIDo9IHJhbmdlIHRjcyB7CgkJdC5SdW4odGMubmFtZSwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQkJYWN0dWFsIDo9IENvbW1hZih0Yy5pbnB1dEZsb2F0NjQpCgkJCWFzc2VydC5FcXVhbCh0LCB0Yy5leHBlY3RlZFN0cmluZywgYWN0dWFsKQoJCX0pCgl9Cg==</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IAogCiA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">CQl7Inplcm86IDAgLT4gJzAnIiwgZmxvYXQ2NCgwKSwgIjAifSwKCQl7IjMgZGlnaXRzOiAxMjMgLT4gJzEyMyciLCBmbG9hdDY0KDEyMyksICIxMjMifSwKCQl7IjYgZGlnaXRzOiAxMjM0NTYgLT4gJzEyMyw0NTYnIiwgZmxvYXQ2NCgxMjM0NTYpLCAiMTIzLDQ1NiJ9LAoJCXsiOSBkaWdpdHMgOiAxMjM0NTY3ODkgLT4gJzEyMyw0NTYsNzg5JyIsIGZsb2F0NjQoMTIzNDU2Nzg5KSwgIjEyMyw0NTYsNzg5In0sCgkJeyJtaW51cywgMyBkaWdpdHM6IC0xMjMgLT4gJy0xMjMnIiwgZmxvYXQ2NCgtMTIzKSwgIi0xMjMifSwKCQl7Im1pbnVzLCA2IGRpZ2l0czogLTEyMzQ1NiAtPiAnLTEyMyw0NTYnIiwgZmxvYXQ2NCgtMTIzNDU2KSwgIi0xMjMsNDU2In0sCgkJeyJtaW51cywgOSBkaWdpdHM6IC0xMjM0NTY3ODkgLT4gJy0xMjMsNDU2LDc4OSciLCBmbG9hdDY0KC0xMjM0NTY3ODkpLCAiLTEyMyw0NTYsNzg5In0sCgkJeyI2IGRpZ2l0cyArIDAgZGVjaW1hbCA6IDEyMzQ1Ni4wIC0+ICcxMjMsNDU2LjAnIiwgMTIzNDU2LjAsICIxMjMsNDU2In0sCgkJeyI2IGRpZ2l0cyArIDMgZGVjaW1hbCA6IDEyMzQ1Ni4xMjMgLT4gJzEyMyw0NTYuMTIzJyIsIDEyMzQ1Ni4xMjMsICIxMjMsNDU2LjEyMyJ9LAoJCXsiNiBkaWdpdHMgKyA2IGRlY2ltYWwgOiAxMjM0NTYuMTIzNDU2IC0+ICcxMjMsNDU2LjEyMzQ1NiciLCAxMjM0NTYuMTIzNDU2LCAiMTIzLDQ1Ni4xMjM0NTYifSwKCQl7IjYgZGlnaXRzLCBkZWNpbWFsIGVuZHMgd2l0aCAwIDogMTIzNDU2LjEyMzAgLT4gJzEyMyw0NTYuMTIzJyIsIDEyMzQ1Ni4xMjMwLCAiMTIzLDQ1Ni4xMjMifSwKCQl7IjYgZGlnaXRzLCBkZWNpbWFsIGVuZHMgd2l0aCBtdWx0aXBsZSAwIDogMTIzNDU2LjEyMDAgLT4gJzEyMyw0NTYuMTInIiwgMTIzNDU2LjEyMDAsICIxMjMsNDU2LjEyIn0sCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="8">
+        <text encoding="base64">IAogCiA=</text>
+      </register>
+      <register name="4" type="8">
         <text>minus,
 minus,
 minus,</text>
       </register>
-      <register name="3" type="8">
+      <register name="5" type="8">
         <text encoding="base64">c3VjY2VzcyAtIApzdWNjZXNzIC0gCnN1Y2Nlc3MgLSAKc3VjY2VzcyAtIApzdWNjZXNzIC0gCnN1Y2Nlc3MgLSAKc3VjY2VzcyAtIApzdWNjZXNzIC0gCnN1Y2Nlc3MgLSA=</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">CQl7InN1Y2Nlc3M6IDAgLT4gJzAnIiwgZmxvYXQ2NCgwKSwgIjAifSwK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CWZvciBfLCB0Ywo=</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">CQlmb3IgXywgaW5kZXggOj0gcmFuZ2UgaW5kZXhlcyB7CgkJCWlmIGxlbihpbmRleCkgPT0gMCB7CgkJCX0KCQl9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQkJCXJldHVybiBuaWwsIGVycm9ycy5OZXcoImVtcHR5IGluZGV4ZXMiKQo=</text>
+        <text encoding="base64">CWZvciBfLCB0Ywo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQlmb3IgXywgaW5kZXggOj0gcmFuZ2UgaW5kZXhlcyB7CgkJCWlmIGxlbihpbmRleCkgPT0gMCB7CgkJCX0KCQl9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
