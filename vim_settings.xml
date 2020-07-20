@@ -67,11 +67,33 @@
       <file name="/a.dummy" timestamp="1594955919766">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595221899211">
+        <mark key="'" line="663" column="24" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1595221171865">
+        <mark key="'" line="372" column="9" />
+        <mark key="[" line="114" column="4" />
+        <mark key="]" line="114" column="146" />
+        <mark key="." line="370" column="89" />
+        <mark key="^" line="370" column="90" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1595221911982">
+        <mark key="'" line="340" column="23" />
+        <mark key="]" line="7" column="13" />
+        <mark key="^" line="7" column="13" />
+        <mark key="." line="7" column="12" />
+      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/cron/production/pro-elasticsearch102.cron" timestamp="1594959952935">
         <mark key="[" line="6" column="64" />
         <mark key="]" line="8" column="67" />
         <mark key="^" line="8" column="67" />
         <mark key="." line="8" column="66" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1595222200958">
+        <mark key="[" line="0" column="12" />
+        <mark key="]" line="0" column="14" />
+        <mark key="^" line="0" column="14" />
+        <mark key="." line="0" column="13" />
       </file>
       <file name="$USER_HOME$/Workspace/rhea/src/config.js" timestamp="1594901701602">
         <mark key="[" line="10" column="79" />
@@ -79,24 +101,12 @@
         <mark key="." line="10" column="76" />
         <mark key="^" line="10" column="77" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-dao/src/main/java/com/rakuten/fpg/aletheia/dao/entity/enums/CaseStatus.java" timestamp="1594895456412">
-        <mark key="[" line="23" column="4" />
-        <mark key="]" line="23" column="20" />
-        <mark key="^" line="33" column="49" />
-        <mark key="." line="33" column="48" />
-      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1594969795384">
         <mark key="'" line="25" column="57" />
         <mark key="[" line="45" column="19" />
         <mark key="]" line="45" column="52" />
         <mark key="." line="0" column="17" />
         <mark key="^" line="14" column="22" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rhea/src/index.js" timestamp="1594891476162">
-        <mark key="[" line="51" column="9" />
-        <mark key="]" line="52" column="40" />
-        <mark key="." line="52" column="39" />
-        <mark key="^" line="52" column="40" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_travel_daily_report_to_box_folder.py" timestamp="1594956079731">
         <mark key="'" line="34" column="43" />
@@ -134,17 +144,8 @@
         <mark key="." line="3" column="236" />
         <mark key="^" line="3" column="1529" />
       </file>
-      <file name="$USER_HOME$/Workspace/eventhub_test_tool/env_config/config_dev.js" timestamp="1594878240602">
-        <mark key="'" line="8" column="20" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="157" column="2" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="327" column="2" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="425" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="590" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="32" column="44" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="38" column="78" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="150" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="320" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="415" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -239,6 +240,12 @@
       <jump line="34" column="48" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
       <jump line="34" column="43" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_travel_daily_report_to_box_folder.py" />
       <jump line="0" column="0" filename="$USER_HOME$/go/src/minos/Gopkg.toml" />
+      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
+      <jump line="357" column="50" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
+      <jump line="19" column="31" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
+      <jump line="654" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
+      <jump line="664" column="24" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
+      <jump line="341" column="23" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1009,16 +1016,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>google.golang.org/grpc</text>
+        <text>func(indexes []string, queryBody util.JsonMap, groupName string, offset, limit *int) (result []model.BasicReportBucket, err error)</text>
       </register>
       <register name="-" type="4">
-        <text>python</text>
+        <text>unc()</text>
       </register>
       <register name="/" type="4">
         <text>grpc</text>
       </register>
       <register name="0" type="4">
-        <text>google.golang.org/grpc</text>
+        <text>func(indexes []string, queryBody util.JsonMap, groupName string, offset, limit *int) (result []model.BasicReportBucket, err error)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Pj4+Pj4+PiBkY2ZhY2FmYTk1NGRlYWU4N2MyODZjNTAzNTdkMWIyZmNhMDg4NTc1Cg==</text>
