@@ -77,11 +77,11 @@
         <mark key="." line="36" column="0" />
         <mark key="^" line="36" column="1" />
       </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" timestamp="1595298433760">
+      <file name="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" timestamp="1595298436841">
         <mark key="'" line="22" column="29" />
         <mark key="[" line="33" column="34" />
-        <mark key="]" line="33" column="34" />
-        <mark key="." line="33" column="34" />
+        <mark key="]" line="33" column="39" />
+        <mark key="." line="33" column="38" />
         <mark key="^" line="33" column="39" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_group_test.go" timestamp="1595292518037">
