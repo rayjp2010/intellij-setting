@@ -84,11 +84,11 @@
         <mark key="." line="33" column="38" />
         <mark key="^" line="33" column="39" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group_test.go" timestamp="1595292518037">
-        <mark key="[" line="21" column="12" />
-        <mark key="]" line="17" column="11" />
-        <mark key="^" line="17" column="20" />
-        <mark key="." line="17" column="11" />
+      <file name="$USER_HOME$/go/src/odin/model/report_group_test.go" timestamp="1595300516365">
+        <mark key="[" line="22" column="79" />
+        <mark key="]" line="22" column="70" />
+        <mark key="^" line="22" column="70" />
+        <mark key="." line="22" column="69" />
       </file>
     </filemarks>
     <jumps>
@@ -962,10 +962,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>20000</text>
+        <text>.Error()</text>
       </register>
       <register name="-" type="4">
-        <text>20000</text>
+        <text>.Error()</text>
       </register>
       <register name="/" type="4">
         <text>timeout</text>
