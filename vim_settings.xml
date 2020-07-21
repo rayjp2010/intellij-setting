@@ -64,19 +64,18 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595325892510">
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595327312919">
         <mark key="'" line="234" column="0" />
-        <mark key="[" line="397" column="24" />
-        <mark key="]" line="397" column="24" />
-        <mark key="^" line="396" column="23" />
-        <mark key="." line="397" column="24" />
+        <mark key="[" line="397" column="36" />
+        <mark key="]" line="397" column="36" />
+        <mark key="^" line="397" column="37" />
+        <mark key="." line="397" column="36" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1595325377304">
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1595327516997">
         <mark key="'" line="8" column="13" />
-        <mark key="[" line="359" column="29" />
-        <mark key="]" line="359" column="29" />
-        <mark key="." line="359" column="29" />
-        <mark key="^" line="359" column="100" />
+        <mark key="[" line="359" column="30" />
+        <mark key="]" line="362" column="7" />
+        <mark key="." line="362" column="7" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/PayGuardEvaluation.java" timestamp="1595321804545" />
       <file name="$USER_HOME$/go/src/odin/core/testing_util/common_testing_util.go" timestamp="1595317054542">
@@ -1047,12 +1046,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Hits.Hits = []model.SearchHit{
-		{Source: &quot;test&quot;},
-	}</text>
+        <text>_, ok := r.Aggregations[groupName]; !ok</text>
       </register>
       <register name="-" type="4">
-        <text>Hits.Hits = nil</text>
+        <text>_, ok := r.Aggregations[groupName]; !ok</text>
       </register>
       <register name="/" type="4">
         <text>elastic</text>
@@ -1060,37 +1057,37 @@
       <register name="0" type="4">
         <text>r.Aggregations[groupName] == nil</text>
       </register>
-      <register name="1" type="4">
-        <text>Hits.Hits = []model.SearchHit{
-		{Source: &quot;test&quot;},
-	}</text>
+      <register name="1" type="2">
+        <text encoding="base64">CXZhciBidWNrZXRzIFtdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gCg==</text>
+        <text encoding="base64">CQlCdWNrZXQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWFnZ3JlZ2F0aW9uSXNOb3RNYXAgOj0gcmVzQnVpbGRlci5CdWlsZCgpCglhZ2dyZWdhdGlvbklzTm90TWFwLkFnZ3JlZ2F0aW9ucyA9IG1hcFtzdHJpbmddbW9kZWwuQWdnc0dyb3Vwe30KCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">CQkJdGVzdEVzcyA6PSAmZWxhc3RpY1NlYXJjaFNlcnZpY2V7CgkJCQljbGllbnQ6IAoJCQl9Cg==</text>
+      <register name="4" type="4">
+        <text>Hits.Hits = []model.SearchHit{
+		{Source: &quot;test&quot;},
+	}</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">JmVsYXN0aWNzZWFyY2guQ2xpZW50ewoJCQkJCVRyYW5zcG9ydDogJkZha2VUcmFuc3BvcnR7CgkJCQkJCUZha2VQZXJmb3JtOiBmdW5jKHIgKmh0dHAuUmVxdWVzdCkgKHJlc3BvbnNlICpodHRwLlJlc3BvbnNlLCBlIGVycm9yKSB7CgkJCQkJCQlyZXR1cm4gJmh0dHAuUmVzcG9uc2V7CgkJCQkJCQkJQm9keTogJkZha2VSZWFkQ2xvc2VyewoJCQkJCQkJCQlGYWtlUmVhZGVyOiBzdHJpbmdzLk5ld1JlYWRlcih0Yy5SZXMpLAoJCQkJCQkJCQlGYWtlQ2xvc2U6ICB0ZXN0Q2xvc2VGdW5jLAoJCQkJCQkJCX0sCgkJCQkJCQl9LCB0Yy5SZXNFcnIKCQkJCQkJfSwKCQkJCQl9LAoJCQkJfSw=</text>
+      <register name="5" type="2">
+        <text encoding="base64">Ly8gCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQkJZXMgOj0gJmVsYXN0aWNTZWFyY2hTZXJ2aWNlewoJCQkJY2xpZW50OiAmZWxhc3RpY3NlYXJjaC5DbGllbnR7CgkJCQkJVHJhbnNwb3J0OiAmRmFrZVRyYW5zcG9ydHsKCQkJCQkJRmFrZVBlcmZvcm06IGZ1bmMociAqaHR0cC5SZXF1ZXN0KSAoKmh0dHAuUmVzcG9uc2UsIGVycm9yKSB7CgkJCQkJCQkvLyBUaGVuCgkJCQkJCQlhc3NlcnQuRXF1YWwodCwgZm10LlNwcmludGYoIi8lcy9fdXBkYXRlX2J5X3F1ZXJ5Iiwgc3RyaW5ncy5Kb2luKHR0LmluZGV4ZXMsICIsIikpLCByLlVSTC5QYXRoKQoJCQkJCQkJYXNzZXJ0LkVxdWFsKHQsICJpZ25vcmVfdW5hdmFpbGFibGU9dHJ1ZSIsIHIuVVJMLlJhd1F1ZXJ5KQoJCQkJCQkJYXNzZXJ0LkVxdWFsKHQsICJQT1NUIiwgci5NZXRob2QpCgoJCQkJCQkJYnVmIDo9IG5ldyhieXRlcy5CdWZmZXIpCgkJCQkJCQlidWYuUmVhZEZyb20oci5Cb2R5KQoJCQkJCQkJYm9keSA6PSBidWYuU3RyaW5nKCkKCQkJCQkJCWFzc2VydC5FcXVhbCh0LCB0dC5ib2R5LCBib2R5KQoKCQkJCQkJCXZhciBlcnIgZXJyb3IgPSBuaWwKCQkJCQkJCXZhciBzdGF0dXMgaW50ID0gMjAwCgkJCQkJCQlpZiBmYWlsQ291bnQgPSBmYWlsQ291bnQgLSAxOyBmYWlsQ291bnQgPj0gMCB7CgkJCQkJCQkJZXJyID0gZXJyb3JzLk5ldygiRmFrZSBlcnJvciIpCgkJCQkJCQkJc3RhdHVzID0gNTAwCgkJCQkJCQl9CgoJCQkJCQkJcmVzcG9uc2UgOj0gdHQucmVzcG9uc2UKCQkJCQkJCWlmIGZhaWxOb3RGb3VuZENvdW50ID0gZmFpbE5vdEZvdW5kQ291bnQgLSAxOyBmYWlsTm90Rm91bmRDb3VudCA+PSAwIHsKCQkJCQkJCQlyZXNwb25zZSA9IGZhaWxOb3RGb3VuZFJlc3BvbnNlCgkJCQkJCQl9CgoJCQkJCQkJaWYgZmFpbE1pc3NpbmdNYW5kYXRvcnkgPSBmYWlsTWlzc2luZ01hbmRhdG9yeSAtIDE7IGZhaWxNaXNzaW5nTWFuZGF0b3J5ID49IDAgewoJCQkJCQkJCXJlc3BvbnNlID0gZmFpbE1pc3NpbmdNYW5kYXRvcnlSZXNwb25zZQoJCQkJCQkJfQoKCQkJCQkJCXJldHVybiAmaHR0cC5SZXNwb25zZXsKCQkJCQkJCQlTdGF0dXNDb2RlOiBzdGF0dXMsCgkJCQkJCQkJQm9keTogJkZha2VSZWFkQ2xvc2VyewoJCQkJCQkJCQlGYWtlUmVhZGVyOiBzdHJpbmdzLk5ld1JlYWRlcihyZXNwb25zZSksCgkJCQkJCQkJCUZha2VDbG9zZTogIHRlc3RDbG9zZUZ1bmMsCgkJCQkJCQkJfSwKCQkJCQkJCX0sIGVycgoJCQkJCQl9LAoJCQkJCX0sCgkJCQl9LAoJCQl9Cg==</text>
+        <text encoding="base64">CQkJdGVzdEVzcyA6PSAmZWxhc3RpY1NlYXJjaFNlcnZpY2V7CgkJCQljbGllbnQ6IAoJCQl9Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">CQkJZXMgOj0gJmVsYXN0aWNTZWFyY2hTZXJ2aWNlewoJCQkJY2xpZW50OiAKCQkJfQo=</text>
+      <register name="8" type="4">
+        <text encoding="base64">JmVsYXN0aWNzZWFyY2guQ2xpZW50ewoJCQkJCVRyYW5zcG9ydDogJkZha2VUcmFuc3BvcnR7CgkJCQkJCUZha2VQZXJmb3JtOiBmdW5jKHIgKmh0dHAuUmVxdWVzdCkgKHJlc3BvbnNlICpodHRwLlJlc3BvbnNlLCBlIGVycm9yKSB7CgkJCQkJCQlyZXR1cm4gJmh0dHAuUmVzcG9uc2V7CgkJCQkJCQkJQm9keTogJkZha2VSZWFkQ2xvc2VyewoJCQkJCQkJCQlGYWtlUmVhZGVyOiBzdHJpbmdzLk5ld1JlYWRlcih0Yy5SZXMpLAoJCQkJCQkJCQlGYWtlQ2xvc2U6ICB0ZXN0Q2xvc2VGdW5jLAoJCQkJCQkJCX0sCgkJCQkJCQl9LCB0Yy5SZXNFcnIKCQkJCQkJfSwKCQkJCQl9LAoJCQkJfSw=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">JmVsYXN0aWNzZWFyY2guQ2xpZW50ewoJCQkJCVRyYW5zcG9ydDogJkZha2VUcmFuc3BvcnR7CgkJCQkJCUZha2VQZXJmb3JtOiBmdW5jKHIgKmh0dHAuUmVxdWVzdCkgKCpodHRwLlJlc3BvbnNlLCBlcnJvcikgewoJCQkJCQkJLy8gVGhlbgoJCQkJCQkJYXNzZXJ0LkVxdWFsKHQsIGZtdC5TcHJpbnRmKCIvJXMvX2RvYy8lcy9fdXBkYXRlIiwgdHQuaW5kZXgsIHR0LmlkKSwgci5VUkwuUGF0aCkKCQkJCQkJCWFzc2VydC5FcXVhbCh0LCAicmVmcmVzaD1mYWxzZSIsIHIuVVJMLlJhd1F1ZXJ5KQoJCQkJCQkJYXNzZXJ0LkVxdWFsKHQsICJQT1NUIiwgci5NZXRob2QpCgoJCQkJCQkJdmFyIGVyciBlcnJvciA9IG5pbAoJCQkJCQkJdmFyIHN0YXR1cyBpbnQgPSAyMDAKCQkJCQkJCWlmIGZhaWxDb3VudCA9IGZhaWxDb3VudCAtIDE7IGZhaWxDb3VudCA+PSAwIHsKCQkJCQkJCQllcnIgPSBlcnJvcnMuTmV3KCJGYWtlIGVycm9yIikKCQkJCQkJCQlzdGF0dXMgPSA1MDAKCQkJCQkJCX0KCgkJCQkJCQlyZXR1cm4gJmh0dHAuUmVzcG9uc2V7CgkJCQkJCQkJU3RhdHVzQ29kZTogc3RhdHVzLAoJCQkJCQkJCUJvZHk6ICZGYWtlUmVhZENsb3NlcnsKCQkJCQkJCQkJRmFrZVJlYWRlcjogc3RyaW5ncy5OZXdSZWFkZXIodHQucmVzcG9uc2UpLAoJCQkJCQkJCQlGYWtlQ2xvc2U6ICB0ZXN0Q2xvc2VGdW5jLAoJCQkJCQkJCX0sCgkJCQkJCQl9LCBlcnIKCQkJCQkJfSwKCQkJCQl9LAoJCQkJfSw=</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
