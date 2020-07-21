@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ichibaorder</entry>
-        <entry>memberId</entry>
         <entry>member</entry>
         <entry>test</entry>
         <entry>easyId</entry>
@@ -25,6 +23,8 @@
         <entry>es_query</entry>
         <entry>es</entry>
         <entry>grpc</entry>
+        <entry>hystrix</entry>
+        <entry>timeout</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -64,48 +64,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595228507542">
-        <mark key="'" line="663" column="24" />
-        <mark key="[" line="142" column="56" />
-        <mark key="]" line="142" column="52" />
-        <mark key="." line="142" column="51" />
-        <mark key="^" line="142" column="52" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1595228439719">
-        <mark key="'" line="372" column="9" />
-        <mark key="[" line="378" column="36" />
-        <mark key="]" line="378" column="65" />
-        <mark key="." line="378" column="64" />
-        <mark key="^" line="378" column="65" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1595225631586">
-        <mark key="[" line="380" column="0" />
-        <mark key="]" line="380" column="0" />
-        <mark key="^" line="366" column="17" />
-        <mark key="." line="380" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1595244850976">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="^" line="7" column="32" />
-        <mark key="." line="13" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util.go" timestamp="1595223750470">
-        <mark key="[" line="0" column="12" />
-        <mark key="]" line="0" column="12" />
-        <mark key="^" line="0" column="17" />
-        <mark key="." line="0" column="12" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/util/util_test.go" timestamp="1595243641651">
-        <mark key="'" line="456" column="0" />
-        <mark key="[" line="229" column="119" />
-        <mark key="]" line="229" column="119" />
-        <mark key="." line="229" column="119" />
-        <mark key="^" line="229" column="86" />
-      </file>
-      <file name="/elastic_search_service.go" timestamp="1595227350604">
-        <mark key="[" line="218" column="0" />
-        <mark key="]" line="220" column="5" />
+      <file name="$USER_HOME$/go/src/odin-config/odin-api/config-pro.yaml" timestamp="1595298281197">
+        <mark key="'" line="22" column="47" />
+        <mark key="[" line="18" column="27" />
+        <mark key="]" line="18" column="28" />
+        <mark key="." line="18" column="28" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1595291929032">
         <mark key="'" line="158" column="13" />
@@ -114,33 +77,12 @@
         <mark key="." line="36" column="0" />
         <mark key="^" line="36" column="1" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1595223707738">
-        <mark key="'" line="24" column="30" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/testing_util.go" timestamp="1595225169618">
-        <mark key="'" line="46" column="0" />
-        <mark key="[" line="938" column="133" />
-        <mark key="]" line="938" column="178" />
-        <mark key="." line="938" column="133" />
-        <mark key="^" line="939" column="56" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/json_parser_test.go" timestamp="1595225706196">
-        <mark key="'" line="7" column="13" />
-        <mark key="]" line="7" column="6" />
-        <mark key="^" line="7" column="6" />
-        <mark key="." line="7" column="5" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/elastic_query_test.go" timestamp="1595223613215">
-        <mark key="[" line="0" column="13" />
-        <mark key="]" line="5" column="13" />
-        <mark key="^" line="5" column="13" />
-        <mark key="." line="5" column="12" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1595244645231">
-        <mark key="'" line="268" column="9" />
-        <mark key="[" line="301" column="0" />
-        <mark key="]" line="301" column="0" />
-        <mark key="." line="301" column="0" />
+      <file name="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" timestamp="1595298433760">
+        <mark key="'" line="22" column="29" />
+        <mark key="[" line="33" column="34" />
+        <mark key="]" line="33" column="34" />
+        <mark key="." line="33" column="34" />
+        <mark key="^" line="33" column="39" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/report_group_test.go" timestamp="1595292518037">
         <mark key="[" line="21" column="12" />
@@ -148,42 +90,8 @@
         <mark key="^" line="17" column="20" />
         <mark key="." line="17" column="11" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service_test.go" timestamp="1595225296758">
-        <mark key="'" line="99" column="15" />
-        <mark key="[" line="95" column="85" />
-        <mark key="]" line="95" column="97" />
-        <mark key="." line="284" column="58" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1595225682609">
-        <mark key="'" line="1537" column="41" />
-        <mark key="[" line="1537" column="41" />
-        <mark key="]" line="1537" column="41" />
-        <mark key="^" line="415" column="41" />
-        <mark key="." line="1537" column="41" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator_test.go" timestamp="1595224572187">
-        <mark key="[" line="69" column="87" />
-        <mark key="]" line="69" column="88" />
-        <mark key="^" line="9" column="6" />
-        <mark key="." line="69" column="88" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595242900723">
-        <mark key="'" line="251" column="39" />
-        <mark key="[" line="83" column="53" />
-        <mark key="]" line="187" column="106" />
-        <mark key="." line="187" column="105" />
-        <mark key="^" line="187" column="106" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_interval_test.go" timestamp="1595244889908">
-        <mark key="[" line="0" column="13" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="245" column="39" filename="$USER_HOME$/go/src/odin/util/util.go" />
-      <jump line="45" column="41" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
-      <jump line="439" column="16" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
-      <jump line="188" column="28" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
-      <jump line="440" column="9" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="65" column="0" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="164" column="40" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
       <jump line="177" column="178" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/search/TransactionSearch.jsx" />
@@ -279,6 +187,11 @@
       <jump line="7" column="13" filename="$USER_HOME$/go/src/odin/core/json_parser_test.go" />
       <jump line="424" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
       <jump line="433" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
+      <jump line="22" column="47" filename="$USER_HOME$/go/src/odin-config/odin-api/config-pro.yaml" />
+      <jump line="19" column="22" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
+      <jump line="32" column="15" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
+      <jump line="33" column="21" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
+      <jump line="22" column="29" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1049,13 +962,13 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>testCase{}</text>
+        <text>20000</text>
       </register>
       <register name="-" type="4">
-        <text>testCase{}</text>
+        <text>20000</text>
       </register>
       <register name="/" type="4">
-        <text>grpc</text>
+        <text>timeout</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Ly8gY3JlYXRlIGFuIGFnZ3JlZ2F0aW9uIGZpbHRlciBieSBnaXZlbiBmaWVsZCwgd2l0aCBnaXZlbiBhZ2dyZWdhdGlvbiBhbmQgbWV0YSBpbmZvCg==</text>
@@ -1097,9 +1010,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>grpc</last-search>
+      <last-search>timeout</last-search>
       <last-offset />
-      <last-pattern>grpc</last-pattern>
+      <last-pattern>timeout</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
