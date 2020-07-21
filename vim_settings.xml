@@ -64,12 +64,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595329314526">
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595330423331">
         <mark key="'" line="234" column="0" />
-        <mark key="[" line="452" column="31" />
-        <mark key="]" line="452" column="31" />
-        <mark key="^" line="446" column="42" />
-        <mark key="." line="452" column="31" />
+        <mark key="[" line="491" column="47" />
+        <mark key="]" line="491" column="47" />
+        <mark key="^" line="488" column="48" />
+        <mark key="." line="491" column="47" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1595329303567">
         <mark key="'" line="8" column="13" />
@@ -86,7 +86,7 @@
         <mark key="^" line="16" column="46" />
         <mark key="." line="16" column="45" />
       </file>
-      <file name="/fragment.go" timestamp="1595329092334">
+      <file name="/fragment.go" timestamp="1595329728342">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util/audit_log_testing_util.go" timestamp="1595315476069">
@@ -1047,48 +1047,48 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>&quot;</text>
+        <text>*</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text>*</text>
       </register>
       <register name="/" type="4">
         <text>elastic</text>
       </register>
-      <register name="0" type="4">
-        <text>&quot;failed in extracting aggregations group from response&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">CQkJImdyb3VwX2J5X2ludGVydmFsIiwK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">CWFnZ3JlZ2F0aW9uR3JvdXBJc05vdE1hcC5BZ2dyZWdhdGlvbnNbImdyb3VwX2J5X2ludGVydmFsIl0gPSBtb2RlbC5BZ2dzR3JvdXB7QnVja2V0czogW11pbnRlcmZhY2V7fXsibm90IGpzb24ifX0K</text>
+      <register name="1" type="4">
+        <text>.Hits.Hits = []model.SearchHit{
+		{Id: &quot;id1&quot;, Source: bucket1},
+	}</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CQl7ImluY29ycmVjdCByZXNwb25zZSAtPiBlcnJvciIsIFtdc3RyaW5neyJpbmRleDEiLCAiaW5kZXgyIn0sCgkJCXV0aWwuSnNvbk1hcHsicXVlcnkiOiAidGVzdCJ9LAoJCQkiZ3JvdXBfYnlfaW50ZXJ2YWwiLAoJCQkibm90IGpzb24iLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoImludmFsaWQgY2hhcmFjdGVyICdvJyBpbiBsaXRlcmFsIG51bGwgKGV4cGVjdGluZyAndScpIiksCgkJCXRydWUsCgkJfSwK</text>
+        <text encoding="base64">CXRyeDIuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjIiKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQl7ImFnZ3JlZ2F0aW9uIGJ1Y2tldCBpcyBub3QgY29ycmVjdCBtYXAgLT4gZXJyb3IiLCBbXXN0cmluZ3siaW5kZXgxIiwgImluZGV4MiJ9LAoJCQl1dGlsLkpzb25NYXB7InF1ZXJ5IjogInRlc3QifSwKCQkJImdyb3VwX2J5X2ludGVydmFsIiwKCQkJTWFyc2hhbFRvSnNvbihhZ2dyZWdhdGlvbkdyb3VwSXNOb3RNYXApLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoIicnIGV4cGVjdGVkIGEgbWFwLCBnb3QgJ3N0cmluZyciKSwKCQkJdHJ1ZSwKCQl9LAo=</text>
+        <text encoding="base64">CXRyeDIgOj0gR2V0VHJhbnNhY3Rpb25Eb2N1bWVudCgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CQl7Im5vIGFnZ3JlZ2F0aW9ucyBpbiByZXNwb25zZSAtPiByZXR1cm4gZW1wdHkiLCBbXXN0cmluZ3siaW5kZXgxIiwgImluZGV4MiJ9LAoJCQl1dGlsLkpzb25NYXB7InF1ZXJ5IjogInRlc3QifSwKCQkJImdyb3VwX2J5X2ludGVydmFsIiwKCQkJTWFyc2hhbFRvSnNvbihub0FnZ3JlZ2F0aW9uc1Jlc3VsdCksCgkJCW5pbCwKCQkJW11tb2RlbC5CYXNpY1JlcG9ydEJ1Y2tldHt9LAoJCQl1dGlsLkdldFN0cmluZ1B0cigiZmFpbGVkIGluIGV4dHJhY3RpbmcgYWdncmVnYXRpb25zIGZyb20gcmVzcG9uc2UiKSwKCQkJdHJ1ZSwKCQl9LAo=</text>
+        <text encoding="base64">CWJ1Y2tldDEuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjEiKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CXZhciBidWNrZXRzIFtdCg==</text>
+        <text encoding="base64">CQkidGVzdCI6IHt9Cgl9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQlCdWNrZXQK</text>
+        <text encoding="base64">CWFnZ3JlZ2F0aW9uR3JvdXBJc05vdE1hcC5BZ2dyZWdhdGlvbnNbImdyb3VwX2J5X2ludGVydmFsIl0gPSBtb2RlbC5BZ2dzR3JvdXB7QnVja2V0czogW11pbnRlcmZhY2V7fXsibm90IGpzb24ifX0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CWFnZ3JlZ2F0aW9uSXNOb3RNYXAgOj0gcmVzQnVpbGRlci5CdWlsZCgpCglhZ2dyZWdhdGlvbklzTm90TWFwLkFnZ3JlZ2F0aW9ucyA9IG1hcFtzdHJpbmddbW9kZWwuQWdnc0dyb3Vwe30KCg==</text>
+        <text encoding="base64">CQl7ImluY29ycmVjdCByZXNwb25zZSAtPiBlcnJvciIsIFtdc3RyaW5neyJpbmRleDEiLCAiaW5kZXgyIn0sCgkJCXV0aWwuSnNvbk1hcHsicXVlcnkiOiAidGVzdCJ9LAoJCQkiZ3JvdXBfYnlfaW50ZXJ2YWwiLAoJCQkibm90IGpzb24iLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoImludmFsaWQgY2hhcmFjdGVyICdvJyBpbiBsaXRlcmFsIG51bGwgKGV4cGVjdGluZyAndScpIiksCgkJCXRydWUsCgkJfSwK</text>
       </register>
-      <register name="8" type="4">
-        <text>Hits.Hits = []model.SearchHit{
-		{Source: &quot;test&quot;},
-	}</text>
+      <register name="8" type="2">
+        <text encoding="base64">CQl7ImFnZ3JlZ2F0aW9uIGJ1Y2tldCBpcyBub3QgY29ycmVjdCBtYXAgLT4gZXJyb3IiLCBbXXN0cmluZ3siaW5kZXgxIiwgImluZGV4MiJ9LAoJCQl1dGlsLkpzb25NYXB7InF1ZXJ5IjogInRlc3QifSwKCQkJImdyb3VwX2J5X2ludGVydmFsIiwKCQkJTWFyc2hhbFRvSnNvbihhZ2dyZWdhdGlvbkdyb3VwSXNOb3RNYXApLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoIicnIGV4cGVjdGVkIGEgbWFwLCBnb3QgJ3N0cmluZyciKSwKCQkJdHJ1ZSwKCQl9LAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gCg==</text>
+        <text encoding="base64">CQl7Im5vIGFnZ3JlZ2F0aW9ucyBpbiByZXNwb25zZSAtPiByZXR1cm4gZW1wdHkiLCBbXXN0cmluZ3siaW5kZXgxIiwgImluZGV4MiJ9LAoJCQl1dGlsLkpzb25NYXB7InF1ZXJ5IjogInRlc3QifSwKCQkJImdyb3VwX2J5X2ludGVydmFsIiwKCQkJTWFyc2hhbFRvSnNvbihub0FnZ3JlZ2F0aW9uc1Jlc3VsdCksCgkJCW5pbCwKCQkJW11tb2RlbC5CYXNpY1JlcG9ydEJ1Y2tldHt9LAoJCQl1dGlsLkdldFN0cmluZ1B0cigiZmFpbGVkIGluIGV4dHJhY3RpbmcgYWdncmVnYXRpb25zIGZyb20gcmVzcG9uc2UiKSwKCQkJdHJ1ZSwKCQl9LAo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
