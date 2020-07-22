@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>coupon</entry>
         <entry>grossA</entry>
         <entry>cardBin</entry>
         <entry>CardLast4Digit</entry>
@@ -25,6 +24,7 @@
         <entry>Fake</entry>
         <entry>NoE</entry>
         <entry>elastic</entry>
+        <entry>date_range</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -102,17 +102,17 @@
         <mark key="." line="147" column="95" />
         <mark key="^" line="147" column="96" />
       </file>
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1595377350379">
+        <mark key="'" line="134" column="4" />
+        <mark key="[" line="79" column="11" />
+        <mark key="]" line="79" column="39" />
+        <mark key="^" line="79" column="39" />
+        <mark key="." line="79" column="38" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/export_test.go" timestamp="1595323967814">
         <mark key="]" line="4" column="35" />
         <mark key="^" line="4" column="35" />
         <mark key="." line="4" column="34" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" timestamp="1595298436841">
-        <mark key="'" line="22" column="29" />
-        <mark key="[" line="33" column="34" />
-        <mark key="]" line="33" column="39" />
-        <mark key="." line="33" column="38" />
-        <mark key="^" line="33" column="39" />
       </file>
       <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1595323114870">
         <mark key="'" line="188" column="45" />
@@ -177,7 +177,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="206" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="7" column="0" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="14" column="9" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="9" column="197" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
@@ -277,6 +276,7 @@
       <jump line="8" column="13" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
       <jump line="814" column="17" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="234" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
+      <jump line="130" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1047,48 +1047,48 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>*</text>
+        <text>subject.replace('[INTERVAL]', interval)</text>
       </register>
       <register name="-" type="4">
-        <text>*</text>
+        <text>subject.replace('[INTERVAL]', interval)</text>
       </register>
       <register name="/" type="4">
-        <text>elastic</text>
+        <text>date_range</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQkJImdyb3VwX2J5X2ludGVydmFsIiwK</text>
+        <text encoding="base64">ZW1haWxfcmVjaXBpZW50ID0gImljaGliYV8ueWQ2dzhibHE3ZjRvMjRsekB1LmJveC5jb20iCg==</text>
       </register>
-      <register name="1" type="4">
-        <text>.Hits.Hits = []model.SearchHit{
-		{Id: &quot;id1&quot;, Source: bucket1},
-	}</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICdIb3VybHknOgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CXRyeDIuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjIiKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">CXRyeDIgOj0gR2V0VHJhbnNhY3Rpb25Eb2N1bWVudCgpCg==</text>
+      <register name="3" type="4">
+        <text>.Hits.Hits = []model.SearchHit{
+		{Id: &quot;id1&quot;, Source: bucket1},
+	}</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CWJ1Y2tldDEuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjEiKQo=</text>
+        <text encoding="base64">CXRyeDIuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjIiKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CQkidGVzdCI6IHt9Cgl9Cg==</text>
+        <text encoding="base64">CXRyeDIgOj0gR2V0VHJhbnNhY3Rpb25Eb2N1bWVudCgpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CWFnZ3JlZ2F0aW9uR3JvdXBJc05vdE1hcC5BZ2dyZWdhdGlvbnNbImdyb3VwX2J5X2ludGVydmFsIl0gPSBtb2RlbC5BZ2dzR3JvdXB7QnVja2V0czogW11pbnRlcmZhY2V7fXsibm90IGpzb24ifX0K</text>
+        <text encoding="base64">CWJ1Y2tldDEuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjEiKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQl7ImluY29ycmVjdCByZXNwb25zZSAtPiBlcnJvciIsIFtdc3RyaW5neyJpbmRleDEiLCAiaW5kZXgyIn0sCgkJCXV0aWwuSnNvbk1hcHsicXVlcnkiOiAidGVzdCJ9LAoJCQkiZ3JvdXBfYnlfaW50ZXJ2YWwiLAoJCQkibm90IGpzb24iLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoImludmFsaWQgY2hhcmFjdGVyICdvJyBpbiBsaXRlcmFsIG51bGwgKGV4cGVjdGluZyAndScpIiksCgkJCXRydWUsCgkJfSwK</text>
+        <text encoding="base64">CQkidGVzdCI6IHt9Cgl9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQl7ImFnZ3JlZ2F0aW9uIGJ1Y2tldCBpcyBub3QgY29ycmVjdCBtYXAgLT4gZXJyb3IiLCBbXXN0cmluZ3siaW5kZXgxIiwgImluZGV4MiJ9LAoJCQl1dGlsLkpzb25NYXB7InF1ZXJ5IjogInRlc3QifSwKCQkJImdyb3VwX2J5X2ludGVydmFsIiwKCQkJTWFyc2hhbFRvSnNvbihhZ2dyZWdhdGlvbkdyb3VwSXNOb3RNYXApLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoIicnIGV4cGVjdGVkIGEgbWFwLCBnb3QgJ3N0cmluZyciKSwKCQkJdHJ1ZSwKCQl9LAo=</text>
+        <text encoding="base64">CWFnZ3JlZ2F0aW9uR3JvdXBJc05vdE1hcC5BZ2dyZWdhdGlvbnNbImdyb3VwX2J5X2ludGVydmFsIl0gPSBtb2RlbC5BZ2dzR3JvdXB7QnVja2V0czogW11pbnRlcmZhY2V7fXsibm90IGpzb24ifX0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQl7Im5vIGFnZ3JlZ2F0aW9ucyBpbiByZXNwb25zZSAtPiByZXR1cm4gZW1wdHkiLCBbXXN0cmluZ3siaW5kZXgxIiwgImluZGV4MiJ9LAoJCQl1dGlsLkpzb25NYXB7InF1ZXJ5IjogInRlc3QifSwKCQkJImdyb3VwX2J5X2ludGVydmFsIiwKCQkJTWFyc2hhbFRvSnNvbihub0FnZ3JlZ2F0aW9uc1Jlc3VsdCksCgkJCW5pbCwKCQkJW11tb2RlbC5CYXNpY1JlcG9ydEJ1Y2tldHt9LAoJCQl1dGlsLkdldFN0cmluZ1B0cigiZmFpbGVkIGluIGV4dHJhY3RpbmcgYWdncmVnYXRpb25zIGZyb20gcmVzcG9uc2UiKSwKCQkJdHJ1ZSwKCQl9LAo=</text>
+        <text encoding="base64">CQl7ImluY29ycmVjdCByZXNwb25zZSAtPiBlcnJvciIsIFtdc3RyaW5neyJpbmRleDEiLCAiaW5kZXgyIn0sCgkJCXV0aWwuSnNvbk1hcHsicXVlcnkiOiAidGVzdCJ9LAoJCQkiZ3JvdXBfYnlfaW50ZXJ2YWwiLAoJCQkibm90IGpzb24iLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoImludmFsaWQgY2hhcmFjdGVyICdvJyBpbiBsaXRlcmFsIG51bGwgKGV4cGVjdGluZyAndScpIiksCgkJCXRydWUsCgkJfSwK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1097,9 +1097,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>elastic</last-search>
+      <last-search>date_range</last-search>
       <last-offset />
-      <last-pattern>elastic</last-pattern>
+      <last-pattern>date_range</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
