@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>grossA</entry>
         <entry>cardBin</entry>
         <entry>CardLast4Digit</entry>
         <entry>CardAmount</entry>
@@ -25,6 +24,7 @@
         <entry>NoE</entry>
         <entry>elastic</entry>
         <entry>date_range</entry>
+        <entry>limit</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -102,6 +102,13 @@
         <mark key="^" line="78" column="39" />
         <mark key="." line="45" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1595400515804">
+        <mark key="'" line="247" column="60" />
+        <mark key="[" line="240" column="72" />
+        <mark key="]" line="240" column="72" />
+        <mark key="^" line="240" column="76" />
+        <mark key="." line="240" column="72" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1595395798474">
         <mark key="'" line="27" column="5" />
         <mark key="[" line="29" column="90" />
@@ -160,13 +167,6 @@
         <mark key="." line="301" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-web/src/main/java/com/rakuten/fpg/ui/admintool/web/SearchController.java" timestamp="1595321742347" />
-      <file name="$USER_HOME$/go/src/odin/model/report_group_test.go" timestamp="1595314339280">
-        <mark key="'" line="207" column="4" />
-        <mark key="[" line="239" column="31" />
-        <mark key="]" line="239" column="32" />
-        <mark key="^" line="239" column="32" />
-        <mark key="." line="239" column="31" />
-      </file>
       <file name="/Dummy.txt" timestamp="1595329147699">
         <mark key="[" line="0" column="0" />
       </file>
@@ -179,7 +179,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="197" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="144" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="180" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="12" column="14" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -279,6 +278,7 @@
       <jump line="130" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="27" column="5" filename="$USER_HOME$/go/src/odin/model/search_request.go" />
       <jump line="61" column="0" filename="$USER_HOME$/go/src/odin/core/validator_test.go" />
+      <jump line="247" column="60" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1055,7 +1055,7 @@
         <text>property</text>
       </register>
       <register name="/" type="4">
-        <text>date_range</text>
+        <text>limit</text>
       </register>
       <register name="0" type="4">
         <text>interval is not correct</text>
@@ -1097,9 +1097,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>date_range</last-search>
+      <last-search>limit</last-search>
       <last-offset />
-      <last-pattern>date_range</last-pattern>
+      <last-pattern>limit</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
