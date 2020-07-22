@@ -128,23 +128,24 @@
         <mark key="^" line="366" column="17" />
         <mark key="." line="380" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/basic_report.go" timestamp="1595305102571">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" timestamp="1595321602112">
         <mark key="'" line="28" column="24" />
         <mark key="[" line="80" column="0" />
         <mark key="]" line="80" column="0" />
         <mark key="." line="80" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/transaction_testing_util.go" timestamp="1595315443456">
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/transaction_testing_util.go" timestamp="1595388281868">
         <mark key="'" line="145" column="37" />
-        <mark key="[" line="177" column="1" />
-        <mark key="]" line="431" column="1" />
+        <mark key="[" line="124" column="0" />
+        <mark key="]" line="124" column="67" />
         <mark key="^" line="431" column="1" />
         <mark key="." line="431" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595388294197">
+        <mark key="[" line="7" column="43" />
+        <mark key="]" line="7" column="43" />
+        <mark key="^" line="8" column="0" />
+        <mark key="." line="7" column="43" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util/testing_util.go" timestamp="1595314939636">
         <mark key="'" line="46" column="0" />
@@ -169,11 +170,11 @@
       <file name="/Dummy.txt" timestamp="1595329147699">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator_test.go" timestamp="1595314847860">
-        <mark key="[" line="6" column="4" />
-        <mark key="]" line="6" column="6" />
-        <mark key="^" line="6" column="6" />
-        <mark key="." line="6" column="5" />
+      <file name="$USER_HOME$/go/src/odin/core/validator_test.go" timestamp="1595388236166">
+        <mark key="[" line="104" column="0" />
+        <mark key="]" line="61" column="18" />
+        <mark key="^" line="61" column="18" />
+        <mark key="." line="61" column="17" />
       </file>
     </filemarks>
     <jumps>
@@ -1046,17 +1047,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">IyBUT0RPIGNoYW5nZSB0byBjb3JyZWN0IHJlY2lwaWVudAo=</text>
+      <register name="*" type="4">
+        <text>TransactionSearchRequest</text>
       </register>
       <register name="-" type="4">
-        <text>subject.replace('[INTERVAL]', interval)</text>
+        <text>TransactionSearchRequest</text>
       </register>
       <register name="/" type="4">
         <text>date_range</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZW1haWxfcmVjaXBpZW50ID0gImljaGliYV8ueWQ2dzhibHE3ZjRvMjRsekB1LmJveC5jb20iCg==</text>
+      <register name="0" type="4">
+        <text>BasicReportSearchRequestBuilder</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">IyBUT0RPIGNoYW5nZSB0byBjb3JyZWN0IHJlY2lwaWVudAo=</text>
