@@ -79,28 +79,21 @@
         <mark key="^" line="363" column="65" />
       </file>
       <file name="$USER_HOME$/Workspace/fpg-ui-admintool/fpg-ui-admintool-dao/src/main/java/com/rakuten/fpg/ui/admintool/dao/entity/enums/PayGuardEvaluation.java" timestamp="1595321804545" />
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/common_testing_util.go" timestamp="1595317054542">
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/common_testing_util.go" timestamp="1595393988603">
         <mark key="'" line="30" column="0" />
-        <mark key="[" line="15" column="61" />
-        <mark key="]" line="16" column="46" />
-        <mark key="^" line="16" column="46" />
-        <mark key="." line="16" column="45" />
+        <mark key="[" line="129" column="0" />
+        <mark key="]" line="134" column="1" />
+        <mark key="^" line="150" column="5" />
+        <mark key="." line="150" column="0" />
       </file>
       <file name="/fragment.go" timestamp="1595329728342">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/audit_log_testing_util.go" timestamp="1595315476069">
-        <mark key="[" line="345" column="1" />
-        <mark key="]" line="345" column="2" />
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/audit_log_testing_util.go" timestamp="1595393321289">
+        <mark key="[" line="343" column="0" />
+        <mark key="]" line="345" column="1" />
         <mark key="." line="345" column="1" />
         <mark key="^" line="345" column="2" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/model/report_group.go" timestamp="1595312589834">
-        <mark key="'" line="158" column="13" />
-        <mark key="[" line="147" column="95" />
-        <mark key="]" line="147" column="96" />
-        <mark key="." line="147" column="95" />
-        <mark key="^" line="147" column="96" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1595388187911">
         <mark key="'" line="133" column="4" />
@@ -108,6 +101,13 @@
         <mark key="]" line="45" column="0" />
         <mark key="^" line="78" column="39" />
         <mark key="." line="45" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1595390063711">
+        <mark key="'" line="27" column="5" />
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="34" column="26" />
+        <mark key="^" line="34" column="44" />
+        <mark key="." line="34" column="27" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/export_test.go" timestamp="1595323967814">
         <mark key="]" line="4" column="35" />
@@ -141,11 +141,11 @@
         <mark key="^" line="431" column="1" />
         <mark key="." line="431" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595388294197">
-        <mark key="[" line="7" column="43" />
-        <mark key="]" line="7" column="43" />
-        <mark key="^" line="8" column="0" />
-        <mark key="." line="7" column="43" />
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595393996902">
+        <mark key="[" line="57" column="16" />
+        <mark key="]" line="57" column="16" />
+        <mark key="." line="57" column="16" />
+        <mark key="^" line="63" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util/testing_util.go" timestamp="1595314939636">
         <mark key="'" line="46" column="0" />
@@ -178,7 +178,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="0" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="14" column="9" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="9" column="197" filename="$USER_HOME$/Workspace/eventhub_test_tool/message_config.js" />
       <jump line="144" column="0" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
@@ -278,6 +277,7 @@
       <jump line="814" column="17" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="234" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
       <jump line="130" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
+      <jump line="27" column="5" filename="$USER_HOME$/go/src/odin/model/search_request.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1048,48 +1048,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>TransactionSearchRequest</text>
+        <text>Int64</text>
       </register>
       <register name="-" type="4">
-        <text>TransactionSearchRequest</text>
+        <text>Int64</text>
       </register>
       <register name="/" type="4">
         <text>date_range</text>
       </register>
-      <register name="0" type="4">
-        <text>BasicReportSearchRequestBuilder</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZnVuYyBHZXROdWxsYWJsZUludDY0KGkgaW50ZXJmYWNle30pICppbnQ2NCB7CglpZiBpID09IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoJcmV0dXJuIGkuKCppbnQ2NCkKfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IyBUT0RPIGNoYW5nZSB0byBjb3JyZWN0IHJlY2lwaWVudAo=</text>
+        <text encoding="base64">CWNhc2UgIkVuZERhdGUiOgoJCWJ1aWxkZXIuRW5kRGF0ZSA9IEdldE51bGxhYmxlSW50NjQodmFsdWUpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICdIb3VybHknOgo=</text>
+        <text encoding="base64">CWNhc2UgIlN0YXJ0RGF0ZSI6CgkJYnVpbGRlci5TdGFydERhdGUgPSBHZXROdWxsYWJsZVRyeFByb3AodmFsdWUpCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">CWNhc2UgIlN0YXJ0RGF0ZSI6CgkJYnVpbGRlci5TdGFydERhdGUgPSBHZXROdWxsYWJsZUludDY0KHZhbHVlKQo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>.Hits.Hits = []model.SearchHit{
-		{Id: &quot;id1&quot;, Source: bucket1},
-	}</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">CXRyeDIuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjIiKQo=</text>
+        <text encoding="base64">CX0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CXRyeDIgOj0gR2V0VHJhbnNhY3Rpb25Eb2N1bWVudCgpCg==</text>
+        <text encoding="base64">CSZUcmFuc2FjdGlvblNlYXJjaFJlcXVlc3RCdWlsZGVyewoJCVRyYW5zYWN0aW9uUHJvcGVydHk6ICAgICAgR2V0VHJ4UHJvcFB0cihtb2RlbC5PcmRlcklEKSwKCQlUcmFuc2FjdGlvblByb3BlcnR5VmFsdWU6IHV0aWwuR2V0U3RyaW5nUHRyKCIxOTA5NTAtMjAxOTA3MjYtMDEwMDU4MTciKSwKCQlTdGFydERhdGU6ICAgICAgICAgICAgICAgIHV0aWwuR2V0SW50NjRQdHIoMTIzNDU2NzApLAoJCUVuZERhdGU6ICAgICAgICAgICAgICAgICAgdXRpbC5HZXRJbnQ2NFB0cigxMjM0NTY3OCksCgkJUGF5Z3VhcmRFdmFsdWF0aW9uOiAgICAgICBHZXRQZ0V2YWxQdHIobW9kZWwuQWNjZXB0VUkpLAoJCVJlc3VsdE9mZnNldDogICAgICAgICAgICAgdXRpbC5HZXRJbnRQdHIoMiksCgkJSW50ZXJ2YWw6ICAgICAgICAgICAgICAgICBuaWwsCgkJT3JnYW5pemF0aW9uSWRzOiAgICAgICAgICBbXWludDY0ezEyM30sCgkJTGltaXQ6ICAgICAgICAgICAgICAgICAgICB1dGlsLkdldEludFB0cigxMDApLAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CWJ1Y2tldDEuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjEiKQo=</text>
+        <text encoding="base64">CQlMaW1pdCAgICAgICAgOiB1dGlsLkdldEludFB0cigpLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CQkidGVzdCI6IHt9Cgl9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CWFnZ3JlZ2F0aW9uR3JvdXBJc05vdE1hcC5BZ2dyZWdhdGlvbnNbImdyb3VwX2J5X2ludGVydmFsIl0gPSBtb2RlbC5BZ2dzR3JvdXB7QnVja2V0czogW11pbnRlcmZhY2V7fXsibm90IGpzb24ifX0K</text>
+        <text encoding="base64">ZnVuYyBHZXRSZXBvcnRJbnRlcnZhbFB0cigpICB7CgkKfQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
