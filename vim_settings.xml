@@ -102,12 +102,12 @@
         <mark key="." line="147" column="95" />
         <mark key="^" line="147" column="96" />
       </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1595377350379">
-        <mark key="'" line="134" column="4" />
-        <mark key="[" line="79" column="11" />
-        <mark key="]" line="79" column="39" />
-        <mark key="^" line="79" column="39" />
-        <mark key="." line="79" column="38" />
+      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1595388187911">
+        <mark key="'" line="133" column="4" />
+        <mark key="[" line="45" column="0" />
+        <mark key="]" line="45" column="0" />
+        <mark key="^" line="78" column="39" />
+        <mark key="." line="45" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/export_test.go" timestamp="1595323967814">
         <mark key="]" line="4" column="35" />
@@ -1046,8 +1046,8 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>subject.replace('[INTERVAL]', interval)</text>
+      <register name="*" type="2">
+        <text encoding="base64">IyBUT0RPIGNoYW5nZSB0byBjb3JyZWN0IHJlY2lwaWVudAo=</text>
       </register>
       <register name="-" type="4">
         <text>subject.replace('[INTERVAL]', interval)</text>
@@ -1059,36 +1059,36 @@
         <text encoding="base64">ZW1haWxfcmVjaXBpZW50ID0gImljaGliYV8ueWQ2dzhibHE3ZjRvMjRsekB1LmJveC5jb20iCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICdIb3VybHknOgo=</text>
+        <text encoding="base64">IyBUT0RPIGNoYW5nZSB0byBjb3JyZWN0IHJlY2lwaWVudAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICdIb3VybHknOgo=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>.Hits.Hits = []model.SearchHit{
 		{Id: &quot;id1&quot;, Source: bucket1},
 	}</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">CXRyeDIuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjIiKQo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">CXRyeDIgOj0gR2V0VHJhbnNhY3Rpb25Eb2N1bWVudCgpCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">CWJ1Y2tldDEuT3JkZXIuT3JkZXJJZCA9IHV0aWwuR2V0U3RyaW5nUHRyKCJvcmRlcjEiKQo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">CQkidGVzdCI6IHt9Cgl9Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">CWFnZ3JlZ2F0aW9uR3JvdXBJc05vdE1hcC5BZ2dyZWdhdGlvbnNbImdyb3VwX2J5X2ludGVydmFsIl0gPSBtb2RlbC5BZ2dzR3JvdXB7QnVja2V0czogW11pbnRlcmZhY2V7fXsibm90IGpzb24ifX0K</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">CQl7ImluY29ycmVjdCByZXNwb25zZSAtPiBlcnJvciIsIFtdc3RyaW5neyJpbmRleDEiLCAiaW5kZXgyIn0sCgkJCXV0aWwuSnNvbk1hcHsicXVlcnkiOiAidGVzdCJ9LAoJCQkiZ3JvdXBfYnlfaW50ZXJ2YWwiLAoJCQkibm90IGpzb24iLAoJCQluaWwsCgkJCW5pbCwKCQkJdXRpbC5HZXRTdHJpbmdQdHIoImludmFsaWQgY2hhcmFjdGVyICdvJyBpbiBsaXRlcmFsIG51bGwgKGV4cGVjdGluZyAndScpIiksCgkJCXRydWUsCgkJfSwK</text>
+        <text encoding="base64">CWFnZ3JlZ2F0aW9uR3JvdXBJc05vdE1hcC5BZ2dyZWdhdGlvbnNbImdyb3VwX2J5X2ludGVydmFsIl0gPSBtb2RlbC5BZ2dzR3JvdXB7QnVja2V0czogW11pbnRlcmZhY2V7fXsibm90IGpzb24ifX0K</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
