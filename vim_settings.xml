@@ -184,11 +184,12 @@
         <mark key="." line="689" column="4" />
         <mark key="^" line="689" column="5" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service_test.go" timestamp="1595579311795">
+      <file name="$USER_HOME$/go/src/odin/core/report_service_test.go" timestamp="1595581327255">
         <mark key="'" line="26" column="41" />
-        <mark key="[" line="136" column="93" />
-        <mark key="]" line="136" column="106" />
-        <mark key="." line="136" column="93" />
+        <mark key="[" line="44" column="25" />
+        <mark key="]" line="44" column="36" />
+        <mark key="." line="44" column="35" />
+        <mark key="^" line="44" column="36" />
       </file>
     </filemarks>
     <jumps>
@@ -1062,16 +1063,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>1590886861000</text>
+        <text>e</text>
       </register>
       <register name="-" type="4">
-        <text>With(&quot;TransactionProperty&quot;, GetTrxPropPtr(model.EasyID)).</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text>Accept_orders</text>
       </register>
       <register name="0" type="4">
-        <text>1590886861000</text>
+        <text>getBasicReportValidationTestCases</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CXF1ZXJ5Qm9keTMgOj0gR2V0RGVmYXVsdFRyYW5zYWN0aW9uUXVlcnlCb2R5KCJvcmRlci5zaG9wcGVySW5mby5lYXN5SWQiLCAiMTkwOTUwLTIwMTkwNzI2LTAxMDA1ODE3IiwgW11pbnQ2NHsxMjN9LCAxNTg4MjA4NDYxMDAwLCAxNTkwODg2ODYxMDAwLCBuaWwpCg==</text>
