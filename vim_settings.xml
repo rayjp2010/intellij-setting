@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>CardLast4Digit</entry>
-        <entry>CardAmount</entry>
-        <entry>ShippingFee</entry>
         <entry>1.1</entry>
         <entry>Session</entry>
         <entry>raw</entry>
@@ -25,6 +22,9 @@
         <entry>date_range</entry>
         <entry>limit</entry>
         <entry>bpsRequest</entry>
+        <entry>totalOrders</entry>
+        <entry>TotalRedeemedPoints</entry>
+        <entry>TotalCouponDiscount</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -159,12 +159,12 @@
         <mark key="^" line="431" column="1" />
         <mark key="." line="38" column="32" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595415766769">
-        <mark key="'" line="682" column="22" />
-        <mark key="[" line="894" column="29" />
-        <mark key="]" line="894" column="39" />
-        <mark key="." line="894" column="38" />
-        <mark key="^" line="894" column="39" />
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595576300450">
+        <mark key="'" line="897" column="32" />
+        <mark key="[" line="889" column="46" />
+        <mark key="]" line="889" column="51" />
+        <mark key="." line="889" column="50" />
+        <mark key="^" line="889" column="51" />
       </file>
       <file name="/Dummy.txt" timestamp="1595329147699">
         <mark key="[" line="0" column="0" />
@@ -176,51 +176,22 @@
         <mark key="^" line="128" column="41" />
         <mark key="." line="114" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_data.go" timestamp="1595415120986">
-        <mark key="'" line="5" column="46" />
-        <mark key="[" line="4" column="24" />
-        <mark key="]" line="230" column="0" />
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_data.go" timestamp="1595574718989">
+        <mark key="'" line="7" column="18" />
+        <mark key="[" line="5" column="22" />
+        <mark key="]" line="5" column="43" />
         <mark key="." line="689" column="4" />
         <mark key="^" line="689" column="5" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service_test.go" timestamp="1595567252618">
+      <file name="$USER_HOME$/go/src/odin/core/report_service_test.go" timestamp="1595576233608">
         <mark key="'" line="26" column="41" />
-        <mark key="[" line="16" column="11" />
-        <mark key="]" line="16" column="14" />
-        <mark key="^" line="16" column="14" />
-        <mark key="." line="16" column="13" />
+        <mark key="[" line="158" column="71" />
+        <mark key="]" line="158" column="86" />
+        <mark key="^" line="158" column="86" />
+        <mark key="." line="158" column="85" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="424" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="433" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="446" column="61" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="467" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="549" column="28" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="571" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="580" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="589" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="598" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="611" column="61" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="632" column="131" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="99" column="70" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="127" column="28" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="126" column="11" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="61" column="48" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="40" column="65" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="25" column="57" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="116" column="13" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/ichiba_report_script_generator.py" />
-      <jump line="99" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
-      <jump line="34" column="48" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/report_util.py" />
-      <jump line="34" column="43" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/email_travel_daily_report_to_box_folder.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/go/src/minos/Gopkg.toml" />
-      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="357" column="50" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
-      <jump line="19" column="31" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
-      <jump line="654" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="664" column="24" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="341" column="23" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
-      <jump line="263" column="9" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="15" column="43" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="310" column="20" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="36" column="41" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
@@ -292,6 +263,35 @@
       <jump line="41" column="31" filename="$USER_HOME$/go/src/odin/core/transaction_service.go" />
       <jump line="50" column="0" filename="$USER_HOME$/go/src/odin/core/validator.go" />
       <jump line="112" column="20" filename="$USER_HOME$/go/src/odin/core/validator_test.go" />
+      <jump line="7" column="18" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_data.go" />
+      <jump line="755" column="26" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="849" column="12" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="891" column="8" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="213" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="284" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="355" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="391" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="497" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="533" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="604" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="631" column="9" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="737" column="9" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="893" column="8" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="222" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="293" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="364" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="400" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="506" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="542" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="613" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="636" column="9" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="662" column="9" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="195" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="894" column="8" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="740" column="9" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="896" column="12" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="968" column="20" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="897" column="32" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1061,47 +1061,121 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CS8vbm9UcmFuc2FjdGlvblByb3BlcnR5VmFsdWVSZXEgOj0gcmVxQnVpbGRlci5XaXRoKCJUcmFuc2FjdGlvblByb3BlcnR5VmFsdWUiLCBuaWwpLkJ1aWxkKCkK</text>
+      <register name="*" type="4">
+        <text>20001</text>
       </register>
       <register name="-" type="4">
-        <text>TestTransactionService_SearchTransaction</text>
+        <text>20001</text>
       </register>
       <register name="/" type="4">
-        <text>bpsRequest</text>
+        <text>TotalCouponDiscount</text>
       </register>
-      <register name="0" type="4">
-        <text>report</text>
+      <register name="0" type="2">
+        <text encoding="base64">dmFyIGhvdXJseVJlc3BvbnNlID0gR2V0QmFzaWNSZXBvcnRTZWFyY2hSZXNwb25zZSgiMjAyMC8wMy8yMyAwMTowMC0wMTo1OSIpCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">CS8vbm9UcmFuc2FjdGlvblByb3BlcnR5VmFsdWVSZXEgOj0gcmVxQnVpbGRlci5XaXRoKCJUcmFuc2FjdGlvblByb3BlcnR5VmFsdWUiLCBuaWwpLkJ1aWxkKCkK</text>
+      <register name="1" type="8">
+        <text>&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+
+
+ 
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+
+
+ 
+ 
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+
+
+&quot;
+ 
+ 
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+
+
+&quot;
+&quot;
+ 
+ 
+&quot;
+&quot;
+&quot;
+&quot;
+&quot;
+
+
+&quot;
+&quot;
+&quot;
+ 
+ 
+&quot;
+&quot;
+&quot;
+&quot;
+
+
+&quot;
+&quot;
+&quot;
+&quot;
+ 
+ 
+&quot;
+&quot;
+&quot;</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CS8vbm9QZ0V2YWxSZXEgOj0gcmVxQnVpbGRlci5XaXRoKCJQYXlndWFyZEV2YWx1YXRpb24iLCBuaWwpLkJ1aWxkKCkKCS8vd3JvbmdQZ0V2YWxSZXEgOj0gcmVxQnVpbGRlci5XaXRoKCJQYXlndWFyZEV2YWx1YXRpb24iLCBHZXRQZ0V2YWxQdHIoIlNvbWUiKSkuQnVpbGQoKQo=</text>
+        <text encoding="base64">CS8vbm9UcmFuc2FjdGlvblByb3BlcnR5VmFsdWVSZXEgOj0gcmVxQnVpbGRlci5XaXRoKCJUcmFuc2FjdGlvblByb3BlcnR5VmFsdWUiLCBuaWwpLkJ1aWxkKCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CQlsb2cuSW5mbyhidWNrZXRNYXApCg==</text>
+        <text encoding="base64">CS8vbm9QZ0V2YWxSZXEgOj0gcmVxQnVpbGRlci5XaXRoKCJQYXlndWFyZEV2YWx1YXRpb24iLCBuaWwpLkJ1aWxkKCkKCS8vd3JvbmdQZ0V2YWxSZXEgOj0gcmVxQnVpbGRlci5XaXRoKCJQYXlndWFyZEV2YWx1YXRpb24iLCBHZXRQZ0V2YWxQdHIoIlNvbWUiKSkuQnVpbGQoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuYyBUZXN0VHJhbnNhY3Rpb25TZXJ2aWNlX1NlYXJjaFRyYW5zYWN0aW9uKHQgKnRlc3RpbmcuVCkgewo=</text>
+        <text encoding="base64">CQlsb2cuSW5mbyhidWNrZXRNYXApCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dmFyIHRvdGFsQnVja2V0ID0gR2V0QmFzaWNSZXBvcnRCdWNrZXQoKQo=</text>
+        <text encoding="base64">ZnVuYyBUZXN0VHJhbnNhY3Rpb25TZXJ2aWNlX1NlYXJjaFRyYW5zYWN0aW9uKHQgKnRlc3RpbmcuVCkgewo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CQkia2V5X2FzX3N0cmluZyI6ICIyMDIwLzAzLzIzIDAwOjAwLTIzOjU5IiwK</text>
+        <text encoding="base64">dmFyIHRvdGFsQnVja2V0ID0gR2V0QmFzaWNSZXBvcnRCdWNrZXQoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">CQkia2V5X2FzX3N0cmluZyI6ICIyMDIwLzAzLzIzIDAwOjAwLTIzOjU5IiwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dmFyIHRvdGFsQnVja2V0U2FtcGxlID0gdXRpbC5Kc29uTWFwewoJewoJCSJrZXkiIDogIl9kb2MiLAoJCSJkb2NfY291bnQiIDogNzMsCgkJInRvdGFsUmVkZWVtZWRQb2ludHMiIDogewoJCQkidmFsdWUiIDogOTI0LjAKCQl9LAoJCSJBY2NlcHRXaXRoQ2F1dGlvbiIgOiB7CgkJCSJtZXRhIiA6IHsKCQkJCSJkZWNpc2lvbi5ldmFsdWF0aW9uIiA6ICJBY2NlcHRXaXRoQ2F1dGlvbiIKCQkJfSwKCQkJImRvY19jb3VudCIgOiA2LAoJCQkiY291cG9uRGlzY291bnRzIiA6IHsKCQkJCSJ2YWx1ZSIgOiA4MS4wCgkJCX0sCgkJCSJyZWRlZW1lZFBvaW50cyIgOiB7CgkJCQkidmFsdWUiIDogODEuMAoJCQl9LAoJCQkib3JkZXJzIiA6IHsKCQkJCSJ2YWx1ZSIgOiA2CgkJCX0sCgkJCSJnbXMiIDogewoJCQkJInZhbHVlIiA6IDgxLjAKCQkJfQoJCX0sCgkJIkFjY2VwdCIgOiB7CgkJCSJtZXRhIiA6IHsKCQkJCSJkZWNpc2lvbi5ldmFsdWF0aW9uIiA6ICJBY2NlcHQiCgkJCX0sCgkJCSJkb2NfY291bnQiIDogMTgsCgkJCSJjb3Vwb25EaXNjb3VudHMiIDogewoJCQkJInZhbHVlIiA6IDk2LjAKCQkJfSwKCQkJInJlZGVlbWVkUG9pbnRzIiA6IHsKCQkJCSJ2YWx1ZSIgOiA5Ni4wCgkJCX0sCgkJCSJvcmRlcnMiIDogewoJCQkJInZhbHVlIiA6IDE4CgkJCX0sCgkJCSJnbXMiIDogewoJCQkJInZhbHVlIiA6IDk2LjAKCQkJfQoJCX0sCgkJIkFjY2VwdFVJIiA6IHsKCQkJIm1ldGEiIDogewoJCQkJImRlY2lzaW9uLmV2YWx1YXRpb24iIDogIkFjY2VwdFVJIgoJCQl9LAoJCQkiZG9jX2NvdW50IiA6IDEzLAoJCQkiY291cG9uRGlzY291bnRzIiA6IHsKCQkJCSJ2YWx1ZSIgOiAyOTQuMAoJCQl9LAoJCQkicmVkZWVtZWRQb2ludHMiIDogewoJCQkJInZhbHVlIiA6IDI5NC4wCgkJCX0sCgkJCSJvcmRlcnMiIDogewoJCQkJInZhbHVlIiA6IDEzCgkJCX0sCgkJCSJnbXMiIDogewoJCQkJInZhbHVlIiA6IDI5NC4wCgkJCX0KCQl9LAoJCSJBY2NlcHRXaXRoT3RoZXJQYXltZW50IiA6IHsKCQkJIm1ldGEiIDogewoJCQkJImRlY2lzaW9uLmV2YWx1YXRpb24iIDogIkFjY2VwdFdpdGhPdGhlclBheW1lbnQiCgkJCX0sCgkJCSJkb2NfY291bnQiIDogNiwKCQkJImNvdXBvbkRpc2NvdW50cyIgOiB7CgkJCQkidmFsdWUiIDogOTMuMAoJCQl9LAoJCQkicmVkZWVtZWRQb2ludHMiIDogewoJCQkJInZhbHVlIiA6IDkzLjAKCQkJfSwKCQkJIm9yZGVycyIgOiB7CgkJCQkidmFsdWUiIDogNgoJCQl9LAoJCQkiZ21zIiA6IHsKCQkJCSJ2YWx1ZSIgOiA5My4wCgkJCX0KCQl9LAoJCSJ0b3RhbE9yZGVycyIgOiB7CgkJCSJ2YWx1ZSIgOiA3MwoJCX0sCgkJInRvdGFsQ291cG9uRGlzY291bnQiIDogewoJCQkidmFsdWUiIDogOTI0LjAKCQl9LAoJCSJSZXZpZXciIDogewoJCQkibWV0YSIgOiB7CgkJCQkiZGVjaXNpb24uZXZhbHVhdGlvbiIgOiAiUmV2aWV3IgoJCQl9LAoJCQkiZG9jX2NvdW50IiA6IDYsCgkJCSJjb3Vwb25EaXNjb3VudHMiIDogewoJCQkJInZhbHVlIiA6IDY5LjAKCQkJfSwKCQkJInJlZGVlbWVkUG9pbnRzIiA6IHsKCQkJCSJ2YWx1ZSIgOiA2OS4wCgkJCX0sCgkJCSJvcmRlcnMiIDogewoJCQkJInZhbHVlIiA6IDYKCQkJfSwKCQkJImdtcyIgOiB7CgkJCQkidmFsdWUiIDogNjkuMAoJCQl9CgkJfSwKCQkiRGVueVVJIiA6IHsKCQkJIm1ldGEiIDogewoJCQkJImRlY2lzaW9uLmV2YWx1YXRpb24iIDogIkRlbnlVSSIKCQkJfSwKCQkJImRvY19jb3VudCIgOiA5LAoJCQkiY291cG9uRGlzY291bnRzIiA6IHsKCQkJCSJ2YWx1ZSIgOiAxNzEuMAoJCQl9LAoJCQkicmVkZWVtZWRQb2ludHMiIDogewoJCQkJInZhbHVlIiA6IDE3MS4wCgkJCX0sCgkJCSJvcmRlcnMiIDogewoJCQkJInZhbHVlIiA6IDkKCQkJfSwKCQkJImdtcyIgOiB7CgkJCQkidmFsdWUiIDogMTcxLjAKCQkJfQoJCX0sCgkJIkRlbnkiIDogewoJCQkibWV0YSIgOiB7CgkJCQkiZGVjaXNpb24uZXZhbHVhdGlvbiIgOiAiRGVueSIKCQkJfSwKCQkJImRvY19jb3VudCIgOiAxNSwKCQkJImNvdXBvbkRpc2NvdW50cyIgOiB7CgkJCQkidmFsdWUiIDogMTIwLjAKCQkJfSwKCQkJInJlZGVlbWVkUG9pbnRzIiA6IHsKCQkJCSJ2YWx1ZSIgOiAxMjAuMAoJCQl9LAoJCQkib3JkZXJzIiA6IHsKCQkJCSJ2YWx1ZSIgOiAxNQoJCQl9LAoJCQkiZ21zIiA6IHsKCQkJCSJ2YWx1ZSIgOiAxMjAuMAoJCQl9CgkJfSwKCQkidG90YWxHbXMiIDogewoJCQkidmFsdWUiIDogOTI0LjAKCQl9LAoJCSJBY2NlcHRVSV9jb3Vwb25EaXNjb3VudHNQY3QiIDogewoJCQkidmFsdWUiIDogMzEuODIKCQl9LAoJCSJBY2NlcHRVSV9nbXNQY3QiIDogewoJCQkidmFsdWUiIDogMzEuODIKCQl9LAoJCSJBY2NlcHRVSV9vcmRlcnNQY3QiIDogewoJCQkidmFsdWUiIDogMTcuODEKCQl9LAoJCSJBY2NlcHRVSV9yZWRlZW1lZFBvaW50c1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiAzMS44MgoJCX0sCgkJIkFjY2VwdFdpdGhDYXV0aW9uX2NvdXBvbkRpc2NvdW50c1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiA4Ljc3CgkJfSwKCQkiQWNjZXB0V2l0aENhdXRpb25fZ21zUGN0IiA6IHsKCQkJInZhbHVlIiA6IDguNzcKCQl9LAoJCSJBY2NlcHRXaXRoQ2F1dGlvbl9vcmRlcnNQY3QiIDogewoJCQkidmFsdWUiIDogOC4yMgoJCX0sCgkJIkFjY2VwdFdpdGhDYXV0aW9uX3JlZGVlbWVkUG9pbnRzUGN0IiA6IHsKCQkJInZhbHVlIiA6IDguNzcKCQl9LAoJCSJBY2NlcHRXaXRoT3RoZXJQYXltZW50X2NvdXBvbkRpc2NvdW50c1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiAxMC4wNgoJCX0sCgkJIkFjY2VwdFdpdGhPdGhlclBheW1lbnRfZ21zUGN0IiA6IHsKCQkJInZhbHVlIiA6IDEwLjA2CgkJfSwKCQkiQWNjZXB0V2l0aE90aGVyUGF5bWVudF9vcmRlcnNQY3QiIDogewoJCQkidmFsdWUiIDogOC4yMgoJCX0sCgkJIkFjY2VwdFdpdGhPdGhlclBheW1lbnRfcmVkZWVtZWRQb2ludHNQY3QiIDogewoJCQkidmFsdWUiIDogMTAuMDYKCQl9LAoJCSJBY2NlcHRfY291cG9uRGlzY291bnRzUGN0IiA6IHsKCQkJInZhbHVlIiA6IDEwLjM5CgkJfSwKCQkiQWNjZXB0X2dtc1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiAxMC4zOQoJCX0sCgkJIkFjY2VwdF9vcmRlcnNQY3QiIDogewoJCQkidmFsdWUiIDogMjQuNjYKCQl9LAoJCSJBY2NlcHRfcmVkZWVtZWRQb2ludHNQY3QiIDogewoJCQkidmFsdWUiIDogMTAuMzkKCQl9LAoJCSJEZW55VUlfY291cG9uRGlzY291bnRzUGN0IiA6IHsKCQkJInZhbHVlIiA6IDE4LjUxCgkJfSwKCQkiRGVueVVJX2dtc1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiAxOC41MQoJCX0sCgkJIkRlbnlVSV9vcmRlcnNQY3QiIDogewoJCQkidmFsdWUiIDogMTIuMzMKCQl9LAoJCSJEZW55VUlfcmVkZWVtZWRQb2ludHNQY3QiIDogewoJCQkidmFsdWUiIDogMTguNTEKCQl9LAoJCSJEZW55X2NvdXBvbkRpc2NvdW50c1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiAxMi45OQoJCX0sCgkJIkRlbnlfZ21zUGN0IiA6IHsKCQkJInZhbHVlIiA6IDEyLjk5CgkJfSwKCQkiRGVueV9vcmRlcnNQY3QiIDogewoJCQkidmFsdWUiIDogMjAuNTUKCQl9LAoJCSJEZW55X3JlZGVlbWVkUG9pbnRzUGN0IiA6IHsKCQkJInZhbHVlIiA6IDEyLjk5CgkJfSwKCQkiUmV2aWV3X2NvdXBvbkRpc2NvdW50c1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiA3LjQ3CgkJfSwKCQkiUmV2aWV3X2dtc1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiA3LjQ3CgkJfSwKCQkiUmV2aWV3X29yZGVyc1BjdCIgOiB7CgkJCSJ2YWx1ZSIgOiA4LjIyCgkJfSwKCQkiUmV2aWV3X3JlZGVlbWVkUG9pbnRzUGN0IiA6IHsKCQkJInZhbHVlIiA6IDcuNDcKCQl9Cgl9Cn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1110,9 +1184,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>bpsRequest</last-search>
+      <last-search>TotalCouponDiscount</last-search>
       <last-offset />
-      <last-pattern>bpsRequest</last-pattern>
+      <last-pattern>TotalCouponDiscount</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
