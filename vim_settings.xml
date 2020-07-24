@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>1.1</entry>
         <entry>Session</entry>
         <entry>raw</entry>
         <entry>Automatic</entry>
@@ -25,6 +24,7 @@
         <entry>totalOrders</entry>
         <entry>TotalRedeemedPoints</entry>
         <entry>TotalCouponDiscount</entry>
+        <entry>gte</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -84,9 +84,6 @@
         <mark key="^" line="150" column="5" />
         <mark key="." line="150" column="0" />
       </file>
-      <file name="/fragment.go" timestamp="1595329728342">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util/audit_log_testing_util.go" timestamp="1595393321289">
         <mark key="[" line="343" column="0" />
         <mark key="]" line="345" column="1" />
@@ -99,13 +96,6 @@
         <mark key="]" line="13" column="38" />
         <mark key="^" line="13" column="38" />
         <mark key="." line="13" column="37" />
-      </file>
-      <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1595388187911">
-        <mark key="'" line="133" column="4" />
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="45" column="0" />
-        <mark key="^" line="78" column="39" />
-        <mark key="." line="45" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/cmd/server/main.go" timestamp="1595400515804">
         <mark key="'" line="247" column="60" />
@@ -139,6 +129,9 @@
         <mark key="^" line="415" column="41" />
         <mark key="." line="1537" column="41" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1595577237809">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1595573809065">
         <mark key="'" line="355" column="18" />
         <mark key="[" line="380" column="0" />
@@ -159,15 +152,26 @@
         <mark key="^" line="431" column="1" />
         <mark key="." line="38" column="32" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595576300450">
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595577356826">
         <mark key="'" line="897" column="32" />
-        <mark key="[" line="889" column="46" />
-        <mark key="]" line="889" column="51" />
-        <mark key="." line="889" column="50" />
+        <mark key="[" line="98" column="45" />
+        <mark key="]" line="98" column="45" />
+        <mark key="." line="98" column="45" />
         <mark key="^" line="889" column="51" />
       </file>
-      <file name="/Dummy.txt" timestamp="1595329147699">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1595577272472">
+        <mark key="'" line="18" column="28" />
+        <mark key="[" line="309" column="20" />
+        <mark key="]" line="309" column="21" />
+        <mark key="." line="309" column="20" />
+        <mark key="^" line="309" column="21" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1595577310067">
+        <mark key="'" line="210" column="31" />
+        <mark key="[" line="102" column="75" />
+        <mark key="]" line="102" column="92" />
+        <mark key="." line="102" column="91" />
+        <mark key="^" line="102" column="92" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/validator_test.go" timestamp="1595574079876">
         <mark key="'" line="112" column="20" />
@@ -192,10 +196,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="43" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
-      <jump line="310" column="20" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
-      <jump line="36" column="41" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
-      <jump line="6" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="31" column="0" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
       <jump line="318" column="12" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
       <jump line="268" column="4" filename="$USER_HOME$/go/src/odin/util/elastic_util_test.go" />
@@ -292,6 +292,10 @@
       <jump line="896" column="12" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
       <jump line="968" column="20" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
       <jump line="897" column="32" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
+      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" />
+      <jump line="309" column="20" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="155" column="16" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
+      <jump line="18" column="28" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1062,13 +1066,13 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>20001</text>
+        <text>/dd</text>
       </register>
       <register name="-" type="4">
-        <text>20001</text>
+        <text>/dd</text>
       </register>
       <register name="/" type="4">
-        <text>TotalCouponDiscount</text>
+        <text>gte</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">dmFyIGhvdXJseVJlc3BvbnNlID0gR2V0QmFzaWNSZXBvcnRTZWFyY2hSZXNwb25zZSgiMjAyMC8wMy8yMyAwMTowMC0wMTo1OSIpCg==</text>
@@ -1184,9 +1188,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>TotalCouponDiscount</last-search>
+      <last-search>gte</last-search>
       <last-offset />
-      <last-pattern>TotalCouponDiscount</last-pattern>
+      <last-pattern>gte</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
