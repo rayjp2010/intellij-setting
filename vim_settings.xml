@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>es_query</entry>
         <entry>es</entry>
         <entry>grpc</entry>
         <entry>hystrix</entry>
@@ -25,6 +24,7 @@
         <entry>go</entry>
         <entry>max</entry>
         <entry>batch</entry>
+        <entry>config</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -82,14 +82,6 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1595573834696">
-        <mark key="'" line="8" column="13" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1595573809065">
-        <mark key="[" line="379" column="0" />
-        <mark key="]" line="379" column="0" />
-        <mark key="." line="379" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1595582401772">
         <mark key="'" line="91" column="53" />
         <mark key="[" line="168" column="24" />
@@ -100,6 +92,9 @@
         <mark key="]" line="227" column="0" />
         <mark key="^" line="227" column="0" />
         <mark key="." line="227" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" timestamp="1595842366968">
+        <mark key="'" line="2" column="37" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1595573937635">
         <mark key="'" line="1504" column="24" />
@@ -141,6 +136,10 @@
         <mark key="^" line="84" column="0" />
         <mark key="." line="84" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1595842337016">
+        <mark key="[" line="5" column="9" />
+        <mark key="]" line="5" column="16" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1595582602781">
         <mark key="'" line="687" column="26" />
         <mark key="[" line="13" column="41" />
@@ -150,8 +149,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="909" column="9" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
-      <jump line="928" column="60" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
       <jump line="1537" column="41" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
       <jump line="7" column="13" filename="$USER_HOME$/go/src/odin/core/json_parser_test.go" />
       <jump line="424" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
@@ -250,6 +247,8 @@
       <jump line="94" column="9" filename="$USER_HOME$/go/src/peitho/main.go" />
       <jump line="38" column="41" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="80" column="38" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="21" column="6" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" />
+      <jump line="2" column="37" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1019,17 +1018,17 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">dHlwZSBldmVudFN5bmNQaXBlbGluZSBzdHJ1Y3Qgewp9Cg==</text>
+      <register name="*" type="4">
+        <text>metisUrl</text>
       </register>
       <register name="-" type="4">
         <text>bpsRequest</text>
       </register>
       <register name="/" type="4">
-        <text>batch</text>
+        <text>config</text>
       </register>
       <register name="0" type="4">
-        <text>getPgEvalTestCases</text>
+        <text>metisUrl</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">dHlwZSBldmVudFN5bmNQaXBlbGluZSBzdHJ1Y3Qgewp9Cg==</text>
@@ -1068,9 +1067,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>batch</last-search>
+      <last-search>config</last-search>
       <last-offset />
-      <last-pattern>batch</last-pattern>
+      <last-pattern>config</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
