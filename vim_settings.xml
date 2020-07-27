@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>== null</entry>
         <entry>assignee</entry>
         <entry>es_query</entry>
         <entry>es</entry>
@@ -25,6 +24,7 @@
         <entry>Accept_orders</entry>
         <entry>routine</entry>
         <entry>go</entry>
+        <entry>batch</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -1030,7 +1030,7 @@
         <text>bpsRequest</text>
       </register>
       <register name="/" type="4">
-        <text>go</text>
+        <text>batch</text>
       </register>
       <register name="0" type="4">
         <text>getPgEvalTestCases</text>
@@ -1072,9 +1072,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>go</last-search>
+      <last-search>batch</last-search>
       <last-offset />
-      <last-pattern>go</last-pattern>
+      <last-pattern>batch</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
