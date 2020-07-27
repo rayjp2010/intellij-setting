@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>assignee</entry>
         <entry>es_query</entry>
         <entry>es</entry>
         <entry>grpc</entry>
@@ -24,6 +23,7 @@
         <entry>Accept_orders</entry>
         <entry>routine</entry>
         <entry>go</entry>
+        <entry>max</entry>
         <entry>batch</entry>
       </history-search>
       <history-cmd>
@@ -64,25 +64,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1595573937635">
-        <mark key="'" line="1504" column="24" />
-        <mark key="[" line="1537" column="41" />
-        <mark key="]" line="1537" column="41" />
-        <mark key="^" line="415" column="41" />
-        <mark key="." line="1537" column="41" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1595582375413">
         <mark key="[" line="78" column="0" />
         <mark key="]" line="78" column="50" />
       </file>
-      <file name="/fragment.go" timestamp="1595577997364">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1595577237809">
         <mark key="'" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1595574025417">
-        <mark key="'" line="50" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595573871070">
         <mark key="'" line="474" column="12" />
@@ -98,6 +85,38 @@
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1595573834696">
         <mark key="'" line="8" column="13" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1595573809065">
+        <mark key="[" line="379" column="0" />
+        <mark key="]" line="379" column="0" />
+        <mark key="." line="379" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1595582401772">
+        <mark key="'" line="91" column="53" />
+        <mark key="[" line="168" column="24" />
+        <mark key="]" line="168" column="43" />
+        <mark key="." line="168" column="24" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595747942452">
+        <mark key="]" line="227" column="0" />
+        <mark key="^" line="227" column="0" />
+        <mark key="." line="227" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1595573937635">
+        <mark key="'" line="1504" column="24" />
+        <mark key="[" line="1537" column="41" />
+        <mark key="]" line="1537" column="41" />
+        <mark key="^" line="415" column="41" />
+        <mark key="." line="1537" column="41" />
+      </file>
+      <file name="/fragment.go" timestamp="1595577997364">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" timestamp="1595835085673">
+        <mark key="'" line="80" column="38" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1595574025417">
+        <mark key="'" line="50" column="0" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1595573966631">
         <mark key="'" line="40" column="31" />
         <mark key="[" line="12" column="51" />
@@ -112,26 +131,8 @@
         <mark key="." line="689" column="4" />
         <mark key="^" line="689" column="5" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" timestamp="1595573809065">
-        <mark key="[" line="379" column="0" />
-        <mark key="]" line="379" column="0" />
-        <mark key="." line="379" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/peitho/main.go" timestamp="1595748017922">
         <mark key="'" line="94" column="9" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/transaction_testing_util.go" timestamp="1595573786123">
-        <mark key="'" line="145" column="37" />
-        <mark key="[" line="38" column="26" />
-        <mark key="]" line="38" column="32" />
-        <mark key="^" line="431" column="1" />
-        <mark key="." line="38" column="32" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1595582401772">
-        <mark key="'" line="91" column="53" />
-        <mark key="[" line="168" column="24" />
-        <mark key="]" line="168" column="43" />
-        <mark key="." line="168" column="24" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service_test.go" timestamp="1595584711450">
         <mark key="'" line="26" column="41" />
@@ -147,15 +148,8 @@
         <mark key="." line="13" column="46" />
         <mark key="^" line="971" column="59" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595747942452">
-        <mark key="]" line="227" column="0" />
-        <mark key="^" line="227" column="0" />
-        <mark key="." line="227" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
-      <jump line="99" column="15" filename="$USER_HOME$/go/src/odin/core/transaction_service_test.go" />
       <jump line="909" column="9" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
       <jump line="928" column="60" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
       <jump line="1537" column="41" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
@@ -254,6 +248,8 @@
       <jump line="91" column="53" filename="$USER_HOME$/go/src/odin/core/report_service.go" />
       <jump line="89" column="13" filename="$USER_HOME$/go/src/peitho/main.go" />
       <jump line="94" column="9" filename="$USER_HOME$/go/src/peitho/main.go" />
+      <jump line="38" column="41" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="80" column="38" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
