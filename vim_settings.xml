@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>es</entry>
-        <entry>grpc</entry>
         <entry>hystrix</entry>
         <entry>timeout</entry>
         <entry>Fake</entry>
@@ -25,6 +23,8 @@
         <entry>max</entry>
         <entry>batch</entry>
         <entry>config</entry>
+        <entry>receive</entry>
+        <entry>processor</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -88,7 +88,8 @@
         <mark key="]" line="168" column="43" />
         <mark key="." line="168" column="24" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595747942452">
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595845414157">
+        <mark key="'" line="15" column="4" />
         <mark key="]" line="227" column="0" />
         <mark key="^" line="227" column="0" />
         <mark key="." line="227" column="0" />
@@ -106,8 +107,8 @@
       <file name="/fragment.go" timestamp="1595577997364">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" timestamp="1595836633666">
-        <mark key="'" line="80" column="38" />
+      <file name="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" timestamp="1595845493799">
+        <mark key="'" line="70" column="14" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1595574025417">
         <mark key="'" line="50" column="0" />
@@ -149,14 +150,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1537" column="41" filename="$USER_HOME$/go/src/odin/core/hub_processor_test.go" />
-      <jump line="7" column="13" filename="$USER_HOME$/go/src/odin/core/json_parser_test.go" />
-      <jump line="424" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
-      <jump line="433" column="0" filename="$USER_HOME$/go/src/odin/util/util_test.go" />
-      <jump line="22" column="47" filename="$USER_HOME$/go/src/odin-config/odin-api/config-pro.yaml" />
-      <jump line="19" column="22" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
-      <jump line="32" column="15" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
-      <jump line="33" column="21" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
       <jump line="22" column="29" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
       <jump line="207" column="4" filename="$USER_HOME$/go/src/odin/model/report_group_test.go" />
       <jump line="214" column="25" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
@@ -249,6 +242,14 @@
       <jump line="80" column="38" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="21" column="6" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" />
       <jump line="2" column="37" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" />
+      <jump line="15" column="4" filename="$USER_HOME$/go/src/odin/core/hub_processor.go" />
+      <jump line="95" column="12" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="26" column="33" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="40" column="8" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="58" column="28" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="59" column="8" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="64" column="26" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="70" column="14" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1025,7 +1026,7 @@
         <text>bpsRequest</text>
       </register>
       <register name="/" type="4">
-        <text>config</text>
+        <text>processor</text>
       </register>
       <register name="0" type="4">
         <text>metisUrl</text>
@@ -1067,9 +1068,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>config</last-search>
+      <last-search>processor</last-search>
       <last-offset />
-      <last-pattern>config</last-pattern>
+      <last-pattern>processor</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
