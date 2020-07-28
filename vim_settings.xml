@@ -64,12 +64,24 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1595931657183">
+        <mark key="[" line="8" column="44" />
+        <mark key="]" line="8" column="44" />
+        <mark key="^" line="8" column="43" />
+        <mark key="." line="8" column="44" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1595582375413">
         <mark key="[" line="78" column="0" />
         <mark key="]" line="78" column="50" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1595577237809">
         <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1595930865116">
+        <mark key="[" line="1" column="15" />
+        <mark key="]" line="1" column="50" />
+        <mark key="^" line="1" column="50" />
+        <mark key="." line="1" column="49" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/pipelines.go" timestamp="1595827382769">
         <mark key="[" line="1" column="0" />
@@ -82,6 +94,11 @@
         <mark key="[" line="168" column="24" />
         <mark key="]" line="168" column="43" />
         <mark key="." line="168" column="24" />
+      </file>
+      <file name="$USER_HOME$/Workspace/nexmo-report/package.json" timestamp="1595930417899">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595925572654">
         <mark key="'" line="15" column="4" />
@@ -102,16 +119,6 @@
       </file>
       <file name="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" timestamp="1595845493799">
         <mark key="'" line="70" column="14" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1595574025417">
-        <mark key="'" line="50" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_data.go" timestamp="1595574718989">
-        <mark key="'" line="7" column="18" />
-        <mark key="[" line="5" column="22" />
-        <mark key="]" line="5" column="43" />
-        <mark key="." line="689" column="4" />
-        <mark key="^" line="689" column="5" />
       </file>
       <file name="$USER_HOME$/go/src/peitho/main.go" timestamp="1595748017922">
         <mark key="'" line="94" column="9" />
@@ -1006,46 +1013,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>&quot;git.rakuten-it.com/fpgopher/eventhub&quot;</text>
+        <text>, defaultValue: 2020</text>
       </register>
       <register name="-" type="4">
-        <text>bpsRequest</text>
+        <text>, defaultValue: 2020</text>
       </register>
       <register name="/" type="4">
         <text>redirec</text>
       </register>
-      <register name="0" type="4">
-        <text>&quot;git.rakuten-it.com/fpgopher/eventhub&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHtuYW1lOiAneWVhcicsIGFsaWFzOiAneScsIHR5cGU6IE51bWJlciwgZGVmYXVsdFZhbHVlOiAyMDIwfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">dHlwZSBldmVudFN5bmNQaXBlbGluZSBzdHJ1Y3Qgewp9Cg==</text>
+        <text encoding="base64">Y29uc29sZS5sb2cob3B0aW9ucykK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">dmFyIG1vbnRobHlSZXEgPSBicHNSZXFCdWlsZGVyLldpdGgoIkludGVydmFsIiwgR2V0UmVwb3J0SW50ZXJ2YWxQdHIobW9kZWwuTW9udGhseSkpLkJ1aWxkKCkKdmFyIG1vbnRobHlCdWNrZXQgPSBHZXRCYXNpY1JlcG9ydEJ1Y2tldCgxNTg0OTI1MjAwMDAwLCAiMjAyMC8wMy8yMyIpCnZhciBtb250aGx5UXVlcnlCb2R5ID0gR2V0QmFzaWNSZXBvcnRRdWVyeUJvZHkoImdyb3VwX2J5X2ludGVydmFsIiwgbW9kZWwuTW9udGhseSwgMTU3Nzg0MDQ2MTAwMCwgMTU3Nzk0MDQ2MTAwMCwgIiswOTowMCIpCnZhciBtb250aGx5UmVzcG9uc2UgPSBHZXRCYXNpY1JlcG9ydFNlYXJjaFJlc3BvbnNlKCIyMDIwLzAzLzIzIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CS8vZG9jMiA6PSBHZXRUcmFuc2FjdGlvbkRvY3VtZW50KCkKCS8vZG9jMi5PcmRlci5UcmFja2luZ0lkID0gdXRpbC5HZXRTdHJpbmdQdHIoInRlc3QiKQoJLy9yZXNwMiA6PSBHZXRUcmFuc2FjdGlvblNlYXJjaFJlc3BvbnNlKCkKCS8vcmVzcDIuVHJhY2tpbmdJZCA9ICJ0ZXN0Igo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text>require</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly92YXIgcWIgPSBHZXREZWZhdWx0VHJhbnNhY3Rpb25RdWVyeUJvZHkoIl9pZCIsICIxOTA5NTAtMjAxOTA3MjYtMDEwMDU4MTciLCBbXWludDY0ezEyM30sIDEyMzQ1NjcwLCAxMjM0NTY3OCwgbmlsKQovL3ZhciBkb2MxID0gR2V0VHJhbnNhY3Rpb25Eb2N1bWVudCgpCi8vdmFyIHJlc3AxID0gR2V0VHJhbnNhY3Rpb25TZWFyY2hSZXNwb25zZSgpCg==</text>
+        <text>import axios</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CS8vdGNzID0gYXBwZW5kKHRjcywgZ2V0UGdFdmFsVGVzdENhc2VzKCkuLi4pCg==</text>
+        <text encoding="base64">cmVxdWlyZSgnYXhpb3MnKQoKYXhpb3MKCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">dmFyCg==</text>
+        <text>console.log('asd')</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">dmFyIGhvdXJseVF1ZXJ5Qm9keSA9IEdldEJhc2ljUmVwb3J0UXVlcnlCb2R5KCJncm91cF9ieV9pbnRlcnZhbCIsIG1vZGVsLk1vbnRobHksIDE1Nzc4NDA0NjEwMDAsIDE1Nzc5NDA0NjEwMDAsICIrOTA6MDAiKQo=</text>
+        <text encoding="base64">Ly8gICJzY3JpcHRzIjogewovLyAgICAic3RhcnQiOiAibm9kZSBpbmRleC5qcyIKLy8gIH0sCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
