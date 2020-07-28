@@ -92,6 +92,10 @@
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" timestamp="1595842366968">
         <mark key="'" line="2" column="37" />
       </file>
+      <file name="$USER_HOME$/Workspace/aegis.radar/config/config.js" timestamp="1595914769389">
+        <mark key="[" line="235" column="56" />
+        <mark key="]" line="235" column="66" />
+      </file>
       <file name="/fragment.go" timestamp="1595577997364">
         <mark key="[" line="0" column="0" />
       </file>
@@ -100,13 +104,6 @@
       </file>
       <file name="$USER_HOME$/go/src/odin/core/validator.go" timestamp="1595574025417">
         <mark key="'" line="50" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/transaction_service.go" timestamp="1595573966631">
-        <mark key="'" line="40" column="31" />
-        <mark key="[" line="12" column="51" />
-        <mark key="]" line="13" column="38" />
-        <mark key="^" line="13" column="38" />
-        <mark key="." line="13" column="37" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_data.go" timestamp="1595574718989">
         <mark key="'" line="7" column="18" />
@@ -1008,7 +1005,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>metisUrl</text>
+        <text>suzaku-auth</text>
       </register>
       <register name="-" type="4">
         <text>bpsRequest</text>
@@ -1017,7 +1014,7 @@
         <text>redirec</text>
       </register>
       <register name="0" type="4">
-        <text>metisUrl</text>
+        <text>suzaku-auth</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">dHlwZSBldmVudFN5bmNQaXBlbGluZSBzdHJ1Y3Qgewp9Cg==</text>
