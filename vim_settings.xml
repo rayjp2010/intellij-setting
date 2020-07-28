@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>hystrix</entry>
         <entry>timeout</entry>
         <entry>Fake</entry>
         <entry>NoE</entry>
@@ -25,6 +24,7 @@
         <entry>config</entry>
         <entry>receive</entry>
         <entry>processor</entry>
+        <entry>redirec</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -71,17 +71,12 @@
       <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1595577237809">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1595573871070">
-        <mark key="'" line="474" column="12" />
-        <mark key="[" line="491" column="47" />
-        <mark key="]" line="491" column="47" />
-        <mark key="." line="491" column="47" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/pipelines.go" timestamp="1595827382769">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/aegis.radar/src/components/Home/Home.vue" timestamp="1595914400127" />
       <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1595582401772">
         <mark key="'" line="91" column="53" />
         <mark key="[" line="168" column="24" />
@@ -96,13 +91,6 @@
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" timestamp="1595842366968">
         <mark key="'" line="2" column="37" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor_test.go" timestamp="1595573937635">
-        <mark key="'" line="1504" column="24" />
-        <mark key="[" line="1537" column="41" />
-        <mark key="]" line="1537" column="41" />
-        <mark key="^" line="415" column="41" />
-        <mark key="." line="1537" column="41" />
       </file>
       <file name="/fragment.go" timestamp="1595577997364">
         <mark key="[" line="0" column="0" />
@@ -1026,7 +1014,7 @@
         <text>bpsRequest</text>
       </register>
       <register name="/" type="4">
-        <text>processor</text>
+        <text>redirec</text>
       </register>
       <register name="0" type="4">
         <text>metisUrl</text>
@@ -1068,9 +1056,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>processor</last-search>
+      <last-search>redirec</last-search>
       <last-offset />
-      <last-pattern>processor</last-pattern>
+      <last-pattern>redirec</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
