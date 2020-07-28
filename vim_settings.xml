@@ -64,11 +64,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1595931657183">
-        <mark key="[" line="8" column="44" />
-        <mark key="]" line="8" column="44" />
-        <mark key="^" line="8" column="43" />
-        <mark key="." line="8" column="44" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1595932294262">
+        <mark key="'" line="11" column="0" />
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="27" column="23" />
+        <mark key="." line="27" column="22" />
+        <mark key="^" line="27" column="23" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1595582375413">
         <mark key="[" line="78" column="0" />
@@ -143,7 +144,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="29" filename="$USER_HOME$/Workspace/aletheia-api-config/config-pro.yaml" />
       <jump line="207" column="4" filename="$USER_HOME$/go/src/odin/model/report_group_test.go" />
       <jump line="214" column="25" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="29" column="0" filename="$USER_HOME$/go/src/odin/core/testing_util/common_testing_util.go" />
@@ -243,6 +243,7 @@
       <jump line="59" column="8" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="64" column="26" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
       <jump line="70" column="14" filename="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" />
+      <jump line="11" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1012,20 +1013,20 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>, defaultValue: 2020</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>, defaultValue: 2020</text>
+        <text>year and</text>
       </register>
       <register name="/" type="4">
         <text>redirec</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHtuYW1lOiAneWVhcicsIGFsaWFzOiAneScsIHR5cGU6IE51bWJlciwgZGVmYXVsdFZhbHVlOiAyMDIwfQo=</text>
+        <text encoding="base64">ICAgICAgICB0aHJvdyBuZXcgRXJyb3IoJ3BsZWFzZSBzcGVjaWZ5IHRoZSB5ZWFyIGFuZCBtb250aCcpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y29uc29sZS5sb2cob3B0aW9ucykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -1037,22 +1038,22 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmICgpCg==</text>
       </register>
       <register name="5" type="2">
-        <text>require</text>
+        <text encoding="base64">ICAgIFsneWVhciddCg==</text>
       </register>
       <register name="6" type="2">
-        <text>import axios</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKG9wdGlvbnMpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cmVxdWlyZSgnYXhpb3MnKQoKYXhpb3MKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text>console.log('asd')</text>
+        <text encoding="base64">Y29uc3Qgb3B0aW9uRGVmaW5pdGlvbnMgPSBbCiAgICB7bmFtZTogJ3ZlcmJvc2UnLCBhbGlhczogJ3YnLCB0eXBlOiBCb29sZWFuLCBkZWZhdWx0VmFsdWU6IGZhbHNlfSwKICAgIHtuYW1lOiAnYWNjb3VudHMnLCB0eXBlOiBTdHJpbmcsIG11bHRpcGxlOiB0cnVlLCBhbGlhczogJ2EnLCBkZWZhdWx0VmFsdWU6IFtdfSwKICAgIHtuYW1lOiAna2V5JywgYWxpYXM6ICd0JywgdHlwZTogU3RyaW5nLCBkZWZhdWx0VmFsdWU6ICcnfSwKICAgIHtuYW1lOiAneWVhcicsIGFsaWFzOiAneScsIHR5cGU6IE51bWJlcn0sCiAgICB7bmFtZTogJ21vbnRoJywgYWxpYXM6ICdtJywgdHlwZTogTnVtYmVyfQpdCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gICJzY3JpcHRzIjogewovLyAgICAic3RhcnQiOiAibm9kZSBpbmRleC5qcyIKLy8gIH0sCg==</text>
+        <text encoding="base64">Y29uc29sZS5sb2cob3B0aW9ucykK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
