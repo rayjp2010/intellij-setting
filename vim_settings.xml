@@ -83,9 +83,10 @@
         <mark key="]" line="168" column="43" />
         <mark key="." line="168" column="24" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595845414157">
+      <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595925572654">
         <mark key="'" line="15" column="4" />
-        <mark key="]" line="227" column="0" />
+        <mark key="[" line="8" column="8" />
+        <mark key="]" line="8" column="45" />
         <mark key="^" line="227" column="0" />
         <mark key="." line="227" column="0" />
       </file>
@@ -1005,7 +1006,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>suzaku-auth</text>
+        <text>&quot;git.rakuten-it.com/fpgopher/eventhub&quot;</text>
       </register>
       <register name="-" type="4">
         <text>bpsRequest</text>
@@ -1014,7 +1015,7 @@
         <text>redirec</text>
       </register>
       <register name="0" type="4">
-        <text>suzaku-auth</text>
+        <text>&quot;git.rakuten-it.com/fpgopher/eventhub&quot;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">dHlwZSBldmVudFN5bmNQaXBlbGluZSBzdHJ1Y3Qgewp9Cg==</text>
