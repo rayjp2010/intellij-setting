@@ -67,15 +67,15 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" timestamp="1595946404363">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1596026751898">
-        <mark key="'" line="97" column="36" />
-        <mark key="[" line="147" column="130" />
-        <mark key="]" line="147" column="134" />
-        <mark key="^" line="147" column="134" />
-        <mark key="." line="147" column="133" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1596027928938">
+        <mark key="'" line="123" column="0" />
+        <mark key="[" line="155" column="42" />
+        <mark key="]" line="155" column="42" />
+        <mark key="." line="155" column="42" />
+        <mark key="^" line="155" column="71" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1596026589417">
-        <mark key="[" line="7" column="29" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1596027925737">
+        <mark key="[" line="7" column="28" />
         <mark key="]" line="7" column="28" />
         <mark key="." line="7" column="27" />
         <mark key="^" line="7" column="28" />
@@ -144,8 +144,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="309" column="20" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
-      <jump line="155" column="16" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="18" column="28" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="910" column="62" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
       <jump line="213" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
@@ -244,6 +242,8 @@
       <jump line="133" column="16" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="6" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="97" column="36" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="125" column="21" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="123" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1014,46 +1014,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">aHR0cHM6Ly9hcGkubmV4bW8uY29tL3YzL21lZGlhLzRhNjllMTViLWExMzctNDcyMy1iOWU5LWEwYTA5NjFjYzliMz9hcGlfa2V5PWEyNWFkOWMyJmFwaV9zZWNyZXQ9MjgwMnJhY25saWVGSjk4MDkzMkQ=</text>
+        <text>/</text>
       </register>
       <register name="-" type="4">
-        <text>report generation triggered for ${account}. requestId: ${requestId}</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxnZW5lcmF0aW9uXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">aHR0cHM6Ly9hcGkubmV4bW8uY29tL3YzL21lZGlhLzRhNjllMTViLWExMzctNDcyMy1iOWU5LWEwYTA5NjFjYzliMz9hcGlfa2V5PWEyNWFkOWMyJmFwaV9zZWNyZXQ9MjgwMnJhY25saWVGSjk4MDkzMkQ=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGxldCBkb3dubG9hZEZvbGRlciA9IGAke3Jlc3VsdEZvbGRlcn0vJHt5ZWFyfSR7Zm9ybWF0TW9udGgobW9udGgpfS9gCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXBvcnRSZXFJZHMucHVzaCh7YWNjb3VudCwgcmVxdWVzdElkfSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5lcnJvcihgZmFpbGVkIG9uIGRvd25sb2FkaW5nOiAke2Z1bGxGaWxlTmFtZX1gKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coYGRvd25sb2FkIGNvbXBsZXRlOiAke2Z1bGxGaWxlTmFtZX1gKQo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">YXN5bmMgYWNSZXFJZCA9PiB7CiAgICAgICAgcmV0dXJuIGF3YWl0IGdldFJlcG9ydERvd25sb2FkVXJsKGFjUmVxSWQpCiAgICB9KQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBjb25zb2xlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9LCB7cmV0cmllczogNX0pCg==</text>
+        <text encoding="base64">ICAgICAgICBkbC5zdGFydCgpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhd2FpdCByZXRyeShhc3luYyBiYWlsID0+IHsKICAgICAgICAgICAgbGV0IGRvd25sb2FkVXJsID0gCg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCBkbCA9IERvd25sb2FkZXJIZWxwZXIoZG93bmxvYWRVcmwsIGAke3Jlc3VsdEZvbGRlcn0vZG93bmxvYWQvYCwge2ZpbGVOYW1lOiBgJHthY2NvdW50fV8ke3llYXJ9LiR7Zm9ybWF0TW9udGgobW9udGgpfS56aXBgfSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkbC5vbignZXJyb3InLCAoKSA9PiByZWplY3QoYGRvd25sb2FkIGNvbXBsZXRlOiAke3BhdGh9JHtmaWxlTmFtZX1cYCkpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHRocm93IG5ldyBFcnJvcihgcmVwb3J0IGZvciAke2FjY291bnR9IGlzIG5vdCByZWFkeWApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGlmIChyZXNwLmRhdGFbJ3JlcXVlc3Rfc3RhdHVzJ10gPT09ICdTVUNDRVNTJykgewogICAgICAgIGxldCB7X2xpbmtzOiB7ZG93bmxvYWRfcmVwb3J0OiB7aHJlZjogZG93bmxvYWRMaW5rfX19ID0gcmVzcC5kYXRhCiAgICAgICAgcmV0dXJuIGRvd25sb2FkTGluawogICAgfQo=</text>
+        <text encoding="base64">ICAgIGNvbnN0IGRsID0gRG93bmxvYWRlckhlbHBlcih1cmwsIGAke3Jlc3VsdEZvbGRlcn0vZG93bmxvYWQvYCwge2ZpbGVOYW1lOiBgJHthY2NvdW50fV8ke3llYXJ9LiR7Zm9ybWF0TW9udGgobW9udGgpfS56aXBgfSkKICAgIGRsLnN0YXJ0KCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGxldCByZXNwID0gYXdhaXQgYXhpb3MuZ2V0KGNoZWNrU3RhdHVzVXJsLCB7cGFyYW1zfSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
