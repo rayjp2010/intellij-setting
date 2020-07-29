@@ -67,12 +67,12 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" timestamp="1595946404363">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1596027928938">
-        <mark key="'" line="123" column="0" />
-        <mark key="[" line="155" column="42" />
-        <mark key="]" line="155" column="42" />
-        <mark key="." line="155" column="42" />
-        <mark key="^" line="155" column="71" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1596030732000">
+        <mark key="'" line="75" column="4" />
+        <mark key="[" line="77" column="21" />
+        <mark key="]" line="75" column="29" />
+        <mark key="." line="75" column="28" />
+        <mark key="^" line="75" column="29" />
       </file>
       <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1596027925737">
         <mark key="[" line="7" column="28" />
@@ -89,10 +89,10 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" timestamp="1596018671253">
         <mark key="'" line="1661" column="2" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/package.json" timestamp="1595948011219">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="." line="13" column="0" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/package.json" timestamp="1596030298319">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
         <mark key="^" line="12" column="33" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595925572654">
@@ -144,11 +144,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="28" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
-      <jump line="910" column="62" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
-      <jump line="213" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
-      <jump line="284" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
-      <jump line="355" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
       <jump line="391" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
       <jump line="497" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
       <jump line="533" column="35" filename="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" />
@@ -180,7 +175,6 @@
       <jump line="17" column="24" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="22" column="4" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="342" column="0" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" />
-      <jump line="83" column="3" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="2" column="0" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" />
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" />
       <jump line="91" column="1" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
@@ -227,7 +221,6 @@
       <jump line="1637" column="2" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="1661" column="2" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="107" column="27" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
-      <jump line="88" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="56" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="26" column="22" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="27" column="44" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
@@ -244,6 +237,13 @@
       <jump line="97" column="36" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="125" column="21" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="123" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="114" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="73" column="47" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="83" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="10" column="23" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="88" column="34" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="9" column="43" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="74" column="4" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1014,46 +1014,46 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>/</text>
+        <text encoding="base64">IGF3YWl0</text>
       </register>
       <register name="-" type="4">
-        <text>/</text>
+        <text encoding="base64">IGF3YWl0</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxnZW5lcmF0aW9uXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCBkb3dubG9hZEZvbGRlciA9IGAke3Jlc3VsdEZvbGRlcn0vJHt5ZWFyfSR7Zm9ybWF0TW9udGgobW9udGgpfS9gCg==</text>
+      <register name="0" type="4">
+        <text>report for ${account} is not ready</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5lcnJvcihgZmFpbGVkIG9uIGRvd25sb2FkaW5nOiAke2Z1bGxGaWxlTmFtZX1gKQo=</text>
+        <text encoding="base64">ICAgIGNzdlBhcnNlKCkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coYGRvd25sb2FkIGNvbXBsZXRlOiAke2Z1bGxGaWxlTmFtZX1gKQo=</text>
+        <text encoding="base64">Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlCg==</text>
+        <text encoding="base64">IHJlcXVpcmUoJ2MnKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkbC5zdGFydCgpCg==</text>
+        <text encoding="base64">ICAgICJjc3YiOiAiXjUuMy4yIiwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCBkbCA9IERvd25sb2FkZXJIZWxwZXIoZG93bmxvYWRVcmwsIGAke3Jlc3VsdEZvbGRlcn0vZG93bmxvYWQvYCwge2ZpbGVOYW1lOiBgJHthY2NvdW50fV8ke3llYXJ9LiR7Zm9ybWF0TW9udGgobW9udGgpfS56aXBgfSkK</text>
+        <text encoding="base64">ICAgIGxldCByZXN1bHRGaWxlcyA9IFtdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkbC5vbignZXJyb3InLCAoKSA9PiByZWplY3QoYGRvd25sb2FkIGNvbXBsZXRlOiAke3BhdGh9JHtmaWxlTmFtZX1cYCkpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXN1bHRGaWxlcy5wdXNoKGZ1bGxGaWxlTmFtZSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLndhcm4oYHJlcG9ydCBmb3IgJHthY2NvdW50fSBpcyBub3QgcmVhZHkuIHJldHJ5aW5nYCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IGRsID0gRG93bmxvYWRlckhlbHBlcih1cmwsIGAke3Jlc3VsdEZvbGRlcn0vZG93bmxvYWQvYCwge2ZpbGVOYW1lOiBgJHthY2NvdW50fV8ke3llYXJ9LiR7Zm9ybWF0TW9udGgobW9udGgpfS56aXBgfSkKICAgIGRsLnN0YXJ0KCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gdHJpZ2dlclJlcG9ydEdlbignYTI1YWQ5Y3ppcCcsIHtkaXI6IHBhdGgucmVzb2x2ZSgnLi9yZXN1bHQvdW56aXBwZWQvJyl9KS50aGVuKGNvbnNvbGUubG9nKQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
