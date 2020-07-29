@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>timeout</entry>
         <entry>Fake</entry>
         <entry>NoE</entry>
         <entry>elastic</entry>
@@ -25,6 +24,7 @@
         <entry>receive</entry>
         <entry>processor</entry>
         <entry>redirec</entry>
+        <entry>document</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -64,22 +64,21 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1595944686847">
-        <mark key="'" line="3" column="16" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
-        <mark key="^" line="62" column="12" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" timestamp="1595946404363">
+        <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/audit_log_service.go" timestamp="1595582375413">
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="50" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1595948608258">
+        <mark key="'" line="4" column="20" />
+        <mark key="[" line="105" column="51" />
+        <mark key="]" line="105" column="52" />
+        <mark key="." line="105" column="51" />
+        <mark key="^" line="105" column="52" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1595944546989">
-        <mark key="[" line="1" column="48" />
-        <mark key="]" line="1" column="46" />
-        <mark key="." line="1" column="45" />
-        <mark key="^" line="1" column="46" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1595946332685">
+        <mark key="[" line="3" column="21" />
+        <mark key="]" line="3" column="40" />
+        <mark key="." line="7" column="20" />
+        <mark key="^" line="7" column="21" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/pipelines.go" timestamp="1595827382769">
         <mark key="[" line="1" column="0" />
@@ -93,10 +92,11 @@
         <mark key="]" line="168" column="43" />
         <mark key="." line="168" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/package.json" timestamp="1595930417899">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/package.json" timestamp="1595948011219">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="12" column="33" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595925572654">
         <mark key="'" line="15" column="4" />
@@ -117,9 +117,6 @@
       <file name="$USER_HOME$/Workspace/aegis.radar/config/config.js" timestamp="1595914769389">
         <mark key="[" line="235" column="56" />
         <mark key="]" line="235" column="66" />
-      </file>
-      <file name="/fragment.go" timestamp="1595577997364">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/pkg/mod/git.rakuten-it.com/fpgopher/eventhub@v0.0.1/eventhub.go" timestamp="1595845493799">
         <mark key="'" line="70" column="14" />
@@ -145,23 +142,11 @@
         <mark key="." line="13" column="46" />
         <mark key="^" line="971" column="59" />
       </file>
+      <file name="$USER_HOME$/Workspace/nexmo-report/result/unzipped/report_SMS_a25ad9c2_20200728.csv" timestamp="1595948447553">
+        <mark key="'" line="85" column="35" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="0" filename="$USER_HOME$/go/src/odin/core/testing_util/common_testing_util.go" />
-      <jump line="145" column="37" filename="$USER_HOME$/go/src/odin/core/testing_util/transaction_testing_util.go" />
-      <jump line="347" column="0" filename="$USER_HOME$/go/src/odin/core/testing_util/audit_log_testing_util.go" />
-      <jump line="22" column="37" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
-      <jump line="261" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="36" column="45" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
-      <jump line="85" column="52" filename="$USER_HOME$/go/src/odin/core/audit_log_service_test.go" />
-      <jump line="28" column="24" filename="$USER_HOME$/go/src/odin/model/payguard_evaluation.go" />
-      <jump line="188" column="45" filename="$USER_HOME$/go/src/odin/util/util.go" />
-      <jump line="8" column="13" filename="$USER_HOME$/go/src/odin/core/elastic_search_service.go" />
-      <jump line="814" column="17" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="234" column="0" filename="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" />
-      <jump line="130" column="4" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
-      <jump line="27" column="5" filename="$USER_HOME$/go/src/odin/model/search_request.go" />
-      <jump line="61" column="0" filename="$USER_HOME$/go/src/odin/core/validator_test.go" />
       <jump line="247" column="60" filename="$USER_HOME$/go/src/odin/cmd/server/main.go" />
       <jump line="29" column="90" filename="$USER_HOME$/go/src/odin/model/search_request.go" />
       <jump line="245" column="20" filename="$USER_HOME$/go/src/odin/core/report_service_test.go" />
@@ -247,6 +232,21 @@
       <jump line="11" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="28" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="3" column="16" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="77" column="4" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="17" column="24" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="22" column="4" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="342" column="0" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" />
+      <jump line="83" column="3" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="2" column="0" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" />
+      <jump line="91" column="1" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="79" column="22" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="101" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="5" column="15" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="89" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="85" column="35" filename="$USER_HOME$/Workspace/nexmo-report/result/unzipped/report_SMS_a25ad9c2_20200728.csv" />
+      <jump line="104" column="116" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="4" column="20" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1016,47 +1016,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIHtuYW1lOiAndmVyYm9zZScsIGFsaWFzOiAndicsIHR5cGU6IEJvb2xlYW4sIGRlZmF1bHRWYWx1ZTogZmFsc2V9LAo=</text>
+      <register name="*" type="4">
+        <text>$USER_HOME$/Workspace/nexmo-report</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>$USER_HOME$/Workspace/nexmo-report</text>
       </register>
       <register name="/" type="4">
-        <text>redirec</text>
+        <text>document</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCBwYXJhbXMgPSB7CiAgICAgICAgJ2FwaV9rZXknOiBhY2NvdW50LAogICAgICAgICdhcGlfc2VjcmV0JzogYXBpU2VjcmV0TWFwW2FjY291bnRdLAogICAgfQo=</text>
+      <register name="0" type="4">
+        <text>/result/unzipped/</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHtuYW1lOiAndmVyYm9zZScsIGFsaWFzOiAndicsIHR5cGU6IEJvb2xlYW4sIGRlZmF1bHRWYWx1ZTogZmFsc2V9LAo=</text>
+        <text encoding="base64">cGF0aC5yZXNvbHZlKCcvcmVzdWx0L3VuemlwcGVkLycpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmVycm9yKCkK</text>
+        <text encoding="base64">ICAgICJqcy1maWxlLWRvd25sb2FkZXIiOiAiXjEuMS4xMCIsCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHApCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHN0YXRlKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxldCByZXNwID0gYXdhaXQgYXhpb3MuZ2V0KGNoZWNrU3RhdHVzVXJsLCB7cGFyYW1zfSkK</text>
+        <text>}).then(console.log)</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bmV3IERvd25sb2FkZXIoewo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICJqcy1maWxlLWRvd25sb2FkIjogIl4wLjQuMTIiCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAnYXBpX2tleSc6IGFjY291bnQsCiAgICAgICAgJ2FwaV9zZWNyZXQnOiBhcGlTZWNyZXRNYXBbYWNjb3VudF0sCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
@@ -1065,9 +1065,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>redirec</last-search>
+      <last-search>document</last-search>
       <last-offset />
-      <last-pattern>redirec</last-pattern>
+      <last-pattern>document</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
