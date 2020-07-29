@@ -67,17 +67,18 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" timestamp="1595946404363">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1596022771385">
-        <mark key="'" line="6" column="0" />
-        <mark key="[" line="143" column="15" />
-        <mark key="]" line="143" column="14" />
-        <mark key="." line="143" column="13" />
-        <mark key="^" line="143" column="14" />
+      <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1596026751898">
+        <mark key="'" line="97" column="36" />
+        <mark key="[" line="147" column="130" />
+        <mark key="]" line="147" column="134" />
+        <mark key="^" line="147" column="134" />
+        <mark key="." line="147" column="133" />
       </file>
-      <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1596021085127">
+      <file name="$USER_HOME$/Workspace/nexmo-report/config/config.js" timestamp="1596026589417">
         <mark key="[" line="7" column="29" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+        <mark key="]" line="7" column="28" />
+        <mark key="." line="7" column="27" />
+        <mark key="^" line="7" column="28" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/pipelines.go" timestamp="1595827382769">
         <mark key="[" line="1" column="0" />
@@ -143,7 +144,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" />
       <jump line="309" column="20" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="155" column="16" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
       <jump line="18" column="28" filename="$USER_HOME$/go/src/odin/util/elastic_util.go" />
@@ -243,6 +243,7 @@
       <jump line="8" column="33" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="133" column="16" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="6" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
+      <jump line="97" column="36" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1012,47 +1013,47 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGF3YWl0IHJldHJ5KGFzeW5jIGJhaWwgPT4gewogICAgICAgICAgICBhd2FpdCBQcm9taXNlLmFsbChyZXBvcnRSZXFJZHMubWFwKGFjUmVxSWQgPT4gZ2V0UmVwb3J0RG93bmxvYWRVcmwoYWNSZXFJZC5hY2NvdW50LCBhY1JlcUlkLnJlcXVlc3RJZCkpKQogICAgICAgIH0sCiAgICAgICAge3JldHJpZXM6IDV9CiAgICApCg==</text>
+      <register name="*" type="4">
+        <text encoding="base64">aHR0cHM6Ly9hcGkubmV4bW8uY29tL3YzL21lZGlhLzRhNjllMTViLWExMzctNDcyMy1iOWU5LWEwYTA5NjFjYzliMz9hcGlfa2V5PWEyNWFkOWMyJmFwaV9zZWNyZXQ9MjgwMnJhY25saWVGSjk4MDkzMkQ=</text>
       </register>
       <register name="-" type="4">
-        <text>: ac,</text>
+        <text>report generation triggered for ${account}. requestId: ${requestId}</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxnZW5lcmF0aW9uXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhgcmVwb3J0IGdlbmVyYXRpb24gdHJpZ2dlcmVkIGZvciAke2FjY291bnR9LiByZXF1ZXN0SWQ6ICR7cmVxdWVzdElkfWApCg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">aHR0cHM6Ly9hcGkubmV4bW8uY29tL3YzL21lZGlhLzRhNjllMTViLWExMzctNDcyMy1iOWU5LWEwYTA5NjFjYzliMz9hcGlfa2V5PWEyNWFkOWMyJmFwaV9zZWNyZXQ9MjgwMnJhY25saWVGSjk4MDkzMkQ=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGF3YWl0IHJldHJ5KGFzeW5jIGJhaWwgPT4gewogICAgICAgICAgICBhd2FpdCBQcm9taXNlLmFsbChyZXBvcnRSZXFJZHMubWFwKGFjUmVxSWQgPT4gZ2V0UmVwb3J0RG93bmxvYWRVcmwoYWNSZXFJZC5hY2NvdW50LCBhY1JlcUlkLnJlcXVlc3RJZCkpKQogICAgICAgIH0sCiAgICAgICAge3JldHJpZXM6IDV9CiAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICByZXBvcnRSZXFJZHMucHVzaCh7YWNjb3VudCwgcmVxdWVzdElkfSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHJlcG9ydFJlcUlkcykKICAgIGF3YWl0IHJldHJ5KGFzeW5jIGJhaWwgPT4gewogICAgICAgICAgICBhd2FpdCBQcm9taXNlLmFsbChyZXBvcnRSZXFJZHMubWFwKGFjUmVxSWQgPT4gZ2V0UmVwb3J0RG93bmxvYWRVcmwoYWNSZXFJZC5hY2NvdW50LCBhY1JlcUlkLnJlcXVlc3RJZCkpKQogICAgICAgIH0sCiAgICAgICAge3JldHJpZXM6IDV9CiAgICApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZ2V0UmVwb3J0RG93bmxvYWRVcmwoKQo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">YXN5bmMgYWNSZXFJZCA9PiB7CiAgICAgICAgcmV0dXJuIGF3YWl0IGdldFJlcG9ydERvd25sb2FkVXJsKGFjUmVxSWQpCiAgICB9KQ==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9LCB7cmV0cmllczogNX0pCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAncmkzcDU4Zi01MzA3MjdhNS04NmY0LTQyZDItYTBhNS01ZGRkOTU4YjA2YzQnLAogICAgICAgICdyaTNwNThmLWMzODhhNzk5LTM2ZmEtNGQ5Ni05ZTIzLWRkNzJjYzMzMzUxNCcsCiAgICAgICAgJ3JpM3A1OGYtNmJiYThiOGYtZjgzYy00MGIxLTkwM2QtOTY1ZTMzYWJmNTE5Jwo=</text>
+        <text encoding="base64">ICAgICAgICBhd2FpdCByZXRyeShhc3luYyBiYWlsID0+IHsKICAgICAgICAgICAgbGV0IGRvd25sb2FkVXJsID0gCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG1heFJldHJ5OiA1Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHRocm93IG5ldyBFcnJvcihgcmVwb3J0IGZvciAke2FjY291bnR9IGlzIG5vdCByZWFkeWApCg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhgcmVwb3J0IGdlbmVyYXRpb24gdHJpZ2dlcmVkIGZvciAke2FjY291bnR9LiByZXF1ZXN0SWQ6ICR7cmVxdWVzdElkfWApCg==</text>
+        <text encoding="base64">ICAgIGlmIChyZXNwLmRhdGFbJ3JlcXVlc3Rfc3RhdHVzJ10gPT09ICdTVUNDRVNTJykgewogICAgICAgIGxldCB7X2xpbmtzOiB7ZG93bmxvYWRfcmVwb3J0OiB7aHJlZjogZG93bmxvYWRMaW5rfX19ID0gcmVzcC5kYXRhCiAgICAgICAgcmV0dXJuIGRvd25sb2FkTGluawogICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhgcmVwb3J0IGdlbmVyYXRpb24gdHJpZ2dlcmVkIGZvciAke2FjY291bnR9LiByZXF1ZXN0SWQ6ICR7cmVxdWVzdElkfWApCg==</text>
+        <text encoding="base64">ICAgIGxldCByZXNwID0gYXdhaXQgYXhpb3MuZ2V0KGNoZWNrU3RhdHVzVXJsLCB7cGFyYW1zfSkK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
