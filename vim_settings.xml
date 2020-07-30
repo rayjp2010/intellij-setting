@@ -108,9 +108,6 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" timestamp="1596034901831">
         <mark key="'" line="877" column="2" />
       </file>
-      <file name="$USER_HOME$/go/src/peitho/main.go" timestamp="1595748017922">
-        <mark key="'" line="94" column="9" />
-      </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1596073486730">
         <mark key="'" line="115" column="39" />
         <mark key="[" line="89" column="24" />
@@ -118,6 +115,7 @@
         <mark key="^" line="107" column="10" />
         <mark key="." line="89" column="24" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1596090041511" />
       <file name="$USER_HOME$/Workspace/nexmo-report/package.json" timestamp="1596030298319">
         <mark key="[" line="14" column="0" />
         <mark key="]" line="14" column="0" />
