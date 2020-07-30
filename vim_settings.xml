@@ -67,9 +67,16 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" timestamp="1595946404363">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/report_api_test.go" timestamp="1596090731379">
+        <mark key="[" line="14" column="4" />
+        <mark key="]" line="18" column="11" />
+        <mark key="." line="18" column="10" />
+        <mark key="^" line="18" column="11" />
+      </file>
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/async-retry/lib/index.js" timestamp="1596032903111">
         <mark key="'" line="14" column="41" />
       </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1596090687426" />
       <file name="$USER_HOME$/Workspace/nexmo-report/index.js" timestamp="1596035151938">
         <mark key="'" line="86" column="14" />
         <mark key="[" line="122" column="47" />
@@ -100,11 +107,6 @@
         <mark key="." line="41" column="13" />
         <mark key="^" line="41" column="14" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/pipelines.go" timestamp="1595827382769">
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="0" />
-        <mark key="." line="1" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" timestamp="1596034901831">
         <mark key="'" line="877" column="2" />
       </file>
@@ -121,10 +123,6 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
         <mark key="^" line="12" column="33" />
-      </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/config/config.js" timestamp="1595842337016">
-        <mark key="[" line="5" column="9" />
-        <mark key="]" line="5" column="16" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595925572654">
         <mark key="'" line="15" column="4" />
@@ -1016,11 +1014,11 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>transactionIndexes</text>
       </register>
       <register name="-" type="4">
-        <text>required</text>
+        <text>transactionIndexes</text>
       </register>
       <register name="/" type="4">
         <text>pivo</text>
