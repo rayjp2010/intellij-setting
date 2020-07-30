@@ -124,6 +124,13 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="12" column="33" />
       </file>
+      <file name="$USER_HOME$/go/src/pythia/internal/infra/mappers/servicemappers/ichiba_accertify_request_mapper.go" timestamp="1596092696157">
+        <mark key="'" line="139" column="21" />
+        <mark key="[" line="56" column="5" />
+        <mark key="]" line="56" column="4" />
+        <mark key="." line="56" column="0" />
+        <mark key="^" line="56" column="4" />
+      </file>
       <file name="$USER_HOME$/go/src/odin/core/hub_processor.go" timestamp="1595925572654">
         <mark key="'" line="15" column="4" />
         <mark key="[" line="8" column="8" />
@@ -134,9 +141,6 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/result/unzipped/report_SMS_a25ad9c2_20200728.csv" timestamp="1595948447553">
         <mark key="'" line="85" column="35" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/vendor/utils/ajax.js" timestamp="1595842366968">
-        <mark key="'" line="2" column="37" />
-      </file>
       <file name="$USER_HOME$/Workspace/nexmo-report/util/util.js" timestamp="1595942633645">
         <mark key="[" line="2" column="1" />
         <mark key="]" line="2" column="0" />
@@ -145,7 +149,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="11" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="28" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="3" column="16" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="77" column="4" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
@@ -245,6 +248,7 @@
       <jump line="107" column="12" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="114" column="39" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" />
       <jump line="16" column="20" filename="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/order_search_elasticsearch/main.py" />
+      <jump line="138" column="21" filename="$USER_HOME$/go/src/pythia/internal/infra/mappers/servicemappers/ichiba_accertify_request_mapper.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1015,10 +1019,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>auditLogTemplateList</text>
+        <text>b</text>
       </register>
       <register name="-" type="4">
-        <text>auditLogTemplateList</text>
+        <text>b</text>
       </register>
       <register name="/" type="4">
         <text>pivo</text>
