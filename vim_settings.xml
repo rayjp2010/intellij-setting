@@ -158,12 +158,12 @@
         <mark key="]" line="60" column="106" />
         <mark key="." line="60" column="106" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1596208245341">
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1596208608353">
         <mark key="'" line="992" column="0" />
-        <mark key="[" line="656" column="47" />
-        <mark key="]" line="656" column="52" />
-        <mark key="^" line="656" column="52" />
-        <mark key="." line="656" column="51" />
+        <mark key="[" line="656" column="53" />
+        <mark key="]" line="656" column="58" />
+        <mark key="^" line="656" column="53" />
+        <mark key="." line="656" column="53" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" timestamp="1596192700518">
         <mark key="'" line="17" column="0" />
@@ -1044,16 +1044,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>20001</text>
+        <text>12345</text>
       </register>
       <register name="-" type="4">
-        <text>20001</text>
+        <text>12345</text>
       </register>
       <register name="/" type="4">
         <text>from</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CQkJCQl7CgkJCQkJCSJyYW5nZSI6IHV0aWwuSnNvbk1hcHsKCQkJCQkJCSJvcmRlci5yZXF1ZXN0RGF0ZSI6IHV0aWwuSnNvbk1hcHsKCQkJCQkJCQkiZ3RlIjogc3RhcnREYXRlLAoJCQkJCQkJCSJsdGUiOiBlbmREYXRlLAoJCQkJCQkJfSwKCQkJCQkJfSwKCQkJCQl9LAo=</text>
+      <register name="0" type="4">
+        <text>util.GetInt64Ptr(startDate),</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQkJInJhbmdlIjogdXRpbC5Kc29uTWFwewoJCQkJIm9yZGVyLnJlcXVlc3REYXRlIjogdXRpbC5Kc29uTWFwewoJCQkJCSJndGUiOiBzdGFydERhdGUsCgkJCQkJImx0ZSI6IGVuZERhdGUsCgkJCQl9LAoJCQl9LAo=</text>
