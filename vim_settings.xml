@@ -110,8 +110,16 @@
         <mark key="^" line="325" column="31" />
         <mark key="." line="353" column="25" />
       </file>
-      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/report/BasicReport.jsx" timestamp="1596161479545">
-        <mark key="'" line="108" column="54" />
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1596200766887">
+        <mark key="[" line="114" column="80" />
+        <mark key="]" line="114" column="80" />
+        <mark key="." line="114" column="80" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1596200757777">
+        <mark key="[" line="57" column="99" />
+        <mark key="]" line="57" column="99" />
+        <mark key="." line="57" column="99" />
+        <mark key="^" line="57" column="109" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1596181228786">
         <mark key="[" line="83" column="0" />
@@ -148,9 +156,6 @@
         <mark key="]" line="2" column="6" />
         <mark key="." line="2" column="5" />
         <mark key="^" line="2" column="6" />
-      </file>
-      <file name="$USER_HOME$/go/src/pythia/vendor/git.rakuten-it.com/fpgopher/order.pb/order.pb.go" timestamp="1596093502573">
-        <mark key="'" line="458" column="91" />
       </file>
       <file name="$USER_HOME$/Workspace/nexmo-report/README.md" timestamp="1596171345592">
         <mark key="[" line="2" column="56" />
@@ -1037,10 +1042,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Daily</text>
+        <text>, offset, limit *int</text>
       </register>
       <register name="-" type="4">
-        <text>Daily</text>
+        <text>, offset, limit *int</text>
       </register>
       <register name="/" type="4">
         <text>text</text>
