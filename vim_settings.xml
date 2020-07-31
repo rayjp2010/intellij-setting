@@ -127,11 +127,11 @@
         <mark key="." line="41" column="13" />
         <mark key="^" line="41" column="14" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596174217333">
-        <mark key="[" line="20" column="37" />
-        <mark key="]" line="20" column="37" />
-        <mark key="." line="20" column="37" />
-        <mark key="^" line="19" column="55" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596175145451">
+        <mark key="[" line="28" column="50" />
+        <mark key="]" line="28" column="50" />
+        <mark key="." line="28" column="50" />
+        <mark key="^" line="28" column="36" />
       </file>
       <file name="$USER_HOME$/Workspace/payguard_release/template/script/miscellaneous/box_report_elasticsearch/email_ichiba_report_to_box_folder.py" timestamp="1596073486730">
         <mark key="'" line="115" column="39" />
@@ -1035,16 +1035,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>startDate</text>
+        <text encoding="base64">IGNvcnJlY3RseQ==</text>
       </register>
       <register name="-" type="4">
-        <text>startDate</text>
+        <text encoding="base64">IGNvcnJlY3RseQ==</text>
       </register>
       <register name="/" type="4">
         <text>next page</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CQl7ImlycmVndWxhcjogcmVxdWVzdCB3aXRoIG5vIHN0YXJ0RGF0ZSAtPiBlcnJvciJ9LAo=</text>
+        <text encoding="base64">CQl7ImlycmVndWxhcjogcmVxdWVzdCB3aXRob3V0IGludGVydmFsIC0+IGVycm9yIn0sCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CQl7InF1ZXJ5ICByZXBvcnQgY29ycmVjdGx5In0sCg==</text>
