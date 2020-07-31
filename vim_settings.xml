@@ -103,11 +103,12 @@
         <mark key="]" line="5" column="16" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596181585450">
-        <mark key="[" line="146" column="34" />
-        <mark key="]" line="146" column="61" />
-        <mark key="." line="113" column="26" />
-        <mark key="^" line="162" column="12" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596185885112">
+        <mark key="'" line="305" column="20" />
+        <mark key="[" line="221" column="70" />
+        <mark key="]" line="221" column="70" />
+        <mark key="^" line="220" column="64" />
+        <mark key="." line="221" column="70" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/report/BasicReport.jsx" timestamp="1596161479545">
         <mark key="'" line="108" column="54" />
@@ -128,11 +129,12 @@
         <mark key="[" line="87" column="40" />
         <mark key="]" line="87" column="72" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596178172611">
-        <mark key="[" line="52" column="53" />
-        <mark key="]" line="52" column="61" />
-        <mark key="." line="52" column="60" />
-        <mark key="^" line="52" column="61" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596185444478">
+        <mark key="'" line="17" column="24" />
+        <mark key="[" line="58" column="53" />
+        <mark key="]" line="58" column="56" />
+        <mark key="." line="58" column="55" />
+        <mark key="^" line="58" column="56" />
       </file>
       <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1596090041511" />
       <file name="$USER_HOME$/go/src/pythia/vendor/git.rakuten-it.com/fpgopher/order.pb/order.pb.go" timestamp="1596093502573">
@@ -151,7 +153,8 @@
         <mark key="." line="53" column="50" />
         <mark key="^" line="53" column="51" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" timestamp="1596183290835">
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" timestamp="1596185839768">
+        <mark key="'" line="17" column="0" />
         <mark key="[" line="47" column="28" />
         <mark key="]" line="47" column="73" />
         <mark key="." line="47" column="72" />
@@ -159,9 +162,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1771" column="6" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="1784" column="9" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="1786" column="2" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="1788" column="17" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="1790" column="9" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="1850" column="7" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
@@ -259,6 +259,9 @@
       <jump line="53" column="31" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
       <jump line="47" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
       <jump line="23" column="27" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
+      <jump line="17" column="24" filename="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" />
+      <jump line="304" column="20" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="17" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1029,16 +1032,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>, doc.Id</text>
+        <text>0</text>
       </register>
       <register name="-" type="4">
-        <text>, doc.Id</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
         <text>next page</text>
       </register>
       <register name="0" type="4">
-        <text>u.GetStringPtr(</text>
+        <text>&quot;JPY &quot; + scv.Itoa(hitNo*100)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CWRvY3MgPSBhcHBlbmQoZG9jcywgZ2V0RG9jc0J5RXZhbCgiQWNjZXB0V2l0aENhdXRpb24iKS4uLikKCWRvY3MgPSBhcHBlbmQoZG9jcywgZ2V0RG9jc0J5RXZhbCgiQWNjZXB0V2l0aENhdXRpb24iKS4uLikK</text>
