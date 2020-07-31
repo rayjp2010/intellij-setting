@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>totalOrders</entry>
-        <entry>Accept_orders</entry>
         <entry>routine</entry>
         <entry>go</entry>
         <entry>max</entry>
@@ -25,6 +23,8 @@
         <entry>column</entry>
         <entry>pivo</entry>
         <entry>cardCoun</entry>
+        <entry>50</entry>
+        <entry>next page</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -64,9 +64,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/js-file-downloader/dist/js-file-downloader.js" timestamp="1595946404363">
-        <mark key="'" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/report_api_test.go" timestamp="1596099621089">
         <mark key="[" line="25" column="21" />
         <mark key="]" line="26" column="0" />
@@ -106,6 +103,9 @@
         <mark key="]" line="32" column="15" />
         <mark key="." line="32" column="14" />
         <mark key="^" line="32" column="15" />
+      </file>
+      <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/report/BasicReport.jsx" timestamp="1596161479545">
+        <mark key="'" line="108" column="54" />
       </file>
       <file name="$USER_HOME$/Workspace/nexmo-report/package.json" timestamp="1596030298319">
         <mark key="[" line="14" column="0" />
@@ -158,8 +158,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="91" column="1" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
-      <jump line="79" column="22" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="5" column="15" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="89" column="0" filename="$USER_HOME$/Workspace/nexmo-report/index.js" />
       <jump line="85" column="35" filename="$USER_HOME$/Workspace/nexmo-report/result/unzipped/report_SMS_a25ad9c2_20200728.csv" />
@@ -258,6 +256,8 @@
       <jump line="16" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
       <jump line="24" column="19" filename="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" />
       <jump line="752" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="76" column="34" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/report/BasicReport.jsx" />
+      <jump line="108" column="54" filename="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/report/BasicReport.jsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1034,7 +1034,7 @@
         <text>``*int64</text>
       </register>
       <register name="/" type="4">
-        <text>cardCoun</text>
+        <text>next page</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CU9yZ2FuaXphdGlvbklkICppbnQ2NCAgICAgICAgICAK</text>
@@ -1076,9 +1076,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>cardCoun</last-search>
+      <last-search>next page</last-search>
       <last-offset />
-      <last-pattern>cardCoun</last-pattern>
+      <last-pattern>next page</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
