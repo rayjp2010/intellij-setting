@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>routine</entry>
         <entry>go</entry>
         <entry>max</entry>
         <entry>batch</entry>
@@ -25,6 +24,7 @@
         <entry>cardCoun</entry>
         <entry>50</entry>
         <entry>next page</entry>
+        <entry>text</entry>
       </history-search>
       <history-cmd>
         <entry>vsplit</entry>
@@ -103,12 +103,12 @@
         <mark key="]" line="5" column="16" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596185885112">
-        <mark key="'" line="305" column="20" />
-        <mark key="[" line="221" column="70" />
-        <mark key="]" line="221" column="70" />
-        <mark key="^" line="220" column="64" />
-        <mark key="." line="221" column="70" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596189792781">
+        <mark key="'" line="267" column="52" />
+        <mark key="[" line="322" column="0" />
+        <mark key="]" line="322" column="0" />
+        <mark key="^" line="95" column="27" />
+        <mark key="." line="322" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/report/BasicReport.jsx" timestamp="1596161479545">
         <mark key="'" line="108" column="54" />
@@ -118,7 +118,7 @@
         <mark key="]" line="86" column="1" />
         <mark key="." line="581" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596178112695">
+      <file name="/Dummy.txt" timestamp="1596188233173">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.go" timestamp="1596183705211">
@@ -129,14 +129,26 @@
         <mark key="[" line="87" column="40" />
         <mark key="]" line="87" column="72" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596185444478">
-        <mark key="'" line="17" column="24" />
-        <mark key="[" line="58" column="53" />
-        <mark key="]" line="58" column="56" />
-        <mark key="." line="58" column="55" />
-        <mark key="^" line="58" column="56" />
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1596186383087">
+        <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/transaction_property_test.go" timestamp="1596090041511" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1596187517210">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="40" column="1" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596189775304">
+        <mark key="'" line="17" column="24" />
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="73" column="0" />
+        <mark key="." line="73" column="0" />
+        <mark key="^" line="72" column="42" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/report_template.json" timestamp="1596189475869">
+        <mark key="[" line="2" column="5" />
+        <mark key="]" line="2" column="6" />
+        <mark key="." line="2" column="5" />
+        <mark key="^" line="2" column="6" />
+      </file>
       <file name="$USER_HOME$/go/src/pythia/vendor/git.rakuten-it.com/fpgopher/order.pb/order.pb.go" timestamp="1596093502573">
         <mark key="'" line="458" column="91" />
       </file>
@@ -145,13 +157,6 @@
         <mark key="]" line="2" column="57" />
         <mark key="." line="2" column="56" />
         <mark key="^" line="2" column="57" />
-      </file>
-      <file name="$USER_HOME$/go/src/pythia/internal/infra/mappers/servicemappers/ichiba_accertify_request_mapper.go" timestamp="1596093491139">
-        <mark key="'" line="139" column="21" />
-        <mark key="[" line="56" column="5" />
-        <mark key="]" line="53" column="51" />
-        <mark key="." line="53" column="50" />
-        <mark key="^" line="53" column="51" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" timestamp="1596185839768">
         <mark key="'" line="17" column="0" />
@@ -162,16 +167,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1788" column="17" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="1790" column="9" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="1850" column="7" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="1854" column="7" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="1855" column="2" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="1865" column="10" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="217" column="2" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="323" column="11" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="331" column="30" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
-      <jump line="432" column="9" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="467" column="26" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="1674" column="11" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
       <jump line="1219" column="12" filename="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" />
@@ -260,8 +255,18 @@
       <jump line="47" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
       <jump line="23" column="27" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
       <jump line="17" column="24" filename="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" />
-      <jump line="304" column="20" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
       <jump line="17" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" />
+      <jump line="0" column="0" filename="$USER_HOME$/go/src/odin/util/util.go" />
+      <jump line="316" column="14" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="304" column="2" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="308" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="326" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="303" column="6" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="66" column="0" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="213" column="5" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="256" column="52" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="245" column="52" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
+      <jump line="267" column="52" filename="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -1031,44 +1036,51 @@
           <key char="65535" code="40" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>0</text>
+      <register name="*" type="2">
+        <text encoding="base64">CXZhciBpbmRleCBpbnQK</text>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>7</text>
       </register>
       <register name="/" type="4">
-        <text>next page</text>
+        <text>text</text>
       </register>
-      <register name="0" type="4">
-        <text>&quot;JPY &quot; + scv.Itoa(hitNo*100)</text>
+      <register name="0" type="2">
+        <text encoding="base64">CQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiT3JkZXJzIiwgIjciKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiT3JkZXJzUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkdtcyIsICJKUFkgNzAwLDAwMDAiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiR21zUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIlJlZGVlbWVkUG9pbnRzIiwgIjE0LDAwMCIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJSZWRlZW1lZFBvaW50c1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJDb3Vwb25EaXNjb3VudHMiLCAiSlBZIDcsMDAwIikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkNvdXBvbkRpc2NvdW50c1BjdCIsICIxNC4yOSIpLgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CWRvY3MgPSBhcHBlbmQoZG9jcywgZ2V0RG9jc0J5RXZhbCgiQWNjZXB0V2l0aENhdXRpb24iKS4uLikKCWRvY3MgPSBhcHBlbmQoZG9jcywgZ2V0RG9jc0J5RXZhbCgiQWNjZXB0V2l0aENhdXRpb24iKS4uLikK</text>
+        <text encoding="base64">CXZhciBpbmRleCBpbnQK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnVuYyBnZXREZW55RG9jcygpIChyZXN1bHQgW110bS5SZXBvcnREb2N1bWVudCkgewoJLy8gSmFuLgoJZG9jMSA6PSB0bS5OZXdSZXBvcnREb2N1bWVudCgpLgoJCVdpdGgoIlJlcXVlc3REYXRlIiwgIjIwMjAtMDEtMjlUMjM6NTk6NTkuMDAwKzAwMDAiKS4KCQlXaXRoKCJFdmFsdWF0aW9uIiwgIkRlbnkiKQoJLy8gRmViLgoJZG9jMiA6PSB0bS5OZXdSZXBvcnREb2N1bWVudCgpLgoJCVdpdGgoIlJlcXVlc3REYXRlIiwgIjIwMjAtMDItMDFUMDA6MDA6MDEuMDAwKzAwMDAiKS4KCQlXaXRoKCJFdmFsdWF0aW9uIiwgIkFjY2VwdCIpCglkb2MzIDo9IHRtLk5ld1JlcG9ydERvY3VtZW50KCkuCgkJV2l0aCgiUmVxdWVzdERhdGUiLCAiMjAyMC0wMi0xNVQwMDowMDowMS4wMDArMDAwMCIpLgoJCVdpdGgoIkV2YWx1YXRpb24iLCAiQWNjZXB0IikKCWRvYzQgOj0gdG0uTmV3UmVwb3J0RG9jdW1lbnQoKS4KCQlXaXRoKCJSZXF1ZXN0RGF0ZSIsICIyMDIwLTAyLTE1VDE1OjAwOjAxLjAwMCswMDAwIikuCgkJV2l0aCgiRXZhbHVhdGlvbiIsICJBY2NlcHQiKQoJZG9jNSA6PSB0bS5OZXdSZXBvcnREb2N1bWVudCgpLgoJCVdpdGgoIlJlcXVlc3REYXRlIiwgIjIwMjAtMDItMTVUMTU6MTU6MTUuMDAwKzAwMDAiKS4KCQlXaXRoKCJFdmFsdWF0aW9uIiwgIkFjY2VwdCIpCglkb2M2IDo9IHRtLk5ld1JlcG9ydERvY3VtZW50KCkuCgkJV2l0aCgiUmVxdWVzdERhdGUiLCAiMjAyMC0wMi0xNVQxNTo1OTo1OS4wMDArMDAwMCIpLgoJCVdpdGgoIkV2YWx1YXRpb24iLCAiQWNjZXB0IikKCWRvYzcgOj0gdG0uTmV3UmVwb3J0RG9jdW1lbnQoKS4KCQlXaXRoKCJSZXF1ZXN0RGF0ZSIsICIyMDIwLTAyLTE1VDIzOjU5OjU5LjAwMCswMDAwIikuCgkJV2l0aCgiRXZhbHVhdGlvbiIsICJBY2NlcHQiKQoJZG9jOCA6PSB0bS5OZXdSZXBvcnREb2N1bWVudCgpLgoJCVdpdGgoIlJlcXVlc3REYXRlIiwgIjIwMjAtMDItMjlUMjM6NTk6NTkuMDAwKzAwMDAiKS4KCQlXaXRoKCJFdmFsdWF0aW9uIiwgIkFjY2VwdCIpCgkvLyBNYXIuCglkb2M5IDo9IHRtLk5ld1JlcG9ydERvY3VtZW50KCkuCgkJV2l0aCgiUmVxdWVzdERhdGUiLCAiMjAyMC0wMy0wMVQwMDowMDowMS4wMDArMDAwMCIpLgoJCVdpdGgoIkV2YWx1YXRpb24iLCAiQWNjZXB0IikKCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsICpkb2MxLCAqZG9jMiwgKmRvYzIsICpkb2MzLCAqZG9jNCwgKmRvYzUsICpkb2M2LCAqZG9jNywgKmRvYzgsICpkb2M5KQoJcmV0dXJuCn0K</text>
+        <text encoding="base64">CXN3aXRjaCBldmFsIHsKCWNhc2UgIkFjY2VwdCI6CgkJaW5kZXggPSAwCgljYXNlICJEZW55IjoKCQlpbmRleCA9IDEKCWNhc2UgIkFjY2VwdFVJIjoKCQlpbmRleCA9IDIKCWNhc2UgIkFjY2VwdFdpdGhDYXV0aW9uIjoKCQlpbmRleCA9IDMKCWNhc2UgIkFjY2VwdFdpdGhPdGhlclBheW1lbnQiOgoJCWluZGV4ID0gNAoJY2FzZSAiRGVueVVJIjoKCQlpbmRleCA9IDUKCWNhc2UgIlJldmlldyI6CgkJaW5kZXggPSA2Cgl9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiT3JkZXJzUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkdtcyIsICJKUFkgNzAwLDAwMDAiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiR21zUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIlJlZGVlbWVkUG9pbnRzIiwgIjE0LDAwMCIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJSZWRlZW1lZFBvaW50c1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJDb3Vwb25EaXNjb3VudHMiLCAiSlBZIDcsMDAwIikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkNvdXBvbkRpc2NvdW50c1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJPcmRlcnMiLCAiNyIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJPcmRlcnNQY3QiLCAiMTQuMjkiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiR21zIiwgIkpQWSA3MDAsMDAwMCIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJHbXNQY3QiLCAiMTQuMjkiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiUmVkZWVtZWRQb2ludHMiLCAiMTQsMDAwIikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIlJlZGVlbWVkUG9pbnRzUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkNvdXBvbkRpc2NvdW50cyIsICJKUFkgNywwMDAiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiQ291cG9uRGlzY291bnRzUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIk9yZGVycyIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIk9yZGVyc1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJHbXMiLCAiSlBZIDcwMCwwMDAwIikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkdtc1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJSZWRlZW1lZFBvaW50cyIsICIxNCwwMDAiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiUmVkZWVtZWRQb2ludHNQY3QiLCAiMTQuMjkiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiQ291cG9uRGlzY291bnRzIiwgIkpQWSA3LDAwMCIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJDb3Vwb25EaXNjb3VudHNQY3QiLCAiMTQuMjkiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiT3JkZXJzIiwgIjciKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiT3JkZXJzUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkdtcyIsICJKUFkgNzAwLDAwMDAiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiR21zUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIlJlZGVlbWVkUG9pbnRzIiwgIjE0LDAwMCIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJSZWRlZW1lZFBvaW50c1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJDb3Vwb25EaXNjb3VudHMiLCAiSlBZIDcsMDAwIikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkNvdXBvbkRpc2NvdW50c1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJPcmRlcnMiLCAiNyIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJPcmRlcnNQY3QiLCAiMTQuMjkiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiR21zIiwgIkpQWSA3MDAsMDAwMCIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJHbXNQY3QiLCAiMTQuMjkiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiUmVkZWVtZWRQb2ludHMiLCAiMTQsMDAwIikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIlJlZGVlbWVkUG9pbnRzUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkNvdXBvbkRpc2NvdW50cyIsICJKUFkgNywwMDAiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiQ291cG9uRGlzY291bnRzUGN0IiwgIjE0LjI5IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIk9yZGVycyIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIk9yZGVyc1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJHbXMiLCAiSlBZIDcwMCwwMDAwIikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkdtc1BjdCIsICIxNC4yOSIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJSZWRlZW1lZFBvaW50cyIsICIxNCwwMDAiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiUmVkZWVtZWRQb2ludHNQY3QiLCAiMTQuMjkiKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiQ291cG9uRGlzY291bnRzIiwgIkpQWSA3LDAwMCIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJDb3Vwb25EaXNjb3VudHNQY3QiLCAiMTQuMjkiKS4K</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">CWRvYzEgOj0gdG0uTmV3UmVwb3J0RG9jdW1lbnQoKS4KCQlXaXRoKCJSZXF1ZXN0RGF0ZSIsICIyMDIwLTAyLTI5VDIzOjU5OjU5LjAwMCswMDAwIikuCgkJV2l0aCgiRXZhbHVhdGlvbiIsICJBY2NlcHQiKQo=</text>
+      <register name="4" type="8">
+        <text>Accept
+Accept
+Accept
+Accept
+Accept
+Accept
+Accept
+Accept</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CQkJCXRtLk5ld0JwU2VhcmNoUmVzcEJ1aWxkZXIoKS4KCQkJCQlXaXRoKCJUb3RhbE9yZGVycyIsIHUuR2V0U3RyaW5nUHRyKCI3IikpLgoJCQkJCVdpdGgoIlRvdGFsR21zIiwgdS5HZXRTdHJpbmdQdHIoIjcwMCwwMDAiKSkuCgkJCQkJV2l0aCgiVG90YWxSZWRlZW1lZFBvaW50cyIsIHUuR2V0U3RyaW5nUHRyKCI3LDAwMCIpKS4KCQkJCQlXaXRoKCJUb3RhbENvdXBvbkRpc2NvdW50IiwgdS5HZXRTdHJpbmdQdHIoIjE0LDAwMCIpKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiT3JkZXJzIiwgIjciKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiT3JkZXJzUGN0IiwgIjciKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiR21zIiwgIjciKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiR21zUGN0IiwgIjciKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiUmVkZWVtZWRQb2ludHMiLCAiNyIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJSZWRlZW1lZFBvaW50c1BjdCIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkNvdXBvbkRpc2NvdW50cyIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkNvdXBvbkRpc2NvdW50c1BjdCIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIk9yZGVycyIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIk9yZGVyc1BjdCIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkdtcyIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIkdtc1BjdCIsICI3IikuCgkJCQkJV2l0aFJlcG9ydEJ5RXZhbCgiQWNjZXB0IiwgIlJlZGVlbWVkUG9pbnRzIiwgIjciKS4KCQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiUmVkZWVtZWRQb2ludHNQY3QiLCAiNyIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJDb3Vwb25EaXNjb3VudHMiLCAiNyIpLgoJCQkJCVdpdGhSZXBvcnRCeUV2YWwoIkFjY2VwdCIsICJDb3Vwb25EaXNjb3VudHNQY3QiLCAiNyIpLgoJCQkJCUJ1aWxkKCksCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CVdpdGgoIkV2YWx1YXRpb24iLCAiQWNjZXB0IikK</text>
+        <text encoding="base64">CQkJCQlXaXRoUmVwb3J0QnlFdmFsKCJBY2NlcHQiLCAiUmVkZWVtZWRQb2ludHMiLCAiNyIpLgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXJldHVybiBbXXRtLlJlcG9ydERvY3VtZW50ewoJCWRvYzEsCgl9Cg==</text>
+        <text encoding="base64">CQkJCQlXaXRoKCJUb3RhbE9yZGVycyIsIDMpLgoJCQkJCVdpdGgoIlRvdGFsT3JkZXJzIiwgMykuCgkJCQkJV2l0aCgiVG90YWxPcmRlcnMiLCAzKS4K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CWRvYwo=</text>
+        <text encoding="base64">CQkJCQlXaXRoKCJEdXJhdGlvbiIpLAo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -1080,9 +1092,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>next page</last-search>
+      <last-search>text</last-search>
       <last-offset />
-      <last-pattern>next page</last-pattern>
+      <last-pattern>text</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>time</last-substitute>
       <last-dir>1</last-dir>
