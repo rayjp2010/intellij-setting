@@ -102,12 +102,12 @@
       <file name="$USER_HOME$/Workspace/nexmo-report/node_modules/exceljs/index.d.ts" timestamp="1596034901831">
         <mark key="'" line="877" column="2" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596165297925">
-        <mark key="'" line="166" column="26" />
-        <mark key="[" line="90" column="24" />
-        <mark key="]" line="90" column="24" />
-        <mark key="." line="90" column="23" />
-        <mark key="^" line="90" column="24" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596166100915">
+        <mark key="'" line="186" column="26" />
+        <mark key="[" line="110" column="0" />
+        <mark key="]" line="72" column="31" />
+        <mark key="." line="72" column="30" />
+        <mark key="^" line="72" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/aphrodite/aphrodite-ui/src/main/resources/static/app/components/report/BasicReport.jsx" timestamp="1596161479545">
         <mark key="'" line="108" column="54" />
@@ -1026,16 +1026,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>string</text>
+        <text>ReportHitList</text>
       </register>
       <register name="-" type="4">
-        <text>string</text>
+        <text>ReportHitList</text>
       </register>
       <register name="/" type="4">
         <text>next page</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">dHlwZSBSZXBvcnRPcmRlciBzdHJ1Y3QgewoJU2VydmljZUlkICAgKnN0cmluZwoJT3JkZXJJZCAgICAgKnN0cmluZwoJUmVxdWVzdERhdGUgKnN0cmluZwoJUmVxdWVzdElkICAgKnN0cmluZwp9Cg==</text>
+        <text encoding="base64">CUhpdExpc3QgKlJlcG9ydEhpdExpc3QK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CVJlcXVlc3REYXRlICAgKnN0cmluZwo=</text>
