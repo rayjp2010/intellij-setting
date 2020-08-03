@@ -84,10 +84,6 @@
         <mark key="." line="42" column="78" />
         <mark key="^" line="42" column="79" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/model/search_request.go" timestamp="1596178087872">
-        <mark key="[" line="29" column="90" />
-        <mark key="]" line="29" column="112" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1596207759295">
         <mark key="[" line="517" column="118" />
         <mark key="]" line="517" column="118" />
