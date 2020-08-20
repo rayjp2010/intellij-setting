@@ -63,4 +63,7 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift ctrl meta back_slash" />
   </action>
+  <action id="bootRuntime.main.ChooseBootRuntimeAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
+  </action>
 </keymap>
