@@ -44,6 +44,9 @@
         <text>ctrl pressed V</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
         <text>ctrl pressed J</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
@@ -63,24 +66,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/fgis.login.ip.velocity/app/service/memberService.js" timestamp="1591949278903">
-        <mark key="[" line="149" column="0" />
-        <mark key="]" line="158" column="5" />
-        <mark key="^" line="64" column="138" />
-        <mark key="." line="64" column="137" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591940025893">
-        <mark key="[" line="42" column="32" />
-        <mark key="]" line="42" column="41" />
-        <mark key="^" line="42" column="41" />
-        <mark key="." line="42" column="40" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/evh_audit_test.go" timestamp="1591944124947">
-        <mark key="'" line="474" column="39" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591944714331">
-        <mark key="'" line="165" column="13" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_testcase.go" timestamp="1591941527438">
         <mark key="'" line="700" column="4" />
         <mark key="[" line="719" column="0" />
@@ -88,51 +73,12 @@
         <mark key="^" line="703" column="91" />
         <mark key="." line="719" column="0" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1591937954492">
-        <mark key="[" line="68" column="18" />
-        <mark key="]" line="68" column="20" />
-        <mark key="^" line="68" column="20" />
-        <mark key="." line="68" column="19" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591939472914">
-        <mark key="'" line="323" column="39" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591944089186">
-        <mark key="[" line="48" column="22" />
-        <mark key="]" line="48" column="45" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" timestamp="1591945011132">
-        <mark key="'" line="315" column="19" />
-        <mark key="[" line="313" column="29" />
-        <mark key="]" line="313" column="41" />
-        <mark key="^" line="316" column="34" />
-        <mark key="." line="316" column="33" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1591939847820">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591942071659">
-        <mark key="'" line="121" column="43" />
-        <mark key="[" line="791" column="53" />
-        <mark key="]" line="792" column="12" />
-        <mark key="." line="792" column="8" />
-        <mark key="^" line="792" column="12" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/Dockerfile" timestamp="1591876099794" />
-      <file name="/fragment.go" timestamp="1591939127867">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1591930070326">
+        <mark key="'" line="23" column="19" />
         <mark key="[" line="33" column="12" />
         <mark key="]" line="34" column="18" />
         <mark key="." line="34" column="17" />
         <mark key="^" line="34" column="18" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591876726125">
-        <mark key="[" line="68" column="30" />
-        <mark key="]" line="68" column="31" />
-        <mark key="." line="68" column="31" />
-        <mark key="^" line="68" column="31" />
       </file>
       <file name="$USER_HOME$/Workspace/aegis.radar/src/mixins/suzakuMixin.js" timestamp="1591925769344">
         <mark key="[" line="50" column="24" />
@@ -141,8 +87,51 @@
         <mark key="'" line="118" column="32" />
         <mark key="[" line="209" column="47" />
         <mark key="]" line="213" column="29" />
-        <mark key="^" line="213" column="29" />
         <mark key="." line="213" column="28" />
+        <mark key="^" line="213" column="29" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/service/elasticsearch_util.go" timestamp="1591937954492">
+        <mark key="[" line="68" column="18" />
+        <mark key="]" line="68" column="20" />
+        <mark key="^" line="68" column="20" />
+        <mark key="." line="68" column="19" />
+      </file>
+      <file name="$USER_HOME$/Develop/workspace/face-shield/test/testUtil/TestUtil.ts" timestamp="1591872423829">
+        <mark key="[" line="19" column="3" />
+        <mark key="]" line="19" column="3" />
+        <mark key="." line="19" column="2" />
+        <mark key="^" line="19" column="3" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/order_template.json" timestamp="1591944714331">
+        <mark key="'" line="165" column="13" />
+      </file>
+      <file name="$USER_HOME$/Workspace/fgis.login.ip.velocity/app/service/memberService.js" timestamp="1591949278903">
+        <mark key="[" line="149" column="0" />
+        <mark key="]" line="158" column="5" />
+        <mark key="^" line="64" column="138" />
+        <mark key="." line="64" column="137" />
+      </file>
+      <file name="$USER_HOME$/Workspace/fgis.login.ip.velocity/app/service/transformer.js" timestamp="1591950151489">
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="47" />
+        <mark key="^" line="60" column="47" />
+        <mark key="." line="60" column="46" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/order_data.go" timestamp="1591945011132">
+        <mark key="'" line="315" column="19" />
+        <mark key="[" line="313" column="29" />
+        <mark key="]" line="313" column="41" />
+        <mark key="^" line="316" column="34" />
+        <mark key="." line="316" column="33" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/docker/docker-compose.yml" timestamp="1591944089186">
+        <mark key="[" line="48" column="22" />
+        <mark key="]" line="48" column="45" />
+        <mark key="." line="37" column="14" />
+        <mark key="^" line="37" column="15" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1591939847820">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/order.go" timestamp="1591939408615">
         <mark key="'" line="87" column="50" />
@@ -150,11 +139,34 @@
         <mark key="]" line="87" column="4" />
         <mark key="." line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/fgis.login.ip.velocity/app/service/transformer.js" timestamp="1591950151489">
-        <mark key="[" line="60" column="0" />
-        <mark key="]" line="60" column="47" />
-        <mark key="^" line="60" column="47" />
-        <mark key="." line="60" column="46" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/evh_audit_test.go" timestamp="1591944124947">
+        <mark key="'" line="474" column="39" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/transaction_data.go" timestamp="1591942071659">
+        <mark key="'" line="121" column="43" />
+        <mark key="[" line="791" column="53" />
+        <mark key="]" line="792" column="12" />
+        <mark key="." line="792" column="8" />
+        <mark key="^" line="792" column="12" />
+      </file>
+      <file name="/fragment.go" timestamp="1591939127867">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/audit_log_api_test.go" timestamp="1591876726125">
+        <mark key="[" line="68" column="30" />
+        <mark key="]" line="68" column="31" />
+        <mark key="." line="68" column="31" />
+        <mark key="^" line="68" column="31" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1591940025893">
+        <mark key="'" line="27" column="0" />
+        <mark key="[" line="42" column="32" />
+        <mark key="]" line="42" column="41" />
+        <mark key="^" line="42" column="41" />
+        <mark key="." line="42" column="40" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1591939472914">
+        <mark key="'" line="323" column="39" />
       </file>
     </filemarks>
     <jumps>
@@ -1026,6 +1038,9 @@
           <key char="65535" code="38" mods="0" />
           <key char="65535" code="40" mods="0" />
         </keys>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBzdXBwbHlCeUlkKG1hdGNoYWJsZUlkKQo=</text>
       </register>
       <register name="*" type="2">
         <text encoding="base64">ICAgIHJldHVybiAhaXNOYU4obGltaXQgKiAxKSA/IGxpbWl0ICogMSA6IG51bGwK</text>
