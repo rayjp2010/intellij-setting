@@ -45,6 +45,9 @@
         <text>ctrl pressed V</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
         <text>ctrl pressed J</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
@@ -59,9 +62,6 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed F</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed D</text>
-      </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed W</text>
       </shortcut-conflict>
@@ -70,43 +70,25 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/go/src/odin/servicetest/report_api_test.go" timestamp="1596206515895">
-        <mark key="'" line="22" column="5" />
-        <mark key="[" line="29" column="39" />
-        <mark key="]" line="29" column="44" />
-        <mark key="." line="29" column="43" />
-        <mark key="^" line="29" column="44" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1596187517210">
+        <mark key="'" line="23" column="19" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="40" column="1" />
+        <mark key="." line="34" column="17" />
+        <mark key="^" line="34" column="18" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1596206396472">
-        <mark key="'" line="26" column="28" />
-        <mark key="[" line="208" column="0" />
-        <mark key="]" line="208" column="0" />
-        <mark key="." line="208" column="0" />
-        <mark key="^" line="209" column="20" />
+      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1596208608353">
+        <mark key="'" line="992" column="0" />
+        <mark key="[" line="656" column="53" />
+        <mark key="]" line="656" column="58" />
+        <mark key="^" line="656" column="53" />
+        <mark key="." line="656" column="53" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1596181003843">
-        <mark key="[" line="12" column="6" />
-        <mark key="]" line="12" column="30" />
-        <mark key="." line="42" column="78" />
-        <mark key="^" line="42" column="79" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1596207759295">
-        <mark key="[" line="517" column="118" />
-        <mark key="]" line="517" column="118" />
-        <mark key="." line="517" column="118" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596207553560">
-        <mark key="'" line="267" column="52" />
-        <mark key="[" line="36" column="24" />
-        <mark key="]" line="15" column="4" />
-        <mark key="^" line="15" column="4" />
-        <mark key="." line="15" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1596200871204">
-        <mark key="[" line="347" column="67" />
-        <mark key="]" line="347" column="77" />
-        <mark key="." line="347" column="76" />
-        <mark key="^" line="347" column="77" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/report_template.json" timestamp="1596189475869">
+        <mark key="[" line="2" column="5" />
+        <mark key="]" line="2" column="6" />
+        <mark key="." line="2" column="5" />
+        <mark key="^" line="2" column="6" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service.go" timestamp="1596206408397">
         <mark key="'" line="19" column="46" />
@@ -115,10 +97,44 @@
         <mark key="." line="108" column="23" />
         <mark key="^" line="108" column="24" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1596181228786">
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="86" column="1" />
-        <mark key="." line="581" column="0" />
+      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1596186383087">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596207590271">
+        <mark key="[" line="332" column="39" />
+        <mark key="]" line="333" column="42" />
+        <mark key="." line="333" column="41" />
+        <mark key="^" line="333" column="42" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1596188233173">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/report.go" timestamp="1596207553560">
+        <mark key="'" line="267" column="52" />
+        <mark key="[" line="36" column="24" />
+        <mark key="]" line="15" column="4" />
+        <mark key="^" line="15" column="4" />
+        <mark key="." line="15" column="0" />
+      </file>
+      <file name="/GraphQL.result.json" timestamp="1600711268812">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" timestamp="1596192700518">
+        <mark key="'" line="17" column="0" />
+        <mark key="[" line="21" column="52" />
+        <mark key="]" line="21" column="54" />
+        <mark key="." line="21" column="53" />
+        <mark key="^" line="21" column="54" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/servicetest/report_api_test.go" timestamp="1596206515895">
+        <mark key="'" line="22" column="5" />
+        <mark key="[" line="29" column="39" />
+        <mark key="]" line="29" column="44" />
+        <mark key="." line="29" column="43" />
+        <mark key="^" line="29" column="44" />
+      </file>
+      <file name="/fragment.go" timestamp="1596183705211">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/aletheia-api/aletheia-domain/src/test/java/com/rakuten/fpg/aletheia/domain/validator/ValidatorUtilTest.java" timestamp="1596239848182">
         <mark key="'" line="28" column="0" />
@@ -132,49 +148,41 @@
         <mark key="]" line="176" column="64" />
         <mark key="." line="176" column="64" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596188233173">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/go/src/odin/util/elastic_util.go" timestamp="1596206396472">
+        <mark key="'" line="26" column="28" />
+        <mark key="[" line="208" column="0" />
+        <mark key="]" line="208" column="0" />
+        <mark key="." line="208" column="0" />
+        <mark key="^" line="209" column="20" />
       </file>
-      <file name="/fragment.go" timestamp="1596183705211">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/util/util.go" timestamp="1596186383087">
-        <mark key="'" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/http.go" timestamp="1596187517210">
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="40" column="1" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/basic_report_testcase.go" timestamp="1596207590271">
-        <mark key="[" line="332" column="39" />
-        <mark key="]" line="333" column="42" />
-        <mark key="." line="333" column="41" />
-        <mark key="^" line="333" column="42" />
-      </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/template/report_template.json" timestamp="1596189475869">
-        <mark key="[" line="2" column="5" />
-        <mark key="]" line="2" column="6" />
-        <mark key="." line="2" column="5" />
-        <mark key="^" line="2" column="6" />
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service_test.go" timestamp="1596207759295">
+        <mark key="[" line="517" column="118" />
+        <mark key="]" line="517" column="118" />
+        <mark key="." line="517" column="118" />
       </file>
       <file name="$USER_HOME$/go/src/odin/core/report_service_test.go" timestamp="1596207768922">
         <mark key="[" line="60" column="106" />
         <mark key="]" line="60" column="106" />
         <mark key="." line="60" column="106" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/core/testing_util/basic_report_testing_util.go" timestamp="1596208608353">
-        <mark key="'" line="992" column="0" />
-        <mark key="[" line="656" column="53" />
-        <mark key="]" line="656" column="58" />
-        <mark key="^" line="656" column="53" />
-        <mark key="." line="656" column="53" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/transaction_api_test.go" timestamp="1596181003843">
+        <mark key="'" line="27" column="0" />
+        <mark key="[" line="12" column="6" />
+        <mark key="]" line="12" column="30" />
+        <mark key="^" line="42" column="79" />
+        <mark key="." line="42" column="78" />
       </file>
-      <file name="$USER_HOME$/go/src/odin/servicetest/testdata/report_data.go" timestamp="1596192700518">
-        <mark key="'" line="17" column="0" />
-        <mark key="[" line="21" column="52" />
-        <mark key="]" line="21" column="54" />
-        <mark key="." line="21" column="53" />
-        <mark key="^" line="21" column="54" />
+      <file name="$USER_HOME$/go/src/odin/servicetest/testmodel/transaction.go" timestamp="1596181228786">
+        <mark key="'" line="323" column="39" />
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="86" column="1" />
+        <mark key="." line="581" column="0" />
+      </file>
+      <file name="$USER_HOME$/go/src/odin/core/elastic_search_service.go" timestamp="1596200871204">
+        <mark key="[" line="347" column="67" />
+        <mark key="]" line="347" column="77" />
+        <mark key="." line="347" column="76" />
+        <mark key="^" line="347" column="77" />
       </file>
     </filemarks>
     <jumps>
@@ -1106,7 +1114,7 @@
     </search>
   </component>
   <component name="VimSettings">
-    <state version="7" enabled="true" />
+    <state version="6" enabled="true" />
     <notifications>
       <idea-join enabled="false" />
       <idea-put enabled="true" />
