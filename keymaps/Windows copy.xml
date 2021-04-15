@@ -1,11 +1,21 @@
 <keymap version="1" name="Windows copy" parent="$default">
   <action id="AddToFavoritesPopup" />
-  <action id="CloseActiveTab">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorSelectWord" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift alt o" />
@@ -18,7 +28,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="ShowSettings">
-    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="hg4idea.QPushAction" />
 </keymap>
