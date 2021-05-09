@@ -32,5 +32,14 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift alt back_slash" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt back_slash" />
+  </action>
   <action id="hg4idea.QPushAction" />
 </keymap>
